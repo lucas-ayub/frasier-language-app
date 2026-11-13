@@ -1,5 +1,5 @@
-const VERSION = 'frasier-v1';
-const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icons/apple-touch-icon.png', 'icons/icon-192.png', 'icons/icon-512.png', 'data/es/index.json', 'data/es/words.json'];
+const VERSION = 'frasier-v2';
+const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icons/apple-touch-icon.png', 'icons/icon-192.png', 'icons/icon-512.png', 'data/es/index.json', 'data/es/words.json', 'vendor/firebase-app-compat.js', 'vendor/firebase-auth-compat.js', 'vendor/firebase-firestore-compat.js'];
 const DATA = 'frasier-data-v1';
 
 self.addEventListener('install', e => {

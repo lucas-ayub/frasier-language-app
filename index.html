@@ -44,6 +44,9 @@ button{font:inherit;color:inherit;cursor:pointer}
 .pill{display:inline-flex;align-items:center;gap:6px;background:var(--chip);border-radius:999px;padding:6px 12px;font-weight:600;font-size:14px}
 .iconbtn{border:0;background:var(--chip);width:38px;height:38px;border-radius:12px;display:grid;place-items:center}
 .iconbtn svg{width:20px;height:20px}
+#accountBtn.on{background:var(--accent);color:#fff}
+.txt{width:100%;font:inherit;font-size:17px;padding:12px 14px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);outline:none}
+.txt:focus{border-color:var(--accent)}
 
 /* hero */
 .hero{background:var(--ink);color:var(--bg);border-radius:22px;padding:20px;box-shadow:var(--shadow);position:relative;overflow:hidden}
@@ -141,7 +144,7 @@ button{font:inherit;color:inherit;cursor:pointer}
 .mastery .segs i.on{background:var(--ok)}
 .mastery .segs i.lost{background:var(--bad)}
 .tools{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
-.tool{border:0;background:var(--chip);border-radius:12px;padding:9px 12px;font-size:14px;font-weight:600;display:inline-flex;gap:6px;align-items:center;text-decoration:none;color:var(--ink)}
+.tool{border:0;background:var(--chip);border-radius:12px;padding:9px 12px;white-space:nowrap;font-size:14px;font-weight:600;display:inline-flex;gap:6px;align-items:center;text-decoration:none;color:var(--ink)}
 .tool svg{width:16px;height:16px}
 .say{font-size:13px;color:var(--muted);margin:0 0 14px}
 .note{font-size:14px;background:color-mix(in srgb,var(--accent-2) 22%,transparent);padding:8px 12px;border-radius:12px;margin:0 0 12px}
@@ -185,9 +188,14 @@ textarea{width:100%;min-height:90px;border-radius:12px;border:1px solid var(--li
       <span class="pill" id="courseName" style="font-size:13px;padding:5px 10px">Espanhol</span>
       <div class="spacer"></div>
       <div class="pill" title="Sequência de dias com a meta cumprida"><svg width="16" height="16" viewBox="0 0 24 24" fill="var(--accent)"><path d="M12 2c1 4 5 5.5 5 11a5 5 0 0 1-10 0c0-2.5 1.2-4 2.5-5-.2 2 .8 3 1.8 3C10 8 12 5 12 2z"/></svg><span id="streak">0</span></div>
+      <button class="iconbtn" id="accountBtn" aria-label="Conta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg></button>
       <button class="iconbtn" id="openSettings" aria-label="Ajustes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button>
     </div>
 
+ <div class="card hidden" id="accountTip" style="padding:14px 16px;margin-bottom:14px;font-size:14px">
+      <b>Crie uma conta</b> para salvar seu progresso na nuvem e não perder nada se trocar de aparelho. O app continua funcionando offline.
+      <div class="row" style="margin-top:10px"><button class="tool" id="tipSignup" style="background:var(--accent);color:#fff">Criar conta</button><button class="tool" id="tipLogin">Já tenho conta</button><div class="spacer"></div><button class="linkbtn" id="tipHide">Agora não</button></div>
+    </div>
     <div class="card hidden" id="installTip" style="padding:14px 16px;margin-bottom:14px;font-size:14px">
       <b>Instale como app:</b> toque em <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="vertical-align:-2px"><path d="M12 3v13M7 8l5-5 5 5M5 12v8h14v-8"/></svg> Compartilhar › <b>Adicionar à Tela de Início</b>. Ele abre em tela cheia e funciona offline.
     </div>
@@ -304,14 +312,44 @@ function loadLocal(){
   try { const raw = localStorage.getItem(KEY); if (raw) { const o = JSON.parse(raw); const f = freshState(); S = { ...f, ...o, stats:{...f.stats, ...(o.stats||{})}, settings:{...f.settings, ...(o.settings||{})} }; } } catch(e){}
 }
 
-/* ---------- nuvem (db do artefato, privado por pessoa) ---------- */
-let DB = null, BASE = null; const dirty = new Set(); let metaDirty = false, flushing = false;
+/* ---------- nuvem ----------
+   No claude.ai: db do artefato (privado por pessoa).
+   No app instalado (GitHub Pages): conta Firebase (e-mail e senha) + Firestore com cache offline. */
+let DB = null, BASE = null; const dirty = new Set(); const dirtyIdx = new Set(); let metaDirty = false, flushing = false;
+let FB = null, FS = null, FBUSER = null, FBCOL = null, lastPull = 0;
+const FIREBASE_CONFIG = {
+  apiKey: "AIzaSyCVNu0TiymMNR1dgtnyxZxJGAa76Y5OCSY",
+  authDomain: "frasier-language-app.firebaseapp.com",
+  projectId: "frasier-language-app",
+  storageBucket: "frasier-language-app.firebasestorage.app",
+  messagingSenderId: "832260413253",
+  appId: "1:832260413253:web:d9b84aa64ff98282f1d02c"
+};
 const blockOf = idx => Math.floor(idx / 2000);
 function setSync(state, text){ const el = $('sync'); el.querySelector('.dot').className = 'dot ' + (state||''); el.lastElementChild.textContent = text; }
 function withTimeout(p, ms){ return Promise.race([p, new Promise((_, r) => setTimeout(() => r({code:'timeout'}), ms))]); }
+function markDirty(idx){ dirty.add(blockOf(idx)); dirtyIdx.add(idx); metaDirty = true; }
+function markAllDirty(){ Object.keys(S.prog).forEach(k => markDirty(+k)); metaDirty = true; }
+
+// junta o progresso remoto com o local (vence a resposta mais recente de cada frase)
+function mergeMeta(m){
+  S.stats.points = Math.max(S.stats.points||0, m.stats?.points||0);
+  for (const [d, c] of Object.entries(m.stats?.days||{})) S.stats.days[d] = Math.max(S.stats.days[d]||0, c);
+  for (const [l, p] of Object.entries(m.ptr||{})) S.ptr[l] = Math.max(S.ptr[l]||0, p);
+  if ((m.su||0) > (S.su||0)) { S.settings = { ...S.settings, ...(m.settings||{}) }; S.su = m.su; }
+}
+function mergeBlock(entries){
+  for (const [k, v] of Object.entries(entries||{})) {
+    const mine = S.prog[k];
+    if (!mine || (v[2]||0) > (mine[2]||0)) S.prog[k] = v;
+    else if ((mine[2]||0) > (v[2]||0)) markDirty(+k);
+  }
+}
+const metaBody = () => ({ ptr:S.ptr, stats:S.stats, settings:S.settings, su:S.su, blocks:[...new Set(Object.keys(S.prog).map(k => blockOf(+k)))].sort((a,b)=>a-b) });
 
 async function initCloud(){
-  if (!window.claude || !window.claude.use) { setSync(IN_ARTIFACT ? 'warn' : 'ok', IN_ARTIFACT ? 'Salvando só neste aparelho' : 'Progresso salvo neste aparelho'); return; }
+  if (!IN_ARTIFACT) { initFirebase(); return; }
+  if (!window.claude || !window.claude.use) { setSync('warn', 'Salvando só neste aparelho'); return; }
   try {
     const [db, user] = await Promise.all([window.claude.use('db'), window.claude.use('user')]);
     if (!db || !user) { setSync('warn', 'Salvando só neste aparelho'); return; }
@@ -323,36 +361,86 @@ async function initCloud(){
     const localBlocks = new Set(Object.keys(S.prog).map(k => blockOf(+k)));
     if (meta.exists) {
       const m = meta.data() || {};
-      // estatísticas: maior valor vence
-      S.stats.points = Math.max(S.stats.points||0, m.stats?.points||0);
-      for (const [d, c] of Object.entries(m.stats?.days||{})) S.stats.days[d] = Math.max(S.stats.days[d]||0, c);
-      for (const [l, p] of Object.entries(m.ptr||{})) S.ptr[l] = Math.max(S.ptr[l]||0, p);
-      if ((m.su||0) > (S.su||0)) { S.settings = { ...S.settings, ...(m.settings||{}) }; S.su = m.su; }
+      mergeMeta(m);
       for (const b of (m.blocks||[])) {
         const snap = await withTimeout(BASE.doc(COURSE_ID + '_p' + b).get(), 10000);
         if (!snap.exists) continue;
         const entries = snap.data().m || {};
-        let localNewer = false;
-        for (const [k, v] of Object.entries(entries)) {
-          const mine = S.prog[k];
-          if (!mine || (v[2]||0) > (mine[2]||0)) S.prog[k] = v; else if ((mine[2]||0) > (v[2]||0)) localNewer = true;
-        }
-        for (const k of Object.keys(S.prog)) if (blockOf(+k) === b && !(k in entries)) localNewer = true;
-        if (localNewer) dirty.add(b);
+        mergeBlock(entries);
+        for (const k of Object.keys(S.prog)) if (blockOf(+k) === b && !(k in entries)) dirty.add(b);
         localBlocks.delete(b);
       }
-      localBlocks.forEach(b => dirty.add(b));
-      metaDirty = true;
-    } else {
-      localBlocks.forEach(b => dirty.add(b)); metaDirty = true;
     }
+    localBlocks.forEach(b => dirty.add(b)); metaDirty = true;
     saveLocal(); renderHome();
     await flush();
   } catch(e) { DB = null; BASE = null; setSync('warn', 'Sem conexão com a nuvem — salvando neste aparelho'); }
 }
 
+/* --- Firebase --- */
+function loadScript(src){ return new Promise((res, rej) => { const s = document.createElement('script'); s.src = src; s.onload = res; s.onerror = rej; document.head.appendChild(s); }); }
+async function initFirebase(){
+  try {
+    await loadScript('vendor/firebase-app-compat.js');
+    await Promise.all([loadScript('vendor/firebase-auth-compat.js'), loadScript('vendor/firebase-firestore-compat.js')]);
+    FB = firebase.initializeApp(FIREBASE_CONFIG);
+    FS = firebase.firestore();
+    try { await FS.enablePersistence({ synchronizeTabs:true }); } catch(e){}
+    firebase.auth().languageCode = 'pt';
+    firebase.auth().onAuthStateChanged(u => {
+      FBUSER = u; FBCOL = u ? FS.collection('users').doc(u.uid).collection('progress') : null;
+      renderAccount();
+      if (u) pullFirebase(true);
+      else setSync('warn', 'Sem conta — progresso salvo só neste aparelho');
+    });
+  } catch(e) { setSync('warn', 'Salvando só neste aparelho'); }
+}
+async function pullFirebase(first){
+  if (!FBCOL) return;
+  lastPull = Date.now();
+  setSync('', 'Sincronizando…');
+  try {
+    const meta = await withTimeout(FBCOL.doc(COURSE_ID + '_meta').get(), 12000);
+    const remoteBlocks = new Set();
+    if (meta.exists) {
+      const m = meta.data() || {};
+      mergeMeta(m);
+      for (const b of (m.blocks||[])) {
+        remoteBlocks.add(b);
+        const snap = await withTimeout(FBCOL.doc(COURSE_ID + '_p' + b).get(), 12000);
+        if (!snap.exists) continue;
+        const entries = snap.data().m || {};
+        mergeBlock(entries);
+        if (first) for (const k of Object.keys(S.prog)) if (blockOf(+k) === b && !(k in entries)) markDirty(+k);
+      }
+    }
+    if (first) for (const k of Object.keys(S.prog)) if (!remoteBlocks.has(blockOf(+k))) markDirty(+k);
+    metaDirty = true;
+    saveLocal(); if (!$('home').classList.contains('hidden')) renderHome();
+    await flush();
+  } catch(e) {
+    // sem internet: o que estiver pendente sobe quando a conexão voltar
+    if (first) markAllDirty();
+    await flush();
+  }
+}
+async function flushFirebase(){
+  if (!dirtyIdx.size && !metaDirty) return;
+  const batch = FS.batch(); const byBlock = {};
+  for (const k of dirtyIdx) { const b = blockOf(k); (byBlock[b] = byBlock[b] || {})[k] = S.prog[k]; }
+  dirtyIdx.clear(); dirty.clear();
+  for (const [b, m] of Object.entries(byBlock)) batch.set(FBCOL.doc(COURSE_ID + '_p' + b), { m }, { merge:true });
+  if (metaDirty) { metaDirty = false; const mb = metaBody(); batch.set(FBCOL.doc(COURSE_ID + '_meta'), { ...mb, blocks: firebase.firestore.FieldValue.arrayUnion(...mb.blocks) }, { merge:true }); }
+  const p = batch.commit();
+  if (!navigator.onLine) { setSync('warn', 'Offline — sincroniza quando a internet voltar'); p.then(() => setSync('ok', 'Sincronizado com ' + (FBUSER?.email || 'sua conta'))).catch(() => {}); return; }
+  try { await withTimeout(p, 15000); setSync('ok', 'Sincronizado com ' + (FBUSER?.email || 'sua conta')); }
+  catch(e) { setSync('warn', 'Aguardando conexão para sincronizar'); p.then(() => setSync('ok', 'Sincronizado com ' + (FBUSER?.email || 'sua conta'))).catch(() => {}); }
+}
+
 async function flush(){
-  if (!BASE || flushing) return;
+  if (flushing) return;
+  if (FBCOL) { flushing = true; try { await flushFirebase(); } catch(e){} flushing = false; return; }
+  if (!BASE) return;
   flushing = true;
   try {
     while (dirty.size || metaDirty) {
@@ -363,11 +451,8 @@ async function flush(){
         for (const [k, v] of Object.entries(S.prog)) if (blockOf(+k) === b) m[k] = v;
         await BASE.doc(COURSE_ID + '_p' + b).set({ m });
       }
-      if (metaDirty) {
-        metaDirty = false;
-        const blocks = [...new Set(Object.keys(S.prog).map(k => blockOf(+k)))].sort((a,b)=>a-b);
-        await BASE.doc(COURSE_ID + '_meta').set({ ptr:S.ptr, stats:S.stats, settings:S.settings, su:S.su, blocks });
-      }
+      dirtyIdx.clear();
+      if (metaDirty) { metaDirty = false; await BASE.doc(COURSE_ID + '_meta').set(metaBody()); }
     }
     setSync('ok', 'Progresso salvo na sua conta');
   } catch(e) {
@@ -375,7 +460,83 @@ async function flush(){
   }
   flushing = false;
 }
-document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') flush(); });
+async function wipeRemote(){
+  if (FBCOL) {
+    try { const snap = await withTimeout(FBCOL.get(), 12000); const b = FS.batch(); snap.docs.filter(d => d.id.startsWith(COURSE_ID + '_')).forEach(d => b.delete(d.ref)); await b.commit(); } catch(e){}
+  } else if (BASE) {
+    try { const blocks = metaBody().blocks; for (const bl of blocks) await BASE.doc(COURSE_ID + '_p' + bl).delete(); } catch(e){}
+  }
+}
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'hidden') flush();
+  else if (FBCOL && Date.now() - lastPull > 60000) pullFirebase(false);
+});
+window.addEventListener('online', () => { if (FBCOL) pullFirebase(false); });
+
+/* --- conta (tela) --- */
+const AUTH_ERR = {
+  'auth/email-already-in-use':'Já existe uma conta com esse e-mail. Toque em "Entrar".',
+  'auth/invalid-email':'E-mail inválido.',
+  'auth/weak-password':'A senha precisa ter pelo menos 6 caracteres.',
+  'auth/invalid-credential':'E-mail ou senha incorretos.',
+  'auth/wrong-password':'E-mail ou senha incorretos.',
+  'auth/user-not-found':'Não há conta com esse e-mail.',
+  'auth/missing-password':'Digite a senha.',
+  'auth/network-request-failed':'Sem internet. Para criar a conta ou entrar, conecte-se uma vez.',
+  'auth/too-many-requests':'Muitas tentativas. Espere um pouco e tente de novo.'
+};
+function renderAccount(){
+  const b = $('accountBtn'); if (!b) return;
+  b.classList.toggle('on', !!FBUSER);
+  $('accountTip').classList.toggle('hidden', !!FBUSER || IN_ARTIFACT || !FB || (S.settings.hideAccountTip));
+}
+function openAccount(mode){
+  if (!FB) { toast('A conta só está disponível no app instalado.'); return; }
+  const u = FBUSER;
+  if (u) {
+    $('sheetInner').innerHTML = `
+      <div class="row"><h4>Sua conta</h4><div class="spacer"></div><button class="iconbtn" id="closeSheet" aria-label="Fechar">✕</button></div>
+      <p style="margin:0 0 6px"><b>${esc(u.email || '')}</b></p>
+      <p class="small muted" style="margin:0 0 16px">Seu progresso é salvo nesta conta e funciona offline. Quando a internet voltar, tudo sincroniza sozinho — inclusive entre aparelhos.</p>
+      <div class="row"><button class="tool" id="syncNow">Sincronizar agora</button><button class="tool" id="logout" style="color:var(--bad)">Sair da conta</button></div>`;
+    $('sheet').classList.remove('hidden');
+    $('closeSheet').onclick = closeSheet;
+    $('syncNow').onclick = async () => { await pullFirebase(false); toast('Sincronizado.'); };
+    $('logout').onclick = async () => { await flush(); await firebase.auth().signOut(); closeSheet(); toast('Você saiu. O progresso continua neste aparelho.'); };
+    return;
+  }
+  mode = mode || 'signup';
+  $('sheetInner').innerHTML = `
+    <div class="row"><h4>${mode === 'signup' ? 'Criar conta' : mode === 'login' ? 'Entrar' : 'Recuperar senha'}</h4><div class="spacer"></div><button class="iconbtn" id="closeSheet" aria-label="Fechar">✕</button></div>
+    <p class="small muted" style="margin:0 0 12px">${mode === 'reset' ? 'Vamos mandar um link para você criar uma senha nova.' : 'Com uma conta, seu progresso fica salvo na nuvem e sincroniza entre aparelhos. O app continua funcionando offline.'}</p>
+    <form id="authForm" autocomplete="on">
+      <div class="field"><label for="authEmail">E-mail</label><input class="txt" id="authEmail" type="email" autocomplete="email" autocapitalize="off" required></div>
+      ${mode !== 'reset' ? `<div class="field"><label for="authPass">Senha</label><input class="txt" id="authPass" type="password" autocomplete="${mode === 'signup' ? 'new-password' : 'current-password'}" minlength="6" required></div>` : ''}
+      <div class="small" id="authErr" style="color:var(--bad);min-height:1.2em"></div>
+      <button class="btn btn-primary" style="width:100%;margin-top:6px" id="authGo" type="submit">${mode === 'signup' ? 'Criar conta' : mode === 'login' ? 'Entrar' : 'Enviar link'}</button>
+    </form>
+    <div class="row" style="justify-content:space-between;margin-top:8px">
+      ${mode === 'signup' ? '<button class="linkbtn" data-m="login">Já tenho conta</button>' : '<button class="linkbtn" data-m="signup">Criar conta nova</button>'}
+      ${mode === 'login' ? '<button class="linkbtn" data-m="reset">Esqueci a senha</button>' : mode === 'reset' ? '<button class="linkbtn" data-m="login">Voltar</button>' : ''}
+    </div>`;
+  $('sheet').classList.remove('hidden');
+  $('closeSheet').onclick = closeSheet;
+  $('sheetInner').querySelectorAll('[data-m]').forEach(b => b.onclick = () => openAccount(b.dataset.m));
+  $('authForm').onsubmit = async e => {
+    e.preventDefault();
+    const email = $('authEmail').value.trim(), pass = $('authPass') ? $('authPass').value : '';
+    $('authErr').textContent = ''; $('authGo').disabled = true;
+    try {
+      if (mode === 'signup') await firebase.auth().createUserWithEmailAndPassword(email, pass);
+      else if (mode === 'login') await firebase.auth().signInWithEmailAndPassword(email, pass);
+      else { await firebase.auth().sendPasswordResetEmail(email); toast('Link enviado. Confira seu e-mail.'); openAccount('login'); return; }
+      closeSheet(); toast(mode === 'signup' ? 'Conta criada. Seu progresso agora fica salvo na nuvem.' : 'Bem-vindo de volta!');
+    } catch(err) {
+      $('authErr').textContent = AUTH_ERR[err.code] || 'Não deu certo: ' + (err.message || err.code);
+      $('authGo').disabled = false;
+    }
+  };
+}
 
 /* ---------- dados ---------- */
 async function getJSON(p){ const r = await fetch(p); if (!r.ok) throw new Error(p + ' ' + r.status); return r.json(); }
@@ -422,6 +583,7 @@ function renderHome(){
   $('todayBar').style.width = Math.min(100, c / g * 100) + '%';
   $('todayMsg').textContent = c >= g ? 'Meta de hoje cumprida. ¡Muy bien!' : c === 0 ? 'Bora começar — 10 minutos bastam.' : `Faltam ${g - c} para a meta.`;
   $('streak').textContent = streak();
+  renderAccount();
   const due = dueList().length;
   $('dueCount').textContent = due;
   $('reviewBtn').disabled = due === 0;
@@ -644,7 +806,7 @@ function answer(q, val, how){
     R.results.push({ q, ok });
     if (!ok) R.queue.push({ idx:q.idx, retry:true });
     if (R.kind === 'play') { const L = IDX.levels[S.settings.level]; S.ptr[S.settings.level] = Math.max(S.ptr[S.settings.level] || L.start, q.idx + 1); }
-    dirty.add(blockOf(q.idx)); metaDirty = true; saveLocal();
+    markDirty(q.idx); saveLocal();
   }
   // mostrar resultado
   if (how === 'speak') {
@@ -678,7 +840,7 @@ function answer(q, val, how){
   if ($('knowBtn')) $('knowBtn').onclick = () => {
     S.prog[q.idx] = [4, t + INTERVALS[4], nowS()];
     R.queue = R.queue.filter((x, j) => j <= R.i || x.idx !== q.idx);
-    dirty.add(blockOf(q.idx)); saveLocal();
+    markDirty(q.idx); saveLocal();
     $('afterArea').querySelector('.mastery').innerHTML = `<span>100%</span><span class="segs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span>`; $('whenTxt').textContent = 'Dominada — revisão em 180 dias';
     $('knowBtn').remove();
   };
@@ -749,13 +911,14 @@ function openSettings(){
   $('showRestore').onclick = () => { $('restoreBox').classList.remove('hidden'); $('restoreTxt').value = ''; };
   $('doRestore').onclick = () => {
     try { const o = JSON.parse($('restoreTxt').value); if (!o.prog) throw 0; const f = freshState(); S = { ...f, ...o, stats:{...f.stats, ...o.stats}, settings:{...f.settings, ...o.settings} };
-      Object.keys(S.prog).forEach(k => dirty.add(blockOf(+k))); metaDirty = true; saveLocal(); flush(); closeSheet(); toast('Backup restaurado.'); }
+      markAllDirty(); saveLocal(); flush(); closeSheet(); toast('Backup restaurado.'); }
     catch(e) { toast('Backup inválido.'); }
   };
   let armed = false;
-  $('resetBtn').onclick = () => {
+  $('resetBtn').onclick = async () => {
     if (!armed) { armed = true; $('resetBtn').textContent = 'Toque de novo para confirmar'; return; }
-    Object.keys(S.prog).forEach(k => dirty.add(blockOf(+k)));
+    $('resetBtn').disabled = true;
+    await wipeRemote(); dirty.clear(); dirtyIdx.clear();
     const keep = S.settings; S = freshState(); S.settings = keep; S.su = nowS(); metaDirty = true; saveLocal(); flush(); closeSheet(); toast('Progresso apagado.');
   };
 }
@@ -764,6 +927,10 @@ $('sheet').addEventListener('click', e => { if (e.target === $('sheet')) closeSh
 
 /* ---------- ligações ---------- */
 $('openSettings').onclick = openSettings;
+$('accountBtn').onclick = () => openAccount();
+$('tipSignup').onclick = () => openAccount('signup');
+$('tipLogin').onclick = () => openAccount('login');
+$('tipHide').onclick = () => { S.settings.hideAccountTip = true; saveLocal(); renderAccount(); };
 $('playBtn').onclick = () => startRound('play');
 $('reviewBtn').onclick = () => startRound('review');
 $('againBtn').onclick = () => startRound(R && R.kind === 'review' && dueList().length ? 'review' : 'play');
@@ -782,6 +949,7 @@ $('levels').onclick = e => { const b = e.target.closest('.level'); if (!b) retur
   WORDS.forEach((w, i) => RANK.set(w, i));
   $('totalSent').textContent = IDX.total.toLocaleString('pt-BR');
   $('courseName').textContent = COURSE.name;
+  if (IN_ARTIFACT) $('accountBtn').classList.add('hidden');
   renderHome(); show('home');
   if (window.claude && window.claude.use) {
     window.claude.use('tts').then(t => { TTS = t; }).catch(() => {});
