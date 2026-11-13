@@ -111,7 +111,12 @@ button{font:inherit;color:inherit;cursor:pointer}
 .blank.ok{color:var(--ok);border-color:var(--ok);background:var(--ok-bg);border-radius:6px 6px 0 0;padding:0 4px}
 .blank.bad{color:var(--bad);border-color:var(--bad);background:var(--bad-bg);border-radius:6px 6px 0 0;padding:0 4px}
 .wrong{text-decoration:line-through;color:var(--muted);font-size:.7em;margin-left:4px}
-.ans-input{font-family:Literata,Georgia,serif;font-size:24px;border:0;border-bottom:3px solid var(--accent);background:color-mix(in srgb,var(--accent-2) 14%,transparent);
+.typewrap{position:relative;display:inline-block;vertical-align:baseline;max-width:100%}
+.typewrap .ans-input{color:transparent;-webkit-text-fill-color:transparent;caret-color:var(--ink);width:100%;display:block}
+.mirror{position:absolute;left:0;top:0;padding:0 6px;font-family:Literata,Georgia,serif;font-size:24px;line-height:1.35;white-space:pre;pointer-events:none}
+.mirror .g{color:var(--ok)}
+.mirror .r{color:var(--bad);background:color-mix(in srgb,var(--bad) 14%,transparent);border-radius:3px}
+.ans-input{line-height:1.35;font-family:Literata,Georgia,serif;font-size:24px;border:0;border-bottom:3px solid var(--accent);background:color-mix(in srgb,var(--accent-2) 14%,transparent);
   color:var(--ink);padding:0 6px;border-radius:6px 6px 0 0;outline:none;max-width:100%}
 .trans{color:var(--muted);font-size:16px;border-top:1px dashed var(--line);padding-top:12px}
 .options{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:16px}
@@ -305,7 +310,7 @@ const COURSES = {
 };
 const COURSE_ID = 'es', COURSE = COURSES[COURSE_ID];
 const KEY = 'frasier-' + COURSE_ID + '-v1';
-const APP_VERSION = '1.4 · 13 nov 2026';
+const APP_VERSION = '1.5 · 13 nov 2026';
 try { if (!localStorage.getItem(KEY) && localStorage.getItem('huecos-es-v1')) localStorage.setItem(KEY, localStorage.getItem('huecos-es-v1')); } catch(e){}
 const IN_ARTIFACT = !!(window.claude && window.claude.use) || window.self !== window.top;
 const STANDALONE = (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
@@ -693,14 +698,23 @@ function renderMC(q){
 
 const maxHints = q => q.answer.length <= 2 ? 1 : Math.ceil(q.answer.length * 0.6);
 function renderType(q){
-  const w = Math.max(3, q.answer.length + 1);
-  $('sentence').innerHTML = sentenceHTML(q, `<input id="ans" class="ans-input" style="width:${w}ch" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" enterkeyhint="done" aria-label="Resposta">`);
+  const w = Math.max(3, q.answer.length + 2);
+  $('sentence').innerHTML = sentenceHTML(q, `<span class="typewrap" id="typewrap" style="width:${w}ch"><span class="mirror" id="mirror" aria-hidden="true"></span><input id="ans" class="ans-input" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" enterkeyhint="done" aria-label="Resposta"></span>`);
   $('answerArea').innerHTML = `<div class="accents">${COURSE.letters.map(a => `<button data-a="${a}">${a}</button>`).join('')}</div>
     <div class="typeactions"><button class="btn btn-ghost" id="hintBtn">Dica</button><button class="btn btn-primary" id="checkBtn">Verificar</button></div>
     <div class="hintdots" id="hintDots"></div>`;
   const inp = $('ans');
   try { inp.focus({ preventScroll:true }); } catch(e){}
   const check = () => { const v = inp.value.trim(); if (!v) { inp.focus(); return; } answer(q, v, 'type'); };
+  // cada letra fica verde (certa) ou vermelha (errada, inclusive acento) enquanto você digita
+  const live = () => {
+    const v = inp.value, a = q.answer;
+    $('mirror').innerHTML = [...v].map((ch, i) => `<span class="${i < a.length && ch.toLowerCase() === a[i].toLowerCase() ? 'g' : 'r'}">${esc(ch)}</span>`).join('');
+    $('typewrap').style.width = Math.max(3, a.length + 2, v.length + 2) + 'ch';
+    if (v.toLowerCase() === a.toLowerCase()) setTimeout(() => { if (!q.done && inp.value.toLowerCase() === a.toLowerCase()) check(); }, 250);
+  };
+  q.live = live;
+  inp.addEventListener('input', live);
   inp.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); check(); } });
   $('checkBtn').onclick = check;
   const mh = maxHints(q);
@@ -715,12 +729,12 @@ function renderType(q){
     const pre = q.answer.slice(0, q.hints), typed = inp.value;
     inp.value = typed.toLowerCase().startsWith(pre.toLowerCase()) && typed.length > pre.length ? typed : pre;
     try { inp.focus({ preventScroll:true }); inp.setSelectionRange(inp.value.length, inp.value.length); } catch(e){}
-    paint();
+    live(); paint();
   };
   paint();
   $('answerArea').querySelectorAll('.accents button').forEach(b => b.onmousedown = b.ontouchstart = e => {
     e.preventDefault(); const a = b.dataset.a; const s = inp.selectionStart ?? inp.value.length, en = inp.selectionEnd ?? s;
-    inp.value = inp.value.slice(0, s) + a + inp.value.slice(en); inp.setSelectionRange(s + 1, s + 1); inp.focus();
+    inp.value = inp.value.slice(0, s) + a + inp.value.slice(en); inp.setSelectionRange(s + 1, s + 1); inp.focus(); live();
   });
 }
 const typePts = q => Math.max(2, PTS.type - 2 * (q.hints || 0));
