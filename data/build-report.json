@@ -1,0 +1,228 @@
+{
+ "spa_sentences": 443166,
+ "deu_sentences": 786418,
+ "ita_sentences": 991553,
+ "fra_sentences": 730079,
+ "eng_sentences": 2040567,
+ "por_sentences": 445685,
+ "es": {
+  "total": 131207,
+  "pt": 62011
+ },
+ "de_candidates": 487845,
+ "de": {
+  "total": 119999,
+  "pt": 119999,
+  "en": 119999,
+  "vocab": 26926,
+  "levels": [
+   {
+    "name": "Top 100",
+    "start": 0,
+    "end": 1246
+   },
+   {
+    "name": "Top 500",
+    "start": 1246,
+    "end": 20080
+   },
+   {
+    "name": "Top 1000",
+    "start": 20080,
+    "end": 38365
+   },
+   {
+    "name": "Top 2000",
+    "start": 38365,
+    "end": 60655
+   },
+   {
+    "name": "Top 5000",
+    "start": 60655,
+    "end": 86731
+   },
+   {
+    "name": "Top 10 000",
+    "start": 86731,
+    "end": 102537
+   },
+   {
+    "name": "Avançado",
+    "start": 102537,
+    "end": 119999
+   }
+  ],
+  "sample": [
+   "Liu Xiaobo [ist] Chinese. | Liu Xiaobo is Chinese.",
+   "Ist [das] Tom? | Is that Tom?",
+   "Ist [es] das? | Is that it?",
+   "Er ist [ein] DJ. | He is a DJ.",
+   "Er [schwimmt] besser als ich. | He is a better swimmer than I.",
+   "Er ging langsam, damit das Kind [folgen] konnte. | He walked slowly so the child could follow.",
+   "Ich [rufe] euch an, sobald ich wieder zu Hause bin. | I will give you a call as soon as I get home.",
+   "Warum darf man in diesem Fluss nicht [angeln]? | Why isn't fishing allowed in this river?"
+  ]
+ },
+ "it_candidates": 645128,
+ "it": {
+  "total": 119997,
+  "pt": 119997,
+  "en": 119997,
+  "vocab": 17044,
+  "levels": [
+   {
+    "name": "Top 100",
+    "start": 0,
+    "end": 1821
+   },
+   {
+    "name": "Top 500",
+    "start": 1821,
+    "end": 20367
+   },
+   {
+    "name": "Top 1000",
+    "start": 20367,
+    "end": 40706
+   },
+   {
+    "name": "Top 2000",
+    "start": 40706,
+    "end": 64507
+   },
+   {
+    "name": "Top 5000",
+    "start": 64507,
+    "end": 94447
+   },
+   {
+    "name": "Top 10 000",
+    "start": 94447,
+    "end": 111528
+   },
+   {
+    "name": "Avançado",
+    "start": 111528,
+    "end": 119997
+   }
+  ],
+  "sample": [
+   "C'[è]? | Are you there?",
+   "È [di] Tom? | Is it Tom's?",
+   "Dov'è [la] Namibia? | Where is Namibia?",
+   "Anch'[io]. | So do I.",
+   "Tu [studi] qualche lingua straniera? | Do you study any foreign language?",
+   "Lei è [mancato] a tutte noi. | We all have missed you.",
+   "Io ho [pianto] per tutta la notte. | I cried all night.",
+   "Sia io che Tom [parliamo] il francese. | Tom and I both speak French."
+  ]
+ },
+ "fr_candidates": 371991,
+ "fr": {
+  "total": 119999,
+  "pt": 119241,
+  "en": 119999,
+  "vocab": 21815,
+  "levels": [
+   {
+    "name": "Top 100",
+    "start": 0,
+    "end": 1471
+   },
+   {
+    "name": "Top 500",
+    "start": 1471,
+    "end": 20704
+   },
+   {
+    "name": "Top 1000",
+    "start": 20704,
+    "end": 39955
+   },
+   {
+    "name": "Top 2000",
+    "start": 39955,
+    "end": 61550
+   },
+   {
+    "name": "Top 5000",
+    "start": 61550,
+    "end": 89508
+   },
+   {
+    "name": "Top 10 000",
+    "start": 89508,
+    "end": 106563
+   },
+   {
+    "name": "Avançado",
+    "start": 106563,
+    "end": 119999
+   }
+  ],
+  "sample": [
+   "C'[est] Tom. | It's Tom.",
+   "[Il] est DJ. | He is a DJ.",
+   "C'est [un] DVD. | This is a DVD.",
+   "Je t'[ai]. | You're mine.",
+   "Tout ce que vous [lisez] sur Internet n'est pas vrai. | Not everything that you read on the Internet is true.",
+   "Tom était [inquiet] à propos de cela. | Tom was worried about that.",
+   "Elle a [convaincu] son mari d'aller en France pour les vacances. | She talked her husband into having a holiday in France.",
+   "Je suis une personne très [prudente]. | I'm a very careful person."
+  ]
+ },
+ "en_candidates": 230983,
+ "en": {
+  "total": 119997,
+  "pt": 119997,
+  "en": 0,
+  "vocab": 15707,
+  "levels": [
+   {
+    "name": "Top 100",
+    "start": 0,
+    "end": 3326
+   },
+   {
+    "name": "Top 500",
+    "start": 3326,
+    "end": 31796
+   },
+   {
+    "name": "Top 1000",
+    "start": 31796,
+    "end": 56402
+   },
+   {
+    "name": "Top 2000",
+    "start": 56402,
+    "end": 79746
+   },
+   {
+    "name": "Top 5000",
+    "start": 79746,
+    "end": 103295
+   },
+   {
+    "name": "Top 10 000",
+    "start": 103295,
+    "end": 114883
+   },
+   {
+    "name": "Avançado",
+    "start": 114883,
+    "end": 119997
+   }
+  ],
+  "sample": [
+   "Tom is [in]. | Tom está dentro.",
+   "Is [that] you? | É você?",
+   "[This] is it. | É isso.",
+   "It [was] Tom. | Foi o Tom.",
+   "How did you get over the [difficulty]? | Como você conseguiu superar a dificuldade?",
+   "They were [buying] time. | Eles estavam ganhando tempo.",
+   "I was at a movie [theater]. | Eu estava no cinema.",
+   "One must be absolutely [modern]. | É preciso ser absolutamente moderno."
+  ]
+ }
+}
