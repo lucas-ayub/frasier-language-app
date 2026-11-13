@@ -1,11 +1,5 @@
-"""Gera data/<idioma>/tracks.json: trilhas temáticas (Dia a dia, Viagem, Profissional, Acadêmico...).
-
-Cada frase é classificada pelo texto em inglês (a tradução inglesa, ou a própria frase no curso de inglês)
-com listas de palavras-chave por tema. Dentro de cada tema as frases ficam na mesma ordem de dificuldade
-da trilha geral (índice global), então o progresso é compartilhado entre as trilhas.
-Uso: python tools/build_tracks.py
-"""
-import json, os, re, glob
+"""Trilhas temáticas do Frasier: temas e palavras-chave em inglês usadas para classificar as frases."""
+import re
 
 MAX_PER_SUB = 2500
 MIN_PER_SUB = 60
@@ -56,21 +50,3 @@ def compile_words(spec):
 
 COMPILED = [(tid, tname, icon, [(sid, sname, compile_words(spec)) for sid, sname, spec in subs]) for tid, tname, icon, subs in TRACKS]
 
-for d in sorted(glob.glob('data/*/index.json')):
-    code = d.split('/')[1]
-    idx = json.load(open(d))
-    n = (idx['total'] + idx['chunk'] - 1) // idx['chunk']
-    english = []
-    for c in range(n):
-        for row in json.load(open(f'data/{code}/c{c}.json', encoding='utf-8')):
-            english.append(row[0] if code == 'en' else (row[1] or ''))
-    out = []
-    for tid, tname, icon, subs in COMPILED:
-        osubs = []
-        for sid, sname, rx in subs:
-            ids = [i for i, t in enumerate(english) if t and rx.search(t)]
-            if len(ids) < MIN_PER_SUB: continue
-            osubs.append({'id': sid, 'name': sname, 'ids': ids[:MAX_PER_SUB]})
-        if osubs: out.append({'id': tid, 'name': tname, 'icon': icon, 'subs': osubs})
-    json.dump({'tracks': out}, open(f'data/{code}/tracks.json', 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
-    print(code, [(t['id'], [(s['id'], len(s['ids'])) for s in t['subs']]) for t in out])

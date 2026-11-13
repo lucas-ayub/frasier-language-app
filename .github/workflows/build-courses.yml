@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - tools/build_courses.py
+      - 'tools/**'
       - .github/workflows/build-courses.yml
 
 permissions:
