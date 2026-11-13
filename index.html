@@ -155,6 +155,9 @@ a{color:inherit}
 @media (prefers-color-scheme: dark){ .seg button.on svg{color:#B6A6FF} }
 
 .levels{padding:6px}
+.tracktabs{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin:0 -16px 12px;padding:2px 16px 8px}
+.tracktabs::-webkit-scrollbar{display:none}
+.tracktabs button{flex:none;white-space:nowrap}
 .level{display:grid;grid-template-columns:38px 1fr auto;grid-template-rows:auto auto;column-gap:12px;row-gap:7px;align-items:center;padding:10px;border:2px solid transparent;background:none;width:100%;text-align:left;border-radius:16px;min-height:60px}
 .level+.level{margin-top:2px}
 .level .badge{grid-row:1 / 3;width:38px;height:38px;border-radius:11px;flex:none;display:grid;place-items:center;background:var(--surface-2);font-family:var(--fd);font-weight:800;font-size:15px;color:var(--muted);box-shadow:0 3px 0 var(--edge)}
@@ -424,9 +427,10 @@ textarea{width:100%;min-height:90px;border-radius:12px;border:2px solid var(--li
     </div>
 
     <div class="section">
-      <h3>Coleções por frequência</h3>
+      <h3>Trilhas</h3>
+      <div class="chips tracktabs" id="trackTabs" role="tablist" aria-label="Trilhas"></div>
       <div class="card levels" id="levels"></div>
-      <div class="legend">Cada frase esconde a palavra mais rara dela; as coleções vão das palavras mais comuns às mais raras.<br><span class="sw" style="background:var(--ok);margin-left:0"></span>dominadas <span class="sw" style="background:var(--sky)"></span>em andamento</div>
+      <div class="legend"><span id="trackHelp">Cada frase esconde a palavra mais rara dela; as coleções vão das palavras mais comuns às mais raras.</span><br><span class="sw" style="background:var(--ok);margin-left:0"></span>dominadas <span class="sw" style="background:var(--sky)"></span>em andamento</div>
     </div>
 
     <div class="sync" id="sync"><span class="dot"></span><span>Salvando neste aparelho</span></div>
@@ -503,26 +507,38 @@ const COURSES = {
   fr: { name:'Francês', flag:'🇫🇷', path:'data/fr/', voices:[['fr-FR','França'],['fr-CA','Canadá']], letters:['à','â','ç','é','è','ê','ë','î','ï','ô','ù','û','œ'], hello:'Salut, ça va ?', deco:['ç','é'] },
   en: { name:'Inglês', flag:'🇬🇧', path:'data/en/', voices:[['en-US','EUA'],['en-GB','Reino Unido'],['en-AU','Austrália']], letters:[], hello:'Hi, how are you?', deco:['W','th'], srcs:['pt'] },
 };
-const SOURCES = { pt:'Português', en:'Inglês' };
+const SOURCES = { pt:{ name:'Português', flag:'🇧🇷' }, en:{ name:'Inglês', flag:'🇬🇧' } };
 const PREFS_KEY = 'frasier-prefs';
-let PREFS = { tgt:'es', src:'pt' };
-try { PREFS = { ...PREFS, ...JSON.parse(localStorage.getItem(PREFS_KEY) || '{}') }; } catch(e){}
-if (!COURSES[PREFS.tgt]) PREFS.tgt = 'es';
-if (COURSES[PREFS.tgt].srcs && !COURSES[PREFS.tgt].srcs.includes(PREFS.src)) PREFS.src = COURSES[PREFS.tgt].srcs[0];
-const COURSE_ID = PREFS.tgt, COURSE = COURSES[COURSE_ID], SRC = PREFS.src;
-function setCourse(tgt, src){
-  if (COURSES[tgt].srcs && !COURSES[tgt].srcs.includes(src)) src = COURSES[tgt].srcs[0];
-  try { localStorage.setItem(PREFS_KEY, JSON.stringify({ tgt, src })); } catch(e){}
-  if (tgt === COURSE_ID && src === SRC) return false;
-  return true;
+const validPair = p => { const [a, b] = String(p).split('-'); return !!(SOURCES[a] && COURSES[b] && a !== b); };
+let PREFS = { active:'pt-es', list:['pt-es'], legacy:{ es:'pt-es' } };
+try {
+  const o = JSON.parse(localStorage.getItem(PREFS_KEY) || '{}');
+  if (o.active) PREFS = { ...PREFS, ...o };
+  else if (o.tgt) { const pr = (o.src || 'pt') + '-' + o.tgt; PREFS = { active:pr, list:[pr], legacy:{ [o.tgt]: pr } }; }
+} catch(e){}
+PREFS.list = (PREFS.list || []).filter(validPair);
+if (!validPair(PREFS.active)) PREFS.active = 'pt-es';
+if (!PREFS.list.includes(PREFS.active)) PREFS.list.unshift(PREFS.active);
+PREFS.legacy = PREFS.legacy || {};
+function savePrefs(){ try { localStorage.setItem(PREFS_KEY, JSON.stringify(PREFS)); } catch(e){} }
+savePrefs();
+const PAIR = PREFS.active, SRC = PAIR.split('-')[0], COURSE_ID = PAIR.split('-')[1], COURSE = COURSES[COURSE_ID];
+const CID = PAIR;                      // prefixo do progresso na nuvem
+const LEGACY = PREFS.legacy[COURSE_ID] === PAIR ? COURSE_ID : null;  // progresso antigo (antes dos pares)
+function switchPair(pair){
+  if (!validPair(pair)) return;
+  PREFS.active = pair; if (!PREFS.list.includes(pair)) PREFS.list.push(pair);
+  if (!PREFS.legacy[pair.split('-')[1]]) PREFS.legacy[pair.split('-')[1]] = pair;
+  savePrefs();
 }
-const KEY = 'frasier-' + COURSE_ID + '-v1';
-const APP_VERSION = '2.1 · 14 nov 2026';
-try { if (!localStorage.getItem(KEY) && localStorage.getItem('huecos-es-v1')) localStorage.setItem(KEY, localStorage.getItem('huecos-es-v1')); } catch(e){}
+const KEY = 'frasier-' + PAIR + '-v1';
+try { if (LEGACY && !localStorage.getItem(KEY) && localStorage.getItem('frasier-' + LEGACY + '-v1')) localStorage.setItem(KEY, localStorage.getItem('frasier-' + LEGACY + '-v1')); } catch(e){}
+
+const APP_VERSION = '2.2 · 14 nov 2026';
 const IN_ARTIFACT = !!(window.claude && window.claude.use) || window.self !== window.top;
 const STANDALONE = (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
 
-let IDX = null, WORDS = [], RANK = new Map();
+let IDX = null, WORDS = [], RANK = new Map(), TRACKS = [];
 const CHUNKS = new Map();
 let S = freshState();
 function freshState(){ return { prog:{}, ptr:{}, stats:{ points:0, days:{} }, settings:{ goal:30, mode:'mc', level:0, autoAudio:true, accent:COURSE.voices[0][0], rate:1 }, su:0 }; }
@@ -580,17 +596,20 @@ async function initCloud(){
     if (!uid) { setSync('warn', 'Salvando só neste aparelho'); return; }
     DB = db; BASE = db.collection('data/users/' + uid);
     setSync('', 'Sincronizando…');
-    const meta = await withTimeout(BASE.doc(COURSE_ID + '_meta').get(), 10000);
+    let meta = await withTimeout(BASE.doc(CID + '_meta').get(), 10000);
+    let pfx = CID;
+    if (!meta.exists && LEGACY) { const lm = await withTimeout(BASE.doc(LEGACY + '_meta').get(), 10000); if (lm.exists) { meta = lm; pfx = LEGACY; } }
     const localBlocks = new Set(Object.keys(S.prog).map(k => blockOf(+k)));
     if (meta.exists) {
       const m = meta.data() || {};
       mergeMeta(m);
       for (const b of (m.blocks||[])) {
-        const snap = await withTimeout(BASE.doc(COURSE_ID + '_p' + b).get(), 10000);
+        const snap = await withTimeout(BASE.doc(pfx + '_p' + b).get(), 10000);
         if (!snap.exists) continue;
         const entries = snap.data().m || {};
         mergeBlock(entries);
         for (const k of Object.keys(S.prog)) if (blockOf(+k) === b && !(k in entries)) dirty.add(b);
+        if (pfx !== CID) dirty.add(b);
         localBlocks.delete(b);
       }
     }
@@ -623,14 +642,16 @@ async function pullFirebase(first){
   lastPull = Date.now();
   setSync('', 'Sincronizando…');
   try {
-    const meta = await withTimeout(FBCOL.doc(COURSE_ID + '_meta').get(), 12000);
+    let meta = await withTimeout(FBCOL.doc(CID + '_meta').get(), 12000);
     const remoteBlocks = new Set();
+    let pfx = CID;
+    if (!meta.exists && LEGACY) { const lm = await withTimeout(FBCOL.doc(LEGACY + '_meta').get(), 12000); if (lm.exists) { meta = lm; pfx = LEGACY; first = true; } }
     if (meta.exists) {
       const m = meta.data() || {};
       mergeMeta(m);
       for (const b of (m.blocks||[])) {
         remoteBlocks.add(b);
-        const snap = await withTimeout(FBCOL.doc(COURSE_ID + '_p' + b).get(), 12000);
+        const snap = await withTimeout(FBCOL.doc(pfx + '_p' + b).get(), 12000);
         if (!snap.exists) continue;
         const entries = snap.data().m || {};
         mergeBlock(entries);
@@ -652,8 +673,8 @@ async function flushFirebase(){
   const batch = FS.batch(); const byBlock = {};
   for (const k of dirtyIdx) { const b = blockOf(k); (byBlock[b] = byBlock[b] || {})[k] = S.prog[k]; }
   dirtyIdx.clear(); dirty.clear();
-  for (const [b, m] of Object.entries(byBlock)) batch.set(FBCOL.doc(COURSE_ID + '_p' + b), { m }, { merge:true });
-  if (metaDirty) { metaDirty = false; const mb = metaBody(); batch.set(FBCOL.doc(COURSE_ID + '_meta'), { ...mb, blocks: firebase.firestore.FieldValue.arrayUnion(...mb.blocks) }, { merge:true }); }
+  for (const [b, m] of Object.entries(byBlock)) batch.set(FBCOL.doc(CID + '_p' + b), { m }, { merge:true });
+  if (metaDirty) { metaDirty = false; const mb = metaBody(); batch.set(FBCOL.doc(CID + '_meta'), { ...mb, blocks: firebase.firestore.FieldValue.arrayUnion(...mb.blocks) }, { merge:true }); }
   const p = batch.commit();
   if (!navigator.onLine) { setSync('warn', 'Offline — sincroniza quando a internet voltar'); p.then(() => setSync('ok', 'Sincronizado com ' + (FBUSER?.email || 'sua conta'))).catch(() => {}); return; }
   try { await withTimeout(p, 15000); setSync('ok', 'Sincronizado com ' + (FBUSER?.email || 'sua conta')); }
@@ -672,10 +693,10 @@ async function flush(){
         dirty.delete(b);
         const m = {};
         for (const [k, v] of Object.entries(S.prog)) if (blockOf(+k) === b) m[k] = v;
-        await BASE.doc(COURSE_ID + '_p' + b).set({ m });
+        await BASE.doc(CID + '_p' + b).set({ m });
       }
       dirtyIdx.clear();
-      if (metaDirty) { metaDirty = false; await BASE.doc(COURSE_ID + '_meta').set(metaBody()); }
+      if (metaDirty) { metaDirty = false; await BASE.doc(CID + '_meta').set(metaBody()); }
     }
     setSync('ok', 'Progresso salvo na sua conta');
   } catch(e) {
@@ -685,9 +706,9 @@ async function flush(){
 }
 async function wipeRemote(){
   if (FBCOL) {
-    try { const snap = await withTimeout(FBCOL.get(), 12000); const b = FS.batch(); snap.docs.filter(d => d.id.startsWith(COURSE_ID + '_')).forEach(d => b.delete(d.ref)); await b.commit(); } catch(e){}
+    try { const snap = await withTimeout(FBCOL.get(), 12000); const b = FS.batch(); snap.docs.filter(d => d.id.startsWith(CID + '_')).forEach(d => b.delete(d.ref)); await b.commit(); } catch(e){}
   } else if (BASE) {
-    try { const blocks = metaBody().blocks; for (const bl of blocks) await BASE.doc(COURSE_ID + '_p' + bl).delete(); } catch(e){}
+    try { const blocks = metaBody().blocks; for (const bl of blocks) await BASE.doc(CID + '_p' + bl).delete(); } catch(e){}
   }
 }
 document.addEventListener('visibilitychange', () => {
@@ -825,6 +846,27 @@ function renderHome(){
   $('stMastered').textContent = vals.filter(v => v[0] >= 4).length.toLocaleString('pt-BR');
   $('stPoints').textContent = (S.stats.points||0).toLocaleString('pt-BR');
   document.querySelectorAll('#modeSeg button').forEach(b => b.classList.toggle('on', b.dataset.mode === S.settings.mode));
+  renderTracks();
+}
+const curTrack = () => TRACKS.find(t => t.id === S.settings.track) || null;
+const curSub = () => { const t = curTrack(); if (!t) return null; const sid = (S.settings.subs || {})[t.id]; return t.subs.find(x => x.id === sid) || t.subs[0]; };
+const subKey = (t, sub) => 't.' + t.id + '.' + sub.id;
+function renderTracks(){
+  const tabs = [{ id:'geral', name:'Geral', icon:'📊' }, ...TRACKS];
+  if (!curTrack()) S.settings.track = 'geral';
+  $('trackTabs').innerHTML = tabs.map(t => `<button data-t="${t.id}" class="${S.settings.track === t.id ? 'on' : ''}" role="tab" aria-selected="${S.settings.track === t.id}">${t.icon} ${esc(t.name)}</button>`).join('');
+  const t = curTrack();
+  if (t) {
+    const sub = curSub();
+    $('trackHelp').textContent = `Frases da trilha ${t.name}, das mais fáceis às mais difíceis. O que você aprende aqui também conta na trilha Geral.`;
+    $('levels').innerHTML = t.subs.map((x, i) => {
+      let p = 0, m = 0; for (const id of x.ids) { const v = S.prog[id]; if (v) { p++; if (v[0] >= 4) m++; } }
+      const tot = x.ids.length, mm = m / tot * 100, pp = (p - m) / tot * 100, on = sub && sub.id === x.id;
+      return `<button class="level ${on ? 'on' : ''}" data-sub="${x.id}" aria-pressed="${on}"><span class="badge">${i + 1}</span><span class="meta"><span class="name">${esc(x.name)}</span><span class="mini"><i class="m" style="width:${mm}%"></i><i class="p" style="width:${pp}%"></i></span></span><span class="count">${p.toLocaleString('pt-BR')} / ${tot.toLocaleString('pt-BR')}</span></button>`;
+    }).join('');
+    return;
+  }
+  $('trackHelp').textContent = 'Cada frase esconde a palavra mais rara dela; as coleções vão das palavras mais comuns às mais raras.';
   const per = IDX.levels.map(() => ({ p:0, m:0 }));
   for (const [k, v] of Object.entries(S.prog)) { const i = +k; const li = IDX.levels.findIndex(l => i >= l.start && i < l.end); if (li >= 0) { per[li].p++; if (v[0] >= 4) per[li].m++; } }
   $('levels').innerHTML = IDX.levels.map((l, i) => {
@@ -854,14 +896,23 @@ function speak(text){
 
 /* ---------- rodada ---------- */
 let R = null; // { queue, i, pts, results, kind }
+let R_KEY = null, R_POS = null;
 async function startRound(kind){
   let ids;
   if (kind === 'review') ids = dueList().slice(0, ROUND);
   else {
-    const L = IDX.levels[S.settings.level];
-    let p = Math.max(S.ptr[S.settings.level] || L.start, L.start); ids = [];
-    while (ids.length < ROUND && p < L.end) { if (!(p in S.prog)) ids.push(p); p++; }
-    if (!ids.length) { toast('Você já viu todas as frases desta coleção. Escolha outra!'); return; }
+    const t = curTrack();
+    if (t) {
+      const sub = curSub(), key = subKey(t, sub); let p = S.ptr[key] || 0; ids = []; R_POS = {}; R_KEY = key;
+      while (ids.length < ROUND && p < sub.ids.length) { const id = sub.ids[p]; if (!(id in S.prog)) { ids.push(id); R_POS[id] = p; } p++; }
+      if (!ids.length) { toast('Você já viu todas as frases deste tema. Escolha outro!'); return; }
+    } else {
+      R_KEY = null; R_POS = null;
+      const L = IDX.levels[S.settings.level];
+      let p = Math.max(S.ptr[S.settings.level] || L.start, L.start); ids = [];
+      while (ids.length < ROUND && p < L.end) { if (!(p in S.prog)) ids.push(p); p++; }
+      if (!ids.length) { toast('Você já viu todas as frases desta coleção. Escolha outra!'); return; }
+    }
   }
   if (!ids.length) return;
   show('loading');
@@ -931,7 +982,6 @@ function renderType(q){
     $('mirror').innerHTML = [...v].map((ch, i) => `<span class="${i < a.length && ch.toLowerCase() === a[i].toLowerCase() ? 'g' : 'r'}">${esc(ch)}</span>`).join('');
     $('typewrap').style.width = Math.max(3, a.length + 2, v.length + 2) + 'ch';
     requestAnimationFrame(syncMirror);
-    if (v.toLowerCase() === a.toLowerCase()) setTimeout(() => { if (!q.done && inp.value.toLowerCase() === a.toLowerCase()) check(); }, 250);
   };
   const syncMirror = () => { const m = $('mirror'); if (m) m.style.transform = inp.scrollLeft ? `translateX(${-inp.scrollLeft}px)` : ''; };
   q.live = live;
@@ -1067,7 +1117,8 @@ function answer(q, val, how){
     if (ok) { const p = how === 'type' ? typePts(q) : PTS[how]; R.pts += p; S.stats.points = (S.stats.points||0) + p; }
     R.results.push({ q, ok });
     if (!ok) R.queue.push({ idx:q.idx, retry:true });
-    if (R.kind === 'play') { const L = IDX.levels[S.settings.level]; S.ptr[S.settings.level] = Math.max(S.ptr[S.settings.level] || L.start, q.idx + 1); }
+    if (R.kind === 'play' && R_KEY && R_POS && q.idx in R_POS) S.ptr[R_KEY] = Math.max(S.ptr[R_KEY] || 0, R_POS[q.idx] + 1);
+    else if (R.kind === 'play' && !R_KEY) { const L = IDX.levels[S.settings.level]; S.ptr[S.settings.level] = Math.max(S.ptr[S.settings.level] || L.start, q.idx + 1); }
     markDirty(q.idx); saveLocal();
   }
   // mostrar resultado
@@ -1142,33 +1193,49 @@ document.addEventListener('keydown', e => {
   if (q && !q.done && /^[1-4]$/.test(e.key) && e.target.tagName !== 'INPUT') { const b = $('answerArea').querySelectorAll('.opt')[+e.key - 1]; if (b) b.click(); }
 });
 
-/* ---------- idiomas ---------- */
-function openCourses(){
-  let tgt = COURSE_ID, src = SRC;
-  const paint = () => {
-    const fixed = COURSES[tgt].srcs;
+/* ---------- cursos (pares de idiomas) ---------- */
+function pairStats(pair){
+  try { const o = JSON.parse(localStorage.getItem('frasier-' + pair + '-v1') || '{}'); return { seen: Object.keys(o.prog || {}).length, today: (o.stats && o.stats.days && o.stats.days[today()]) || 0, goal: (o.settings && o.settings.goal) || 30 }; }
+  catch(e){ return { seen:0, today:0, goal:30 }; }
+}
+const pairLabel = p => { const [a, b] = p.split('-'); return `${SOURCES[a].flag} ${SOURCES[a].name} → ${COURSES[b].flag} ${COURSES[b].name}`; };
+function openCourses(view){
+  const avail = Object.keys(COURSES).filter(k => !IN_ARTIFACT || k === 'es');
+  if (view !== 'add') {
     $('sheetInner').innerHTML = `
-      <div class="row"><h4>Idiomas</h4><div class="spacer"></div><button class="iconbtn" id="closeSheet" aria-label="Fechar">${ICON.x}</button></div>
-      <div class="group">
-        <div class="field"><label>Quero aprender</label>
-          <div class="chips" id="tgtChips">${Object.entries(COURSES).filter(([k]) => !IN_ARTIFACT || k === 'es').map(([k, c]) => `<button data-v="${k}" class="${k === tgt ? 'on' : ''}">${c.flag} ${c.name}</button>`).join('')}</div></div>
-        <div class="field"><label>Ver as traduções em</label>
-          <div class="chips" id="srcChips">${Object.entries(SOURCES).map(([k, n]) => { const off = fixed && !fixed.includes(k); return `<button data-v="${k}" class="${k === src ? 'on' : ''}" ${off ? 'disabled style="opacity:.4"' : ''}>${n}</button>`; }).join('')}</div>
-          <div class="help">${tgt === 'en' ? 'No curso de inglês as traduções são sempre em português.' : 'Em português, algumas frases ainda não têm tradução; nelas aparece a inglesa com a marca EN.'}</div></div>
-      </div>
-      <div class="help" style="margin:4px 2px 14px">Cada idioma tem o próprio progresso, meta e sequência. Trocar não apaga nada.</div>
-      <button class="btn btn-primary" style="width:100%" id="applyCourse">${tgt === COURSE_ID && src === SRC ? 'Fechar' : 'Começar ' + COURSES[tgt].name}</button>`;
+      <div class="row"><h4>Meus cursos</h4><div class="spacer"></div><button class="iconbtn" id="closeSheet" aria-label="Fechar">${ICON.x}</button></div>
+      <div class="card levels" id="pairList">${PREFS.list.map(p => { const st = pairStats(p); const on = p === PAIR; const [a, b] = p.split('-');
+        return `<div class="level ${on ? 'on' : ''}" style="grid-template-columns:auto 1fr auto"><span class="badge" style="width:auto;padding:0 8px;font-size:18px">${SOURCES[a].flag}${COURSES[b].flag}</span>
+          <button class="name pairgo" data-p="${p}" style="all:unset;cursor:pointer;grid-column:2;font-family:var(--fd);font-weight:700;font-size:15px">${COURSES[b].name}<br><span class="small muted" style="font-family:inherit;font-weight:500">a partir do ${SOURCES[a].name.toLowerCase()} · ${st.seen.toLocaleString('pt-BR')} frases vistas · hoje ${st.today}/${st.goal}</span></button>
+          ${on ? '<span class="count">atual</span>' : `<button class="linkbtn pairdel" data-p="${p}" aria-label="Remover da lista" style="grid-column:3;padding:0 6px">remover</button>`}</div>`; }).join('')}</div>
+      <div class="help" style="margin:10px 2px 14px">Cada curso tem progresso, meta e sequência próprios. Remover da lista não apaga o progresso.</div>
+      <button class="btn btn-primary" style="width:100%" id="addPair">+ Adicionar curso</button>`;
     $('closeSheet').onclick = closeSheet;
-    $('tgtChips').querySelectorAll('button').forEach(b => b.onclick = () => { tgt = b.dataset.v; if (COURSES[tgt].srcs && !COURSES[tgt].srcs.includes(src)) src = COURSES[tgt].srcs[0]; paint(); });
-    $('srcChips').querySelectorAll('button').forEach(b => b.onclick = () => { if (!b.disabled) { src = b.dataset.v; paint(); } });
-    $('applyCourse').onclick = async () => {
-      if (!setCourse(tgt, src)) { closeSheet(); return; }
-      $('applyCourse').disabled = true; $('applyCourse').textContent = 'Abrindo…';
-      try { await flush(); } catch(e){}
-      location.reload();
+    $('addPair').onclick = () => openCourses('add');
+    $('pairList').querySelectorAll('.pairgo').forEach(b => b.onclick = async () => { if (b.dataset.p === PAIR) { closeSheet(); return; } switchPair(b.dataset.p); try { await flush(); } catch(e){} location.reload(); });
+    $('pairList').querySelectorAll('.pairdel').forEach(b => b.onclick = () => { PREFS.list = PREFS.list.filter(x => x !== b.dataset.p); savePrefs(); openCourses(); });
+  } else {
+    let src = SRC, tgt = null;
+    const paint = () => {
+      const opts = avail.filter(k => k !== src);
+      if (tgt && !opts.includes(tgt)) tgt = null;
+      const pair = tgt ? src + '-' + tgt : null, exists = pair && PREFS.list.includes(pair);
+      $('sheetInner').innerHTML = `
+        <div class="row"><button class="iconbtn" id="backPairs" aria-label="Voltar">‹</button><h4 style="margin-left:10px">Novo curso</h4><div class="spacer"></div><button class="iconbtn" id="closeSheet" aria-label="Fechar">${ICON.x}</button></div>
+        <div class="group">
+          <div class="field"><label>Eu falo</label><div class="chips" id="srcChips">${Object.entries(SOURCES).map(([k, v]) => `<button data-v="${k}" class="${k === src ? 'on' : ''}">${v.flag} ${v.name}</button>`).join('')}</div></div>
+          <div class="field"><label>Quero aprender</label><div class="chips" id="tgtChips">${opts.map(k => `<button data-v="${k}" class="${k === tgt ? 'on' : ''}">${COURSES[k].flag} ${COURSES[k].name}</button>`).join('')}</div>
+          <div class="help">${src === 'pt' ? 'Algumas frases ainda não têm tradução em português; nelas aparece a inglesa com a marca EN.' : 'Aprender a partir do inglês ajuda quando os idiomas são parecidos, como inglês → alemão.'}</div></div>
+        </div>
+        <button class="btn btn-primary" style="width:100%;margin-top:6px" id="createPair" ${pair ? '' : 'disabled'}>${!pair ? 'Escolha o idioma' : exists ? 'Abrir este curso' : 'Começar ' + COURSES[tgt].name}</button>`;
+      $('closeSheet').onclick = closeSheet;
+      $('backPairs').onclick = () => openCourses();
+      $('srcChips').querySelectorAll('button').forEach(b => b.onclick = () => { src = b.dataset.v; paint(); });
+      $('tgtChips').querySelectorAll('button').forEach(b => b.onclick = () => { tgt = b.dataset.v; paint(); });
+      $('createPair').onclick = async () => { if (!pair) return; $('createPair').disabled = true; $('createPair').textContent = 'Abrindo…'; switchPair(pair); try { await flush(); } catch(e){} location.reload(); };
     };
-  };
-  paint();
+    paint();
+  }
   $('sheet').classList.remove('hidden');
 }
 $('courseName').onclick = openCourses;
@@ -1252,7 +1319,13 @@ $('homeBtn').onclick = () => { renderHome(); show('home'); };
 $('quitBtn').onclick = () => { try { speechSynthesis.cancel(); } catch(e){} flush(); renderHome(); show('home'); };
 $('listenBtn2').onclick = () => { const q = R && R.queue[R.i]; if (q) speak(q.done ? q.es : q.before + ' … ' + q.after); };
 $('modeSeg').onclick = e => { const b = e.target.closest('button'); if (!b) return; S.settings.mode = b.dataset.mode; S.su = nowS(); metaDirty = true; saveLocal(); renderHome(); };
-$('levels').onclick = e => { const b = e.target.closest('.level'); if (!b) return; S.settings.level = +b.dataset.level; S.su = nowS(); metaDirty = true; saveLocal(); renderHome(); };
+$('levels').onclick = e => {
+  const b = e.target.closest('.level'); if (!b) return;
+  if (b.dataset.sub) { S.settings.subs = { ...(S.settings.subs || {}), [S.settings.track]: b.dataset.sub }; }
+  else S.settings.level = +b.dataset.level;
+  S.su = nowS(); metaDirty = true; saveLocal(); renderHome();
+};
+$('trackTabs').onclick = e => { const b = e.target.closest('button'); if (!b) return; S.settings.track = b.dataset.t; S.su = nowS(); metaDirty = true; saveLocal(); renderHome(); };
 
 /* ---------- início ---------- */
 (async function boot(){
@@ -1260,11 +1333,12 @@ $('levels').onclick = e => { const b = e.target.closest('.level'); if (!b) retur
   try {
     [IDX, WORDS] = await Promise.all([getJSON(COURSE.path + 'index.json'), getJSON(COURSE.path + 'words.json')]);
   } catch(e) {
-    if (COURSE_ID !== 'es') { setCourse('es', SRC); $('loading').innerHTML = `<div style="text-align:center;padding:24px">O curso de ${COURSE.name} ainda está sendo preparado. Tente de novo em alguns minutos.<br><br><button class="btn btn-primary" onclick="location.reload()">Voltar ao espanhol</button></div>`; return; }
+    if (PAIR !== 'pt-es') { switchPair('pt-es'); $('loading').innerHTML = `<div style="text-align:center;padding:24px">O curso de ${COURSE.name} ainda está sendo preparado. Tente de novo em alguns minutos.<br><br><button class="btn btn-primary" onclick="location.reload()">Voltar ao espanhol</button></div>`; return; }
     $('loading').innerHTML = '<div>Não consegui carregar as frases. Recarregue a página.</div>'; return; }
   WORDS.forEach((w, i) => RANK.set(w, i));
+  try { TRACKS = (await getJSON(COURSE.path + 'tracks.json')).tracks || []; } catch(e) { TRACKS = []; }
   $('totalSent').textContent = IDX.total.toLocaleString('pt-BR');
-  $('courseName').innerHTML = `<span>${COURSE.flag}&nbsp;${COURSE.name}<span style="opacity:.65;font-weight:600"> · ${SRC === 'pt' ? 'PT' : 'EN'}</span></span><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>`;
+  $('courseName').innerHTML = `<span>${SOURCES[SRC].flag}→${COURSE.flag}&nbsp;${COURSE.name}</span><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>`;
   document.querySelectorAll('.deco span').forEach((el, k) => el.textContent = COURSE.deco[k] || '');
   $('sentence').lang = COURSE_ID;
   if (IN_ARTIFACT) $('accountBtn').classList.add('hidden');
