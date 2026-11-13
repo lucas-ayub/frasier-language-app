@@ -122,6 +122,11 @@ button{font:inherit;color:inherit;cursor:pointer}
 .opt:disabled{cursor:default}
 .accents{display:flex;gap:6px;flex-wrap:wrap;margin-top:14px}
 .accents button{border:0;background:var(--chip);border-radius:10px;min-width:40px;height:40px;font-family:Literata,serif;font-size:19px}
+.pmode{display:flex;gap:6px;margin:14px 0 2px;justify-content:center}
+.pmode button{border:1.5px solid var(--line);background:var(--card);border-radius:999px;padding:7px 12px;font-size:13px;font-weight:600;display:inline-flex;align-items:center;gap:6px;color:var(--muted)}
+.pmode button svg{width:15px;height:15px}
+.pmode button.on{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.pmode.locked{opacity:.45;pointer-events:none}
 .typeactions{display:grid;grid-template-columns:auto 1fr;gap:10px;margin-top:12px}
 .hintdots{display:flex;gap:4px;margin-top:10px;align-items:center;font-size:12px;color:var(--muted)}
 .hintdots i{width:8px;height:8px;border-radius:50%;background:var(--chip)}
@@ -250,6 +255,11 @@ textarea{width:100%;min-height:90px;border-radius:12px;border:1px solid var(--li
       <div class="row"><span class="tag" id="qtag">Nova</span><div class="spacer"></div><button class="tool" id="listenBtn2" aria-label="Ouvir"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg></button></div>
       <div class="sentence" id="sentence"></div>
       <div class="trans" id="trans"></div>
+    </div>
+    <div class="pmode" id="playMode" role="tablist" aria-label="Modo de resposta">
+      <button data-mode="mc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="4" width="7" height="7" rx="2"/><rect x="14" y="4" width="7" height="7" rx="2"/><rect x="3" y="13" width="7" height="7" rx="2"/><rect x="14" y="13" width="7" height="7" rx="2"/></svg>Escolher</button>
+      <button data-mode="type"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 10h.01M10 10h.01M14 10h.01M18 10h.01M7 14h10"/></svg>Digitar</button>
+      <button data-mode="speak"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0M12 17v5"/></svg>Falar</button>
     </div>
     <div id="answerArea"></div>
     <div id="afterArea" class="after hidden"></div>
@@ -653,17 +663,31 @@ function renderQ(){
   else { tag.textContent = 'Revisão · ' + (prev[0] * 25) + '%'; tag.className = 'tag'; }
   $('trans').textContent = en;
   $('afterArea').classList.add('hidden'); $('afterArea').innerHTML = '';
-  q.hints = 0;
+  q.hints = 0; paintPlayMode();
   if (q.mode === 'type') renderType(q); else if (q.mode === 'speak') renderSpeak(q); else renderMC(q);
 }
 
+function paintPlayMode(){
+  const q = R && R.queue[R.i];
+  $('playMode').classList.toggle('locked', !!(q && q.done));
+  $('playMode').querySelectorAll('button').forEach(b => b.classList.toggle('on', b.dataset.mode === S.settings.mode));
+}
+$('playMode').onclick = e => {
+  const b = e.target.closest('button'); if (!b || !R) return;
+  const m = b.dataset.mode, q = R.queue[R.i];
+  S.settings.mode = m; S.su = nowS(); metaDirty = true; saveLocal(); paintPlayMode();
+  if (!q || q.done) return;
+  try { speechSynthesis.cancel(); } catch(e){}
+  q.mode = m;
+  if (m === 'type') renderType(q); else if (m === 'speak') renderSpeak(q); else renderMC(q);
+};
 function sentenceHTML(q, blankHTML){ return esc(q.before) + blankHTML + esc(q.after); }
 
 function renderMC(q){
   q.opts = q.opts || shuffle([q.answer, ...distractors(q.answer)]);
   $('sentence').innerHTML = sentenceHTML(q, `<span class="blank">${esc(q.answer)}</span>`);
   $('answerArea').innerHTML = `<div class="options">${q.opts.map(o => `<button class="opt" data-v="${esc(o)}">${esc(o)}</button>`).join('')}</div>`;
-  $('answerArea').querySelectorAll('.opt').forEach(b => b.onclick = () => answer(q, b.dataset.v, q.mode === 'mc' ? 'mc' : 'hint'));
+  $('answerArea').querySelectorAll('.opt').forEach(b => b.onclick = () => answer(q, b.dataset.v, q.mode === 'mc' && !q.hints ? 'mc' : 'hint'));
 }
 
 const maxHints = q => q.answer.length <= 2 ? 1 : Math.ceil(q.answer.length * 0.6);
@@ -791,7 +815,7 @@ function listenDict(q){
 }
 
 function answer(q, val, how){
-  if (q.done) return; q.done = true;
+  if (q.done) return; q.done = true; paintPlayMode();
   const exact = val === q.answer || val.toLowerCase() === q.answer.toLowerCase();
   const loose = strip(val.toLowerCase()) === strip(q.answer.toLowerCase());
   const ok = exact || loose;
