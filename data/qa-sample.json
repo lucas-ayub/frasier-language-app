@@ -1,0 +1,8120 @@
+{
+"pt-es": [
+{
+"n": 425,
+"frase": "¡Estoy muy bien!",
+"traducao": "Estou ótimo!",
+"tatoeba": 11836182
+},
+{
+"n": 1639,
+"frase": "Siempre viene a estas horas.",
+"traducao": "Ele sempre vem nestas horas.",
+"tatoeba": 2155911
+},
+{
+"n": 1739,
+"frase": "Ahora no tiene ganas.",
+"traducao": "Agora, não tem vontade.",
+"tatoeba": 7933197
+},
+{
+"n": 1952,
+"frase": "Tengo clase mañana.",
+"traducao": "Eu tenho aula amanhã.",
+"tatoeba": 2964
+},
+{
+"n": 2082,
+"frase": "Él llegó por fin.",
+"traducao": "Ele chegou, por fim.",
+"tatoeba": 3150886
+},
+{
+"n": 2103,
+"frase": "¿Del lado de quién estás?",
+"traducao": "Você está do lado de quem?",
+"tatoeba": 1296803
+},
+{
+"n": 2847,
+"frase": "Tú eres mi padre.",
+"traducao": "Você é meu pai.",
+"tatoeba": 1178633
+},
+{
+"n": 3003,
+"frase": "¿Cuál fue la pregunta?",
+"traducao": "Qual foi a pergunta?",
+"tatoeba": 5015881
+},
+{
+"n": 3665,
+"frase": "¿Cómo se llama tu hija?",
+"traducao": "Como se chama a sua filha?",
+"tatoeba": 509960
+},
+{
+"n": 4337,
+"frase": "No había nadie en la habitación.",
+"traducao": "Não tinha ninguém no quarto.",
+"tatoeba": 703137
+},
+{
+"n": 4558,
+"frase": "Tom vino después de que se fuera Mary.",
+"traducao": "Tom veio depois que a Mary foi embora.",
+"tatoeba": 2170848
+},
+{
+"n": 4679,
+"frase": "No importa lo que él dijo.",
+"traducao": "Não importa o que ele disse.",
+"tatoeba": 853860
+},
+{
+"n": 5164,
+"frase": "Me gustaría ver a mi hijo.",
+"traducao": "Gostaria de ver o meu filho.",
+"tatoeba": 1464844
+},
+{
+"n": 5229,
+"frase": "Solo quiero ir a dormir.",
+"traducao": "Eu só quero ir dormir.",
+"tatoeba": 2164422
+},
+{
+"n": 5697,
+"frase": "Tom no puede ser mayor que yo.",
+"traducao": "Tom não pode ser maior que eu.",
+"tatoeba": 2715073
+},
+{
+"n": 6078,
+"frase": "Muchas gracias por su carta.",
+"traducao": "Muito obrigado pela sua carta.",
+"tatoeba": 2047488
+},
+{
+"n": 6140,
+"frase": "Ella sabe lo que quiere, eso es lo que importa.",
+"traducao": "Ela sabe o que quer, isso é o que importa.",
+"tatoeba": 1231059
+},
+{
+"n": 6338,
+"frase": "¿Por qué no le has dicho nada?",
+"traducao": "Por que você não contou nada para ela?",
+"tatoeba": 10483958
+},
+{
+"n": 6619,
+"frase": "Él quiere el dinero.",
+"traducao": "Ele quer o dinheiro.",
+"tatoeba": 2138914
+},
+{
+"n": 6698,
+"frase": "¿Habla usted a su perro?",
+"traducao": "O senhor fala com o seu cachorro?",
+"tatoeba": 1405834
+},
+{
+"n": 6717,
+"frase": "Todo el mundo quiere dinero, pero nadie quiere trabajar.",
+"traducao": "Todo mundo quer dinheiro, mas ninguém quer trabalhar.",
+"tatoeba": 2975906
+},
+{
+"n": 7296,
+"frase": "Un niño es más alto que el otro.",
+"traducao": "Um menino é mais alto do que o outro.",
+"tatoeba": 1116213
+},
+{
+"n": 8180,
+"frase": "No sé usar este sitio.",
+"traducao": "Eu não sei usar este site.",
+"tatoeba": 1901950
+},
+{
+"n": 9144,
+"frase": "El domingo no voy a ningún sitio.",
+"traducao": "No domingo não vou a nenhum lugar.",
+"tatoeba": 1719717
+},
+{
+"n": 10189,
+"frase": "La vida es un juego de ajedrez.",
+"traducao": "A vida é um jogo de xadrez.",
+"tatoeba": 10144516
+},
+{
+"n": 10463,
+"frase": "¿Qué rosa ves?",
+"traducao": "Que rosa vês?",
+"tatoeba": 1912262
+},
+{
+"n": 10659,
+"frase": "Ellos me quieren.",
+"traducao": "Eles me querem.",
+"tatoeba": 7785381
+},
+{
+"n": 10708,
+"frase": "Me encanta la música.",
+"traducao": "Eu adoro música.",
+"tatoeba": 991074
+},
+{
+"n": 11215,
+"frase": "A veces la extraño.",
+"traducao": "Às vezes sinto falta dela.",
+"tatoeba": 2139136
+},
+{
+"n": 12601,
+"frase": "¿Por qué alguien haría eso?",
+"traducao": "Por que alguém faria isso?",
+"tatoeba": 1526175
+},
+{
+"n": 13031,
+"frase": "La situación fue de mal en peor.",
+"traducao": "A situação foi de má a pior.",
+"tatoeba": 579804
+},
+{
+"n": 13730,
+"frase": "Un extranjero me preguntó en dónde queda la estación.",
+"traducao": "Um estrangeiro me perguntou onde fica a estação.",
+"tatoeba": 2169883
+},
+{
+"n": 13826,
+"frase": "Soy de los que les gusta pensar las cosas con mucho cuidado.",
+"traducao": "Estou entre aqueles que gostam de pensar as coisas com muito cuidado.",
+"tatoeba": 589560
+},
+{
+"n": 13934,
+"frase": "Este trabajo estará terminado en una semana.",
+"traducao": "Este trabalho estará terminado em uma semana.",
+"tatoeba": 2656724
+},
+{
+"n": 14110,
+"frase": "Creo que Tom y María son de Australia.",
+"traducao": "Eu acho que Tom e Maria são da Austrália.",
+"tatoeba": 10461304
+},
+{
+"n": 14328,
+"frase": "Una mujer me preguntó por una calle.",
+"traducao": "Uma mulher perguntou-me por uma rua.",
+"tatoeba": 330042
+},
+{
+"n": 14392,
+"frase": "Ella es tan inteligente como él.",
+"traducao": "Ela é tão inteligente quanto ele.",
+"tatoeba": 623874
+},
+{
+"n": 14446,
+"frase": "Te llamo mañana a la mañana.",
+"traducao": "Eu te ligo amanhã de manhã.",
+"tatoeba": 2566038
+},
+{
+"n": 14628,
+"frase": "Ido es la lengua más bonita y fácil.",
+"traducao": "Ido é a língua mais bonita e fácil.",
+"tatoeba": 895761
+},
+{
+"n": 14935,
+"frase": "Esa es la razón por la que ella estudia inglés.",
+"traducao": "Essa é a razão por que ela estuda inglês.",
+"tatoeba": 1829438
+},
+{
+"n": 15010,
+"frase": "Odio a la gente que dice eso.",
+"traducao": "Odeio as pessoas que dizem isso.",
+"tatoeba": 617532
+},
+{
+"n": 15247,
+"frase": "¿Dijeron cómo?",
+"traducao": "Disseram como?",
+"tatoeba": 2170100
+},
+{
+"n": 15256,
+"frase": "Es vieja.",
+"traducao": "É velha.",
+"tatoeba": 2353307
+},
+{
+"n": 16043,
+"frase": "Estamos volando sobre las nubes.",
+"traducao": "Estamos voando sobre as nuvens.",
+"tatoeba": 623949
+},
+{
+"n": 16049,
+"frase": "Somos jugadores de fútbol.",
+"traducao": "Nós somos jogadores de futebol.",
+"tatoeba": 547061
+},
+{
+"n": 17335,
+"frase": "No tengo tanta suerte como tú.",
+"traducao": "Não tenho tanta sorte como você.",
+"tatoeba": 1624814
+},
+{
+"n": 17496,
+"frase": "Tiene más de cuarenta años.",
+"traducao": "Ele tem mais de quarenta anos.",
+"tatoeba": 2765307
+},
+{
+"n": 17546,
+"frase": "¿Cuál es vuestro número?",
+"traducao": "Qual o seu número?",
+"tatoeba": 1905533
+},
+{
+"n": 17691,
+"frase": "Los hombres son todos iguales.",
+"traducao": "Os homens são todos iguais.",
+"tatoeba": 2801953
+},
+{
+"n": 18024,
+"frase": "John es un niño americano.",
+"traducao": "John é um garoto americano.",
+"tatoeba": 1316034
+},
+{
+"n": 18210,
+"frase": "Gracias a ustedes por esa información.",
+"traducao": "Obrigado a vocês por essa informação.",
+"tatoeba": 4963136
+},
+{
+"n": 18217,
+"frase": "Ya no puedo ayudarte.",
+"traducao": "Não posso mais te ajudar.",
+"tatoeba": 1088462
+},
+{
+"n": 18231,
+"frase": "Bebe como un pez.",
+"traducao": "Ele bebe como um peixe.",
+"tatoeba": 1615570
+},
+{
+"n": 18965,
+"frase": "No he visto a nadie aparte de ti.",
+"traducao": "Não vi ninguém além de você.",
+"tatoeba": 1100863
+},
+{
+"n": 19213,
+"frase": "¿Tenés la letra en portugués?",
+"traducao": "Você tem a letra em português?",
+"tatoeba": 2935474
+},
+{
+"n": 20622,
+"frase": "Les echo mucho de menos.",
+"traducao": "Sinto muito a falta delas.",
+"tatoeba": 639350
+},
+{
+"n": 20673,
+"frase": "Cocinar es un arte.",
+"traducao": "Cozinhar é uma arte.",
+"tatoeba": 11695343
+},
+{
+"n": 21252,
+"frase": "Tuve un buen motivo para hacer aquello.",
+"traducao": "Eu tive uma boa razão para fazer isso.",
+"tatoeba": 2607323
+},
+{
+"n": 22059,
+"frase": "Internet cambió todo.",
+"traducao": "A Internet mudou tudo.",
+"tatoeba": 5717201
+},
+{
+"n": 22298,
+"frase": "¿Cuánto tiempo vas a quedarte aquí?",
+"traducao": "Quanto tempo vais ficar aqui?",
+"tatoeba": 974851
+},
+{
+"n": 22541,
+"frase": "\"¿Quieres un trozo de pastel?\" \"¿De qué es?\"",
+"traducao": "\"Quer um pedaço de bolo?\" \"É do quê?\"",
+"tatoeba": 2557859
+},
+{
+"n": 23283,
+"frase": "¡Qué país agradable es Argentina!",
+"traducao": "Que país agradável é a Argentina.",
+"tatoeba": 1065157
+},
+{
+"n": 23526,
+"frase": "Con este tiempo no se puede salir a pasear.",
+"traducao": "Com esse tempo não dá para sair.",
+"tatoeba": 5632587
+},
+{
+"n": 23700,
+"frase": "¿Este libro es tuyo?",
+"traducao": "Este livro é seu?",
+"tatoeba": 711365
+},
+{
+"n": 23909,
+"frase": "Creo que deberías descansar un poco.",
+"traducao": "Acho que você deveria descansar um pouco.",
+"tatoeba": 2409247
+},
+{
+"n": 24260,
+"frase": "No sé cuánto tiempo vivió Tom en Boston, pero por lo menos fueron tres años.",
+"traducao": "Não sei quanto tempo o Tom morou em Boston, mas foram pelo menos três anos.",
+"tatoeba": 3250798
+},
+{
+"n": 24807,
+"frase": "Te esperamos mucho tiempo, pero tú no llegaste.",
+"traducao": "Nós te esperamos por muito tempo, mas tu não chegaste.",
+"tatoeba": 1297018
+},
+{
+"n": 24867,
+"frase": "¡Cuidado! Es peligroso conducir borracho.",
+"traducao": "Cuidado! É perigoso conduzir bêbado.",
+"tatoeba": 1479283
+},
+{
+"n": 24898,
+"frase": "Quiero verte antes de irme.",
+"traducao": "Quero te ver antes de ir embora.",
+"tatoeba": 1063380
+},
+{
+"n": 24911,
+"frase": "Ella fue a verlo el otro día.",
+"traducao": "Ela foi vê-lo o outro dia.",
+"tatoeba": 1105267
+},
+{
+"n": 25928,
+"frase": "Trae el ventilador, que hace mucho calor.",
+"traducao": "Traz o ventilador, pois está muito calor.",
+"tatoeba": 998652
+},
+{
+"n": 26290,
+"frase": "Yo dejé el cigarrillo.",
+"traducao": "Eu abandonei o cigarro.",
+"tatoeba": 2533196
+},
+{
+"n": 27493,
+"frase": "¿Vienes solo o acompañado?",
+"traducao": "Você mora sozinho ou com alguém?",
+"tatoeba": 7304093
+},
+{
+"n": 27651,
+"frase": "Su horno de microondas funciona mal.",
+"traducao": "Seu forno de micro-ondas está com defeito.",
+"tatoeba": 1290017
+},
+{
+"n": 27696,
+"frase": "Este diamante es falso.",
+"traducao": "Este diamante é falso.",
+"tatoeba": 2947610
+},
+{
+"n": 29439,
+"frase": "Somos gente, no dioses.",
+"traducao": "Nós somos gente, não deuses.",
+"tatoeba": 4277412
+},
+{
+"n": 29714,
+"frase": "Soy alérgico a los mosquitos.",
+"traducao": "Sou alérgico a pernilongos.",
+"tatoeba": 1046276
+},
+{
+"n": 30108,
+"frase": "Todo animal es mortal.",
+"traducao": "Todo animal é mortal.",
+"tatoeba": 1940303
+},
+{
+"n": 30294,
+"frase": "Haga lo que crea correcto.",
+"traducao": "Faça o que você acredita que é certo.",
+"tatoeba": 2210142
+},
+{
+"n": 32717,
+"frase": "Tú tomaste demasiado.",
+"traducao": "Você bebeu demais.",
+"tatoeba": 4568278
+},
+{
+"n": 33118,
+"frase": "¿Me prestás la lección de geografía?",
+"traducao": "Você me empresta a lição de geografia?",
+"tatoeba": 1271744
+},
+{
+"n": 35005,
+"frase": "Él soltó la cuerda y se cayó en el río.",
+"traducao": "Ele soltou a corda e caiu no rio.",
+"tatoeba": 1179185
+},
+{
+"n": 35142,
+"frase": "Ana es una viuda que no sale de la iglesia.",
+"traducao": "Ana é uma viúva que não sai da igreja.",
+"tatoeba": 1613266
+},
+{
+"n": 35713,
+"frase": "El primer ministro va a hacer una declaración mañana.",
+"traducao": "O primeiro-ministro vai fazer uma declaração amanhã.",
+"tatoeba": 970839
+},
+{
+"n": 35741,
+"frase": "Mi perro puede entender el esperanto pero no puede hablarlo.",
+"traducao": "Meu cachorro consegue entender esperanto, mas não consegue falar.",
+"tatoeba": 2744706
+},
+{
+"n": 36178,
+"frase": "No tenía cómo saberlo.",
+"traducao": "Não tinha como saber.",
+"tatoeba": 2069440
+},
+{
+"n": 36500,
+"frase": "Esta mañana, mis amigos se comieron la fruta que compró mi hermana.",
+"traducao": "Hoje de manhã, meus amigos comeram a fruta que minha irmã comprou.",
+"tatoeba": 1411001
+},
+{
+"n": 36781,
+"frase": "Vámonos a tomar una cerveza.",
+"traducao": "Vamos tomar uma cerveja.",
+"tatoeba": 2397528
+},
+{
+"n": 37170,
+"frase": "¡Claro que sé quién es! Es un chico increíblemente inteligente.",
+"traducao": "Claro que eu sei quem é! É um garoto incrivelmente inteligente.",
+"tatoeba": 1067981
+},
+{
+"n": 37837,
+"frase": "Eso no es un trozo de tiza amarilla.",
+"traducao": "Esse não é um pedaço de giz amarelo.",
+"tatoeba": 1403703
+},
+{
+"n": 38618,
+"frase": "¿Ya están todos listos?",
+"traducao": "Já estão todos prontos?",
+"tatoeba": 2140985
+},
+{
+"n": 38698,
+"frase": "Tom no come más que frutas y verduras.",
+"traducao": "Tom não come senão frutas e verduras.",
+"tatoeba": 1172041
+},
+{
+"n": 39453,
+"frase": "No es ése el que queremos.",
+"traducao": "Não é esse o que nós queremos.",
+"tatoeba": 7682889
+},
+{
+"n": 39565,
+"frase": "No fue mi intención ser egoísta.",
+"traducao": "Não foi minha intenção ser egoísta.",
+"tatoeba": 10201331
+},
+{
+"n": 39920,
+"frase": "¿Por qué viniste, si no querías venir?",
+"traducao": "Por que você veio, se não queria vir?",
+"tatoeba": 1906230
+},
+{
+"n": 40535,
+"frase": "Me estoy muriendo de sueño, pero no consigo quedarme dormido.",
+"traducao": "Estou morrendo de sono, mas não consigo dormir.",
+"tatoeba": 9704270
+},
+{
+"n": 41198,
+"frase": "Unos señores desean hablar contigo.",
+"traducao": "Uns senhores desejam falar com você.",
+"tatoeba": 1431425
+},
+{
+"n": 41613,
+"frase": "Él y yo compartimos pieza.",
+"traducao": "Eu e ele dividimos quarto.",
+"tatoeba": 1672209
+},
+{
+"n": 41660,
+"frase": "Lo mataré.",
+"traducao": "Eu vou matá-lo.",
+"tatoeba": 1246292
+},
+{
+"n": 41905,
+"frase": "Mi móvil se está cargando.",
+"traducao": "Meu celular está carregando.",
+"tatoeba": 9727950
+},
+{
+"n": 41943,
+"frase": "El panda está en vía de extinción.",
+"traducao": "O panda está ameaçado de extinção.",
+"tatoeba": 1000678
+},
+{
+"n": 42469,
+"frase": "No me odies.",
+"traducao": "Não me odeie.",
+"tatoeba": 767120
+},
+{
+"n": 42590,
+"frase": "Los coches chocaron el uno contra el otro.",
+"traducao": "Os carros bateram um contra o outro.",
+"tatoeba": 841917
+},
+{
+"n": 42954,
+"frase": "Por favor cálmate. Te ayudaremos.",
+"traducao": "Por favor, acalme-se. Nós o ajudaremos.",
+"tatoeba": 1478982
+},
+{
+"n": 43336,
+"frase": "Extiende tus alas y sal volando.",
+"traducao": "Estenda as suas asas e saia voando.",
+"tatoeba": 1465984
+},
+{
+"n": 43920,
+"frase": "Tom no es tan pícaro como le gusta pensar que es.",
+"traducao": "Tom não é tão esperto como gosta de pensar que é.",
+"tatoeba": 1615453
+},
+{
+"n": 44348,
+"frase": "¿Has devuelto los libros?",
+"traducao": "Devolveste os livros?",
+"tatoeba": 977754
+},
+{
+"n": 44796,
+"frase": "La naturaleza se conforma con poco.",
+"traducao": "A natureza se contenta com pouco.",
+"tatoeba": 3995554
+},
+{
+"n": 44866,
+"frase": "Destruyeron la casa y después la abandonaron.",
+"traducao": "Destruíram a casa e então a abandonaram.",
+"tatoeba": 1281585
+},
+{
+"n": 45099,
+"frase": "Dicen que los tanques de agua de amianto pueden ser un riesgo para la salud.",
+"traducao": "Dizem que as caixas d'água de amianto podem ser um risco à saúde.",
+"tatoeba": 976436
+},
+{
+"n": 45753,
+"frase": "Para pasar el tiempo en sus largos viajes, una vez Cristóbal Colón hizo una oración con un número infinito de palabras.",
+"traducao": "Para passar o tempo em suas longas viagens, certa vez Cristóvão Colombo fez uma oração com um número infinito de palavras.",
+"tatoeba": 548170
+},
+{
+"n": 45962,
+"frase": "¿Te importa si abro la puerta?",
+"traducao": "Você se importa se eu abrir a porta?",
+"tatoeba": 1056312
+},
+{
+"n": 45994,
+"frase": "Es muy inferior a mí en inglés.",
+"traducao": "Ele é muito inferior a mim em inglês.",
+"tatoeba": 870907
+},
+{
+"n": 46174,
+"frase": "Creo que deberías disculparte con ella.",
+"traducao": "Eu acho que você deveria se desculpar com ela.",
+"tatoeba": 886460
+},
+{
+"n": 46925,
+"frase": "No sé cómo decírtelo, pero es mejor que lo sepas.",
+"traducao": "Eu não sei como lhe dizer isso, mas é melhor você saber.",
+"tatoeba": 1875708
+},
+{
+"n": 47049,
+"frase": "No tengo intención de disculparme.",
+"traducao": "Não tenho intenção de desculpar-me.",
+"tatoeba": 690061
+},
+{
+"n": 47784,
+"frase": "La religión es un elemento fundamental en la civilización islámica.",
+"traducao": "A religião é o elemento fundamental na civilização islâmica.",
+"tatoeba": 1361070
+},
+{
+"n": 47823,
+"frase": "Estoy haciendo ruido con este taladro.",
+"traducao": "Estou fazendo barulho com esta furadeira.",
+"tatoeba": 1726744
+},
+{
+"n": 48265,
+"frase": "Los ojos de ella se llenaron de lágrimas.",
+"traducao": "Os olhos dela encheram-se de lágrimas.",
+"tatoeba": 346404
+},
+{
+"n": 48540,
+"frase": "El maletín no contenía otra cosa que ropa sucia.",
+"traducao": "A maleta não continha outra coisa além de roupa suja.",
+"tatoeba": 855668
+},
+{
+"n": 48598,
+"frase": "Este lugar me da escalofríos.",
+"traducao": "Este lugar me dá arrepios.",
+"tatoeba": 1646592
+},
+{
+"n": 49729,
+"frase": "Ayer la policía arrestó al sospechoso.",
+"traducao": "Ontem a polícia prendeu o suspeito.",
+"tatoeba": 2577574
+},
+{
+"n": 50036,
+"frase": "Ella se burló de su esposo.",
+"traducao": "Ela caçoou do esposo.",
+"tatoeba": 1312295
+},
+{
+"n": 50352,
+"frase": "Alguien está vigilando la entrada.",
+"traducao": "Alguém está vigiando a entrada.",
+"tatoeba": 2911795
+},
+{
+"n": 50663,
+"frase": "Dios probó la veracidad de tu fe.",
+"traducao": "Deus testou a veracidade de sua fé.",
+"tatoeba": 1277843
+},
+{
+"n": 50855,
+"frase": "Quiero comprarme un triturador de basura.",
+"traducao": "Quero comprar um compactador de lixo.",
+"tatoeba": 1127738
+},
+{
+"n": 52759,
+"frase": "Borra su nombre de la lista.",
+"traducao": "Apague o nome dele da lista.",
+"tatoeba": 2533545
+},
+{
+"n": 52810,
+"frase": "¿Ya sabés si va a ser nene o nena?",
+"traducao": "Você já sabe se vai ser menino ou menina?",
+"tatoeba": 2935662
+},
+{
+"n": 52895,
+"frase": "Soy una mujer transexual en transición.",
+"traducao": "Sou uma mulher transexual em transição.",
+"tatoeba": 3434710
+},
+{
+"n": 53046,
+"frase": "Mi hija tiene un amigo imaginario.",
+"traducao": "Minha filha tem um amigo imaginário.",
+"tatoeba": 578851
+},
+{
+"n": 53857,
+"frase": "Quiero una hoja de reclamaciones.",
+"traducao": "Quero uma folha de reclamações.",
+"tatoeba": 945627
+},
+{
+"n": 54355,
+"frase": "No acepté la propuesta porque no me convenía.",
+"traducao": "Não aceitei a proposta porque não me convinha.",
+"tatoeba": 2057263
+},
+{
+"n": 54664,
+"frase": "La nicotina es un veneno.",
+"traducao": "A nicotina é um veneno.",
+"tatoeba": 6992355
+},
+{
+"n": 55237,
+"frase": "El castillo es inexpugnable, no penséis que la tarea de entrar va a ser fácil.",
+"traducao": "O castelo é inexpugnável, não pensem que a tarefa de entrar vai ser fácil.",
+"tatoeba": 979335
+},
+{
+"n": 55541,
+"frase": "Tengo fuertes dolores menstruales.",
+"traducao": "Eu tenho fortes dores menstruais.",
+"tatoeba": 1013766
+},
+{
+"n": 56054,
+"frase": "Compramos cincuenta latas de cerveza para el festejo. Esperamos que sean suficientes.",
+"traducao": "Compramos cinquenta latas de cerveja para a comemoração. Esperamos que sejam suficientes.",
+"tatoeba": 1268191
+},
+{
+"n": 56472,
+"frase": "Intentamos localizarlo, pero parece que él no está en la ciudad.",
+"traducao": "Tentamos localizá-lo, mas ele parece não estar na cidade.",
+"tatoeba": 1324725
+},
+{
+"n": 56785,
+"frase": "Tom y Mary parecieran pasar todo el tiempo peleando.",
+"traducao": "Tom e Maria pareciam passar o tempo todo brigando.",
+"tatoeba": 1434460
+},
+{
+"n": 56970,
+"frase": "Es preferible abstenerse que arrepentirse.",
+"traducao": "É preferível abster-se a arrepender-se.",
+"tatoeba": 1523998
+},
+{
+"n": 57433,
+"frase": "Siempre que vean esta foto, acuérdense de mí.",
+"traducao": "Sempre que virem esta foto, lembrem-se de mim.",
+"tatoeba": 1689472
+},
+{
+"n": 57978,
+"frase": "Su corazón latía desenfrenadamente.",
+"traducao": "O seu coração batia desenfreadamente.",
+"tatoeba": 2092233
+},
+{
+"n": 58028,
+"frase": "Vaslav Nijinsky fue un bailarín ruso.",
+"traducao": "Vaslav Nijinsky foi um dançarino russo.",
+"tatoeba": 2121133
+},
+{
+"n": 58469,
+"frase": "Ella te protegerá.",
+"traducao": "Ela te protegerá.",
+"tatoeba": 2982267
+},
+{
+"n": 59843,
+"frase": "No existe ni casualidad ni libre albedrío.",
+"traducao": "Não existe nem casualidade nem livre-arbítrio.",
+"tatoeba": 639347
+},
+{
+"n": 59935,
+"frase": "Las relaciones implican compromisos.",
+"traducao": "As relações implicam compromissos.",
+"tatoeba": 1127797
+},
+{
+"n": 60443,
+"frase": "Regresaremos en un mes.",
+"traducao": "Nós voltaremos daqui a um mês.",
+"tatoeba": 1906311
+},
+{
+"n": 60646,
+"frase": "Él tuvo un accidente y se fracturó un hueso.",
+"traducao": "Ele sofreu um acidente e fraturou um osso.",
+"tatoeba": 340295
+},
+{
+"n": 61384,
+"frase": "Ella me dijo que guardara el secreto.",
+"traducao": "Ela disse-me para guardar segredo.",
+"tatoeba": 1502022
+},
+{
+"n": 61794,
+"frase": "Mañana iré a un campamento de entrenamiento. Sin embargo, no será la parte física la que entrenaré, sino la mental.",
+"traducao": "Amanhã, irei a um campo de treinamento. No entanto, não será a parte física que exercitarei, mas sim a mental.",
+"tatoeba": 1097567
+},
+{
+"n": 62731,
+"frase": "Lo peor no es equivocarse. Es seguir equivocándose pensando que se está haciendo lo correcto.",
+"traducao": "O pior não é errar. É continuar errando e achar que o que faz é o correto.",
+"tatoeba": 10671554
+}
+],
+"pt-de": [
+{
+"n": 18,
+"frase": "Ich bin hier.",
+"traducao": "Estou aqui.",
+"tatoeba": 2323643
+},
+{
+"n": 70,
+"frase": "Ich auch nicht.",
+"traducao": "Nem eu.",
+"tatoeba": 563393
+},
+{
+"n": 106,
+"frase": "Weiß ich nicht.",
+"traducao": "Eu não sei.",
+"tatoeba": 530035
+},
+{
+"n": 235,
+"frase": "Wird er kommen?",
+"traducao": "Virá ele?",
+"tatoeba": 1572761
+},
+{
+"n": 376,
+"frase": "Wann wirst du kommen?",
+"traducao": "Você vem quando?",
+"tatoeba": 1584296
+},
+{
+"n": 483,
+"frase": "Er ist noch jung.",
+"traducao": "Ele ainda é jovem.",
+"tatoeba": 1314842
+},
+{
+"n": 638,
+"frase": "Ich habe nichts gekauft.",
+"traducao": "Não comprei nada.",
+"tatoeba": 3924131
+},
+{
+"n": 689,
+"frase": "Ich ging zurück ins Haus.",
+"traducao": "Eu voltei para a casa.",
+"tatoeba": 2916077
+},
+{
+"n": 1029,
+"frase": "Arbeitet deine Frau?",
+"traducao": "A sua mulher trabalha?",
+"tatoeba": 5770018
+},
+{
+"n": 1543,
+"frase": "Ich muss nicht mit ihm reden.",
+"traducao": "Eu não preciso falar com ele.",
+"tatoeba": 13824633
+},
+{
+"n": 1657,
+"frase": "Das Wasser ist gut.",
+"traducao": "A água está boa.",
+"tatoeba": 403149
+},
+{
+"n": 1775,
+"frase": "Er kommt aus Frankreich.",
+"traducao": "Ele vem da França.",
+"tatoeba": 503367
+},
+{
+"n": 1898,
+"frase": "Ich wohne in der Stadt.",
+"traducao": "Eu moro na cidade.",
+"tatoeba": 931308
+},
+{
+"n": 1916,
+"frase": "Wie lange muss man warten?",
+"traducao": "Quanto tempo temos que esperar?",
+"tatoeba": 1196676
+},
+{
+"n": 1921,
+"frase": "Warum willst du dir kein Auto kaufen?",
+"traducao": "Por que você não quer comprar um carro?",
+"tatoeba": 5176584
+},
+{
+"n": 1929,
+"frase": "Die Frau liest.",
+"traducao": "A mulher está lendo.",
+"tatoeba": 789503
+},
+{
+"n": 1986,
+"frase": "Sie kann schwimmen wie ein Fisch.",
+"traducao": "Ela nada qual um peixe.",
+"tatoeba": 6165793
+},
+{
+"n": 1997,
+"frase": "Ich spiele morgen Fußball.",
+"traducao": "Eu vou jogar futebol amanhã.",
+"tatoeba": 2570226
+},
+{
+"n": 2081,
+"frase": "Tom will schwimmen lernen.",
+"traducao": "Tom quer aprender a nadar.",
+"tatoeba": 4437285
+},
+{
+"n": 2098,
+"frase": "Wer hat diesen Brief geschrieben?",
+"traducao": "Quem escreveu esta carta?",
+"tatoeba": 370150
+},
+{
+"n": 2208,
+"frase": "Ich bin der Sohn von Mary.",
+"traducao": "Eu sou o filho da Mary.",
+"tatoeba": 13388773
+},
+{
+"n": 2267,
+"frase": "Was ist dein Problem?",
+"traducao": "Qual é o teu problema?",
+"tatoeba": 614215
+},
+{
+"n": 2321,
+"frase": "Ich trinke keinen Kaffee.",
+"traducao": "Não bebo café.",
+"tatoeba": 448168
+},
+{
+"n": 2326,
+"frase": "Ich würde sehr gern in Europa wohnen.",
+"traducao": "Eu gostaria muito de morar na Europa.",
+"tatoeba": 9941898
+},
+{
+"n": 2470,
+"frase": "Ich glaube, Tom ist intelligent.",
+"traducao": "Eu acho o Tom inteligente.",
+"tatoeba": 4543938
+},
+{
+"n": 2580,
+"frase": "Ich verstehe dich, wenn du nicht sehr schnell sprichst.",
+"traducao": "Eu o entendo quando você não fala muito rapidamente.",
+"tatoeba": 1462123
+},
+{
+"n": 2806,
+"frase": "Maria hat eine schöne Stimme.",
+"traducao": "Maria tem uma voz bonita.",
+"tatoeba": 7233402
+},
+{
+"n": 2978,
+"frase": "Wie wirklich ist die Wirklichkeit?",
+"traducao": "Quão real é a realidade?",
+"tatoeba": 2840406
+},
+{
+"n": 3056,
+"frase": "Es ist schon vorbei.",
+"traducao": "Já acabou.",
+"tatoeba": 9941846
+},
+{
+"n": 3090,
+"frase": "Bleibe hier!",
+"traducao": "Fiquem aqui.",
+"tatoeba": 2188058
+},
+{
+"n": 3176,
+"frase": "Was will er damit machen?",
+"traducao": "O que ele pretende fazer com isso?",
+"tatoeba": 9942112
+},
+{
+"n": 3208,
+"frase": "Tom trinkt in der Früh immer Tee.",
+"traducao": "O Tom sempre bebe chá de manhã.",
+"tatoeba": 8717663
+},
+{
+"n": 3224,
+"frase": "Es ist schon neun Uhr.",
+"traducao": "Já são nove horas.",
+"tatoeba": 367786
+},
+{
+"n": 3486,
+"frase": "Du bist nervös.",
+"traducao": "Você está nervoso.",
+"tatoeba": 2927389
+},
+{
+"n": 3580,
+"frase": "Ich höre alles.",
+"traducao": "Eu ouço tudo.",
+"tatoeba": 7798693
+},
+{
+"n": 3592,
+"frase": "Ich nehme dich mit.",
+"traducao": "Eu o levo.",
+"tatoeba": 441297
+},
+{
+"n": 3655,
+"frase": "Tom ist nicht Marias Lehrer.",
+"traducao": "Tom não é o professor de Mary.",
+"tatoeba": 13607233
+},
+{
+"n": 3665,
+"frase": "Ich möchte um neun kommen.",
+"traducao": "Eu gostaria de vir às nove.",
+"tatoeba": 340790
+},
+{
+"n": 3753,
+"frase": "Ich ging im Meer schwimmen.",
+"traducao": "Fui nadar no mar.",
+"tatoeba": 674022
+},
+{
+"n": 3965,
+"frase": "Du solltest Gemüse essen.",
+"traducao": "Você deveria comer verduras.",
+"tatoeba": 625799
+},
+{
+"n": 4120,
+"frase": "Ich habe etwas Käse und Milch gekauft.",
+"traducao": "Comprei um pouco de queijo e de leite.",
+"tatoeba": 1523093
+},
+{
+"n": 4207,
+"frase": "Ich kann euch das leider nicht sagen.",
+"traducao": "Infelizmente, não lhes posso dizer isso.",
+"tatoeba": 6306860
+},
+{
+"n": 4335,
+"frase": "Wo schläft Tom?",
+"traducao": "Onde o Tom está dormindo?",
+"tatoeba": 3766132
+},
+{
+"n": 4532,
+"frase": "Ich dachte schon, du würdest nicht kommen.",
+"traducao": "Eu já estava pensando que você não vinha.",
+"tatoeba": 4921876
+},
+{
+"n": 4575,
+"frase": "Dieser Tee ist sehr gut.",
+"traducao": "Este chá é muito bom.",
+"tatoeba": 367507
+},
+{
+"n": 4593,
+"frase": "Tom geht auf die Dreißig zu.",
+"traducao": "Tom está chegando aos trinta.",
+"tatoeba": 1941013
+},
+{
+"n": 4681,
+"frase": "Tom hasst seine Arbeit.",
+"traducao": "Tom odeia seu trabalho.",
+"tatoeba": 1524537
+},
+{
+"n": 5008,
+"frase": "Heute ist es nicht so kalt wie gestern.",
+"traducao": "Hoje está menos frio que ontem.",
+"tatoeba": 352303
+},
+{
+"n": 5072,
+"frase": "Die Schlüssel waren in meiner Tasche.",
+"traducao": "As chaves estavam na minha bolsa.",
+"tatoeba": 7777142
+},
+{
+"n": 5182,
+"frase": "Wo ist die Bank?",
+"traducao": "Onde fica o banco?",
+"tatoeba": 505581
+},
+{
+"n": 5242,
+"frase": "Tom ist stolz auf Mary.",
+"traducao": "Tom está orgulhoso de Mary.",
+"tatoeba": 6090135
+},
+{
+"n": 5293,
+"frase": "Wir haben eine Theorie.",
+"traducao": "Temos uma teoria.",
+"tatoeba": 4067987
+},
+{
+"n": 5394,
+"frase": "Krieg ist die Hölle.",
+"traducao": "A guerra é o inferno.",
+"tatoeba": 2195472
+},
+{
+"n": 5410,
+"frase": "Hör auf zu weinen!",
+"traducao": "Pare de chorar.",
+"tatoeba": 4772951
+},
+{
+"n": 5449,
+"frase": "Iss das Brot!",
+"traducao": "Coma o pão!",
+"tatoeba": 905527
+},
+{
+"n": 5854,
+"frase": "Er hat die Tür offen gelassen.",
+"traducao": "Ele deixou a porta aberta.",
+"tatoeba": 344432
+},
+{
+"n": 6012,
+"frase": "Dieses Buch hat viele Bilder.",
+"traducao": "Este livro tem muitas imagens.",
+"tatoeba": 1176559
+},
+{
+"n": 6222,
+"frase": "Warum lügen die Leute?",
+"traducao": "Por que as pessoas mentem?",
+"tatoeba": 1241515
+},
+{
+"n": 6232,
+"frase": "Ich werde dich warm halten.",
+"traducao": "Vou te manter aquecida.",
+"tatoeba": 6886925
+},
+{
+"n": 6239,
+"frase": "Jede Frage hat nur eine richtige Antwort.",
+"traducao": "Cada questão tem somente uma resposta correta.",
+"tatoeba": 11102168
+},
+{
+"n": 6278,
+"frase": "Ich bin ein Held.",
+"traducao": "Sou herói.",
+"tatoeba": 360810
+},
+{
+"n": 6517,
+"frase": "Bleib, solange du willst.",
+"traducao": "Fique o tempo que quiser.",
+"tatoeba": 3234950
+},
+{
+"n": 6591,
+"frase": "Dein Vorschlag ist ein bisschen extrem.",
+"traducao": "A sua proposta é meio radical.",
+"tatoeba": 13813291
+},
+{
+"n": 6940,
+"frase": "Sie war ein Genie in Mathematik.",
+"traducao": "Ela era um gênio em matemática.",
+"tatoeba": 760463
+},
+{
+"n": 7004,
+"frase": "\"Kannst du Gitarre spielen?\" \"Ja.\"",
+"traducao": "\"Você sabe tocar guitarra?\" \"Sim.\"",
+"tatoeba": 358353
+},
+{
+"n": 7020,
+"frase": "Iss, solange es heiß ist!",
+"traducao": "Come, enquanto está quente!",
+"tatoeba": 6030128
+},
+{
+"n": 7133,
+"frase": "Die Katze spielt mit dem Ball.",
+"traducao": "O gato está brincando com a bola.",
+"tatoeba": 1684220
+},
+{
+"n": 7186,
+"frase": "Gehen Sie sofort hinaus!",
+"traducao": "Saia imediatamente!",
+"tatoeba": 9940827
+},
+{
+"n": 7216,
+"frase": "Wieviel ist ein Leben wert?",
+"traducao": "Quanto vale uma vida?",
+"tatoeba": 12457777
+},
+{
+"n": 7362,
+"frase": "Ich habe vergebens versucht, ihn zu überzeugen.",
+"traducao": "Tentei em vão convencê-lo.",
+"tatoeba": 3083890
+},
+{
+"n": 7501,
+"frase": "Ich gehe um elf Uhr ins Bett.",
+"traducao": "Eu vou para a cama às onze horas.",
+"tatoeba": 1358772
+},
+{
+"n": 7540,
+"frase": "Die Karte hängt an der Wand.",
+"traducao": "O mapa está na parede.",
+"tatoeba": 2423466
+},
+{
+"n": 7745,
+"frase": "Sie kann nicht mit Sicherheit sagen, wo Maria wohnt.",
+"traducao": "Ela não sabe dizer com certeza onde Maria mora.",
+"tatoeba": 2326317
+},
+{
+"n": 7798,
+"frase": "Er hat seine Frau über das Internet kennengelernt.",
+"traducao": "Ele conheceu a sua esposa pela Internet.",
+"tatoeba": 772837
+},
+{
+"n": 7846,
+"frase": "Tom hat sein Auto nicht gewaschen.",
+"traducao": "Tom não lavou o carro dele.",
+"tatoeba": 13424108
+},
+{
+"n": 7892,
+"frase": "Ich habe zufällig meinen alten Freund am Bahnhof von Tokyo getroffen.",
+"traducao": "Eu encontrei por acaso o meu velho amigo na estação de Tóquio.",
+"tatoeba": 345482
+},
+{
+"n": 7962,
+"frase": "Ich hoffe, es schneit heute nicht.",
+"traducao": "Espero que não neve hoje.",
+"tatoeba": 13326825
+},
+{
+"n": 8081,
+"frase": "Englisch ist eine internationale Sprache geworden.",
+"traducao": "O inglês se tornou uma língua internacional.",
+"tatoeba": 341715
+},
+{
+"n": 8123,
+"frase": "Er hat mir einen Anzug gemacht.",
+"traducao": "Ele me fez um terno.",
+"tatoeba": 1314844
+},
+{
+"n": 8147,
+"frase": "Ist es kostenlos?",
+"traducao": "É de graça?",
+"tatoeba": 562292
+},
+{
+"n": 8185,
+"frase": "Wir zogen uns an.",
+"traducao": "Nós nos vestimos.",
+"tatoeba": 2924203
+},
+{
+"n": 8238,
+"frase": "Ich habe mein neues Paar Handschuhe in der Bibliothek liegen lassen.",
+"traducao": "Eu deixei meu novo par de luvas na biblioteca.",
+"tatoeba": 547740
+},
+{
+"n": 8609,
+"frase": "Ich schwimme.",
+"traducao": "Eu nado.",
+"tatoeba": 7091837
+},
+{
+"n": 8630,
+"frase": "Das Schloss ist jetzt eine Ruine.",
+"traducao": "O castelo está agora em ruínas.",
+"tatoeba": 4455333
+},
+{
+"n": 8679,
+"frase": "War er jemals im Weltraum?",
+"traducao": "Ele já esteve no espaço?",
+"tatoeba": 8727017
+},
+{
+"n": 8685,
+"frase": "Dies ist eine Million Yen wert.",
+"traducao": "Isto vale um milhão de ienes.",
+"tatoeba": 604714
+},
+{
+"n": 8690,
+"frase": "Sie starb an Krebs.",
+"traducao": "Ela morreu de câncer.",
+"tatoeba": 764851
+},
+{
+"n": 8743,
+"frase": "Es ist eine Fälschung.",
+"traducao": "Isso é um fake.",
+"tatoeba": 814969
+},
+{
+"n": 9125,
+"frase": "Was versuchst du zu tun?",
+"traducao": "O que você está tentando fazer?",
+"tatoeba": 362316
+},
+{
+"n": 9127,
+"frase": "Du bist wirklich begabt.",
+"traducao": "Você é realmente talentoso.",
+"tatoeba": 6152761
+},
+{
+"n": 9347,
+"frase": "Wir müssen uns immer gegenseitig helfen.",
+"traducao": "Devemos ajudar um ao outro sempre.",
+"tatoeba": 12279956
+},
+{
+"n": 9617,
+"frase": "Wir teilen unsere Sprache mit Portugal, deshalb studieren wir auch die portugiesische Literatur.",
+"traducao": "Compartilhamos nossa língua com Portugal, logo estudamos também literatura portuguesa.",
+"tatoeba": 1706140
+},
+{
+"n": 9722,
+"frase": "Letztes Jahr haben wir den Fuji bestiegen.",
+"traducao": "Nós escalamos o Monte Fuji ano passado.",
+"tatoeba": 2085916
+},
+{
+"n": 9779,
+"frase": "Ich sehne mich und leide.",
+"traducao": "Sou apenas saudade e sofrimento.",
+"tatoeba": 3433929
+},
+{
+"n": 10076,
+"frase": "Die Hexe rührt den Kessel um.",
+"traducao": "A bruxa está mexendo seu caldeirão.",
+"tatoeba": 6109889
+},
+{
+"n": 10214,
+"frase": "In diesem Fall können Sie es deutlich sehen.",
+"traducao": "Neste caso o senhor pode vê-lo claramente.",
+"tatoeba": 9942080
+},
+{
+"n": 10621,
+"frase": "Die Bücherei ist achtzig Jahre alt.",
+"traducao": "A biblioteca tem oitenta anos.",
+"tatoeba": 1105515
+},
+{
+"n": 10827,
+"frase": "Meine Jacke liegt im Auto.",
+"traducao": "Minha jaqueta está no carro.",
+"tatoeba": 5868341
+},
+{
+"n": 11078,
+"frase": "Du bist ungeduldig.",
+"traducao": "Você é impaciente.",
+"tatoeba": 2868353
+},
+{
+"n": 11118,
+"frase": "Du irrst dich, meine Frau heißt Fernanda.",
+"traducao": "Você está enganado, minha esposa se chama Fernanda.",
+"tatoeba": 6290351
+},
+{
+"n": 11146,
+"frase": "Putz deine Zähne, bevor du schlafen gehst.",
+"traducao": "Escove seus dentes antes de ir dormir.",
+"tatoeba": 372647
+},
+{
+"n": 11609,
+"frase": "Das neue Coronavirus ist überaus ansteckend.",
+"traducao": "O novo coronavírus é muito contagioso.",
+"tatoeba": 8739435
+},
+{
+"n": 11861,
+"frase": "Leute, die die ganze Zeit über sich selber reden, langweilen mich.",
+"traducao": "As pessoas que sempre falam de si mesmas me aborrecem.",
+"tatoeba": 975112
+},
+{
+"n": 11894,
+"frase": "Du siehst fantastisch aus!",
+"traducao": "Estás fantástico!",
+"tatoeba": 6405497
+},
+{
+"n": 12236,
+"frase": "Die Krise betraf unmittelbar unser Land.",
+"traducao": "A crise afetou diretamente o nosso país.",
+"tatoeba": 1880106
+},
+{
+"n": 12252,
+"frase": "Das Hündchen begleitet die Besitzerin.",
+"traducao": "O cãozinho acompanha a dona.",
+"tatoeba": 6961239
+},
+{
+"n": 12418,
+"frase": "Ich kann heute keinen Unterricht geben, weil ich keine Stimme habe: ich bin heiser.",
+"traducao": "Não vou poder dar aula porque estou sem voz. Fiquei rouco.",
+"tatoeba": 10576268
+},
+{
+"n": 12504,
+"frase": "Ich war sehr müde, sodass ich früh zu Bett ging.",
+"traducao": "Eu estava tão cansado que acabei indo para a cama cedo.",
+"tatoeba": 466448
+},
+{
+"n": 12608,
+"frase": "Hast du den Motor überprüft?",
+"traducao": "Você verificou o motor?",
+"tatoeba": 677030
+},
+{
+"n": 12793,
+"frase": "Könntest du das Autofenster aufmachen?",
+"traducao": "Você poderia abrir a janela do carro?",
+"tatoeba": 1089409
+},
+{
+"n": 13074,
+"frase": "Ich sehe heut durchs Augenglas der Liebe.",
+"traducao": "Hoje eu enxergo com os óculos do amor.",
+"tatoeba": 1643371
+},
+{
+"n": 13087,
+"frase": "Der Eid ist nur in Anwesenheit des Richters gültig.",
+"traducao": "O juramento só vale na presença do juiz.",
+"tatoeba": 1661654
+},
+{
+"n": 13141,
+"frase": "Da ist noch ein Schlückchen Whisky in der Flasche.",
+"traducao": "Tem um restinho de uísque nessa garrafa.",
+"tatoeba": 1702714
+},
+{
+"n": 13193,
+"frase": "Tiefe Regenwolken hängen über uns am Abendhimmel.",
+"traducao": "Nuvens de chuva escuras pairam sobre nós no céu da tarde.",
+"tatoeba": 1746078
+},
+{
+"n": 13317,
+"frase": "Schokolade macht nicht dick, sie formt bloß!",
+"traducao": "Chocolate não engorda, apenas modela!",
+"tatoeba": 1927295
+},
+{
+"n": 13338,
+"frase": "Hühner, die daheim essen und anderswo legen, soll man auf einen Bratspieß ziehen.",
+"traducao": "Galinha que come em casa e bota ovos em outro lugar deve ser assada num espeto.",
+"tatoeba": 1950398
+},
+{
+"n": 13470,
+"frase": "Du bist eine Leseratte.",
+"traducao": "Você é um rato de biblioteca.",
+"tatoeba": 2242208
+},
+{
+"n": 13824,
+"frase": "Das hast du sehr diplomatisch formuliert.",
+"traducao": "Você se expressou de maneira bastante diplomática.",
+"tatoeba": 2869980
+},
+{
+"n": 13833,
+"frase": "Einige Politiker mahnen zu Besonnenheit, andere gießen Öl ins Feuer.",
+"traducao": "Alguns políticos aconselham prudência, outros jogam lenha na fogueira.",
+"tatoeba": 2877100
+},
+{
+"n": 13861,
+"frase": "Verschiebe nicht auf morgen, was auch bis übermorgen Zeit hat.",
+"traducao": "Não adies para amanhã aquilo que puder ser feito até depois de amanhã.",
+"tatoeba": 2954277
+},
+{
+"n": 13865,
+"frase": "Tom erkannte schnell, dass die Wissenschaftler der Akademie allesamt dem Wahnsinn anheimgefallen waren und ihm keine Hilfe sein konnten.",
+"traducao": "Tom logo descobriu que os cientistas da academia enlouqueceram e em nada poderiam ajudá-lo.",
+"tatoeba": 2972999
+},
+{
+"n": 13879,
+"frase": "Gegen Glatzen gibt es kein Mittel.",
+"traducao": "Não existe cura para a calvície.",
+"tatoeba": 2998008
+},
+{
+"n": 14038,
+"frase": "Ist es wirklich gerechtfertigt, ihn dogmatisch zu nennen?",
+"traducao": "Será que realmente se justifica chamá-lo de dogmático?",
+"tatoeba": 3406854
+},
+{
+"n": 14124,
+"frase": "Wir sind Blutsbrüder.",
+"traducao": "Nós somos irmãos de sangue.",
+"tatoeba": 3751048
+},
+{
+"n": 14246,
+"frase": "Dieses Lied erinnert mich an meine Heimatstadt.",
+"traducao": "Essa canção me faz lembrar de minha cidade natal.",
+"tatoeba": 4561112
+},
+{
+"n": 14355,
+"frase": "In seiner Jugend spielte mein Großvater in einem Bordell Klavier, um sich seinen Lebensunterhalt zu verdienen.",
+"traducao": "Quando jovem, para ganhar a vida, meu avô tocava piano em um bordel.",
+"tatoeba": 4933598
+},
+{
+"n": 14520,
+"frase": "In der Spüle ist schmutziges Geschirr.",
+"traducao": "Na pia há louça suja.",
+"tatoeba": 5338615
+},
+{
+"n": 14700,
+"frase": "Ein Präsident ist wie ein Friedhofsverwalter. Er hat eine Menge Leute unter sich, aber keiner hört zu.",
+"traducao": "Um presidente é qual um gerente de cemitério. Ele tem muitas pessoas abaixo de si, mas ninguém o escuta.",
+"tatoeba": 6173430
+},
+{
+"n": 14794,
+"frase": "Ich bin non-binär.",
+"traducao": "Eu sou não binárie.",
+"tatoeba": 6216151
+},
+{
+"n": 14867,
+"frase": "In Moskau leben die Moskauer, in Paris die Pariser und in Berlin die Berliner.",
+"traducao": "Em Moscou vivem os moscovitas, em Paris os parisienses e em Berlim os berlinenses.",
+"tatoeba": 6314549
+},
+{
+"n": 14909,
+"frase": "Kinder sind wie kleine Sonnen, die auf wundersame Weise Wärme, Glück und Licht in unser Leben bringen.",
+"traducao": "As crianças são como pequenos sóis, que milagrosamente trazem luz, calor e felicidade para nossas vidas.",
+"tatoeba": 6391981
+},
+{
+"n": 15035,
+"frase": "Der nächste Montag wäre mir genehm.",
+"traducao": "Próxima segunda vai ser bom para mim.",
+"tatoeba": 7456884
+},
+{
+"n": 15159,
+"frase": "Die haben eine orangefarbene Katze.",
+"traducao": "Eles têm um gato laranja.",
+"tatoeba": 9670220
+},
+{
+"n": 15303,
+"frase": "Tom hat keine politische Erfahrung.",
+"traducao": "Tom não tem experiência política.",
+"tatoeba": 10223936
+},
+{
+"n": 15337,
+"frase": "Im Esperanto enden Adjektive auf -a; der Plural wird gebildet, indem man -j anhängt.",
+"traducao": "Em esperanto, os adjetivos terminam em \"a\". O plural se forma adicionando um \"j\".",
+"tatoeba": 10502267
+},
+{
+"n": 15488,
+"frase": "Mein Freund ist Fernsehreporter.",
+"traducao": "Meu amigo é jornalista de televisão.",
+"tatoeba": 12456202
+},
+{
+"n": 15498,
+"frase": "Platin ist ein chemisches Element mit dem Symbol Pt.",
+"traducao": "A platina é um elemento químico de símbolo Pt.",
+"tatoeba": 12484823
+},
+{
+"n": 15574,
+"frase": "Eine Gruppe von Wölfen ist ein Rudel.",
+"traducao": "Um grupo de lobos é uma alcateia.",
+"tatoeba": 13396399
+},
+{
+"n": 15773,
+"frase": "Ich habe vor, einen langen Urlaub zu nehmen, sobald ich die Prüfungen abgeschlossen habe.",
+"traducao": "Eu pretendo tirar longas férias, tão logo termine os exames.",
+"tatoeba": 1737438
+},
+{
+"n": 15906,
+"frase": "Was ist der Unterschied zwischen Stalaktiten und Stalagmiten?",
+"traducao": "Qual é a diferença entre estalactite e estalagmite?",
+"tatoeba": 11508494
+},
+{
+"n": 15913,
+"frase": "Mein Name ist Duschana.",
+"traducao": "Meu nome é Dušana.",
+"tatoeba": 11639639
+},
+{
+"n": 15924,
+"frase": "Das ist ein Kraterkessel.",
+"traducao": "Isto é uma caldeira.",
+"tatoeba": 11968870
+},
+{
+"n": 15947,
+"frase": "Wanderameisen haben kein festes Nest.",
+"traducao": "As formigas-correição não têm um ninho fixo.",
+"tatoeba": 13996999
+},
+{
+"n": 16010,
+"frase": "Mein Hobby ist es, alte Flaschen zu sammeln.",
+"traducao": "Meu hobby é colecionar garrafas antigas.",
+"tatoeba": 367340
+},
+{
+"n": 16171,
+"frase": "Er lebt komfortabel.",
+"traducao": "Ele vive confortavelmente.",
+"tatoeba": 561314
+},
+{
+"n": 16403,
+"frase": "Du musst dich nicht im Stillen grämen.",
+"traducao": "Você não tem de sofrer em silêncio.",
+"tatoeba": 1360877
+},
+{
+"n": 16635,
+"frase": "Ich höre das Vogelgezwitscher.",
+"traducao": "Eu ouço o chilrear dos pássaros.",
+"tatoeba": 6121770
+},
+{
+"n": 16696,
+"frase": "Sie haben uns die Pässe weggenommen.",
+"traducao": "Levaram-nos os passaportes.",
+"tatoeba": 6366142
+},
+{
+"n": 16847,
+"frase": "Auch eine kaputte Uhr zeigt zweimal am Tag die richtige Zeit.",
+"traducao": "Até mesmo um relógio quebrado está certo duas vezes ao dia.",
+"tatoeba": 11689603
+},
+{
+"n": 16959,
+"frase": "Der Arbeitgeber kann die Streikenden nicht ersetzen.",
+"traducao": "O empregador não pode substituir os grevistas.",
+"tatoeba": 387002
+}
+],
+"pt-it": [
+{
+"n": 58,
+"frase": "Io voglio andare con Tom.",
+"traducao": "Eu quero ir com o Tom.",
+"tatoeba": 2829360
+},
+{
+"n": 128,
+"frase": "So che Tom ha una casa a Boston.",
+"traducao": "Eu sei que o Tom tem uma casa em Boston.",
+"tatoeba": 3322389
+},
+{
+"n": 152,
+"frase": "Alice non mi piace.",
+"traducao": "Eu não gosto de Alice.",
+"tatoeba": 423445
+},
+{
+"n": 158,
+"frase": "Io voglio un libro.",
+"traducao": "Eu quero um livro.",
+"tatoeba": 1144619
+},
+{
+"n": 387,
+"frase": "Oggi è domenica.",
+"traducao": "Hoje é domingo.",
+"tatoeba": 374299
+},
+{
+"n": 406,
+"frase": "Spero di aver fatto bene.",
+"traducao": "Espero ter feito bem.",
+"tatoeba": 1132862
+},
+{
+"n": 452,
+"frase": "Mi ha dato un orologio.",
+"traducao": "Deu-me um relógio.",
+"tatoeba": 1246548
+},
+{
+"n": 590,
+"frase": "Lui al pianoforte è meglio di me.",
+"traducao": "Ele é melhor no piano do que eu.",
+"tatoeba": 1179925
+},
+{
+"n": 626,
+"frase": "Io spero che sia tutto.",
+"traducao": "Eu espero que seja tudo.",
+"tatoeba": 5207069
+},
+{
+"n": 634,
+"frase": "Questa è mia amica.",
+"traducao": "Esta é minha amiga.",
+"tatoeba": 677377
+},
+{
+"n": 651,
+"frase": "Non è un pesce.",
+"traducao": "Não é um peixe.",
+"tatoeba": 1513672
+},
+{
+"n": 653,
+"frase": "Io penso che quel fatto sia molto importante.",
+"traducao": "Acho que esse fato é muito importante.",
+"tatoeba": 2354334
+},
+{
+"n": 685,
+"frase": "John ama Mary.",
+"traducao": "O John ama a Mary.",
+"tatoeba": 5534414
+},
+{
+"n": 722,
+"frase": "Questo è vino bianco.",
+"traducao": "Isto é vinho branco.",
+"tatoeba": 11710429
+},
+{
+"n": 821,
+"frase": "Devo andare in bagno.",
+"traducao": "Preciso ir ao banheiro.",
+"tatoeba": 1421915
+},
+{
+"n": 832,
+"frase": "Non è difficile parlare in francese.",
+"traducao": "Não é difícil falar francês.",
+"tatoeba": 6687614
+},
+{
+"n": 931,
+"frase": "Vi piace la Cina?",
+"traducao": "Vocês gostam da China?",
+"tatoeba": 1020312
+},
+{
+"n": 936,
+"frase": "Sto imparando la musica.",
+"traducao": "Estou aprendendo música.",
+"tatoeba": 3641164
+},
+{
+"n": 1113,
+"frase": "Tom non sa leggere la musica.",
+"traducao": "Tom não sabe ler música.",
+"tatoeba": 5207604
+},
+{
+"n": 1122,
+"frase": "Ma è ancora vivo?",
+"traducao": "Mas ainda está vivo?",
+"tatoeba": 3441954
+},
+{
+"n": 1127,
+"frase": "Non so nulla di Tom.",
+"traducao": "Não sei nada sobre Tom.",
+"tatoeba": 2846520
+},
+{
+"n": 1137,
+"frase": "Questa è una buona casa.",
+"traducao": "Essa é uma boa casa.",
+"tatoeba": 6092325
+},
+{
+"n": 1188,
+"frase": "Tom non mangia quanto Mary.",
+"traducao": "Tom não come tanto quanto a Mary.",
+"tatoeba": 4509167
+},
+{
+"n": 1200,
+"frase": "Sono un insegnante d'inglese.",
+"traducao": "Sou professor de inglês.",
+"tatoeba": 3343915
+},
+{
+"n": 1232,
+"frase": "È un nome portoghese.",
+"traducao": "É um nome português.",
+"tatoeba": 5927252
+},
+{
+"n": 1312,
+"frase": "Non c'è nulla da fare.",
+"traducao": "Não há nada a fazer.",
+"tatoeba": 2584740
+},
+{
+"n": 1343,
+"frase": "È già successo più volte.",
+"traducao": "Já aconteceu várias vezes.",
+"tatoeba": 3230386
+},
+{
+"n": 1512,
+"frase": "Io ho già parlato con lui.",
+"traducao": "Eu já falei com ele.",
+"tatoeba": 5771112
+},
+{
+"n": 1638,
+"frase": "\"Che cosa vuoi?\" \"Voglio un cane.\"",
+"traducao": "\"O que você quer?\" \"Eu quero um cão.\"",
+"tatoeba": 2749113
+},
+{
+"n": 1684,
+"frase": "Io odio fare questo.",
+"traducao": "Eu odeio fazer isso.",
+"tatoeba": 4667433
+},
+{
+"n": 1697,
+"frase": "Io non ho più nulla da dire a Marika.",
+"traducao": "Eu não tenho mais nada a dizer para Marika.",
+"tatoeba": 3790045
+},
+{
+"n": 1753,
+"frase": "Ho finito di fare il bagno.",
+"traducao": "Acabei de tomar banho.",
+"tatoeba": 3696067
+},
+{
+"n": 1771,
+"frase": "Io mi chiamo Wang.",
+"traducao": "Meu nome é Wang.",
+"tatoeba": 2695175
+},
+{
+"n": 1776,
+"frase": "Sono ancora troppo giovane per farlo.",
+"traducao": "Ainda sou muito novo para fazer isso.",
+"tatoeba": 8095659
+},
+{
+"n": 1832,
+"frase": "Dov'è la mia automobile?",
+"traducao": "Onde está o meu carro?",
+"tatoeba": 1999833
+},
+{
+"n": 1889,
+"frase": "Scrivere è utile.",
+"traducao": "Escrever é útil.",
+"tatoeba": 2587943
+},
+{
+"n": 1891,
+"frase": "Mi piace il cibo cinese.",
+"traducao": "Gosto de comida chinesa.",
+"tatoeba": 1594802
+},
+{
+"n": 1964,
+"frase": "Tu pensi troppo.",
+"traducao": "Você pensa demais.",
+"tatoeba": 374400
+},
+{
+"n": 2088,
+"frase": "Non siamo diversi da Tom.",
+"traducao": "Não somos diferentes de Tom.",
+"tatoeba": 5098579
+},
+{
+"n": 2143,
+"frase": "Abbiamo delle mele gialle.",
+"traducao": "Temos maçãs amarelas.",
+"tatoeba": 5551621
+},
+{
+"n": 2144,
+"frase": "Ora ricordo.",
+"traducao": "Agora eu me lembro.",
+"tatoeba": 439884
+},
+{
+"n": 2170,
+"frase": "Fate attenzione.",
+"traducao": "Prestem atenção.",
+"tatoeba": 2196808
+},
+{
+"n": 2200,
+"frase": "Vieni dall'Olanda?",
+"traducao": "Você é da Holanda?",
+"tatoeba": 8986400
+},
+{
+"n": 2426,
+"frase": "Il Giappone è un bel paese.",
+"traducao": "O Japão é um belo país.",
+"tatoeba": 386329
+},
+{
+"n": 2442,
+"frase": "Penso che tu abbia proprio ragione.",
+"traducao": "Eu acho que você realmente tem razão.",
+"tatoeba": 921301
+},
+{
+"n": 2532,
+"frase": "Buongiorno Chicago!",
+"traducao": "Bom dia, Chicago!",
+"tatoeba": 1565177
+},
+{
+"n": 2546,
+"frase": "Il segno '&' significa 'e'.",
+"traducao": "A marca '&' significa 'e'.",
+"tatoeba": 2196441
+},
+{
+"n": 2579,
+"frase": "Prego, da questa parte.",
+"traducao": "Desta forma, por favor.",
+"tatoeba": 359422
+},
+{
+"n": 2584,
+"frase": "Questa è la bandiera del Giappone.",
+"traducao": "Esta é a bandeira do Japão.",
+"tatoeba": 624797
+},
+{
+"n": 2608,
+"frase": "Quanti anni ha tuo figlio maggiore?",
+"traducao": "Quantos anos tem seu filho mais velho?",
+"tatoeba": 735553
+},
+{
+"n": 2647,
+"frase": "Non trovo la notizia da nessuna parte.",
+"traducao": "Não encontro a notícia em nenhuma parte.",
+"tatoeba": 1679514
+},
+{
+"n": 2662,
+"frase": "Per chi sono questi fiori?",
+"traducao": "Para quem são estas flores?",
+"tatoeba": 4514293
+},
+{
+"n": 2900,
+"frase": "Tra una teoria e un’idea c’è una grande differenza.",
+"traducao": "Entre uma teoria e uma ideia há uma grande diferença.",
+"tatoeba": 1208568
+},
+{
+"n": 2925,
+"frase": "Nara è una città molto vecchia.",
+"traducao": "Nara é uma cidade muito velha.",
+"tatoeba": 373686
+},
+{
+"n": 2938,
+"frase": "A Tom piace guardare lo sport in televisione.",
+"traducao": "Tom gosta de ver esporte na televisão.",
+"tatoeba": 5209561
+},
+{
+"n": 3044,
+"frase": "Sono stata negli Stati Uniti due volte.",
+"traducao": "Fui duas vezes aos Estados Unidos da América.",
+"tatoeba": 1010992
+},
+{
+"n": 3164,
+"frase": "Sono già dieci anni che siamo sposati.",
+"traducao": "Já faz dez anos que nós nos casamos.",
+"tatoeba": 886455
+},
+{
+"n": 3269,
+"frase": "Mi dispiace. Non ho molto tempo.",
+"traducao": "Lamento. Não tenho muito tempo.",
+"tatoeba": 2143237
+},
+{
+"n": 3335,
+"frase": "Io vengo da Kyoto.",
+"traducao": "Sou de Quioto.",
+"tatoeba": 3340812
+},
+{
+"n": 3346,
+"frase": "Questa è un'automobile e quello è un autobus.",
+"traducao": "Isso é um carro e aquilo é um ônibus.",
+"tatoeba": 3749674
+},
+{
+"n": 3441,
+"frase": "Ero stanca ieri sera.",
+"traducao": "Eu estava cansada ontem à noite.",
+"tatoeba": 6545094
+},
+{
+"n": 3450,
+"frase": "Andiamo all'acquario.",
+"traducao": "Vamos ao aquário.",
+"tatoeba": 6104817
+},
+{
+"n": 3492,
+"frase": "Non ha un buon odore ?",
+"traducao": "Não cheira bem?",
+"tatoeba": 14039381
+},
+{
+"n": 3644,
+"frase": "La borsa è marrone.",
+"traducao": "A bolsa é marrom.",
+"tatoeba": 2581756
+},
+{
+"n": 3652,
+"frase": "Cosa desidera?",
+"traducao": "Que deseja a senhora?",
+"tatoeba": 3256523
+},
+{
+"n": 3728,
+"frase": "Qualcuno può rispondere a quello?",
+"traducao": "Alguém pode responder a isso?",
+"tatoeba": 8469338
+},
+{
+"n": 3853,
+"frase": "Che bella sorpresa!",
+"traducao": "Que bela surpresa!",
+"tatoeba": 717899
+},
+{
+"n": 3878,
+"frase": "Perché lo chiedi?",
+"traducao": "Por que você pergunta?",
+"tatoeba": 4382
+},
+{
+"n": 3910,
+"frase": "Tom era un artista.",
+"traducao": "Tom era um artista.",
+"tatoeba": 4555121
+},
+{
+"n": 4002,
+"frase": "Uso Firefox.",
+"traducao": "Eu uso o Firefox.",
+"tatoeba": 439310
+},
+{
+"n": 4033,
+"frase": "Sono macedone.",
+"traducao": "Eu sou macedônio.",
+"tatoeba": 3309001
+},
+{
+"n": 4065,
+"frase": "Se io ora vivo a Madrid, un motivo ci sarà!",
+"traducao": "Se eu estou morando em Madri agora, um motivo deve haver!",
+"tatoeba": 1420009
+},
+{
+"n": 4088,
+"frase": "Qualcuno sta urlando il mio nome.",
+"traducao": "Alguém está gritando meu nome.",
+"tatoeba": 4751472
+},
+{
+"n": 4114,
+"frase": "Potevo dire dal suo accento che era un francese.",
+"traducao": "Eu podia dizer que, a partir do seu sotaque, era um francês.",
+"tatoeba": 2414946
+},
+{
+"n": 4272,
+"frase": "Lui è un po' selvaggio.",
+"traducao": "Ele é um pouco selvagem.",
+"tatoeba": 995839
+},
+{
+"n": 4279,
+"frase": "Tu sei matto.",
+"traducao": "Você é louco.",
+"tatoeba": 894171
+},
+{
+"n": 4291,
+"frase": "Non voglio offenderla.",
+"traducao": "Não vos quero ofender.",
+"tatoeba": 2221452
+},
+{
+"n": 4325,
+"frase": "Però manchi tu!",
+"traducao": "Mas está faltando você!",
+"tatoeba": 3441834
+},
+{
+"n": 4333,
+"frase": "Il concetto è lo stesso!",
+"traducao": "O conceito é o mesmo!",
+"tatoeba": 1436867
+},
+{
+"n": 4345,
+"frase": "È meglio che non lo mangi.",
+"traducao": "É melhor eu não comer isso.",
+"tatoeba": 10048636
+},
+{
+"n": 4349,
+"frase": "Guardi la televisione?",
+"traducao": "Você assiste televisão?",
+"tatoeba": 373881
+},
+{
+"n": 4351,
+"frase": "Ho molti nemici.",
+"traducao": "Eu tenho muitos inimigos.",
+"tatoeba": 5860633
+},
+{
+"n": 4371,
+"frase": "Maria è la mia sorella minore.",
+"traducao": "Maria é minha irmã mais nova.",
+"tatoeba": 9724065
+},
+{
+"n": 4462,
+"frase": "Lei è la mia figlia adottiva.",
+"traducao": "Ela é a minha filha adotiva.",
+"tatoeba": 7833886
+},
+{
+"n": 4533,
+"frase": "Prenderò quella gialla.",
+"traducao": "Eu levarei aquela amarela.",
+"tatoeba": 945615
+},
+{
+"n": 4564,
+"frase": "I ragazzi non hanno rispetto per le ragazze.",
+"traducao": "Os garotos não têm respeito pelas garotas.",
+"tatoeba": 7242987
+},
+{
+"n": 4573,
+"frase": "Gli amici fanno cose insieme.",
+"traducao": "Amigos fazem coisas juntos.",
+"tatoeba": 808962
+},
+{
+"n": 4616,
+"frase": "Apprezziamo il suo interesse.",
+"traducao": "Apreciamos o seu interesse.",
+"tatoeba": 4513554
+},
+{
+"n": 4669,
+"frase": "Tom aveva una sola gamba.",
+"traducao": "Tom só tinha uma perna.",
+"tatoeba": 8616298
+},
+{
+"n": 4905,
+"frase": "Devo pulire il bagno adesso.",
+"traducao": "Eu preciso limpar o banheiro agora.",
+"tatoeba": 960217
+},
+{
+"n": 4915,
+"frase": "Questo mi sta facendo diventare pazzo.",
+"traducao": "Isso está me deixando louco.",
+"tatoeba": 1019346
+},
+{
+"n": 4956,
+"frase": "Ho una grande collezione di francobolli.",
+"traducao": "Tenho uma grande coleção de selos.",
+"tatoeba": 1133005
+},
+{
+"n": 5000,
+"frase": "Lui è veramente in buona forma.",
+"traducao": "Ele está realmente em boa forma.",
+"tatoeba": 1679365
+},
+{
+"n": 5050,
+"frase": "Sei troppo intelligente per rimanere in Italia.",
+"traducao": "Você é inteligente demais para permanecer na Itália.",
+"tatoeba": 1679114
+},
+{
+"n": 5138,
+"frase": "Vogliamo prenotare un viaggio per Israele.",
+"traducao": "Nós queremos reservar uma viagem para Israel.",
+"tatoeba": 7672312
+},
+{
+"n": 5147,
+"frase": "È così divertente parlare in così tante lingue.",
+"traducao": "É muito engraçado falar em vários idiomas.",
+"tatoeba": 3070969
+},
+{
+"n": 5180,
+"frase": "Non vai a costruire strade in Sudafrica?",
+"traducao": "Não vai construir estradas na África do Sul?",
+"tatoeba": 7618610
+},
+{
+"n": 5183,
+"frase": "Non vogliamo andare in Libano.",
+"traducao": "Não queremos ir ao Líbano.",
+"tatoeba": 6988801
+},
+{
+"n": 5378,
+"frase": "Perché non sei tornato indietro per loro?",
+"traducao": "Por que é que não voltaste para eles?",
+"tatoeba": 6198343
+},
+{
+"n": 5425,
+"frase": "Tu sei metodico.",
+"traducao": "Tu és metódico.",
+"tatoeba": 5288317
+},
+{
+"n": 5442,
+"frase": "Voi avete nuotato molto?",
+"traducao": "Vocês nadaram muito?",
+"tatoeba": 7016991
+},
+{
+"n": 5464,
+"frase": "Noi non mangiamo quasi mai fuori.",
+"traducao": "Nós quase não almoçamos fora.",
+"tatoeba": 7047692
+},
+{
+"n": 5617,
+"frase": "Javier diventò rosso.",
+"traducao": "Javier ficou vermelho.",
+"tatoeba": 538894
+},
+{
+"n": 5663,
+"frase": "E se io fossi gay, sarebbe un crimine?",
+"traducao": "E se eu fosse gay? Isso seria um crime?",
+"tatoeba": 754106
+},
+{
+"n": 5718,
+"frase": "Ha sbagliato a baciare la mano.",
+"traducao": "Ele não deveria ter beijado sua mão.",
+"tatoeba": 1509512
+},
+{
+"n": 5728,
+"frase": "Mary è molto spaventata, vero?",
+"traducao": "Mary está muito assustada, certo?",
+"tatoeba": 10009918
+},
+{
+"n": 5753,
+"frase": "Toc toc. Chi è?",
+"traducao": "Toc, toc. Quem está aí?",
+"tatoeba": 1648209
+},
+{
+"n": 5794,
+"frase": "Mi piacciono i cartoni animati.",
+"traducao": "Gosto de desenhos.",
+"tatoeba": 1964125
+},
+{
+"n": 5862,
+"frase": "Può marcire all'inferno.",
+"traducao": "Ele pode apodrecer no inferno.",
+"tatoeba": 2913918
+},
+{
+"n": 5974,
+"frase": "Lui si trovava nel posto sbagliato nel momento sbagliato.",
+"traducao": "Ele estava no lugar errado na hora errada.",
+"tatoeba": 4244236
+},
+{
+"n": 6049,
+"frase": "Sei competitivo.",
+"traducao": "Tu és competitivo.",
+"tatoeba": 5288423
+},
+{
+"n": 6054,
+"frase": "Sei patetica.",
+"traducao": "Tu és patética.",
+"tatoeba": 5293725
+},
+{
+"n": 6267,
+"frase": "In principio Dio creò il cielo e la terra.",
+"traducao": "No princípio Deus criou os céus e a terra.",
+"tatoeba": 610753
+},
+{
+"n": 6484,
+"frase": "Il neurone è l'unità cellulare che costituisce il tessuto nervoso e che contribuisce alla formazione del sistema nervoso.",
+"traducao": "O neurónio é a unidade celular que constitui o tecido nervoso e contribui para a formação do sistema nervoso.",
+"tatoeba": 6156336
+},
+{
+"n": 6528,
+"frase": "C'era un piccolo numero di stranieri fra i visitatori del museo.",
+"traducao": "Havia um pequeno número de estrangeiros entre os visitantes do museu.",
+"tatoeba": 418417
+},
+{
+"n": 6548,
+"frase": "Cosa? Non riesco a sentirti.",
+"traducao": "Quê? Não te escuto.",
+"tatoeba": 601788
+},
+{
+"n": 6615,
+"frase": "Judy passa molto tempo a guardarsi allo specchio.",
+"traducao": "Judy passa muito tempo olhando-se ao espelho.",
+"tatoeba": 755325
+},
+{
+"n": 6658,
+"frase": "Gli elefanti africani sono più grandi degli elefanti asiatici.",
+"traducao": "Os elefantes africanos são maiores que os asiáticos.",
+"tatoeba": 967827
+},
+{
+"n": 6745,
+"frase": "Ha firmato l'assegno.",
+"traducao": "Ele assinou o cheque.",
+"tatoeba": 1246369
+},
+{
+"n": 6755,
+"frase": "I primi colonizzatori degli Stati Uniti d'America erano inglesi e francesi.",
+"traducao": "Os primeiros colonizadores dos Estados Unidos da América eram ingleses e franceses.",
+"tatoeba": 1274668
+},
+{
+"n": 6868,
+"frase": "È una persona equilibrata.",
+"traducao": "É uma pessoa equilibrada.",
+"tatoeba": 1677578
+},
+{
+"n": 6939,
+"frase": "I cattolici sono quasi tutti così.",
+"traducao": "Os católicos são quase todos assim.",
+"tatoeba": 1984231
+},
+{
+"n": 7007,
+"frase": "Ha dato una spazzolata veloce alle mie scarpe.",
+"traducao": "Ela deu uma rápida escovada em meus sapatos.",
+"tatoeba": 2586576
+},
+{
+"n": 7041,
+"frase": "Mi chiedo cos'abbiano in comune Tom e Mary.",
+"traducao": "Questiono-me sobre o que terão em comum o Tomás e a Maria.",
+"tatoeba": 2752320
+},
+{
+"n": 7119,
+"frase": "Hitler non avrebbe invaso la Russia, qualora avesse previsto la disfatta del suo esercito.",
+"traducao": "Hitler não teria invadido a Rússia, se tivesse previsto a derrota de seu exército.",
+"tatoeba": 3123158
+},
+{
+"n": 7179,
+"frase": "La ciliegia è rossa.",
+"traducao": "A cereja é vermelha.",
+"tatoeba": 3324824
+},
+{
+"n": 7239,
+"frase": "Non ha sanguinato dal naso.",
+"traducao": "O nariz dele não sangrou.",
+"tatoeba": 3483337
+},
+{
+"n": 7491,
+"frase": "Non oso immaginare il dolore.",
+"traducao": "Não ouso imaginar a dor.",
+"tatoeba": 4909091
+},
+{
+"n": 7508,
+"frase": "Gli italiani mangiano pasta.",
+"traducao": "Os italianos comem macarrão.",
+"tatoeba": 5027476
+},
+{
+"n": 7541,
+"frase": "Mia nonna è ancora molto attiva a ottantacinque anni.",
+"traducao": "Minha avó ainda é muito ativa aos oitenta e cinco anos.",
+"tatoeba": 5240836
+},
+{
+"n": 7711,
+"frase": "È divisa in tre parti.",
+"traducao": "Está dividida em três partes.",
+"tatoeba": 6829286
+},
+{
+"n": 7811,
+"frase": "Avete detto veramente a Mary che la odiavate?",
+"traducao": "Vocês disseram realmente a Mary que a odiavam?",
+"tatoeba": 8417254
+},
+{
+"n": 8004,
+"frase": "Ha comprato molta farina e molto olio.",
+"traducao": "Ele comprou muita farinha e muito óleo.",
+"tatoeba": 713906
+},
+{
+"n": 8238,
+"frase": "Tu sei disorganizzata.",
+"traducao": "Tu és desorganizada.",
+"tatoeba": 5284822
+},
+{
+"n": 8280,
+"frase": "\"Di che nazionalità sono i loro vicini?\" \"Finlandese.\"",
+"traducao": "\"De que nacionalidade são os vizinhos deles?\" \"Finlandesa\".",
+"tatoeba": 6746738
+},
+{
+"n": 8288,
+"frase": "A Tom piace ascoltare il jazz.",
+"traducao": "Tom gosta de escutar jazz.",
+"tatoeba": 6284920
+},
+{
+"n": 8320,
+"frase": "Qualche volta sento mio padre che canta in bagno.",
+"traducao": "Às vezes, eu ouço o meu pai cantar no banheiro.",
+"tatoeba": 411800
+},
+{
+"n": 8346,
+"frase": "Io ho bisogno di più coperte.",
+"traducao": "Eu preciso de mais cobertores.",
+"tatoeba": 2847674
+},
+{
+"n": 8565,
+"frase": "Il sole scomparve dietro una nuvola.",
+"traducao": "O sol escondeu-se detrás da nuvem.",
+"tatoeba": 375032
+},
+{
+"n": 8666,
+"frase": "Mi congratulo!",
+"traducao": "Parabéns!",
+"tatoeba": 1194870
+},
+{
+"n": 8701,
+"frase": "Ci sono persone affogate dai debiti.",
+"traducao": "Há pessoas atoladas em dívidas.",
+"tatoeba": 2197040
+},
+{
+"n": 8785,
+"frase": "Impegnati nello studio ed avrai successo.",
+"traducao": "Se esforce nos estudo que você terá sucesso.",
+"tatoeba": 847539
+},
+{
+"n": 8808,
+"frase": "L'ho persuaso a prenderci parte.",
+"traducao": "Eu o persuadi a tomar parte nisso.",
+"tatoeba": 961791
+},
+{
+"n": 8900,
+"frase": "Si rischia di dire una marea di stupidaggini.",
+"traducao": "Ele (a) se arrisca dizer um mar de estupides.",
+"tatoeba": 1738747
+},
+{
+"n": 8938,
+"frase": "Pensavo poteste essere curiosi.",
+"traducao": "Pensei que pudesse estar curioso.",
+"tatoeba": 2760336
+},
+{
+"n": 9038,
+"frase": "Gesù Cristo sia lodato.",
+"traducao": "Jesus Cristo seja louvado.",
+"tatoeba": 9750889
+},
+{
+"n": 9052,
+"frase": "Lo costrinsero a firmare il contratto.",
+"traducao": "Obrigaram-no a assinar o contrato.",
+"tatoeba": 10843822
+},
+{
+"n": 9064,
+"frase": "Lui non riusciva a vedere alcuna differenza tra i gemelli.",
+"traducao": "Ele não conseguia ver nenhuma diferença entre os gémeos.",
+"tatoeba": 13991797
+},
+{
+"n": 9086,
+"frase": "Fu sorpresa di vedere il fantasma.",
+"traducao": "Ela ficou surpresa de ver o fantasma.",
+"tatoeba": 711459
+},
+{
+"n": 9173,
+"frase": "Nell'aula ci sono molte gomme da cancellare dimenticate.",
+"traducao": "Na sala de aula, tem muitas borrachas esquecidas.",
+"tatoeba": 9944029
+}
+],
+"pt-fr": [
+{
+"n": 13,
+"frase": "Il y a quelqu'un ?",
+"traducao": "Tem alguém aí?",
+"tatoeba": 126571
+},
+{
+"n": 55,
+"frase": "C'est la vie.",
+"traducao": "É a vida!",
+"tatoeba": 638734
+},
+{
+"n": 181,
+"frase": "Moi je suis Tom.",
+"traducao": "Sou Tom.",
+"tatoeba": 2009324
+},
+{
+"n": 800,
+"frase": "A-t-il des enfants ?",
+"traducao": "Ele tem filhos?",
+"tatoeba": 181027
+},
+{
+"n": 1454,
+"frase": "Vous êtes important.",
+"traducao": "Tu és importante.",
+"tatoeba": 1121141
+},
+{
+"n": 1514,
+"frase": "L'homme est ce qu'il fait.",
+"traducao": "O homem é aquilo que faz.",
+"tatoeba": 6971128
+},
+{
+"n": 1645,
+"frase": "Tom vient demain.",
+"traducao": "Tom vem amanhã.",
+"tatoeba": 4018829
+},
+{
+"n": 2292,
+"frase": "Où avez-vous fait faire le costume ?",
+"traducao": "Onde você mandou fazer esse terno?",
+"tatoeba": 1358902
+},
+{
+"n": 2386,
+"frase": "Nager, c'est bon pour la santé.",
+"traducao": "Nadar faz bem à saúde.",
+"tatoeba": 590814
+},
+{
+"n": 2778,
+"frase": "Ma famille n'est pas très grande.",
+"traducao": "Minha família não é muito grande.",
+"tatoeba": 980116
+},
+{
+"n": 3060,
+"frase": "Le Japon est un pays riche.",
+"traducao": "O Japão é um país rico.",
+"tatoeba": 129756
+},
+{
+"n": 3492,
+"frase": "Ce costume a l'air vraiment cher.",
+"traducao": "Acredito que esse conjunto seja muito caro.",
+"tatoeba": 829129
+},
+{
+"n": 3789,
+"frase": "Qu'est-ce que vous faites ici ? C'est ma chambre.",
+"traducao": "O que é que vocês fazem aqui? É o meu quarto.",
+"tatoeba": 6195834
+},
+{
+"n": 3976,
+"frase": "Parle-t-il anglais ?",
+"traducao": "Ele fala inglês?",
+"tatoeba": 131636
+},
+{
+"n": 4083,
+"frase": "Souviens-toi que tu dois mourir.",
+"traducao": "Lembre-se de que você deve morrer.",
+"tatoeba": 1317819
+},
+{
+"n": 4170,
+"frase": "Je me demande pourquoi tu aimerais apprendre l'anglais ?",
+"traducao": "Gostaria de saber por quê você gostaria de aprender Inglês?",
+"tatoeba": 8207519
+},
+{
+"n": 4369,
+"frase": "Tu es plus grand que moi.",
+"traducao": "Você é mais alto do que eu.",
+"tatoeba": 474727
+},
+{
+"n": 4828,
+"frase": "J'ai mal aux dents.",
+"traducao": "Estou com dor de dente.",
+"tatoeba": 4583797
+},
+{
+"n": 4835,
+"frase": "Allons à New York !",
+"traducao": "Vamos a Nova York!",
+"tatoeba": 811427
+},
+{
+"n": 5215,
+"frase": "J'ai des nouvelles de ma mère de temps en temps.",
+"traducao": "Ouço da minha mãe de vez em quando.",
+"tatoeba": 135022
+},
+{
+"n": 5560,
+"frase": "C'est hors de question.",
+"traducao": "Isto está fora de questão.",
+"tatoeba": 14446
+},
+{
+"n": 5702,
+"frase": "Ma maison est près de l'école.",
+"traducao": "Minha casa fica próximo da escola.",
+"tatoeba": 1436778
+},
+{
+"n": 5763,
+"frase": "Je n'ai pas pris beaucoup de photos.",
+"traducao": "Eu não tirei muitas fotos.",
+"tatoeba": 4233986
+},
+{
+"n": 6228,
+"frase": "Il lave sa voiture.",
+"traducao": "Ele está lavando o seu carro.",
+"tatoeba": 132429
+},
+{
+"n": 6286,
+"frase": "Mike nage très bien.",
+"traducao": "Mike nada muito bem.",
+"tatoeba": 1169413
+},
+{
+"n": 6371,
+"frase": "Je n'ai pas d'énergie, aujourd'hui.",
+"traducao": "Estou sem energia hoje.",
+"tatoeba": 1129050
+},
+{
+"n": 6456,
+"frase": "Sans son aide, je n'aurais jamais réussi l'examen.",
+"traducao": "Se não fosse pela a ajuda dela, nunca teria passado no exame.",
+"tatoeba": 8208059
+},
+{
+"n": 6525,
+"frase": "Es-tu prête à partir ?",
+"traducao": "Você está pronta para partir?",
+"tatoeba": 986818
+},
+{
+"n": 6887,
+"frase": "Y a-t-il un zoo à Boston ?",
+"traducao": "Há um zoológico em Boston?",
+"tatoeba": 1451610
+},
+{
+"n": 7002,
+"frase": "Keeton voulait savoir si c'est la vérité.",
+"traducao": "Keeton queria saber se essa é a verdade.",
+"tatoeba": 11009
+},
+{
+"n": 7170,
+"frase": "Il n'y avait que six personnes à la réunion.",
+"traducao": "Só havia seis pessoas na reunião.",
+"tatoeba": 427807
+},
+{
+"n": 7361,
+"frase": "Savez-vous comment je peux y aller ?",
+"traducao": "Você sabe como posso chegar lá?",
+"tatoeba": 3211301
+},
+{
+"n": 7696,
+"frase": "Qu'est cette chose ? Je n'en ai absolument aucune idée.",
+"traducao": "Que negócio é esse? Não faço a mínima ideia.",
+"tatoeba": 1776217
+},
+{
+"n": 7994,
+"frase": "Comme elle nage rapidement !",
+"traducao": "Como ele nada rápido!",
+"tatoeba": 1457605
+},
+{
+"n": 8023,
+"frase": "Je ne l'ai jamais entendu chanter.",
+"traducao": "Nunca a ouvi cantar.",
+"tatoeba": 129961
+},
+{
+"n": 8101,
+"frase": "Il est temps pour elle de rentrer chez elle.",
+"traducao": "É hora dela ir para casa.",
+"tatoeba": 13647
+},
+{
+"n": 8165,
+"frase": "Je cherche mon téléphone.",
+"traducao": "Estou procurando meu telefone.",
+"tatoeba": 1675975
+},
+{
+"n": 8346,
+"frase": "L'oiseau cherche des vers.",
+"traducao": "O pássaro está procurando bichinhos.",
+"tatoeba": 961437
+},
+{
+"n": 8493,
+"frase": "Qui est-ce qu'il cherche ?",
+"traducao": "Quem é que ele está procurando?",
+"tatoeba": 1086393
+},
+{
+"n": 9086,
+"frase": "Ces roses sont très belles.",
+"traducao": "Essas rosas são muito bonitas.",
+"tatoeba": 2922342
+},
+{
+"n": 9299,
+"frase": "Combien pèse ta valise ?",
+"traducao": "Qual é o peso de sua mala?",
+"tatoeba": 564223
+},
+{
+"n": 9401,
+"frase": "Où se trouve le centre-ville ?",
+"traducao": "Onde fica o centro da cidade?",
+"tatoeba": 1435161
+},
+{
+"n": 9688,
+"frase": "Grâce à Dieu.",
+"traducao": "Graças a Deus.",
+"tatoeba": 497409
+},
+{
+"n": 9840,
+"frase": "L'auto est bleue.",
+"traducao": "O carro é azul.",
+"tatoeba": 1575066
+},
+{
+"n": 9861,
+"frase": "Certains sont bons et d'autres sont mauvais.",
+"traducao": "Uns são bons e outros são maus.",
+"tatoeba": 1175691
+},
+{
+"n": 9957,
+"frase": "Comment vont les affaires ?",
+"traducao": "Como vão os negócios?",
+"tatoeba": 2450591
+},
+{
+"n": 10134,
+"frase": "Je vois un lion.",
+"traducao": "Estou vendo um leão.",
+"tatoeba": 595928
+},
+{
+"n": 10171,
+"frase": "Est-ce que tu as à faire un discours ?",
+"traducao": "Você tem que fazer um discurso?",
+"tatoeba": 8078
+},
+{
+"n": 10278,
+"frase": "Tu connaissais l’alphabet.",
+"traducao": "Você sabia o alfabeto.",
+"tatoeba": 2232141
+},
+{
+"n": 10286,
+"frase": "Quelle est la valeur du cours aujourd'hui ?",
+"traducao": "A quanto está o câmbio hoje?",
+"tatoeba": 463776
+},
+{
+"n": 10397,
+"frase": "Il allait souvent pêcher dans la rivière.",
+"traducao": "Ele ia com frequência pescar no rio.",
+"tatoeba": 131486
+},
+{
+"n": 10559,
+"frase": "C'est bizarre, non ?",
+"traducao": "Isso é esquisito, não é?",
+"tatoeba": 1521178
+},
+{
+"n": 10688,
+"frase": "Tu as le sens de l'humour.",
+"traducao": "Você tem senso de humor.",
+"tatoeba": 949835
+},
+{
+"n": 10819,
+"frase": "Il a aidé les pauvres.",
+"traducao": "Ele ajudou os pobres.",
+"tatoeba": 2101717
+},
+{
+"n": 10983,
+"frase": "Une partie de l'histoire est vraie.",
+"traducao": "Uma parte da história é verídica.",
+"tatoeba": 12270
+},
+{
+"n": 11934,
+"frase": "Réponds-moi au moins.",
+"traducao": "Responda-me pelo menos.",
+"tatoeba": 606946
+},
+{
+"n": 12423,
+"frase": "Tous les étudiants en anglais doivent avoir un bon dictionnaire d'anglais.",
+"traducao": "Todos os estudantes de inglês devem ter à mão um bom dicionário Inglês-Inglês.",
+"tatoeba": 9822
+},
+{
+"n": 12582,
+"frase": "Réponds à la question.",
+"traducao": "Responda a pergunta.",
+"tatoeba": 128225
+},
+{
+"n": 12622,
+"frase": "Ne restez pas debout.",
+"traducao": "Não fiquem atrás.",
+"tatoeba": 897504
+},
+{
+"n": 13095,
+"frase": "Qui attendez-vous ?",
+"traducao": "Quem você está esperando?",
+"tatoeba": 464124
+},
+{
+"n": 13185,
+"frase": "Je suis en train d'apprendre deux langues étrangères.",
+"traducao": "Estou aprendendo duas línguas estrangeiras.",
+"tatoeba": 808076
+},
+{
+"n": 13306,
+"frase": "Il amuse les enfants.",
+"traducao": "Ele diverte as crianças.",
+"tatoeba": 2128842
+},
+{
+"n": 13382,
+"frase": "Que faisons-nous, si maman ne nous donne pas d'argent ?",
+"traducao": "Que faremos se mamãe não nos der dinheiro?",
+"tatoeba": 1515999
+},
+{
+"n": 13580,
+"frase": "Vous êtes mal habillée.",
+"traducao": "Você está mal vestida.",
+"tatoeba": 2842065
+},
+{
+"n": 13777,
+"frase": "Parlez anglais avec ceux que vous comprenez.",
+"traducao": "Fale Inglês com quem entende.",
+"tatoeba": 8205137
+},
+{
+"n": 13931,
+"frase": "Regardons la télé.",
+"traducao": "Vamos assistir à TV.",
+"tatoeba": 753452
+},
+{
+"n": 13983,
+"frase": "Nous sommes médecins.",
+"traducao": "Nós somos médicos.",
+"tatoeba": 742186
+},
+{
+"n": 14086,
+"frase": "Descends-tu ?",
+"traducao": "Você desce?",
+"tatoeba": 456965
+},
+{
+"n": 14132,
+"frase": "Comme cette matinée est belle !",
+"traducao": "Como está linda esta manhã!",
+"tatoeba": 10451112
+},
+{
+"n": 14288,
+"frase": "Est-ce que tu crois aux fantômes ?",
+"traducao": "Você acredita em fantasmas?",
+"tatoeba": 10438
+},
+{
+"n": 14299,
+"frase": "Nous avons un Pape.",
+"traducao": "Nós temos um papa.",
+"tatoeba": 3610
+},
+{
+"n": 14476,
+"frase": "Regardez cet immeuble rouge.",
+"traducao": "Olhe esse imóvel vermelho.",
+"tatoeba": 15276
+},
+{
+"n": 14488,
+"frase": "Je te prie d'accepter mes excuses.",
+"traducao": "Peço-lhe receber as minhas desculpas.",
+"tatoeba": 1143450
+},
+{
+"n": 14502,
+"frase": "Une grenouille sortit de l'eau.",
+"traducao": "Uma rã saiu da água.",
+"tatoeba": 135949
+},
+{
+"n": 14611,
+"frase": "L'enthousiasme est contagieux.",
+"traducao": "O entusiasmo é contagioso.",
+"tatoeba": 1011050
+},
+{
+"n": 14747,
+"frase": "Il était responsable de l’entretien du temple.",
+"traducao": "Ele tinha a seu cargo a conservação do templo.",
+"tatoeba": 13091074
+},
+{
+"n": 14923,
+"frase": "Ne renonce pas !",
+"traducao": "Não renuncie!",
+"tatoeba": 1069812
+},
+{
+"n": 14957,
+"frase": "Il lui a avoué ses sentiments.",
+"traducao": "Ele lhe confessou seus sentimentos.",
+"tatoeba": 6096428
+},
+{
+"n": 15222,
+"frase": "C'est une cuillère.",
+"traducao": "Isto é uma colher.",
+"tatoeba": 7138373
+},
+{
+"n": 15225,
+"frase": "Fils de pute !",
+"traducao": "Seu filho da puta!",
+"tatoeba": 1318446
+},
+{
+"n": 15236,
+"frase": "C'était le meilleur audio que je n'ai jamais entendu !",
+"traducao": "Este foi o melhor áudio que eu já ouvi!",
+"tatoeba": 8229888
+},
+{
+"n": 15505,
+"frase": "Ça pue.",
+"traducao": "Isso fede.",
+"tatoeba": 912117
+},
+{
+"n": 15554,
+"frase": "Elle a agi sans réfléchir.",
+"traducao": "Ela agiu sem refletir.",
+"tatoeba": 4758550
+},
+{
+"n": 15569,
+"frase": "C'est sa spécialité.",
+"traducao": "É a especialidade dele.",
+"tatoeba": 444708
+},
+{
+"n": 15879,
+"frase": "Demain je jouerai au football.",
+"traducao": "Amanhã vou jogar futebol.",
+"tatoeba": 459471
+},
+{
+"n": 16199,
+"frase": "Vous avez nettoyé la maison.",
+"traducao": "Vocês limparam a casa.",
+"tatoeba": 2921980
+},
+{
+"n": 16540,
+"frase": "Ne raconte pas de conneries !",
+"traducao": "Não digas asneiras.",
+"tatoeba": 3632297
+},
+{
+"n": 16617,
+"frase": "J'ai besoin d'une paire de ciseaux.",
+"traducao": "Eu preciso de uma tesoura.",
+"tatoeba": 3259634
+},
+{
+"n": 16750,
+"frase": "Tom et Mary sont partis nager ensemble de nombreuses fois.",
+"traducao": "Tom e Mary tem ido nadar juntos algumas vezes.",
+"tatoeba": 2865974
+},
+{
+"n": 16758,
+"frase": "J'ai rompu avec ma petite amie.",
+"traducao": "Eu rompi com minha namorada.",
+"tatoeba": 2589973
+},
+{
+"n": 16890,
+"frase": "Veuillez remplir le formulaire ci-dessous sans rien manquer.",
+"traducao": "Por favor, preencha todo o formulário abaixo sem faltar nada.",
+"tatoeba": 8192800
+},
+{
+"n": 16972,
+"frase": "Elle travaillait.",
+"traducao": "Ela estava trabalhando.",
+"tatoeba": 2923101
+},
+{
+"n": 17036,
+"frase": "Cette phrase n'a pas le bon drapeau.",
+"traducao": "Essa frase não está com a bandeira correta.",
+"tatoeba": 1369719
+},
+{
+"n": 17081,
+"frase": "J’aimerais l’emporter.",
+"traducao": "Gostaria de levar isto comigo.",
+"tatoeba": 11704976
+},
+{
+"n": 17404,
+"frase": "Pourquoi est-ce que c'est toujours moi qui s'y colle?",
+"traducao": "Por que é que sou sempre eu a ficar com isso?",
+"tatoeba": 6982220
+},
+{
+"n": 17643,
+"frase": "Les anciens magazines sont tous vendus.",
+"traducao": "As revistas antigas foram todas vendidas.",
+"tatoeba": 691617
+},
+{
+"n": 17952,
+"frase": "Ne vous approchez pas de ce chien.",
+"traducao": "Não se aproxime deste cachorro.",
+"tatoeba": 4713457
+},
+{
+"n": 17954,
+"frase": "S'il te plait, envoie-le-moi par fax.",
+"traducao": "Por favor, envie-o para mim por fax.",
+"tatoeba": 12426
+},
+{
+"n": 18166,
+"frase": "S’il avait fait un peu plus chaud, nous aurions pu prendre un thé au jardin.",
+"traducao": "Se estivesse um pouco mais quente, poderíamos ter tomado chá no jardim.",
+"tatoeba": 373927
+},
+{
+"n": 18265,
+"frase": "Préféreriez-vous être assis près de la fenêtre ?",
+"traducao": "Você prefere sentar perto da janela?",
+"tatoeba": 631883
+},
+{
+"n": 18314,
+"frase": "Si j'avais de l'argent, je voyagerais à travers le monde.",
+"traducao": "Se eu tivesse dinheiro, viajaria ao redor do mundo.",
+"tatoeba": 1591819
+},
+{
+"n": 18648,
+"frase": "Il décida d'étudier plus dur.",
+"traducao": "Ele decidiu estudar ainda mais.",
+"tatoeba": 1398787
+},
+{
+"n": 18863,
+"frase": "Je veux apprendre le toki pona.",
+"traducao": "Ele quer aprender Toki Pona.",
+"tatoeba": 5412465
+},
+{
+"n": 18893,
+"frase": "Aujourd'hui, il n'y a pas de trajet en bus.",
+"traducao": "Hoje não tem passeio de ônibus.",
+"tatoeba": 8222326
+},
+{
+"n": 19004,
+"frase": "Je ne peux pas me souvenir quand nous nous sommes rencontrés pour la dernière fois.",
+"traducao": "Não consigo me lembrar quando nos encontramos pela última vez.",
+"tatoeba": 3382540
+},
+{
+"n": 19511,
+"frase": "Peut-être changera-t-il d'opinion.",
+"traducao": "Talvez ele mude de opinião.",
+"tatoeba": 1241680
+},
+{
+"n": 19864,
+"frase": "Vous sentez que vous ne connaissez pas suffisamment le vocabulaire anglais.",
+"traducao": "Você sente que não sabe o suficiente de vocabulário em inglês.",
+"tatoeba": 8222383
+},
+{
+"n": 19879,
+"frase": "Dan a prononcé un discours au mariage.",
+"traducao": "Dan proferiu um discurso durante o casamento.",
+"tatoeba": 4025986
+},
+{
+"n": 20030,
+"frase": "Le garçon a enlevé ses vêtements.",
+"traducao": "O menino tirou as suas roupas.",
+"tatoeba": 482335
+},
+{
+"n": 20075,
+"frase": "Ah, la lumière s'est éteinte.",
+"traducao": "Ah, a luz se apagou.",
+"tatoeba": 10138
+},
+{
+"n": 20169,
+"frase": "Les temps changent et nous aussi changeons avec eux.",
+"traducao": "Os tempos mudam, e nós também mudamos com eles.",
+"tatoeba": 1916820
+},
+{
+"n": 20291,
+"frase": "Il y a beaucoup de conflits dans le monde.",
+"traducao": "Há muitos conflitos no mundo.",
+"tatoeba": 8245474
+},
+{
+"n": 20419,
+"frase": "Quelle partie de ton corps est la plus excitante ?",
+"traducao": "Qual parte do seu corpo é a mais excitante?",
+"tatoeba": 876552
+},
+{
+"n": 20537,
+"frase": "« Désires-tu un autre morceau de gâteau ? » « Oui, s'il vous plait. »",
+"traducao": "\"Você quer outro pedaço de bolo?\" \"Sim, por favor.\"",
+"tatoeba": 808058
+},
+{
+"n": 20636,
+"frase": "Le fleuve a inondé toute la région.",
+"traducao": "O rio inundou toda a região.",
+"tatoeba": 4185
+},
+{
+"n": 20740,
+"frase": "Le Japon et la Corée du Sud sont des pays limitrophes.",
+"traducao": "O Japão e a Coreia do Sul são países limítrofes.",
+"tatoeba": 129691
+},
+{
+"n": 20894,
+"frase": "Si tu sèches mes cours, je te tuerai.",
+"traducao": "Se você cabular minhas aulas, eu te mato.",
+"tatoeba": 518225
+},
+{
+"n": 21453,
+"frase": "Les Grecs créèrent les modèles théoriques de la géométrie.",
+"traducao": "Os gregos criaram os modelos teóricos da geometria.",
+"tatoeba": 1108825
+},
+{
+"n": 21497,
+"frase": "La Joconde est le chef-d'œuvre de Léonard de Vinci.",
+"traducao": "A Mona Lisa é a obra-prima de Leonardo da Vinci.",
+"tatoeba": 1171312
+},
+{
+"n": 21589,
+"frase": "Les ennemis mortels sont des amis immortels.",
+"traducao": "Os inimigos mortais são amigos imortais.",
+"tatoeba": 1318484
+},
+{
+"n": 21737,
+"frase": "Les athées recevront ce qu'ils méritent au jour du jugement dernier.",
+"traducao": "Os ateus receberão o que merecem no dia do julgamento final.",
+"tatoeba": 1514208
+},
+{
+"n": 21753,
+"frase": "Ce sont des orgues gigantesques.",
+"traducao": "São órgãos gigantescos.",
+"tatoeba": 1525803
+},
+{
+"n": 21765,
+"frase": "Vous feriez un bon diplomate.",
+"traducao": "Você daria um bom diplomata.",
+"tatoeba": 1529045
+},
+{
+"n": 21788,
+"frase": "Pourquoi cela n'a-t-il pas fonctionné ?",
+"traducao": "Por que isso não funcionou?",
+"tatoeba": 1551287
+},
+{
+"n": 21852,
+"frase": "Ton opinion est un peu démodée.",
+"traducao": "A sua opinião está um pouco fora de moda.",
+"tatoeba": 1717313
+},
+{
+"n": 21875,
+"frase": "Les gens ont choisi d'apprendre l'espéranto, ils n'y sont pas forcés.",
+"traducao": "As pessoas escolheram aprender esperanto, não são forçadas.",
+"tatoeba": 1736723
+},
+{
+"n": 21975,
+"frase": "Je suis navré d'avoir crié sur vous.",
+"traducao": "Lamento ter gritado com você.",
+"tatoeba": 2005250
+},
+{
+"n": 22046,
+"frase": "Tu créais des problèmes.",
+"traducao": "Você criou problemas.",
+"tatoeba": 2232396
+},
+{
+"n": 22138,
+"frase": "J'en ai enfin fini avec ma dissertation.",
+"traducao": "Eu finalmente terminei a minha dissertação.",
+"tatoeba": 2801469
+},
+{
+"n": 22194,
+"frase": "Je crois que les filles ne l'intéressent pas.",
+"traducao": "Eu acho que ele não se interessa por garotas.",
+"tatoeba": 2949412
+},
+{
+"n": 22506,
+"frase": "Partageons les coûts !",
+"traducao": "Dividamos os custos!",
+"tatoeba": 4960856
+},
+{
+"n": 22532,
+"frase": "Tous droits réservés.",
+"traducao": "Todos os direitos reservados.",
+"tatoeba": 5120476
+},
+{
+"n": 22803,
+"frase": "Tom et Marie ont pris un selfie ensemble.",
+"traducao": "Tom e Marie tiraram uma selfie juntos.",
+"tatoeba": 7074580
+},
+{
+"n": 22818,
+"frase": "La grenouille coasse.",
+"traducao": "A rã coaxa.",
+"tatoeba": 7489050
+},
+{
+"n": 22846,
+"frase": "Mon assistant a menacé de démissionner.",
+"traducao": "Meu assistente ameaçou renunciar.",
+"tatoeba": 7776395
+},
+{
+"n": 23225,
+"frase": "Je n'habite pas à Helsinki.",
+"traducao": "Eu não moro em Helsinque.",
+"tatoeba": 4990716
+},
+{
+"n": 23538,
+"frase": "Il le regrettait déjà.",
+"traducao": "Ele já se sentia arrependido.",
+"tatoeba": 236957
+},
+{
+"n": 23569,
+"frase": "Nettoyez le poulet avant de le faire cuire.",
+"traducao": "Lave o frango antes de cozinhá-lo.",
+"tatoeba": 390975
+},
+{
+"n": 23574,
+"frase": "L'Allemagne était alliée avec l'Italie durant la deuxième guerre mondiale.",
+"traducao": "A Alemanha estava aliada à Itália durante a Segunda Guerra Mundial.",
+"tatoeba": 391017
+},
+{
+"n": 23584,
+"frase": "N'importe qui trouverait difficile de courir par une journée aussi chaude.",
+"traducao": "Qualquer um acharia difícil correr em um dia tão quente.",
+"tatoeba": 394426
+},
+{
+"n": 23872,
+"frase": "Plus on tape sur la crête du bourgeois, plus je suis content.",
+"traducao": "Quanto mais se abaixa a crista da burguesia, mais feliz eu fico.",
+"tatoeba": 1018745
+},
+{
+"n": 24115,
+"frase": "Ils respectent l'autorité.",
+"traducao": "Eles respeitam a autoridade.",
+"tatoeba": 4708708
+},
+{
+"n": 24151,
+"frase": "On a roulé à fond la caisse tout le long du trajet.",
+"traducao": "Dirigimos em alta velocidade durante todo o trajeto.",
+"tatoeba": 6096466
+},
+{
+"n": 24312,
+"frase": "Tom et moi nous rencontrons de temps en temps au supermarché.",
+"traducao": "Tom e eu nos encontramos no supermercado de vez em quando.",
+"tatoeba": 8229711
+},
+{
+"n": 24368,
+"frase": "Nous devons investiguer la disparition de ce médecin.",
+"traducao": "Devemos investigar o desaparecimento desse médico.",
+"tatoeba": 1577317
+},
+{
+"n": 24514,
+"frase": "Je suis stressé.",
+"traducao": "Eu estou estressado.",
+"tatoeba": 3160895
+},
+{
+"n": 24607,
+"frase": "Il doit rentrer à Alger ce soir.",
+"traducao": "Ele tem que voltar para Argel hoje à noite.",
+"tatoeba": 8208208
+},
+{
+"n": 24613,
+"frase": "Y a-t-il quelqu'un d'autre que vous voudriez que nous informions?",
+"traducao": "Há mais alguém que você gostaria que notificássemos?",
+"tatoeba": 8222357
+},
+{
+"n": 24634,
+"frase": "Nous n'avons plus besoin de volontaires pour le moment.",
+"traducao": "Não precisamos mais de voluntários no momento.",
+"tatoeba": 8232733
+},
+{
+"n": 24748,
+"frase": "Flâner le long de la plage est mon passe-temps favori.",
+"traducao": "Andar ao longo da praia é o meu passatempo favorito.",
+"tatoeba": 8700690
+}
+],
+"pt-en": [
+{
+"n": 772,
+"frase": "We know you're there.",
+"traducao": "Sabemos que estás aí.",
+"tatoeba": 3312758
+},
+{
+"n": 2540,
+"frase": "I didn't like what Tom did.",
+"traducao": "Não gostei do que Tom fez.",
+"tatoeba": 6230507
+},
+{
+"n": 2560,
+"frase": "Would you like Tom to help you?",
+"traducao": "Você gostaria que o Tom te ajudasse?",
+"tatoeba": 3818043
+},
+{
+"n": 2671,
+"frase": "Tom doesn't know what Mary did.",
+"traducao": "Tom não sabe o que Mary fez.",
+"tatoeba": 5916691
+},
+{
+"n": 3534,
+"frase": "I think I should go to Boston.",
+"traducao": "Eu acho que eu deveria ir para Boston.",
+"tatoeba": 6260726
+},
+{
+"n": 3552,
+"frase": "Are you really going to Boston with Tom?",
+"traducao": "Você vai mesmo a Boston com o Tom?",
+"tatoeba": 6071532
+},
+{
+"n": 3804,
+"frase": "Do you think that Tom is going to help us?",
+"traducao": "Você acha que Tom vai nos ajudar?",
+"tatoeba": 8365611
+},
+{
+"n": 4067,
+"frase": "I don't like what Tom is doing.",
+"traducao": "Eu não gosto do que o Tom está fazendo.",
+"tatoeba": 2361343
+},
+{
+"n": 5276,
+"frase": "Tom knew it.",
+"traducao": "Tom sabia.",
+"tatoeba": 2237118
+},
+{
+"n": 6590,
+"frase": "Now I remember.",
+"traducao": "Agora estou me lembrando.",
+"tatoeba": 72076
+},
+{
+"n": 6826,
+"frase": "Tom wasn't good.",
+"traducao": "Tom não era bom.",
+"tatoeba": 3732658
+},
+{
+"n": 8161,
+"frase": "I was able to do it today.",
+"traducao": "Eu podia ter feito isso hoje.",
+"tatoeba": 5216752
+},
+{
+"n": 8418,
+"frase": "You could help us.",
+"traducao": "Você poderia nos ajudar.",
+"tatoeba": 3330919
+},
+{
+"n": 8993,
+"frase": "He had a bad day.",
+"traducao": "Ele teve um mau dia.",
+"tatoeba": 1799056
+},
+{
+"n": 10155,
+"frase": "You won't feel a thing.",
+"traducao": "Você não sentirá nada.",
+"tatoeba": 2283701
+},
+{
+"n": 10561,
+"frase": "I wish I had seen her.",
+"traducao": "Queria tê-la visto.",
+"tatoeba": 308847
+},
+{
+"n": 10735,
+"frase": "Nobody helped us.",
+"traducao": "Ninguém nos ajudou.",
+"tatoeba": 6799011
+},
+{
+"n": 11003,
+"frase": "Tom looked very happy.",
+"traducao": "Tom parecia muito feliz.",
+"tatoeba": 1024536
+},
+{
+"n": 14993,
+"frase": "Tom spent the day with his parents.",
+"traducao": "Tom passou o dia com os pais.",
+"tatoeba": 3821615
+},
+{
+"n": 15012,
+"frase": "I agree with his plan.",
+"traducao": "Concordo com o plano dele.",
+"tatoeba": 285942
+},
+{
+"n": 16544,
+"frase": "I want you to die.",
+"traducao": "Quero que você morra.",
+"tatoeba": 2011372
+},
+{
+"n": 16728,
+"frase": "Everybody is doing that.",
+"traducao": "Todos fazem isto.",
+"tatoeba": 6337850
+},
+{
+"n": 17786,
+"frase": "What am I going to say?",
+"traducao": "O que vou dizer?",
+"tatoeba": 3738886
+},
+{
+"n": 18136,
+"frase": "There's still so much left to do.",
+"traducao": "Ainda há tanto a fazer.",
+"tatoeba": 4016221
+},
+{
+"n": 19769,
+"frase": "How cold is it here?",
+"traducao": "Quão frio está aqui?",
+"tatoeba": 5000890
+},
+{
+"n": 19973,
+"frase": "I'm about to leave.",
+"traducao": "Estou de saída.",
+"tatoeba": 40133
+},
+{
+"n": 20028,
+"frase": "Look, it's my problem.",
+"traducao": "Veja, isso é problema meu.",
+"tatoeba": 2663568
+},
+{
+"n": 21632,
+"frase": "Tom has already arrived.",
+"traducao": "Tom já chegou.",
+"tatoeba": 7466944
+},
+{
+"n": 21992,
+"frase": "I no longer want to hurt anyone.",
+"traducao": "Eu não quero mais machucar ninguém.",
+"tatoeba": 2389365
+},
+{
+"n": 23819,
+"frase": "What if Tom is wrong?",
+"traducao": "E se Tom estiver errado?",
+"tatoeba": 3364632
+},
+{
+"n": 26130,
+"frase": "Tom told me he knew my brother.",
+"traducao": "Tom me disse que conhecia meu irmão.",
+"tatoeba": 6264472
+},
+{
+"n": 27110,
+"frase": "He arrived after I had left.",
+"traducao": "Ele chegou depois de eu sair.",
+"tatoeba": 246815
+},
+{
+"n": 27742,
+"frase": "It just doesn't work.",
+"traducao": "Simplesmente não funciona.",
+"tatoeba": 2272048
+},
+{
+"n": 28043,
+"frase": "Tom asked me if Mary was here.",
+"traducao": "Tom me perguntou se Mary estava aqui.",
+"tatoeba": 6656809
+},
+{
+"n": 28569,
+"frase": "I can't believe we're going to lose.",
+"traducao": "Eu não consigo acreditar que vamos perder.",
+"tatoeba": 2301930
+},
+{
+"n": 28760,
+"frase": "I'm not worried about it.",
+"traducao": "Eu não estou preocupado.",
+"tatoeba": 2545315
+},
+{
+"n": 28906,
+"frase": "All we can do is wait.",
+"traducao": "Tudo o que podemos fazer é esperar.",
+"tatoeba": 2881847
+},
+{
+"n": 29389,
+"frase": "We don't want your money.",
+"traducao": "Nós não queremos o seu dinheiro.",
+"tatoeba": 4890772
+},
+{
+"n": 30311,
+"frase": "It's time for our children to go to bed.",
+"traducao": "É hora de nossas crianças irem para a cama.",
+"tatoeba": 245614
+},
+{
+"n": 30735,
+"frase": "Tom may eat as much as he wants.",
+"traducao": "Tom pode comer o tanto que quiser.",
+"tatoeba": 4664723
+},
+{
+"n": 31266,
+"frase": "That's the last thing I want to do.",
+"traducao": "Aquela é a última coisa que eu quero fazer.",
+"tatoeba": 2016941
+},
+{
+"n": 31358,
+"frase": "I heard that Tom is sick.",
+"traducao": "Ouvi que Tom está doente.",
+"tatoeba": 5594044
+},
+{
+"n": 32411,
+"frase": "I know Tom isn't too old to do that.",
+"traducao": "Eu sabia que o Tom não era tão velho para fazer isso.",
+"tatoeba": 7517847
+},
+{
+"n": 33065,
+"frase": "My father used to say that money is not everything.",
+"traducao": "Meu pai costumava dizer que dinheiro não é tudo.",
+"tatoeba": 251704
+},
+{
+"n": 33586,
+"frase": "It would be nice to have a party.",
+"traducao": "Seria legal fazer uma festa.",
+"tatoeba": 1140093
+},
+{
+"n": 34099,
+"frase": "Nobody knows Tom like I know Tom.",
+"traducao": "Ninguém conhece o Tom como eu o conheço.",
+"tatoeba": 2093041
+},
+{
+"n": 35614,
+"frase": "Have I done something wrong?",
+"traducao": "Eu fiz algo de errado?",
+"tatoeba": 2062722
+},
+{
+"n": 35774,
+"frase": "Tom can't find anyone to help him.",
+"traducao": "Tom não consegue encontrar ninguém para ajudá-lo.",
+"tatoeba": 1026782
+},
+{
+"n": 35992,
+"frase": "I know that Tom has been sick.",
+"traducao": "Eu sei que o Tom está doente.",
+"tatoeba": 5777736
+},
+{
+"n": 36471,
+"frase": "Do you think I need to do that again?",
+"traducao": "Você acha que eu preciso fazer isso outra vez?",
+"tatoeba": 6345941
+},
+{
+"n": 37450,
+"frase": "I thought Tom would speak French better than Mary.",
+"traducao": "Eu pensei que o Tom falaria francês melhor que a Mary.",
+"tatoeba": 1938791
+},
+{
+"n": 39139,
+"frase": "Don't forget to tell Mary that she doesn't have to do that if she doesn't want to.",
+"traducao": "Não se esqueça de dizer a Mary que ela não precisa fazer isso se não quiser.",
+"tatoeba": 6227453
+},
+{
+"n": 41904,
+"frase": "It was worth it.",
+"traducao": "Isso valeu a pena.",
+"tatoeba": 1897737
+},
+{
+"n": 42840,
+"frase": "I can't move.",
+"traducao": "Não consigo me mexer.",
+"tatoeba": 280208
+},
+{
+"n": 42906,
+"frase": "I was running.",
+"traducao": "Eu estava correndo.",
+"tatoeba": 2582733
+},
+{
+"n": 43369,
+"frase": "This is our decision.",
+"traducao": "Esta é a nossa decisão.",
+"tatoeba": 5170130
+},
+{
+"n": 44020,
+"frase": "It's not necessary.",
+"traducao": "Isso não é necessário.",
+"tatoeba": 2249124
+},
+{
+"n": 44057,
+"frase": "I think I need a little air.",
+"traducao": "Eu acho que preciso de um pouco de ar.",
+"tatoeba": 3826837
+},
+{
+"n": 44236,
+"frase": "The house is clean.",
+"traducao": "A casa está limpa.",
+"tatoeba": 3422313
+},
+{
+"n": 45870,
+"frase": "Your garden is beautiful.",
+"traducao": "O seu jardim é bonito.",
+"tatoeba": 6878747
+},
+{
+"n": 46105,
+"frase": "We sometimes swim in the lake.",
+"traducao": "Nós algumas vezes nadamos no lago.",
+"tatoeba": 248224
+},
+{
+"n": 48351,
+"frase": "Tom took a trip to Boston.",
+"traducao": "O Tom fez uma viagem para Boston.",
+"tatoeba": 1141105
+},
+{
+"n": 49689,
+"frase": "I have just eaten lunch.",
+"traducao": "Acabei de almoçar.",
+"tatoeba": 255029
+},
+{
+"n": 49692,
+"frase": "Don't listen to her.",
+"traducao": "Não dê ouvidos a ela.",
+"tatoeba": 309239
+},
+{
+"n": 49857,
+"frase": "Sometimes everything goes wrong.",
+"traducao": "Às vezes tudo dá errado.",
+"tatoeba": 24827
+},
+{
+"n": 50205,
+"frase": "Did you clean your room?",
+"traducao": "Você arrumou seu quarto?",
+"tatoeba": 70407
+},
+{
+"n": 50968,
+"frase": "That's not my fault.",
+"traducao": "Não é minha culpa.",
+"tatoeba": 1897805
+},
+{
+"n": 51049,
+"frase": "I wasn't aware that Tom was sick.",
+"traducao": "Eu não sabia que Tom estava doente.",
+"tatoeba": 5640490
+},
+{
+"n": 51116,
+"frase": "Tom and Mary are behind John.",
+"traducao": "O Tom e a Mary estão atrás do John.",
+"tatoeba": 6825869
+},
+{
+"n": 51645,
+"frase": "They're yours, Tom.",
+"traducao": "Eles são seus, Tom.",
+"tatoeba": 2548629
+},
+{
+"n": 52994,
+"frase": "I don't know who built this house.",
+"traducao": "Eu não sei quem construiu esta casa.",
+"tatoeba": 6662889
+},
+{
+"n": 53424,
+"frase": "I wouldn't have expected any less from Tom.",
+"traducao": "Não esperava menos do Tom.",
+"tatoeba": 7112372
+},
+{
+"n": 54377,
+"frase": "I'm not going to say this twice.",
+"traducao": "Eu não vou dizer isto duas vezes.",
+"tatoeba": 3732735
+},
+{
+"n": 54496,
+"frase": "I haven't played my guitar in a while.",
+"traducao": "Faz tempo que não toco violão.",
+"tatoeba": 5229533
+},
+{
+"n": 54921,
+"frase": "Tom has a beautiful daughter.",
+"traducao": "Tom tem uma bonita filha.",
+"tatoeba": 2643248
+},
+{
+"n": 55069,
+"frase": "Tom closed the store early today.",
+"traducao": "Tom fechou a loja cedo hoje.",
+"tatoeba": 4529493
+},
+{
+"n": 55255,
+"frase": "Tom is the only one who can clear this up.",
+"traducao": "O Tom é o único que pode esclarecer isso.",
+"tatoeba": 3089552
+},
+{
+"n": 56179,
+"frase": "I told Tom how Mary had been injured.",
+"traducao": "Eu disse ao Tom como a Maria havia se machucado.",
+"tatoeba": 7592671
+},
+{
+"n": 57125,
+"frase": "I just saw you talking to Tom less than five minutes ago.",
+"traducao": "Eu acabei de ver você falando com Tom há menos de quinze minutos.",
+"tatoeba": 2373960
+},
+{
+"n": 57654,
+"frase": "He put milk in his coffee.",
+"traducao": "Ele pôs leite em seu café.",
+"tatoeba": 986450
+},
+{
+"n": 59598,
+"frase": "I suspect that Tom and Mary don't like me.",
+"traducao": "Eu suspeito que Tom e Mary não gostam de mim.",
+"tatoeba": 6676004
+},
+{
+"n": 60515,
+"frase": "You won't have a choice.",
+"traducao": "Você não terá escolha.",
+"tatoeba": 2283702
+},
+{
+"n": 60952,
+"frase": "Tom learned from his mistakes.",
+"traducao": "Tom aprendeu com os erros.",
+"tatoeba": 5370887
+},
+{
+"n": 61069,
+"frase": "Tom and Mary had a big fight.",
+"traducao": "Tom e Maria tiveram uma briga feia.",
+"tatoeba": 2772945
+},
+{
+"n": 61261,
+"frase": "It's too bad you've caught a cold.",
+"traducao": "É uma pena que tenha pegado um resfriado.",
+"tatoeba": 1898354
+},
+{
+"n": 61644,
+"frase": "Tom left about an hour ago with Mary.",
+"traducao": "O Tomás saiu há cerca de uma hora com a Maria.",
+"tatoeba": 6997721
+},
+{
+"n": 62070,
+"frase": "Tom doesn't like baseball very much.",
+"traducao": "Tom não gosta muito de beisebol.",
+"tatoeba": 3415107
+},
+{
+"n": 62518,
+"frase": "Tom and Mary don't really have much in common.",
+"traducao": "Tom e Mary realmente não têm muito em comum.",
+"tatoeba": 5659085
+},
+{
+"n": 63654,
+"frase": "I deal with people like that all the time.",
+"traducao": "Eu lido com pessoas como aquela o tempo todo.",
+"tatoeba": 2313703
+},
+{
+"n": 63993,
+"frase": "Tom would like to have a word with you.",
+"traducao": "Tom quer falar com você.",
+"tatoeba": 3369918
+},
+{
+"n": 70008,
+"frase": "I'm only human.",
+"traducao": "Sou apenas humano.",
+"tatoeba": 2248201
+},
+{
+"n": 70545,
+"frase": "I felt embarrassed.",
+"traducao": "Eu me senti envergonhado.",
+"tatoeba": 5859666
+},
+{
+"n": 70702,
+"frase": "I was cleaning my room.",
+"traducao": "Eu estava limpando meu quarto.",
+"tatoeba": 3821088
+},
+{
+"n": 70798,
+"frase": "Tom enjoys playing golf.",
+"traducao": "Tom gosta de jogar golfe.",
+"tatoeba": 3733696
+},
+{
+"n": 71121,
+"frase": "They all drowned.",
+"traducao": "Todos eles se afogaram.",
+"tatoeba": 502687
+},
+{
+"n": 71582,
+"frase": "Guys have feelings, too.",
+"traducao": "Garotos têm sentimentos também.",
+"tatoeba": 3109227
+},
+{
+"n": 73920,
+"frase": "I never had doubts.",
+"traducao": "Nunca tive dúvidas.",
+"tatoeba": 6003910
+},
+{
+"n": 73975,
+"frase": "I saw Tom naked.",
+"traducao": "Eu vi Tom pelado.",
+"tatoeba": 3024273
+},
+{
+"n": 75456,
+"frase": "I'm seeing a friend tomorrow.",
+"traducao": "Amanhã eu verei um amigo.",
+"tatoeba": 6873096
+},
+{
+"n": 76556,
+"frase": "Tom's bedroom door is shut.",
+"traducao": "A porta do quarto de Tom está fechada.",
+"tatoeba": 5967313
+},
+{
+"n": 77580,
+"frase": "I don't like cleaning the bathroom.",
+"traducao": "Não gosto de limpar o banheiro.",
+"tatoeba": 6251763
+},
+{
+"n": 79069,
+"frase": "So how did the date go?",
+"traducao": "Então, como foi o encontro?",
+"tatoeba": 3731283
+},
+{
+"n": 79415,
+"frase": "He has visited Europe several times.",
+"traducao": "Ele visitou a Europa diversas vezes.",
+"tatoeba": 293236
+},
+{
+"n": 79593,
+"frase": "Tom is a little behind schedule.",
+"traducao": "Tom está um pouco atrasado.",
+"tatoeba": 6530264
+},
+{
+"n": 81439,
+"frase": "Please turn left at the first corner.",
+"traducao": "Por favor vire à esquerda na próxima curva.",
+"tatoeba": 244020
+},
+{
+"n": 81560,
+"frase": "They are anxious for your help.",
+"traducao": "Eles estão ansiosos por vossa ajuda.",
+"tatoeba": 305470
+},
+{
+"n": 84246,
+"frase": "I've already caused Tom a lot of trouble.",
+"traducao": "Eu já causei ao Tom muitos problemas.",
+"tatoeba": 3732924
+},
+{
+"n": 85215,
+"frase": "Doing that sort of thing makes you look stupid.",
+"traducao": "Fazer esse tipo de coisa faz você parecer idiota.",
+"tatoeba": 953244
+},
+{
+"n": 85426,
+"frase": "Tom said he was extremely tired.",
+"traducao": "Tom disse que estava extremamente cansado.",
+"tatoeba": 2585368
+},
+{
+"n": 86900,
+"frase": "French isn't taught in our schools the way it should be taught.",
+"traducao": "O francês não é ensinado em nossas escolas da maneira que deveria.",
+"tatoeba": 8410064
+},
+{
+"n": 87670,
+"frase": "Tom was kicked out of the party.",
+"traducao": "Tom foi expulso da festa.",
+"tatoeba": 6124847
+},
+{
+"n": 87747,
+"frase": "Everybody except Tom stopped walking.",
+"traducao": "Todos pararam de andar, menos o Tom.",
+"tatoeba": 3733798
+},
+{
+"n": 89016,
+"frase": "I'm starting to lose my patience with you.",
+"traducao": "Estou começando a perder a paciência com você.",
+"tatoeba": 1534764
+},
+{
+"n": 90957,
+"frase": "Tom said that Mary is thirsty.",
+"traducao": "Tom disse que Mary está com sede.",
+"tatoeba": 6438545
+},
+{
+"n": 91163,
+"frase": "Why were you kicked out of the meeting?",
+"traducao": "Por que você foi expulso da reunião?",
+"tatoeba": 5183295
+},
+{
+"n": 91680,
+"frase": "Tom pretended he was sick so he wouldn't have to go to school.",
+"traducao": "Tom fingiu que estava doente assim ele não teria de ir para a escola.",
+"tatoeba": 4013392
+},
+{
+"n": 92591,
+"frase": "A teacher's job isn't easy.",
+"traducao": "O trabalho de um professor não é fácil.",
+"tatoeba": 5072017
+},
+{
+"n": 93525,
+"frase": "Are you broad-minded?",
+"traducao": "Você é liberal?",
+"tatoeba": 3172406
+},
+{
+"n": 94156,
+"frase": "We were all quarantined.",
+"traducao": "Estávamos todos em quarentena.",
+"tatoeba": 8599753
+},
+{
+"n": 94919,
+"frase": "Your wife's on the phone.",
+"traducao": "Sua esposa está ao telefone.",
+"tatoeba": 2644604
+},
+{
+"n": 96289,
+"frase": "Are these notebooks yours?",
+"traducao": "Esses cadernos são seus?",
+"tatoeba": 8216126
+},
+{
+"n": 97978,
+"frase": "My new course starts today.",
+"traducao": "Meu novo curso começa hoje.",
+"tatoeba": 1195233
+},
+{
+"n": 98032,
+"frase": "There is no fixed calendar.",
+"traducao": "Não há calendário fixo.",
+"tatoeba": 5737848
+},
+{
+"n": 98176,
+"frase": "How was your biology exam?",
+"traducao": "Como foi sua prova de biologia?",
+"tatoeba": 7002703
+},
+{
+"n": 98567,
+"frase": "Tom is always online.",
+"traducao": "Tom está sempre on-line.",
+"tatoeba": 3921154
+},
+{
+"n": 98759,
+"frase": "The school is two kilometers ahead.",
+"traducao": "A escola fica dois quilômetros à frente.",
+"tatoeba": 21552
+},
+{
+"n": 98858,
+"frase": "Would you like some aspirin?",
+"traducao": "Você quer uma aspirina?",
+"tatoeba": 1886421
+},
+{
+"n": 99775,
+"frase": "The apartment is in flames.",
+"traducao": "O apartamento está em chamas.",
+"tatoeba": 2087370
+},
+{
+"n": 100348,
+"frase": "The wheat is ready for harvest.",
+"traducao": "O trigo está pronto para a colheita.",
+"tatoeba": 267670
+},
+{
+"n": 100518,
+"frase": "The butler opened the door.",
+"traducao": "O mordomo abriu a porta.",
+"tatoeba": 3735695
+},
+{
+"n": 100898,
+"frase": "I don't have many regrets.",
+"traducao": "Eu não tenho muitos arrependimentos.",
+"tatoeba": 4890073
+},
+{
+"n": 102397,
+"frase": "Tom is diabetic.",
+"traducao": "Tom é diabético.",
+"tatoeba": 2236651
+},
+{
+"n": 104614,
+"frase": "Tom was a lot busier than I was last week.",
+"traducao": "Semana passada, Tom estava bem mais ocupado do que eu.",
+"tatoeba": 6716483
+},
+{
+"n": 104840,
+"frase": "What are the symptoms of mushroom poisoning?",
+"traducao": "Quais são os sintomas de envenenamento por cogumelos?",
+"tatoeba": 4135013
+},
+{
+"n": 109041,
+"frase": "I refuse to answer the question.",
+"traducao": "Não quero responder a pergunta.",
+"tatoeba": 254450
+},
+{
+"n": 109168,
+"frase": "Isn't Tom forgetting something?",
+"traducao": "Será que Tom não está esquecendo nada?",
+"tatoeba": 1027415
+},
+{
+"n": 109433,
+"frase": "Tom sat beside me in church.",
+"traducao": "Tom sentou-se ao meu lado na igreja.",
+"tatoeba": 5544759
+},
+{
+"n": 109540,
+"frase": "Don't forget to put a stamp on your letter.",
+"traducao": "Não se esqueça de colocar um selo na sua carta.",
+"tatoeba": 265971
+},
+{
+"n": 109999,
+"frase": "It was kind of fun hanging out with your parents today.",
+"traducao": "Foi divertido sair com os seus pais hoje.",
+"tatoeba": 3331152
+},
+{
+"n": 110166,
+"frase": "I bought some magazines to read on the plane.",
+"traducao": "Comprei algumas revistas para ler no avião.",
+"tatoeba": 6341558
+},
+{
+"n": 111863,
+"frase": "Tom lives in an isolated farm house.",
+"traducao": "Tom vive numa casa de fazenda isolada.",
+"tatoeba": 3097002
+},
+{
+"n": 112293,
+"frase": "Would you donate a kidney?",
+"traducao": "Você doaria um rim?",
+"tatoeba": 8078096
+},
+{
+"n": 113619,
+"frase": "The envious die, but envy never does.",
+"traducao": "Os invejosos morrem, mas a inveja nunca morrerá.",
+"tatoeba": 3752300
+},
+{
+"n": 115296,
+"frase": "This is the first time I've swum in a lake.",
+"traducao": "Esta é a primeira vez que eu nado em um lago.",
+"tatoeba": 1679413
+},
+{
+"n": 115429,
+"frase": "It was a divine intervention.",
+"traducao": "Foi uma intervenção divina.",
+"tatoeba": 2230529
+},
+{
+"n": 116869,
+"frase": "When does the performance begin?",
+"traducao": "Quando a performance começa?",
+"tatoeba": 2270161
+},
+{
+"n": 117050,
+"frase": "Tom backed out of his parking space.",
+"traducao": "O Tom saiu do estacionamento.",
+"tatoeba": 6348350
+},
+{
+"n": 117677,
+"frase": "No matter how much she eats, she never gains weight.",
+"traducao": "Não importa quanto ela come, ela nunca ganha peso.",
+"tatoeba": 1317087
+},
+{
+"n": 118598,
+"frase": "What Tom really wanted to eat was chocolate pudding.",
+"traducao": "O que Tom realmente queria comer era pudim de chocolate.",
+"tatoeba": 1040483
+},
+{
+"n": 118872,
+"frase": "I know that you forged Tom's signature.",
+"traducao": "Eu sei que você falsificou a assinatura de Tom.",
+"tatoeba": 7515773
+}
+],
+"en-es": [
+{
+"n": 1330,
+"frase": "No podía ver nada.",
+"traducao": "I could not see anything.",
+"tatoeba": 1622139
+},
+{
+"n": 1658,
+"frase": "Casi son las tres.",
+"traducao": "It is almost three.",
+"tatoeba": 1328279
+},
+{
+"n": 2260,
+"frase": "No hay error.",
+"traducao": "There's no mistake.",
+"tatoeba": 4544055
+},
+{
+"n": 3365,
+"frase": "Es la última persona que quiero ver.",
+"traducao": "He is the last man I want to see.",
+"tatoeba": 958344
+},
+{
+"n": 3761,
+"frase": "Tom no lo vio.",
+"traducao": "Tom didn't see it.",
+"tatoeba": 2038323
+},
+{
+"n": 5383,
+"frase": "¿Tom es bueno?",
+"traducao": "Is Tom good?",
+"tatoeba": 2409264
+},
+{
+"n": 9038,
+"frase": "Tom no vio a Mary.",
+"traducao": "Tom didn't see Mary.",
+"tatoeba": 1296893
+},
+{
+"n": 9961,
+"frase": "Ella le puso llave a la puerta.",
+"traducao": "She locked the door.",
+"tatoeba": 1296688
+},
+{
+"n": 11221,
+"frase": "Se nos tiene que haber pasado algo.",
+"traducao": "We must've missed something.",
+"tatoeba": 6681543
+},
+{
+"n": 11359,
+"frase": "Él quiere beber algo frío.",
+"traducao": "He wants something cold to drink.",
+"tatoeba": 338676
+},
+{
+"n": 12196,
+"frase": "No pasó nada todavía.",
+"traducao": "Nothing's happened yet.",
+"tatoeba": 2594623
+},
+{
+"n": 13356,
+"frase": "He estado buscando una respuesta a tu pregunta.",
+"traducao": "I've been seeking an answer to your question.",
+"tatoeba": 994906
+},
+{
+"n": 13833,
+"frase": "Este vino está muy bueno.",
+"traducao": "This wine is very good.",
+"tatoeba": 7741740
+},
+{
+"n": 14168,
+"frase": "Tom no viene todos los días aquí, pero viene muy a menudo.",
+"traducao": "Tom doesn't come here every day, but he comes quite often.",
+"tatoeba": 1386608
+},
+{
+"n": 15866,
+"frase": "Pareces cansado.",
+"traducao": "You look tired.",
+"tatoeba": 576616
+},
+{
+"n": 20052,
+"frase": "Voy al cine todas las semanas.",
+"traducao": "I go to the movies every week.",
+"tatoeba": 2266971
+},
+{
+"n": 21465,
+"frase": "Fumar no es bueno para la salud.",
+"traducao": "Smoking isn't good for one's health.",
+"tatoeba": 344102
+},
+{
+"n": 23086,
+"frase": "Dime lo que has visto.",
+"traducao": "Tell me who you saw.",
+"tatoeba": 4182912
+},
+{
+"n": 23834,
+"frase": "¿Quién es el primero?",
+"traducao": "Who's first?",
+"tatoeba": 6763152
+},
+{
+"n": 25042,
+"frase": "Vivo en un hotel por ahora.",
+"traducao": "I'm staying at a hotel for the time being.",
+"tatoeba": 3379023
+},
+{
+"n": 25995,
+"frase": "Tom conoce a Mary desde que era una niña pequeña.",
+"traducao": "Tom has known Mary since she was a little girl.",
+"tatoeba": 1451802
+},
+{
+"n": 27802,
+"frase": "¿Por qué no lo hiciste?",
+"traducao": "Why didn't you do that?",
+"tatoeba": 2061302
+},
+{
+"n": 29045,
+"frase": "El helado era la comida favorita de Tomás.",
+"traducao": "Ice cream was Tom's favorite food.",
+"tatoeba": 5026745
+},
+{
+"n": 31499,
+"frase": "Siempre estoy listo para ayudarte.",
+"traducao": "I'm always ready to help you.",
+"tatoeba": 2210002
+},
+{
+"n": 31635,
+"frase": "Me encontré con él por primera vez hace tres años.",
+"traducao": "I first met him three years ago.",
+"tatoeba": 359697
+},
+{
+"n": 31830,
+"frase": "Tom es el hombre más rico que conozco.",
+"traducao": "Tom is the richest man I know.",
+"tatoeba": 1321040
+},
+{
+"n": 31890,
+"frase": "Tom trabaja muy duro, pero no tan duro como María.",
+"traducao": "Tom works very hard, but not as hard as Mary.",
+"tatoeba": 3393899
+},
+{
+"n": 31963,
+"frase": "Sé amable.",
+"traducao": "Be kind.",
+"tatoeba": 4131994
+},
+{
+"n": 32177,
+"frase": "Hagamos eso.",
+"traducao": "Let's do that.",
+"tatoeba": 2008982
+},
+{
+"n": 33862,
+"frase": "¿Queréis vivir en Alemania?",
+"traducao": "Do you want to live in Germany?",
+"tatoeba": 2160252
+},
+{
+"n": 35179,
+"frase": "Él es mi hermano menor.",
+"traducao": "He's my younger brother.",
+"tatoeba": 989465
+},
+{
+"n": 35400,
+"frase": "Yo te amaba.",
+"traducao": "I loved you.",
+"tatoeba": 1820067
+},
+{
+"n": 35509,
+"frase": "Tom no diría eso.",
+"traducao": "Tom wouldn't say that.",
+"tatoeba": 1715865
+},
+{
+"n": 36211,
+"frase": "Necesito mis lentes.",
+"traducao": "I need my glasses.",
+"tatoeba": 2738880
+},
+{
+"n": 36559,
+"frase": "Tengo una nariz muy pequeña.",
+"traducao": "I have a very small nose.",
+"tatoeba": 12663318
+},
+{
+"n": 36655,
+"frase": "Tom está ausente hoy.",
+"traducao": "Tom is absent today.",
+"tatoeba": 10109384
+},
+{
+"n": 38566,
+"frase": "Estoy en contra de la pena capital.",
+"traducao": "I'm against capital punishment.",
+"tatoeba": 8345801
+},
+{
+"n": 39529,
+"frase": "Esa es una idea estúpida.",
+"traducao": "That's a stupid idea.",
+"tatoeba": 2921226
+},
+{
+"n": 40135,
+"frase": "Necesito hacer otra llamada.",
+"traducao": "I need to make another call.",
+"tatoeba": 2831676
+},
+{
+"n": 40189,
+"frase": "Creí que no querías venir.",
+"traducao": "I thought that you didn't want to come.",
+"tatoeba": 1011057
+},
+{
+"n": 40768,
+"frase": "Hoy ha llegado en el correo un libro para usted.",
+"traducao": "A book came for you in the mail today.",
+"tatoeba": 1475862
+},
+{
+"n": 40888,
+"frase": "Quiero darle otra oportunidad a Tom.",
+"traducao": "I want to give Tom another chance.",
+"tatoeba": 2090274
+},
+{
+"n": 42245,
+"frase": "Ese pastel se ve delicioso.",
+"traducao": "That cake looks delicious.",
+"tatoeba": 14078070
+},
+{
+"n": 42600,
+"frase": "No tengo a nadie que me ayude.",
+"traducao": "I have no one to help me.",
+"tatoeba": 1598192
+},
+{
+"n": 43357,
+"frase": "¿Podría cambiar de asiento ahora?",
+"traducao": "Would you mind if I changed seats now?",
+"tatoeba": 343254
+},
+{
+"n": 44092,
+"frase": "Pensé que Tom estaría de acuerdo conmigo.",
+"traducao": "I thought Tom would agree with me.",
+"tatoeba": 1939478
+},
+{
+"n": 44608,
+"frase": "Deberías saberlo mejor.",
+"traducao": "You should know better.",
+"tatoeba": 3959760
+},
+{
+"n": 44725,
+"frase": "¿Acaso tienes más de una copia de esta llave?",
+"traducao": "Do you have more than one copy of this key?",
+"tatoeba": 1239400
+},
+{
+"n": 45056,
+"frase": "¿Puedo tomar prestado este diccionario?",
+"traducao": "Can I borrow this dictionary?",
+"tatoeba": 10616022
+},
+{
+"n": 45508,
+"frase": "Fui muy, pero que muy afortunado.",
+"traducao": "I was very, very lucky.",
+"tatoeba": 5645686
+},
+{
+"n": 46112,
+"frase": "Tom no debía haber hecho esperar tanto a Mary.",
+"traducao": "Tom shouldn't have kept Mary waiting so long.",
+"tatoeba": 1402700
+},
+{
+"n": 46507,
+"frase": "¿Cuánto dinero necesita pedir prestado Tom?",
+"traducao": "How much money does Tom need to borrow?",
+"tatoeba": 6692185
+},
+{
+"n": 47472,
+"frase": "Pasará, pero no pasará esta semana.",
+"traducao": "It'll happen, but it won't happen this week.",
+"tatoeba": 9602003
+},
+{
+"n": 48368,
+"frase": "Parece que no me necesitan aquí.",
+"traducao": "It looks like I'm not needed here.",
+"tatoeba": 4501267
+},
+{
+"n": 48571,
+"frase": "Me encanta el vestido que llevas puesto.",
+"traducao": "I love the outfit you're wearing.",
+"tatoeba": 6067530
+},
+{
+"n": 49192,
+"frase": "Este traje es de todo menos barato.",
+"traducao": "This suit is anything but cheap.",
+"tatoeba": 1232875
+},
+{
+"n": 49674,
+"frase": "La esposa de Tom no conoce al esposo de María.",
+"traducao": "Tom's wife doesn't know Mary's husband.",
+"tatoeba": 3037565
+},
+{
+"n": 51990,
+"frase": "Me alegro de tener esta oportunidad para hablar con usted.",
+"traducao": "I'm glad to have this opportunity to speak to you.",
+"tatoeba": 475621
+},
+{
+"n": 53005,
+"frase": "A Tom le gustan los perros, pero odia los gatos.",
+"traducao": "Tom likes dogs, but he hates cats.",
+"tatoeba": 9990748
+},
+{
+"n": 53271,
+"frase": "La vela se apagó sola.",
+"traducao": "The candle went out by itself.",
+"tatoeba": 735996
+},
+{
+"n": 55057,
+"frase": "¿Qué hay en la cesta?",
+"traducao": "What's in the basket?",
+"tatoeba": 8980889
+},
+{
+"n": 55771,
+"frase": "Tom trató de mantenerse lejos de Mary.",
+"traducao": "Tom tried to stay away from Mary.",
+"tatoeba": 1467819
+},
+{
+"n": 56148,
+"frase": "Piensan demasiado.",
+"traducao": "You think too much.",
+"tatoeba": 6706970
+},
+{
+"n": 56822,
+"frase": "¿Tienen una reserva?",
+"traducao": "Do you have a reservation?",
+"tatoeba": 3351439
+},
+{
+"n": 57080,
+"frase": "Estaría agradecido.",
+"traducao": "I'd be grateful.",
+"tatoeba": 4317560
+},
+{
+"n": 57091,
+"frase": "Nos gusta nadar en el océano.",
+"traducao": "We like swimming in the ocean.",
+"tatoeba": 1490475
+},
+{
+"n": 58743,
+"frase": "Vuelvan mañana.",
+"traducao": "Come again tomorrow.",
+"tatoeba": 1441330
+},
+{
+"n": 59087,
+"frase": "Está prohibido fumar aquí.",
+"traducao": "You are not supposed to smoke here.",
+"tatoeba": 2742228
+},
+{
+"n": 59473,
+"frase": "Tom definitivamente está planeando algo.",
+"traducao": "Tom is definitely up to something.",
+"tatoeba": 5124682
+},
+{
+"n": 60258,
+"frase": "Hubo tres heridos.",
+"traducao": "Three were wounded.",
+"tatoeba": 5567703
+},
+{
+"n": 60910,
+"frase": "No dejes la luz encendida.",
+"traducao": "Don't leave the light on.",
+"tatoeba": 6165803
+},
+{
+"n": 60931,
+"frase": "¿Dónde puse mis lentes de lectura?",
+"traducao": "Where did I put my reading glasses?",
+"tatoeba": 2897987
+},
+{
+"n": 62031,
+"frase": "Todos piensan lo mismo.",
+"traducao": "Everyone thinks the same thing.",
+"tatoeba": 1036677
+},
+{
+"n": 62402,
+"frase": "¿Quién es el dueño de esta casa?",
+"traducao": "Who owns this house?",
+"tatoeba": 2270543
+},
+{
+"n": 63372,
+"frase": "Lo reconocí de un vistazo.",
+"traducao": "I recognized him at a glance.",
+"tatoeba": 2254481
+},
+{
+"n": 63904,
+"frase": "Ojalá que te mueras.",
+"traducao": "I hope that you die.",
+"tatoeba": 1305445
+},
+{
+"n": 64038,
+"frase": "Canto casi todos los días.",
+"traducao": "I sing almost every day.",
+"tatoeba": 1745890
+},
+{
+"n": 64251,
+"frase": "Quiero que confíes en mí.",
+"traducao": "I want you to trust me.",
+"tatoeba": 4424608
+},
+{
+"n": 64332,
+"frase": "Es hora de ordeñar a las cabras.",
+"traducao": "It's time to milk the goats.",
+"tatoeba": 13615096
+},
+{
+"n": 64789,
+"frase": "Empecé a aprender francés.",
+"traducao": "I've started learning French.",
+"tatoeba": 3089405
+},
+{
+"n": 66317,
+"frase": "No podemos controlar el tiempo.",
+"traducao": "We can't control the weather.",
+"tatoeba": 7559647
+},
+{
+"n": 67715,
+"frase": "Es del todo inútil.",
+"traducao": "He's totally useless.",
+"tatoeba": 7447483
+},
+{
+"n": 68386,
+"frase": "Ese es el dibujo de Tom.",
+"traducao": "That's Tom's drawing.",
+"tatoeba": 10191855
+},
+{
+"n": 69588,
+"frase": "¡¿Por qué estás gritando?!",
+"traducao": "Why are you screaming?!",
+"tatoeba": 1778606
+},
+{
+"n": 69827,
+"frase": "A partir de mi experiencia personal, yo sé que cualquier encuentro con él te dejará un mal gusto en la boca.",
+"traducao": "From personal experience, I know that any encounter with him will leave a bad taste in your mouth.",
+"tatoeba": 1251929
+},
+{
+"n": 70539,
+"frase": "Estamos preocupados por ti.",
+"traducao": "We are worried about you.",
+"tatoeba": 3250886
+},
+{
+"n": 72140,
+"frase": "No te levantas tan pronto como tu hermana, ¿verdad?",
+"traducao": "You don't get up as early as your sister, do you?",
+"tatoeba": 1418693
+},
+{
+"n": 72544,
+"frase": "El jefe se va a enfadar conmigo.",
+"traducao": "The boss is going to get mad at me.",
+"tatoeba": 1224607
+},
+{
+"n": 72768,
+"frase": "El nuevo profesor está en el aula.",
+"traducao": "The new teacher is in the class.",
+"tatoeba": 1330504
+},
+{
+"n": 72848,
+"frase": "Tom y Mary pasan mucho tiempo juntos.",
+"traducao": "Tom and Mary spend a lot of time together.",
+"tatoeba": 1555868
+},
+{
+"n": 74177,
+"frase": "Solo les estamos pidiendo que nos ayuden durante unas pocas horas.",
+"traducao": "We're only asking you to help us for a few hours.",
+"tatoeba": 7977588
+},
+{
+"n": 74691,
+"frase": "Os va a gustar trabajar para mí.",
+"traducao": "You're going to like working for me.",
+"tatoeba": 7480836
+},
+{
+"n": 75470,
+"frase": "Al menos las sábanas están limpias.",
+"traducao": "At least the sheets are clean.",
+"tatoeba": 7181523
+},
+{
+"n": 75849,
+"frase": "Tom y su profesora estaban conversando.",
+"traducao": "Tom and his teacher were talking to each other.",
+"tatoeba": 2758883
+},
+{
+"n": 76225,
+"frase": "Las niñas quieren jugar adentro, y los niños quieren jugar afuera.",
+"traducao": "The girls want to play inside, and the boys want to play outside.",
+"tatoeba": 9755694
+},
+{
+"n": 77607,
+"frase": "Ella es su madre real.",
+"traducao": "She is his real mother.",
+"tatoeba": 1339443
+},
+{
+"n": 77656,
+"frase": "Me alegro de que te haya gustado.",
+"traducao": "I'm happy you liked it.",
+"tatoeba": 1619698
+},
+{
+"n": 78139,
+"frase": "Tom y Mary hablaron sobre casarse.",
+"traducao": "Tom and Mary talked about getting married.",
+"tatoeba": 9510596
+},
+{
+"n": 78697,
+"frase": "No podemos aguantar mucho más tiempo.",
+"traducao": "We can't hold out much longer.",
+"tatoeba": 10168118
+},
+{
+"n": 79997,
+"frase": "Ese hombre es definitivamente un estudiante de universidad.",
+"traducao": "That man is definitely a bachelor.",
+"tatoeba": 7975781
+},
+{
+"n": 80728,
+"frase": "Se habían terminado la tarta antes de que yo llegara a casa.",
+"traducao": "The cake was all eaten up before I got home.",
+"tatoeba": 1781691
+},
+{
+"n": 82213,
+"frase": "No te vuelvas paranoico.",
+"traducao": "Don't get paranoid.",
+"tatoeba": 2711054
+},
+{
+"n": 83307,
+"frase": "Os lo mandaré.",
+"traducao": "I'll send it to you.",
+"tatoeba": 2711402
+},
+{
+"n": 84659,
+"frase": "En la vida hay altibajos.",
+"traducao": "In life there are ups and downs.",
+"tatoeba": 1250798
+},
+{
+"n": 84874,
+"frase": "Hice que se enfadara la mujer.",
+"traducao": "I made the woman angry.",
+"tatoeba": 1446273
+},
+{
+"n": 85256,
+"frase": "Soy de Noruega.",
+"traducao": "I'm from Norway.",
+"tatoeba": 5118288
+},
+{
+"n": 86706,
+"frase": "Estacioné mi carro junto al portón.",
+"traducao": "I parked my car by the gate.",
+"tatoeba": 3859636
+},
+{
+"n": 87026,
+"frase": "Me puedo defender sola.",
+"traducao": "I can defend myself.",
+"tatoeba": 2300815
+},
+{
+"n": 87580,
+"frase": "Mary era una camarera.",
+"traducao": "Mary was a waitress.",
+"tatoeba": 4503550
+},
+{
+"n": 88781,
+"frase": "Mi mamá sabe hacer tortas.",
+"traducao": "My mother knows how to make cakes.",
+"tatoeba": 2067238
+},
+{
+"n": 89687,
+"frase": "¿Cuál es tu actividad de verano favorita?",
+"traducao": "What's your favorite summer activity?",
+"tatoeba": 1340894
+},
+{
+"n": 90519,
+"frase": "A pesar de que llovía, debía ir afuera.",
+"traducao": "Although it was raining, I had to go out.",
+"tatoeba": 2154697
+},
+{
+"n": 90520,
+"frase": "Démosle a Tom un poco más de tiempo.",
+"traducao": "Let's give Tom a little more time.",
+"tatoeba": 2162776
+},
+{
+"n": 90673,
+"frase": "A veces cometemos errores.",
+"traducao": "We sometimes make mistakes.",
+"tatoeba": 514326
+},
+{
+"n": 91382,
+"frase": "Tom cree que vendrá el día en que no habrá más guerras.",
+"traducao": "Tom believes the day will come when there will be no more wars.",
+"tatoeba": 1331414
+},
+{
+"n": 91905,
+"frase": "El tiempo es precioso.",
+"traducao": "The weather is beautiful.",
+"tatoeba": 872260
+},
+{
+"n": 92124,
+"frase": "Adoptaron a la niña pequeña.",
+"traducao": "They adopted the little girl.",
+"tatoeba": 1332226
+},
+{
+"n": 92708,
+"frase": "¿Limpiaste tu cuarto?",
+"traducao": "Did you clean your room?",
+"tatoeba": 1335554
+},
+{
+"n": 93302,
+"frase": "Prometo que leeré este libro.",
+"traducao": "I promise that I'll read this book.",
+"tatoeba": 5253125
+},
+{
+"n": 93718,
+"frase": "Tom se derrumbó sobre su silla.",
+"traducao": "Tom slumped in his chair.",
+"tatoeba": 6837597
+},
+{
+"n": 94381,
+"frase": "Tom prefiere ducharse en la mañana, mientras que María prefiere tomar un baño justo antes de ir a la cama.",
+"traducao": "Tom prefers to take a shower in the morning while Mary prefers to take a bath just before going to bed.",
+"tatoeba": 2618881
+},
+{
+"n": 95817,
+"frase": "¿Qué profundidad tiene el lago Biwa?",
+"traducao": "How deep is Lake Biwa?",
+"tatoeba": 963909
+},
+{
+"n": 96180,
+"frase": "¿Cuándo comienzan tus vacaciones de verano?",
+"traducao": "When does your summer vacation start?",
+"tatoeba": 1496863
+},
+{
+"n": 97771,
+"frase": "El dolor se calmó un poco.",
+"traducao": "The pain has lessened a little.",
+"tatoeba": 1803744
+},
+{
+"n": 98366,
+"frase": "Tom alegó que mató a Mary en defensa propia.",
+"traducao": "Tom claimed he killed Mary in self-defense.",
+"tatoeba": 1313053
+},
+{
+"n": 99374,
+"frase": "Recientemente me he estado sintiendo un poco cansado, así que no he ido a nadar esta semana.",
+"traducao": "Recently I have been feeling a little tired, so I have not gone swimming this week.",
+"tatoeba": 1293109
+},
+{
+"n": 101250,
+"frase": "Está colado por ella.",
+"traducao": "He's crazy for her.",
+"tatoeba": 3217192
+},
+{
+"n": 101533,
+"frase": "Japón es un país industrial.",
+"traducao": "Japan is an industrial nation.",
+"tatoeba": 330116
+},
+{
+"n": 101946,
+"frase": "Agitar antes de usar.",
+"traducao": "Shake before using.",
+"tatoeba": 524772
+},
+{
+"n": 102581,
+"frase": "Ondeaban las banderas.",
+"traducao": "The flags were waving.",
+"tatoeba": 8326763
+},
+{
+"n": 103931,
+"frase": "¿Queréis colorear con rotuladores o con lápices de colores?",
+"traducao": "Do you want to color with markers or colored pencils?",
+"tatoeba": 10105976
+},
+{
+"n": 104363,
+"frase": "Algo debe estar mal con la maquinaria.",
+"traducao": "Something must be wrong with the machinery.",
+"tatoeba": 1340052
+},
+{
+"n": 104573,
+"frase": "Consíguete una vida.",
+"traducao": "Get a life.",
+"tatoeba": 1546406
+},
+{
+"n": 105582,
+"frase": "Hice una máscara aterradora en clase de arte.",
+"traducao": "I made a frightening mask in art class.",
+"tatoeba": 4351081
+},
+{
+"n": 105932,
+"frase": "¿Podemos acompañaros en vuestro paseo?",
+"traducao": "May we accompany you on your walk?",
+"tatoeba": 769371
+},
+{
+"n": 107387,
+"frase": "¿Cómo te apellidas?",
+"traducao": "What's your last name?",
+"tatoeba": 3540190
+},
+{
+"n": 107784,
+"frase": "Estamos muy desanimados.",
+"traducao": "We're very discouraged.",
+"tatoeba": 5022681
+},
+{
+"n": 108230,
+"frase": "Tom debería ser recriminado.",
+"traducao": "Tom should be scolded.",
+"tatoeba": 5819737
+},
+{
+"n": 108620,
+"frase": "¿Por qué te gustaría que se te recordara?",
+"traducao": "What do you want to be remembered for?",
+"tatoeba": 6865339
+},
+{
+"n": 108864,
+"frase": "¿Por qué te empeñas en aprender las cosas de la forma más complicada?",
+"traducao": "Why do you always have to learn things the hard way?",
+"tatoeba": 8441445
+},
+{
+"n": 108885,
+"frase": "¿Has tenido alguna vez una intoxicación alimenticia?",
+"traducao": "Have you ever had food poisoning?",
+"tatoeba": 8781391
+},
+{
+"n": 111355,
+"frase": "Tenemos que aligerar la carga.",
+"traducao": "We have to lighten the load.",
+"tatoeba": 2259762
+},
+{
+"n": 111449,
+"frase": "Es inútil, no machaque usted más.",
+"traducao": "It's useless. Don't harp on it any longer.",
+"tatoeba": 2267486
+},
+{
+"n": 111536,
+"frase": "Los submarinos echaron a pique muchos barcos.",
+"traducao": "The submarines sank a lot of ships.",
+"tatoeba": 2268579
+},
+{
+"n": 111635,
+"frase": "Tom es conflictivo.",
+"traducao": "Tom is a troublemaker.",
+"tatoeba": 2385284
+},
+{
+"n": 115357,
+"frase": "Estoy mirándote.",
+"traducao": "I'm looking at you.",
+"tatoeba": 6830764
+},
+{
+"n": 115385,
+"frase": "Estoy remodelando los cuartos de baño.",
+"traducao": "I'm remodeling the bathrooms.",
+"tatoeba": 7160344
+},
+{
+"n": 115557,
+"frase": "No distingue bien los colores, porque tiene daltonismo.",
+"traducao": "He can't distinguish colors very well because he's colorblind.",
+"tatoeba": 9687550
+},
+{
+"n": 116860,
+"frase": "Supongo que Tom se nos unirá.",
+"traducao": "I assume that Tom will be joining us.",
+"tatoeba": 10044234
+},
+{
+"n": 119016,
+"frase": "Tomás no afiló los lápices.",
+"traducao": "Tom didn't sharpen the pencils.",
+"tatoeba": 4791938
+}
+],
+"en-de": [
+{
+"n": 350,
+"frase": "Tom will das, oder?",
+"traducao": "Tom does want this, doesn't he?",
+"tatoeba": 6625186
+},
+{
+"n": 1607,
+"frase": "Komme morgen.",
+"traducao": "Come tomorrow.",
+"tatoeba": 4942887
+},
+{
+"n": 1854,
+"frase": "Hast du es vergessen?",
+"traducao": "Did you forget?",
+"tatoeba": 4943231
+},
+{
+"n": 4278,
+"frase": "Warum tat niemand etwas?",
+"traducao": "Why didn't anybody do anything?",
+"tatoeba": 6057656
+},
+{
+"n": 5965,
+"frase": "Tom wird in drei Stunden zurück sein.",
+"traducao": "Tom will be back in three hours.",
+"tatoeba": 5807881
+},
+{
+"n": 6734,
+"frase": "Früher stand hier ein Haus.",
+"traducao": "There used to be a house here at one time.",
+"tatoeba": 11151354
+},
+{
+"n": 7026,
+"frase": "Sie hätten glücklich werden können.",
+"traducao": "You could have been happy.",
+"tatoeba": 1907355
+},
+{
+"n": 7146,
+"frase": "Ich dachte, Tom hätte das für uns getan.",
+"traducao": "I thought that Tom had done that for us.",
+"tatoeba": 2671986
+},
+{
+"n": 7894,
+"frase": "Heute möchte ich mal früher ins Bett.",
+"traducao": "I want to go to bed earlier tonight.",
+"tatoeba": 4225733
+},
+{
+"n": 8564,
+"frase": "Ich mache mich fertig.",
+"traducao": "I'll get ready.",
+"tatoeba": 3208272
+},
+{
+"n": 9329,
+"frase": "Wir wissen, was mit Toms Wagen passiert ist.",
+"traducao": "We know what happened to Tom's car.",
+"tatoeba": 2785170
+},
+{
+"n": 9710,
+"frase": "Das hätten wir wohl besser nicht getan.",
+"traducao": "We probably shouldn't have done that.",
+"tatoeba": 3191848
+},
+{
+"n": 9838,
+"frase": "Weißt du, wer sie sind?",
+"traducao": "Do you know who they are?",
+"tatoeba": 1537099
+},
+{
+"n": 10641,
+"frase": "Lass mich nicht warten!",
+"traducao": "Don't make me wait.",
+"tatoeba": 1757866
+},
+{
+"n": 11164,
+"frase": "Ist Tom fertig mit Essen?",
+"traducao": "Is Tom finished eating?",
+"tatoeba": 1924480
+},
+{
+"n": 13006,
+"frase": "Wir sind hier, um Spaß zu haben.",
+"traducao": "We're here to have fun.",
+"tatoeba": 2571260
+},
+{
+"n": 13176,
+"frase": "Ich weiß nicht, ob ich ein guter Vater bin.",
+"traducao": "I don't know if I'm a good father.",
+"tatoeba": 3381357
+},
+{
+"n": 13446,
+"frase": "Ich glaube, dass sie nicht kommen wird.",
+"traducao": "I think that she won't come.",
+"tatoeba": 3238577
+},
+{
+"n": 14953,
+"frase": "Niemand will bei Tom sein.",
+"traducao": "Nobody wants to be around Tom.",
+"tatoeba": 6100756
+},
+{
+"n": 15043,
+"frase": "Könnt ihr uns etwas mehr darüber sagen?",
+"traducao": "Can you tell us a bit more about that?",
+"tatoeba": 3374249
+},
+{
+"n": 15525,
+"frase": "Musst du heute nicht in die Schule gehen?",
+"traducao": "Don't you have to go to school today?",
+"tatoeba": 6137751
+},
+{
+"n": 15670,
+"frase": "Wo du recht hast, hast du recht.",
+"traducao": "When you're right, you're right.",
+"tatoeba": 2188682
+},
+{
+"n": 15814,
+"frase": "Vielleicht können Sie es nicht finden.",
+"traducao": "You might not find it.",
+"tatoeba": 1187415
+},
+{
+"n": 16551,
+"frase": "Alles, was ich jetzt will, ist schlafen.",
+"traducao": "All I want to do now is sleep.",
+"tatoeba": 4709126
+},
+{
+"n": 16591,
+"frase": "Ich denke, ich weiß, was ich sagen soll.",
+"traducao": "I think I know what to say.",
+"tatoeba": 6644541
+},
+{
+"n": 19528,
+"frase": "Das ist einfach ihre Art.",
+"traducao": "That is just her way.",
+"tatoeba": 628062
+},
+{
+"n": 19555,
+"frase": "Tom hat angerufen.",
+"traducao": "Tom called.",
+"tatoeba": 4941674
+},
+{
+"n": 19887,
+"frase": "Wir sehen sie manchmal.",
+"traducao": "We sometimes see them.",
+"tatoeba": 7302357
+},
+{
+"n": 20517,
+"frase": "Sie sind klein.",
+"traducao": "They're small.",
+"tatoeba": 6643008
+},
+{
+"n": 20585,
+"frase": "Tom ist lustig.",
+"traducao": "Tom is fun.",
+"tatoeba": 5830121
+},
+{
+"n": 22782,
+"frase": "Wir sind immer noch die Besten.",
+"traducao": "We're still the best.",
+"tatoeba": 4020486
+},
+{
+"n": 23519,
+"frase": "Das Baby kommt nach seiner Mutter.",
+"traducao": "The baby takes after his mother.",
+"tatoeba": 2485479
+},
+{
+"n": 24164,
+"frase": "Tom fährt gerne weg.",
+"traducao": "Tom loves taking trips.",
+"tatoeba": 1937963
+},
+{
+"n": 24267,
+"frase": "Ich werde froh sein, zu gehen.",
+"traducao": "I'll be happy to go.",
+"tatoeba": 6643591
+},
+{
+"n": 25105,
+"frase": "Ich mag deinen Chef nicht.",
+"traducao": "I don't like your boss.",
+"tatoeba": 2658862
+},
+{
+"n": 25242,
+"frase": "Zum Glück war gutes Wetter.",
+"traducao": "Fortunately, the weather was good.",
+"tatoeba": 656017
+},
+{
+"n": 25443,
+"frase": "Ich fahre dich zum Bahnhof.",
+"traducao": "I'll drive you to the station.",
+"tatoeba": 1482096
+},
+{
+"n": 25928,
+"frase": "Er musste darüber lachen.",
+"traducao": "He couldn't help laughing at it.",
+"tatoeba": 1041541
+},
+{
+"n": 27235,
+"frase": "Tom und Maria sahen einander in die Augen.",
+"traducao": "Tom and Mary stared into each other's eyes.",
+"tatoeba": 2419088
+},
+{
+"n": 27659,
+"frase": "Meine Eltern sind tot.",
+"traducao": "Both of my parents are dead.",
+"tatoeba": 1106693
+},
+{
+"n": 28361,
+"frase": "Was machen die Leute gewöhnlich hier im Sommer?",
+"traducao": "What do people usually do in the summer around here?",
+"tatoeba": 4045901
+},
+{
+"n": 29466,
+"frase": "Tom hasst es, wenn es kalt ist.",
+"traducao": "Tom hates it when it's cold.",
+"tatoeba": 1308899
+},
+{
+"n": 29581,
+"frase": "Kann ich mit dir laufen?",
+"traducao": "May I run with you?",
+"tatoeba": 2219177
+},
+{
+"n": 29816,
+"frase": "Ist das die Brille, die du gesucht hast?",
+"traducao": "Are these the glasses you're looking for?",
+"tatoeba": 1807164
+},
+{
+"n": 30217,
+"frase": "Ich habe kein Zuhause mehr.",
+"traducao": "I no longer have a home.",
+"tatoeba": 1139155
+},
+{
+"n": 30340,
+"frase": "Ich komme jeden Montag her.",
+"traducao": "I come here every Monday.",
+"tatoeba": 1841976
+},
+{
+"n": 30595,
+"frase": "Dies ist jetzt mein Zuhause.",
+"traducao": "This is my home now.",
+"tatoeba": 6147512
+},
+{
+"n": 31439,
+"frase": "Wie wäre es mit einer Tasse Kaffee?",
+"traducao": "Would you like to have a cup of coffee?",
+"tatoeba": 1599758
+},
+{
+"n": 32530,
+"frase": "Es kam genauso, wie wir erwartet hatten.",
+"traducao": "It went just as we expected.",
+"tatoeba": 3459145
+},
+{
+"n": 32951,
+"frase": "Ich fuhr nach Hause, weil es schon spät war.",
+"traducao": "I went home because it was late.",
+"tatoeba": 7345222
+},
+{
+"n": 33092,
+"frase": "Hätte ich genug Geld, könnte ich ins Ausland gehen.",
+"traducao": "If I had enough money, I could go abroad.",
+"tatoeba": 944651
+},
+{
+"n": 34675,
+"frase": "Tom setzte seinen Hut auf und ging nach draußen.",
+"traducao": "Tom put his hat on and went outside.",
+"tatoeba": 1932287
+},
+{
+"n": 34687,
+"frase": "Heute ist es nicht so heiß.",
+"traducao": "It's not so hot today.",
+"tatoeba": 3768498
+},
+{
+"n": 34816,
+"frase": "Tom sagte, dass er nichts falsch gemacht habe und dass es nicht seine Schuld sei.",
+"traducao": "Tom said that he did nothing wrong and that it wasn't his fault.",
+"tatoeba": 5175320
+},
+{
+"n": 35954,
+"frase": "Zwischen uns wurde es schnell ernst.",
+"traducao": "Things quickly got serious between us.",
+"tatoeba": 4537438
+},
+{
+"n": 36241,
+"frase": "Du siehst viel älter aus als Tom.",
+"traducao": "You look a lot older than Tom.",
+"tatoeba": 6965732
+},
+{
+"n": 37056,
+"frase": "Tom ging, ohne auf Wiedersehen zu sagen.",
+"traducao": "Tom left without saying goodbye.",
+"tatoeba": 1938066
+},
+{
+"n": 37093,
+"frase": "Bitte besuchen Sie uns in der nächsten Zeit, wenn Sie nach Boston kommen.",
+"traducao": "Please drop in to see us next time you come to Boston.",
+"tatoeba": 6803359
+},
+{
+"n": 37268,
+"frase": "Das wollt ihr doch wohl nicht tun, oder?",
+"traducao": "You're not going to do it, are you?",
+"tatoeba": 3549671
+},
+{
+"n": 37762,
+"frase": "Hör auf, so zu tun, als ob du mich nicht kennen würdest!",
+"traducao": "Stop pretending you don't know me.",
+"tatoeba": 3145274
+},
+{
+"n": 38175,
+"frase": "Geh ans Telefon!",
+"traducao": "Answer the phone.",
+"tatoeba": 764125
+},
+{
+"n": 38290,
+"frase": "Hast du die Blumen erhalten?",
+"traducao": "Did you receive the flowers?",
+"tatoeba": 6009065
+},
+{
+"n": 38829,
+"frase": "Sie ist in einer Besprechung.",
+"traducao": "She's at a meeting.",
+"tatoeba": 1391341
+},
+{
+"n": 38974,
+"frase": "Tom mag Fußball.",
+"traducao": "Tom likes soccer.",
+"tatoeba": 6619058
+},
+{
+"n": 39618,
+"frase": "Tom beschloss, Lehrer zu werden.",
+"traducao": "Tom made up his mind to be a teacher.",
+"tatoeba": 2735140
+},
+{
+"n": 39824,
+"frase": "Können Sie den Lärm ertragen?",
+"traducao": "Can you put up with the noise?",
+"tatoeba": 1958579
+},
+{
+"n": 40026,
+"frase": "Ich muss das Gemüse kochen.",
+"traducao": "I have to cook the vegetables.",
+"tatoeba": 1745862
+},
+{
+"n": 41359,
+"frase": "Tom schwimmt gern.",
+"traducao": "Tom likes swimming.",
+"tatoeba": 1343481
+},
+{
+"n": 44657,
+"frase": "Tom wollte niemanden verletzen.",
+"traducao": "Tom didn't mean to hurt anybody.",
+"tatoeba": 1386505
+},
+{
+"n": 47301,
+"frase": "Tom ist ziemlich beliebt.",
+"traducao": "Tom is quite popular.",
+"tatoeba": 3555390
+},
+{
+"n": 49856,
+"frase": "Warum hast du so viele Kekse gekauft?",
+"traducao": "Why did you buy so many cookies?",
+"tatoeba": 4484245
+},
+{
+"n": 52521,
+"frase": "Woran arbeiten Sie denn da gerade?",
+"traducao": "What's that you're working on?",
+"tatoeba": 3404177
+},
+{
+"n": 53545,
+"frase": "Da es Sonntag war, war der Laden zu.",
+"traducao": "It being Sunday, the shop was closed.",
+"tatoeba": 2130778
+},
+{
+"n": 54548,
+"frase": "Erzähl mir alles über deinen Plan.",
+"traducao": "Tell me all about your plan.",
+"tatoeba": 2287669
+},
+{
+"n": 55723,
+"frase": "Könntest du den Fernseher leiser stellen?",
+"traducao": "Could you turn down the TV?",
+"tatoeba": 3407411
+},
+{
+"n": 56207,
+"frase": "Tom schwimmt besser als ich.",
+"traducao": "Tom swims better than I do.",
+"tatoeba": 3506254
+},
+{
+"n": 57733,
+"frase": "Tom ging mit seiner Familie einkaufen.",
+"traducao": "Tom went shopping with his family.",
+"tatoeba": 5054647
+},
+{
+"n": 58028,
+"frase": "Wart ihr schon mal im Ausland?",
+"traducao": "Have you been abroad?",
+"tatoeba": 827943
+},
+{
+"n": 59048,
+"frase": "Seit wann kümmert es Sie, was ich denke?",
+"traducao": "Since when do you care about what I think?",
+"tatoeba": 6970895
+},
+{
+"n": 59049,
+"frase": "Tom und Maria sind seit drei Jahren befreundet.",
+"traducao": "Tom and Mary have been friends for three years.",
+"tatoeba": 2265567
+},
+{
+"n": 59510,
+"frase": "Ich habe mein Bestes versucht, aber das Rennen doch verloren.",
+"traducao": "I tried my best, but I still lost the race.",
+"tatoeba": 2011255
+},
+{
+"n": 61524,
+"frase": "Du hast die Wahl zwischen diesen und jenen.",
+"traducao": "You have your choice between this and that.",
+"tatoeba": 640690
+},
+{
+"n": 61592,
+"frase": "Du bist wohlhabend.",
+"traducao": "You're wealthy.",
+"tatoeba": 2205437
+},
+{
+"n": 62616,
+"frase": "Ich verstehe mich mit meinem jüngeren Bruder.",
+"traducao": "I get along with my younger brother.",
+"tatoeba": 3046686
+},
+{
+"n": 62746,
+"frase": "Ich bin ein starker Mann.",
+"traducao": "I'm a strong man.",
+"tatoeba": 5211823
+},
+{
+"n": 63464,
+"frase": "Toms Gehirn soll nicht mehr funktionieren.",
+"traducao": "They say Tom's brain isn't functioning anymore.",
+"tatoeba": 2233155
+},
+{
+"n": 64340,
+"frase": "Sie ist mit ihm verwandt.",
+"traducao": "She is related to him.",
+"tatoeba": 1391138
+},
+{
+"n": 64454,
+"frase": "Wir stiegen in ein Auto.",
+"traducao": "We got into a car.",
+"tatoeba": 1633017
+},
+{
+"n": 68494,
+"frase": "Möchtet ihr kleine oder große Scheine?",
+"traducao": "Do you want small bills or large?",
+"tatoeba": 1030915
+},
+{
+"n": 68765,
+"frase": "Wie viele Punkte hast du erreicht?",
+"traducao": "How many points have you scored?",
+"tatoeba": 3576826
+},
+{
+"n": 70010,
+"frase": "Maria ist schön und intelligent.",
+"traducao": "Mary is beautiful and intelligent.",
+"tatoeba": 2815161
+},
+{
+"n": 70236,
+"frase": "Vierzig Leute waren da.",
+"traducao": "Forty people were present.",
+"tatoeba": 1386541
+},
+{
+"n": 71376,
+"frase": "Ich werde es Tom anschauen lassen.",
+"traducao": "I'll have Tom look at it.",
+"tatoeba": 6643598
+},
+{
+"n": 72350,
+"frase": "Tom wirkt irgendwie gereizt.",
+"traducao": "Tom looks somewhat annoyed.",
+"tatoeba": 7029074
+},
+{
+"n": 72529,
+"frase": "Ich kann mir nicht vorstellen, dass ein Muttersprachler das je so sagen würde.",
+"traducao": "I can't imagine a native speaker ever saying it that way.",
+"tatoeba": 3314750
+},
+{
+"n": 73147,
+"frase": "Tom hörte einige Schüsse.",
+"traducao": "Tom heard some shots.",
+"tatoeba": 6391778
+},
+{
+"n": 73772,
+"frase": "Wie viele Fremdsprachen könnt ihr?",
+"traducao": "How many foreign languages do you know?",
+"tatoeba": 6162675
+},
+{
+"n": 74531,
+"frase": "He! Was versteckst du da hinter deinem Rücken?",
+"traducao": "Hey, what're you hiding behind your back?",
+"tatoeba": 5200242
+},
+{
+"n": 75243,
+"frase": "Können Sie mir verzeihen?",
+"traducao": "Can you forgive me?",
+"tatoeba": 737333
+},
+{
+"n": 75631,
+"frase": "Maria ist das schönste Mädchen, das ich kenne.",
+"traducao": "Mary is the most beautiful girl I know.",
+"tatoeba": 2792378
+},
+{
+"n": 77139,
+"frase": "Wir können diesen Briefumschlag nicht eher öffnen, bis Tom hier ist.",
+"traducao": "We can't open this envelope until Tom gets here.",
+"tatoeba": 1967413
+},
+{
+"n": 77278,
+"frase": "Von dort kann man das Feuerwerk gut sehen.",
+"traducao": "It's easy to see the fireworks from over there.",
+"tatoeba": 748695
+},
+{
+"n": 77304,
+"frase": "Wenn ich Ausländer wäre, könnte ich wahrscheinlich auch keinen rohen Fisch essen.",
+"traducao": "If I were a foreigner, I probably wouldn't be able to eat raw fish.",
+"tatoeba": 1972362
+},
+{
+"n": 77832,
+"frase": "Die Adresse auf diesem Paket ist falsch.",
+"traducao": "The address on this parcel is wrong.",
+"tatoeba": 646207
+},
+{
+"n": 78135,
+"frase": "Du musst helfen, den Tisch zu decken.",
+"traducao": "You must help set the table.",
+"tatoeba": 3864664
+},
+{
+"n": 78222,
+"frase": "Ich habe nicht vor, jetzt anzufangen.",
+"traducao": "I don't intend to start now.",
+"tatoeba": 2696076
+},
+{
+"n": 79471,
+"frase": "Das habe ich vor langer Zeit gesagt.",
+"traducao": "I said this a long time ago.",
+"tatoeba": 5214882
+},
+{
+"n": 79905,
+"frase": "Der Lärm stört uns nicht.",
+"traducao": "The noise doesn't bother us.",
+"tatoeba": 6813484
+},
+{
+"n": 81057,
+"frase": "Wenn ich mich recht erinnere, warst du zu der Zeit ziemlich optimistisch.",
+"traducao": "If I remember correctly, you were quite optimistic at that time.",
+"tatoeba": 3239618
+},
+{
+"n": 81399,
+"frase": "Das ist nicht mein Schirm; der gehört jemand anderem.",
+"traducao": "This isn't my umbrella; it's somebody else's.",
+"tatoeba": 5527324
+},
+{
+"n": 81927,
+"frase": "Tom hat Maria reichlich Geld gegeben.",
+"traducao": "Tom gave Mary plenty of money.",
+"tatoeba": 3026709
+},
+{
+"n": 81987,
+"frase": "Ich habe einen Freund, der seinem Hund Erdbeeren zu fressen gibt.",
+"traducao": "I have a friend who feeds his dog strawberries.",
+"tatoeba": 1695788
+},
+{
+"n": 82502,
+"frase": "Sie hätten seinen Rat annehmen sollen.",
+"traducao": "You should have accepted his advice.",
+"tatoeba": 1000676
+},
+{
+"n": 83606,
+"frase": "Er war sehr geduldig.",
+"traducao": "He was very patient.",
+"tatoeba": 642062
+},
+{
+"n": 84886,
+"frase": "Tom starb, bevor der Krankenwagen kam.",
+"traducao": "Tom died before the ambulance arrived.",
+"tatoeba": 5294007
+},
+{
+"n": 86563,
+"frase": "Sie fängt an, mir auf die Nerven zu gehen.",
+"traducao": "She's starting to annoy me.",
+"tatoeba": 6152517
+},
+{
+"n": 86662,
+"frase": "Es war Tom nicht erlaubt, Maria alles zu sagen, was er wusste.",
+"traducao": "Tom was not permitted to tell Mary everything he knew.",
+"tatoeba": 1786253
+},
+{
+"n": 89974,
+"frase": "Ihr könnt es irgendwohin abstellen.",
+"traducao": "You can put it anywhere.",
+"tatoeba": 2189014
+},
+{
+"n": 90096,
+"frase": "Versprich mir, dass du wiederkommst!",
+"traducao": "Promise me that you'll come back.",
+"tatoeba": 3754722
+},
+{
+"n": 90357,
+"frase": "Hast du Kaugummis?",
+"traducao": "Do you have any gum?",
+"tatoeba": 1343510
+},
+{
+"n": 90461,
+"frase": "Tom hinkt.",
+"traducao": "Tom's limping.",
+"tatoeba": 2235571
+},
+{
+"n": 91411,
+"frase": "Tom hat Mary überall hingefahren.",
+"traducao": "Tom drove Mary all over the place.",
+"tatoeba": 1561513
+},
+{
+"n": 92141,
+"frase": "Weiss Tom, wie man das macht?",
+"traducao": "Does Tom know how to do that?",
+"tatoeba": 6641510
+},
+{
+"n": 92662,
+"frase": "Tom ist bemerkenswert.",
+"traducao": "Tom is remarkable.",
+"tatoeba": 6619303
+},
+{
+"n": 92801,
+"frase": "Tom geht in den Kindergarten.",
+"traducao": "Tom goes to kindergarten.",
+"tatoeba": 5442901
+},
+{
+"n": 94540,
+"frase": "Wer ist das Mädchen in dem gelben Regenmantel?",
+"traducao": "Who's the girl in a yellow raincoat?",
+"tatoeba": 1671964
+},
+{
+"n": 94972,
+"frase": "Tom und Maria haben nicht viel Zeit, um miteinander zu sprechen. Die Kinder verlangen ständige Aufmerksamkeit.",
+"traducao": "Tom and Mary don't have much time to talk together. Their children are always demanding their attention.",
+"tatoeba": 5746436
+},
+{
+"n": 96810,
+"frase": "Wir sind im gleichen Alter, doch unterschiedlich groß.",
+"traducao": "We are the same age, but different heights.",
+"tatoeba": 1793943
+},
+{
+"n": 97004,
+"frase": "Tom lugte durchs Fenster und sah Maria und Johannes beim Küssen.",
+"traducao": "Tom peeked in the window and saw Mary and John kissing.",
+"tatoeba": 2767986
+},
+{
+"n": 97370,
+"frase": "Der Trainer ließ uns drei zusätzliche Runden laufen.",
+"traducao": "The coach made us run three extra laps.",
+"tatoeba": 6534111
+},
+{
+"n": 98669,
+"frase": "Wegen des Regens fand das Picknick in der Turnhalle statt.",
+"traducao": "The picnic was held in the gym on account of the rain.",
+"tatoeba": 594769
+},
+{
+"n": 99641,
+"frase": "Glauben Sie, dass die Erderwärmung das Ergebnis menschlichen Handelns ist?",
+"traducao": "Do you believe global warming is the result of human actions?",
+"tatoeba": 754351
+},
+{
+"n": 99901,
+"frase": "Das Flugzeug startete und war schon bald außer Sichtweite.",
+"traducao": "The plane took off and was soon out of sight.",
+"tatoeba": 1775092
+},
+{
+"n": 99973,
+"frase": "Tom wollte kanadischer Staatsbürger werden.",
+"traducao": "Tom wanted to become a Canadian citizen.",
+"tatoeba": 2976545
+},
+{
+"n": 100197,
+"frase": "Tom ist überaus eifersüchtig und wird böse, wenn mich andere Männer ansprechen.",
+"traducao": "Tom is really jealous and he gets mad when other guys talk to me.",
+"tatoeba": 3813477
+},
+{
+"n": 101671,
+"frase": "Tom hat Marias Gefühle überhaupt nicht berücksichtigt.",
+"traducao": "Tom didn't consider Mary's feelings at all.",
+"tatoeba": 3897834
+},
+{
+"n": 103262,
+"frase": "Es ist draußen nicht mehr stockdunkel.",
+"traducao": "It's no longer pitch black outside.",
+"tatoeba": 3171390
+},
+{
+"n": 103643,
+"frase": "Wir sind zu dritt.",
+"traducao": "There are three of us.",
+"tatoeba": 3519602
+},
+{
+"n": 103710,
+"frase": "Der Park war menschenleer.",
+"traducao": "The park was deserted.",
+"tatoeba": 4868489
+},
+{
+"n": 105369,
+"frase": "Tom zeigte auf den Boden nahe Marias rechtem Fuß.",
+"traducao": "Tom pointed to the floor near Mary's right foot.",
+"tatoeba": 2763151
+},
+{
+"n": 106318,
+"frase": "Bitte behalte deine zynischen Bemerkungen für dich.",
+"traducao": "Please keep your cynical remarks to yourself.",
+"tatoeba": 3292029
+},
+{
+"n": 107756,
+"frase": "Tom mag Schimpansen.",
+"traducao": "Tom likes chimpanzees.",
+"tatoeba": 8243221
+},
+{
+"n": 109134,
+"frase": "Wir importieren Mehl aus Amerika.",
+"traducao": "We import flour from America.",
+"tatoeba": 820189
+},
+{
+"n": 112670,
+"frase": "Das Buch verkauft sich aktuell gut.",
+"traducao": "This book is selling well these days.",
+"tatoeba": 2599849
+},
+{
+"n": 112743,
+"frase": "Ich hätte mich selbst ohrfeigen können.",
+"traducao": "I wanted to slap myself.",
+"tatoeba": 2655091
+},
+{
+"n": 112947,
+"frase": "Tom und Maria waren glücklich bis an ihr Lebensende.",
+"traducao": "Tom and Mary lived happily ever after.",
+"tatoeba": 2745877
+},
+{
+"n": 113830,
+"frase": "Nimm ein Sieb, um die Nudeln abtropfen zu lassen.",
+"traducao": "Use a strainer to drain the pasta.",
+"tatoeba": 3171177
+},
+{
+"n": 114389,
+"frase": "Ich sehe Flugzeugen gerne beim Abheben zu.",
+"traducao": "I like watching planes take off.",
+"tatoeba": 3534691
+},
+{
+"n": 119067,
+"frase": "Tom sah gerade in Unterwäsche fern, als ich ins Zimmer kam.",
+"traducao": "Tom was watching TV in his underwear when I entered the room.",
+"tatoeba": 2770932
+},
+{
+"n": 119079,
+"frase": "Während ich auf die Straßenbahn wartete, wurde ich Zeuge eines Verkehrsunfalls.",
+"traducao": "While I was waiting for the streetcar, I witnessed a traffic accident.",
+"tatoeba": 2157452
+}
+],
+"en-it": [
+{
+"n": 150,
+"frase": "Dov'è?",
+"traducao": "Where are you?",
+"tatoeba": 1098355
+},
+{
+"n": 1792,
+"frase": "Sono primo.",
+"traducao": "I'm first.",
+"tatoeba": 2697468
+},
+{
+"n": 2719,
+"frase": "Tom riesce a farlo, vero?",
+"traducao": "Tom can do it, can't he?",
+"tatoeba": 3489376
+},
+{
+"n": 3390,
+"frase": "Cos'hai visto?",
+"traducao": "What did you see?",
+"tatoeba": 2009168
+},
+{
+"n": 3783,
+"frase": "Tom è felice.",
+"traducao": "Tom is happy.",
+"tatoeba": 1325754
+},
+{
+"n": 4809,
+"frase": "Io ho parlato con Tom.",
+"traducao": "I talked to Tom.",
+"tatoeba": 2001872
+},
+{
+"n": 5224,
+"frase": "Che cosa vuole dire?",
+"traducao": "What does it mean?",
+"tatoeba": 2592052
+},
+{
+"n": 5273,
+"frase": "Penso che Tom abbia bisogno del tuo aiuto.",
+"traducao": "I think Tom needs your help.",
+"tatoeba": 3009217
+},
+{
+"n": 6764,
+"frase": "Io mi sento meglio.",
+"traducao": "I feel better.",
+"tatoeba": 3546843
+},
+{
+"n": 7104,
+"frase": "Tom non riesce a trovare Mary.",
+"traducao": "Tom can't find Mary.",
+"tatoeba": 2009165
+},
+{
+"n": 7816,
+"frase": "Sono già pronto.",
+"traducao": "I'm already ready.",
+"tatoeba": 1685668
+},
+{
+"n": 9359,
+"frase": "Sei pronto, Tom?",
+"traducao": "Are you ready, Tom?",
+"tatoeba": 3395667
+},
+{
+"n": 10543,
+"frase": "Tom è andato nell'ufficio di Mary.",
+"traducao": "Tom went into Mary's office.",
+"tatoeba": 3769645
+},
+{
+"n": 11542,
+"frase": "Non voglio restare qui.",
+"traducao": "I don't want to stay here.",
+"tatoeba": 3237820
+},
+{
+"n": 11959,
+"frase": "Pensi che Tom l'abbia comprato?",
+"traducao": "Do you think Tom bought it?",
+"tatoeba": 3869396
+},
+{
+"n": 11970,
+"frase": "Siete troppo in ritardo.",
+"traducao": "You're too late.",
+"tatoeba": 2866280
+},
+{
+"n": 12217,
+"frase": "Che libri avete comprato?",
+"traducao": "What books did you buy?",
+"tatoeba": 3815171
+},
+{
+"n": 13710,
+"frase": "Io vorrei vedere sua sorella.",
+"traducao": "I'd like to see your sister.",
+"tatoeba": 2917052
+},
+{
+"n": 14871,
+"frase": "C'è un qualche problema?",
+"traducao": "Is there some sort of problem?",
+"tatoeba": 3551190
+},
+{
+"n": 15194,
+"frase": "Quant'è grande il tuo cane?",
+"traducao": "How big is your dog?",
+"tatoeba": 2571023
+},
+{
+"n": 15396,
+"frase": "Avete finito, vero?",
+"traducao": "You're finished, aren't you?",
+"tatoeba": 3863830
+},
+{
+"n": 15915,
+"frase": "Perché lo stai facendo, Tom?",
+"traducao": "Why are you doing that, Tom?",
+"tatoeba": 4158130
+},
+{
+"n": 16299,
+"frase": "Tu sai cos'è successo?",
+"traducao": "Do you know what happened?",
+"tatoeba": 4215869
+},
+{
+"n": 17172,
+"frase": "Io non andrò al vostro posto.",
+"traducao": "I'm not going to your place.",
+"tatoeba": 3643786
+},
+{
+"n": 18643,
+"frase": "Quella è la ragione per cui sono venuto.",
+"traducao": "That's why I came.",
+"tatoeba": 3564029
+},
+{
+"n": 20181,
+"frase": "Tom era in giardino.",
+"traducao": "Tom was in the garden.",
+"tatoeba": 3767291
+},
+{
+"n": 20758,
+"frase": "Io ho sempre voluto un cane.",
+"traducao": "I always wanted a dog.",
+"tatoeba": 2748644
+},
+{
+"n": 21079,
+"frase": "Semplicemente voglio andare.",
+"traducao": "I just want to go.",
+"tatoeba": 2563341
+},
+{
+"n": 21747,
+"frase": "Io ho una fidanzata.",
+"traducao": "I have a girlfriend.",
+"tatoeba": 2990823
+},
+{
+"n": 22962,
+"frase": "Vado a comprare del pane.",
+"traducao": "I'm going to buy some bread.",
+"tatoeba": 1082092
+},
+{
+"n": 23788,
+"frase": "Vi piacerà Tom.",
+"traducao": "You'll like Tom.",
+"tatoeba": 2903041
+},
+{
+"n": 24586,
+"frase": "Tom mangia molto pesce.",
+"traducao": "Tom eats a lot of fish.",
+"tatoeba": 1073050
+},
+{
+"n": 26680,
+"frase": "Tom stava indossando un cappello nuovo.",
+"traducao": "Tom was wearing a new hat.",
+"tatoeba": 3488349
+},
+{
+"n": 29451,
+"frase": "Loro sanno nuotare.",
+"traducao": "They know how to swim.",
+"tatoeba": 3854144
+},
+{
+"n": 30005,
+"frase": "A Tom non piace quella donna.",
+"traducao": "Tom doesn't like that woman.",
+"tatoeba": 4207841
+},
+{
+"n": 31365,
+"frase": "Pensa che io abbia messo su peso?",
+"traducao": "Do you think I've put on weight?",
+"tatoeba": 2181470
+},
+{
+"n": 32816,
+"frase": "Vuoi imparare a suonare la chitarra?",
+"traducao": "Do you want to learn to play guitar?",
+"tatoeba": 3495202
+},
+{
+"n": 33082,
+"frase": "Quale dei due fratelli hai visto?",
+"traducao": "Which one of the two brothers did you see?",
+"tatoeba": 635539
+},
+{
+"n": 35003,
+"frase": "Forse ti piacerebbe conoscere Tom.",
+"traducao": "Maybe you'd like to meet Tom.",
+"tatoeba": 3779675
+},
+{
+"n": 35325,
+"frase": "Guarda fuori dalla tua finestra.",
+"traducao": "Look out your window.",
+"tatoeba": 3519527
+},
+{
+"n": 35683,
+"frase": "Preferisco leggere libri piuttosto che guardare la televisione.",
+"traducao": "I prefer reading books to watching television.",
+"tatoeba": 1280534
+},
+{
+"n": 35838,
+"frase": "Non hai per niente torto.",
+"traducao": "You are not at all wrong.",
+"tatoeba": 3489462
+},
+{
+"n": 36458,
+"frase": "Io preferirei veramente stare da sola in questo momento.",
+"traducao": "I'd really rather be alone right now.",
+"tatoeba": 3883443
+},
+{
+"n": 37752,
+"frase": "Tom è solo un po' più anziano di Mary.",
+"traducao": "Tom is only a little older than Mary.",
+"tatoeba": 2863411
+},
+{
+"n": 37777,
+"frase": "Non ero in grado di lasciare la mia casa.",
+"traducao": "I wasn't able to leave my house.",
+"tatoeba": 2920791
+},
+{
+"n": 37828,
+"frase": "Tu sei preoccupata per Tom, vero?",
+"traducao": "You're worried about Tom, aren't you?",
+"tatoeba": 3102742
+},
+{
+"n": 38254,
+"frase": "Perché sembra così triste?",
+"traducao": "Why are you looking so sad?",
+"tatoeba": 2935035
+},
+{
+"n": 39857,
+"frase": "Che cosa fate nel tempo libero?",
+"traducao": "What do you do in your free time?",
+"tatoeba": 388169
+},
+{
+"n": 40319,
+"frase": "Sta lavorando su quel libro da una vita.",
+"traducao": "You've been working on that book forever.",
+"tatoeba": 3528129
+},
+{
+"n": 40730,
+"frase": "Cosa mangia Tom quando sta guardando la TV?",
+"traducao": "What does Tom eat when he's watching TV?",
+"tatoeba": 3382165
+},
+{
+"n": 41224,
+"frase": "È lontana?",
+"traducao": "Is it far?",
+"tatoeba": 1831009
+},
+{
+"n": 42081,
+"frase": "Questo è ghiaccio.",
+"traducao": "This is ice.",
+"tatoeba": 1211444
+},
+{
+"n": 42247,
+"frase": "Come l'hai saputo?",
+"traducao": "How did you know?",
+"tatoeba": 2005464
+},
+{
+"n": 42372,
+"frase": "Può averlo visto.",
+"traducao": "He may have seen it.",
+"tatoeba": 376646
+},
+{
+"n": 43228,
+"frase": "Non se ne preoccupi!",
+"traducao": "Don't worry about it!",
+"tatoeba": 2218604
+},
+{
+"n": 43687,
+"frase": "Scusi per ieri.",
+"traducao": "Sorry about yesterday.",
+"tatoeba": 2448695
+},
+{
+"n": 45607,
+"frase": "Ero di ottimo umore.",
+"traducao": "I was in a great mood.",
+"tatoeba": 3374935
+},
+{
+"n": 47419,
+"frase": "Resterò vicino.",
+"traducao": "I'll stay close.",
+"tatoeba": 2559874
+},
+{
+"n": 52488,
+"frase": "Io ho visto quel film sabato.",
+"traducao": "I saw that movie on Saturday.",
+"tatoeba": 2967865
+},
+{
+"n": 52757,
+"frase": "Vorrebbe un altro pezzo di torta?",
+"traducao": "Would you like another piece of cake?",
+"tatoeba": 3594271
+},
+{
+"n": 52976,
+"frase": "Ha trascorso la serata leggendo un libro.",
+"traducao": "He spent the evening reading a book.",
+"tatoeba": 2687462
+},
+{
+"n": 53476,
+"frase": "Studia sempre duramente.",
+"traducao": "He always studies hard.",
+"tatoeba": 951772
+},
+{
+"n": 53523,
+"frase": "Sposò un vecchio uomo ricco.",
+"traducao": "She married a rich old man.",
+"tatoeba": 1512829
+},
+{
+"n": 53955,
+"frase": "Non sono di fretta.",
+"traducao": "I'm not in a hurry.",
+"tatoeba": 3642229
+},
+{
+"n": 54165,
+"frase": "Persi il mio cappello.",
+"traducao": "I have lost my cap.",
+"tatoeba": 1395467
+},
+{
+"n": 54459,
+"frase": "Pare che Tom abbia perso le chiavi.",
+"traducao": "Tom seems to have lost his key.",
+"tatoeba": 1536638
+},
+{
+"n": 56626,
+"frase": "La banca è lontana da qui?",
+"traducao": "Is the bank far from here?",
+"tatoeba": 3412791
+},
+{
+"n": 57132,
+"frase": "Mary e Alice sono sorelle.",
+"traducao": "Mary and Alice are sisters.",
+"tatoeba": 2602462
+},
+{
+"n": 57377,
+"frase": "Io mi sento ubriaca.",
+"traducao": "I'm feeling drunk.",
+"tatoeba": 2565007
+},
+{
+"n": 57424,
+"frase": "C'era qualcosa che volevi dire?",
+"traducao": "Was there something you wanted to say?",
+"tatoeba": 3110107
+},
+{
+"n": 57560,
+"frase": "Loro non mi stanno seguendo.",
+"traducao": "They're not following me.",
+"tatoeba": 3792192
+},
+{
+"n": 57939,
+"frase": "Non riesco a fermare niente.",
+"traducao": "I can't stop anything.",
+"tatoeba": 2993008
+},
+{
+"n": 57963,
+"frase": "Io non sono mai stata brava col francese.",
+"traducao": "I've never been good at French.",
+"tatoeba": 2703616
+},
+{
+"n": 59614,
+"frase": "Tom non beve mai birra quando Mary è in giro.",
+"traducao": "Tom never drinks beer when Mary is around.",
+"tatoeba": 1355396
+},
+{
+"n": 60482,
+"frase": "A Tom andava di fare una passeggiata.",
+"traducao": "Tom felt like taking a walk.",
+"tatoeba": 3405683
+},
+{
+"n": 60552,
+"frase": "Io penso che noi avremo bisogno dell'aiuto di Tom.",
+"traducao": "I think we're going to need Tom's help.",
+"tatoeba": 3414493
+},
+{
+"n": 61433,
+"frase": "Noi solitamente mangiamo prima delle sette.",
+"traducao": "We usually eat before seven.",
+"tatoeba": 2909899
+},
+{
+"n": 61605,
+"frase": "Non sono sicuro di seguire quello che sta dicendo.",
+"traducao": "I'm not sure I follow what you're saying.",
+"tatoeba": 2563979
+},
+{
+"n": 61669,
+"frase": "Loro devono essere preoccupate.",
+"traducao": "They must be worried.",
+"tatoeba": 3479115
+},
+{
+"n": 63532,
+"frase": "Volevo andare a dormire, ma sapevo che dovevo rimanere sveglio finché Tom non fosse tornato a casa.",
+"traducao": "I wanted to go to sleep, but I knew I needed to stay up until Tom got home.",
+"tatoeba": 6013810
+},
+{
+"n": 64451,
+"frase": "Io studio spesso ascoltando la musica.",
+"traducao": "I often study while listening to music.",
+"tatoeba": 1814032
+},
+{
+"n": 64722,
+"frase": "Io non conosco nessuno che sappia parlare il francese.",
+"traducao": "I don't know anybody who can speak French.",
+"tatoeba": 3495610
+},
+{
+"n": 64942,
+"frase": "Ho finito i miei esami.",
+"traducao": "I've finished my exams.",
+"tatoeba": 4093733
+},
+{
+"n": 65323,
+"frase": "Andiamo a piedi in libreria.",
+"traducao": "Let's walk to the bookstore.",
+"tatoeba": 3323540
+},
+{
+"n": 65338,
+"frase": "È emozionato?",
+"traducao": "Are you excited?",
+"tatoeba": 955022
+},
+{
+"n": 65597,
+"frase": "Pagate bene Tom, vero?",
+"traducao": "You pay Tom well, don't you?",
+"tatoeba": 3102446
+},
+{
+"n": 66698,
+"frase": "Odio il karaoke.",
+"traducao": "I hate karaoke.",
+"tatoeba": 1255627
+},
+{
+"n": 67449,
+"frase": "Ho costruito una casa a un tiro di schioppo dalla foresta.",
+"traducao": "I built a house within a stone's throw of the forest.",
+"tatoeba": 1948915
+},
+{
+"n": 67952,
+"frase": "Qualsiasi maniera mi va bene.",
+"traducao": "Either way's fine with me.",
+"tatoeba": 717908
+},
+{
+"n": 68021,
+"frase": "Tom l'ha fatto con facilità.",
+"traducao": "Tom did it easily.",
+"tatoeba": 2706136
+},
+{
+"n": 70776,
+"frase": "Quel bambino ha tirato un sasso al cane.",
+"traducao": "That child threw a stone at the dog.",
+"tatoeba": 903245
+},
+{
+"n": 71118,
+"frase": "Non c'è erba sulla Luna.",
+"traducao": "There's no grass on the moon.",
+"tatoeba": 3673882
+},
+{
+"n": 71987,
+"frase": "Perché non rispondete?",
+"traducao": "Why don't you answer?",
+"tatoeba": 2737929
+},
+{
+"n": 72102,
+"frase": "Ha la fedina penale sporca?",
+"traducao": "Do you have a criminal record?",
+"tatoeba": 3508737
+},
+{
+"n": 72199,
+"frase": "Inizi adesso.",
+"traducao": "Start now.",
+"tatoeba": 2194732
+},
+{
+"n": 72384,
+"frase": "Tom ha abbracciato Mary.",
+"traducao": "Tom hugged Mary.",
+"tatoeba": 1143108
+},
+{
+"n": 74607,
+"frase": "Non è corretto.",
+"traducao": "That's incorrect.",
+"tatoeba": 2193916
+},
+{
+"n": 75392,
+"frase": "Io sarò nella mia roulotte.",
+"traducao": "I'll be in my trailer.",
+"tatoeba": 3862075
+},
+{
+"n": 75529,
+"frase": "È soltanto la punta dell'iceberg.",
+"traducao": "It's just the tip of the iceberg.",
+"tatoeba": 4206138
+},
+{
+"n": 76720,
+"frase": "Loro sono nel pozzo.",
+"traducao": "They're in the well.",
+"tatoeba": 781748
+},
+{
+"n": 76955,
+"frase": "Sembra che Tom sia infastidito.",
+"traducao": "Tom seems to be annoyed.",
+"tatoeba": 1931729
+},
+{
+"n": 77993,
+"frase": "Quanto durerà questa batteria?",
+"traducao": "How long will this battery last?",
+"tatoeba": 2594439
+},
+{
+"n": 78385,
+"frase": "Tu pensi che funzioni?",
+"traducao": "Do you think it works?",
+"tatoeba": 2833509
+},
+{
+"n": 79129,
+"frase": "Non avevo idea che non sapesse nuotare.",
+"traducao": "I had no idea you couldn't swim.",
+"tatoeba": 3547965
+},
+{
+"n": 79806,
+"frase": "Non hai paura dei serpenti, vero?",
+"traducao": "You're not scared of snakes, are you?",
+"tatoeba": 3544383
+},
+{
+"n": 81609,
+"frase": "Forse dovrei diventare un pittore.",
+"traducao": "Maybe I should become a painter.",
+"tatoeba": 3484100
+},
+{
+"n": 81973,
+"frase": "Lei gli consigliò di risparmiare denaro.",
+"traducao": "She advised him to save money.",
+"tatoeba": 3534353
+},
+{
+"n": 82578,
+"frase": "A me piacerebbe un'insalata.",
+"traducao": "I'd like a salad.",
+"tatoeba": 2561140
+},
+{
+"n": 83202,
+"frase": "Quante ore al giorno dormite?",
+"traducao": "How many hours a day do you sleep?",
+"tatoeba": 3575640
+},
+{
+"n": 84896,
+"frase": "Loro sono in ansia per il suo aiuto.",
+"traducao": "They are anxious for your help.",
+"tatoeba": 3372903
+},
+{
+"n": 85394,
+"frase": "Quando sarà pubblicato il suo nuovo romanzo?",
+"traducao": "When will his new novel be published?",
+"tatoeba": 2065275
+},
+{
+"n": 86200,
+"frase": "Voglio essere un giocatore di baseball.",
+"traducao": "I want to be a baseball player.",
+"tatoeba": 737437
+},
+{
+"n": 86846,
+"frase": "Cameriere, io vorrei ordinare.",
+"traducao": "Waiter, I'd like to order.",
+"tatoeba": 3388715
+},
+{
+"n": 87835,
+"frase": "Loro sono disposti a discutere del problema.",
+"traducao": "They're willing to talk about the problem.",
+"tatoeba": 2163655
+},
+{
+"n": 88117,
+"frase": "Essendo la notte in arrivo, siamo partite verso casa.",
+"traducao": "Night coming on, we left for home.",
+"tatoeba": 3111638
+},
+{
+"n": 88381,
+"frase": "Tu hai mai disegnato un animale?",
+"traducao": "Have you ever drawn an animal?",
+"tatoeba": 3307865
+},
+{
+"n": 90266,
+"frase": "Non c'è ragione di tenerla segreta.",
+"traducao": "There's no reason to keep it a secret.",
+"tatoeba": 3888857
+},
+{
+"n": 90921,
+"frase": "Tom è salito sull'auto di Mary.",
+"traducao": "Tom got into Mary's car.",
+"tatoeba": 2704904
+},
+{
+"n": 91521,
+"frase": "Resti qui, per favore.",
+"traducao": "Please stay here.",
+"tatoeba": 2427229
+},
+{
+"n": 91715,
+"frase": "Ti renderò orgogliosa di me.",
+"traducao": "I'll make you proud of me.",
+"tatoeba": 2704045
+},
+{
+"n": 92459,
+"frase": "Fatelo sapere a Tom.",
+"traducao": "Let Tom know.",
+"tatoeba": 2689302
+},
+{
+"n": 93032,
+"frase": "Tom può essere un genio.",
+"traducao": "Tom may be a genius.",
+"tatoeba": 3533307
+},
+{
+"n": 93926,
+"frase": "Se vuole un sandwich, alzi la mano.",
+"traducao": "If you want a sandwich, raise your hand.",
+"tatoeba": 2920980
+},
+{
+"n": 96276,
+"frase": "Tom fece lucidare a Mary le sue scarpe.",
+"traducao": "Tom got Mary to polish his shoes.",
+"tatoeba": 2588021
+},
+{
+"n": 98167,
+"frase": "Non ringraziarmi ancora.",
+"traducao": "Don't thank me yet.",
+"tatoeba": 2019428
+},
+{
+"n": 99125,
+"frase": "Io fumavo.",
+"traducao": "I used to smoke.",
+"tatoeba": 2795607
+},
+{
+"n": 99148,
+"frase": "La rivoluzione è finita.",
+"traducao": "The revolution is over.",
+"tatoeba": 3278910
+},
+{
+"n": 99613,
+"frase": "Non dovremmo ricorrere alla violenza.",
+"traducao": "We shouldn't resort to violence.",
+"tatoeba": 1574687
+},
+{
+"n": 99680,
+"frase": "Vuole baciarlo.",
+"traducao": "She wants to kiss him.",
+"tatoeba": 1700901
+},
+{
+"n": 100022,
+"frase": "Le vecchie abitudini sono difficili da rompere.",
+"traducao": "Old habits are hard to break.",
+"tatoeba": 3971335
+},
+{
+"n": 100238,
+"frase": "Il sospetto confessò.",
+"traducao": "The suspect confessed.",
+"tatoeba": 2511175
+},
+{
+"n": 101259,
+"frase": "Dipendiamo da voi.",
+"traducao": "We depend on you.",
+"tatoeba": 4043158
+},
+{
+"n": 103891,
+"frase": "Più mangi, più ingrassi.",
+"traducao": "The more you eat, the fatter you'll get.",
+"tatoeba": 719420
+},
+{
+"n": 104767,
+"frase": "Prenda l'ascensore fino al quinto piano.",
+"traducao": "Take the elevator to the fifth floor.",
+"tatoeba": 2831833
+},
+{
+"n": 106635,
+"frase": "Attento a quello che desidera.",
+"traducao": "Be careful what you wish for.",
+"tatoeba": 3541184
+},
+{
+"n": 106724,
+"frase": "Tom indossava dei jeans e un cappello da cowboy.",
+"traducao": "Tom wore jeans and a cowboy hat.",
+"tatoeba": 4212899
+},
+{
+"n": 107665,
+"frase": "Vi prego di trascrivere quello che dice.",
+"traducao": "Please write down what he says.",
+"tatoeba": 2968091
+},
+{
+"n": 108034,
+"frase": "Ha adottato l'orfano.",
+"traducao": "He adopted the orphan.",
+"tatoeba": 3759051
+},
+{
+"n": 108124,
+"frase": "Tom si è tolto con attenzione la fasciatura.",
+"traducao": "Tom carefully removed the bandage.",
+"tatoeba": 2777283
+},
+{
+"n": 108348,
+"frase": "Tu sei il nuovo segretario?",
+"traducao": "Are you the new secretary?",
+"tatoeba": 3264984
+},
+{
+"n": 109070,
+"frase": "Ci siamo riposati all'ombra.",
+"traducao": "We had a rest in the shade.",
+"tatoeba": 3463040
+},
+{
+"n": 109570,
+"frase": "A volte io mi deprimo.",
+"traducao": "I get depressed at times.",
+"tatoeba": 1623128
+},
+{
+"n": 110284,
+"frase": "Sono una coppia di hippie.",
+"traducao": "They're a couple of hippies.",
+"tatoeba": 2575233
+},
+{
+"n": 112424,
+"frase": "Manco a qualcuno?",
+"traducao": "Anybody miss me?",
+"tatoeba": 2454983
+},
+{
+"n": 112789,
+"frase": "Il panda gigante vive soltanto in Cina.",
+"traducao": "Giant pandas live only in China.",
+"tatoeba": 2762284
+},
+{
+"n": 113365,
+"frase": "Tom era straordinariamente bello.",
+"traducao": "Tom was extraordinarily handsome.",
+"tatoeba": 3509417
+},
+{
+"n": 113949,
+"frase": "Perché sanguini?",
+"traducao": "Why are you bleeding?",
+"tatoeba": 4484267
+},
+{
+"n": 115454,
+"frase": "Lui è solo un uomo ordinario.",
+"traducao": "He's just an ordinary man.",
+"tatoeba": 2006148
+},
+{
+"n": 116578,
+"frase": "Dei delegati dibatterono il compromesso per molti giorni.",
+"traducao": "Delegates debated the compromise for many days.",
+"tatoeba": 2985266
+},
+{
+"n": 119659,
+"frase": "Il tetto sgocciola ogni volta che piove.",
+"traducao": "The roof leaks every time it rains.",
+"tatoeba": 3601613
+}
+],
+"en-fr": [
+{
+"n": 336,
+"frase": "J'ai quelqu'un avec moi.",
+"traducao": "I've got somebody with me.",
+"tatoeba": 2371251
+},
+{
+"n": 2011,
+"frase": "Qui a parlé ?",
+"traducao": "Who spoke?",
+"tatoeba": 4247373
+},
+{
+"n": 3794,
+"frase": "Ça sera assez.",
+"traducao": "That'll be enough.",
+"tatoeba": 3653167
+},
+{
+"n": 4705,
+"frase": "J'ai encore tant à faire.",
+"traducao": "I've got so much left to do.",
+"tatoeba": 955913
+},
+{
+"n": 4852,
+"frase": "J'aurais pu le faire moi-même.",
+"traducao": "I could have done it by myself.",
+"tatoeba": 5503513
+},
+{
+"n": 5720,
+"frase": "Il est très jeune.",
+"traducao": "He is very young.",
+"tatoeba": 1451254
+},
+{
+"n": 6028,
+"frase": "Il nous faut attendre.",
+"traducao": "We must wait.",
+"tatoeba": 4777537
+},
+{
+"n": 7355,
+"frase": "Vous ne pouvez pas y croire.",
+"traducao": "You can't believe that.",
+"tatoeba": 1951048
+},
+{
+"n": 8968,
+"frase": "Mange ce qui te plaît.",
+"traducao": "Eat whatever you like.",
+"tatoeba": 14960
+},
+{
+"n": 9150,
+"frase": "En un sens, c'est vrai.",
+"traducao": "In a sense, it's true.",
+"tatoeba": 852708
+},
+{
+"n": 9807,
+"frase": "Y a-t-il un téléphone quelque part ?",
+"traducao": "Is there a telephone anywhere?",
+"tatoeba": 822295
+},
+{
+"n": 10527,
+"frase": "Ce n'est pas notre boulot.",
+"traducao": "That's not our job.",
+"tatoeba": 4855502
+},
+{
+"n": 11846,
+"frase": "Il était temps de partir.",
+"traducao": "It was time to leave.",
+"tatoeba": 128385
+},
+{
+"n": 12903,
+"frase": "Il n'y avait rien d'autre à faire.",
+"traducao": "There was nothing else to do.",
+"tatoeba": 5964181
+},
+{
+"n": 13069,
+"frase": "Tom a pris plus d'une photo, n'est-ce pas ?",
+"traducao": "Tom took more than one picture, didn't he?",
+"tatoeba": 5364534
+},
+{
+"n": 13154,
+"frase": "Je n'ai pas envie de dormir.",
+"traducao": "I'm not sleepy.",
+"tatoeba": 6636244
+},
+{
+"n": 13173,
+"frase": "Tom l'a-t-il vu ?",
+"traducao": "Did Tom see it?",
+"tatoeba": 6017207
+},
+{
+"n": 16547,
+"frase": "Je ne pense simplement pas pouvoir le faire.",
+"traducao": "I just don't think I can do it.",
+"tatoeba": 2370044
+},
+{
+"n": 17892,
+"frase": "De qui d'autre sommes-nous en train de parler ?",
+"traducao": "Who else are we talking about?",
+"tatoeba": 3849848
+},
+{
+"n": 18894,
+"frase": "J'ai simplement besoin d'être seul.",
+"traducao": "I just need to be alone.",
+"tatoeba": 2447749
+},
+{
+"n": 18958,
+"frase": "Tom est bien plus jeune que tu ne le crois.",
+"traducao": "Tom is much younger than you think he is.",
+"tatoeba": 6698758
+},
+{
+"n": 19476,
+"frase": "Je ne me sens pas vraiment malade.",
+"traducao": "I don't really feel sick.",
+"tatoeba": 2509190
+},
+{
+"n": 19936,
+"frase": "Tom m'a demandé quel était le problème.",
+"traducao": "Tom asked me what the matter was.",
+"tatoeba": 4716440
+},
+{
+"n": 20232,
+"frase": "J'ignore ce que vous voulez vraiment.",
+"traducao": "I don't know what you really want.",
+"tatoeba": 2318909
+},
+{
+"n": 21805,
+"frase": "J'aime voyager.",
+"traducao": "I like traveling.",
+"tatoeba": 180698
+},
+{
+"n": 24727,
+"frase": "Il se rend au concert.",
+"traducao": "He is going to the concert.",
+"tatoeba": 971276
+},
+{
+"n": 24983,
+"frase": "Avons-nous la moindre chance ?",
+"traducao": "Do we have any chance?",
+"tatoeba": 4131939
+},
+{
+"n": 29817,
+"frase": "Je vais devoir y aller demain.",
+"traducao": "I'll have to go there tomorrow.",
+"tatoeba": 5659659
+},
+{
+"n": 30613,
+"frase": "Je pensais que c'était un hôpital.",
+"traducao": "I thought this was a hospital.",
+"tatoeba": 6283933
+},
+{
+"n": 30771,
+"frase": "Je n'ai pas le droit de boire du vin.",
+"traducao": "I'm not allowed to drink wine.",
+"tatoeba": 5262108
+},
+{
+"n": 31300,
+"frase": "J'étais plutôt calme.",
+"traducao": "I was quite calm.",
+"tatoeba": 5389553
+},
+{
+"n": 31946,
+"frase": "Tom n'est pas en mesure de vous parler en ce moment.",
+"traducao": "Tom can't talk to you right now.",
+"tatoeba": 1973857
+},
+{
+"n": 34737,
+"frase": "C'est moi qui étais présent à l'école, hier.",
+"traducao": "I was present at school yesterday.",
+"tatoeba": 2164959
+},
+{
+"n": 35018,
+"frase": "Nous avons attendu des heures.",
+"traducao": "We’ve been waiting for hours.",
+"tatoeba": 1306271
+},
+{
+"n": 36208,
+"frase": "J'aimerais en entendre bien davantage à propos de votre voyage.",
+"traducao": "I'd like to hear a lot more about your trip.",
+"tatoeba": 1936875
+},
+{
+"n": 37072,
+"frase": "Voyager était alors beaucoup plus difficile.",
+"traducao": "Traveling was much more difficult in those days.",
+"tatoeba": 1491320
+},
+{
+"n": 37667,
+"frase": "Tu as dit que tu étais occupée.",
+"traducao": "You said you were busy.",
+"tatoeba": 6380984
+},
+{
+"n": 38452,
+"frase": "Je me demande si nous pouvons entrer.",
+"traducao": "I wonder if we can get in.",
+"tatoeba": 2590487
+},
+{
+"n": 39132,
+"frase": "Sans son aide je n'aurais pas pu finir le travail.",
+"traducao": "Had it not been for his aid, I could not have finished the work.",
+"tatoeba": 130194
+},
+{
+"n": 39251,
+"frase": "N'êtes-vous pas surpris de me voir ?",
+"traducao": "Aren't you surprised to see me?",
+"tatoeba": 6877898
+},
+{
+"n": 41505,
+"frase": "Avez-vous terminé votre petit-déjeuner ?",
+"traducao": "Are you through with your breakfast?",
+"tatoeba": 1367592
+},
+{
+"n": 41704,
+"frase": "Il viendra.",
+"traducao": "He will come.",
+"tatoeba": 1132243
+},
+{
+"n": 42176,
+"frase": "Il a plu sans arrêt.",
+"traducao": "It rained nonstop.",
+"tatoeba": 4894002
+},
+{
+"n": 42516,
+"frase": "C'est mon sandwich.",
+"traducao": "This is my sandwich.",
+"tatoeba": 5939206
+},
+{
+"n": 43065,
+"frase": "Elles ont ri.",
+"traducao": "They laughed.",
+"tatoeba": 4729363
+},
+{
+"n": 43515,
+"frase": "Il nous faut agir.",
+"traducao": "We must act.",
+"tatoeba": 4777516
+},
+{
+"n": 43573,
+"frase": "Essaie de te détendre.",
+"traducao": "Try to relax.",
+"tatoeba": 3093617
+},
+{
+"n": 44375,
+"frase": "Nous sommes pratiquement frères !",
+"traducao": "We're practically brothers.",
+"tatoeba": 3992706
+},
+{
+"n": 44548,
+"frase": "Ne me traite pas en idiot !",
+"traducao": "Don't treat me like I'm stupid.",
+"tatoeba": 2289562
+},
+{
+"n": 45236,
+"frase": "Rentre dans la voiture.",
+"traducao": "Get into the car.",
+"tatoeba": 128267
+},
+{
+"n": 46984,
+"frase": "Voulez-vous que je sois votre garde du corps ?",
+"traducao": "Do you want me to be your bodyguard?",
+"tatoeba": 2102215
+},
+{
+"n": 49131,
+"frase": "Si tu pouvais le faire pour moi, j'apprécierais.",
+"traducao": "If you could do that for me, I'd appreciate it.",
+"tatoeba": 2023547
+},
+{
+"n": 49441,
+"frase": "À quelle heure y est-il parvenu ?",
+"traducao": "What time did he get there?",
+"tatoeba": 2159312
+},
+{
+"n": 49808,
+"frase": "Nous sommes les voisins d'à côté.",
+"traducao": "We are next-door neighbors.",
+"tatoeba": 4757815
+},
+{
+"n": 49968,
+"frase": "Je ne suis pas sûr d'aimer ça.",
+"traducao": "I'm not sure I like this.",
+"tatoeba": 5654789
+},
+{
+"n": 50196,
+"frase": "Voyons si nous pouvons vous aider.",
+"traducao": "Let's see if we can help you.",
+"tatoeba": 6277011
+},
+{
+"n": 50277,
+"frase": "Je quitte l'Australie.",
+"traducao": "I'm leaving Australia.",
+"tatoeba": 10164282
+},
+{
+"n": 50604,
+"frase": "Il ne me fallait pas y aller.",
+"traducao": "I didn't have to go.",
+"tatoeba": 2025125
+},
+{
+"n": 52098,
+"frase": "J'irai chercher la pizza.",
+"traducao": "I'll go get the pizza.",
+"tatoeba": 2271456
+},
+{
+"n": 53736,
+"frase": "C'est une idée dingue.",
+"traducao": "That's a crazy idea.",
+"tatoeba": 3599260
+},
+{
+"n": 53841,
+"frase": "J'étais dans un assez sale état.",
+"traducao": "I was in pretty bad shape.",
+"tatoeba": 2586252
+},
+{
+"n": 54387,
+"frase": "Je l'ai entendu aux informations aujourd'hui.",
+"traducao": "I heard it on the news today.",
+"tatoeba": 5688410
+},
+{
+"n": 56450,
+"frase": "Vous faites un excellent travail.",
+"traducao": "You're doing an excellent job.",
+"tatoeba": 5726815
+},
+{
+"n": 56881,
+"frase": "Venez nous rendre visite si vous passez dans le coin.",
+"traducao": "Be sure to drop in on us if you come our way.",
+"tatoeba": 11237
+},
+{
+"n": 57711,
+"frase": "Je suis certainement reconnaissante pour toute votre aide.",
+"traducao": "I sure appreciate all your help.",
+"tatoeba": 2406998
+},
+{
+"n": 58153,
+"frase": "Tom ne voulait pas accepter mes excuses.",
+"traducao": "Tom wouldn't accept my apology.",
+"tatoeba": 5800728
+},
+{
+"n": 58529,
+"frase": "Il vous suffit juste de demander.",
+"traducao": "You only have to ask for it.",
+"tatoeba": 1196725
+},
+{
+"n": 59682,
+"frase": "Je ne veux pas me disputer avec vous, un point c'est tout.",
+"traducao": "I just don't want to fight with you.",
+"tatoeba": 2447279
+},
+{
+"n": 59871,
+"frase": "Je n'arrive pas à croire que ta mère t'aie laissée y aller.",
+"traducao": "I can't believe your mom let you go.",
+"tatoeba": 1950957
+},
+{
+"n": 59890,
+"frase": "Je voudrais que tu m'aides à faire mes devoirs.",
+"traducao": "I want you to help me with my homework.",
+"tatoeba": 14863
+},
+{
+"n": 61537,
+"frase": "Connaissez-vous un bon restaurant ?",
+"traducao": "Do you know a good restaurant?",
+"tatoeba": 10648
+},
+{
+"n": 61894,
+"frase": "Quitte la pièce dans l'état où elle se trouve.",
+"traducao": "Leave the room as it is.",
+"tatoeba": 816299
+},
+{
+"n": 61993,
+"frase": "Je veux m'assurer que vous êtes celle que vous dites être.",
+"traducao": "I want to make sure you are who you say you are.",
+"tatoeba": 2462339
+},
+{
+"n": 63242,
+"frase": "As-tu quelque chose de prévu pour ce soir ?",
+"traducao": "Do you have any plans for tonight?",
+"tatoeba": 1099537
+},
+{
+"n": 63483,
+"frase": "Je ne peux pas m'empêcher de penser que mon fils est toujours en vie.",
+"traducao": "I can't help thinking that my son is still alive.",
+"tatoeba": 786448
+},
+{
+"n": 63956,
+"frase": "Tout le monde avait l'air nerveux.",
+"traducao": "Everybody looked nervous.",
+"tatoeba": 2341854
+},
+{
+"n": 64178,
+"frase": "Je ne peux pas arrêter la douche. Pourriez-vous la vérifier pour moi ?",
+"traducao": "I can't turn the shower off. Could you check it for me?",
+"tatoeba": 11757
+},
+{
+"n": 64923,
+"frase": "J'ai finalement obtenu le permis de conduire.",
+"traducao": "I finally got a driver's license.",
+"tatoeba": 1445898
+},
+{
+"n": 65836,
+"frase": "Nous sommes les dernières.",
+"traducao": "We're the last.",
+"tatoeba": 4801865
+},
+{
+"n": 66550,
+"frase": "Où chantes-tu ?",
+"traducao": "Where do you sing?",
+"tatoeba": 1803097
+},
+{
+"n": 66616,
+"frase": "Qui êtes-vous supposés être ?",
+"traducao": "Who are you supposed to be?",
+"tatoeba": 4132015
+},
+{
+"n": 68937,
+"frase": "Pouvez-vous décrire l'objet ?",
+"traducao": "Can you describe the object?",
+"tatoeba": 136216
+},
+{
+"n": 69942,
+"frase": "Ils firent une promenade.",
+"traducao": "They took a walk.",
+"tatoeba": 4363846
+},
+{
+"n": 70592,
+"frase": "Que lui est-il advenu, depuis lors ?",
+"traducao": "What has become of him since then?",
+"tatoeba": 1949390
+},
+{
+"n": 70912,
+"frase": "Rien de tel ne se produira plus.",
+"traducao": "Nothing like that will happen again.",
+"tatoeba": 3672047
+},
+{
+"n": 71228,
+"frase": "Éloignez-vous de moi.",
+"traducao": "Move away from me.",
+"tatoeba": 5329242
+},
+{
+"n": 72255,
+"frase": "Êtes-vous déjà mariées ?",
+"traducao": "Are you already married?",
+"tatoeba": 5570839
+},
+{
+"n": 72340,
+"frase": "Ne fais pas de scène en public.",
+"traducao": "Don't make a scene in public.",
+"tatoeba": 1815300
+},
+{
+"n": 74946,
+"frase": "La mère de Tom est canadienne.",
+"traducao": "Tom's mother is Canadian.",
+"tatoeba": 6622149
+},
+{
+"n": 76011,
+"frase": "Ça goûte le poulet.",
+"traducao": "It tastes like chicken.",
+"tatoeba": 2173400
+},
+{
+"n": 76931,
+"frase": "Je me sentis très soulagée lorsque j'entendis les nouvelles.",
+"traducao": "I felt very relieved when I heard the news.",
+"tatoeba": 1322293
+},
+{
+"n": 77356,
+"frase": "Je l'ai acheté pour une douzaine de dollars.",
+"traducao": "I bought it for about twelve dollars.",
+"tatoeba": 5552194
+},
+{
+"n": 78561,
+"frase": "Comment vous êtes-vous impliqués dans ce projet ?",
+"traducao": "How did you become involved in this project?",
+"tatoeba": 1834599
+},
+{
+"n": 80931,
+"frase": "Avez-vous jamais été arrêtés ?",
+"traducao": "Have you ever been arrested?",
+"tatoeba": 1435440
+},
+{
+"n": 81691,
+"frase": "Venez à vingt-deux heures précises.",
+"traducao": "Come at ten o'clock sharp.",
+"tatoeba": 1336040
+},
+{
+"n": 82155,
+"frase": "Je ne suis pas sûr de la prononciation de ce mot.",
+"traducao": "I'm not sure how to pronounce the word.",
+"tatoeba": 12198
+},
+{
+"n": 82727,
+"frase": "À quelle fréquence vous rendez-vous à l'étranger ?",
+"traducao": "How often do you go abroad?",
+"tatoeba": 469989
+},
+{
+"n": 83066,
+"frase": "Promettez-moi que vous serez prudente !",
+"traducao": "Promise me you'll be careful.",
+"tatoeba": 1850136
+},
+{
+"n": 85175,
+"frase": "Ne perdez pas de vue vos enfants.",
+"traducao": "Don't lose sight of your children.",
+"tatoeba": 10703532
+},
+{
+"n": 85461,
+"frase": "Qui vous a conté l'histoire ?",
+"traducao": "Who told you the story?",
+"tatoeba": 1527754
+},
+{
+"n": 85823,
+"frase": "La situation ne changera pas.",
+"traducao": "The situation won't change.",
+"tatoeba": 6069282
+},
+{
+"n": 86499,
+"frase": "Que fais-tu pour ne pas t'ennuyer ?",
+"traducao": "What do you do to keep from getting bored?",
+"tatoeba": 1078229
+},
+{
+"n": 86991,
+"frase": "Elle avait un panier rempli de pommes.",
+"traducao": "She had a basket full of apples.",
+"tatoeba": 1659534
+},
+{
+"n": 88389,
+"frase": "De l'espace, la Terre a l'air plutôt petite.",
+"traducao": "From space, the earth looks quite small.",
+"tatoeba": 1589883
+},
+{
+"n": 89705,
+"frase": "En quel honneur vous êtes-vous mises sur votre trente-et-un ?",
+"traducao": "What're you all dressed up for?",
+"tatoeba": 1046664
+},
+{
+"n": 90794,
+"frase": "Tom se rendit soudainement compte que ses clés de voiture n'étaient pas dans sa poche.",
+"traducao": "It suddenly occurred to Tom that his car keys weren't in his pocket.",
+"tatoeba": 3473071
+},
+{
+"n": 90964,
+"frase": "Je n'ai pas vraiment pensé que ça arriverait.",
+"traducao": "I didn't really think it would happen.",
+"tatoeba": 2291536
+},
+{
+"n": 91422,
+"frase": "Je n'ai pas beaucoup d'intérêt pour la cuisine.",
+"traducao": "I don't have much interest in cooking.",
+"tatoeba": 128004
+},
+{
+"n": 92260,
+"frase": "Nous ne pouvons que nous blâmer nous-mêmes pour cela.",
+"traducao": "We have no one but ourselves to blame for that.",
+"tatoeba": 5622652
+},
+{
+"n": 92435,
+"frase": "Quelqu'un est-il en train de frapper à la porte ?",
+"traducao": "Is someone knocking on the door?",
+"tatoeba": 4363842
+},
+{
+"n": 94203,
+"frase": "Tom est essoufflé.",
+"traducao": "Tom is winded.",
+"tatoeba": 6302132
+},
+{
+"n": 94692,
+"frase": "Y a-t-il quelqu'un que vous veuilliez appeler ?",
+"traducao": "Is there somebody you want to call?",
+"tatoeba": 2019666
+},
+{
+"n": 95164,
+"frase": "Personne ne voulait offenser ces messieurs.",
+"traducao": "No one wanted to insult these men.",
+"tatoeba": 982460
+},
+{
+"n": 97609,
+"frase": "Détruis-le.",
+"traducao": "Destroy it.",
+"tatoeba": 10046225
+},
+{
+"n": 97818,
+"frase": "Continue à lutter.",
+"traducao": "Keep fighting.",
+"tatoeba": 7355681
+},
+{
+"n": 97880,
+"frase": "Les étoiles scintillaient dans le ciel.",
+"traducao": "The stars were twinkling in the sky.",
+"tatoeba": 10091955
+},
+{
+"n": 99536,
+"frase": "Vous êtes très chouettes.",
+"traducao": "You're very nice.",
+"tatoeba": 2227191
+},
+{
+"n": 99663,
+"frase": "Nous gâchons beaucoup de temps.",
+"traducao": "We waste a lot of time.",
+"tatoeba": 4551994
+},
+{
+"n": 99991,
+"frase": "J’aurais voulu naître canadienne.",
+"traducao": "I wish I'd been born a Canadian.",
+"tatoeba": 3983982
+},
+{
+"n": 101276,
+"frase": "N'emportez pas plus d'argent que nécessaire.",
+"traducao": "Don't carry more money than you need.",
+"tatoeba": 134778
+},
+{
+"n": 101652,
+"frase": "Je jetai un œil dans le prospectus.",
+"traducao": "I glanced through the brochure.",
+"tatoeba": 1350579
+},
+{
+"n": 102436,
+"frase": "Ça s'éclaircit. Le matin arrive.",
+"traducao": "It's getting light. Morning is coming.",
+"tatoeba": 353229
+},
+{
+"n": 103247,
+"frase": "La photographie est un passe-temps onéreux.",
+"traducao": "Photography is an expensive hobby.",
+"tatoeba": 3487315
+},
+{
+"n": 103547,
+"frase": "Je fus ému aux larmes par l'histoire.",
+"traducao": "I was moved to tears by the story.",
+"tatoeba": 1360579
+},
+{
+"n": 103860,
+"frase": "Ôte ton manteau et vide tes poches !",
+"traducao": "Remove your coat and empty your pockets.",
+"tatoeba": 2023608
+},
+{
+"n": 104352,
+"frase": "Ma fille a eu son bac l'an dernier.",
+"traducao": "My daughter graduated from high school last year.",
+"tatoeba": 10485909
+},
+{
+"n": 106352,
+"frase": "Ne t'inquiète pas. Tom ne nous laissera pas tomber.",
+"traducao": "Don't worry. Tom won't let us down.",
+"tatoeba": 5291319
+},
+{
+"n": 107551,
+"frase": "La ville grouille toujours de touristes.",
+"traducao": "The town is always crawling with tourists.",
+"tatoeba": 1399263
+},
+{
+"n": 107577,
+"frase": "Voulez-vous installer ce supplément gratuit pour votre navigateur ?",
+"traducao": "Do you want to install this free browser add-on?",
+"tatoeba": 2161361
+},
+{
+"n": 109408,
+"frase": "Devinez ce que j'ai acheté aujourd'hui !",
+"traducao": "Guess what I bought today.",
+"tatoeba": 5565880
+},
+{
+"n": 109769,
+"frase": "Nous devrions écrire une lettre formelle au directeur.",
+"traducao": "We should write a formal letter to the director.",
+"tatoeba": 544950
+},
+{
+"n": 110761,
+"frase": "Vous ne semblez pas trop soucieuses.",
+"traducao": "You don't seem too worried.",
+"tatoeba": 2286764
+},
+{
+"n": 111642,
+"frase": "Tom a tabassé Mary.",
+"traducao": "Tom beat Mary up.",
+"tatoeba": 7414832
+},
+{
+"n": 111718,
+"frase": "Il y a une subtile différence entre les deux mots.",
+"traducao": "There is a subtle difference between the two words.",
+"tatoeba": 335356
+},
+{
+"n": 111989,
+"frase": "Le chocolat est fabriqué à partir des fèves de cacao.",
+"traducao": "Chocolate is made from cocoa beans.",
+"tatoeba": 543462
+},
+{
+"n": 112199,
+"frase": "Tom est devenu pasteur.",
+"traducao": "Tom became a minister.",
+"tatoeba": 7772662
+},
+{
+"n": 112635,
+"frase": "Cette voiture a des sièges chauffants.",
+"traducao": "This car has heated seats.",
+"tatoeba": 12932095
+},
+{
+"n": 113249,
+"frase": "Tu prends les choses avec trop de désinvolture.",
+"traducao": "You always take things too easy.",
+"tatoeba": 474136
+},
+{
+"n": 113411,
+"frase": "Nous peignîmes la maison en vert.",
+"traducao": "We painted the house green.",
+"tatoeba": 569975
+},
+{
+"n": 113980,
+"frase": "Arrête de bayer aux corneilles.",
+"traducao": "Stop gawking.",
+"tatoeba": 1072214
+},
+{
+"n": 113993,
+"frase": "Je commence à me languir de ma petite amie.",
+"traducao": "I'm beginning to miss my girlfriend.",
+"tatoeba": 1079961
+},
+{
+"n": 114154,
+"frase": "Aussi dur que vous essayerez, le résultat sera le même.",
+"traducao": "No matter how hard you try, the result will be the same.",
+"tatoeba": 1182858
+},
+{
+"n": 114344,
+"frase": "M'y emmèneras-tu ?",
+"traducao": "Will you take me there?",
+"tatoeba": 1329126
+},
+{
+"n": 114370,
+"frase": "Qui est ton comique favori ?",
+"traducao": "Who's your favorite comedian?",
+"tatoeba": 1339031
+},
+{
+"n": 114581,
+"frase": "C'est en écrivant que l'on devient écrivain.",
+"traducao": "You become a writer by writing.",
+"tatoeba": 1420425
+},
+{
+"n": 115255,
+"frase": "Les gens parleront.",
+"traducao": "People will talk.",
+"tatoeba": 2219657
+},
+{
+"n": 116318,
+"frase": "Sommes-nous sur haut-parleur ?",
+"traducao": "Are we on speakerphone?",
+"tatoeba": 3978189
+},
+{
+"n": 118413,
+"frase": "Essaie d'utiliser ton temps libre à bon escient.",
+"traducao": "Try to make good use of your spare time.",
+"tatoeba": 1399221
+},
+{
+"n": 119333,
+"frase": "Nous sommes montés et descendus par l'ascenseur.",
+"traducao": "We went up and down in the elevator.",
+"tatoeba": 4205831
+},
+{
+"n": 119725,
+"frase": "Vous n'êtes pas contusionné.",
+"traducao": "You're not bruised.",
+"tatoeba": 4839248
+}
+]
+}

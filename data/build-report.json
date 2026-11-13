@@ -1,228 +1,897 @@
 {
+ "downloads": {
+  "per_language/spa/spa_sentences_detailed.tsv.bz2": "ok",
+  "per_language/deu/deu_sentences_detailed.tsv.bz2": "ok",
+  "per_language/ita/ita_sentences_detailed.tsv.bz2": "ok",
+  "per_language/fra/fra_sentences_detailed.tsv.bz2": "ok",
+  "per_language/eng/eng_sentences_detailed.tsv.bz2": "ok",
+  "per_language/por/por_sentences_detailed.tsv.bz2": "ok",
+  "user_languages.tar.bz2": "ok",
+  "tags.tar.bz2": "ok",
+  "sentences_with_audio.tar.bz2": "ok",
+  "users_sentences.csv": "ok",
+  "links.tar.bz2": "ok"
+ },
  "spa_sentences": 443166,
  "deu_sentences": 786418,
  "ita_sentences": 991553,
  "fra_sentences": 730079,
  "eng_sentences": 2040567,
  "por_sentences": 445685,
- "es": {
-  "total": 131207,
-  "pt": 62011
+ "signals": {
+  "skills": 59274,
+  "bad_tags": 9361,
+  "audio": 1239359,
+  "good_reviews": 1736825,
+  "neg_reviews": 8166
  },
- "de_candidates": 487845,
- "de": {
-  "total": 119999,
-  "pt": 119999,
-  "en": 119999,
-  "vocab": 26926,
+ "pt-es_candidates": 62977,
+ "pt-es": {
+  "total": 62973,
+  "native_both": 42787,
+  "with_audio": 21334,
+  "vocab": 21531,
+  "score_dist": [
+   [
+    0,
+    623
+   ],
+   [
+    1,
+    280
+   ],
+   [
+    2,
+    255
+   ],
+   [
+    3,
+    8300
+   ],
+   [
+    4,
+    5571
+   ],
+   [
+    5,
+    4535
+   ],
+   [
+    6,
+    25298
+   ],
+   [
+    7,
+    659
+   ],
+   [
+    8,
+    17453
+   ]
+  ],
+  "tracks": {
+   "diadia": {
+    "mercado": 1332,
+    "restaurante": 1867,
+    "transporte": 1193,
+    "casa": 2500,
+    "saude": 955,
+    "clima": 730,
+    "rotina": 1840,
+    "lazer": 1736,
+    "sentimentos": 1514
+   },
+   "viagem": {
+    "aeroporto": 283,
+    "hotel": 663,
+    "direcoes": 465,
+    "turismo": 849
+   },
+   "profissional": {
+    "escritorio": 271,
+    "comunicacao": 676,
+    "carreira": 788,
+    "negocios": 684,
+    "tecnologia": 213
+   },
+   "academico": {
+    "universidade": 1396,
+    "ciencia": 250,
+    "historia": 453,
+    "natureza": 816,
+    "cultura": 1008
+   }
+  },
   "levels": [
    {
     "name": "Top 100",
     "start": 0,
-    "end": 1246
+    "end": 618
    },
    {
     "name": "Top 500",
-    "start": 1246,
-    "end": 20080
+    "start": 618,
+    "end": 7365
    },
    {
     "name": "Top 1000",
-    "start": 20080,
-    "end": 38365
+    "start": 7365,
+    "end": 15213
    },
    {
     "name": "Top 2000",
-    "start": 38365,
-    "end": 60655
+    "start": 15213,
+    "end": 25550
    },
    {
     "name": "Top 5000",
-    "start": 60655,
-    "end": 86731
+    "start": 25550,
+    "end": 40588
    },
    {
     "name": "Top 10 000",
-    "start": 86731,
-    "end": 102537
+    "start": 40588,
+    "end": 51630
    },
    {
     "name": "Avançado",
-    "start": 102537,
-    "end": 119999
+    "start": 51630,
+    "end": 62973
    }
-  ],
-  "sample": [
-   "Liu Xiaobo [ist] Chinese. | Liu Xiaobo is Chinese.",
-   "Ist [das] Tom? | Is that Tom?",
-   "Ist [es] das? | Is that it?",
-   "Er ist [ein] DJ. | He is a DJ.",
-   "Er [schwimmt] besser als ich. | He is a better swimmer than I.",
-   "Er ging langsam, damit das Kind [folgen] konnte. | He walked slowly so the child could follow.",
-   "Ich [rufe] euch an, sobald ich wieder zu Hause bin. | I will give you a call as soon as I get home.",
-   "Warum darf man in diesem Fluss nicht [angeln]? | Why isn't fishing allowed in this river?"
   ]
  },
- "it_candidates": 645128,
- "it": {
-  "total": 119997,
-  "pt": 119997,
-  "en": 119997,
-  "vocab": 17044,
+ "pt-de_candidates": 17064,
+ "pt-de": {
+  "total": 17047,
+  "native_both": 11673,
+  "with_audio": 2199,
+  "vocab": 11652,
+  "score_dist": [
+   [
+    0,
+    609
+   ],
+   [
+    1,
+    157
+   ],
+   [
+    2,
+    167
+   ],
+   [
+    3,
+    2804
+   ],
+   [
+    4,
+    695
+   ],
+   [
+    5,
+    692
+   ],
+   [
+    6,
+    9799
+   ],
+   [
+    7,
+    314
+   ],
+   [
+    8,
+    1810
+   ]
+  ],
+  "tracks": {
+   "diadia": {
+    "mercado": 373,
+    "restaurante": 581,
+    "transporte": 346,
+    "casa": 997,
+    "saude": 233,
+    "clima": 206,
+    "rotina": 529,
+    "lazer": 534,
+    "sentimentos": 458
+   },
+   "viagem": {
+    "aeroporto": 71,
+    "hotel": 118,
+    "direcoes": 136,
+    "turismo": 255
+   },
+   "profissional": {
+    "comunicacao": 194,
+    "carreira": 206,
+    "negocios": 161,
+    "tecnologia": 67
+   },
+   "academico": {
+    "universidade": 373,
+    "ciencia": 71,
+    "historia": 95,
+    "natureza": 231,
+    "cultura": 368
+   }
+  },
   "levels": [
    {
     "name": "Top 100",
     "start": 0,
-    "end": 1821
+    "end": 160
    },
    {
     "name": "Top 500",
-    "start": 1821,
-    "end": 20367
+    "start": 160,
+    "end": 2686
    },
    {
     "name": "Top 1000",
-    "start": 20367,
-    "end": 40706
+    "start": 2686,
+    "end": 5170
    },
    {
     "name": "Top 2000",
-    "start": 40706,
-    "end": 64507
+    "start": 5170,
+    "end": 8038
    },
    {
     "name": "Top 5000",
-    "start": 64507,
-    "end": 94447
+    "start": 8038,
+    "end": 12173
    },
    {
     "name": "Top 10 000",
-    "start": 94447,
-    "end": 111528
+    "start": 12173,
+    "end": 15820
    },
    {
     "name": "Avançado",
-    "start": 111528,
-    "end": 119997
+    "start": 15820,
+    "end": 17047
    }
-  ],
-  "sample": [
-   "C'[è]? | Are you there?",
-   "È [di] Tom? | Is it Tom's?",
-   "Dov'è [la] Namibia? | Where is Namibia?",
-   "Anch'[io]. | So do I.",
-   "Tu [studi] qualche lingua straniera? | Do you study any foreign language?",
-   "Lei è [mancato] a tutte noi. | We all have missed you.",
-   "Io ho [pianto] per tutta la notte. | I cried all night.",
-   "Sia io che Tom [parliamo] il francese. | Tom and I both speak French."
   ]
  },
- "fr_candidates": 371991,
- "fr": {
-  "total": 119999,
-  "pt": 119241,
-  "en": 119999,
-  "vocab": 21815,
+ "pt-it_candidates": 9176,
+ "pt-it": {
+  "total": 9176,
+  "native_both": 7428,
+  "with_audio": 176,
+  "vocab": 6127,
+  "score_dist": [
+   [
+    0,
+    84
+   ],
+   [
+    1,
+    101
+   ],
+   [
+    2,
+    9
+   ],
+   [
+    3,
+    915
+   ],
+   [
+    4,
+    515
+   ],
+   [
+    5,
+    56
+   ],
+   [
+    6,
+    6105
+   ],
+   [
+    7,
+    482
+   ],
+   [
+    8,
+    909
+   ]
+  ],
+  "tracks": {
+   "diadia": {
+    "mercado": 206,
+    "restaurante": 365,
+    "transporte": 178,
+    "casa": 546,
+    "saude": 103,
+    "clima": 62,
+    "rotina": 244,
+    "lazer": 302,
+    "sentimentos": 341
+   },
+   "viagem": {
+    "direcoes": 105,
+    "turismo": 128
+   },
+   "profissional": {
+    "comunicacao": 75,
+    "carreira": 124,
+    "negocios": 105
+   },
+   "academico": {
+    "universidade": 220,
+    "historia": 68,
+    "natureza": 120,
+    "cultura": 174
+   }
+  },
   "levels": [
    {
     "name": "Top 100",
     "start": 0,
-    "end": 1471
+    "end": 182
    },
    {
     "name": "Top 500",
-    "start": 1471,
-    "end": 20704
+    "start": 182,
+    "end": 1826
    },
    {
     "name": "Top 1000",
-    "start": 20704,
-    "end": 39955
+    "start": 1826,
+    "end": 3439
    },
    {
     "name": "Top 2000",
-    "start": 39955,
-    "end": 61550
+    "start": 3439,
+    "end": 5486
    },
    {
     "name": "Top 5000",
-    "start": 61550,
-    "end": 89508
+    "start": 5486,
+    "end": 8384
    },
    {
     "name": "Top 10 000",
-    "start": 89508,
-    "end": 106563
+    "start": 8384,
+    "end": 9176
    },
    {
     "name": "Avançado",
-    "start": 106563,
-    "end": 119999
+    "start": 9176,
+    "end": 9176
    }
-  ],
-  "sample": [
-   "C'[est] Tom. | It's Tom.",
-   "[Il] est DJ. | He is a DJ.",
-   "C'est [un] DVD. | This is a DVD.",
-   "Je t'[ai]. | You're mine.",
-   "Tout ce que vous [lisez] sur Internet n'est pas vrai. | Not everything that you read on the Internet is true.",
-   "Tom était [inquiet] à propos de cela. | Tom was worried about that.",
-   "Elle a [convaincu] son mari d'aller en France pour les vacances. | She talked her husband into having a holiday in France.",
-   "Je suis une personne très [prudente]. | I'm a very careful person."
   ]
  },
- "en_candidates": 230983,
- "en": {
-  "total": 119997,
-  "pt": 119997,
-  "en": 0,
-  "vocab": 15707,
+ "pt-fr_candidates": 24861,
+ "pt-fr": {
+  "total": 24858,
+  "native_both": 16456,
+  "with_audio": 1460,
+  "vocab": 10638,
+  "score_dist": [
+   [
+    0,
+    451
+   ],
+   [
+    1,
+    418
+   ],
+   [
+    2,
+    46
+   ],
+   [
+    3,
+    5229
+   ],
+   [
+    4,
+    1564
+   ],
+   [
+    5,
+    489
+   ],
+   [
+    6,
+    13708
+   ],
+   [
+    7,
+    867
+   ],
+   [
+    8,
+    2087
+   ]
+  ],
+  "tracks": {
+   "diadia": {
+    "mercado": 485,
+    "restaurante": 817,
+    "transporte": 485,
+    "casa": 1370,
+    "saude": 396,
+    "clima": 307,
+    "rotina": 697,
+    "lazer": 677,
+    "sentimentos": 728
+   },
+   "viagem": {
+    "aeroporto": 133,
+    "hotel": 239,
+    "direcoes": 222,
+    "turismo": 340
+   },
+   "profissional": {
+    "escritorio": 100,
+    "comunicacao": 290,
+    "carreira": 295,
+    "negocios": 257,
+    "tecnologia": 86
+   },
+   "academico": {
+    "universidade": 552,
+    "ciencia": 91,
+    "historia": 151,
+    "natureza": 353,
+    "cultura": 442
+   }
+  },
   "levels": [
    {
     "name": "Top 100",
     "start": 0,
-    "end": 3326
+    "end": 383
    },
    {
     "name": "Top 500",
-    "start": 3326,
-    "end": 31796
+    "start": 383,
+    "end": 4677
    },
    {
     "name": "Top 1000",
-    "start": 31796,
-    "end": 56402
+    "start": 4677,
+    "end": 8884
    },
    {
     "name": "Top 2000",
-    "start": 56402,
-    "end": 79746
+    "start": 8884,
+    "end": 13805
    },
    {
     "name": "Top 5000",
-    "start": 79746,
-    "end": 103295
+    "start": 13805,
+    "end": 19868
    },
    {
     "name": "Top 10 000",
-    "start": 103295,
-    "end": 114883
+    "start": 19868,
+    "end": 24359
    },
    {
     "name": "Avançado",
-    "start": 114883,
-    "end": 119997
+    "start": 24359,
+    "end": 24858
    }
+  ]
+ },
+ "pt-en_candidates": 215898,
+ "pt-en": {
+  "total": 120000,
+  "native_both": 119567,
+  "with_audio": 119939,
+  "vocab": 11013,
+  "score_dist": [
+   [
+    8,
+    120000
+   ]
   ],
-  "sample": [
-   "Tom is [in]. | Tom está dentro.",
-   "Is [that] you? | É você?",
-   "[This] is it. | É isso.",
-   "It [was] Tom. | Foi o Tom.",
-   "How did you get over the [difficulty]? | Como você conseguiu superar a dificuldade?",
-   "They were [buying] time. | Eles estavam ganhando tempo.",
-   "I was at a movie [theater]. | Eu estava no cinema.",
-   "One must be absolutely [modern]. | É preciso ser absolutamente moderno."
+  "tracks": {
+   "diadia": {
+    "mercado": 2500,
+    "restaurante": 2500,
+    "transporte": 2500,
+    "casa": 2500,
+    "saude": 1941,
+    "clima": 1632,
+    "rotina": 2500,
+    "lazer": 2500,
+    "sentimentos": 2500
+   },
+   "viagem": {
+    "aeroporto": 641,
+    "hotel": 1817,
+    "direcoes": 1029,
+    "turismo": 1329
+   },
+   "profissional": {
+    "escritorio": 888,
+    "comunicacao": 1527,
+    "carreira": 2500,
+    "negocios": 1582,
+    "tecnologia": 362
+   },
+   "academico": {
+    "universidade": 2500,
+    "ciencia": 282,
+    "historia": 476,
+    "natureza": 1024,
+    "cultura": 1657
+   }
+  },
+  "levels": [
+   {
+    "name": "Top 100",
+    "start": 0,
+    "end": 4428
+   },
+   {
+    "name": "Top 500",
+    "start": 4428,
+    "end": 41116
+   },
+   {
+    "name": "Top 1000",
+    "start": 41116,
+    "end": 68195
+   },
+   {
+    "name": "Top 2000",
+    "start": 68195,
+    "end": 91725
+   },
+   {
+    "name": "Top 5000",
+    "start": 91725,
+    "end": 111448
+   },
+   {
+    "name": "Top 10 000",
+    "start": 111448,
+    "end": 119017
+   },
+   {
+    "name": "Avançado",
+    "start": 119017,
+    "end": 120000
+   }
+  ]
+ },
+ "en-es_candidates": 230499,
+ "en-es": {
+  "total": 120000,
+  "native_both": 106698,
+  "with_audio": 73733,
+  "vocab": 25445,
+  "score_dist": [
+   [
+    8,
+    120000
+   ]
+  ],
+  "tracks": {
+   "diadia": {
+    "mercado": 2500,
+    "restaurante": 2500,
+    "transporte": 2500,
+    "casa": 2500,
+    "saude": 2344,
+    "clima": 2047,
+    "rotina": 2500,
+    "lazer": 2500,
+    "sentimentos": 2500
+   },
+   "viagem": {
+    "aeroporto": 640,
+    "hotel": 2053,
+    "direcoes": 1071,
+    "turismo": 1607
+   },
+   "profissional": {
+    "escritorio": 1014,
+    "comunicacao": 1812,
+    "carreira": 2500,
+    "negocios": 1946,
+    "tecnologia": 394
+   },
+   "academico": {
+    "universidade": 2500,
+    "ciencia": 328,
+    "historia": 705,
+    "natureza": 1458,
+    "cultura": 1852
+   }
+  },
+  "levels": [
+   {
+    "name": "Top 100",
+    "start": 0,
+    "end": 1186
+   },
+   {
+    "name": "Top 500",
+    "start": 1186,
+    "end": 15213
+   },
+   {
+    "name": "Top 1000",
+    "start": 15213,
+    "end": 31940
+   },
+   {
+    "name": "Top 2000",
+    "start": 31940,
+    "end": 53056
+   },
+   {
+    "name": "Top 5000",
+    "start": 53056,
+    "end": 81942
+   },
+   {
+    "name": "Top 10 000",
+    "start": 81942,
+    "end": 100946
+   },
+   {
+    "name": "Avançado",
+    "start": 100946,
+    "end": 120000
+   }
+  ]
+ },
+ "en-de_candidates": 464358,
+ "en-de": {
+  "total": 120000,
+  "native_both": 119036,
+  "with_audio": 22474,
+  "vocab": 25124,
+  "score_dist": [
+   [
+    8,
+    120000
+   ]
+  ],
+  "tracks": {
+   "diadia": {
+    "mercado": 2500,
+    "restaurante": 2500,
+    "transporte": 2500,
+    "casa": 2500,
+    "saude": 2085,
+    "clima": 1973,
+    "rotina": 2500,
+    "lazer": 2500,
+    "sentimentos": 2500
+   },
+   "viagem": {
+    "aeroporto": 633,
+    "hotel": 2108,
+    "direcoes": 1134,
+    "turismo": 1454
+   },
+   "profissional": {
+    "escritorio": 1054,
+    "comunicacao": 1886,
+    "carreira": 2481,
+    "negocios": 1987,
+    "tecnologia": 350
+   },
+   "academico": {
+    "universidade": 2500,
+    "ciencia": 290,
+    "historia": 558,
+    "natureza": 1319,
+    "cultura": 1834
+   }
+  },
+  "levels": [
+   {
+    "name": "Top 100",
+    "start": 0,
+    "end": 1269
+   },
+   {
+    "name": "Top 500",
+    "start": 1269,
+    "end": 19228
+   },
+   {
+    "name": "Top 1000",
+    "start": 19228,
+    "end": 37951
+   },
+   {
+    "name": "Top 2000",
+    "start": 37951,
+    "end": 60757
+   },
+   {
+    "name": "Top 5000",
+    "start": 60757,
+    "end": 87283
+   },
+   {
+    "name": "Top 10 000",
+    "start": 87283,
+    "end": 103290
+   },
+   {
+    "name": "Avançado",
+    "start": 103290,
+    "end": 120000
+   }
+  ]
+ },
+ "en-it_candidates": 613986,
+ "en-it": {
+  "total": 120000,
+  "native_both": 119328,
+  "with_audio": 1433,
+  "vocab": 16432,
+  "score_dist": [
+   [
+    8,
+    120000
+   ]
+  ],
+  "tracks": {
+   "diadia": {
+    "mercado": 2500,
+    "restaurante": 2500,
+    "transporte": 2500,
+    "casa": 2500,
+    "saude": 1915,
+    "clima": 1408,
+    "rotina": 2500,
+    "lazer": 2500,
+    "sentimentos": 2500
+   },
+   "viagem": {
+    "aeroporto": 500,
+    "hotel": 2231,
+    "direcoes": 965,
+    "turismo": 1196
+   },
+   "profissional": {
+    "escritorio": 816,
+    "comunicacao": 1931,
+    "carreira": 2461,
+    "negocios": 1530,
+    "tecnologia": 306
+   },
+   "academico": {
+    "universidade": 2500,
+    "ciencia": 335,
+    "historia": 546,
+    "natureza": 973,
+    "cultura": 1728
+   }
+  },
+  "levels": [
+   {
+    "name": "Top 100",
+    "start": 0,
+    "end": 1481
+   },
+   {
+    "name": "Top 500",
+    "start": 1481,
+    "end": 19570
+   },
+   {
+    "name": "Top 1000",
+    "start": 19570,
+    "end": 40786
+   },
+   {
+    "name": "Top 2000",
+    "start": 40786,
+    "end": 64803
+   },
+   {
+    "name": "Top 5000",
+    "start": 64803,
+    "end": 94848
+   },
+   {
+    "name": "Top 10 000",
+    "start": 94848,
+    "end": 112034
+   },
+   {
+    "name": "Avançado",
+    "start": 112034,
+    "end": 120000
+   }
+  ]
+ },
+ "en-fr_candidates": 345749,
+ "en-fr": {
+  "total": 120000,
+  "native_both": 119741,
+  "with_audio": 7311,
+  "vocab": 19082,
+  "score_dist": [
+   [
+    8,
+    120000
+   ]
+  ],
+  "tracks": {
+   "diadia": {
+    "mercado": 2500,
+    "restaurante": 2500,
+    "transporte": 2500,
+    "casa": 2500,
+    "saude": 2068,
+    "clima": 1716,
+    "rotina": 2500,
+    "lazer": 2500,
+    "sentimentos": 2500
+   },
+   "viagem": {
+    "aeroporto": 532,
+    "hotel": 1883,
+    "direcoes": 936,
+    "turismo": 1176
+   },
+   "profissional": {
+    "escritorio": 1071,
+    "comunicacao": 1766,
+    "carreira": 2500,
+    "negocios": 1728,
+    "tecnologia": 307
+   },
+   "academico": {
+    "universidade": 2500,
+    "ciencia": 269,
+    "historia": 476,
+    "natureza": 1057,
+    "cultura": 1333
+   }
+  },
+  "levels": [
+   {
+    "name": "Top 100",
+    "start": 0,
+    "end": 1265
+   },
+   {
+    "name": "Top 500",
+    "start": 1265,
+    "end": 21356
+   },
+   {
+    "name": "Top 1000",
+    "start": 21356,
+    "end": 41599
+   },
+   {
+    "name": "Top 2000",
+    "start": 41599,
+    "end": 65300
+   },
+   {
+    "name": "Top 5000",
+    "start": 65300,
+    "end": 93270
+   },
+   {
+    "name": "Top 10 000",
+    "start": 93270,
+    "end": 109517
+   },
+   {
+    "name": "Avançado",
+    "start": 109517,
+    "end": 120000
+   }
   ]
  }
 }
