@@ -1,6 +1,6 @@
-const VERSION = 'frasier-v8';
-const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icons/apple-touch-icon.png', 'icons/icon-192.png', 'icons/icon-512.png', 'data/es/index.json', 'data/es/words.json', 'vendor/firebase-app-compat.js', 'vendor/firebase-auth-compat.js', 'vendor/firebase-firestore-compat.js'];
-const DATA = 'frasier-data-v1';
+const VERSION = 'frasier-v9';
+const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icons/apple-touch-icon.png', 'icons/icon-192.png', 'icons/icon-512.png', 'vendor/firebase-app-compat.js', 'vendor/firebase-auth-compat.js', 'vendor/firebase-firestore-compat.js'];
+const DATA = 'frasier-data-v2';
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(VERSION).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
@@ -13,7 +13,7 @@ self.addEventListener('fetch', e => {
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
   // blocos de frases: cache primeiro (nunca mudam)
-  if (url.origin === location.origin && /\/data\/[a-z]+\/(pt\/)?c\d+\.json$/.test(url.pathname)) {
+  if (url.origin === location.origin && /\/data\/[a-z-]+\/c\d+\.json$/.test(url.pathname)) {
     e.respondWith(caches.open(DATA).then(async c => {
       const hit = await c.match(req);
       if (hit) return hit;
