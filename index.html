@@ -536,7 +536,7 @@ const KEY = 'frasier-' + PAIR + '-v1';
 COURSE.path = 'data/' + PAIR + '/';
 try { if (LEGACY && !localStorage.getItem(KEY) && localStorage.getItem('frasier-' + LEGACY + '-v1')) localStorage.setItem(KEY, localStorage.getItem('frasier-' + LEGACY + '-v1')); } catch(e){}
 
-const APP_VERSION = '2.3 · 14 nov 2026';
+const APP_VERSION = '2.4 · 14 nov 2026';
 const IN_ARTIFACT = !!(window.claude && window.claude.use) || window.self !== window.top;
 const STANDALONE = (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
 
@@ -574,6 +574,7 @@ function markAllDirty(){ Object.keys(S.prog).forEach(k => markDirty(+k)); metaDi
 
 // junta o progresso remoto com o local (vence a resposta mais recente de cada frase)
 function mergeMeta(m){
+  if (m.flags) S.flags = { ...(m.flags || {}), ...(S.flags || {}) };
   S.stats.points = Math.max(S.stats.points||0, m.stats?.points||0);
   for (const [d, c] of Object.entries(m.stats?.days||{})) S.stats.days[d] = Math.max(S.stats.days[d]||0, c);
   for (const [l, p] of Object.entries(m.ptr||{})) S.ptr[l] = Math.max(S.ptr[l]||0, p);
@@ -586,7 +587,7 @@ function mergeBlock(entries){
     else if ((mine[2]||0) > (v[2]||0)) markDirty(+k);
   }
 }
-const metaBody = () => ({ ptr:S.ptr, stats:S.stats, settings:S.settings, su:S.su, blocks:[...new Set(Object.keys(S.prog).map(k => blockOf(+k)))].sort((a,b)=>a-b) });
+const metaBody = () => ({ ptr:S.ptr, stats:S.stats, settings:S.settings, su:S.su, flags:S.flags || {}, blocks:[...new Set(Object.keys(S.prog).map(k => blockOf(+k)))].sort((a,b)=>a-b) });
 
 async function initCloud(){
   if (!IN_ARTIFACT) { initFirebase(); return; }
@@ -1173,6 +1174,7 @@ function answer(q, val, how){
       <button class="tool" id="listenBtn">${ICON.speaker}Ouvir</button>
       ${!q.retry ? `<button class="tool" id="knowBtn">${ICON.check}Já sei</button>` : ''}
       <a class="tool" href="https://tatoeba.org/pt-br/sentences/show/${q.esid}" target="_blank" rel="noopener">Tatoeba${ICON.ext}</a>
+      <button class="tool" id="flagBtn" aria-label="Reportar tradução ruim">⚑ Tradução ruim</button>
     </div>
     <button class="btn btn-primary wide" id="nextBtn">Continuar</button>`;
   $('afterArea').classList.remove('hidden');
@@ -1183,6 +1185,14 @@ function answer(q, val, how){
     markDirty(q.idx); saveLocal();
     $('afterArea').querySelector('.mastery').innerHTML = `<span>100%</span><span class="segs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span>`; $('whenTxt').textContent = 'Dominada. Revisão em 180 dias';
     $('knowBtn').remove();
+  };
+  $('flagBtn').onclick = () => {
+    // tira a frase dos seus estudos (nível -1 = removida); fica guardada para melhorar os dados depois
+    S.prog[q.idx] = [-1, t + 36500, nowS()];
+    R.queue = R.queue.filter((x, j) => j <= R.i || x.idx !== q.idx);
+    S.flags = { ...(S.flags || {}), [q.esid]: q.idx };
+    markDirty(q.idx); saveLocal();
+    $('flagBtn').replaceWith(Object.assign(document.createElement('span'), { className:'small muted', textContent:'Removida dos seus estudos. Obrigado!' }));
   };
   $('nextBtn').onclick = next;
   setTimeout(() => $('nextBtn') && $('nextBtn').focus({ preventScroll:true }), 30);
