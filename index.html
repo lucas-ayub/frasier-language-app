@@ -72,10 +72,11 @@ a{color:inherit}
 /* ---------- cabeçalho ---------- */
 .top{display:flex;align-items:center;gap:8px;margin:6px 0 16px}
 .brand{display:flex;align-items:center;gap:10px;min-width:0}
-.brand svg{width:40px;height:40px;flex:none;filter:drop-shadow(0 3px 0 var(--brand-deep))}
+.brand > svg{width:40px;height:40px;flex:none;filter:drop-shadow(0 3px 0 var(--brand-deep))}
 .brand .wm{display:flex;flex-direction:column;line-height:1}
 .logo{font-family:var(--fd);font-weight:800;font-size:21px;letter-spacing:-.03em}
-#courseName{margin-top:5px;font-size:13px;font-weight:700;color:var(--brand);display:inline-flex;align-items:center;gap:4px}
+#courseName svg{width:12px!important;height:12px!important;flex:none}
+#courseName{white-space:nowrap;border:0;background:none;padding:0;min-height:28px;cursor:pointer;font-family:inherit;margin-top:5px;font-size:13px;font-weight:700;color:var(--brand);display:inline-flex;align-items:center;gap:4px}
 @media (prefers-color-scheme: dark){ #courseName{color:#B6A6FF} }
 .pill{display:inline-flex;align-items:center;gap:5px;height:44px;padding:0 12px;border-radius:var(--r-m);background:var(--surface);border:2px solid var(--line);box-shadow:0 3px 0 var(--edge);font-family:var(--fd);font-weight:700;font-size:15px}
 .pill svg{width:18px;height:18px}
@@ -226,6 +227,7 @@ a{color:inherit}
 .mirror{position:absolute;left:0;top:0;white-space:pre;pointer-events:none}
 .mirror .g{color:var(--ok-ink)}
 .mirror .r{color:var(--bad-ink);background:color-mix(in srgb,var(--bad) 18%,transparent);border-radius:4px;text-decoration:underline wavy var(--bad);text-decoration-thickness:1.5px;text-underline-offset:2px}
+.trbadge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;padding:1px 6px;border-radius:6px;background:var(--chip, rgba(127,127,127,.15));color:var(--muted);vertical-align:2px;margin-left:4px}
 .trans{color:var(--muted);font-size:17px;line-height:1.45;padding-top:12px;border-top:2px dashed var(--line)}
 
 .options{display:grid;grid-template-columns:1fr 1fr;gap:12px 10px;margin-top:16px}
@@ -375,7 +377,7 @@ textarea{width:100%;min-height:90px;border-radius:12px;border:2px solid var(--li
     <div class="top">
       <div class="brand">
         <svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="11" fill="var(--brand)"/><path d="M10 9h16v6.2H16.8v3.6h7.6v5.6h-7.6V31H10z" fill="#fff"/><rect x="20.5" y="26" width="10" height="5" rx="1.6" fill="var(--sun)"/></svg>
-        <div class="wm"><div class="logo">Frasier</div><span id="courseName">Espanhol</span></div>
+        <div class="wm"><div class="logo">Frasier</div><button id="courseName" type="button" aria-label="Trocar idioma">Espanhol</button></div>
       </div>
       <div class="spacer"></div>
       <div class="pill" title="Sequência de dias com a meta cumprida" aria-label="Sequência de dias"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c1 4 5 5.5 5 11a5 5 0 0 1-10 0c0-2.5 1.2-4 2.5-5-.2 2 .8 3 1.8 3C10 8 12 5 12 2z" fill="var(--sun)" stroke="var(--sun-deep)" stroke-width="1.5" stroke-linejoin="round"/></svg><span id="streak">0</span></div>
@@ -495,11 +497,27 @@ const PTS = { mc: 4, type: 8, speak: 8, hint: 2 };
 const ROUND = 10;
 /* cursos: para adicionar um idioma, gere data/<código>/ com build.py e acrescente uma entrada aqui */
 const COURSES = {
-  es: { name:'Espanhol', path:'data/es/', voices:[['es-ES','Espanha'],['es-MX','México'],['es-US','EUA']], letters:['á','é','í','ó','ú','ñ','ü'], hello:'Hola, ¿qué tal?', from:'inglês' },
+  es: { name:'Espanhol', flag:'🇪🇸', path:'data/es/', voices:[['es-ES','Espanha'],['es-MX','México'],['es-US','EUA']], letters:['á','é','í','ó','ú','ñ','ü'], hello:'Hola, ¿qué tal?', deco:['¿','ñ'] },
+  de: { name:'Alemão', flag:'🇩🇪', path:'data/de/', voices:[['de-DE','Alemanha'],['de-AT','Áustria'],['de-CH','Suíça']], letters:['ä','ö','ü','ß','Ä','Ö','Ü'], hello:'Hallo, wie geht’s?', deco:['ß','ü'] },
+  it: { name:'Italiano', flag:'🇮🇹', path:'data/it/', voices:[['it-IT','Itália']], letters:['à','è','é','ì','ò','ù'], hello:'Ciao, come va?', deco:['è','ò'] },
+  fr: { name:'Francês', flag:'🇫🇷', path:'data/fr/', voices:[['fr-FR','França'],['fr-CA','Canadá']], letters:['à','â','ç','é','è','ê','ë','î','ï','ô','ù','û','œ'], hello:'Salut, ça va ?', deco:['ç','é'] },
+  en: { name:'Inglês', flag:'🇬🇧', path:'data/en/', voices:[['en-US','EUA'],['en-GB','Reino Unido'],['en-AU','Austrália']], letters:[], hello:'Hi, how are you?', deco:['W','th'], srcs:['pt'] },
 };
-const COURSE_ID = 'es', COURSE = COURSES[COURSE_ID];
+const SOURCES = { pt:'Português', en:'Inglês' };
+const PREFS_KEY = 'frasier-prefs';
+let PREFS = { tgt:'es', src:'pt' };
+try { PREFS = { ...PREFS, ...JSON.parse(localStorage.getItem(PREFS_KEY) || '{}') }; } catch(e){}
+if (!COURSES[PREFS.tgt]) PREFS.tgt = 'es';
+if (COURSES[PREFS.tgt].srcs && !COURSES[PREFS.tgt].srcs.includes(PREFS.src)) PREFS.src = COURSES[PREFS.tgt].srcs[0];
+const COURSE_ID = PREFS.tgt, COURSE = COURSES[COURSE_ID], SRC = PREFS.src;
+function setCourse(tgt, src){
+  if (COURSES[tgt].srcs && !COURSES[tgt].srcs.includes(src)) src = COURSES[tgt].srcs[0];
+  try { localStorage.setItem(PREFS_KEY, JSON.stringify({ tgt, src })); } catch(e){}
+  if (tgt === COURSE_ID && src === SRC) return false;
+  return true;
+}
 const KEY = 'frasier-' + COURSE_ID + '-v1';
-const APP_VERSION = '2.0 · 14 nov 2026';
+const APP_VERSION = '2.1 · 14 nov 2026';
 try { if (!localStorage.getItem(KEY) && localStorage.getItem('huecos-es-v1')) localStorage.setItem(KEY, localStorage.getItem('huecos-es-v1')); } catch(e){}
 const IN_ARTIFACT = !!(window.claude && window.claude.use) || window.self !== window.top;
 const STANDALONE = (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
@@ -747,9 +765,19 @@ function openAccount(mode){
 async function getJSON(p){ const r = await fetch(p); if (!r.ok) throw new Error(p + ' ' + r.status); return r.json(); }
 async function ensureChunks(ids){
   const need = [...new Set(ids.map(i => Math.floor(i / IDX.chunk)))].filter(c => !CHUNKS.has(c));
-  await Promise.all(need.map(async c => CHUNKS.set(c, await getJSON(COURSE.path + 'c' + c + '.json'))));
+  await Promise.all(need.map(async c => {
+    const [rows, pt] = await Promise.all([getJSON(COURSE.path + 'c' + c + '.json'), SRC === 'pt' ? getJSON(COURSE.path + 'pt/c' + c + '.json').catch(() => null) : null]);
+    CHUNKS.set(c, rows); if (pt) PTCH.set(c, pt);
+  }));
 }
+const PTCH = new Map();
 const sent = i => CHUNKS.get(Math.floor(i / IDX.chunk))[i % IDX.chunk];
+// tradução no idioma escolhido; se não houver em português, mostra a inglesa marcada
+function transOf(i){
+  const row = sent(i);
+  if (SRC === 'pt') { const pt = (PTCH.get(Math.floor(i / IDX.chunk)) || [])[i % IDX.chunk]; if (pt) return { text: pt, fallback: false }; }
+  return { text: row[1] || '', fallback: SRC === 'pt' && !!row[1] };
+}
 
 function distractors(ans){
   const lw = ans.toLowerCase(), la = strip(lw);
@@ -856,7 +884,8 @@ function renderQ(){
   if (q.retry) { tag.textContent = 'Tente de novo'; tag.className = 'tag retry'; }
   else if (!prev) { tag.textContent = 'Nova'; tag.className = 'tag new'; }
   else { tag.textContent = 'Revisão · ' + (prev[0] * 25) + '%'; tag.className = 'tag'; }
-  $('trans').textContent = en;
+  const tr = transOf(q.idx);
+  $('trans').innerHTML = esc(tr.text) + (tr.fallback ? ' <span class="trbadge" title="Sem tradução em português; mostrando a inglesa">EN</span>' : '');
   $('qcard').classList.remove('v-ok', 'v-bad', 'pop');
   $('afterArea').classList.add('hidden'); $('afterArea').innerHTML = '';
   q.hints = 0; paintPlayMode();
@@ -890,7 +919,7 @@ const maxHints = q => q.answer.length <= 2 ? 1 : Math.ceil(q.answer.length * 0.6
 function renderType(q){
   const w = Math.max(3, q.answer.length + 2);
   $('sentence').innerHTML = sentenceHTML(q, `<span class="typewrap" id="typewrap" style="width:${w}ch"><span class="mirror" id="mirror" aria-hidden="true"></span><input id="ans" class="ans-input" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" enterkeyhint="done" aria-label="Resposta"></span>`);
-  $('answerArea').innerHTML = `<div class="accents">${COURSE.letters.map(a => `<button data-a="${a}">${a}</button>`).join('')}</div>
+  $('answerArea').innerHTML = `<div class="accents"${COURSE.letters.length ? '' : ' style="display:none"'}>${COURSE.letters.map(a => `<button data-a="${a}">${a}</button>`).join('')}</div>
     <div class="typeactions"><button class="btn btn-ghost" id="hintBtn">Dica</button><button class="btn btn-primary" id="checkBtn">Verificar</button></div>
     <div class="hintdots" id="hintDots"></div>`;
   const inp = $('ans');
@@ -1113,6 +1142,37 @@ document.addEventListener('keydown', e => {
   if (q && !q.done && /^[1-4]$/.test(e.key) && e.target.tagName !== 'INPUT') { const b = $('answerArea').querySelectorAll('.opt')[+e.key - 1]; if (b) b.click(); }
 });
 
+/* ---------- idiomas ---------- */
+function openCourses(){
+  let tgt = COURSE_ID, src = SRC;
+  const paint = () => {
+    const fixed = COURSES[tgt].srcs;
+    $('sheetInner').innerHTML = `
+      <div class="row"><h4>Idiomas</h4><div class="spacer"></div><button class="iconbtn" id="closeSheet" aria-label="Fechar">${ICON.x}</button></div>
+      <div class="group">
+        <div class="field"><label>Quero aprender</label>
+          <div class="chips" id="tgtChips">${Object.entries(COURSES).filter(([k]) => !IN_ARTIFACT || k === 'es').map(([k, c]) => `<button data-v="${k}" class="${k === tgt ? 'on' : ''}">${c.flag} ${c.name}</button>`).join('')}</div></div>
+        <div class="field"><label>Ver as traduções em</label>
+          <div class="chips" id="srcChips">${Object.entries(SOURCES).map(([k, n]) => { const off = fixed && !fixed.includes(k); return `<button data-v="${k}" class="${k === src ? 'on' : ''}" ${off ? 'disabled style="opacity:.4"' : ''}>${n}</button>`; }).join('')}</div>
+          <div class="help">${tgt === 'en' ? 'No curso de inglês as traduções são sempre em português.' : 'Em português, algumas frases ainda não têm tradução; nelas aparece a inglesa com a marca EN.'}</div></div>
+      </div>
+      <div class="help" style="margin:4px 2px 14px">Cada idioma tem o próprio progresso, meta e sequência. Trocar não apaga nada.</div>
+      <button class="btn btn-primary" style="width:100%" id="applyCourse">${tgt === COURSE_ID && src === SRC ? 'Fechar' : 'Começar ' + COURSES[tgt].name}</button>`;
+    $('closeSheet').onclick = closeSheet;
+    $('tgtChips').querySelectorAll('button').forEach(b => b.onclick = () => { tgt = b.dataset.v; if (COURSES[tgt].srcs && !COURSES[tgt].srcs.includes(src)) src = COURSES[tgt].srcs[0]; paint(); });
+    $('srcChips').querySelectorAll('button').forEach(b => b.onclick = () => { if (!b.disabled) { src = b.dataset.v; paint(); } });
+    $('applyCourse').onclick = async () => {
+      if (!setCourse(tgt, src)) { closeSheet(); return; }
+      $('applyCourse').disabled = true; $('applyCourse').textContent = 'Abrindo…';
+      try { await flush(); } catch(e){}
+      location.reload();
+    };
+  };
+  paint();
+  $('sheet').classList.remove('hidden');
+}
+$('courseName').onclick = openCourses;
+
 /* ---------- ajustes ---------- */
 function chips(name, options, cur){ return `<div class="chips" data-name="${name}">${options.map(([v, l]) => `<button data-v="${v}" class="${String(cur) === String(v) ? 'on' : ''}">${l}</button>`).join('')}</div>`; }
 function openSettings(){
@@ -1123,7 +1183,7 @@ function openSettings(){
     <div class="field"><label>Áudio automático depois de responder</label>${chips('autoAudio', [[true,'Ligado'],[false,'Desligado']], s.autoAudio)}</div>
     <div class="field"><label>Sotaque da voz</label>${chips('accent', COURSE.voices, s.accent)}<div class="help">No iPhone, dá para baixar vozes melhores em Ajustes › Acessibilidade › Conteúdo Falado › Vozes › ${COURSE.name}.</div></div>
     <div class="field"><label>Velocidade da fala</label>${chips('rate', [[0.75,'Devagar'],[1,'Normal'],[1.15,'Rápida']], s.rate)}</div></div><div class="group">
-    ${!IN_ARTIFACT ? `<div class="field"><label>Usar sem internet</label><div class="help" style="margin:0 0 10px">As frases que você joga ficam salvas automaticamente. Para baixar todas de uma vez (~13 MB):</div><button class="tool" id="dlAll">Baixar todas as frases</button></div>` : ''}
+    ${!IN_ARTIFACT ? `<div class="field"><label>Usar sem internet</label><div class="help" style="margin:0 0 10px">As frases que você joga ficam salvas automaticamente. Para baixar todas as frases deste curso de uma vez:</div><button class="tool" id="dlAll">Baixar todas as frases</button></div>` : ''}
     <div class="field"><label>Backup do progresso</label>
       <div class="help" style="margin:0 0 10px">${IN_ARTIFACT ? 'O progresso é salvo na sua conta Claude quando possível.' : 'O progresso fica salvo neste aparelho.'} Copie um backup de vez em quando — ele também serve para levar o progresso de um aparelho para outro.</div>
       <div class="row" style="flex-wrap:wrap"><button class="tool" id="copyBk">Copiar backup</button><button class="tool" id="showRestore">Restaurar backup</button></div>
@@ -1131,7 +1191,7 @@ function openSettings(){
     </div>
     ${!IN_ARTIFACT ? `<div class="field"><label>Versão do app</label><div class="row"><span class="small muted">${APP_VERSION}</span><div class="spacer"></div><button class="tool" id="updBtn">Procurar atualização</button></div></div>` : ''}
     <div class="field"><label>Zerar progresso</label><button class="tool danger" id="resetBtn">Apagar todo o progresso</button></div></div>
-    <div class="small muted" style="margin-top:18px;line-height:1.5">${IDX.total.toLocaleString('pt-BR')} frases do <a href="https://tatoeba.org" target="_blank" rel="noopener" style="color:inherit">Tatoeba</a> (CC BY 2.0 FR), com traduções em ${COURSE.from} feitas pelos voluntários do projeto.</div>`;
+    <div class="small muted" style="margin-top:18px;line-height:1.5">${IDX.total.toLocaleString('pt-BR')} frases do <a href="https://tatoeba.org" target="_blank" rel="noopener" style="color:inherit">Tatoeba</a> (CC BY 2.0 FR), com traduções feitas pelos voluntários do projeto. Quando não há tradução em português, aparece a inglesa com a marca EN.</div>`;
   $('sheet').classList.remove('hidden');
   $('closeSheet').onclick = closeSheet;
   if ($('updBtn')) $('updBtn').onclick = async () => {
@@ -1148,7 +1208,7 @@ function openSettings(){
     const btn = $('dlAll'); btn.disabled = true; const n = Math.ceil(IDX.total / IDX.chunk); let done = 0;
     try {
       for (let c = 0; c < n; c += 6) {
-        await Promise.all(Array.from({ length: Math.min(6, n - c) }, (_, k) => fetch(COURSE.path + 'c' + (c + k) + '.json').then(r => { if (!r.ok) throw 0; done++; btn.textContent = `Baixando… ${Math.round(done / n * 100)}%`; })));
+        await Promise.all(Array.from({ length: Math.min(6, n - c) }, (_, k) => Promise.all([fetch(COURSE.path + 'c' + (c + k) + '.json'), SRC === 'pt' ? fetch(COURSE.path + 'pt/c' + (c + k) + '.json') : null]).then(([r]) => { if (!r.ok) throw 0; done++; btn.textContent = `Baixando… ${Math.round(done / n * 100)}%`; })));
       }
       btn.textContent = 'Tudo baixado ✓';
     } catch(e) { btn.disabled = false; btn.textContent = 'Falhou — tentar de novo'; }
@@ -1199,10 +1259,13 @@ $('levels').onclick = e => { const b = e.target.closest('.level'); if (!b) retur
   loadLocal();
   try {
     [IDX, WORDS] = await Promise.all([getJSON(COURSE.path + 'index.json'), getJSON(COURSE.path + 'words.json')]);
-  } catch(e) { $('loading').innerHTML = '<div>Não consegui carregar as frases. Recarregue a página.</div>'; return; }
+  } catch(e) {
+    if (COURSE_ID !== 'es') { setCourse('es', SRC); $('loading').innerHTML = `<div style="text-align:center;padding:24px">O curso de ${COURSE.name} ainda está sendo preparado. Tente de novo em alguns minutos.<br><br><button class="btn btn-primary" onclick="location.reload()">Voltar ao espanhol</button></div>`; return; }
+    $('loading').innerHTML = '<div>Não consegui carregar as frases. Recarregue a página.</div>'; return; }
   WORDS.forEach((w, i) => RANK.set(w, i));
   $('totalSent').textContent = IDX.total.toLocaleString('pt-BR');
-  $('courseName').textContent = COURSE.name;
+  $('courseName').innerHTML = `<span>${COURSE.flag}&nbsp;${COURSE.name}<span style="opacity:.65;font-weight:600"> · ${SRC === 'pt' ? 'PT' : 'EN'}</span></span><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>`;
+  document.querySelectorAll('.deco span').forEach((el, k) => el.textContent = COURSE.deco[k] || '');
   $('sentence').lang = COURSE_ID;
   if (IN_ARTIFACT) $('accountBtn').classList.add('hidden');
   renderHome(); show('home');
