@@ -1,0 +1,35 @@
+name: Montar cursos (Tatoeba)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - tools/build_courses.py
+      - .github/workflows/build-courses.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-courses
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Baixar Tatoeba e gerar os cursos
+        run: python tools/build_courses.py
+      - name: Salvar no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898729+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -m "Dados dos cursos gerados a partir do Tatoeba" || echo "Nada mudou"
+          git pull --rebase origin main
+          git push origin HEAD:main
