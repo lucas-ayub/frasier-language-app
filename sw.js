@@ -1,4 +1,4 @@
-const VERSION = 'frasier-v3';
+const VERSION = 'frasier-v4';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icons/apple-touch-icon.png', 'icons/icon-192.png', 'icons/icon-512.png', 'data/es/index.json', 'data/es/words.json', 'vendor/firebase-app-compat.js', 'vendor/firebase-auth-compat.js', 'vendor/firebase-firestore-compat.js'];
 const DATA = 'frasier-data-v1';
 
@@ -25,7 +25,7 @@ self.addEventListener('fetch', e => {
   }
   // página: rede primeiro, cache se offline
   if (req.mode === 'navigate') {
-    e.respondWith(fetch(req).then(res => { const copy = res.clone(); caches.open(VERSION).then(c => c.put('index.html', copy)); return res; })
+    e.respondWith(fetch(req, { cache:'no-cache' }).then(res => { const copy = res.clone(); caches.open(VERSION).then(c => c.put('index.html', copy)); return res; })
       .catch(() => caches.match('index.html')));
     return;
   }

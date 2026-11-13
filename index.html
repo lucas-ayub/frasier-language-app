@@ -305,6 +305,7 @@ const COURSES = {
 };
 const COURSE_ID = 'es', COURSE = COURSES[COURSE_ID];
 const KEY = 'frasier-' + COURSE_ID + '-v1';
+const APP_VERSION = '1.4 · 13 nov 2026';
 try { if (!localStorage.getItem(KEY) && localStorage.getItem('huecos-es-v1')) localStorage.setItem(KEY, localStorage.getItem('huecos-es-v1')); } catch(e){}
 const IN_ARTIFACT = !!(window.claude && window.claude.use) || window.self !== window.top;
 const STANDALONE = (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
@@ -911,10 +912,21 @@ function openSettings(){
       <div class="row"><button class="tool" id="copyBk">Copiar backup</button><button class="tool" id="showRestore">Restaurar backup</button></div>
       <div id="restoreBox" class="hidden" style="margin-top:10px"><textarea id="restoreTxt" placeholder="Cole aqui o backup"></textarea><button class="tool" id="doRestore" style="margin-top:8px">Restaurar</button></div>
     </div>
+    ${!IN_ARTIFACT ? `<div class="field"><label>Versão do app</label><div class="row"><span class="small muted">${APP_VERSION}</span><div class="spacer"></div><button class="tool" id="updBtn">Procurar atualização</button></div></div>` : ''}
     <div class="field"><label>Zerar progresso</label><button class="tool" id="resetBtn" style="color:var(--bad)">Apagar todo o progresso</button></div>
     <div class="small muted" style="margin-top:18px">${IDX.total.toLocaleString('pt-BR')} frases do <a href="https://tatoeba.org" target="_blank" rel="noopener" style="color:inherit">Tatoeba</a> (CC BY 2.0 FR), com traduções em ${COURSE.from} feitas pelos voluntários do projeto.</div>`;
   $('sheet').classList.remove('hidden');
   $('closeSheet').onclick = closeSheet;
+  if ($('updBtn')) $('updBtn').onclick = async () => {
+    const btn = $('updBtn'); btn.disabled = true; btn.textContent = 'Atualizando…';
+    try {
+      await flush();
+      const reg = navigator.serviceWorker && await navigator.serviceWorker.getRegistration();
+      if (reg) await reg.update();
+      const keys = await caches.keys(); await Promise.all(keys.filter(k => !k.includes('data')).map(k => caches.delete(k)));
+    } catch(e){}
+    location.replace(location.pathname + '?u=' + Date.now());
+  };
   if ($('dlAll')) $('dlAll').onclick = async () => {
     const btn = $('dlAll'); btn.disabled = true; const n = Math.ceil(IDX.total / IDX.chunk); let done = 0;
     try {
