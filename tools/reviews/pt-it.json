@@ -1,5 +1,5 @@
 {
-"reviewed_upto": 3439,
+"reviewed_upto": 9176,
 "fix": {
 "2764588": {
 "orig": "Você gostou?",
@@ -250,6 +250,4001 @@
 "orig": "Não vá à biblioteca.",
 "nova": "Você não vai à biblioteca.",
 "motivo": "italiano é indicativo, não imperativo"
+},
+"8437349": {
+"orig": "Onde, pois, tu queres fazer isto?",
+"nova": "Então, onde você quer fazer isso?",
+"motivo": "tradução artificial/pt-PT"
+},
+"4714274": {
+"orig": "Talvez possamos ir lá amanhã.",
+"nova": "Talvez a gente vá lá amanhã.",
+"motivo": "'possamos' acrescenta sentido"
+},
+"4378": {
+"orig": "Saudades.",
+"nova": "Sinto sua falta.",
+"motivo": "tradução incompleta"
+},
+"1255845": {
+"orig": "Nós conseguimos.",
+"nova": "Chegamos.",
+"motivo": "sentido errado"
+},
+"4881633": {
+"orig": "O cavalo é um animal.",
+"nova": "Os cavalos são animais.",
+"motivo": "número trocado"
+},
+"2433291": {
+"orig": "Não tenho dormido.",
+"nova": "Não dormi.",
+"motivo": "tempo verbal errado"
+},
+"2764007": {
+"orig": "Em qual país nascestes?",
+"nova": "Em que país vocês nasceram?",
+"motivo": "vós arcaico"
+},
+"1881821": {
+"orig": "Vi-o ir ao banheiro há alguns minutos.",
+"nova": "Eu o vi ir ao banheiro há alguns minutos.",
+"motivo": "colocação pt-PT"
+},
+"391149": {
+"orig": "Onde mesmo você mora?",
+"nova": "Onde você mora?",
+"motivo": "'mesmo' acrescentado"
+},
+"934324": {
+"orig": "Não existem lições em agosto.",
+"nova": "Não há aulas em agosto.",
+"motivo": "'lições' inadequado"
+},
+"1523974": {
+"orig": "Ela é a irmão mais nova do Tom.",
+"nova": "Ela é a irmã mais nova do Tom.",
+"motivo": "erro de gênero"
+},
+"5234354": {
+"orig": "Você veio de Berlim?",
+"nova": "Você vem de Berlim?",
+"motivo": "tempo verbal trocado"
+},
+"5590855": {
+"orig": "Ela não usa sal para cozinhar.",
+"nova": "Ela não usa sal quando cozinha.",
+"motivo": "tradução imprecisa"
+},
+"3608250": {
+"orig": "Porque dizes isso?",
+"nova": "Por que você diz isso?",
+"motivo": "'Porque' em pergunta"
+},
+"1508012": {
+"orig": "Comemos com as nossas bocas.",
+"nova": "Comemos com a boca.",
+"motivo": "tradução artificial"
+},
+"7849365": {
+"orig": "Ele tem vinte crianças.",
+"nova": "Ele tem vinte filhas.",
+"motivo": "sentido errado"
+},
+"3374955": {
+"orig": "Eu te vi no parque com Tom.",
+"nova": "Eu vi vocês no parque com o Tom.",
+"motivo": "pessoa trocada (vi = vocês)"
+},
+"1241611": {
+"orig": "Eu gosto do clima brasileiro.",
+"nova": "Eu adoro o clima brasileiro.",
+"motivo": "'gosto' enfraquece"
+},
+"5453382": {
+"orig": "Estou a morrer?",
+"nova": "Estou morrendo?",
+"motivo": "pt-PT"
+},
+"6831713": {
+"orig": "Dê-me mais três maçãs.",
+"nova": "Me dá mais três maçãs.",
+"motivo": "pt-PT"
+},
+"5419589": {
+"orig": "Almoçaste?",
+"nova": "Você almoçou?",
+"motivo": "forma pouco natural no BR"
+},
+"935044": {
+"orig": "O que vos preocupa?",
+"nova": "O que preocupa vocês?",
+"motivo": "vos arcaico"
+},
+"2823655": {
+"orig": "Eu planejo passar o dia com o Tom.",
+"nova": "Eu planejo passar o dia todo com o Tom.",
+"motivo": "faltou 'todo'"
+},
+"1738631": {
+"orig": "Vos telefonarei dentro de uma semana.",
+"nova": "Vou ligar para vocês dentro de uma semana.",
+"motivo": "vos arcaico"
+},
+"3608383": {
+"orig": "Por favor, fica para trás.",
+"nova": "Por favor, fique para trás.",
+"motivo": "formalidade trocada"
+},
+"5337750": {
+"orig": "Que é que todo o mundo está olhando?",
+"nova": "O que todo mundo está olhando?",
+"motivo": "construção pt-PT"
+},
+"6986667": {
+"orig": "Eu quero ir a Arábia Saudita.",
+"nova": "Eu quero ir à Arábia Saudita.",
+"motivo": "falta crase"
+},
+"762932": {
+"orig": "De quem é a vez?",
+"nova": "De quem é a próxima vez?",
+"motivo": "faltou 'próximo'"
+},
+"1543096": {
+"orig": "Por que abriste a caixa?",
+"nova": "Por que você abriu a caixa?",
+"motivo": "forma pouco natural no BR"
+},
+"1925922": {
+"orig": "Mantém o banheiro limpo.",
+"nova": "Deixe o banheiro limpo.",
+"motivo": "verbo/formalidade trocados"
+},
+"1534885": {
+"orig": "Não sei se ele vem.",
+"nova": "Não sei se ele vem ou não.",
+"motivo": "faltou 'o meno'"
+},
+"1891452": {
+"orig": "Estais me ouvindo?",
+"nova": "Vocês estão me ouvindo?",
+"motivo": "vós arcaico"
+},
+"3256415": {
+"orig": "Que deseja a senhora?",
+"nova": "O que vocês desejam?",
+"motivo": "número/pessoa trocados"
+},
+"3256524": {
+"orig": "Que deseja a senhora?",
+"nova": "O que vocês desejam?",
+"motivo": "número/pessoa trocados"
+},
+"2478009": {
+"orig": "Isso é um fake.",
+"nova": "É uma falsificação.",
+"motivo": "anglicismo"
+},
+"5350730": {
+"orig": "Fechaste a janela?",
+"nova": "Você fechou a janela?",
+"motivo": "forma pouco natural no BR"
+},
+"3248779": {
+"orig": "Um pouco de companhia seria bonito.",
+"nova": "Um pouco de companhia seria bom.",
+"motivo": "'bonito' inadequado"
+},
+"1135510": {
+"orig": "Estou muito contente de te conhecer.",
+"nova": "Estou muito contente em conhecê-lo.",
+"motivo": "formalidade trocada"
+},
+"5040769": {
+"orig": "Bem, eu estou orgulhoso de você.",
+"nova": "Bem, eu estou orgulhoso de vocês.",
+"motivo": "número trocado"
+},
+"7618400": {
+"orig": "Vão construir estrades no Vietnã?",
+"nova": "Vocês vão construir estradas no Vietnã?",
+"motivo": "erro de ortografia"
+},
+"14083162": {
+"orig": "Mostra-me o teu carro.",
+"nova": "Me mostra o seu carro.",
+"motivo": "pt-PT"
+},
+"717835": {
+"orig": "Meu nome é Luís.",
+"nova": "Meu nome é Luis.",
+"motivo": "nome alterado"
+},
+"745293": {
+"orig": "De quem é este abrigo?",
+"nova": "De quem é este casaco?",
+"motivo": "'abrigo' não é usado no BR"
+},
+"7602413": {
+"orig": "Não procure ninguém na Argentina.",
+"nova": "Não vão procurar ninguém na Argentina.",
+"motivo": "número trocado"
+},
+"14049569": {
+"orig": "Eu tenho uma camisa verde.",
+"nova": "Eu tenho uma camiseta verde.",
+"motivo": "maglietta = camiseta"
+},
+"3974401": {
+"orig": "Nós temos trabalho de casa.",
+"nova": "Nós temos lição de casa.",
+"motivo": "pt-PT"
+},
+"2921069": {
+"orig": "Não quero sanduíches.",
+"nova": "Não quero um sanduíche.",
+"motivo": "número trocado"
+},
+"6725869": {
+"orig": "Não visitaram a Suíça.",
+"nova": "Não visitaram a Suécia.",
+"motivo": "país errado"
+},
+"2894854": {
+"orig": "Você conhece o homem que está olhando para você?",
+"nova": "Você conhece o homem que está encarando você?",
+"motivo": "'fissare' = encarar"
+},
+"4416778": {
+"orig": "Espero que tires muitas fotos!",
+"nova": "Tire muitas fotos, hein!",
+"motivo": "tradução imprecisa/pt-PT"
+},
+"6701394": {
+"orig": "Isso é um fake.",
+"nova": "É uma cópia.",
+"motivo": "anglicismo"
+},
+"6752700": {
+"orig": "\"Qual era a nacionalidade das suas professoras\" \"Argentina.\"",
+"nova": "\"Qual era a nacionalidade das suas professoras?\" \"Argentina.\"",
+"motivo": "faltou ponto de interrogação"
+},
+"6988819": {
+"orig": "Queremos ir à Roménia.",
+"nova": "Queremos ir à Romênia.",
+"motivo": "grafia pt-PT"
+},
+"7016986": {
+"orig": "Nadaste muito?",
+"nova": "Você nadou muito?",
+"motivo": "forma pouco natural no BR"
+},
+"7569719": {
+"orig": "\"Onde eles vão amanhã?\" \"Na França.\"",
+"nova": "\"Aonde eles vão amanhã?\" \"Para a França.\"",
+"motivo": "regência"
+},
+"633802": {
+"orig": "Porque mentiste?",
+"nova": "Por que você mentiu?",
+"motivo": "'Porque' em pergunta"
+},
+"379882": {
+"orig": "Estou correndo todos os dias.",
+"nova": "Eu corro todos os dias.",
+"motivo": "aspecto trocado"
+},
+"3423544": {
+"orig": "Foi muito bom!",
+"nova": "Ele era muito competente!",
+"motivo": "sentido errado"
+},
+"2578553": {
+"orig": "Eu vou te encontrar mais tarde.",
+"nova": "Nós vamos nos encontrar mais tarde.",
+"motivo": "pessoa trocada"
+},
+"3808967": {
+"orig": "Fui a pé.",
+"nova": "Eu caminhei.",
+"motivo": "sentido alterado"
+},
+"6210524": {
+"orig": "Não consigo entrar em contacto com ela.",
+"nova": "Não consigo entrar em contato com ela.",
+"motivo": "grafia pt-PT"
+},
+"4649273": {
+"orig": "Borneo é uma ilha ou um continente?",
+"nova": "O Bornéu é uma ilha ou um continente?",
+"motivo": "topônimo em português"
+},
+"612502": {
+"orig": "Passe-me o sal, por favor.",
+"nova": "Por favor, me passa o sal.",
+"motivo": "pt-PT"
+},
+"4489680": {
+"orig": "Eu os matei.",
+"nova": "Eu as matei.",
+"motivo": "gênero trocado"
+},
+"7567627": {
+"orig": "Não vai para a escola na quinta-feira?",
+"nova": "Você não vai à escola às quintas-feiras?",
+"motivo": "sentido habitual perdido"
+},
+"755326": {
+"orig": "Olhou-se ao espelho.",
+"nova": "Ele se olhou no espelho.",
+"motivo": "construção pt-PT"
+},
+"1831497": {
+"orig": "A moça olhou-se atentamente ao espelho.",
+"nova": "A moça se olhou atentamente no espelho.",
+"motivo": "construção pt-PT"
+},
+"1221379": {
+"orig": "Não toques a ferida.",
+"nova": "Não toque na ferida.",
+"motivo": "regência/pt-PT"
+},
+"381833": {
+"orig": "Um grupo de meninos estava brincando no parque.",
+"nova": "Um grupo de crianças estava brincando no parque.",
+"motivo": "bambini = crianças"
+},
+"6752732": {
+"orig": "\"Diga-me qual era a nacionalidade de seus professores.\" \"Espanhola.\"",
+"nova": "\"Qual era a nacionalidade das suas professoras?\" \"Espanhola.\"",
+"motivo": "acréscimo e gênero trocado"
+},
+"391174": {
+"orig": "Hokkaido está situada ao norte do Japão.",
+"nova": "Hokkaido fica no norte do Japão.",
+"motivo": "'ao norte' muda o sentido"
+},
+"706170": {
+"orig": "Observavam-me em silêncio.",
+"nova": "Eles me olharam em silêncio.",
+"motivo": "tempo verbal e colocação pt-PT"
+},
+"5423668": {
+"orig": "Você me conhece.",
+"nova": "Vocês me conhecem.",
+"motivo": "número trocado"
+},
+"2745119": {
+"orig": "Eu tenho que estudar para o teste.",
+"nova": "Eu tenho que estudar para o exame.",
+"motivo": "esame = exame"
+},
+"1337801": {
+"orig": "Ela viajou no Japão.",
+"nova": "Ela viajou pelo Japão.",
+"motivo": "regência"
+},
+"1254189": {
+"orig": "Beijamo-nos.",
+"nova": "Nós nos beijamos.",
+"motivo": "pt-PT"
+},
+"1306592": {
+"orig": "Ele foi a Índia.",
+"nova": "Ele esteve na Índia.",
+"motivo": "sentido/crase"
+},
+"1637444": {
+"orig": "Que acham destes sapatos?",
+"nova": "O que vocês acham destes sapatos?",
+"motivo": "pouco natural no BR"
+},
+"1664508": {
+"orig": "Quero aprender hebraico.",
+"nova": "Quero estudar hebraico.",
+"motivo": "studiare = estudar"
+},
+"1730795": {
+"orig": "Ele acompanhou-me até a igreja.",
+"nova": "Ele me acompanhou até a igreja.",
+"motivo": "colocação pt-PT"
+},
+"2178360": {
+"orig": "Olha aquele martelão.",
+"nova": "Olhe aquele martelo grande.",
+"motivo": "formalidade trocada"
+},
+"2511120": {
+"orig": "Ela veste-se com o mesmo tipo de roupa que a irmã dela.",
+"nova": "Ela se veste com o mesmo tipo de roupa que a irmã dela.",
+"motivo": "colocação pt-PT"
+},
+"2681626": {
+"orig": "Estou a tremer de medo.",
+"nova": "Estou tremendo de medo.",
+"motivo": "pt-PT"
+},
+"5081114": {
+"orig": "Ele terminará o trabalho amanhã.",
+"nova": "Ele vai terminar o trabalho até amanhã.",
+"motivo": "'entro' = até"
+},
+"2779186": {
+"orig": "Sua filha é uma enfermeira.",
+"nova": "A filha deles é enfermeira.",
+"motivo": "'sua' ambíguo"
+},
+"3268541": {
+"orig": "Eu tenho o dobro da sua idade.",
+"nova": "Eu tenho o dobro da idade de vocês.",
+"motivo": "número trocado"
+},
+"5524896": {
+"orig": "És o meu inimigo?",
+"nova": "Ele é o meu inimigo?",
+"motivo": "pessoa trocada"
+},
+"3419166": {
+"orig": "Em pensamento voo até você.",
+"nova": "Meu pensamento voa até você.",
+"motivo": "tradução livre demais"
+},
+"3441752": {
+"orig": "Podia-se evitar.",
+"nova": "Dava para evitar.",
+"motivo": "pt-PT"
+},
+"3461809": {
+"orig": "O sinal de tráfego está vermelho.",
+"nova": "O semáforo está vermelho.",
+"motivo": "termo pouco natural"
+},
+"3508787": {
+"orig": "Isso é uma brincadeira.",
+"nova": "É uma piada.",
+"motivo": "battuta = piada"
+},
+"4492912": {
+"orig": "Não está escrito em francês.",
+"nova": "Não está escrita em francês.",
+"motivo": "gênero trocado"
+},
+"383286": {
+"orig": "Eu quero uma xícara de chá.",
+"nova": "Eu gostaria de uma xícara de chá.",
+"motivo": "modo trocado"
+},
+"6762501": {
+"orig": "\"Aonde vai a trabalho?\" \"Para a Estônia.\"",
+"nova": "\"Aonde vocês vão a trabalho?\" \"Para a Estônia.\"",
+"motivo": "pessoa/número trocados"
+},
+"7695535": {
+"orig": "Você já viu este arquivo?",
+"nova": "Vocês viram este arquivo?",
+"motivo": "número trocado"
+},
+"8731433": {
+"orig": "Nós nos inquietamos com o seu futuro.",
+"nova": "Nós nos preocupamos com o seu futuro.",
+"motivo": "verbo pouco natural"
+},
+"1736069": {
+"orig": "Se sente muito melhor.",
+"nova": "Ele se sente muito melhor.",
+"motivo": "início com pronome átono"
+},
+"2732866": {
+"orig": "Me mostra.",
+"nova": "Me mostre.",
+"motivo": "formalidade trocada"
+},
+"2221448": {
+"orig": "Não pretendo ferir-te.",
+"nova": "Não quero ofender você.",
+"motivo": "sentido e pt-PT"
+},
+"2221450": {
+"orig": "Não vos quero ofender.",
+"nova": "Não quero ofender vocês.",
+"motivo": "vos arcaico"
+},
+"2221452": {
+"orig": "Não vos quero ofender.",
+"nova": "Não quero ofendê-la.",
+"motivo": "pessoa trocada"
+},
+"3049191": {
+"orig": "Nós conseguimos.",
+"nova": "Chegamos.",
+"motivo": "sentido errado"
+},
+"8437351": {
+"orig": "Onde, pois, vocês querem fazer isto?",
+"nova": "Então, onde vocês querem fazer isso?",
+"motivo": "tradução artificial"
+},
+"6070514": {
+"orig": "Talvez eu deveria dar uma mão para ela.",
+"nova": "Talvez eu devesse dar uma mão para ela.",
+"motivo": "modo verbal errado"
+},
+"947622": {
+"orig": "Eu vou para Londres no verão.",
+"nova": "Eu vou para Londres neste verão.",
+"motivo": "'quest'estate' = neste verão"
+},
+"1282727": {
+"orig": "Ela está arrasando naquele vestido.",
+"nova": "Ela fica bonita com aquele vestido.",
+"motivo": "sentido exagerado"
+},
+"1255846": {
+"orig": "Nós conseguimos.",
+"nova": "Nós chegamos.",
+"motivo": "sentido errado"
+},
+"1266589": {
+"orig": "O cavalo é um animal.",
+"nova": "Os cavalos são animais.",
+"motivo": "número trocado"
+},
+"2433292": {
+"orig": "Não tenho dormido.",
+"nova": "Eu não dormi.",
+"motivo": "tempo verbal errado"
+},
+"6128847": {
+"orig": "Digam-lhes que não é culpa deles.",
+"nova": "Digam a eles que não é culpa deles.",
+"motivo": "pt-PT"
+},
+"5234355": {
+"orig": "Você veio de Berlim?",
+"nova": "Você vem de Berlim?",
+"motivo": "tempo verbal trocado"
+},
+"7705930": {
+"orig": "Tom sabia que Maria estava grávida.",
+"nova": "Tom sabia que Mary estava grávida.",
+"motivo": "nome trocado"
+},
+"399293": {
+"orig": "Não importa o que eu fizer, ela diz que eu posso fazer melhor.",
+"nova": "Não importa o que eu faça, ela diz que eu posso fazer melhor.",
+"motivo": "modo verbal errado"
+},
+"409285": {
+"orig": "O que estás a dizer é verdade.",
+"nova": "O que você diz é verdade.",
+"motivo": "pt-PT"
+},
+"4072268": {
+"orig": "Estás para tomar um banho.",
+"nova": "Você está prestes a tomar banho.",
+"motivo": "pt-PT"
+},
+"609483": {
+"orig": "Comemos com as nossas bocas.",
+"nova": "Nós comemos com a boca.",
+"motivo": "tradução artificial"
+},
+"3483239": {
+"orig": "Tom correu na rua.",
+"nova": "Tom correu para a rua.",
+"motivo": "sentido alterado"
+},
+"7874128": {
+"orig": "Te sentes seguro na Austrália?",
+"nova": "Você se sente seguro na Austrália?",
+"motivo": "início com pronome átono"
+},
+"1979289": {
+"orig": "Os bons amigos são como as estrelas: nem sempre as vês, mas sabes que estão aí.",
+"nova": "Os bons amigos são como as estrelas. Você nem sempre os vê, mas sabe que eles estão sempre lá.",
+"motivo": "referente trocado, 'sempre' omitido, pt-PT"
+},
+"1539492": {
+"orig": "Vi-os jogar beisebol.",
+"nova": "Eu os vi jogar beisebol.",
+"motivo": "colocação pt-PT"
+},
+"5207391": {
+"orig": "Tanto Tom como Maria estão morrendo.",
+"nova": "Tanto Tom quanto Mary estão morrendo.",
+"motivo": "nome trocado"
+},
+"5650657": {
+"orig": "Magnus Carlsen é o campeão do mundo em xadrez.",
+"nova": "Magnus Carlsen é o campeão mundial de xadrez.",
+"motivo": "expressão pouco natural"
+},
+"2823657": {
+"orig": "Eu planejo passar o dia com o Tom.",
+"nova": "Eu planejo passar o dia todo com o Tom.",
+"motivo": "faltou 'todo'"
+},
+"2189016": {
+"orig": "Pensava que o Tom estava na cadeia.",
+"nova": "Eu pensava que o Tom ainda estava na cadeia.",
+"motivo": "faltou 'ainda'"
+},
+"350608": {
+"orig": "Ele prefere o interior a cidade.",
+"nova": "Ele prefere o interior à cidade.",
+"motivo": "falta crase"
+},
+"1738632": {
+"orig": "A telefonarei dentro de uma semana.",
+"nova": "Vou ligar para ela dentro de uma semana.",
+"motivo": "regência/forma lusitana"
+},
+"1073655": {
+"orig": "Não se pode retornar.",
+"nova": "Não dá mais para voltar atrás.",
+"motivo": "faltava 'più' (mais)"
+},
+"1800605": {
+"orig": "Estou ouvindo musica.",
+"nova": "Estou ouvindo música.",
+"motivo": "acento"
+},
+"4846980": {
+"orig": "Que deseja a senhora?",
+"nova": "O que vocês desejam?",
+"motivo": "número errado (voi)"
+},
+"1561647": {
+"orig": "Ele foi atropelado pelo carro.",
+"nova": "Ele foi atropelado por um carro.",
+"motivo": "artigo indefinido"
+},
+"715682": {
+"orig": "O ladrão encerrou a criança no armário.",
+"nova": "O ladrão trancou a criança no armário.",
+"motivo": "'encerrou' sentido errado"
+},
+"1564553": {
+"orig": "Gostaria de agendar um voo para o Brasil.",
+"nova": "Gostaria de reservar um voo para o Brasil.",
+"motivo": "prenotare = reservar"
+},
+"9583349": {
+"orig": "Sou ainda iniciante.",
+"nova": "Ainda sou iniciante.",
+"motivo": "ordem não natural"
+},
+"756716": {
+"orig": "Paul está sentando na frente de Jack.",
+"nova": "Paul está sentado na frente de Jack.",
+"motivo": "erro: sentando"
+},
+"6600963": {
+"orig": "Você se lembra do que prometeu?",
+"nova": "Você se lembra do que nos prometeu?",
+"motivo": "faltava 'ci'"
+},
+"1551030": {
+"orig": "Meu nome é Luís.",
+"nova": "Meu nome é Luis.",
+"motivo": "nome próprio alterado"
+},
+"3322059": {
+"orig": "Como sabia que o Tomás iria lá estar?",
+"nova": "Como você sabia que o Tom estaria lá?",
+"motivo": "nome trocado e forma lusitana"
+},
+"3390535": {
+"orig": "Como ele sabia meu nome?",
+"nova": "Como ele soube o meu nome?",
+"motivo": "tempo: ha saputo = soube"
+},
+"2507915": {
+"orig": "Também sentíamos falta desta.",
+"nova": "Só faltava essa!",
+"motivo": "expressão idiomática traduzida literalmente"
+},
+"2562816": {
+"orig": "Eu vou ser o teu pior pesadelo.",
+"nova": "Eu vou ser o seu pior pesadelo.",
+"motivo": "suo ≠ teu"
+},
+"2921070": {
+"orig": "Não quero sanduíches.",
+"nova": "Não quero um sanduíche.",
+"motivo": "número: un sandwich"
+},
+"4241426": {
+"orig": "O Tom começou a estudar francês.",
+"nova": "O Tom começou a aprender francês.",
+"motivo": "imparare = aprender"
+},
+"7672329": {
+"orig": "Queremos reservar uma viagem para a Lituânia.",
+"nova": "Queremos reservar uma viagem para a Estônia.",
+"motivo": "país trocado"
+},
+"6988680": {
+"orig": "Não queríamos ir à Roménia.",
+"nova": "Não queríamos ir à Romênia.",
+"motivo": "grafia lusitana"
+},
+"7569724": {
+"orig": "\"Aonde vocês vão amanhã?\" \"A Inglaterra.\"",
+"nova": "\"Aonde eles vão amanhã?\" \"Para a Inglaterra.\"",
+"motivo": "pessoa (andranno) e preposição"
+},
+"1015718": {
+"orig": "Ele me enganou, por isso estou zangado com ele.",
+"nova": "Ele mentiu para mim, por isso estou zangado com ele.",
+"motivo": "mentire = mentir"
+},
+"2688032": {
+"orig": "Odeio aquela professora.",
+"nova": "Odeio esta professora.",
+"motivo": "questa = esta"
+},
+"14049554": {
+"orig": "O poeta faz poemas.",
+"nova": "O poeta escreve poemas.",
+"motivo": "scrive = escreve"
+},
+"1735302": {
+"orig": "Acho que o ano que vem nos encontraremos.",
+"nova": "Acho que no ano que vem nos encontraremos.",
+"motivo": "faltava preposição"
+},
+"2947098": {
+"orig": "Carne, por favor.",
+"nova": "Carne de boi, por favor.",
+"motivo": "manzo = carne de boi"
+},
+"1447612": {
+"orig": "Falta-me a paciência.",
+"nova": "Me falta paciência.",
+"motivo": "forma pt-BR"
+},
+"380184": {
+"orig": "A família almoçou junta.",
+"nova": "A família jantou junta.",
+"motivo": "cenare = jantar"
+},
+"4489681": {
+"orig": "Eu os matei.",
+"nova": "Eu as matei.",
+"motivo": "gênero (le = feminino)"
+},
+"677722": {
+"orig": "Como prometido, ele tocou piano.",
+"nova": "Como prometido, ela tocou piano.",
+"motivo": "gênero do sujeito (lei)"
+},
+"9594071": {
+"orig": "Dizem que estão ocupados hoje.",
+"nova": "Dizem que estão ocupadas hoje.",
+"motivo": "gênero (occupate)"
+},
+"999391": {
+"orig": "Minha tia criou cinco crianças.",
+"nova": "Minha tia criou cinco filhos.",
+"motivo": "figli = filhos"
+},
+"3262006": {
+"orig": "Vossa tosse me preocupa.",
+"nova": "A tosse de vocês me preocupa.",
+"motivo": "'vossa' não natural em pt-BR"
+},
+"4150043": {
+"orig": "Quanto tempo é preciso para ir ao estádio ?",
+"nova": "Quanto tempo leva para ir ao estádio?",
+"motivo": "espaço antes de ? na tradução"
+},
+"2986102": {
+"orig": "Você acha que algo vai acontecer?",
+"nova": "Vocês acham que algo vai acontecer?",
+"motivo": "número (voi)"
+},
+"1664513": {
+"orig": "Quero aprender hebraico.",
+"nova": "Quero estudar hebraico.",
+"motivo": "studiare = estudar"
+},
+"3103748": {
+"orig": "Você recebeu minhas mensagens?",
+"nova": "Vocês receberam minhas mensagens?",
+"motivo": "número (avete)"
+},
+"2380029": {
+"orig": "Consegues imaginar como seria a nossa vida sem eletricidade?",
+"nova": "Vocês conseguem imaginar como seria a nossa vida sem eletricidade?",
+"motivo": "número e forma lusitana"
+},
+"2511122": {
+"orig": "Ela veste-se com o mesmo tipo de roupa que a irmã dela.",
+"nova": "Ela se veste com o mesmo tipo de roupa que a irmã dela.",
+"motivo": "colocação lusitana"
+},
+"5081116": {
+"orig": "Ele terminará o trabalho amanhã.",
+"nova": "Ele terminará o trabalho até amanhã.",
+"motivo": "faltava 'entro' (até)"
+},
+"14027445": {
+"orig": "O pai dele a chamou.",
+"nova": "O pai dele o chamou.",
+"motivo": "gênero do pronome (lo)"
+},
+"6945337": {
+"orig": "Por favor, não se irrite comigo!",
+"nova": "Por favor, não fiquem zangados comigo!",
+"motivo": "número (siate)"
+},
+"3582322": {
+"orig": "Antônio estava sozinho no escuro.",
+"nova": "Tom estava sozinho no escuro.",
+"motivo": "nome trocado"
+},
+"3313947": {
+"orig": "Vocês não tiveram pesadelos,",
+"nova": "Vocês não tiveram pesadelos.",
+"motivo": "pontuação"
+},
+"3585284": {
+"orig": "Você sabe que sou diferente.",
+"nova": "Vocês sabem que sou diferente.",
+"motivo": "número (sapete)"
+},
+"4176732": {
+"orig": "Fez a sua escolha",
+"nova": "Você fez a sua escolha.",
+"motivo": "pontuação/sujeito"
+},
+"9998485": {
+"orig": "Se conseguirdes, abri essa janela.",
+"nova": "Se vocês puderem, abram aquela janela.",
+"motivo": "vós arcaico"
+},
+"2963087": {
+"orig": "Eu o esperei aqui em casa esta manhã.",
+"nova": "Eu o esperei aqui desde hoje de manhã.",
+"motivo": "sentido errado (da stamattina)"
+},
+"1122316": {
+"orig": "Consegues contar em italiano?",
+"nova": "Você consegue contar em italiano?",
+"motivo": "forma lusitana"
+},
+"6727286": {
+"orig": "Vocês têm nacionalidade islandesa?",
+"nova": "Eles são de nacionalidade islandesa?",
+"motivo": "pessoa (sono = eles)"
+},
+"7838697": {
+"orig": "Ele fala berbere fluentemente.",
+"nova": "Ela fala berbere fluentemente.",
+"motivo": "gênero (lei)"
+},
+"8731435": {
+"orig": "Nós nos inquietamos com o seu futuro.",
+"nova": "Nós nos preocupamos com o seu futuro.",
+"motivo": "tradução pouco natural"
+},
+"14025234": {
+"orig": "Não enterreis a cabeça na areia.",
+"nova": "Não enterre a cabeça na areia.",
+"motivo": "vós arcaico"
+},
+"1738683": {
+"orig": "Não é verdade que ele (a) possui uma pistola ?",
+"nova": "Não é verdade que ele tem uma pistola?",
+"motivo": "espaço antes de ? e '(a)'"
+},
+"3780288": {
+"orig": "Deixe-me lhe mostrar.",
+"nova": "Deixa eu te mostrar.",
+"motivo": "tradução pouco natural"
+},
+"410234": {
+"orig": "Eu sei descascar uma maçã.",
+"nova": "Eu posso descascar uma maçã.",
+"motivo": "posso ≠ sei"
+},
+"1154116": {
+"orig": "Tom estava muito irritado.",
+"nova": "Tom era realmente louco.",
+"motivo": "matto = louco"
+},
+"2221449": {
+"orig": "Não pretendo ferir-te.",
+"nova": "Eu não quero te ofender.",
+"motivo": "forma lusitana/sentido"
+},
+"2221451": {
+"orig": "Não vos quero ofender.",
+"nova": "Eu não quero ofender vocês.",
+"motivo": "vós arcaico"
+},
+"2221453": {
+"orig": "Não vos quero ofender.",
+"nova": "Eu não quero ofender a senhora.",
+"motivo": "pessoa (la = Lei)"
+},
+"3049192": {
+"orig": "Nós conseguimos.",
+"nova": "Nós chegamos.",
+"motivo": "sentido errado"
+},
+"3049999": {
+"orig": "Alguém deixou seu guarda-chuva no salão.",
+"nova": "Alguém deixou o guarda-chuva na sala de estar.",
+"motivo": "soggiorno = sala de estar"
+},
+"3784104": {
+"orig": "Porque estou tão cansada?",
+"nova": "Por que estou tão cansada?",
+"motivo": "ortografia: por que"
+},
+"6988714": {
+"orig": "Não queríamos ir ao Chipre.",
+"nova": "Não queríamos ir a Chipre.",
+"motivo": "Chipre sem artigo"
+},
+"4050658": {
+"orig": "De quanto você ainda precisa?",
+"nova": "Como sentimos a sua falta!",
+"motivo": "sentido errado"
+},
+"2028980": {
+"orig": "Não diga nada à minha namorada!",
+"nova": "Não digam nada para a minha namorada!",
+"motivo": "número (dite)"
+},
+"1548414": {
+"orig": "O meu avô vem de Osaca.",
+"nova": "O meu avô vem de Osaka.",
+"motivo": "nome próprio alterado"
+},
+"1523973": {
+"orig": "Ela é a irmão mais nova do Tom.",
+"nova": "Ela é a irmã mais nova do Tom.",
+"motivo": "gênero: irmão"
+},
+"6770163": {
+"orig": "Vou à Berlim visitar meu amigo.",
+"nova": "Vou a Berlim visitar um amigo.",
+"motivo": "crase indevida e artigo"
+},
+"1076377": {
+"orig": "Ontem, roubaram-me a bicicleta.",
+"nova": "Roubaram a minha bicicleta ontem.",
+"motivo": "forma lusitana"
+},
+"2930223": {
+"orig": "Estou morrendo de vontade de te ver.",
+"nova": "Estou morrendo de vontade de vê-lo.",
+"motivo": "pessoa (lo)"
+},
+"6200940": {
+"orig": "Porque devemos ajudá-la?",
+"nova": "Por que devemos ajudá-la?",
+"motivo": "ortografia: por que"
+},
+"1738701": {
+"orig": "Você gosta de dançar ?",
+"nova": "Você gosta de dançar?",
+"motivo": "espaço antes de ? na tradução"
+},
+"4846981": {
+"orig": "Que deseja a senhora?",
+"nova": "O que vocês desejam?",
+"motivo": "número (desiderate)"
+},
+"5316571": {
+"orig": "Isso é um fake.",
+"nova": "Isto é uma falsificação.",
+"motivo": "anglicismo 'fake'"
+},
+"9583351": {
+"orig": "Sou ainda iniciante.",
+"nova": "Ainda sou iniciante.",
+"motivo": "ordem não natural"
+},
+"647108": {
+"orig": "Creio que já sei o que estás para me dizer.",
+"nova": "Acho que já sei o que você vai me dizer.",
+"motivo": "forma lusitana"
+},
+"3350873": {
+"orig": "Não fales se ninguém te estiver a ouvir.",
+"nova": "Não fale se ninguém estiver te ouvindo.",
+"motivo": "forma lusitana"
+},
+"1049262": {
+"orig": "A minha irmã é muito talentosa para tocar violão.",
+"nova": "A minha irmã toca violão muito bem.",
+"motivo": "tradução pouco natural"
+},
+"717834": {
+"orig": "Meu nome é Luís.",
+"nova": "Meu nome é Luis.",
+"motivo": "nome próprio alterado"
+},
+"2729996": {
+"orig": "Mary não é só um amor, ela é realmente linda.",
+"nova": "Mary não é só bonitinha, ela é uma verdadeira beleza.",
+"motivo": "carina ≠ um amor"
+},
+"14055040": {
+"orig": "Estou triste em te ver ir.",
+"nova": "Sinto muito ver você ir embora.",
+"motivo": "tradução pouco natural"
+},
+"3070969": {
+"orig": "É muito engraçado falar em vários idiomas.",
+"nova": "É tão divertido falar tantas línguas.",
+"motivo": "divertente = divertido"
+},
+"1035862": {
+"orig": "Estiveras alguma vez em Kobe?",
+"nova": "Você já tinha estado em Kobe antes?",
+"motivo": "mais-que-perfeito arcaico"
+},
+"14025236": {
+"orig": "Antes que acabes não te gabes.",
+"nova": "Não conte vitória antes do tempo.",
+"motivo": "provérbio lusitano/arcaico"
+},
+"6988774": {
+"orig": "Não queremos ir à Roménia.",
+"nova": "Não queremos ir à Romênia.",
+"motivo": "grafia lusitana"
+},
+"12512594": {
+"orig": "Mary disse que se sentia nostálgica.",
+"nova": "Mary disse que estava com saudade de casa.",
+"motivo": "sentido (nostalgia di casa)"
+},
+"823597": {
+"orig": "Pergunta se há esse livro na biblioteca, por favor.",
+"nova": "Pergunte se eles têm esse livro na biblioteca, por favor.",
+"motivo": "sentido e forma"
+},
+"8036294": {
+"orig": "Chama a polícia, por favor.",
+"nova": "Chame a polícia, por favor.",
+"motivo": "imperativo formal (Lei)"
+},
+"14075969": {
+"orig": "Todos dizem que fui muito valente, mas só fiz o meu trabalho.",
+"nova": "Todos disseram que fui muito corajoso, mas só fiz o meu trabalho.",
+"motivo": "tempo verbal"
+},
+"3426746": {
+"orig": "Estou feliz de rever-te.",
+"nova": "Estou feliz em revê-la.",
+"motivo": "pessoa (la) e forma lusitana"
+},
+"4203994": {
+"orig": "Maria está perdendo sangue.",
+"nova": "Mary está perdendo sangue.",
+"motivo": "nome trocado"
+},
+"373998": {
+"orig": "Paguei-o na semana passada.",
+"nova": "Eu o paguei na semana passada.",
+"motivo": "colocação lusitana"
+},
+"4484210": {
+"orig": "Se vós vierdes, nós também viremos.",
+"nova": "Se vocês vierem, nós também viremos.",
+"motivo": "vós arcaico"
+},
+"715301": {
+"orig": "Você conhece o homem nesta fotografia?",
+"nova": "Vocês conhecem o homem nesta foto?",
+"motivo": "número (conoscete)"
+},
+"4876821": {
+"orig": "Falas macedónio?",
+"nova": "O senhor fala macedônio?",
+"motivo": "pessoa (Lei) e grafia lusitana"
+},
+"1277469": {
+"orig": "O Tomás saiu para procurar algo para comer.",
+"nova": "O Tom saiu para procurar algo para comer.",
+"motivo": "nome trocado"
+},
+"3125790": {
+"orig": "Não posso imaginar porque Tom faria isso.",
+"nova": "Não consigo imaginar por que Tom faria isso.",
+"motivo": "ortografia: por que"
+},
+"4043224": {
+"orig": "Acha que a gente consegue ajudar Tom?",
+"nova": "Vocês acham que a gente consegue ajudar o Tom?",
+"motivo": "número (pensate)"
+},
+"1689806": {
+"orig": "Ele sempre falava mais alto.",
+"nova": "Ele falava cada vez mais alto.",
+"motivo": "sempre più = cada vez mais"
+},
+"5829725": {
+"orig": "Por favor, fale em francês.",
+"nova": "Por favor, falem em francês.",
+"motivo": "número (parlate)"
+},
+"5142246": {
+"orig": "Conhecia ambos teus pais.",
+"nova": "Eu conhecia ambos os seus pais.",
+"motivo": "faltava artigo"
+},
+"410261": {
+"orig": "Diz-se que o golfe no Japão é realmente popular.",
+"nova": "Dizem que o golfe é muito popular no Japão.",
+"motivo": "forma lusitana"
+},
+"7571868": {
+"orig": "Eu acho que você não vai trabalhar no Brasil.",
+"nova": "Acho que vocês não vão ao Brasil a trabalho.",
+"motivo": "número e sentido"
+},
+"7662103": {
+"orig": "Vocês não foram construir bases militares na Escócia?",
+"nova": "Vocês não vão construir bases militares na Escócia?",
+"motivo": "tempo verbal"
+},
+"8731437": {
+"orig": "Nós nos inquietamos com o seu futuro.",
+"nova": "Nós nos preocupamos com o futuro de vocês.",
+"motivo": "vostro = de vocês"
+},
+"14036511": {
+"orig": "Às vezes a gente cansa de fazer tudo o que o outro manda.",
+"nova": "Às vezes as pessoas se cansam de fazer tudo o que os outros dizem.",
+"motivo": "número/sentido"
+},
+"6988807": {
+"orig": "Não queremos ir ao Chipre.",
+"nova": "Não queremos ir a Chipre.",
+"motivo": "Chipre sem artigo"
+},
+"2681321": {
+"orig": "O homem que viste ontem é meu tio.",
+"nova": "O homem que vocês viram ontem era meu tio.",
+"motivo": "número e tempo"
+},
+"2068144": {
+"orig": "Eu sou doido.",
+"nova": "Eu sou louca.",
+"motivo": "gênero (pazza)"
+},
+"848188": {
+"orig": "Quioto não é tão grande como Osaca.",
+"nova": "Kyoto não é tão grande quanto Osaka.",
+"motivo": "nomes próprios alterados"
+},
+"7047690": {
+"orig": "Nós quase não almoçamos fora.",
+"nova": "Nós quase nunca comemos fora.",
+"motivo": "mangiare = comer"
+},
+"2487375": {
+"orig": "A liberdade é uma nova religião, a religião do nosso tempo.",
+"nova": "A liberdade é uma nova fé, a fé do nosso tempo.",
+"motivo": "fede = fé"
+},
+"5408638": {
+"orig": "Não lhe preocupa o futuro.",
+"nova": "O futuro não o preocupa.",
+"motivo": "tradução pouco natural"
+},
+"1447181": {
+"orig": "\"O que você quer?\" \"Eu quero um cão.\"",
+"nova": "\"O que você gostaria?\" \"Eu gostaria de um cachorro.\"",
+"motivo": "modo condicional"
+},
+"1738703": {
+"orig": "A você agradaria dançar ?",
+"nova": "Você gosta de dançar?",
+"motivo": "sentido errado e espaço antes de ?"
+},
+"2189017": {
+"orig": "Pensava que o Tom estava na cadeia.",
+"nova": "Eu pensava que o Tom ainda estava na cadeia.",
+"motivo": "faltava 'ancora'"
+},
+"388497": {
+"orig": "Quando pode ser dito que uma pessoa tem problemas com álcool?",
+"nova": "Quando se pode dizer que uma pessoa tem problemas com álcool?",
+"motivo": "tradução pouco natural"
+},
+"4846982": {
+"orig": "Que deseja a senhora?",
+"nova": "O que vocês desejam?",
+"motivo": "número (desiderate)"
+},
+"14015263": {
+"orig": "A verdade é que ninguém é totalmente verdadeiro, nem tampouco falso.",
+"nova": "A verdade é que ninguém é completamente verdadeiro, e ninguém é completamente falso.",
+"motivo": "informação a menos"
+},
+"761668": {
+"orig": "Você entende o que ele quis dizer?",
+"nova": "Vocês entenderam o que ele quis dizer?",
+"motivo": "número e tempo"
+},
+"1033885": {
+"orig": "Nos vemos esta tarde! Até logo!",
+"nova": "Nos vemos hoje à noite! Até mais tarde!",
+"motivo": "stasera = hoje à noite"
+},
+"7672308": {
+"orig": "Nós queremos reservar uma viagem para o Chipre.",
+"nova": "Nós queremos reservar uma viagem para Chipre.",
+"motivo": "Chipre sem artigo"
+},
+"2414593": {
+"orig": "Onde vocês dormiram ontem à noite?",
+"nova": "Onde você dormiu ontem à noite?",
+"motivo": "hai = singular"
+},
+"4176825": {
+"orig": "A maçã não está ainda completamente madura",
+"nova": "A maçã ainda não está completamente madura.",
+"motivo": "pontuação/ordem"
+},
+"7047692": {
+"orig": "Nós quase não almoçamos fora.",
+"nova": "Nós quase nunca comemos fora.",
+"motivo": "mangiare = comer, quasi mai"
+},
+"3595272": {
+"orig": "Espero vê-la de novo.",
+"nova": "Espero ver vocês de novo.",
+"motivo": "rivedervi = plural"
+},
+"4958161": {
+"orig": "Escuta-me, Tom.",
+"nova": "Me escuta, Tom.",
+"motivo": "pt-BR"
+},
+"5184190": {
+"orig": "Vou dar-lhe uma mão.",
+"nova": "Vou te dar uma mão.",
+"motivo": "pessoa/pt-BR"
+},
+"5293801": {
+"orig": "Faça-o amanhã!",
+"nova": "Faça isso amanhã.",
+"motivo": "pontuação"
+},
+"6928289": {
+"orig": "Espero vê-la de novo.",
+"nova": "Espero que a gente se veja de novo.",
+"motivo": "sentido"
+},
+"3166473": {
+"orig": "Eu posso fazer acontecer.",
+"nova": "Eu posso fazer isso acontecer.",
+"motivo": "objeto 'la' omitido"
+},
+"1140655": {
+"orig": "Tomei o dinheiro sob empréstimo.",
+"nova": "Peguei o dinheiro emprestado.",
+"motivo": "tradução artificial"
+},
+"3349600": {
+"orig": "Nós aprendemos a voar como pássaros e a nadar como peixes, mas nos esquecemos como viver como humanos.",
+"nova": "Nós aprendemos a voar como os pássaros e a nadar como os peixes, mas nos esquecemos de como viver como seres humanos.",
+"motivo": "regência"
+},
+"5479322": {
+"orig": "Tom veste hoje uma camisa preta.",
+"nova": "Tom está de camisa preta hoje.",
+"motivo": "tradução artificial"
+},
+"3616432": {
+"orig": "Antes de entender por que isso aconteceu, precisamos entender como aconteceu.",
+"nova": "Antes de ver por que isso acontece, precisamos ver como acontece.",
+"motivo": "tempo verbal/sentido"
+},
+"612153": {
+"orig": "É o computador no qual ele escreveu seu artigo.",
+"nova": "Esse é o computador com o qual ele escreve seus artigos.",
+"motivo": "tempo e número"
+},
+"3665284": {
+"orig": "A democracia foi originada na Grécia Antiga.",
+"nova": "A democracia tem origem na Grécia Antiga.",
+"motivo": "tradução"
+},
+"3815463": {
+"orig": "Tom não mora na minha rua.",
+"nova": "Tom não mora no meu bairro.",
+"motivo": "quartiere = bairro"
+},
+"4484131": {
+"orig": "Olhem! Uma barata voadora!",
+"nova": "Olhe! Uma barata voadora!",
+"motivo": "guardi = singular"
+},
+"5901572": {
+"orig": "Layla está grávida e acredita saber quem é o pai.",
+"nova": "Layla está grávida e adivinha quem é o pai!",
+"motivo": "sentido errado"
+},
+"2090737": {
+"orig": "Não se preocupe. O Tom vai ficar bem.",
+"nova": "Não se preocupem. O Tom vai ficar bem.",
+"motivo": "plural"
+},
+"609054": {
+"orig": "Minha mala foi roubada.",
+"nova": "Minha bolsa foi roubada.",
+"motivo": "borsa = bolsa"
+},
+"4107505": {
+"orig": "Ele não farinha do saco de vocês.",
+"nova": "Isso não é obra de vocês.",
+"motivo": "expressão idiomática mal traduzida"
+},
+"715315": {
+"orig": "Ela volta para casa no fim do mês.",
+"nova": "Ela volta para casa no fim deste mês.",
+"motivo": "faltou 'deste'"
+},
+"726429": {
+"orig": "Podes me ajudar a lavar estes pratos?",
+"nova": "Você poderia me ajudar a lavar estes pratos?",
+"motivo": "condicional/pessoa"
+},
+"2941889": {
+"orig": "Tu tens um fósforo?",
+"nova": "O senhor tem um fósforo?",
+"motivo": "Lei = tratamento formal"
+},
+"7952443": {
+"orig": "Cada religião deseja a paz. Quem quer a guerra são as outras.",
+"nova": "Todas as religiões querem a paz. Quem quer a guerra são os outros.",
+"motivo": "gli altri = os outros"
+},
+"860668": {
+"orig": "Eles são tão bons quanto ouro.",
+"nova": "Elas são umas pessoas de ouro.",
+"motivo": "expressão idiomática/gênero"
+},
+"1003881": {
+"orig": "Como pode ter um campanário sem morcegos?",
+"nova": "Como você pode ter um campanário sem morcegos?",
+"motivo": "sujeito"
+},
+"1100026": {
+"orig": "Ela se olhou ao espelho.",
+"nova": "Ela se olhou no espelho.",
+"motivo": "pt-BR"
+},
+"1509512": {
+"orig": "Ele não deveria ter beijado sua mão.",
+"nova": "Ele errou ao beijar a mão.",
+"motivo": "informação a mais"
+},
+"1269427": {
+"orig": "Tom e Maria entendem-se perfeitamente.",
+"nova": "Tom e Mary se entendem perfeitamente.",
+"motivo": "nome próprio/pt-BR"
+},
+"1865744": {
+"orig": "Eu tenho alguns livros para estudar inglês.",
+"nova": "Eu tenho alguns livros em inglês.",
+"motivo": "informação a mais"
+},
+"1299433": {
+"orig": "Não toque o vidro.",
+"nova": "Não toque no vidro.",
+"motivo": "regência pt-BR"
+},
+"14049557": {
+"orig": "Sua posição o capacitou a fazer isso.",
+"nova": "A posição dele lhe permitiu fazer isso.",
+"motivo": "tradução artificial"
+},
+"1697808": {
+"orig": "João tocava violão e seu amigo cantava.",
+"nova": "John tocava violão e o amigo dele cantava.",
+"motivo": "nome próprio trocado"
+},
+"1738770": {
+"orig": "Ele (a) terá com certeza sucesso no novo trabalho.",
+"nova": "Ele com certeza vai ter sucesso no novo trabalho.",
+"motivo": "tradução malformada"
+},
+"1838816": {
+"orig": "Tenho que falar com você.",
+"nova": "Tenho que falar com vocês.",
+"motivo": "parlarvi = plural"
+},
+"1872540": {
+"orig": "O ar está húmido.",
+"nova": "O ar está úmido.",
+"motivo": "ortografia pt-BR"
+},
+"1946337": {
+"orig": "João não sabe que Maria é sua filha.",
+"nova": "Juan não sabe que Maria é filha dele.",
+"motivo": "nome próprio trocado"
+},
+"2017601": {
+"orig": "Você é irritante.",
+"nova": "Vocês são irritantes.",
+"motivo": "siete = plural"
+},
+"2279968": {
+"orig": "Quão longe está indo?",
+"nova": "Até onde ele vai?",
+"motivo": "tempo verbal"
+},
+"1101800": {
+"orig": "O que contaste foi uma mentira.",
+"nova": "Você contou uma mentira.",
+"motivo": "pt-BR/estrutura"
+},
+"2452913": {
+"orig": "Diga-lhe que eu estou tomando banho.",
+"nova": "Diga a ela que estou tomando banho.",
+"motivo": "pt-BR"
+},
+"2478258": {
+"orig": "Eu tive de voltar para Boston.",
+"nova": "Eu tinha que voltar para Boston.",
+"motivo": "tempo verbal"
+},
+"2863370": {
+"orig": "Tem ainda o meu garçom?",
+"nova": "O meu garçom ainda está aqui?",
+"motivo": "tradução artificial"
+},
+"2941637": {
+"orig": "Eu conseguirei a minha vingança.",
+"nova": "Eu terei a minha vingança.",
+"motivo": "tradução pouco natural"
+},
+"3441889": {
+"orig": "Mais uma vez, queira desculpar!",
+"nova": "Desculpem mais uma vez!",
+"motivo": "scusate = plural"
+},
+"3239430": {
+"orig": "Tenha pelo menos a decência de pedir desculpa.",
+"nova": "Tenham pelo menos a decência de pedir desculpa.",
+"motivo": "abbiate = plural"
+},
+"3262317": {
+"orig": "Não suportei este vinho.",
+"nova": "Eu não suportava este vinho.",
+"motivo": "tempo verbal"
+},
+"3363096": {
+"orig": "Eu adoro o cabelo da Laura.",
+"nova": "Eu adoro o cabelo da Laurie.",
+"motivo": "nome próprio trocado"
+},
+"7841185": {
+"orig": "Seja gentil com sua mãe.",
+"nova": "Sejam gentis com a mãe de vocês.",
+"motivo": "siate = plural"
+},
+"3405675": {
+"orig": "O que há atrás do muro?",
+"nova": "O que há atrás da parede?",
+"motivo": "parete = parede"
+},
+"3499747": {
+"orig": "Maria colocou açúcar no seu café.",
+"nova": "Marie colocou açúcar no café dela.",
+"motivo": "nome próprio trocado"
+},
+"3529966": {
+"orig": "Eles falam com um sotaque caracteristicamente setentrional.",
+"nova": "Eles falam com um sotaque tipicamente setentrional.",
+"motivo": "tradução artificial"
+},
+"3766603": {
+"orig": "Tens um mosquito em teu antebraço direito.",
+"nova": "Você tem um mosquito no antebraço direito.",
+"motivo": "pt-BR"
+},
+"3772493": {
+"orig": "Não queres ver de novo o Tomás?",
+"nova": "Você não quer ver o Tom de novo?",
+"motivo": "nome próprio trocado/pt-BR"
+},
+"3831766": {
+"orig": "Elas aceitaram o presente.",
+"nova": "Eles aceitam os presentes.",
+"motivo": "tempo e número"
+},
+"4080800": {
+"orig": "Ele benzeu-se.",
+"nova": "Ele fez o sinal da cruz.",
+"motivo": "pt-BR/fidelidade"
+},
+"3947082": {
+"orig": "Liga-me amanhã.",
+"nova": "Me liga amanhã.",
+"motivo": "pt-BR"
+},
+"6707644": {
+"orig": "Eu sabia que aquilo era errado, mas o fiz mesmo assim.",
+"nova": "Eu sei que é errado, mas fiz mesmo assim.",
+"motivo": "tempo verbal"
+},
+"4561967": {
+"orig": "Bem está o que bem acaba.",
+"nova": "Tudo está bem quando termina bem.",
+"motivo": "pt-BR"
+},
+"4637267": {
+"orig": "Eles caçaram raposas.",
+"nova": "Eles caçavam raposas.",
+"motivo": "tempo verbal"
+},
+"4955000": {
+"orig": "Fomos testemunhas da acidente.",
+"nova": "Éramos testemunhas do acidente.",
+"motivo": "gramática"
+},
+"5209666": {
+"orig": "É melhor você dormir.",
+"nova": "É melhor vocês dormirem.",
+"motivo": "voi = plural"
+},
+"5629826": {
+"orig": "Estou ansioso para ver o vosso pai.",
+"nova": "Estou ansioso para ver o pai de vocês.",
+"motivo": "pt-BR"
+},
+"5796571": {
+"orig": "Diga a ela, senhor, que se apronte.",
+"nova": "Diga a ela que se apronte.",
+"motivo": "informação a mais"
+},
+"6179259": {
+"orig": "Porque devo ajudá-lo?",
+"nova": "Por que devo ajudá-lo?",
+"motivo": "ortografia (por que)"
+},
+"6880531": {
+"orig": "Vocês se divertiram com seus amigos?",
+"nova": "Você se divertiu com seus amigos?",
+"motivo": "singular"
+},
+"6945754": {
+"orig": "Ele não é o Iván o Terrível.",
+"nova": "Ele não é Ivan, o Terrível.",
+"motivo": "nome/pontuação"
+},
+"7047631": {
+"orig": "O avião começou a aterrizar.",
+"nova": "O avião começou a aterrissar.",
+"motivo": "pt-BR"
+},
+"7672289": {
+"orig": "Nós queremos reservar uma viagem para a Eslováquia.",
+"nova": "Eu quero reservar uma viagem para a Eslováquia.",
+"motivo": "voglio = eu"
+},
+"7672290": {
+"orig": "Nós queremos reservar uma viagem para a Eslovênia.",
+"nova": "Eu quero reservar uma viagem para a Eslovênia.",
+"motivo": "voglio = eu"
+},
+"9703287": {
+"orig": "A rádio foi uma grande invenção.",
+"nova": "O rádio foi uma grande invenção.",
+"motivo": "gênero (o rádio)"
+},
+"1607575": {
+"orig": "O meu avô morreu de uma enfermidade à idade de oitenta anos.",
+"nova": "O meu avô morreu de doença aos oitenta anos.",
+"motivo": "tradução artificial"
+},
+"946698": {
+"orig": "Põe-te em meu lugar.",
+"nova": "Coloque-se no meu lugar.",
+"motivo": "tratamento formal/pt-BR"
+},
+"14083163": {
+"orig": "Mostra-me o teu carro.",
+"nova": "Me mostra o seu carro.",
+"motivo": "pt-BR"
+},
+"2559959": {
+"orig": "Sou indefeso.",
+"nova": "Estou indefeso.",
+"motivo": "estar/ser"
+},
+"1153060": {
+"orig": "Ela é velha.",
+"nova": "Ela é idosa.",
+"motivo": "anziana = idosa"
+},
+"1738639": {
+"orig": "Você virá a minha festa ?",
+"nova": "Você vai vir à minha festa?",
+"motivo": "crase/pontuação"
+},
+"1738815": {
+"orig": "Eles não tem razão de existir.",
+"nova": "Eles não têm razão de existir.",
+"motivo": "acentuação"
+},
+"2448620": {
+"orig": "Ela gostava da vida a bordo.",
+"nova": "Ela gostou da vida a bordo.",
+"motivo": "tempo verbal"
+},
+"380207": {
+"orig": "Eu amo lasanha.",
+"nova": "Eu gosto de lasanha.",
+"motivo": "piacere = gostar"
+},
+"380208": {
+"orig": "Eu amo rock.",
+"nova": "Eu gosto de rock.",
+"motivo": "piacere = gostar"
+},
+"1562353": {
+"orig": "Mataste a minha mãe.",
+"nova": "Você matou a minha mãe.",
+"motivo": "pt-BR"
+},
+"4586": {
+"orig": "Foi para a Bahia, perdeu a bacia.",
+"nova": "Quem vai pro mar perde o lugar.",
+"motivo": "provérbio equivalente pt-BR"
+},
+"425510": {
+"orig": "Parou de nevar tem uma hora.",
+"nova": "Parou de nevar há uma hora.",
+"motivo": "gramática"
+},
+"1193561": {
+"orig": "Que faria eu sem ti?",
+"nova": "O que eu faria sem você?",
+"motivo": "pt-BR"
+},
+"1515000": {
+"orig": "Tu deves andar depressa.",
+"nova": "Você precisa se apressar.",
+"motivo": "pt-BR"
+},
+"1758302": {
+"orig": "Não façamos mais isso.",
+"nova": "Não vamos fazer isso ainda.",
+"motivo": "sentido errado"
+},
+"2191598": {
+"orig": "São tolos.",
+"nova": "São loucos.",
+"motivo": "folli = loucos"
+},
+"2930161": {
+"orig": "Tira os olhos.",
+"nova": "Aproveitem a vista.",
+"motivo": "sentido errado"
+},
+"3168772": {
+"orig": "Votem, por favor.",
+"nova": "Votem neles, hein!",
+"motivo": "objeto omitido"
+},
+"3486863": {
+"orig": "Eu vou te proteger.",
+"nova": "Eu vou proteger vocês!",
+"motivo": "vi = plural"
+},
+"3629169": {
+"orig": "Onde é a cafeteria?",
+"nova": "Onde fica o refeitório?",
+"motivo": "mensa = refeitório"
+},
+"4503292": {
+"orig": "Bem-vindos à Boston, pessoal!",
+"nova": "Bem-vindos a Boston, pessoal!",
+"motivo": "crase"
+},
+"4721177": {
+"orig": "Tom assistiu a reunião de segunda.",
+"nova": "Tom participou da reunião de segunda.",
+"motivo": "regência/sentido"
+},
+"5708964": {
+"orig": "Devemos ajudá-los.",
+"nova": "Devemos ajudá-las.",
+"motivo": "gênero"
+},
+"6469563": {
+"orig": "A melhor maneira de aprender Francês é residir num país de língua francesa.",
+"nova": "A melhor maneira de aprender francês é morar num país de língua francesa.",
+"motivo": "maiúscula indevida"
+},
+"6843127": {
+"orig": "Não há nada a fazer.",
+"nova": "Diga adeus a ele.",
+"motivo": "sentido errado"
+},
+"8308645": {
+"orig": "Não estou me mudando para Boston.",
+"nova": "Não vou me mudar para Boston.",
+"motivo": "tempo verbal"
+},
+"8436669": {
+"orig": "Aprendam o Francês.",
+"nova": "Aprendam francês.",
+"motivo": "maiúscula indevida"
+},
+"14049580": {
+"orig": "Meu gato está se escondendo debaixo do fogão.",
+"nova": "Meu gato está se escondendo debaixo do aquecedor.",
+"motivo": "stufa = aquecedor"
+},
+"4402": {
+"orig": "A matemática é como o amor: uma ideia simples, mas que pode se tornar bem complicada.",
+"nova": "A matemática é como o amor: uma ideia simples, mas que pode se tornar complicada.",
+"motivo": "informação a mais"
+},
+"374559": {
+"orig": "Não sei nem ler e nem falar francês.",
+"nova": "Não consigo nem ler nem falar francês.",
+"motivo": "gramática"
+},
+"379608": {
+"orig": "Este traje de banho é feito de material elástico.",
+"nova": "Esta roupa de banho é feita de material elástico.",
+"motivo": "pt-BR"
+},
+"393847": {
+"orig": "O apetite vem durante o comer.",
+"nova": "O apetite vem comendo.",
+"motivo": "provérbio pt-BR"
+},
+"430326": {
+"orig": "João tocava violão e seus amigos cantavam.",
+"nova": "John tocava violão e os amigos dele cantavam.",
+"motivo": "nome próprio trocado"
+},
+"628586": {
+"orig": "Júlia dá um beijo em sua filha.",
+"nova": "Iulia dá um beijo na filha.",
+"motivo": "nome próprio trocado"
+},
+"2042326": {
+"orig": "O rapaz negou ter um caso extraconjugal.",
+"nova": "O rapaz nega ter um caso extraconjugal.",
+"motivo": "tempo verbal"
+},
+"2045568": {
+"orig": "\"Amanda está grávida.\" \"Será homem ou mulher?\"",
+"nova": "Amanda está grávida. Será menino ou menina?",
+"motivo": "sentido/pontuação"
+},
+"3047467": {
+"orig": "\"O que vai cozinhar para nós?\" _ \"Vou preparar peixe para vocês.\"",
+"nova": "\"O que você vai cozinhar para nós?\" — \"Vou cozinhar peixe para vocês.\"",
+"motivo": "separador errado"
+},
+"3054169": {
+"orig": "Os assuntos que temos discutido são complexos.",
+"nova": "Os temas que discutimos são complexos.",
+"motivo": "tempo verbal"
+},
+"3338390": {
+"orig": "Ninguém sugira nada, por favor.",
+"nova": "Por favor, ninguém sopre as respostas.",
+"motivo": "sentido de suggerire (escola)"
+},
+"3338437": {
+"orig": "Espero que não desçam correndo as escadas.",
+"nova": "Por favor, não corram nas escadas.",
+"motivo": "acréscimo 'desçam'"
+},
+"3338440": {
+"orig": "Parem com essa balbúrdia, por favor.",
+"nova": "Por favor, não façam bagunça.",
+"motivo": "sentido alterado"
+},
+"3338443": {
+"orig": "Espero que não saiam gritando pelos corredores.",
+"nova": "Por favor, não gritem nos corredores.",
+"motivo": "acréscimo 'saiam'"
+},
+"3340918": {
+"orig": "Espero que mantenhas as massas na geladeira.",
+"nova": "Por favor, guarde os doces na geladeira.",
+"motivo": "pessoa (Lei) e sentido de paste"
+},
+"3340952": {
+"orig": "Espero que te lembres de que sou alérgico a nozes.",
+"nova": "Por favor, lembre-se de que sou alérgico a nozes.",
+"motivo": "pessoa (Lei)"
+},
+"3341975": {
+"orig": "Dê-me um sorvete de morango, por favor.",
+"nova": "Me dê um sorvete de morango, por favor.",
+"motivo": "forma PT-BR"
+},
+"3358548": {
+"orig": "Este bispo não pode estar em casa preta.",
+"nova": "Este bispo não pode ficar na casa preta.",
+"motivo": "tradução pouco natural"
+},
+"4966768": {
+"orig": "Ele borrou a camisa com pingos de tinta.",
+"nova": "Ele sujou a camisa com manchas de tinta.",
+"motivo": "sentido"
+},
+"5873700": {
+"orig": "Dois metros custam quatro e meio francos.",
+"nova": "Dois metros custam quatro francos e meio.",
+"motivo": "ordem errada"
+},
+"6156336": {
+"orig": "O neurónio é a unidade celular que constitui o tecido nervoso e contribui para a formação do sistema nervoso.",
+"nova": "O neurônio é a unidade celular que constitui o tecido nervoso e contribui para a formação do sistema nervoso.",
+"motivo": "grafia PT-PT"
+},
+"6156340": {
+"orig": "A parte central do neurónio chama-se soma.",
+"nova": "A parte central do neurônio se chama soma.",
+"motivo": "PT-PT"
+},
+"4476": {
+"orig": "Eu não gosto de estudar verbos irregulares.",
+"nova": "Eu não gosto de aprender verbos irregulares.",
+"motivo": "imparare = aprender"
+},
+"4610": {
+"orig": "A parede tem ouvidos.",
+"nova": "As paredes têm ouvidos.",
+"motivo": "número"
+},
+"387807": {
+"orig": "Mas a primeira coisa que dizemos é \"olá\".",
+"nova": "Mas a primeira coisa que dizemos é \"bom dia\".",
+"motivo": "buongiorno = bom dia"
+},
+"388065": {
+"orig": "Meus níveis de colesterol estão altos.",
+"nova": "Meu nível de colesterol está alto.",
+"motivo": "número"
+},
+"401645": {
+"orig": "A gravidade é a força natural pela qual objetos atraem uns aos outros.",
+"nova": "A gravidade é a força natural pela qual os objetos se atraem.",
+"motivo": "gramática"
+},
+"401916": {
+"orig": "Esta noite divertimo-nos a desenhar em conjunto a nossa árvore genealógica.",
+"nova": "Hoje à noite nos divertimos desenhando juntos a nossa árvore genealógica.",
+"motivo": "PT-PT"
+},
+"410121": {
+"orig": "Os elevadores em arranha céus são sistemas vitais.",
+"nova": "Os elevadores de um arranha-céu são sistemas vitais.",
+"motivo": "ortografia/número"
+},
+"527172": {
+"orig": "Todos os museus da minha cidade encontram-se no centro.",
+"nova": "Todos os museus da minha cidade ficam no centro.",
+"motivo": "PT-BR natural"
+},
+"621917": {
+"orig": "Este é o livro que procuras.",
+"nova": "Este é o livro que você procura.",
+"motivo": "PT-BR natural"
+},
+"666531": {
+"orig": "Onde é a estação de comboio mais próxima?",
+"nova": "Onde fica a estação de trem mais próxima?",
+"motivo": "PT-PT comboio"
+},
+"716317": {
+"orig": "A gente da cidade é atraída pela vida no campo.",
+"nova": "As pessoas nas cidades são atraídas pela vida no campo.",
+"motivo": "ambiguidade 'a gente'"
+},
+"718808": {
+"orig": "Devíamos agir rápido.",
+"nova": "Precisamos agir rápido.",
+"motivo": "tempo verbal"
+},
+"724463": {
+"orig": "Os homens estão a almoçar.",
+"nova": "Os homens estão almoçando.",
+"motivo": "PT-PT"
+},
+"755325": {
+"orig": "Judy passa muito tempo olhando-se ao espelho.",
+"nova": "Judy passa muito tempo se olhando no espelho.",
+"motivo": "PT-PT"
+},
+"834719": {
+"orig": "Sidney fica longe daqui.",
+"nova": "Sydney fica longe daqui.",
+"motivo": "nome próprio"
+},
+"864375": {
+"orig": "O conceito de Deus é uma fantasia criada a fim de atenuar nossa ignorância em relação a nossa própria existência.",
+"nova": "O conceito de Deus é uma fantasia criada a fim de atenuar nossa ignorância em relação à nossa própria existência.",
+"motivo": "crase"
+},
+"925313": {
+"orig": "Os gêmeos se parecem.",
+"nova": "Os gêmeos realmente se parecem.",
+"motivo": "falta 'davvero'"
+},
+"996478": {
+"orig": "Aquele balão é perfeitamente esférico.",
+"nova": "Aquela bola é perfeitamente redonda.",
+"motivo": "pallone = bola"
+},
+"999987": {
+"orig": "A energia solar não ameaça o meio.",
+"nova": "A energia solar não ameaça o meio ambiente.",
+"motivo": "incompleto"
+},
+"1015405": {
+"orig": "Descasque as maçãs e corte-as pela metade, removendo os caroços.",
+"nova": "Descasquem as maçãs e cortem-nas ao meio, tirando o miolo.",
+"motivo": "pessoa e torsolo = miolo"
+},
+"1015484": {
+"orig": "Ouça bem o que eu digo.",
+"nova": "Ouçam bem o que eu digo.",
+"motivo": "pessoa (voi)"
+},
+"1082619": {
+"orig": "A porta estava fechada.",
+"nova": "A porta estava travada.",
+"motivo": "bloccata = travada"
+},
+"1089224": {
+"orig": "Se estiver livre, venha até mim! Partiremos juntos.",
+"nova": "Se você estiver livre, venha me ver; vamos sair juntos.",
+"motivo": "sentido (uscire)"
+},
+"1110017": {
+"orig": "Estou pedindo, leiam-no!",
+"nova": "Por favor, leiam isso!",
+"motivo": "tradução pouco natural"
+},
+"1192906": {
+"orig": "Espero que não deixes de vir da próxima vez.",
+"nova": "Por favor, não deixe de vir da próxima vez!",
+"motivo": "PT-BR"
+},
+"1209031": {
+"orig": "Espero que façam bonito.",
+"nova": "Por favor, comportem-se.",
+"motivo": "sentido errado"
+},
+"1217196": {
+"orig": "Estou envergonhado.",
+"nova": "Estou envergonhada.",
+"motivo": "gênero"
+},
+"1221192": {
+"orig": "Vocês costumam comer mais de cinco fatias de pizza ao mês?",
+"nova": "Vocês costumam comer mais de cinco fatias de pizza por mês?",
+"motivo": "PT-BR"
+},
+"1233825": {
+"orig": "Ela é a embaixatriz de França em Portugal.",
+"nova": "Ela é a embaixadora francesa em Portugal.",
+"motivo": "embaixatriz/PT-PT"
+},
+"1246005": {
+"orig": "Tom extraiu um dente na semana passada.",
+"nova": "Tom tirou um dente na semana passada.",
+"motivo": "sentido (si è fatto togliere)"
+},
+"1260421": {
+"orig": "Muito obrigado por ter me avisado.",
+"nova": "Muito obrigada por ter me avisado!",
+"motivo": "gênero (avvisata)"
+},
+"1265959": {
+"orig": "Eu vi Tom beijar Maria.",
+"nova": "Eu vi Tom beijar Mary.",
+"motivo": "nome próprio"
+},
+"1273868": {
+"orig": "Eu registrei tudo!",
+"nova": "Eu gravei tudo!",
+"motivo": "registrare = gravar"
+},
+"1286748": {
+"orig": "Marco disse que nossos primos chegaram.",
+"nova": "Marco disse que nossos primos estavam chegando.",
+"motivo": "tempo verbal"
+},
+"1300663": {
+"orig": "É celibatário.",
+"nova": "Ele é solteiro.",
+"motivo": "celibe = solteiro"
+},
+"1343627": {
+"orig": "A crise serve para aumentar os lucros, as especulações e os interesses das grandes potências econômicas e financeiras.",
+"nova": "A crise serve para aumentar os lucros, as especulações e os interesses dos grandes grupos de poder econômico e financeiro.",
+"motivo": "potentati ≠ potências"
+},
+"1390150": {
+"orig": "Ela tem uma doença cardíaca.",
+"nova": "Ela tem um problema cardíaco.",
+"motivo": "sentido"
+},
+"1397475": {
+"orig": "Ainda resta-nos muita comida.",
+"nova": "Ainda nos resta muita comida.",
+"motivo": "colocação pronominal"
+},
+"1431327": {
+"orig": "Pelo menos finja.",
+"nova": "Pelo menos finjam.",
+"motivo": "pessoa (voi)"
+},
+"1439418": {
+"orig": "A fantasia está pronta!",
+"nova": "A fantasia de Carnaval está pronta!",
+"motivo": "informação a menos"
+},
+"1447056": {
+"orig": "Reconheceste teu velho colega de sala?",
+"nova": "Vocês reconheceram o seu velho colega de classe?",
+"motivo": "pessoa (voi)"
+},
+"1504780": {
+"orig": "As críticas não resolvem a crise.",
+"nova": "As críticas não resolvem as crises.",
+"motivo": "número"
+},
+"1508070": {
+"orig": "Em uma situação de crise, episódios como este podem ocorrer.",
+"nova": "Em uma situação de crise, episódios como estes podem ocorrer.",
+"motivo": "número"
+},
+"1536518": {
+"orig": "Esta formiga é a rainha; não vês que tem asas?",
+"nova": "Esta formiga é a rainha; você não vê que ela tem asas?",
+"motivo": "PT-BR"
+},
+"1610344": {
+"orig": "Ele se orgulha se que sua mulher seja uma boa cozinheira.",
+"nova": "Ele se orgulha de que sua mulher seja uma boa cozinheira.",
+"motivo": "erro de digitação"
+},
+"1636955": {
+"orig": "Me dá a bola!",
+"nova": "Me deem a bola!",
+"motivo": "pessoa (voi)"
+},
+"1646155": {
+"orig": "Sempre brigando por dinheiro.",
+"nova": "Eles sempre brigam por dinheiro.",
+"motivo": "sujeito/verbo ausente"
+},
+"1646284": {
+"orig": "Não posso detestá-la.",
+"nova": "Não posso te odiar.",
+"motivo": "sentido/gênero"
+},
+"1668660": {
+"orig": "João gosta de trocar selos com as amigas dele.",
+"nova": "John gosta de trocar selos com as amigas dele.",
+"motivo": "nome próprio"
+},
+"1669375": {
+"orig": "Naquele momento o meu navegador funcionou.",
+"nova": "Então o meu GPS funcionou.",
+"motivo": "sentido (allora, navigatore)"
+},
+"1677878": {
+"orig": "Odiei-te, odeio-te e odiar-te-ei.",
+"nova": "Eu te odiei, te odeio e vou te odiar.",
+"motivo": "PT-PT"
+},
+"1679067": {
+"orig": "Você já sofreu de tuberculose pulmonar, de asma bronquial ou de bronquite crônica?",
+"nova": "Vocês já sofreram de tuberculose pulmonar, asma brônquica ou bronquite crônica?",
+"motivo": "pessoa (voi)"
+},
+"1679218": {
+"orig": "Há buracos no teto.",
+"nova": "Há buracos no telhado.",
+"motivo": "tetto = telhado"
+},
+"1689009": {
+"orig": "Tom acredita que Maria é inocente.",
+"nova": "Tom acredita que Mary é inocente.",
+"motivo": "nome próprio"
+},
+"1710494": {
+"orig": "Emprestamos dicionários de alemão de Pfirsichbaeumchen.",
+"nova": "Pegamos dicionários de alemão emprestados com Pfirsichbaeumchen.",
+"motivo": "sentido (prendere in prestito)"
+},
+"1712974": {
+"orig": "O massacre dos prisioneiros era ato um bárbaro.",
+"nova": "O massacre dos prisioneiros foi um ato bárbaro.",
+"motivo": "erro de digitação"
+},
+"1719099": {
+"orig": "Você já cumprimentou Pfirsichbäumchen em alemão?",
+"nova": "Vocês já cumprimentaram Pfirsichbäumchen em alemão?",
+"motivo": "pessoa (voi)"
+},
+"1738273": {
+"orig": "Continuas a cuspir no prato em que comeste.",
+"nova": "Você continua cuspindo no prato em que comeu.",
+"motivo": "PT-PT"
+},
+"1802866": {
+"orig": "Ó irmãzinha, por que não me dizes nada?",
+"nova": "Ah, irmãzinha, por que você não me diz nada?",
+"motivo": "PT-BR"
+},
+"1828153": {
+"orig": "Rafaela é um nome italiano.",
+"nova": "Raffaella é um nome italiano.",
+"motivo": "nome próprio"
+},
+"2022724": {
+"orig": "Lavaram meus sapatos.",
+"nova": "Meus sapatos ficaram molhados.",
+"motivo": "sentido errado"
+},
+"2051794": {
+"orig": "Não usem o google tradutor para aprender frases em uma outra língua, porque nem sempre a tradução é precisa.",
+"nova": "Não usem o Google Tradutor para aprender frases em outra língua, porque ele nem sempre é preciso.",
+"motivo": "nome próprio/maiúscula"
+},
+"2065300": {
+"orig": "Você não os reconhece?",
+"nova": "Você não as reconhece?",
+"motivo": "gênero (le)"
+},
+"2174380": {
+"orig": "Pensei que teriam orgulho de mim.",
+"nova": "Pensei que vocês estivessem orgulhosas de mim.",
+"motivo": "tempo/modo e gênero"
+},
+"2178356": {
+"orig": "Importas-te de passar-me o martelo?",
+"nova": "Vocês se importam de me passar o martelo?",
+"motivo": "PT-PT e pessoa (voi)"
+},
+"2233971": {
+"orig": "Vocês devem aprender a cozinhar.",
+"nova": "Vocês terão que aprender a cozinhar.",
+"motivo": "tempo verbal"
+},
+"2268809": {
+"orig": "Isso é um fake.",
+"nova": "É uma imitação.",
+"motivo": "registro"
+},
+"2283584": {
+"orig": "Nós fomos atacados por zumbis.",
+"nova": "Estávamos sendo atacados por zumbis.",
+"motivo": "tempo verbal"
+},
+"2352042": {
+"orig": "As luzes se extinguiram.",
+"nova": "As luzes se apagaram.",
+"motivo": "tradução pouco natural"
+},
+"2368557": {
+"orig": "Manda-o para dentro.",
+"nova": "Mandem-no para dentro.",
+"motivo": "pessoa (voi)"
+},
+"2448424": {
+"orig": "É um assassino em série.",
+"nova": "É uma assassina em série.",
+"motivo": "gênero"
+},
+"2459060": {
+"orig": "Não me subestimes.",
+"nova": "Não me subestime.",
+"motivo": "pessoa (Lei)"
+},
+"2486483": {
+"orig": "A legislação foi modificada.",
+"nova": "A lei foi modificada.",
+"motivo": "legge = lei"
+},
+"2524608": {
+"orig": "Tom é simples.",
+"nova": "Tom é franco.",
+"motivo": "schietto = franco"
+},
+"2529673": {
+"orig": "O Tom nem confirmou e nem negou os rumores.",
+"nova": "O Tom não confirmou nem negou os rumores.",
+"motivo": "gramática"
+},
+"2608315": {
+"orig": "Não sou tão especialista como tu.",
+"nova": "Não sou tão especialista quanto ela.",
+"motivo": "pessoa errada"
+},
+"2708445": {
+"orig": "Estes sapatos são muito cômodos.",
+"nova": "Estes sapatos são muito confortáveis.",
+"motivo": "PT-BR natural"
+},
+"2752320": {
+"orig": "Questiono-me sobre o que terão em comum o Tomás e a Maria.",
+"nova": "Eu me pergunto o que Tom e Mary têm em comum.",
+"motivo": "nomes trocados e PT-PT"
+},
+"2757444": {
+"orig": "O conceito de meditação é muito amplo.",
+"nova": "O conceito de mediação é muito amplo.",
+"motivo": "mediazione = mediação"
+},
+"2780470": {
+"orig": "Você conseguirá terminar o trabalho a tempo?",
+"nova": "Vocês conseguem terminar o trabalho a tempo?",
+"motivo": "pessoa (voi)"
+},
+"2792714": {
+"orig": "Tom duvida que Maria manterá sua promessa.",
+"nova": "Tom duvida que Mary vá cumprir a promessa.",
+"motivo": "nome próprio"
+},
+"2814812": {
+"orig": "O sol está apenas se pondo.",
+"nova": "O sol está se pondo agora mesmo.",
+"motivo": "sentido (giusto)"
+},
+"2818709": {
+"orig": "Espero que voltes breve a nos visitar!",
+"nova": "Por favor, volte logo para nos visitar!",
+"motivo": "PT-PT"
+},
+"2829431": {
+"orig": "Eu sei que vocês moravam em Boston.",
+"nova": "Eu sei que vocês moravam em Boston antigamente.",
+"motivo": "falta 'una volta'"
+},
+"2829506": {
+"orig": "Não traduzo mais novelas.",
+"nova": "Não traduzo mais romances.",
+"motivo": "falso cognato"
+},
+"2842100": {
+"orig": "Pegai os livros que estão sobre a prateleira.",
+"nova": "Peguem os livros que estão na prateleira.",
+"motivo": "pessoa arcaica (vós)"
+},
+"2866728": {
+"orig": "O que você combinou?",
+"nova": "O que você aprontou?",
+"motivo": "sentido (combinare)"
+},
+"2885660": {
+"orig": "Quem foi ferido por um urso tem medo até de um toco na floresta.",
+"nova": "Gato escaldado tem medo de água fria.",
+"motivo": "provérbio equivalente"
+},
+"2908967": {
+"orig": "Trocaste o ruim pelo péssimo.",
+"nova": "Você saiu da frigideira e caiu no fogo.",
+"motivo": "PT-PT"
+},
+"2929099": {
+"orig": "Tu és horrível.",
+"nova": "Você é horrível.",
+"motivo": "PT-BR"
+},
+"2930105": {
+"orig": "Porquê chamam outono de \"fall\" nos Estados Unidos?",
+"nova": "Por que o outono se chama \"fall\" nos Estados Unidos?",
+"motivo": "ortografia (porquê)"
+},
+"2934066": {
+"orig": "Seu nome é Lucífera.",
+"nova": "Seu nome é Lucifera.",
+"motivo": "nome próprio"
+},
+"2937135": {
+"orig": "Pagareis com a vida e também com a alma!",
+"nova": "Vocês vão pagar com a vida e também com a alma!",
+"motivo": "pessoa arcaica (vós)"
+},
+"2945340": {
+"orig": "Aqui vos pareceis com todas as princesas e todos os príncipes encantados!",
+"nova": "Aqui vocês parecem todas princesas e todos príncipes encantados!",
+"motivo": "sentido e PT arcaico"
+},
+"2960350": {
+"orig": "Vocês garotos vão estar aqui amanhã de novo?",
+"nova": "Vocês, garotos, ainda vão estar aqui amanhã?",
+"motivo": "sentido (ancora)"
+},
+"2999670": {
+"orig": "Não olhe para o eclipse na próxima vez.",
+"nova": "Da próxima vez, não olhe para os eclipses.",
+"motivo": "número"
+},
+"3000374": {
+"orig": "Meu filho gostaria de comer um doce.",
+"nova": "Meu filho gostaria de comer algumas balas.",
+"motivo": "número"
+},
+"3021864": {
+"orig": "Crianças, pessoas pobres e galinhas nunca estão saturadas.",
+"nova": "Crianças, pobres e frangos nunca estão saciados.",
+"motivo": "sentido (satollo)"
+},
+"3056630": {
+"orig": "Sois vegetarianos ou veganos?",
+"nova": "Vocês são vegetarianas ou veganas?",
+"motivo": "gênero e PT arcaico"
+},
+"3068675": {
+"orig": "Maria é doutora.",
+"nova": "Mary é médica.",
+"motivo": "nome próprio e sentido"
+},
+"3088547": {
+"orig": "Pare de ser sarcástico o tempo todo!",
+"nova": "Parem de ser sarcásticas o tempo todo!",
+"motivo": "pessoa/gênero"
+},
+"3101925": {
+"orig": "Poderias explicar como o lava-louças funciona?",
+"nova": "Você poderia explicar como a lava-louças funciona?",
+"motivo": "PT-BR"
+},
+"3110004": {
+"orig": "Não seja tão melodramático.",
+"nova": "Não sejam tão melodramáticas.",
+"motivo": "pessoa/gênero"
+},
+"3155222": {
+"orig": "Morrerei por ti.",
+"nova": "Vou morrer por você.",
+"motivo": "PT-BR"
+},
+"3202747": {
+"orig": "Tudo isso acontecia ontem à tarde.",
+"nova": "Tudo isso acontecia ontem à noite.",
+"motivo": "ieri sera = ontem à noite"
+},
+"3209451": {
+"orig": "Time que está ganhando não se muda.",
+"nova": "Time que está ganhando não se mexe.",
+"motivo": "expressão equivalente"
+},
+"3233088": {
+"orig": "As leis não se aplicam.",
+"nova": "As leis não são aplicadas.",
+"motivo": "sentido"
+},
+"3237614": {
+"orig": "Quando crescer quero jogar basquete.",
+"nova": "Quando eu crescer, vou jogar basquete.",
+"motivo": "tempo verbal"
+},
+"3237659": {
+"orig": "Sempre ficas muito bonita em tuas fotos de perfil.",
+"nova": "Você está cada vez mais bonita nas suas fotos de perfil!",
+"motivo": "sentido (sempre più)"
+},
+"3252643": {
+"orig": "Você prefere uma maçã ou uma pera.",
+"nova": "Você prefere uma maçã ou uma pera?",
+"motivo": "pontuação"
+},
+"3271373": {
+"orig": "Espero que sigas as instruções!",
+"nova": "Siga as prescrições, por favor!",
+"motivo": "PT-BR"
+},
+"3279103": {
+"orig": "O gato não teve más intenções.",
+"nova": "O gato não tinha más intenções.",
+"motivo": "tempo verbal"
+},
+"3297981": {
+"orig": "Eles os deixaram fazer isso.",
+"nova": "Eles os deixam fazer isso.",
+"motivo": "tempo verbal"
+},
+"3306953": {
+"orig": "És uma tartaruga?",
+"nova": "Você é uma tartaruga?",
+"motivo": "PT-BR"
+},
+"3314709": {
+"orig": "Precisarás de uma chave de fenda.",
+"nova": "Vocês vão precisar de uma chave de fenda.",
+"motivo": "pessoa (voi)"
+},
+"3324853": {
+"orig": "Espero que me mandes um cartão postal.",
+"nova": "Mande um cartão-postal, por favor.",
+"motivo": "PT-PT"
+},
+"3354540": {
+"orig": "Façam como lhes convier, por favor.",
+"nova": "Por favor, não tenham pressa.",
+"motivo": "sentido (fare con comodo)"
+},
+"3354703": {
+"orig": "O que você disse? Por favor, repita.",
+"nova": "O que vocês disseram? Repitam, por favor.",
+"motivo": "pessoa (voi)"
+},
+"3372893": {
+"orig": "Eles estão ansiosos por vossa ajuda.",
+"nova": "Eles estão ansiosos pela ajuda de vocês.",
+"motivo": "PT-BR"
+},
+"3377858": {
+"orig": "Traduz! Senão eu entendo pouco.",
+"nova": "Traduza! Senão eu entendo mal.",
+"motivo": "sentido e PT-BR"
+},
+"3419096": {
+"orig": "A remessa é sempre gratuita?",
+"nova": "Os envios são sempre gratuitos?",
+"motivo": "número"
+},
+"3423543": {
+"orig": "Mas você nem sequer o conhecia!",
+"nova": "Mas vocês nem o conheciam!",
+"motivo": "pessoa (voi)"
+},
+"3424753": {
+"orig": "À medida que a civilização avança, a poesia quase necessariamente desaparece.",
+"nova": "À medida que a civilização avança, a poesia quase necessariamente declina.",
+"motivo": "sentido"
+},
+"3430570": {
+"orig": "Não me tentaste nem um pouquinho.",
+"nova": "Você não me tentou nem um pouquinho.",
+"motivo": "PT-BR"
+},
+"3430689": {
+"orig": "Só você pode rir tanto assim de minhas tristes piadas.",
+"nova": "Só você consegue rir tanto das minhas piadas sem graça.",
+"motivo": "sentido (squallide)"
+},
+"3441814": {
+"orig": "Pena que não estejas aqui!",
+"nova": "Pena que você não esteja aqui!",
+"motivo": "PT-BR"
+},
+"3500283": {
+"orig": "Tu estavas determinada.",
+"nova": "Você estava determinada.",
+"motivo": "PT-BR"
+},
+"3501542": {
+"orig": "Esta cidade é do presidente do comité.",
+"nova": "Esta mansão é do presidente do comitê.",
+"motivo": "sentido (villa) e PT-PT"
+},
+"3532502": {
+"orig": "Estas águas são muito piscosas.",
+"nova": "Estas águas são muito turvas.",
+"motivo": "sentido errado"
+},
+"3537268": {
+"orig": "Os seguros protegem-nos de situações difíceis e imprevistas.",
+"nova": "O seguro protege de situações difíceis e imprevistas.",
+"motivo": "número e acréscimo"
+},
+"3564681": {
+"orig": "Eu te ligo daqui a pouco, pois tenho de te dizer uma coisa!",
+"nova": "Vou te ligar rapidinho, porque tenho que te dizer uma coisa!",
+"motivo": "sentido"
+},
+"3564691": {
+"orig": "E o avô, não vais sepultá-lo?",
+"nova": "E o vovô, você não vai enterrá-lo?",
+"motivo": "PT-BR"
+},
+"3587195": {
+"orig": "A estultícia não tem mesmo limites!",
+"nova": "A estupidez não tem mesmo limites!",
+"motivo": "registro arcaico"
+},
+"3602204": {
+"orig": "Onde está a minha agenda telefônica?",
+"nova": "Onde está a minha lista telefônica?",
+"motivo": "elenco telefonico = lista"
+},
+"3611903": {
+"orig": "Eu moro perto do aterro.",
+"nova": "Eu moro perto do dique.",
+"motivo": "argine = dique"
+},
+"3629152": {
+"orig": "Gostaria de trabalhar na cafeteria.",
+"nova": "Gostaria de trabalhar no refeitório.",
+"motivo": "refettorio = refeitório"
+},
+"3633758": {
+"orig": "Tu me fazes feliz.",
+"nova": "Você me faz feliz.",
+"motivo": "PT-BR"
+},
+"3641806": {
+"orig": "Moro perto do mar, assim que frequentemente vou à praia.",
+"nova": "Moro perto do mar, então muitas vezes tenho a oportunidade de ir à praia.",
+"motivo": "conector errado"
+},
+"3646030": {
+"orig": "Espero que não peças bebida a ninguém.",
+"nova": "Por favor, não aceitem bebidas de ninguém.",
+"motivo": "sentido errado"
+},
+"3756041": {
+"orig": "Você é estadunidense?",
+"nova": "Vocês são americanas?",
+"motivo": "pessoa/gênero/número"
+},
+"3758022": {
+"orig": "Eu não gosto de nenhum deles.",
+"nova": "Eu não gosto de nenhuma delas.",
+"motivo": "gênero"
+},
+"3787490": {
+"orig": "Escolha alguma música e transcreva a letra.",
+"nova": "Escolham uma música e transcrevam a letra.",
+"motivo": "pessoa (voi)"
+},
+"3791316": {
+"orig": "Essa empresa tem um programa de lealdade.",
+"nova": "Essa empresa tem um programa de fidelidade.",
+"motivo": "termo"
+},
+"3803399": {
+"orig": "Não deves mais te preocupar.",
+"nova": "O senhor não precisa mais se preocupar.",
+"motivo": "pessoa (Lei)"
+},
+"3814309": {
+"orig": "A Maria nadava.",
+"nova": "A Marie nadava.",
+"motivo": "nome próprio"
+},
+"3837283": {
+"orig": "O Tom é observador.",
+"nova": "O Tom é religioso praticante.",
+"motivo": "osservante = praticante"
+},
+"3848089": {
+"orig": "O que quer que aconteça, não abras aquela porta.",
+"nova": "O que quer que aconteça, não abra aquela porta.",
+"motivo": "pessoa (Lei)"
+},
+"3862793": {
+"orig": "Comprámos uma nova máquina de lavar.",
+"nova": "Compramos uma máquina de lavar nova.",
+"motivo": "PT-PT"
+},
+"3869991": {
+"orig": "Está nevando!",
+"nova": "Está até nevando!",
+"motivo": "falta 'pure'"
+},
+"4106069": {
+"orig": "Com qual sabonete tu lavas tuas mãos?",
+"nova": "Com qual sabonete você lava as mãos?",
+"motivo": "PT-BR"
+},
+"4106188": {
+"orig": "Prepararás o jantar.",
+"nova": "Você vai preparar o jantar.",
+"motivo": "PT-BR"
+},
+"4176648": {
+"orig": "Minha mãe assa o pão toda manhã",
+"nova": "Minha mãe assa pão toda manhã.",
+"motivo": "pontuação"
+},
+"4176710": {
+"orig": "Decidi dizer a verdade para eles.",
+"nova": "Decidi dizer a verdade a ele.",
+"motivo": "pessoa (gli)"
+},
+"4176733": {
+"orig": "É melhor que eu comece a andar",
+"nova": "É melhor eu começar a me mexer.",
+"motivo": "sentido e pontuação"
+},
+"4176762": {
+"orig": "Os colegas do setor de TI sempre cuidam de outras coisas e muitas vezes não tem tempo de ajudar",
+"nova": "Os colegas do setor de TI estão sempre ocupados fazendo outras coisas e muitas vezes não têm tempo de ajudar.",
+"motivo": "acentuação e pontuação"
+},
+"4202349": {
+"orig": "Ken detesta Tom.",
+"nova": "Ken despreza Tom.",
+"motivo": "disprezzare = desprezar"
+},
+"4210646": {
+"orig": "Se pudesse escolher, eu me teria tornado astrônomo.",
+"nova": "Se pudesse escolher, eu teria sido astrônomo.",
+"motivo": "tradução pouco natural"
+},
+"4212258": {
+"orig": "Tom conhece Maria desde o jardim de infância.",
+"nova": "Tom conhece Mary desde o jardim de infância.",
+"motivo": "nome próprio"
+},
+"4241717": {
+"orig": "Parece que vós tendes uma infecção.",
+"nova": "Parece que vocês estão com uma infecção.",
+"motivo": "PT arcaico"
+},
+"4258481": {
+"orig": "De qual signo do zodíaco é você?",
+"nova": "Você é de que signo?",
+"motivo": "tradução pouco natural"
+},
+"4304924": {
+"orig": "Siga-nos e você não vai se arrepender!",
+"nova": "Sigam-nos e vocês não vão se arrepender!",
+"motivo": "pessoa (voi)"
+},
+"4315648": {
+"orig": "Talvez é por isso que nós não fomos capturados?",
+"nova": "Talvez seja por isso que a gente não se encontrou?",
+"motivo": "sentido (beccarsi)"
+},
+"4335863": {
+"orig": "Em breve serás velho!",
+"nova": "Logo você vai ficar velho!",
+"motivo": "PT-BR"
+},
+"4366912": {
+"orig": "Espero que cada um compre seu livro!",
+"nova": "Por favor, comprem todos o livro dele!",
+"motivo": "sentido ambíguo"
+},
+"4435291": {
+"orig": "Qual é a chance de conhecer-te? Nenhuma!",
+"nova": "Qual é a chance de te encontrar? Nenhuma!",
+"motivo": "PT-BR e sentido"
+},
+"4516363": {
+"orig": "Tom era farmaceuta.",
+"nova": "Tom era farmacêutico.",
+"motivo": "termo"
+},
+"4522543": {
+"orig": "Uma molécula de glicose tem seis átomos de carbono, doze átomos de hidrogênio e seis átomos de oxigênio.",
+"nova": "Para formar uma molécula de glicose são necessários seis átomos de carbono, doze átomos de hidrogênio e seis átomos de oxigênio.",
+"motivo": "sentido de \"occorrono\" omitido"
+},
+"4546618": {
+"orig": "João é médico veterinário.",
+"nova": "John é veterinário.",
+"motivo": "nome próprio trocado"
+},
+"4589710": {
+"orig": "Tu és impossível.",
+"nova": "Vocês são impossíveis.",
+"motivo": "número trocado (siete = vocês)"
+},
+"4617276": {
+"orig": "Parece que você não quer fazer isso.",
+"nova": "Parece que vocês não querem fazer isso.",
+"motivo": "número trocado (voi)"
+},
+"4667546": {
+"orig": "Não machuque Tom.",
+"nova": "Não machuquem o Tom.",
+"motivo": "número trocado (voi)"
+},
+"4709147": {
+"orig": "Terminarei este trabalho de qualquer maneira.",
+"nova": "Vou terminar este trabalho de algum jeito.",
+"motivo": "\"in qualche modo\" = de algum jeito"
+},
+"4710684": {
+"orig": "Este é um termo obsoleto.",
+"nova": "Hoje em dia este é um termo obsoleto.",
+"motivo": "\"ormai\" omitido"
+},
+"4812818": {
+"orig": "Com o aumento no número de carros, a atmosfera ficará cada vez pior.",
+"nova": "Quanto mais aumentam os carros, mais piora a qualidade do ar.",
+"motivo": "tradução infiel"
+},
+"4820823": {
+"orig": "Podes abrir a porta?",
+"nova": "Você vai abrir a porta?",
+"motivo": "tempo/sentido trocado"
+},
+"4829321": {
+"orig": "Valorize-se!",
+"nova": "Faça-se respeitar!",
+"motivo": "sentido impreciso"
+},
+"4907488": {
+"orig": "Ele traduziu o romance para o Alemão.",
+"nova": "Ele traduziu o romance para o alemão.",
+"motivo": "maiúscula indevida"
+},
+"4916051": {
+"orig": "O dia de São Valentim comemora-se em fevereiro.",
+"nova": "O Dia de São Valentim é comemorado em fevereiro.",
+"motivo": "colocação pronominal de Portugal"
+},
+"4936296": {
+"orig": "Vamos nos apressar de volta ao nosso hotel.",
+"nova": "Vamos nos apressar para voltar ao nosso hotel.",
+"motivo": "tradução não natural"
+},
+"5004848": {
+"orig": "Por favor, não toque nos meus cabelos!",
+"nova": "Por favor, não toquem no meu cabelo!",
+"motivo": "número trocado (voi)"
+},
+"5209662": {
+"orig": "É melhor você dormir.",
+"nova": "É melhor vocês dormirem.",
+"motivo": "número trocado (voi)"
+},
+"5230428": {
+"orig": "Somos cultos.",
+"nova": "Somos cultas.",
+"motivo": "gênero trocado"
+},
+"4786425": {
+"orig": "Não se contente com pouco.",
+"nova": "Não se contente com menos.",
+"motivo": "\"di meno\" = com menos"
+},
+"5233892": {
+"orig": "Tom atingiu Mary com uma espingarda.",
+"nova": "Tom atirou em Mary com uma espingarda.",
+"motivo": "\"sparò a\" = atirou em"
+},
+"5277108": {
+"orig": "Antes que acabes não te gabes.",
+"nova": "Não venda a pele do urso antes de matá-lo.",
+"motivo": "tradução por outro provérbio, forma de Portugal"
+},
+"5435314": {
+"orig": "Você latiu.",
+"nova": "Você latia.",
+"motivo": "tempo trocado (imperfeito)"
+},
+"5442619": {
+"orig": "Pode remediar-se.",
+"nova": "Dá para remediar.",
+"motivo": "forma de Portugal"
+},
+"5498265": {
+"orig": "Bebemos saqué.",
+"nova": "Bebemos saquê.",
+"motivo": "ortografia (saquê)"
+},
+"5637186": {
+"orig": "Quando eu crescer, quero ser bombeiro.",
+"nova": "Quando eu crescer, quero ser bombeira.",
+"motivo": "gênero trocado"
+},
+"5673439": {
+"orig": "Ele escreveu uma ameaça para sua amante.",
+"nova": "Ele escreveu uma carta de ameaças para a namorada.",
+"motivo": "\"morosa\" = namorada; \"lettera\" omitida"
+},
+"5704092": {
+"orig": "Ficai fora da água.",
+"nova": "Fiquem fora da água.",
+"motivo": "vós não natural no Brasil"
+},
+"5805522": {
+"orig": "Os incentivos estão claros.",
+"nova": "Os incentivos são garantidos.",
+"motivo": "sentido errado"
+},
+"5805523": {
+"orig": "Os incentivos estão claros.",
+"nova": "Os incentivos são certos.",
+"motivo": "sentido errado"
+},
+"5836492": {
+"orig": "Os homens japoneses ainda preferem baseball ao futebol.",
+"nova": "Os homens japoneses ainda preferem o beisebol ao futebol.",
+"motivo": "grafia pt-BR (beisebol)"
+},
+"5869469": {
+"orig": "Eu nunca fui a Turim.",
+"nova": "Eu não fui a Turim.",
+"motivo": "\"nunca\" acrescentado"
+},
+"5998987": {
+"orig": "Deve pagar por isso.",
+"nova": "Vocês deveriam pagá-la.",
+"motivo": "número/modo trocados"
+},
+"6015284": {
+"orig": "Compre algo para ela beber.",
+"nova": "Comprem algo para ela beber.",
+"motivo": "número trocado (voi)"
+},
+"6071233": {
+"orig": "Eu não quero ver você comendo entre as refeições.",
+"nova": "Eu não quero que você coma entre as refeições.",
+"motivo": "informação acrescentada"
+},
+"6216960": {
+"orig": "Sua tola proposta foi aprovada por unanimidade.",
+"nova": "Sua proposta maluca foi aprovada por unanimidade.",
+"motivo": "\"folle\" = louca, não tola"
+},
+"6390147": {
+"orig": "Gostaria de conhecê-la?",
+"nova": "Vocês gostariam de conhecê-la?",
+"motivo": "número trocado (voi)"
+},
+"6480939": {
+"orig": "O dano de um tal tratamento é superior aos seus benefícios.",
+"nova": "Os danos de um tratamento como esse são maiores que os benefícios.",
+"motivo": "tradução pouco natural"
+},
+"6572776": {
+"orig": "Tom é sortudo por termos ajudado-o.",
+"nova": "Tom tem sorte de termos ajudado ele.",
+"motivo": "gramática da tradução"
+},
+"6675177": {
+"orig": "Eu espero ser como Tom.",
+"nova": "Eu aspiro a ser como Tom.",
+"motivo": "sentido impreciso"
+},
+"6727210": {
+"orig": "Eu sou uma pessoa de nacionalidade sul-africana.",
+"nova": "Sou de nacionalidade sul-africana.",
+"motivo": "tradução artificial"
+},
+"6735628": {
+"orig": "Vocês vão viajar a Sicília nas férias?",
+"nova": "Vocês vão passar as férias na Sicília?",
+"motivo": "tradução incorreta"
+},
+"6750445": {
+"orig": "\"Qual era a nacionalidade dos nossos avós?\" \"Russa.\"",
+"nova": "\"Qual era a nacionalidade das nossas avós?\" \"Russa.\"",
+"motivo": "gênero trocado"
+},
+"6755877": {
+"orig": "\"Qual era a nacionalidade dos seus alunos?\" \"Búlgara.\"",
+"nova": "\"Qual era a nacionalidade das suas alunas?\" \"Búlgara.\"",
+"motivo": "gênero trocado"
+},
+"6761033": {
+"orig": "Ela é austríaca,",
+"nova": "Ela é austríaca.",
+"motivo": "pontuação"
+},
+"6916403": {
+"orig": "O que você diria para Tom?",
+"nova": "O que vocês diriam para o Tom?",
+"motivo": "número trocado (voi)"
+},
+"6928923": {
+"orig": "Onde podemos comprar tábletes?",
+"nova": "Onde podemos comprar tablets?",
+"motivo": "grafia não usual"
+},
+"7038337": {
+"orig": "Posso fazer uma pergunta particular?",
+"nova": "Posso fazer uma pergunta pessoal a vocês?",
+"motivo": "objeto omitido"
+},
+"7048274": {
+"orig": "Na placa está escrito \"não fume\".",
+"nova": "Na placa está escrito \"proibido fumar\".",
+"motivo": "sentido impreciso"
+},
+"7239803": {
+"orig": "Coloquem as crianças para dentro.",
+"nova": "Leve as crianças para dentro.",
+"motivo": "número trocado (Lei formal singular)"
+},
+"7279935": {
+"orig": "Antes que acabes não te gabes.",
+"nova": "Não conte com o ovo antes de a galinha botar.",
+"motivo": "provérbio em forma de Portugal"
+},
+"7569755": {
+"orig": "\"Onde eles vão amanhã?\" \"No Afeganistão.\"",
+"nova": "\"Aonde eles vão amanhã?\" \"Para o Afeganistão.\"",
+"motivo": "regência incorreta"
+},
+"7639042": {
+"orig": "Não vão construir rodovias na China?",
+"nova": "Você não vai construir rodovias na China?",
+"motivo": "pessoa trocada (tu)"
+},
+"7642016": {
+"orig": "Não vai construir matadores na Austrália?",
+"nova": "Ele não vai construir matadouros na Austrália?",
+"motivo": "\"mattatoi\" = matadouros"
+},
+"7671397": {
+"orig": "Gostaria de reservar uma viagem para Níger.",
+"nova": "Gostaria de reservar uma viagem para o Níger.",
+"motivo": "artigo omitido"
+},
+"7695484": {
+"orig": "É provável que o Tom está desesperado.",
+"nova": "É provável que o Tom esteja desesperado.",
+"motivo": "modo verbal (subjuntivo)"
+},
+"7800442": {
+"orig": "Dizei-me: onde nascestes?",
+"nova": "Digam-me, onde vocês nasceram?",
+"motivo": "vós não natural no Brasil"
+},
+"7800733": {
+"orig": "Ela tomou três taças de café.",
+"nova": "Ela tomou três xícaras de café.",
+"motivo": "\"tazze\" = xícaras"
+},
+"7833856": {
+"orig": "Tom é um escritor conhecido.",
+"nova": "Tom é um romancista muito conhecido.",
+"motivo": "informação omitida"
+},
+"7833891": {
+"orig": "É muito complicado para mim.",
+"nova": "É decididamente complicado demais para mim.",
+"motivo": "\"troppo\" omitido"
+},
+"7864760": {
+"orig": "Tom dormiu como uma criança.",
+"nova": "Tom dormia como uma criança.",
+"motivo": "tempo trocado (imperfeito)"
+},
+"8011741": {
+"orig": "Por que você não me obedecem?",
+"nova": "Por que vocês não me obedecem?",
+"motivo": "concordância"
+},
+"7841182": {
+"orig": "Mary olhou para o prato.",
+"nova": "Mary fitou o prato.",
+"motivo": "\"fissare\" = fitar"
+},
+"9668713": {
+"orig": "O corona-vírus provoca tosse persistente.",
+"nova": "O coronavírus provoca tosse persistente.",
+"motivo": "ortografia"
+},
+"9850377": {
+"orig": "Elas disseram que eram nervosas.",
+"nova": "Elas disseram que estavam nervosas.",
+"motivo": "sentido (estado, não característica)"
+},
+"10083765": {
+"orig": "Ela não consegue se lembrar do seu próprio nome.",
+"nova": "Ela não consegue se lembrar do seu nome.",
+"motivo": "\"próprio\" acrescentado"
+},
+"10123977": {
+"orig": "Vocês ainda estão em contato com eles?",
+"nova": "Vocês entraram em contato com eles?",
+"motivo": "sentido errado"
+},
+"10126465": {
+"orig": "Eu preparei o café-da-manhã para ela.",
+"nova": "Ele preparou o café da manhã para ela.",
+"motivo": "pessoa trocada; grafia"
+},
+"10213369": {
+"orig": "Abaixo a ditadura!",
+"nova": "Abaixo o ditador!",
+"motivo": "sentido errado"
+},
+"10754506": {
+"orig": "A fumaça saiu pela chaminé.",
+"nova": "A fumaça saía pela chaminé.",
+"motivo": "tempo trocado (imperfeito)"
+},
+"1691779": {
+"orig": "Onde posso comprá-la?",
+"nova": "Onde posso comprá-lo?",
+"motivo": "gênero trocado"
+},
+"3595274": {
+"orig": "Espero vê-la de novo.",
+"nova": "Espero ver vocês de novo.",
+"motivo": "número trocado (voi)"
+},
+"5975888": {
+"orig": "Tomás terminou a carta.",
+"nova": "Tom gastou todo o papel.",
+"motivo": "\"carta\" = papel; nome trocado"
+},
+"6928290": {
+"orig": "Espero vê-la de novo.",
+"nova": "Espero que a gente se veja de novo.",
+"motivo": "sentido errado"
+},
+"6756187": {
+"orig": "\"De qual nacionalidade eram os seus alunos?\" \"Russos.\"",
+"nova": "\"De qual nacionalidade eram os seus alunos?\" \"Russa.\"",
+"motivo": "resposta deve concordar com \"nacionalidade\""
+},
+"2439082": {
+"orig": "Nós fomos a uma pizzaria, mas eles preferiram ir ao cinema.",
+"nova": "Nós fomos à pizzaria; eles, por outro lado, foram ao cinema.",
+"motivo": "\"preferiram\" acrescentado"
+},
+"1738813": {
+"orig": "Eles podem encontrar-se em baixo de fogo cruzado.",
+"nova": "Eles podem se encontrar sob fogo cruzado.",
+"motivo": "\"em baixo\" incorreto"
+},
+"14025233": {
+"orig": "Eu acho que isso não vai caber em mim.",
+"nova": "Acho que isso não vai ficar bem em mim.",
+"motivo": "sentido impreciso"
+},
+"4582": {
+"orig": "Todos os gatos são cinza no escuro.",
+"nova": "À noite, todos os gatos são pardos.",
+"motivo": "\"di notte\" alterado; provérbio equivalente"
+},
+"4220568": {
+"orig": "Maria vai para a França estudar pintura.",
+"nova": "Marie vai para a França estudar pintura.",
+"motivo": "nome próprio trocado"
+},
+"1511343": {
+"orig": "Ontem, roubaram-me a bicicleta.",
+"nova": "Ontem minha bicicleta foi roubada.",
+"motivo": "construção de Portugal"
+},
+"691722": {
+"orig": "Os japoneses têm olhos negros.",
+"nova": "Os japoneses têm olhos escuros.",
+"motivo": "\"scuri\" = escuros"
+},
+"2779009": {
+"orig": "O vosso tapete é completamente branco.",
+"nova": "O tapete de vocês é completamente branco.",
+"motivo": "\"vosso\" de Portugal"
+},
+"861992": {
+"orig": "Quando custa uma entrada para o cinema?",
+"nova": "Quanto custa uma entrada para o cinema?",
+"motivo": "erro de digitação"
+},
+"1100027": {
+"orig": "Ela se olhou ao espelho.",
+"nova": "Ela se olhou no espelho.",
+"motivo": "regência"
+},
+"883111": {
+"orig": "De qualquer forma, eu gostaria de agradecer-lhes.",
+"nova": "De qualquer forma, eu gostaria de agradecer a todos vocês.",
+"motivo": "\"tutti\" omitido"
+},
+"1311796": {
+"orig": "Tom surpreendeu Maria com um beijo.",
+"nova": "Tom surpreendeu Mary com um beijo.",
+"motivo": "nome próprio trocado"
+},
+"1659601": {
+"orig": "Eu quero um tigre de estimação.",
+"nova": "Eu quero um filhote de tigre.",
+"motivo": "sentido errado"
+},
+"1697811": {
+"orig": "João tocava violão e sua amiga cantava.",
+"nova": "John tocava violão e a amiga dele cantava.",
+"motivo": "nome próprio trocado"
+},
+"3414517": {
+"orig": "O seu João morreu de tuberculose.",
+"nova": "O senhor Juan morreu de tuberculose.",
+"motivo": "nome próprio trocado"
+},
+"13983369": {
+"orig": "Isso não pode estar certo. Ele ainda está em férias no Havaí.",
+"nova": "Não pode ser. Ele ainda está de férias no Havaí.",
+"motivo": "sentido alterado"
+},
+"2024652": {
+"orig": "Entraremos em contato.",
+"nova": "Vamos manter contato.",
+"motivo": "sentido impreciso"
+},
+"2478259": {
+"orig": "Eu tive de voltar para Boston.",
+"nova": "Eu tinha de voltar para Boston.",
+"motivo": "tempo trocado"
+},
+"2586601": {
+"orig": "Ele ficou muito feliz de nos ver.",
+"nova": "Ele estava todo feliz de nos ver.",
+"motivo": "tempo/sentido"
+},
+"2196438": {
+"orig": "Na realidade, o custo de vida está subindo cada semana.",
+"nova": "Na realidade, o custo de vida está subindo a cada semana.",
+"motivo": "regência"
+},
+"1735963": {
+"orig": "Ele poderia fechar a janela ?",
+"nova": "Poderia fechar a janela?",
+"motivo": "espaço antes de \"?\"; pessoa"
+},
+"3363097": {
+"orig": "Eu adoro o cabelo da Laura.",
+"nova": "Eu adoro o cabelo da Laurie.",
+"motivo": "nome próprio trocado"
+},
+"4693544": {
+"orig": "Todos temos nossas próprias cruzes para carregar.",
+"nova": "Todas temos nossa cruz para carregar.",
+"motivo": "gênero trocado"
+},
+"665232": {
+"orig": "O copo estava vazio.",
+"nova": "A xícara estava vazia.",
+"motivo": "\"tazza\" = xícara"
+},
+"4637268": {
+"orig": "Eles caçaram raposas.",
+"nova": "Eles caçavam raposas.",
+"motivo": "tempo trocado (imperfeito)"
+},
+"4955001": {
+"orig": "Fomos testemunhas da acidente.",
+"nova": "Fomos testemunhas do acidente.",
+"motivo": "erro gramatical"
+},
+"4968536": {
+"orig": "Dá me uma resposta definitiva.",
+"nova": "Me dá uma resposta definitiva.",
+"motivo": "ortografia/forma"
+},
+"5137100": {
+"orig": "Eu temo pela segurança do Tom.",
+"nova": "Eu temo pela saúde do Tom.",
+"motivo": "\"salute\" = saúde"
+},
+"6696846": {
+"orig": "O Tom ajuda qualquer pessoa que lhe pede ajuda.",
+"nova": "O Tom ajuda qualquer pessoa que lhe peça ajuda.",
+"motivo": "modo verbal"
+},
+"14015259": {
+"orig": "Esperamos ter breve o prazer de vê-lo.",
+"nova": "Esperamos ter em breve o prazer de vê-los.",
+"motivo": "número trocado (voi)"
+},
+"5338281": {
+"orig": "Quem compraria algum desses?",
+"nova": "Quem compraria uma destas?",
+"motivo": "gênero trocado"
+},
+"5461938": {
+"orig": "Você pode me acordar às sete da manhã?",
+"nova": "Você pode me acordar amanhã às sete da manhã?",
+"motivo": "\"domani\" omitido"
+},
+"819944": {
+"orig": "É o primeiro ministro da Finlândia.",
+"nova": "É o primeiro-ministro da Finlândia.",
+"motivo": "ortografia"
+},
+"6116027": {
+"orig": "Nós vamos ajudá-lo?",
+"nova": "Nós vamos ajudá-las?",
+"motivo": "gênero/número trocados"
+},
+"1308616": {
+"orig": "Pediu-me para o ajudar.",
+"nova": "Ele me pediu para ajudá-lo.",
+"motivo": "colocação de Portugal"
+},
+"6581747": {
+"orig": "Tom e Maria me disseram que gostavam de neve.",
+"nova": "Tom e Mary me disseram que gostavam de neve.",
+"motivo": "nome próprio trocado"
+},
+"1568472": {
+"orig": "Preciso de chegar a uma conclusão rápido.",
+"nova": "Tento ir direto ao ponto.",
+"motivo": "sentido errado"
+},
+"6932001": {
+"orig": "Há muitos turistas aqui.",
+"nova": "Há turistas demais aqui.",
+"motivo": "\"troppi\" = demais"
+},
+"6945755": {
+"orig": "Ele não é o Iván o Terrível.",
+"nova": "Ele não é Ivan, o Terrível.",
+"motivo": "ortografia/pontuação"
+},
+"6972241": {
+"orig": "Lava a maçã antes de comer.",
+"nova": "Lave a maçã antes de comê-la.",
+"motivo": "pessoa (Lei formal)"
+},
+"7047632": {
+"orig": "O avião começou a aterrizar.",
+"nova": "O avião começou a aterrissar.",
+"motivo": "forma pt-BR"
+},
+"7672356": {
+"orig": "Queremos reservar uma viagem para a República Checa.",
+"nova": "Queremos reservar uma viagem para a República Tcheca.",
+"motivo": "grafia pt-BR"
+},
+"7672358": {
+"orig": "Queremos reservar uma viagem para a Eslovénia.",
+"nova": "Queremos reservar uma viagem para a Eslovênia.",
+"motivo": "grafia de Portugal"
+},
+"7841201": {
+"orig": "Este estudioso estuda os manuscritos antigos.",
+"nova": "Este estudioso estuda manuscritos antigos.",
+"motivo": "artigo indevido"
+},
+"1588188": {
+"orig": "Não gosto de beisebol nem um pouco.",
+"nova": "Não gosto nem um pouco de basquete.",
+"motivo": "\"pallacanestro\" = basquete"
+},
+"14024328": {
+"orig": "Estou procurando combinar o útil com o agradável.",
+"nova": "Estou tentando unir o útil ao agradável.",
+"motivo": "expressão idiomática"
+},
+"359418": {
+"orig": "O problema é no motor.",
+"nova": "O problema está no motor.",
+"motivo": "verbo inadequado"
+},
+"415494": {
+"orig": "O gato dormiu sobre a mesa.",
+"nova": "O gato tinha adormecido sobre a mesa.",
+"motivo": "tempo trocado (mais-que-perfeito)"
+},
+"691318": {
+"orig": "Coelhos têm orelhas grandes.",
+"nova": "Os coelhos têm orelhas compridas.",
+"motivo": "\"lunghe\" = compridas"
+},
+"6705259": {
+"orig": "Tendo reencontrado Tom na estação, Maria perguntou-lhe como foram suas férias.",
+"nova": "Tendo encontrado Tom na estação, Maria perguntou a ele como tinham sido as férias dele.",
+"motivo": "\"re-\" acrescentado; colocação de Portugal"
+},
+"1343748": {
+"orig": "Você quer um pouco de pipoca?",
+"nova": "Gostaria de um pouco de pipoca?",
+"motivo": "modo verbal (condicional)"
+},
+"1738640": {
+"orig": "Você vira a minha festa ?",
+"nova": "Você virá à minha festa?",
+"motivo": "erros de ortografia e espaço"
+},
+"12852161": {
+"orig": "Ele beija o seu marido.",
+"nova": "Ela beija o marido.",
+"motivo": "pessoa/gênero trocados"
+},
+"13279126": {
+"orig": "Nesse ano participaremos de vários torneios.",
+"nova": "Este ano participaremos de vários torneios.",
+"motivo": "\"quest'anno\" = este ano"
+},
+"13787270": {
+"orig": "Como funciona o algorítimo do YouTube?",
+"nova": "Como funciona o algoritmo do YouTube?",
+"motivo": "ortografia"
+},
+"13947088": {
+"orig": "Eu te desejo bom sucesso.",
+"nova": "Eu te desejo boa sorte.",
+"motivo": "\"buona fortuna\" = boa sorte"
+},
+"13991795": {
+"orig": "A borboleta está a ponto de tomar voo.",
+"nova": "A borboleta está prestes a levantar voo.",
+"motivo": "expressão não natural"
+},
+"14000483": {
+"orig": "Isto é uma bisnaga.",
+"nova": "Isto é um tubo.",
+"motivo": "sentido errado"
+},
+"14000486": {
+"orig": "Seus padrões me confundem.",
+"nova": "Seus critérios me confundem.",
+"motivo": "\"criteri\" = critérios"
+},
+"14000489": {
+"orig": "Antes de responder à carta, Tom leu-a duas vezes.",
+"nova": "Antes de responder à carta, Tom a leu duas vezes.",
+"motivo": "colocação de Portugal"
+},
+"14000498": {
+"orig": "Um dos miúdos tentou arrancar a sua trotinete das mãos do agente.",
+"nova": "Um dos garotos tentou arrancar a scooter dele das mãos do agente.",
+"motivo": "vocabulário de Portugal"
+},
+"14001436": {
+"orig": "A política partidária está a interferir com a reforma financeira que é necessária.",
+"nova": "A política partidária está interferindo na reforma financeira necessária.",
+"motivo": "forma de Portugal"
+},
+"14008511": {
+"orig": "Dê um passo para fora do carro e ponha as mãos para trás.",
+"nova": "Saia do carro e coloque as mãos atrás das costas.",
+"motivo": "tradução decalcada"
+},
+"14008513": {
+"orig": "Costumávamos jogar baralho todo dia e noite.",
+"nova": "Costumávamos jogar cartas dia e noite.",
+"motivo": "tradução não natural"
+},
+"14008519": {
+"orig": "Tu reivindicas um intercâmbio desigual, assente em bases assimétricas.",
+"nova": "Vocês exigem uma troca desigual, fundada em bases assimétricas.",
+"motivo": "número trocado (voi); forma de Portugal"
+},
+"14024330": {
+"orig": "A tua atitude em direção às mulheres é ofensiva.",
+"nova": "Seu comportamento com as mulheres é ofensivo.",
+"motivo": "tradução forçada/termo trocado"
+},
+"14024331": {
+"orig": "A tua atitude em direção às mulheres é ofensiva.",
+"nova": "Sua atitude em relação às mulheres é ofensiva.",
+"motivo": "'em direção às' inadequado"
+},
+"14025237": {
+"orig": "Antes que acabes não te gabes.",
+"nova": "Não se gabe antes de terminar.",
+"motivo": "ordem/registro não natural"
+},
+"14027113": {
+"orig": "Ele não pôde encontrar refúgio algum.",
+"nova": "Ele não encontrou refúgio algum.",
+"motivo": "'pôde' a mais"
+},
+"14028807": {
+"orig": "Mary me disse que ela sentiu frio.",
+"nova": "Mary me disse que estava com frio.",
+"motivo": "tempo verbal"
+},
+"14031063": {
+"orig": "Nunca a vejo, mas quero beijá-la.",
+"nova": "Nunca a vi, mas quero beijá-la.",
+"motivo": "tempo verbal"
+},
+"14033687": {
+"orig": "Ele vigiava pela segurança da casa.",
+"nova": "Ele zelava pela segurança da casa.",
+"motivo": "'vigiava pela' não natural"
+},
+"14037424": {
+"orig": "Foque sua mente nos estudos.",
+"nova": "Concentre-se nos estudos.",
+"motivo": "'mente' a mais"
+},
+"14039375": {
+"orig": "Abordemos este problema com firmeza.",
+"nova": "Vamos enfrentar este problema com firmeza.",
+"motivo": "affrontare = enfrentar"
+},
+"14049574": {
+"orig": "Ele diz que foi desenvolvido um novo sistema que está a beneficiar os países mais pobres.",
+"nova": "Ele diz que foi desenvolvido um novo sistema que vai beneficiar os países mais pobres.",
+"motivo": "pt-PT e tempo verbal"
+},
+"14054430": {
+"orig": "Não vou permitir que você ainda faça isso.",
+"nova": "Não vou permitir que você faça isso de novo.",
+"motivo": "ancora = de novo"
+},
+"14067669": {
+"orig": "Fui dominado por uma curiosidade tal, como jamais havia experimentado.",
+"nova": "Fui dominado por uma curiosidade como jamais havia experimentado.",
+"motivo": "pontuação/construção"
+},
+"14084222": {
+"orig": "Até na morte é sublime escutar Bach!",
+"nova": "Até na morte é sublime escutar Bach.",
+"motivo": "pontuação diferente"
+},
+"14084224": {
+"orig": "Eu não consumo caça quase nunca.",
+"nova": "Quase nunca como carne de caça.",
+"motivo": "tradução não natural"
+},
+"338750": {
+"orig": "Jamais retornarei.",
+"nova": "Não voltarei.",
+"motivo": "'jamais' a mais"
+},
+"1049476": {
+"orig": "O Sr. García é muito simpático.",
+"nova": "O Sr. García é muito bondoso.",
+"motivo": "buono ≠ simpático"
+},
+"1512769": {
+"orig": "Um cachorro enorme colocou as patas diante de mim, e eu não sabia, por medo, o que fazer.",
+"nova": "Um cachorro gigantesco pôs sua enorme pata em cima de mim, e eu, de medo, não sabia o que fazer.",
+"motivo": "sentido errado (patas diante de mim)"
+},
+"351022": {
+"orig": "Proibido entrada de cães.",
+"nova": "Proibida a entrada de cães.",
+"motivo": "concordância"
+},
+"351129": {
+"orig": "Estes sapatos são tão apertados, que não me atrevo a vesti-los.",
+"nova": "Estes sapatos estão tão apertados que não consigo calçá-los.",
+"motivo": "sentido errado (atrevo)"
+},
+"375032": {
+"orig": "O sol escondeu-se detrás da nuvem.",
+"nova": "O sol desapareceu atrás de uma nuvem.",
+"motivo": "artigo/sentido"
+},
+"382920": {
+"orig": "Eu não posso dizer-te a verdade.",
+"nova": "Não posso te dizer a verdade.",
+"motivo": "pt-BR"
+},
+"413279": {
+"orig": "Se o deixares, ele te leva pelo nariz.",
+"nova": "Se você deixar, ele te faz de bobo.",
+"motivo": "expressão idiomática traduzida literalmente"
+},
+"419174": {
+"orig": "Há uma tesoura em cima da carteira.",
+"nova": "Há uma tesoura em cima da mesa.",
+"motivo": "tavolo = mesa"
+},
+"606919": {
+"orig": "Seu inglês melhorou claramente.",
+"nova": "O inglês de vocês melhorou consideravelmente.",
+"motivo": "sensibilmente = consideravelmente"
+},
+"615262": {
+"orig": "Primeiro, segundo, terceiro, quarto, quinto, sexto, sétimo, oitavo, nono, décimo ... penúltimo, último.",
+"nova": "Primeiro, segundo, terceiro, quarto, quinto, sexto, sétimo, oitavo, nono, décimo... penúltimo, último.",
+"motivo": "espaço antes de reticências"
+},
+"691438": {
+"orig": "As crianças encontraram os presentes de Natal escondidos em baixo da cama.",
+"nova": "As crianças encontraram os presentes de Natal escondidos embaixo da cama.",
+"motivo": "ortografia"
+},
+"960215": {
+"orig": "Abandonamos o plano de fazer um piquenique.",
+"nova": "Vamos abandonar a ideia de fazer um piquenique.",
+"motivo": "idea = ideia; modo"
+},
+"979785": {
+"orig": "Vocês todos poderiam ficar parados?",
+"nova": "Ei, vocês, poderíamos ficar todos parados?",
+"motivo": "pessoa verbal (potremmo)"
+},
+"992300": {
+"orig": "Inverno passado fui esquiar ao Canadá.",
+"nova": "No inverno passado fui esquiar no Canadá.",
+"motivo": "pt-BR/artigo"
+},
+"1101604": {
+"orig": "Ele pediu-lhe sete vezes que ela casasse com ele.",
+"nova": "Ele a pediu em casamento sete vezes.",
+"motivo": "construção não natural"
+},
+"1108906": {
+"orig": "Você tira xerox? Preciso de dez cópias.",
+"nova": "Vocês tiram xerox? Preciso de dez cópias.",
+"motivo": "fate = vocês"
+},
+"1158635": {
+"orig": "Tom mostrou a Maria uma foto de João.",
+"nova": "Tom mostrou a Mary uma foto de John.",
+"motivo": "nomes trocados"
+},
+"1168779": {
+"orig": "Eu vou trazer minha irmã para a festa.",
+"nova": "Vou levar minha irmã à festa.",
+"motivo": "accompagnare ≠ trazer"
+},
+"1240787": {
+"orig": "Ele foi preso em flagrante.",
+"nova": "Eles foram pegos em flagrante.",
+"motivo": "número"
+},
+"1255344": {
+"orig": "Que trouxa que eu fui!",
+"nova": "Que bobo ele foi!",
+"motivo": "pessoa"
+},
+"1285412": {
+"orig": "Não consegui me fazer ouvir com o barulho na sala de aula.",
+"nova": "Não conseguia me fazer ouvir com o barulho da sala de aula.",
+"motivo": "tempo verbal"
+},
+"1652869": {
+"orig": "Se eu fosse você, ia já para casa.",
+"nova": "Se eu fosse você, iria direto para casa.",
+"motivo": "'ia já' não natural"
+},
+"1736373": {
+"orig": "Qual será a tarefa para amanhã ?",
+"nova": "Qual será a tarefa para amanhã?",
+"motivo": "espaço antes de ?"
+},
+"2196413": {
+"orig": "Bob diz: \"Quatro libras e cinquenta\".",
+"nova": "Bob disse: \"Quatro libras e cinquenta\".",
+"motivo": "tempo verbal"
+},
+"2197048": {
+"orig": "Faz o papel de Hamlet.",
+"nova": "Faço o papel de Hamlet.",
+"motivo": "pessoa"
+},
+"2197069": {
+"orig": "Madalena não se mostrou animada com a notícia de promoção do marido.",
+"nova": "Maddalena não se mostrou animada com a notícia da promoção do marido.",
+"motivo": "nome e artigo"
+},
+"2321667": {
+"orig": "A tela estava maravilhosa. Vocês deveriam ter visto.",
+"nova": "A foto estava maravilhosa! Você devia ter visto!",
+"motivo": "foto ≠ tela; pessoa"
+},
+"2887469": {
+"orig": "Ele vestiu-o.",
+"nova": "Ele o vestiu.",
+"motivo": "pt-BR"
+},
+"3333295": {
+"orig": "Estou usufruindo dos momentos de absoluto descanso.",
+"nova": "Estou desfrutando de momentos de absoluto descanso.",
+"motivo": "artigo a mais"
+},
+"3696133": {
+"orig": "Todo mundo acha que sim.",
+"nova": "Todos pensam assim.",
+"motivo": "sentido"
+},
+"14034613": {
+"orig": "Acabei de me lembrar de algo que preciso fazer antes da manhã de manhã.",
+"nova": "Acabei de me lembrar de uma coisa que preciso fazer antes de amanhã de manhã.",
+"motivo": "erro na tradução"
+},
+"342133": {
+"orig": "Eu me chamo Andréa.",
+"nova": "Eu me chamo Andrea.",
+"motivo": "nome trocado"
+},
+"388473": {
+"orig": "As sete questões que um engenheiro deve se perguntar: quem, o quê, quando, onde, por quê, como e quantos.",
+"nova": "As sete perguntas que um engenheiro deve se fazer são: quem, o quê, quando, onde, por quê, como e quanto.",
+"motivo": "falta verbo; quanto"
+},
+"393929": {
+"orig": "No seu país de origem, a França, a Tatoeba virou um fenómeno cultural e social.",
+"nova": "No seu país de origem, a França, o Tatoeba virou um fenômeno cultural e social.",
+"motivo": "ortografia pt-PT"
+},
+"633179": {
+"orig": "Hoje não vou andar de skate.",
+"nova": "Hoje eu não iria andar de skate.",
+"motivo": "modo verbal (condicional)"
+},
+"664391": {
+"orig": "O Japão importa grande quantidade de petróleo.",
+"nova": "O Japão importa grandes quantidades de petróleo bruto.",
+"motivo": "falta 'bruto'; número"
+},
+"692925": {
+"orig": "Vem, Emília! Teu pai está te esperando.",
+"nova": "Anda logo, Emilia! Teu pai está te esperando.",
+"motivo": "muoviti; nome"
+},
+"749409": {
+"orig": "Como o erro surgiu?",
+"nova": "Onde ocorreu o erro?",
+"motivo": "dove = onde"
+},
+"847539": {
+"orig": "Se esforce nos estudo que você terá sucesso.",
+"nova": "Esforce-se nos estudos e você terá sucesso.",
+"motivo": "erro gramatical"
+},
+"878758": {
+"orig": "Aqui está uma ilustração no topo dessa página.",
+"nova": "Há uma ilustração no topo desta página.",
+"motivo": "c'è = há"
+},
+"880150": {
+"orig": "Tendes lugar para uma tenda?",
+"nova": "Vocês têm lugar para uma barraca?",
+"motivo": "vós arcaico; pt-BR"
+},
+"975256": {
+"orig": "Posso tirar uma foto tua?",
+"nova": "Posso tirar uma foto sua?",
+"motivo": "pt-BR natural"
+},
+"980416": {
+"orig": "Não façais barulho, o vô está dormindo.",
+"nova": "Não façam barulho, o vovô está dormindo.",
+"motivo": "vós arcaico; registro"
+},
+"1317849": {
+"orig": "Não encontramos ninguém tão destemido.",
+"nova": "Alguém tão bom assim a gente não encontra.",
+"motivo": "bravo = bom, não destemido"
+},
+"1522268": {
+"orig": "A minha desculpa direi que estava na correria.",
+"nova": "Em minha defesa, direi que estava nervosa.",
+"motivo": "sentido errado"
+},
+"1546066": {
+"orig": "Eu trabalho como um escravo!",
+"nova": "Eu trabalho como uma escrava!",
+"motivo": "gênero"
+},
+"1646605": {
+"orig": "Elas são médicas.",
+"nova": "Eles são médicos.",
+"motivo": "gênero (medici)"
+},
+"1736477": {
+"orig": "Segundo alguns pesquisadores, até um só cigarro é suficiente para inserir à dependência.",
+"nova": "Segundo alguns pesquisadores, até um só cigarro é suficiente para desencadear a dependência.",
+"motivo": "sentido errado (inserir)"
+},
+"1738265": {
+"orig": "Não se deixe intimidar por certas pessoas !",
+"nova": "Não se deixe intimidar por certas pessoas!",
+"motivo": "espaço antes de !"
+},
+"1738576": {
+"orig": "Jamais conseguiremos combater?",
+"nova": "Será que algum dia conseguiremos lutar?",
+"motivo": "mai = algum dia"
+},
+"1738609": {
+"orig": "Tom é um condutor muito prudente.",
+"nova": "Tom é um motorista muito prudente.",
+"motivo": "pt-BR"
+},
+"1738641": {
+"orig": "Vocês virão a minha festa?",
+"nova": "Vocês virão à minha festa?",
+"motivo": "crase"
+},
+"1738744": {
+"orig": "E existe ainda quem acredita nesta magistratura.",
+"nova": "E ainda há quem acredite nesta magistratura?",
+"motivo": "modo verbal e pontuação"
+},
+"1738747": {
+"orig": "Ele (a) se arrisca dizer um mar de estupides.",
+"nova": "Corre-se o risco de dizer um monte de besteiras.",
+"motivo": "tradução quebrada"
+},
+"1738761": {
+"orig": "Mas vocês têm dúvidas?",
+"nova": "Mas vocês tinham dúvidas?",
+"motivo": "tempo verbal"
+},
+"1738765": {
+"orig": "Esperamos de verdade em uma redenção ?",
+"nova": "Esperamos mesmo uma redenção?",
+"motivo": "tradução quebrada; espaço antes de ?"
+},
+"1738814": {
+"orig": "Agora está em decomposição.",
+"nova": "Agora já está em decomposição!",
+"motivo": "pontuação; ormai"
+},
+"1835439": {
+"orig": "Sou sua esposa e gosto de me ver bem para agradá-lo.",
+"nova": "Sou sua esposa e gosto de ficar bonita para te agradar.",
+"motivo": "sentido (apparire bella)"
+},
+"1836050": {
+"orig": "Estimo-te.",
+"nova": "Eu te estimo.",
+"motivo": "pt-BR"
+},
+"1837936": {
+"orig": "Eu me refresquei com um banho quente.",
+"nova": "Eu me revigorei com um banho quente.",
+"motivo": "ristorarsi ≠ refrescar"
+},
+"1899450": {
+"orig": "Você é sagas.",
+"nova": "Você é sagaz.",
+"motivo": "ortografia"
+},
+"1916939": {
+"orig": "Você é realmente importuno.",
+"nova": "Você é realmente irritante.",
+"motivo": "fastidioso = irritante"
+},
+"1968773": {
+"orig": "Esqueço-me sempre do nome das pessoas.",
+"nova": "Eu sempre esqueço o nome das pessoas.",
+"motivo": "pt-BR"
+},
+"2003331": {
+"orig": "Precisamos de investir em energia limpa e renovável.",
+"nova": "Precisamos investir em energia limpa e renovável.",
+"motivo": "pt-PT"
+},
+"2003333": {
+"orig": "Nós vamos nos assegurar de que ninguém está tirando proveito do povo americano para seu próprio ganho a curto prazo.",
+"nova": "Estamos nos assegurando de que ninguém esteja tirando proveito do povo americano para seu próprio ganho a curto prazo.",
+"motivo": "tempo verbal"
+},
+"2412062": {
+"orig": "Ela se apaixonou por mim ?",
+"nova": "Ela se apaixonou por mim?",
+"motivo": "espaço antes de ?"
+},
+"2480657": {
+"orig": "Apressa-te ou chegarás tarde.",
+"nova": "Apressem-se ou vocês vão se atrasar.",
+"motivo": "pessoa (plural)"
+},
+"2481936": {
+"orig": "Um plano assim esta fadado a falhar.",
+"nova": "Um plano assim está fadado a falhar.",
+"motivo": "acentuação"
+},
+"2615649": {
+"orig": "Quase não há mais água nenhuma no balde.",
+"nova": "Quase não há mais água no balde.",
+"motivo": "'nenhuma' a mais"
+},
+"2676758": {
+"orig": "Você abandonou completamente o estudo do alemão, não estou certo?",
+"nova": "Você largou o alemão de vez, certo?",
+"motivo": "acréscimo/construção não natural"
+},
+"2719090": {
+"orig": "Não quero mais te atormentar.",
+"nova": "Não quero mais atormentar vocês.",
+"motivo": "pessoa (plural)"
+},
+"2760336": {
+"orig": "Pensei que pudesse estar curioso.",
+"nova": "Pensei que vocês pudessem estar curiosos.",
+"motivo": "pessoa (plural)"
+},
+"2896229": {
+"orig": "Aí não tem o meu dedo!",
+"nova": "Esse não é o meu dedo!",
+"motivo": "sentido errado"
+},
+"3025218": {
+"orig": "Lênin tentou obter uma legitimação política.",
+"nova": "Lênin tenta obter uma legitimação política.",
+"motivo": "tempo verbal"
+},
+"3025324": {
+"orig": "A chegada de Hitler ao poder perturba o equilíbrio do continente europeu.",
+"nova": "A chegada de Hitler perturba o equilíbrio dentro do continente europeu.",
+"motivo": "informação a mais (ao poder)"
+},
+"3475026": {
+"orig": "Está a explorar a sua nova casa.",
+"nova": "Está explorando a sua nova casa.",
+"motivo": "pt-PT"
+},
+"3544324": {
+"orig": "Tom decidiu por não desistir.",
+"nova": "Tom decidiu não desistir.",
+"motivo": "regência"
+},
+"3662900": {
+"orig": "Eu vou no domingo.",
+"nova": "Eu parto no domingo.",
+"motivo": "partire = partir"
+},
+"3696102": {
+"orig": "Espero que você goste e divirta-se!",
+"nova": "Espero que você goste e se divirta.",
+"motivo": "pontuação/colocação"
+},
+"3698877": {
+"orig": "Eu estou acrescentando um pouco de sal a minha comida.",
+"nova": "Estou acrescentando um pouco de sal à minha comida.",
+"motivo": "crase"
+},
+"3810158": {
+"orig": "Tom cresceu num ambiente multilingue.",
+"nova": "Tom cresceu num ambiente multilíngue.",
+"motivo": "acentuação"
+},
+"4050452": {
+"orig": "Tenho a sensação que deveria dizer alguma coisa a Tom.",
+"nova": "Tenho a sensação de que deveria dizer alguma coisa a Tom.",
+"motivo": "regência"
+},
+"6009652": {
+"orig": "Quero dar isto.",
+"nova": "Quero dar isto a ela.",
+"motivo": "falta objeto indireto"
+},
+"6200913": {
+"orig": "O Tom e a Mary viveram em perfeita harmonia.",
+"nova": "Tom e Mary viviam em perfeita harmonia.",
+"motivo": "tempo verbal"
+},
+"6755671": {
+"orig": "\"De que nacionalidade eram os vossos alunos?\" \"Mexicana.\"",
+"nova": "\"De que nacionalidade eram as alunas de vocês?\" \"Mexicana.\"",
+"motivo": "gênero; vós"
+},
+"6916363": {
+"orig": "Porque concordaste?",
+"nova": "Por que você concordou?",
+"motivo": "ortografia (por que)"
+},
+"7040736": {
+"orig": "Ele arruinou sua saúde trabalhando tão duro.",
+"nova": "Ele arruinou a saúde trabalhando demais.",
+"motivo": "troppo = demais"
+},
+"8424344": {
+"orig": "Tendo sida escrita às pressas, esta carta contém muitos erros.",
+"nova": "Tendo sido escrita às pressas, esta carta contém muitos erros.",
+"motivo": "ortografia"
+},
+"9739253": {
+"orig": "Meu espanhol é um pouco enferrujado.",
+"nova": "Meu espanhol está um pouco enferrujado.",
+"motivo": "ser/estar"
+},
+"9941758": {
+"orig": "Osvaldo hoje come cajus.",
+"nova": "Osvaldo hoje come castanhas de caju.",
+"motivo": "anacardi = castanhas de caju"
+},
+"11620437": {
+"orig": "O Pombo, com esta resposta, desceu velozmente e veio a pousar em terra.",
+"nova": "O Pombo, ao ouvir esta resposta, desceu velozmente e pousou no chão.",
+"motivo": "tradução não natural"
+},
+"11626583": {
+"orig": "Volta a montar a cavalo, e andemos: a noitada é fresca, e a estrada é longa.",
+"nova": "Monte de novo no cavalo e vamos: a noite está fresca e a estrada é longa.",
+"motivo": "erros (andemos, noitada)"
+},
+"13991797": {
+"orig": "Ele não conseguia ver nenhuma diferença entre os gémeos.",
+"nova": "Ele não conseguia ver nenhuma diferença entre os gêmeos.",
+"motivo": "pt-PT"
+},
+"14025229": {
+"orig": "A preparação para um bebê é um trabalho grande.",
+"nova": "Preparar-se para a chegada de um bebê é um trabalho exigente.",
+"motivo": "tradução não corresponde"
+},
+"350467": {
+"orig": "Em geral se sabe pouco acerca de equações diferenciais não-lineares de segunda ordem.",
+"nova": "Em geral se sabe pouco acerca de equações diferenciais não lineares de segunda ordem.",
+"motivo": "ortografia (hífen)"
+},
+"409833": {
+"orig": "Jack decidiu cancelar as reservas.",
+"nova": "Jack decidiu cancelar a reserva.",
+"motivo": "número"
+},
+"637441": {
+"orig": "Acho que a bateria esteja descarregada.",
+"nova": "Acho que a bateria está descarregada.",
+"motivo": "modo verbal"
+},
+"921303": {
+"orig": "Abaixe o rádio, não consigo entender o que estás dizendo.",
+"nova": "Abaixe o rádio, não consigo entender o que você está dizendo.",
+"motivo": "mistura tu/você"
+},
+"963688": {
+"orig": "Não acho que Papai Noel não existe.",
+"nova": "Não acho que o Papai Noel seja imaginário.",
+"motivo": "dupla negação/sentido"
+},
+"965721": {
+"orig": "Este cachorro é adestrado para latir aos estranhos.",
+"nova": "Este cachorro é adestrado para latir para estranhos.",
+"motivo": "regência"
+},
+"1100321": {
+"orig": "A invenção dele merece a nossa atenção.",
+"nova": "A invenção dele merece atenção.",
+"motivo": "'nossa' a mais"
+},
+"2196404": {
+"orig": "Você gostaria tomar uns drinques conosco?",
+"nova": "Você gostaria de tomar alguma coisa com a gente?",
+"motivo": "regência; bere qualcosa"
+},
+"2700885": {
+"orig": "Instalei hoje um novo programa no meu computador.",
+"nova": "Instalei ontem um novo programa no meu computador.",
+"motivo": "ieri = ontem"
+},
+"1557915": {
+"orig": "Um cachorro perseguia um gato.",
+"nova": "Um cachorro perseguiu um gato.",
+"motivo": "tempo verbal"
+},
+"1733033": {
+"orig": "Vocês podem falar mais baixo, por favor ? Estou com dor de cabeça por causa da ressaca.",
+"nova": "Você poderia falar mais baixo, por favor? Estou com dor de cabeça por causa da ressaca.",
+"motivo": "pessoa; espaço antes de ?"
+},
+"1736140": {
+"orig": "As suas palavras são menções de A a Z.",
+"nova": "As palavras dele são mentiras de A a Z.",
+"motivo": "menzogne = mentiras"
+},
+"1736257": {
+"orig": "Ele (a) não se deu conta da pequena viodeocâmera no semáforo.",
+"nova": "Ele não percebeu a pequena câmera de vídeo no semáforo.",
+"motivo": "erro de digitação"
+},
+"1738244": {
+"orig": "O vento sopra ainda forte.",
+"nova": "O vento ainda sopra forte.",
+"motivo": "ordem das palavras"
+},
+"1738307": {
+"orig": "É tempo de voltar a página.",
+"nova": "É hora de virar a página.",
+"motivo": "expressão"
+},
+"1937023": {
+"orig": "Aconteceu de nos encontramos ontem.",
+"nova": "Aconteceu de nos encontrarmos ontem.",
+"motivo": "flexão verbal"
+},
+"2197035": {
+"orig": "Os indianos tinham dificuldade para encontrar comida.",
+"nova": "Os indígenas tinham dificuldade para encontrar comida.",
+"motivo": "indios ≠ indianos"
 },
 "3696147": {
 "orig": "Vocês foram com Maria a Boston.",
@@ -1633,80 +5628,326 @@
 }
 },
 "remove": [
+401921,
+412891,
 425756,
 531442,
+606193,
+607825,
+609567,
+620726,
+627787,
+662389,
 664300,
 677377,
+692912,
 706821,
+764717,
+794957,
+837957,
+838274,
 841949,
+850862,
+861875,
+874410,
+883369,
 891955,
+969540,
+990504,
+992560,
+1005798,
+1016639,
 1020267,
+1034482,
 1041709,
+1057357,
+1101608,
+1105691,
+1107010,
+1109842,
+1131280,
 1148418,
+1166631,
+1184294,
+1194520,
+1235875,
+1249252,
 1294219,
 1297079,
+1314071,
+1325712,
 1325752,
+1338590,
+1363861,
+1366596,
 1395794,
+1409507,
 1445591,
+1470475,
+1517799,
+1545720,
 1550668,
+1588506,
 1622791,
+1664116,
+1664117,
+1664851,
+1679342,
 1681088,
 1690299,
 1690334,
+1710418,
+1714936,
+1738300,
+1738575,
+1738738,
+1806108,
+1819389,
 1839368,
 1900583,
+1980450,
+1980451,
+1980452,
+1980453,
+1980455,
+1980456,
+1984231,
+2023152,
+2197040,
+2197057,
+2197108,
+2201231,
 2233806,
+2395228,
+2414946,
 2417266,
+2462197,
+2507665,
+2529444,
 2554664,
 2554665,
+2695143,
+2695362,
+2697207,
+2721146,
+2785912,
 2814790,
 2814793,
+2833701,
+2847677,
+2847678,
+2971166,
+2983278,
+3007479,
+3106254,
+3145607,
+3172106,
+3192522,
 3198689,
 3209748,
+3236172,
+3237615,
+3255375,
+3255994,
+3313948,
+3326917,
+3359844,
+3379374,
 3427735,
+3439213,
+3441729,
+3482713,
+3482714,
+3490900,
+3494743,
+3502834,
+3518336,
+3545553,
+3581317,
+3590343,
+3686021,
+3696052,
+3696056,
+3696061,
 3696066,
+3696079,
+3696156,
+3753533,
+3753534,
 3796405,
+3867273,
+3882822,
 3956555,
+3987096,
+4004123,
+4176659,
 4226672,
+4259870,
 4261233,
 4286594,
+4296758,
+4343185,
+4387458,
 4393207,
+4467659,
+4484284,
 4541810,
 4564395,
+4596938,
+4698280,
+4777638,
+4914496,
+4961502,
 4977378,
+5081095,
+5230369,
+5246465,
+5357041,
+5396675,
+5449297,
+5458986,
 5528289,
+5551672,
+5644767,
+5662311,
+5968632,
 6025762,
+6200774,
+6363474,
+6484832,
+6675172,
+6707330,
 6757242,
+6832278,
+6843205,
+6857214,
+6966885,
 7239839,
+7424060,
+7432615,
+7599436,
+7649956,
+7679715,
+7723492,
+7723669,
+7724322,
+7726683,
+7833869,
+7833872,
+7833875,
+7833878,
 7849358,
 7850862,
 7850863,
+7851414,
+8002629,
+8490703,
+8490906,
+8490921,
 8618324,
+8808704,
 8986399,
 8986407,
+8986414,
+9728584,
+9742150,
+9750933,
+9755317,
+9769453,
+9769473,
+9944007,
+10124439,
+10125703,
+10145154,
+11648529,
+12311708,
+12872979,
+12892572,
+13029519,
+13956316,
+13956320,
 13956324,
+13956329,
+13956330,
+13968404,
 13968408,
+13968411,
+13976538,
+13976545,
+13983303,
 13983313,
+13991786,
+13991792,
+13991794,
+14000488,
 14001431,
+14001438,
 14001439,
+14001440,
+14009478,
 14009488,
+14009489,
+14015256,
+14015257,
+14015258,
+14015264,
+14015828,
 14022256,
 14022273,
+14024332,
+14024341,
+14025228,
+14027109,
 14027120,
 14027122,
+14027437,
+14027439,
 14027440,
+14027442,
+14029951,
+14031051,
+14031056,
 14031064,
 14032588,
+14032594,
+14034603,
+14034607,
 14034615,
+14036510,
+14037422,
+14037423,
 14037425,
+14039381,
+14039382,
+14042008,
+14042009,
+14049575,
+14054442,
+14054443,
 14055060,
+14059882,
 14067663,
+14067667,
+14070030,
 14070033,
+14075961,
 14077715,
 14077716,
+14077718,
+14077719,
+14077723,
+14077724,
 14077725,
+14077726,
+14083154,
+14083155,
+14084219,
 14084221,
+14100357,
+14100364,
+14100365,
 14100366,
-14100368
+14100368,
+14101159
 ]
 }
