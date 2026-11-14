@@ -1370,12 +1370,12 @@ $('trackTabs').onclick = e => { const b = e.target.closest('button'); if (!b) re
   HIDDEN = new Set(IDX.hidden || []);
   try { TRACKS = (await getJSON(COURSE.path + 'tracks.json')).tracks || []; } catch(e) { TRACKS = []; }
   if (IDX.dv === 2 && S.dv !== 2) {
-    if (Object.keys(S.prog).length) {
-      const map = await migMap();
-      const np = {}; if (map) for (const [k, v] of Object.entries(S.prog)) { const n = map[+k]; if (n >= 0) np[n] = v; }
-      S.prog = np;
+    const has = Object.keys(S.prog).length > 0;
+    const map = has ? await migMap() : null;
+    if (!has || map) {   // sem o mapa, não mexe no progresso: tenta de novo na próxima abertura
+      if (has) { const np = {}; for (const [k, v] of Object.entries(S.prog)) { const n = map[+k]; if (n >= 0) np[n] = v; } S.prog = np; }
+      S.ptr = {}; S.dv = 2; saveLocal();
     }
-    S.ptr = {}; S.dv = 2; saveLocal();
   }
   $('totalSent').textContent = IDX.total.toLocaleString('pt-BR');
   $('courseName').innerHTML = `<span>${SOURCES[SRC].flag}→${COURSE.flag}&nbsp;${COURSE.name}</span><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>`;
