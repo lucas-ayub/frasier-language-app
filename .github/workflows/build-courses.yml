@@ -4,8 +4,8 @@ on:
   push:
     branches: [main]
     paths:
-      - 'tools/**'
-      - .github/workflows/build-courses.yml
+      # só roda quando tools/rebuild.txt muda: uma nova geração muda a ordem das frases
+      - tools/rebuild.txt
 
 permissions:
   contents: write

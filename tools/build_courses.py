@@ -257,6 +257,10 @@ for code in ['es', 'de', 'it', 'fr', 'en']:
     if os.path.exists(d): shutil.rmtree(d)
 
 json.dump(qa, open(os.path.join(OUT, 'qa-sample.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
+
+# revisões (correções e frases removidas) guardadas em tools/reviews/
+from apply_reviews import apply as apply_reviews
+apply_reviews(OUT, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'reviews'))
 json.dump(REPORT, open(os.path.join(OUT, 'build-report.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 for sl, tl in PAIRS:
     pr = CODE[sl] + '-' + CODE[tl]; log(pr, REPORT[pr]['total'], 'nativos nos dois lados:', REPORT[pr]['native_both'])

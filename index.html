@@ -536,11 +536,11 @@ const KEY = 'frasier-' + PAIR + '-v1';
 COURSE.path = 'data/' + PAIR + '/';
 try { if (LEGACY && !localStorage.getItem(KEY) && localStorage.getItem('frasier-' + LEGACY + '-v1')) localStorage.setItem(KEY, localStorage.getItem('frasier-' + LEGACY + '-v1')); } catch(e){}
 
-const APP_VERSION = '2.4 · 14 nov 2026';
+const APP_VERSION = '2.5 · 14 nov 2026';
 const IN_ARTIFACT = !!(window.claude && window.claude.use) || window.self !== window.top;
 const STANDALONE = (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
 
-let IDX = null, WORDS = [], RANK = new Map(), TRACKS = [];
+let IDX = null, WORDS = [], RANK = new Map(), TRACKS = [], HIDDEN = new Set();
 const CHUNKS = new Map();
 let S = freshState();
 function freshState(){ return { prog:{}, ptr:{}, stats:{ points:0, days:{} }, settings:{ goal:30, mode:'mc', level:0, autoAudio:true, accent:COURSE.voices[0][0], rate:1 }, su:0 }; }
@@ -843,7 +843,7 @@ function distractors(ans){
 /* ---------- domínio / estatísticas ---------- */
 function dueList(){
   const t = today();
-  return Object.entries(S.prog).filter(([, v]) => v[1] <= t).sort((a, b) => a[1][1] - b[1][1]).map(([k]) => +k);
+  return Object.entries(S.prog).filter(([k, v]) => v[1] <= t && !HIDDEN.has(+k)).sort((a, b) => a[1][1] - b[1][1]).map(([k]) => +k);
 }
 function streak(){
   const t = today(), g = S.settings.goal; let s = 0;
@@ -924,13 +924,13 @@ async function startRound(kind){
     const t = curTrack();
     if (t) {
       const sub = curSub(), key = subKey(t, sub); let p = S.ptr[key] || 0; ids = []; R_POS = {}; R_KEY = key;
-      while (ids.length < ROUND && p < sub.ids.length) { const id = sub.ids[p]; if (!(id in S.prog)) { ids.push(id); R_POS[id] = p; } p++; }
+      while (ids.length < ROUND && p < sub.ids.length) { const id = sub.ids[p]; if (!(id in S.prog) && !HIDDEN.has(id)) { ids.push(id); R_POS[id] = p; } p++; }
       if (!ids.length) { toast('Você já viu todas as frases deste tema. Escolha outro!'); return; }
     } else {
       R_KEY = null; R_POS = null;
       const L = IDX.levels[S.settings.level];
       let p = Math.max(S.ptr[S.settings.level] || L.start, L.start); ids = [];
-      while (ids.length < ROUND && p < L.end) { if (!(p in S.prog)) ids.push(p); p++; }
+      while (ids.length < ROUND && p < L.end) { if (!(p in S.prog) && !HIDDEN.has(p)) ids.push(p); p++; }
       if (!ids.length) { toast('Você já viu todas as frases desta coleção. Escolha outra!'); return; }
     }
   }
@@ -954,7 +954,9 @@ function renderQ(){
   const tag = $('qtag');
   if (q.retry) { tag.textContent = 'Tente de novo'; tag.className = 'tag retry'; }
   else if (!prev) { tag.textContent = 'Nova'; tag.className = 'tag new'; }
-  else { tag.textContent = 'Revisão · ' + (prev[0] * 25) + '%'; tag.className = 'tag'; }
+  else { tag.textContent = 'Revisão · ' + (Math.max(0, prev[0]) * 25) + '%'; tag.className = 'tag'; }
+  tag.title = '';
+  if (IDX.reviewed && q.idx < IDX.reviewed) { tag.textContent += ' · revisada ✓'; tag.title = 'Frase e tradução conferidas por revisão'; }
   const tr = transOf(q.idx);
   $('trans').innerHTML = esc(tr.text) + (tr.fallback ? ' <span class="trbadge" title="Sem tradução em português; mostrando a inglesa">EN</span>' : '');
   $('qcard').classList.remove('v-ok', 'v-bad', 'pop');
@@ -1365,6 +1367,7 @@ $('trackTabs').onclick = e => { const b = e.target.closest('button'); if (!b) re
     if (PAIR !== 'pt-es') { switchPair('pt-es'); $('loading').innerHTML = `<div style="text-align:center;padding:24px">O curso de ${COURSE.name} ainda está sendo preparado. Tente de novo em alguns minutos.<br><br><button class="btn btn-primary" onclick="location.reload()">Voltar ao espanhol</button></div>`; return; }
     $('loading').innerHTML = '<div>Não consegui carregar as frases. Recarregue a página.</div>'; return; }
   WORDS.forEach((w, i) => RANK.set(w, i));
+  HIDDEN = new Set(IDX.hidden || []);
   try { TRACKS = (await getJSON(COURSE.path + 'tracks.json')).tracks || []; } catch(e) { TRACKS = []; }
   if (IDX.dv === 2 && S.dv !== 2) {
     if (Object.keys(S.prog).length) {

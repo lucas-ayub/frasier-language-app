@@ -1,0 +1,2 @@
+Mude este arquivo (ex.: a data abaixo) para gerar os cursos de novo a partir do Tatoeba. Atenção: isso muda a ordem das frases.
+2026-11-14
