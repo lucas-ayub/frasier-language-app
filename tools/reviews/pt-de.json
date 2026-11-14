@@ -1,0 +1,2631 @@
+{
+"reviewed_upto": 5170,
+"fix": {
+"6626104": {
+"orig": "Aquele não é o Tom.",
+"nova": "Não é o Tom.",
+"motivo": "demonstrativo a mais"
+},
+"9998623": {
+"orig": "Aquele não era o Tom.",
+"nova": "Não era o Tom.",
+"motivo": "demonstrativo a mais"
+},
+"444024": {
+"orig": "Vai tudo bem.",
+"nova": "Está tudo bem.",
+"motivo": "não natural pt-BR"
+},
+"907721": {
+"orig": "Eu gosto disto.",
+"nova": "Eu gosto dele.",
+"motivo": "ihn = ele, não 'isto'"
+},
+"2813838": {
+"orig": "Eu não sou como você.",
+"nova": "Eu não sou como vocês.",
+"motivo": "ihr = plural"
+},
+"1223280": {
+"orig": "Cá estamos!",
+"nova": "Aqui estamos!",
+"motivo": "'cá' é pt-PT"
+},
+"4343372": {
+"orig": "És muito bom.",
+"nova": "Você é muito bom.",
+"motivo": "Sie ≠ tu (és)"
+},
+"2977925": {
+"orig": "Tom não gosta da Mary.",
+"nova": "Tom não gosta da Maria.",
+"motivo": "manter nome Maria"
+},
+"3925138": {
+"orig": "Eu sou o Tom e essa é a Mary.",
+"nova": "Eu sou o Tom e essa é a Maria.",
+"motivo": "manter nome Maria"
+},
+"1693818": {
+"orig": "Ela sabe. Ela sempre sabe.",
+"nova": "Ela sabe. Ela sempre sabe tudo.",
+"motivo": "faltou 'alles'"
+},
+"6643778": {
+"orig": "Eu sei que o Tom não gosta da Mary.",
+"nova": "Eu sei que o Tom não gosta da Maria.",
+"motivo": "manter nome Maria"
+},
+"7447261": {
+"orig": "O Tom sabe que a Mary não gosta disso.",
+"nova": "O Tom sabe que a Maria não gosta disso.",
+"motivo": "manter nome Maria"
+},
+"7210239": {
+"orig": "Porque agora?",
+"nova": "Por que agora?",
+"motivo": "ortografia 'por que'"
+},
+"2086021": {
+"orig": "O dia está começando.",
+"nova": "Amanheceu.",
+"motivo": "tempo verbal (passado)"
+},
+"1951891": {
+"orig": "Eu não o diria assim.",
+"nova": "Eu não diria isso.",
+"motivo": "'assim' a mais"
+},
+"887973": {
+"orig": "Como ela fala muito!",
+"nova": "Como ela fala!",
+"motivo": "'muito' a mais, pt estranho"
+},
+"1521273": {
+"orig": "Você assistiu?",
+"nova": "Você viu?",
+"motivo": "gesehen = viu"
+},
+"1816741": {
+"orig": "Deus meu!",
+"nova": "Meu Deus!",
+"motivo": "ordem não natural"
+},
+"7798689": {
+"orig": "Ela estava com medo.",
+"nova": "Ela está com medo.",
+"motivo": "tempo verbal (presente)"
+},
+"1572421": {
+"orig": "Sê tu mesmo.",
+"nova": "Seja você mesmo.",
+"motivo": "forma arcaica/pt-PT"
+},
+"1572761": {
+"orig": "Virá ele?",
+"nova": "Ele virá?",
+"motivo": "inversão arcaica"
+},
+"6624984": {
+"orig": "O que você quer que eu faça com o Tom?",
+"nova": "O que eu devo fazer com o Tom?",
+"motivo": "sollen ≠ você quer"
+},
+"1494573": {
+"orig": "Não falo a você, mas a ela.",
+"nova": "Não estou falando com você, mas com ela.",
+"motivo": "pt não natural"
+},
+"1383453": {
+"orig": "Desde quando você está aqui?",
+"nova": "Há quanto tempo você está aqui?",
+"motivo": "wie lange = há quanto tempo"
+},
+"5611391": {
+"orig": "Eu gosto disto.",
+"nova": "Isso me faz bem.",
+"motivo": "sentido errado"
+},
+"6642319": {
+"orig": "Tom parece bem, não é?",
+"nova": "O Tom é bonito, não é?",
+"motivo": "gut aussehen = ser bonito"
+},
+"440908": {
+"orig": "Ele poderia fazê-lo!",
+"nova": "Ele deveria ser capaz de fazer isso!",
+"motivo": "sollen/können mal traduzidos"
+},
+"356299": {
+"orig": "Este sou eu.",
+"nova": "Sou eu.",
+"motivo": "pt não natural"
+},
+"340885": {
+"orig": "Eu espero por isso.",
+"nova": "Espero que sim.",
+"motivo": "sentido: esperar = hoffen"
+},
+"1844096": {
+"orig": "Chegamos tarde.",
+"nova": "Vamos chegar tarde.",
+"motivo": "presente com valor de futuro"
+},
+"688326": {
+"orig": "Vocês tem dinheiro?",
+"nova": "Vocês têm dinheiro?",
+"motivo": "acento 'têm'"
+},
+"1512065": {
+"orig": "Você é o mais alto.",
+"nova": "Você é o maior.",
+"motivo": "der Größte = o maior (idiomático)"
+},
+"13592403": {
+"orig": "Eu sei o seu nome.",
+"nova": "Eu sei o nome dele.",
+"motivo": "seinen = dele"
+},
+"989089": {
+"orig": "Tu não tens coração.",
+"nova": "Você não tem coração.",
+"motivo": "Sie ≠ tu"
+},
+"3153452": {
+"orig": "Não há ninguém melhor que o Tom.",
+"nova": "O Tom é o melhor.",
+"motivo": "paráfrase desnecessária"
+},
+"4942887": {
+"orig": "Venham amanhã.",
+"nova": "Venha amanhã.",
+"motivo": "imperativo singular"
+},
+"809338": {
+"orig": "Você conhece seu irmão mais velho?",
+"nova": "Você conhece o irmão mais velho dele?",
+"motivo": "seinen = dele"
+},
+"353306": {
+"orig": "Ele brinca no seu quarto.",
+"nova": "Ele brinca no quarto dele.",
+"motivo": "seinem = dele"
+},
+"4687556": {
+"orig": "Onde é tua residência?",
+"nova": "Onde é a tua casa?",
+"motivo": "Zuhause = casa/lar"
+},
+"556103": {
+"orig": "Que deseja a senhora?",
+"nova": "Do que a senhora precisa?",
+"motivo": "brauchen = precisar"
+},
+"359569": {
+"orig": "Ele deve morrer.",
+"nova": "Ele tem que morrer.",
+"motivo": "'deve' ambíguo (probabilidade)"
+},
+"3298190": {
+"orig": "Se eu posso fazê-lo, logo você também pode.",
+"nova": "Se eu posso fazer isso, você também pode.",
+"motivo": "'logo' a mais"
+},
+"2739042": {
+"orig": "Tom pode falar francês.",
+"nova": "Tom sabe francês.",
+"motivo": "können + língua = saber"
+},
+"10077647": {
+"orig": "A casa é da minha mãe.",
+"nova": "Essa é a casa da minha mãe.",
+"motivo": "estrutura alterada"
+},
+"2109167": {
+"orig": "Faça-o sem falta, você mesmo!",
+"nova": "Façam vocês mesmos, então!",
+"motivo": "sentido e pessoa errados"
+},
+"2527674": {
+"orig": "Eu os vi.",
+"nova": "Eu vi vocês.",
+"motivo": "euch = vocês"
+},
+"6642456": {
+"orig": "Tom deve vir.",
+"nova": "Tom tem que vir.",
+"motivo": "'deve' ambíguo (probabilidade)"
+},
+"1148763": {
+"orig": "Que faria eu sem ti?",
+"nova": "O que eu vou fazer sem você?",
+"motivo": "inversão arcaica/tempo verbal"
+},
+"1206733": {
+"orig": "Maria é a esposa de Tom.",
+"nova": "Marie é a esposa de Tom.",
+"motivo": "manter nome Marie"
+},
+"126": {
+"orig": "Essa é minha resposta!",
+"nova": "Essa era a minha frase!",
+"motivo": "sentido e tempo errados"
+},
+"8592643": {
+"orig": "Tom não só fala Francês, mas também Inglês.",
+"nova": "Tom não só fala francês, mas também inglês.",
+"motivo": "maiúscula indevida"
+},
+"4870363": {
+"orig": "Há quanto tempo o senhor está aprendendo Francês?",
+"nova": "Há quanto tempo o senhor está aprendendo francês?",
+"motivo": "maiúscula indevida"
+},
+"576296": {
+"orig": "Sou grande.",
+"nova": "Sou alto.",
+"motivo": "groß (pessoa) = alto"
+},
+"4701805": {
+"orig": "Se ele quisesse, já teria feito isso há muito tempo.",
+"nova": "Se ele quisesse isso, já poderia ter feito há muito tempo.",
+"motivo": "faltou 'können' (poderia)"
+},
+"8304983": {
+"orig": "Graças a ti.",
+"nova": "Obrigado!",
+"motivo": "'graças a ti' sentido errado"
+},
+"2453742": {
+"orig": "Meu francês não é de todo o bom.",
+"nova": "Meu francês está longe de ser bom.",
+"motivo": "pt agramatical"
+},
+"454321": {
+"orig": "Eu conheço-o.",
+"nova": "Eu o conheço.",
+"motivo": "ênclise pt-PT"
+},
+"599305": {
+"orig": "Há uma maçã.",
+"nova": "Aqui está uma maçã.",
+"motivo": "faltou 'hier'"
+},
+"782862": {
+"orig": "Ana não tem irmãs.",
+"nova": "Ana não tem irmã.",
+"motivo": "número (singular)"
+},
+"788103": {
+"orig": "Eu preciso de vós.",
+"nova": "Eu preciso de vocês.",
+"motivo": "'vós' arcaico"
+},
+"6044893": {
+"orig": "Quantas vezes se tem de dizer o que se é, até que isso seja verdade?",
+"nova": "Quantas vezes é preciso dizer o que se é até se tornar isso de verdade?",
+"motivo": "'werden' = tornar-se"
+},
+"1561667": {
+"orig": "Não sei se ele virá de comboio ou de carro.",
+"nova": "Não sei se ele virá de trem ou de carro.",
+"motivo": "'comboio' é pt-PT"
+},
+"357453": {
+"orig": "Geralmente ele chega tarde.",
+"nova": "Ele muitas vezes chega atrasado.",
+"motivo": "oft ≠ geralmente"
+},
+"9802566": {
+"orig": "Você tem que encontrar ela.",
+"nova": "Você tem que encontrá-la.",
+"motivo": "gramática pt"
+},
+"731274": {
+"orig": "Se eu pudesse só dirigir!",
+"nova": "Se ao menos eu soubesse dirigir!",
+"motivo": "sentido de 'nur' e können"
+},
+"445923": {
+"orig": "Eu sei o seu nome.",
+"nova": "Eu sei o nome dele.",
+"motivo": "seinen = dele"
+},
+"583549": {
+"orig": "Estais gostando disso?",
+"nova": "Vocês estão gostando disso?",
+"motivo": "vós arcaico/europeu"
+},
+"432346": {
+"orig": "Eu fui um professor.",
+"nova": "Eu era professor.",
+"motivo": "pouco natural"
+},
+"10324121": {
+"orig": "Suponhamos que ela estivesse aqui.",
+"nova": "Suponhamos que ela esteja aqui.",
+"motivo": "modo/tempo"
+},
+"5228671": {
+"orig": "Estamos aprendendo Espanhol.",
+"nova": "Estamos aprendendo espanhol.",
+"motivo": "minúscula em idioma"
+},
+"1870241": {
+"orig": "Não estávamos fazendo nada!",
+"nova": "Não fizemos nada!",
+"motivo": "tempo verbal"
+},
+"2972257": {
+"orig": "Gosto de animais.",
+"nova": "Eu amo animais.",
+"motivo": "lieben = amar"
+},
+"403038": {
+"orig": "Você entende a dona Kunze?",
+"nova": "Você entende a senhora Kunze?",
+"motivo": "Frau = senhora (dona+sobrenome estranho)"
+},
+"8257976": {
+"orig": "Eu ouvi isso antes.",
+"nova": "Eles sempre dizem isso.",
+"motivo": "sentido errado"
+},
+"1314517": {
+"orig": "Nós conseguimos.",
+"nova": "Chegamos.",
+"motivo": "sentido errado"
+},
+"4189556": {
+"orig": "O marido ama a esposa.",
+"nova": "O homem gosta da mulher.",
+"motivo": "mögen = gostar; Mann/Frau"
+},
+"2137620": {
+"orig": "Que disse o homem?",
+"nova": "O que o homem disse?",
+"motivo": "ordem pt-PT"
+},
+"8119965": {
+"orig": "Que faz ele aqui?",
+"nova": "O que ele está fazendo aqui?",
+"motivo": "ordem pt-PT"
+},
+"13994411": {
+"orig": "Eu sou melhor que você.",
+"nova": "Eu sou melhor que vocês.",
+"motivo": "ihr = vocês"
+},
+"9960342": {
+"orig": "O Tom disse que a Mary não estava em casa.",
+"nova": "O Tom disse que a Maria não estava em casa.",
+"motivo": "nome trocado"
+},
+"358222": {
+"orig": "Eu não sei se o Jorge vem.",
+"nova": "Eu não sei se o George vem.",
+"motivo": "nome trocado"
+},
+"353596": {
+"orig": "Eu sou belo.",
+"nova": "Eu sou bonito.",
+"motivo": "belo pouco natural"
+},
+"1863700": {
+"orig": "\"Este não é o problema.\" - \"O que é o problema, então?\"",
+"nova": "\"Este não é o problema.\" - \"Qual é o problema, então?\"",
+"motivo": "gramática"
+},
+"3173478": {
+"orig": "Você é grande?",
+"nova": "Você é alto?",
+"motivo": "groß (pessoa) = alto"
+},
+"2771784": {
+"orig": "Que diz o homem?",
+"nova": "O que o homem diz?",
+"motivo": "ordem pt-PT"
+},
+"2758635": {
+"orig": "Boa noite, meus amigos.",
+"nova": "Boa noite, queridos amigos.",
+"motivo": "liebe = queridos"
+},
+"1587247": {
+"orig": "Eu nunca quisera isto, mas agora não consigo largar.",
+"nova": "Eu nunca quis isso, mas agora não consigo mais largar.",
+"motivo": "tempo verbal"
+},
+"1413371": {
+"orig": "Ouviste-me?",
+"nova": "Você me ouviu?",
+"motivo": "pt-PT"
+},
+"1531195": {
+"orig": "Eu conheço vocês.",
+"nova": "Eu sei quem vocês são.",
+"motivo": "sentido"
+},
+"440167": {
+"orig": "Ela é só uma criança.",
+"nova": "É só uma criança.",
+"motivo": "gênero inventado"
+},
+"7999216": {
+"orig": "Vou à casa do Tom.",
+"nova": "Estou indo para a casa do Tom.",
+"motivo": "aspecto (a caminho)"
+},
+"850109": {
+"orig": "Dei um livro a Mary.",
+"nova": "Dei um livro à Maria.",
+"motivo": "nome trocado/crase"
+},
+"11968467": {
+"orig": "Ela esqueceu de perguntar para ele o que iria perguntar.",
+"nova": "Ela esqueceu de perguntar a ele o que queria perguntar.",
+"motivo": "wollte = queria"
+},
+"369846": {
+"orig": "O senhor sabe guiar?",
+"nova": "O senhor sabe dirigir?",
+"motivo": "guiar = pt-PT"
+},
+"9960374": {
+"orig": "Eu não reconheço esse nome.",
+"nova": "Eu não conheço esse nome.",
+"motivo": "kennen = conhecer"
+},
+"10191293": {
+"orig": "Eu não sei nadar.",
+"nova": "Eu não sei nadar de jeito nenhum.",
+"motivo": "falta 'gar nicht'"
+},
+"2835839": {
+"orig": "Eu nunca vou entender você.",
+"nova": "Eu nunca vou entender vocês.",
+"motivo": "euch = vocês"
+},
+"808272": {
+"orig": "Quero falar com você!",
+"nova": "Eu gostaria de falar com você.",
+"motivo": "möchte; exclamação acrescentada"
+},
+"2535112": {
+"orig": "Tom pode falar francês.",
+"nova": "Tom sabe falar francês.",
+"motivo": "können = saber (habilidade)"
+},
+"6625622": {
+"orig": "Elas estão bem.",
+"nova": "Elas fazem isso bem.",
+"motivo": "sentido errado"
+},
+"12427801": {
+"orig": "Quantos filhos ele têm?",
+"nova": "Quantos filhos ele tem?",
+"motivo": "concordância (têm)"
+},
+"1795818": {
+"orig": "Que faria eu sem ti?",
+"nova": "O que eu faria sem você?",
+"motivo": "ordem pt-PT"
+},
+"2121279": {
+"orig": "Nós faremos tudo para você.",
+"nova": "Por vocês, fazemos tudo.",
+"motivo": "euch = vocês; für = por"
+},
+"9952868": {
+"orig": "O Tom quer ver isso agora?",
+"nova": "O Tom quer me ver agora?",
+"motivo": "sentido errado"
+},
+"8140042": {
+"orig": "Não é isso o que eu venho dizendo?",
+"nova": "Não foi isso que eu acabei de dizer?",
+"motivo": "gerade = acabar de"
+},
+"6728144": {
+"orig": "Isso é a questão.",
+"nova": "Essa é a questão.",
+"motivo": "gramática"
+},
+"3532953": {
+"orig": "Realmente disseste isso?",
+"nova": "O senhor realmente disse isso?",
+"motivo": "Sie formal"
+},
+"589906": {
+"orig": "Que horas você pode vir?",
+"nova": "Quando você pode vir?",
+"motivo": "wann = quando"
+},
+"9976294": {
+"orig": "Por quê aprender o francês?",
+"nova": "Por que aprender francês?",
+"motivo": "ortografia (por quê)"
+},
+"2456145": {
+"orig": "Alguém aqui pode falar francês?",
+"nova": "Alguém aqui fala francês?",
+"motivo": "'pode' acrescentado"
+},
+"8493681": {
+"orig": "Por favor, volte para casa.",
+"nova": "Por favor, voltem para casa!",
+"motivo": "plural (kommt)"
+},
+"7239356": {
+"orig": "Ele nunca disse a verdade.",
+"nova": "Ele nunca diz a verdade.",
+"motivo": "tempo verbal"
+},
+"3719676": {
+"orig": "Bom dia, dona Virtanen.",
+"nova": "Bom dia, senhora Virtanen.",
+"motivo": "Frau = senhora"
+},
+"6644501": {
+"orig": "Eu acho que Tom gosta de Mary.",
+"nova": "Eu acho que o Tom gosta da Maria.",
+"motivo": "nome trocado"
+},
+"6620678": {
+"orig": "Nós não bebemos.",
+"nova": "Nós não bebemos nada.",
+"motivo": "falta 'nada'"
+},
+"6645202": {
+"orig": "Você não pode dizer uma palavra.",
+"nova": "Você não precisa dizer uma palavra.",
+"motivo": "nicht müssen = não precisar"
+},
+"1069956": {
+"orig": "Que significa esta frase em esperanto?",
+"nova": "Como se diz esta frase em esperanto?",
+"motivo": "sentido errado"
+},
+"13348725": {
+"orig": "Eu não vi um gato nessa viagem inteira.",
+"nova": "Eu ainda não vi um único gato durante toda esta viagem.",
+"motivo": "falta 'noch keine einzige'"
+},
+"1266174": {
+"orig": "Se eu fosse você, ia já para casa.",
+"nova": "Se eu fosse você, iria agora mesmo para casa.",
+"motivo": "construção pt-PT"
+},
+"535906": {
+"orig": "De vez em quando eu estudo Esperanto.",
+"nova": "De vez em quando eu estudo esperanto.",
+"motivo": "minúscula em idioma"
+},
+"8748048": {
+"orig": "O senhor fala Português?",
+"nova": "O senhor fala português?",
+"motivo": "minúscula em idioma"
+},
+"1940201": {
+"orig": "Onde já está o seu pai?",
+"nova": "Onde está o pai dele agora?",
+"motivo": "sentido errado"
+},
+"394558": {
+"orig": "Aqui está o cachorro.",
+"nova": "Aqui está o seu cachorro.",
+"motivo": "falta 'dein'"
+},
+"2137853": {
+"orig": "Que disse o homem?",
+"nova": "O que o homem disse?",
+"motivo": "ordem pt-PT"
+},
+"10205184": {
+"orig": "Acho que o Tom e a Mary sabem.",
+"nova": "Acho que o Tom e a Maria sabem.",
+"motivo": "nome trocado"
+},
+"343500": {
+"orig": "Fala demasiado rápido.",
+"nova": "Ele fala rápido demais.",
+"motivo": "demasiado (pt-PT)"
+},
+"364459": {
+"orig": "Não sei se ele vem.",
+"nova": "Não sei se ele vem ou não.",
+"motivo": "falta 'oder nicht'"
+},
+"777195": {
+"orig": "Você tem todos esses livros?",
+"nova": "Você tem tantos livros assim?",
+"motivo": "so viele = tantos"
+},
+"8692874": {
+"orig": "Agora sabes porquê.",
+"nova": "Agora você sabe por quê.",
+"motivo": "porquê (pt-PT)"
+},
+"369840": {
+"orig": "Todos gostam de música.",
+"nova": "Todo mundo adora música.",
+"motivo": "lieben = amar/adorar"
+},
+"10039907": {
+"orig": "Nós gostamos do seu trabalho.",
+"nova": "Nós amamos o nosso trabalho.",
+"motivo": "'unsere' = nosso, não seu"
+},
+"1841984": {
+"orig": "Não o entendo.",
+"nova": "Eu não entendo isso.",
+"motivo": "'o' sugere 'ele'; das = isso"
+},
+"7814426": {
+"orig": "Quem me dera eu falar inglês tão bem.",
+"nova": "Quem me dera eu também falasse inglês tão bem!",
+"motivo": "faltava 'auch'; modo verbal"
+},
+"9960346": {
+"orig": "Eu estava falando com você?",
+"nova": "Eu falei com você?",
+"motivo": "Perfekt = pretérito perfeito"
+},
+"4677291": {
+"orig": "Meu pai está rico.",
+"nova": "Meu pai é rico.",
+"motivo": "ser, não estar"
+},
+"8924965": {
+"orig": "Tom não é tão rico o quanto as pessoas acham.",
+"nova": "Tom não é tão rico quanto as pessoas acham.",
+"motivo": "'tão ... o quanto' incorreto"
+},
+"1870246": {
+"orig": "Ela não gosta disso aqui.",
+"nova": "Ela não gosta daqui.",
+"motivo": "'disso aqui' muda o sentido"
+},
+"4865238": {
+"orig": "“Com muito prazer, minha boa amiga”, disse a bela menina.",
+"nova": "“Com muito prazer, meu bom amigo”, disse a bela menina.",
+"motivo": "'mein Guter' é masculino"
+},
+"12217540": {
+"orig": "\"Mas vocês são ótimos amigos.\" \"Não mais.\"",
+"nova": "\"Mas vocês são melhores amigos.\" \"Não mais.\"",
+"motivo": "'die besten Freunde' = melhores amigos"
+},
+"7317015": {
+"orig": "Tom esteve com a Mary o dia todo.",
+"nova": "Tom esteve com a Maria o dia todo.",
+"motivo": "manter nome do original (Maria)"
+},
+"1404599": {
+"orig": "Não quero morrer agora.",
+"nova": "Ainda não quero morrer.",
+"motivo": "'noch nicht' = ainda não"
+},
+"1115371": {
+"orig": "Disse a si mesmo: \"Fá-lo-ei.\"",
+"nova": "Disse a si mesmo: \"Eu vou fazer isso.\"",
+"motivo": "mesóclise lusitana/arcaica"
+},
+"10056640": {
+"orig": "Eu já a vi.",
+"nova": "Eu já vi isso.",
+"motivo": "'es' neutro; 'a' feminino"
+},
+"11937417": {
+"orig": "Gostaria de ajudar ela.",
+"nova": "Eu gostaria de ajudá-la.",
+"motivo": "'ajudar ela' fora da norma"
+},
+"1232221": {
+"orig": "Não há nenhum deus.",
+"nova": "Deus não existe.",
+"motivo": "sentido: Gott = Deus"
+},
+"545172": {
+"orig": "É isso o que eu quero saber.",
+"nova": "Essa é a minha pergunta.",
+"motivo": "tradução livre demais"
+},
+"613211": {
+"orig": "Ela tem muitos amigos.",
+"nova": "Ela tem amigos demais.",
+"motivo": "'zu viele' = demais"
+},
+"6854861": {
+"orig": "O Tom sabe que a Mary fez isso?",
+"nova": "O Tom sabe que a Maria fez isso?",
+"motivo": "manter nome do original (Maria)"
+},
+"911636": {
+"orig": "Ela é tão grande!",
+"nova": "Ela é tão alta!",
+"motivo": "groß (pessoa) = alta"
+},
+"955425": {
+"orig": "Tem certeza de quer fazer isso?",
+"nova": "Tem certeza de que quer fazer isso?",
+"motivo": "faltava 'que'"
+},
+"852": {
+"orig": "Nunca é demasiado tarde para se aprender.",
+"nova": "Nunca é tarde demais para aprender.",
+"motivo": "'demasiado' soa lusitano"
+},
+"12407485": {
+"orig": "Eu já sei como nadar.",
+"nova": "Eu já sei nadar.",
+"motivo": "'sei como nadar' é decalque"
+},
+"4359692": {
+"orig": "Eu não tenho filhos.",
+"nova": "Eu não tenho filho homem.",
+"motivo": "Sohn = filho (homem), singular"
+},
+"1858268": {
+"orig": "Não acreditei enquanto não vi.",
+"nova": "Eu não queria acreditar até ver com meus próprios olhos.",
+"motivo": "faltavam 'wollte' e 'selbst'"
+},
+"975687": {
+"orig": "Não falo castelhano.",
+"nova": "Não falo espanhol.",
+"motivo": "Spanisch = espanhol"
+},
+"6207948": {
+"orig": "Você deve realmente beber menos café.",
+"nova": "Você realmente deveria beber menos café.",
+"motivo": "Konjunktiv 'solltest' = deveria"
+},
+"2171547": {
+"orig": "Não entendo o português.",
+"nova": "Não entendo português.",
+"motivo": "artigo desnecessário"
+},
+"6916528": {
+"orig": "O Tomás e a Maria são meus filhos.",
+"nova": "O Tom e a Maria são meus filhos.",
+"motivo": "manter nome Tom"
+},
+"341458": {
+"orig": "Ele fala Inglês bem.",
+"nova": "Ele fala inglês bem.",
+"motivo": "'inglês' com minúscula"
+},
+"307": {
+"orig": "\"Quem é essa?\" \"É a tua mãe\".",
+"nova": "\"Quem é?\" \"É a tua mãe.\"",
+"motivo": "'essa' não está no original"
+},
+"986511": {
+"orig": "Eu realmente adoraria ver-te.",
+"nova": "Eu adoraria tanto te ver.",
+"motivo": "'ver-te' lusitano; 'so gerne' = tanto"
+},
+"4484211": {
+"orig": "Se vós vierdes, nós também viremos.",
+"nova": "Se vocês vierem, nós também viremos.",
+"motivo": "'vós' arcaico"
+},
+"3842928": {
+"orig": "O mundo é um lugar grande.",
+"nova": "O mundo é grande.",
+"motivo": "informação a mais"
+},
+"354522": {
+"orig": "Não conheço nenhum deles.",
+"nova": "Não conheço nenhuma delas.",
+"motivo": "'keine' feminino"
+},
+"6641481": {
+"orig": "Você sabe que o Tom gosta de Boston.",
+"nova": "Sabe, o Tom gosta de Boston.",
+"motivo": "'Weißt du,' é marcador discursivo"
+},
+"338310": {
+"orig": "Pais amam suas crianças.",
+"nova": "Os pais amam seus filhos.",
+"motivo": "Kinder dos pais = filhos"
+},
+"1429434": {
+"orig": "Eu também não o entendo.",
+"nova": "Eu também não entendo isso.",
+"motivo": "'o' ambíguo; es = isso"
+},
+"7814429": {
+"orig": "Quem me dera eu falar inglês tão bem.",
+"nova": "Quem me dera eu também falasse inglês tão bem!",
+"motivo": "faltava 'auch'; modo verbal"
+},
+"529296": {
+"orig": "Tudo que você tem que fazer é colocar no papel.",
+"nova": "Tudo que você tem que fazer é escrever.",
+"motivo": "schreiben = escrever"
+},
+"7585699": {
+"orig": "Tom disse, ele está doente.",
+"nova": "Tom diz que está doente.",
+"motivo": "tempo verbal e pontuação"
+},
+"1392161": {
+"orig": "Não proferi minha última palavra!",
+"nova": "Eu ainda não disse a última palavra!",
+"motivo": "faltava 'noch'"
+},
+"8533496": {
+"orig": "Esta é a minha filha, Mary.",
+"nova": "Esta é a minha filha, Maria.",
+"motivo": "manter nome do original (Maria)"
+},
+"6165793": {
+"orig": "Ela nada qual um peixe.",
+"nova": "Ela nada como um peixe.",
+"motivo": "'qual' arcaico"
+},
+"511899": {
+"orig": "Por favor, diga para ele que ele deveria esperar.",
+"nova": "Por favor, diga a ele que espere.",
+"motivo": "'soll' = que espere"
+},
+"10075189": {
+"orig": "Eu não gostaria de sermos vistos juntos.",
+"nova": "Eu não quero que nos vejam juntos.",
+"motivo": "construção agramatical"
+},
+"721176": {
+"orig": "Eles se entendem como gato e cachorro.",
+"nova": "Eles vivem como cão e gato.",
+"motivo": "expressão idiomática: brigam"
+},
+"691518": {
+"orig": "Eu amo sobretudo esse livro.",
+"nova": "Eu amo esse livro acima de tudo.",
+"motivo": "'über alles' = acima de tudo"
+},
+"12015956": {
+"orig": "Alessia não pode falar inglês.",
+"nova": "Alessia não sabe falar inglês.",
+"motivo": "capacidade = saber"
+},
+"1116562": {
+"orig": "Ele precisa de ficar sozinho.",
+"nova": "Ele precisa ficar sozinho.",
+"motivo": "'precisar de + infinitivo' lusitano"
+},
+"758575": {
+"orig": "Você entendeu, Mike?",
+"nova": "Você ouviu isso, Mike?",
+"motivo": "gehört = ouviu"
+},
+"1429439": {
+"orig": "Eu também não o entendo.",
+"nova": "Eu também não entendo isso.",
+"motivo": "'o' ambíguo; es = isso"
+},
+"12456428": {
+"orig": "Ele não tem dinheiro o suficiente para comprar um carro para ele.",
+"nova": "Ele não tem dinheiro para comprar um carro novo.",
+"motivo": "faltava 'novo'; acréscimos"
+},
+"7189210": {
+"orig": "A melhor amiga do Tom é a Mary.",
+"nova": "A melhor amiga do Tom é a Maria.",
+"motivo": "manter nome do original (Maria)"
+},
+"8836627": {
+"orig": "Eu de vez em quando vejo o Tom aqui.",
+"nova": "Eu vejo o Tom aqui com frequência.",
+"motivo": "oft = com frequência"
+},
+"1000126": {
+"orig": "Os cachorros acham que são pessoas e os gatos, deuses.",
+"nova": "Os cachorros acham que são pessoas e os gatos acham que são Deus.",
+"motivo": "Gott = Deus (singular)"
+},
+"10008166": {
+"orig": "Tom e Mary não fizeram isso juntos.",
+"nova": "Tom e Maria não fizeram isso juntos.",
+"motivo": "manter nome do original (Maria)"
+},
+"2711024": {
+"orig": "Eu tenho trabalhado aqui faz alguns anos.",
+"nova": "Eu trabalho aqui há alguns anos.",
+"motivo": "decalque 'tenho trabalhado'"
+},
+"1465619": {
+"orig": "Em que posso te ajudar?",
+"nova": "Em que posso ajudá-lo?",
+"motivo": "'Sie' formal x 'te'"
+},
+"2756470": {
+"orig": "Por que não quer que o saiba?",
+"nova": "Por que você não quer que eu saiba disso?",
+"motivo": "tradução truncada/pouco natural"
+},
+"12892316": {
+"orig": "Tom fala francês melhor do que Mary?",
+"nova": "Tom fala francês melhor do que Maria?",
+"motivo": "manter nome do original (Maria)"
+},
+"2841087": {
+"orig": "Obrigado por não dizer nada.",
+"nova": "Obrigado por não ter dito nada!",
+"motivo": "Perfekt = passado"
+},
+"1223244": {
+"orig": "Então eu não me conheço.",
+"nova": "Disso eu não entendo.",
+"motivo": "sentido errado ('sich auskennen')"
+},
+"7869268": {
+"orig": "Esse é de meu irmão.",
+"nova": "Essa é do meu irmão.",
+"motivo": "'sie' feminino"
+},
+"638787": {
+"orig": "Você pode dirigir um carro, não pode?",
+"nova": "Você sabe dirigir, não sabe?",
+"motivo": "können = saber (habilidade)"
+},
+"6074": {
+"orig": "Goste você ou não, você precisa fazê-lo.",
+"nova": "Goste você ou não, você vai ter que fazer isso.",
+"motivo": "futuro omitido"
+},
+"12816682": {
+"orig": "Eu não comi o dia todo.",
+"nova": "Eu não comi nada o dia todo.",
+"motivo": "faltava 'nada'"
+},
+"13322693": {
+"orig": "Ela sabe francês, e ainda mais inglês.",
+"nova": "Ela sabe francês, e inglês ainda melhor.",
+"motivo": "noch besser = ainda melhor"
+},
+"2028981": {
+"orig": "Não diga nada à minha namorada!",
+"nova": "Não digam nada à minha namorada!",
+"motivo": "ihr = plural"
+},
+"8280307": {
+"orig": "Eu sei, que eu não fiz isso.",
+"nova": "Eu sei que eu não fiz isso.",
+"motivo": "vírgula indevida antes de 'que'"
+},
+"2116171": {
+"orig": "O Tom e a Mary estão em casa hoje.",
+"nova": "O Tom e a Maria estão em casa hoje.",
+"motivo": "nome trocado (Maria)"
+},
+"972471": {
+"orig": "Eu já disse para eles que ele não está aqui.",
+"nova": "Eu já disse para vocês que ele não está aqui.",
+"motivo": "euch = vocês"
+},
+"14007621": {
+"orig": "O que posso eu fazer para melhorar, mãe?",
+"nova": "O que eu posso fazer para melhorar, mãe?",
+"motivo": "ordem pouco natural no pt-BR"
+},
+"7201351": {
+"orig": "O Tom está assustado, mas a Mary não.",
+"nova": "O Tom está com medo, mas a Maria não.",
+"motivo": "nome trocado (Maria)"
+},
+"1756005": {
+"orig": "Você quer que eu leve você ao médico?",
+"nova": "Você quer que eu vá com você ao médico?",
+"motivo": "mit dir kommen = ir junto, não levar"
+},
+"6166802": {
+"orig": "A vida é bela. Ninguém disse que seja simples.",
+"nova": "A vida é bela. Ninguém disse que seria fácil.",
+"motivo": "modo verbal inadequado"
+},
+"6321845": {
+"orig": "Estou assistindo ao filme \"Titanic\". Você o viu?",
+"nova": "Estou assistindo ao filme \"Titanic\". Você já o viu?",
+"motivo": "faltava 'já' (schon)"
+},
+"9939179": {
+"orig": "O português não é só falado no Brasil.",
+"nova": "O português não é falado só no Brasil.",
+"motivo": "posição de 'só' muda o sentido"
+},
+"6702445": {
+"orig": "Estou na casa de uma amiga.",
+"nova": "Estou na casa de um amigo.",
+"motivo": "Freund é masculino"
+},
+"9976087": {
+"orig": "Tom disse a Mary que não estava com medo.",
+"nova": "Tom disse que Maria não estava com medo.",
+"motivo": "sentido errado"
+},
+"7585701": {
+"orig": "Tom disse, ele está cansado.",
+"nova": "Tom diz que está cansado.",
+"motivo": "tempo e pontuação errados"
+},
+"6643779": {
+"orig": "Eu sei que o Tom está apaixonado pela Mary.",
+"nova": "Eu sei que o Tom ama a Maria.",
+"motivo": "nome trocado; liebt = ama"
+},
+"3938444": {
+"orig": "Tom disse que Mary era filha dele.",
+"nova": "Tom disse que Maria era filha dele.",
+"motivo": "nome trocado (Maria)"
+},
+"6090758": {
+"orig": "Você tem apenas de saber como ajudar.",
+"nova": "A gente só precisa saber se virar.",
+"motivo": "sich zu helfen wissen = saber se virar"
+},
+"5711423": {
+"orig": "Eu não sei por que eu fiz isso.",
+"nova": "Eu não sei por que eu acabei de fazer isso.",
+"motivo": "faltava 'gerade' (acabei de)"
+},
+"5282531": {
+"orig": "Eu tenho que fazer o que deve ser feito.",
+"nova": "Eu tenho que fazer o que tenho que fazer.",
+"motivo": "tradução alterou a estrutura/sentido"
+},
+"927551": {
+"orig": "Posso conduzir um carro, mas o Tom não.",
+"nova": "Eu sei dirigir, mas o Tom não.",
+"motivo": "'conduzir' é pt-PT; können = saber"
+},
+"6643088": {
+"orig": "Que bom ver-te, Tomás.",
+"nova": "Que bom te ver, Tom.",
+"motivo": "nome trocado; colocação pt-PT"
+},
+"3444071": {
+"orig": "Gostava de saber o que posso fazer.",
+"nova": "Eu gostaria de saber o que posso fazer.",
+"motivo": "'gostava' como condicional é pt-PT"
+},
+"1328194": {
+"orig": "Ela ainda o ama mesmo embora ele já não a ame.",
+"nova": "Ela ainda o ama, mesmo que ele não a ame mais.",
+"motivo": "'mesmo embora' agramatical"
+},
+"5434388": {
+"orig": "É melhor ter sorte do que ter razão.",
+"nova": "Melhor ser feliz do que querer ter razão.",
+"motivo": "glücklich = feliz; faltava 'wollen'"
+},
+"444138": {
+"orig": "Aquela casa é grande.",
+"nova": "Esta casa é grande.",
+"motivo": "dieses = esta"
+},
+"11257146": {
+"orig": "\"Onde está o Tom?\" \"Ele está jogando tênis com a Mary.\"",
+"nova": "\"Onde está o Tom?\" \"Ele está jogando tênis com a Maria.\"",
+"motivo": "nome trocado (Maria)"
+},
+"2911920": {
+"orig": "Ela me mirou com tristeza.",
+"nova": "Ela me olhou com tristeza.",
+"motivo": "'mirar' pouco natural no pt-BR"
+},
+"1563361": {
+"orig": "Dê-lhe isso.",
+"nova": "Dê isso a ela!",
+"motivo": "ihr = a ela; 'lhe' ambíguo"
+},
+"341499": {
+"orig": "Você ama música?",
+"nova": "Você gosta de música?",
+"motivo": "mögen = gostar, não amar"
+},
+"957477": {
+"orig": "Não tem problema.",
+"nova": "Não há problemas.",
+"motivo": "plural/sentido: não existem problemas"
+},
+"5173059": {
+"orig": "É naquela rua?",
+"nova": "É nesta rua?",
+"motivo": "dieser = esta"
+},
+"978126": {
+"orig": "O gato é negro.",
+"nova": "O gato é preto.",
+"motivo": "'negro' pouco natural para cor de gato no pt-BR"
+},
+"1342384": {
+"orig": "Eles amam café.",
+"nova": "Eles gostam de café.",
+"motivo": "mögen = gostar"
+},
+"8641138": {
+"orig": "Até logo!",
+"nova": "Adeus!",
+"motivo": "Leben Sie wohl = despedida definitiva"
+},
+"7026315": {
+"orig": "Esse carrinho é seu?",
+"nova": "Esse carro é seu?",
+"motivo": "Wagen = carro, não carrinho"
+},
+"896194": {
+"orig": "Você conheceu ele?",
+"nova": "Você se encontrou com ele?",
+"motivo": "treffen = encontrar, não conhecer"
+},
+"782618": {
+"orig": "Você acredita nisso?",
+"nova": "Vocês acreditam nisso?",
+"motivo": "ihr = vocês"
+},
+"2225422": {
+"orig": "Como está vosso irmão?",
+"nova": "Como está o seu irmão?",
+"motivo": "'vosso' não é pt-BR natural"
+},
+"9455182": {
+"orig": "Havia uma escola aqui.",
+"nova": "Antes havia uma escola aqui.",
+"motivo": "faltava 'früher'"
+},
+"10021151": {
+"orig": "Este é um grande cachorro.",
+"nova": "Esse é um cachorro grande.",
+"motivo": "'grande cachorro' muda o sentido"
+},
+"524740": {
+"orig": "Eu não sei.",
+"nova": "Não faço ideia.",
+"motivo": "Keine Ahnung = não faço ideia"
+},
+"3753183": {
+"orig": "João está triste.",
+"nova": "Johannes está triste.",
+"motivo": "manter nome próprio original"
+},
+"6173139": {
+"orig": "Eu o dou a ele.",
+"nova": "Eu dou isso a ele.",
+"motivo": "construção 'o dou a ele' pouco natural"
+},
+"6197879": {
+"orig": "Onde é mesmo que vocês estão?",
+"nova": "Cadê vocês?",
+"motivo": "Wo bleibt ihr = onde vocês estão/por que demoram"
+},
+"5221989": {
+"orig": "Obrigado por virem, pessoal! Vejo vocês na próxima aula!",
+"nova": "Obrigado por virem, pessoal! Até a próxima!",
+"motivo": "informação a mais ('aula')"
+},
+"3865103": {
+"orig": "Isso é completamente falso.",
+"nova": "Isso está completamente errado.",
+"motivo": "falsch aqui = errado"
+},
+"778518": {
+"orig": "A dona Smith veste preto.",
+"nova": "A senhora Smith está vestindo preto.",
+"motivo": "'dona' + sobrenome soa estranho"
+},
+"12277823": {
+"orig": "Eu contei a Mary a história inteira.",
+"nova": "Eu contei a Maria a história inteira.",
+"motivo": "nome trocado (Maria)"
+},
+"1314518": {
+"orig": "Nós conseguimos.",
+"nova": "Nós chegamos.",
+"motivo": "angekommen = chegamos"
+},
+"2077240": {
+"orig": "Cozinhe um ovo.",
+"nova": "Cozinhem um ovo!",
+"motivo": "ihr = plural"
+},
+"3055009": {
+"orig": "Ele faz-me rir.",
+"nova": "Ele me faz rir.",
+"motivo": "colocação pronominal pt-PT"
+},
+"7413240": {
+"orig": "Eles podem partir amanhã.",
+"nova": "Eles poderiam partir amanhã.",
+"motivo": "Konjunktiv II = futuro do pretérito"
+},
+"438748": {
+"orig": "Eu não posso alcançar ele.",
+"nova": "Eu não consigo falar com ele.",
+"motivo": "erreichen = conseguir contato"
+},
+"5969783": {
+"orig": "Talvez não seja uma ideia tão má afinal.",
+"nova": "Talvez não seja uma ideia tão ruim, afinal.",
+"motivo": "'má' pouco natural no pt-BR"
+},
+"1801917": {
+"orig": "Você assistiu?",
+"nova": "Você estava lá?",
+"motivo": "dabei sein = estar presente"
+},
+"2297520": {
+"orig": "Eu escrevo um livro.",
+"nova": "Estou escrevendo um livro.",
+"motivo": "presente contínuo mais fiel/natural"
+},
+"6207528": {
+"orig": "Nós frequentámos a escola juntos.",
+"nova": "Nós estudamos juntos.",
+"motivo": "pt-PT e sentido (studieren = estudar)"
+},
+"881953": {
+"orig": "A violência vem antes da justiça.",
+"nova": "A força prevalece sobre o direito.",
+"motivo": "provérbio; Recht = direito"
+},
+"385052": {
+"orig": "A luz apagou-se repentinamente​.",
+"nova": "A luz se apagou de repente.",
+"motivo": "colocação pt-PT e caractere invisível"
+},
+"3014314": {
+"orig": "A vida é demasiado curta.",
+"nova": "A vida é curta demais.",
+"motivo": "pt-PT"
+},
+"626191": {
+"orig": "O bebé está a dormir.",
+"nova": "O bebê está dormindo.",
+"motivo": "pt-PT"
+},
+"4956486": {
+"orig": "Você prefere fazer o quê hoje?",
+"nova": "O que você gostaria de fazer hoje?",
+"motivo": "sentido: würde gerne = gostaria"
+},
+"815583": {
+"orig": "Como aconteceu o acidente?",
+"nova": "Como aconteceu esse acidente?",
+"motivo": "faltava demonstrativo"
+},
+"2188058": {
+"orig": "Fiquem aqui.",
+"nova": "Fique aqui!",
+"motivo": "singular, não plural"
+},
+"3440431": {
+"orig": "Continue procurando!",
+"nova": "Continuem procurando!",
+"motivo": "plural (ihr)"
+},
+"7071186": {
+"orig": "Tom tem ouvidos grandes.",
+"nova": "Tom tem orelhas grandes.",
+"motivo": "Ohren = orelhas"
+},
+"357792": {
+"orig": "Bem-vindo para casa.",
+"nova": "Bem-vindo ao lar.",
+"motivo": "calque não natural"
+},
+"2587260": {
+"orig": "Eles podiam ir a pé para a biblioteca.",
+"nova": "Eles podem ir à biblioteca.",
+"motivo": "tempo verbal e 'a pé' acrescentado"
+},
+"6453541": {
+"orig": "Vocês não estão habilitados a dirigir.",
+"nova": "Vocês não podem dirigir.",
+"motivo": "können = poder; 'habilitados' acrescenta sentido"
+},
+"2750707": {
+"orig": "Eu gosto de brincar com as palavras.",
+"nova": "Eu adoro brincar com as palavras.",
+"motivo": "lieben es = adorar"
+},
+"1289825": {
+"orig": "Ele gosta de chá.",
+"nova": "Ele adora chá.",
+"motivo": "lieben = adorar"
+},
+"6689012": {
+"orig": "Quem é que está vindo?",
+"nova": "Quem foi que veio?",
+"motivo": "tempo verbal: perfeito"
+},
+"11553233": {
+"orig": "O Tom ama os filhos da Mary.",
+"nova": "O Tom ama os filhos da Maria.",
+"motivo": "nome próprio trocado"
+},
+"2673720": {
+"orig": "Eu moro muito longe.",
+"nova": "Eu moro longe demais.",
+"motivo": "zu weit = longe demais"
+},
+"2967187": {
+"orig": "Eu não reconheço esses homens.",
+"nova": "Eu não conheço nenhum desses homens.",
+"motivo": "kennen = conhecer; faltava 'nenhum'"
+},
+"933991": {
+"orig": "Escutem o que professor diz.",
+"nova": "Escute o que o professor diz.",
+"motivo": "faltava artigo 'o'"
+},
+"452": {
+"orig": "Chamo-me Jack.",
+"nova": "Eu me chamo Jack.",
+"motivo": "colocação pt-PT"
+},
+"1300435": {
+"orig": "Nós tentamos.",
+"nova": "Vamos tentar.",
+"motivo": "'Nós tentamos' soa como passado"
+},
+"544086": {
+"orig": "Obrigado pelo valioso conselho!",
+"nova": "Obrigado pelo bom conselho!",
+"motivo": "guten = bom, não valioso"
+},
+"9940807": {
+"orig": "Vá só!",
+"nova": "Vá sozinho!",
+"motivo": "'só' ambíguo"
+},
+"432274": {
+"orig": "Como foi tempo ontem?",
+"nova": "Como estava o tempo ontem?",
+"motivo": "faltava artigo"
+},
+"10190252": {
+"orig": "Mary não queria que a história terminasse.",
+"nova": "Maria não queria que a história terminasse.",
+"motivo": "nome próprio trocado"
+},
+"2739131": {
+"orig": "Ser um ser humano é uma arte.",
+"nova": "Tornar-se humano é uma arte.",
+"motivo": "werden = tornar-se"
+},
+"6368416": {
+"orig": "Eu me encontrei com Maria.",
+"nova": "Eu me encontrei com Mary.",
+"motivo": "nome próprio trocado"
+},
+"634934": {
+"orig": "Nem todo dia é Domingo.",
+"nova": "Nem todo dia é domingo.",
+"motivo": "maiúscula indevida"
+},
+"10081352": {
+"orig": "Nem o Tom nem a Mary falam espanhol.",
+"nova": "Nem o Tom nem a Maria falam espanhol.",
+"motivo": "nome próprio trocado"
+},
+"12107369": {
+"orig": "Eles são tão bons quanto ouro.",
+"nova": "Eles valem ouro.",
+"motivo": "tradução literal inadequada"
+},
+"896187": {
+"orig": "Eu penso aquilo que digo.",
+"nova": "Eu falo sério.",
+"motivo": "sentido: 'ich meine, was ich sage'"
+},
+"5488191": {
+"orig": "Pedro abriu meus olhos.",
+"nova": "Peter abriu meus olhos.",
+"motivo": "nome próprio trocado"
+},
+"7121523": {
+"orig": "Já é Natal novamente?",
+"nova": "Já é Natal?",
+"motivo": "'novamente' acrescentado"
+},
+"2651370": {
+"orig": "O Tom perguntou à Mary se ela conhecia o John.",
+"nova": "O Tom perguntou à Maria se ela conhecia o Johannes.",
+"motivo": "nomes próprios trocados"
+},
+"840982": {
+"orig": "Eu quero aquela bolsa.",
+"nova": "Eu quero a bolsa.",
+"motivo": "die = a, não aquela"
+},
+"414182": {
+"orig": "Donde vens?",
+"nova": "De onde o senhor vem?",
+"motivo": "forma arcaica/pt-PT"
+},
+"1608102": {
+"orig": "É perfeitamente o que eu pensei.",
+"nova": "É exatamente como eu pensava.",
+"motivo": "português pouco natural"
+},
+"6013790": {
+"orig": "Deixe-me ajudá-los!",
+"nova": "Deixem-me ajudá-los!",
+"motivo": "imperativo plural"
+},
+"6552469": {
+"orig": "Só saio amanhã de manhã.",
+"nova": "Só vou amanhã.",
+"motivo": "'de manhã' acrescentado"
+},
+"1286538": {
+"orig": "Bill vai ganhar, não é?",
+"nova": "Bill provavelmente vai ganhar, não é?",
+"motivo": "faltava 'wohl'"
+},
+"6103366": {
+"orig": "Eu posso usar o quê?",
+"nova": "O que eu posso usar para trabalhar?",
+"motivo": "faltava 'zum Arbeiten'"
+},
+"1384553": {
+"orig": "Quando você chegou?",
+"nova": "Quando vocês chegaram?",
+"motivo": "plural (ihr)"
+},
+"1511439": {
+"orig": "Vocês tem um plano?",
+"nova": "Vocês têm um plano?",
+"motivo": "acento: têm"
+},
+"837992": {
+"orig": "Você se arrependerá por isso.",
+"nova": "Um dia você vai se arrepender.",
+"motivo": "faltava 'eines Tages'; 'por isso' acrescentado"
+},
+"3059527": {
+"orig": "Que é que você modificaria?",
+"nova": "O que você mudaria?",
+"motivo": "construção pt-PT"
+},
+"6700460": {
+"orig": "Sê cuidadoso.",
+"nova": "Tenha cuidado.",
+"motivo": "imperativo pt-PT/arcaico"
+},
+"481067": {
+"orig": "Onde é a estação de comboio mais próxima?",
+"nova": "Onde é a estação de trem mais próxima?",
+"motivo": "pt-PT (comboio)"
+},
+"6166005": {
+"orig": "A lua está brilhando muito bela.",
+"nova": "A lua está brilhando lindamente.",
+"motivo": "português pouco natural"
+},
+"351712": {
+"orig": "Maria e eu nos tornamos bons amigos.",
+"nova": "Mary e eu nos tornamos bons amigos.",
+"motivo": "nome próprio trocado"
+},
+"2616839": {
+"orig": "Beijei-lhe as mãos.",
+"nova": "Beijei as mãos dela.",
+"motivo": "construção pt-PT/literária"
+},
+"6292422": {
+"orig": "Não precisei de repetir.",
+"nova": "Não precisei repetir.",
+"motivo": "regência pt-PT"
+},
+"11808171": {
+"orig": "Ela tem um bonito corpo.",
+"nova": "Ela tem um corpo bonito.",
+"motivo": "ordem pouco natural"
+},
+"13090912": {
+"orig": "Estou ocupado até 2:30",
+"nova": "Estou ocupado até as duas e meia.",
+"motivo": "formatação/pontuação"
+},
+"8220752": {
+"orig": "Eu queria ter tido uma irmã.",
+"nova": "Eu queria ter uma irmã.",
+"motivo": "tempo verbal"
+},
+"1560686": {
+"orig": "O senhor fala Italiano?",
+"nova": "O senhor fala italiano?",
+"motivo": "maiúscula indevida"
+},
+"1104839": {
+"orig": "Procure a mulher!",
+"nova": "Procurem a mulher!",
+"motivo": "imperativo plural (ihr)"
+},
+"6154364": {
+"orig": "Por que você está fazendo isso? - \"Isso o quê?\"",
+"nova": "\"Por que você está fazendo isso?\" - \"Isso o quê?\"",
+"motivo": "aspas incompletas"
+},
+"6207950": {
+"orig": "Você deve definitivamente tentar beber menos cerveja.",
+"nova": "Você deveria mesmo tentar beber menos cerveja.",
+"motivo": "sollte = deveria; calque"
+},
+"6644443": {
+"orig": "Vou à casa do Tom.",
+"nova": "Vou visitar o Tom agora.",
+"motivo": "faltava 'jetzt'/'besuchen'"
+},
+"718471": {
+"orig": "Pouca importa quanto isto custa.",
+"nova": "Não importa quanto custe.",
+"motivo": "erro gramatical (Pouca)"
+},
+"1600753": {
+"orig": "Tom pouco aprendeu para o exame.",
+"nova": "Tom mal estudou para a prova.",
+"motivo": "lernen aqui = estudar"
+},
+"602977": {
+"orig": "América é muito grande.",
+"nova": "A América é muito grande.",
+"motivo": "faltava artigo"
+},
+"6276021": {
+"orig": "Aqui no espelho há um fantasma.",
+"nova": "Ali no espelho há um fantasma.",
+"motivo": "da = ali, não aqui"
+},
+"3943836": {
+"orig": "Faça-o amanhã!",
+"nova": "Faça isso amanhã!",
+"motivo": "colocação pouco natural no Brasil"
+},
+"1561666": {
+"orig": "Lamento, não posso ajudá-lo.",
+"nova": "Lamento, não posso ajudar vocês.",
+"motivo": "euch = plural"
+},
+"2911912": {
+"orig": "Ela veio, ela viu -- e ela não disse nada.",
+"nova": "Ela veio, ela viu e não disse nem uma palavra.",
+"motivo": "pontuação e 'nicht ein Wort'"
+},
+"8483124": {
+"orig": "Tom é mais velho que Maria.",
+"nova": "Tom é mais velho que Mary.",
+"motivo": "nome próprio trocado"
+},
+"13607233": {
+"orig": "Tom não é o professor de Mary.",
+"nova": "Tom não é o professor de Maria.",
+"motivo": "nome próprio trocado"
+},
+"1081439": {
+"orig": "O Tom perguntou à Mary se ela estava ocupada.",
+"nova": "O Tom perguntou à Maria se ela estava ocupada.",
+"motivo": "nome próprio trocado"
+},
+"8639299": {
+"orig": "Você precisa de muito tempo?",
+"nova": "Você ainda vai demorar muito?",
+"motivo": "sentido de 'noch lange brauchen'"
+},
+"6931536": {
+"orig": "Eu quero ouvir a estória toda.",
+"nova": "Eu quero ouvir a história toda.",
+"motivo": "ortografia: história"
+},
+"4849307": {
+"orig": "Não deves mais te preocupar.",
+"nova": "Você não precisa mais se preocupar.",
+"motivo": "müssen nicht = não precisar"
+},
+"406787": {
+"orig": "Chamo-me John.",
+"nova": "Eu me chamo John.",
+"motivo": "colocação pt-PT"
+},
+"4488724": {
+"orig": "Como é o clima em Boston?",
+"nova": "Como está o tempo em Boston?",
+"motivo": "Wetter = tempo, não clima"
+},
+"2398519": {
+"orig": "Acredite no amor!",
+"nova": "Acreditem no amor!",
+"motivo": "imperativo plural (ihr)"
+},
+"8508831": {
+"orig": "O chá está muito gelado.",
+"nova": "O chá está frio demais.",
+"motivo": "zu = demais"
+},
+"6645260": {
+"orig": "Você não está pensando.",
+"nova": "Você não está acompanhando o raciocínio.",
+"motivo": "sentido de 'mitdenken'"
+},
+"1323836": {
+"orig": "Antes do outono vem o verão.",
+"nova": "Antes do outono veio o verão.",
+"motivo": "tempo verbal"
+},
+"5496018": {
+"orig": "Tom disse que escutou a voz da Mary.",
+"nova": "Tom disse que escutou a voz da Maria.",
+"motivo": "nome próprio trocado"
+},
+"11325289": {
+"orig": "Maria dorme muito aos domingos.",
+"nova": "Maria dorme até tarde aos domingos.",
+"motivo": "lange schlafen = dormir até tarde"
+},
+"2633438": {
+"orig": "Nem o Tom nem a Mary falam espanhol.",
+"nova": "Nem o Tom nem a Maria falam espanhol.",
+"motivo": "nome próprio trocado"
+},
+"5173020": {
+"orig": "Mary vai se casar amanhã.",
+"nova": "Maria vai se casar amanhã.",
+"motivo": "nome próprio trocado"
+},
+"1312773": {
+"orig": "Nós nos inquietamos com o seu futuro.",
+"nova": "Nós nos preocupamos com o futuro de vocês.",
+"motivo": "registro pouco natural"
+},
+"2243861": {
+"orig": "Sempre tem alguma coisa para fazer.",
+"nova": "Sempre tem alguma coisa acontecendo.",
+"motivo": "sentido de 'etwas los'"
+},
+"13500418": {
+"orig": "Toca o filme mais uma vez.",
+"nova": "Passe o filme mais uma vez.",
+"motivo": "verbo inadequado"
+},
+"7535656": {
+"orig": "Tom e Mary não sabem que o John é casado.",
+"nova": "Tom e Maria não sabem que o Johannes é casado.",
+"motivo": "nomes próprios trocados"
+},
+"2897403": {
+"orig": "O Tom e a Mary estavam no jardim.",
+"nova": "O Tom e a Maria estavam no jardim.",
+"motivo": "nome próprio trocado"
+},
+"6540596": {
+"orig": "Além de ti ninguém aqui gosta de mim.",
+"nova": "Além de ti, ninguém aqui me ama.",
+"motivo": "lieben = amar; vírgula"
+},
+"380786": {
+"orig": "Falei com ela uma hora.",
+"nova": "Falei com ela por uma hora.",
+"motivo": "faltava 'por'"
+},
+"3287999": {
+"orig": "Tom é mais alto que Mary.",
+"nova": "Tom é mais alto que Maria.",
+"motivo": "nome próprio trocado"
+},
+"3982020": {
+"orig": "Tom pensou que Mary estivesse dormindo.",
+"nova": "Tom pensou que Maria estivesse dormindo.",
+"motivo": "nome trocado (Maria→Mary)"
+},
+"351699": {
+"orig": "Quando eu era pequeno, eu podia dormir onde quer que seja.",
+"nova": "Quando eu era pequeno, eu conseguia dormir em qualquer lugar.",
+"motivo": "'onde quer que seja' inadequado"
+},
+"5328029": {
+"orig": "As pessoas falam, mesmo sem ter nada que dizer.",
+"nova": "As pessoas falam, mesmo sem ter nada a dizer.",
+"motivo": "construção lusitana"
+},
+"406": {
+"orig": "Esquecer-te-ás de mim um dia.",
+"nova": "Você vai me esquecer um dia.",
+"motivo": "mesóclise/PT-PT"
+},
+"3372751": {
+"orig": "Por favor, senhor, não mude nada!",
+"nova": "Por favor, não mude nada!",
+"motivo": "'senhor' acrescentado"
+},
+"7756799": {
+"orig": "Não tenho tempo livre para estudar.",
+"nova": "Não tenho tempo para estudar.",
+"motivo": "'livre' acrescentado"
+},
+"6905096": {
+"orig": "Poderias fazer isso por mim?",
+"nova": "O senhor poderia fazer isso por mim?",
+"motivo": "Sie formal; 'poderias' lusitano"
+},
+"1801904": {
+"orig": "Para onde posso mover esta peça?",
+"nova": "Onde posso colocar esta peça?",
+"motivo": "stellen = colocar, não mover"
+},
+"6207516": {
+"orig": "Mais dez dias e, então, a primavera!",
+"nova": "Mais dez dias e será primavera!",
+"motivo": "tradução truncada/artificial"
+},
+"2884004": {
+"orig": "Encontremo-nos às 6h30.",
+"nova": "Vamos nos encontrar às seis e meia!",
+"motivo": "ênclise lusitana/artificial"
+},
+"2562309": {
+"orig": "Há quantos anos você estuda francês?",
+"nova": "Por quantos anos você estudou francês?",
+"motivo": "tempo verbal: passado"
+},
+"341270": {
+"orig": "Este bolo está açucarado.",
+"nova": "Este bolo está doce.",
+"motivo": "süß = doce"
+},
+"1130": {
+"orig": "Tens uma caneta contigo?",
+"nova": "Você está com um lápis aí?",
+"motivo": "Bleistift = lápis; PT-PT"
+},
+"1116560": {
+"orig": "Preciso de um tempo sozinho.",
+"nova": "Preciso ficar sozinho.",
+"motivo": "'um tempo' acrescentado"
+},
+"2924812": {
+"orig": "Eu sabia que você iria pedir isso.",
+"nova": "Eu sabia que você iria perguntar isso.",
+"motivo": "fragen = perguntar"
+},
+"2809027": {
+"orig": "Tenham todos um bom fim de semana.",
+"nova": "Desejo a todos vocês um ótimo fim de semana.",
+"motivo": "estrutura/intensidade alteradas"
+},
+"6167224": {
+"orig": "Essa pergunta cada um pode responder.",
+"nova": "Qualquer um pode responder essa pergunta.",
+"motivo": "português artificial"
+},
+"1627134": {
+"orig": "Tem uma coisa que eu devo te dizer, e eu sei que tu não vais gostar disso.",
+"nova": "Tem uma coisa que eu preciso muito te dizer, e eu sei que você não vai gostar.",
+"motivo": "PT-PT/mistura tu-você; 'unbedingt' perdido"
+},
+"5844760": {
+"orig": "Tinha ela inimigos?",
+"nova": "Ela tinha inimigos?",
+"motivo": "inversão lusitana"
+},
+"5890275": {
+"orig": "Eu estou com sua agenda, senhor.",
+"nova": "Estou com a sua agenda.",
+"motivo": "'senhor' acrescentado"
+},
+"6302580": {
+"orig": "Sobre que você desejaria falar?",
+"nova": "Sobre o que você gostaria de falar?",
+"motivo": "português artificial"
+},
+"4105432": {
+"orig": "Eu gostaria de uma xícara de café.",
+"nova": "Vou querer uma xícara de café.",
+"motivo": "sentido: 'nehme' = vou querer/pedir"
+},
+"4878644": {
+"orig": "Não tenha medo. Sou eu.",
+"nova": "Não tenha medo. Sou só eu.",
+"motivo": "'nur' omitido"
+},
+"840993": {
+"orig": "Pode gerar um problema sério.",
+"nova": "Isso pode se tornar um grande problema.",
+"motivo": "werden = tornar-se; 'groß'"
+},
+"8321186": {
+"orig": "Onde estão tuas irmãs?",
+"nova": "Onde estão as irmãs de vocês?",
+"motivo": "eure = plural"
+},
+"5316798": {
+"orig": "Meu namorado não sabe.",
+"nova": "Meu namorado não sabe de nada disso.",
+"motivo": "'nichts davon' omitido"
+},
+"3109705": {
+"orig": "Isto não foi tão difícil.",
+"nova": "Isso não é tão difícil.",
+"motivo": "tempo verbal: presente"
+},
+"8358703": {
+"orig": "O cão está envelhecendo lentamente.",
+"nova": "O cachorro está ficando velho.",
+"motivo": "'langsam' idiomático; cão (PT)"
+},
+"5317030": {
+"orig": "Algo mudou.",
+"nova": "Algo está diferente.",
+"motivo": "anders = diferente"
+},
+"2193230": {
+"orig": "Eu consigo ver mal.",
+"nova": "Eu não enxergo bem.",
+"motivo": "português artificial"
+},
+"2328210": {
+"orig": "Maria é maior do que Tom.",
+"nova": "Maria é mais velha do que Tom.",
+"motivo": "älter = mais velha"
+},
+"13769565": {
+"orig": "Muitas pessoas vão às ruas.",
+"nova": "Muitas pessoas andam pela rua.",
+"motivo": "sentido errado ('ir às ruas')"
+},
+"2672241": {
+"orig": "É que às vezes o mundo parece sem sentido.",
+"nova": "Às vezes o mundo parece não ter sentido.",
+"motivo": "'É que' acrescentado"
+},
+"9993861": {
+"orig": "Fiquei sem internet por várias horas.",
+"nova": "Fiquei sem internet por algumas horas.",
+"motivo": "einige = algumas"
+},
+"2992769": {
+"orig": "Espero que esto funcione.",
+"nova": "Espero que isso funcione.",
+"motivo": "'esto' é espanhol"
+},
+"1810228": {
+"orig": "Porque não vens comigo?",
+"nova": "Por que você não vem comigo?",
+"motivo": "'Porque' errado; PT-PT"
+},
+"905486": {
+"orig": "Nos reencontraremos em dois anos.",
+"nova": "Vamos nos encontrar daqui a dois anos.",
+"motivo": "imperativo 'treffen wir uns', não futuro"
+},
+"1312774": {
+"orig": "Nós nos inquietamos com o seu futuro.",
+"nova": "Nós nos preocupamos com o seu futuro.",
+"motivo": "'inquietamos' artificial"
+},
+"4988574": {
+"orig": "Tem muita gente que não sabe de nada.",
+"nova": "Tem muita gente que não faz ideia disso.",
+"motivo": "'davon' omitido"
+},
+"6330003": {
+"orig": "\"Você quer aprender Francês?\" \"Já estou aprendendo.\"",
+"nova": "\"Você quer aprender francês?\" \"Já estou aprendendo.\"",
+"motivo": "maiúscula indevida"
+},
+"8639316": {
+"orig": "Ele prefere ir à pé.",
+"nova": "Ele prefere ir a pé.",
+"motivo": "crase indevida"
+},
+"13996988": {
+"orig": "Eles entenderam rápido.",
+"nova": "Eles entenderam cedo.",
+"motivo": "früh = cedo"
+},
+"1742072": {
+"orig": "Está interessada na música.",
+"nova": "Está interessada em música.",
+"motivo": "'na música' muda o sentido"
+},
+"837996": {
+"orig": "De onde ela é?",
+"nova": "De onde ela veio?",
+"motivo": "sentido: de onde veio, não de onde é"
+},
+"9972623": {
+"orig": "Eu achava que Tom já tinha falado com Mary sobre isso.",
+"nova": "Eu achava que Tom tinha falado com Maria sobre isso.",
+"motivo": "nome trocado; 'já' acrescentado"
+},
+"13992412": {
+"orig": "Estarei viajando para Boston.",
+"nova": "Vou de avião para Boston.",
+"motivo": "gerundismo; fliegen = ir de avião"
+},
+"4925489": {
+"orig": "Eu não quero ver ninguém! Deixe-me sozinha!",
+"nova": "Eu não quero ver ninguém! Deixem-me sozinha!",
+"motivo": "lasst = plural"
+},
+"7478156": {
+"orig": "Maria disse a Tom que ela achou que eu ganharia.",
+"nova": "Maria disse a Tom que achava que eu ganharia.",
+"motivo": "tempo verbal"
+},
+"1804788": {
+"orig": "Eu mal acabei de chegar.",
+"nova": "Eu acabei de chegar.",
+"motivo": "'mal acabei' artificial"
+},
+"13885630": {
+"orig": "Você pode confiar em todos nós.",
+"nova": "Você pode nos confiar tudo.",
+"motivo": "sentido errado"
+},
+"1260565": {
+"orig": "\"Posso usar o telefone?\" \"Por favor.\"",
+"nova": "\"Posso usar o telefone?\" \"Claro, à vontade!\"",
+"motivo": "'Bitte!' aqui = fique à vontade"
+},
+"557307": {
+"orig": "Eu não recordo com precisão.",
+"nova": "Eu não me lembro bem.",
+"motivo": "português artificial"
+},
+"6306860": {
+"orig": "Infelizmente, não lhes posso dizer isso.",
+"nova": "Infelizmente, não posso dizer isso a vocês.",
+"motivo": "colocação lusitana"
+},
+"662270": {
+"orig": "Quem de teus amigos virá?",
+"nova": "Qual dos seus amigos vem?",
+"motivo": "português artificial"
+},
+"817921": {
+"orig": "Ela me deu um bom par de sapatos.",
+"nova": "Ela me deu um belo par de sapatos.",
+"motivo": "schön = belo/bonito"
+},
+"2744416": {
+"orig": "O senhor se lembra de Tom e Maria, pois não?",
+"nova": "O senhor se lembra de Tom e Maria, não é?",
+"motivo": "'pois não?' lusitano"
+},
+"2422469": {
+"orig": "Mas somente poucas pessoas sabem a respeito.",
+"nova": "Mas poucas pessoas sabem disso.",
+"motivo": "'a respeito' solto, artificial"
+},
+"1558064": {
+"orig": "Ele foi para o Reino Unido duas vezes.",
+"nova": "Ele foi para a Inglaterra duas vezes.",
+"motivo": "England = Inglaterra"
+},
+"1208010": {
+"orig": "Trabalho honesto nunca matou ninguém.",
+"nova": "O trabalho torna a vida doce.",
+"motivo": "provérbio diferente"
+},
+"2327294": {
+"orig": "Quanto mais tempo alguém se mantém criança, tanto mais elevada idade alcança.",
+"nova": "Quanto mais tempo a pessoa continua criança, mais velha ela fica.",
+"motivo": "português artificial"
+},
+"683837": {
+"orig": "Essa história é curta o bastante para ser lida em uma lição.",
+"nova": "Essa história é curta o bastante para ser lida em uma hora.",
+"motivo": "Stunde = hora"
+},
+"914130": {
+"orig": "Eu comecei a aprender Esperanto.",
+"nova": "Eu comecei a aprender esperanto.",
+"motivo": "nome de idioma em minúscula"
+},
+"6302581": {
+"orig": "Sobre que o senhor quer falar?",
+"nova": "Sobre o que o senhor quer falar?",
+"motivo": "falta artigo 'o'"
+},
+"511872": {
+"orig": "Temo que não posso te ajudar.",
+"nova": "Temo que não possa te ajudar.",
+"motivo": "subjuntivo após 'temo que'"
+},
+"8321187": {
+"orig": "Onde estão tuas irmãs?",
+"nova": "Onde estão as suas irmãs?",
+"motivo": "Ihre (formal) ≠ tuas"
+},
+"3229106": {
+"orig": "Você não vai escapar desta vez!",
+"nova": "Vocês não vão escapar desta vez!",
+"motivo": "ihr = plural"
+},
+"10369592": {
+"orig": "Não há água no rio.",
+"nova": "Não havia água no rio.",
+"motivo": "tempo verbal: passado"
+},
+"2231177": {
+"orig": "O Tom se perguntava por quanto tempo ele teria que esperar a Mary.",
+"nova": "O Tom se perguntava por quanto tempo ele teria que esperar a Maria.",
+"motivo": "nome trocado (Maria→Mary)"
+},
+"747005": {
+"orig": "Em que estado está o teu trabalho?",
+"nova": "Em que pé você está com esse trabalho?",
+"motivo": "PT-PT; sentido impreciso"
+},
+"936991": {
+"orig": "Sobre o quê ele está falando? Simplesmente não faz sentido.",
+"nova": "Sobre o que ele está falando? Simplesmente não faz sentido.",
+"motivo": "acento indevido em 'quê'"
+},
+"8922583": {
+"orig": "Com quem você pensa falar sobre isso?",
+"nova": "Com quem você quer falar sobre isso?",
+"motivo": "willst = quer"
+},
+"814279": {
+"orig": "Nem todo dia é Domingo.",
+"nova": "Nem todo dia é domingo.",
+"motivo": "maiúscula indevida"
+},
+"174": {
+"orig": "Sempre quando eu acho algo que me agrade, este algo é caro demais.",
+"nova": "Sempre que eu acho algo de que gosto, é caro demais.",
+"motivo": "português artificial"
+},
+"1177404": {
+"orig": "Pode encontrar-se com ele?",
+"nova": "Você pode se encontrar com ele?",
+"motivo": "colocação lusitana"
+},
+"1312772": {
+"orig": "Nós nos inquietamos com o seu futuro.",
+"nova": "Nós nos preocupamos com o seu futuro.",
+"motivo": "'inquietamos' artificial"
+},
+"401": {
+"orig": "Me é impossível explicar isso para você.",
+"nova": "É impossível para mim explicar isso para você.",
+"motivo": "português artificial"
+},
+"397823": {
+"orig": "O que desejas beber?",
+"nova": "O que o senhor deseja beber?",
+"motivo": "Sie formal ≠ 'desejas'"
+},
+"3508685": {
+"orig": "Tom e Mary sabem a verdade.",
+"nova": "Tom e Maria sabem a verdade.",
+"motivo": "nome trocado (Maria→Mary)"
+},
+"2441453": {
+"orig": "Eu não falo Russo.",
+"nova": "Eu não falo russo.",
+"motivo": "maiúscula indevida"
+},
+"769404": {
+"orig": "Eu não quero perder nesse jogo.",
+"nova": "Eu não quero perder esse jogo.",
+"motivo": "regência artificial"
+},
+"1391325": {
+"orig": "Eu vou para Londres no verão.",
+"nova": "Eu vou para Londres neste verão.",
+"motivo": "'diesen' omitido"
+},
+"428511": {
+"orig": "Perdi o relógio que meu pai me dera.",
+"nova": "Perdi o relógio que meu pai me deu.",
+"motivo": "tempo verbal (mais-que-perfeito)"
+},
+"12478808": {
+"orig": "A minha filha foi à Inglaterra há três anos.",
+"nova": "A minha filha foi para a Inglaterra há três anos.",
+"motivo": "gegangen = mudou-se (para)"
+},
+"5245306": {
+"orig": "É verdade que vais estudar para Londres?",
+"nova": "É verdade mesmo que você vai estudar em Londres?",
+"motivo": "'estudar para Londres' errado; 'wirklich' omitido"
+},
+"6915243": {
+"orig": "Já quase não me consigo lembrar do Tom.",
+"nova": "Quase não consigo mais me lembrar do Tom.",
+"motivo": "colocação lusitana"
+},
+"12540909": {
+"orig": "Maria é a mulher dos meus sonhos.",
+"nova": "Mary é a mulher dos meus sonhos.",
+"motivo": "nome trocado (Mary→Maria)"
+},
+"3196402": {
+"orig": "Se isso que você quer, então faça!",
+"nova": "Se é isso que você quer, então faça!",
+"motivo": "falta verbo 'é'"
+},
+"4140793": {
+"orig": "Não diga a Tom nada do que fizemos!",
+"nova": "Por favor, não diga a Tom nada do que fizemos!",
+"motivo": "faltava 'por favor' (bitte)"
+},
+"6076073": {
+"orig": "Que tipo de cerveja você gosta de beber?",
+"nova": "Que tipo de cerveja você gostaria de beber?",
+"motivo": "möchte = gostaria"
+},
+"3332589": {
+"orig": "Também quando chove?",
+"nova": "Mesmo que chova?",
+"motivo": "'auch wenn' = mesmo que"
+},
+"1671953": {
+"orig": "Ele pediu um conselho do professor.",
+"nova": "Ele pediu conselho ao professor.",
+"motivo": "português pouco natural"
+},
+"677699": {
+"orig": "Vai logo, por favor.",
+"nova": "Vá agora, por favor.",
+"motivo": "jetzt = agora"
+},
+"6309130": {
+"orig": "Eu não entendo, por que isso não funciona.",
+"nova": "Eu não entendo por que isso não funciona.",
+"motivo": "vírgula indevida"
+},
+"2881397": {
+"orig": "Tom poderia ter morrido.",
+"nova": "Tom pode estar morto.",
+"motivo": "tot sein = estar morto"
+},
+"3257128": {
+"orig": "\"Você não acha que o alemão é um idioma muito complicado?\" - \"Sim, eu acho que é muito complicado.\"",
+"nova": "\"Você não acha que o alemão é muito difícil?\" - \"Sim, acho muito difícil.\"",
+"motivo": "schwer = difícil; acréscimo 'idioma'"
+},
+"10640165": {
+"orig": "Eu desejo tão intensamente ir para a Austrália quanto vocês.",
+"nova": "Eu quero ir para a Austrália tanto quanto você.",
+"motivo": "du = você (singular); pt artificial"
+},
+"1312770": {
+"orig": "Nós nos inquietamos com o seu futuro.",
+"nova": "Nós nos preocupamos com o futuro de vocês.",
+"motivo": "sich Sorgen machen = preocupar-se"
+},
+"6314248": {
+"orig": "Há quanto tempo vocês estão aprendendo Francês?",
+"nova": "Há quanto tempo vocês estão aprendendo francês?",
+"motivo": "maiúscula indevida"
+},
+"4043068": {
+"orig": "Hoje está parecendo uma segunda-feira.",
+"nova": "Parece que hoje é segunda-feira.",
+"motivo": "sentido alterado"
+},
+"627261": {
+"orig": "Ela é muito maior que eu.",
+"nova": "Ela é muito mais alta que eu.",
+"motivo": "größer (pessoa) = mais alta"
+},
+"664185": {
+"orig": "Ela solicitou o pedido do livro a Londres.",
+"nova": "Ela encomendou o livro de Londres.",
+"motivo": "pt confuso"
+},
+"8922593": {
+"orig": "Isso ainda me dói muito.",
+"nova": "Isso ainda me dói.",
+"motivo": "'muito' acrescentado"
+},
+"6291667": {
+"orig": "O Espanhol é falado não só na Espanha.",
+"nova": "O espanhol não é falado só na Espanha.",
+"motivo": "maiúscula indevida"
+},
+"3493979": {
+"orig": "A culpa não é das estrelas, mas sim, sua.",
+"nova": "A culpa não é das estrelas, e sim sua.",
+"motivo": "vírgula indevida"
+},
+"2307306": {
+"orig": "Seria melhor se você tivesse vindo de trem.",
+"nova": "Seria melhor se você fosse de trem.",
+"motivo": "tempo verbal errado"
+},
+"1551333": {
+"orig": "Só eu poderia responder a pergunta corretamente.",
+"nova": "Só eu consegui responder à pergunta corretamente.",
+"motivo": "konnte = consegui"
+},
+"396162": {
+"orig": "O senhor joga golfe, seu Tataki?",
+"nova": "Sr. Tataki, o senhor joga golfe?",
+"motivo": "Herr = Sr."
+},
+"359550": {
+"orig": "Problema se você está cansado, você tem que fazer isso.",
+"nova": "Não importa se você está cansado, você tem que fazer isso.",
+"motivo": "egal = não importa"
+},
+"2636926": {
+"orig": "Vocês não podem deixar-me em paz?",
+"nova": "Vocês não podem me deixar em paz?",
+"motivo": "colocação pronominal (pt-BR)"
+},
+"900280": {
+"orig": "Aprender Esperanto é muito interessante.",
+"nova": "Aprender esperanto é muito interessante.",
+"motivo": "maiúscula indevida"
+},
+"1654300": {
+"orig": "Onde está Tom quando precisamos dele?",
+"nova": "Onde está Tom quando você precisa dele?",
+"motivo": "pessoa trocada"
+},
+"1312771": {
+"orig": "Nós nos inquietamos com o seu futuro.",
+"nova": "Nós nos preocupamos com o seu futuro.",
+"motivo": "sich Sorgen machen = preocupar-se"
+},
+"9654713": {
+"orig": "Mary e eu nos conhecemos há muitos anos.",
+"nova": "Maria e eu nos conhecemos há muitos anos.",
+"motivo": "nome trocado"
+},
+"2832747": {
+"orig": "A Divindade nos dá tudo aquilo de que realmente precisamos para viver.",
+"nova": "O que realmente precisamos na vida nos é dado por Deus.",
+"motivo": "tradução livre demais"
+},
+"360635": {
+"orig": "Betty pode tocar piano.",
+"nova": "Betty sabe tocar piano.",
+"motivo": "können (habilidade) = saber"
+},
+"6901031": {
+"orig": "A melhor coisa que você pode ter é bons amigos.",
+"nova": "A melhor coisa que se pode ter são bons amigos.",
+"motivo": "concordância"
+},
+"5995148": {
+"orig": "Meu pai não conseguia se lembrar do próprio nome.",
+"nova": "Meu pai nem conseguia mais se lembrar do próprio nome.",
+"motivo": "faltava 'nicht einmal mehr'"
+},
+"3493980": {
+"orig": "A culpa não é das estrelas, mas sim, sua.",
+"nova": "A culpa não é das estrelas, e sim sua.",
+"motivo": "vírgula indevida"
+},
+"2562460": {
+"orig": "Já começaste a aprender Francês?",
+"nova": "Já começaste a aprender francês?",
+"motivo": "maiúscula indevida"
+},
+"1081739": {
+"orig": "O Tom perguntou à Mary se o jantar estava pronto.",
+"nova": "O Tom perguntou à Maria se o jantar estava pronto.",
+"motivo": "nome trocado"
+},
+"3829189": {
+"orig": "Tom não se lembrava sobre o que eles tinham conversado.",
+"nova": "Tom não conseguia lembrar sobre o que eles tinham conversado.",
+"motivo": "regência; konnte"
+},
+"7031238": {
+"orig": "Você não está um pouco curioso?",
+"nova": "Você não está nem um pouco curioso?",
+"motivo": "überhaupt nicht = nem um pouco"
+},
+"6321954": {
+"orig": "Quando falo Alemão, só o Tom me entende.",
+"nova": "Quando falo alemão, só o Tom me entende.",
+"motivo": "maiúscula indevida"
+},
+"12206831": {
+"orig": "Felizmente, não está a chover.",
+"nova": "Felizmente, não está chovendo.",
+"motivo": "pt europeu"
+},
+"1943397": {
+"orig": "Por que não estivestes na escola hoje?",
+"nova": "Por que você não foi à escola hoje?",
+"motivo": "conjugação errada (estivestes)"
+},
+"11075321": {
+"orig": "Não sei por que Tom não tentou ajudar Mary.",
+"nova": "Não sei por que Tom não tentou ajudar Maria.",
+"motivo": "nome trocado"
+},
+"7787386": {
+"orig": "Tom está crescendo grande e forte.",
+"nova": "Tom está ficando grande e forte.",
+"motivo": "decalque"
+},
+"4296542": {
+"orig": "O céu está tão azul quanto o azul pode ser.",
+"nova": "O céu está o mais azul que pode estar.",
+"motivo": "pt pouco natural"
+},
+"1312768": {
+"orig": "Nós nos inquietamos com o seu futuro.",
+"nova": "Nós nos preocupamos com o seu futuro.",
+"motivo": "sich Sorgen machen = preocupar-se"
+},
+"1120": {
+"orig": "Nenhuma coisa é impossível para aquele que não tem, ele próprio, necessidade de fazê-la.",
+"nova": "Nada é impossível para quem não precisa fazê-lo pessoalmente.",
+"motivo": "pt artificial"
+},
+"1180022": {
+"orig": "Tu és ainda mais alto que eu.",
+"nova": "Por enquanto, você ainda é mais alto que eu.",
+"motivo": "noch = ainda/por enquanto; ambíguo"
+},
+"6314190": {
+"orig": "Alguém aqui fala Russo?",
+"nova": "Alguém aqui fala russo?",
+"motivo": "maiúscula indevida"
+},
+"3523040": {
+"orig": "O gato da Mary gosta de tocar piano.",
+"nova": "O gato da Maria gosta de tocar piano.",
+"motivo": "nome trocado"
+},
+"2562461": {
+"orig": "O senhor já começou a aprender Francês?",
+"nova": "O senhor já começou a aprender francês?",
+"motivo": "maiúscula indevida"
+},
+"533439": {
+"orig": "Ambas irmãs são muito bonitas.",
+"nova": "Ambas as irmãs são muito bonitas.",
+"motivo": "falta artigo"
+},
+"2981107": {
+"orig": "Ao contrário do meu irmão, eu não posso nadar.",
+"nova": "Ao contrário do meu irmão, eu não sei nadar.",
+"motivo": "können (habilidade) = saber"
+},
+"9107256": {
+"orig": "Aprender Esperanto é muito interessante.",
+"nova": "Aprender esperanto é muito interessante.",
+"motivo": "maiúscula indevida"
+},
+"6822790": {
+"orig": "O futuro não é o que costumava ser.",
+"nova": "O futuro também não é mais o que era.",
+"motivo": "faltava 'auch nicht mehr'"
+},
+"6180870": {
+"orig": "Foi muito gentil de sua parte, Tom.",
+"nova": "Isso é gentil da sua parte, Tom.",
+"motivo": "tempo verbal; 'muito' acrescentado"
+},
+"862962": {
+"orig": "Meu pé adormeceu de novo!",
+"nova": "Meu pé está ficando dormente de novo!",
+"motivo": "presente traduzido como passado"
+},
+"1938356": {
+"orig": "Tom está muito interessado em aprender Francês.",
+"nova": "Tom está muito interessado em aprender francês.",
+"motivo": "maiúscula indevida"
+},
+"6321932": {
+"orig": "Como se diz isso em Russo?",
+"nova": "Como se diz isso em russo?",
+"motivo": "maiúscula indevida"
+},
+"9681786": {
+"orig": "Por que você odeia os japoneses?",
+"nova": "Por que você odeia japonês?",
+"motivo": "Japanisch = a língua, não o povo"
+},
+"2592487": {
+"orig": "A única pessoa em que podemos confiar é em nós mesmos.",
+"nova": "A única pessoa em quem podemos confiar somos nós mesmos.",
+"motivo": "pt agramatical"
+},
+"6149653": {
+"orig": "Quando se tem tantos problemas, como estou tendo agora, não se consegue dormir em paz.",
+"nova": "Quando se tem muitos problemas, como eu agora, não se consegue dormir em paz.",
+"motivo": "viele = muitos"
+},
+"6140847": {
+"orig": "Eu não me importo com a opinião de Tom: não tem nenhum valor para mim.",
+"nova": "Não me importo com a opinião de Tom: ela não tem mais importância para mim.",
+"motivo": "faltava 'mehr'"
+},
+"1800443": {
+"orig": "Ele tem dois filhos que ainda não vão à escola.",
+"nova": "Ela tem dois filhos que ainda não vão à escola.",
+"motivo": "gênero do sujeito"
+},
+"7774082": {
+"orig": "Não sejam tristes.",
+"nova": "Não fiquem tristes.",
+"motivo": "pt pouco natural"
+},
+"351641": {
+"orig": "Ambas irmãs são muito bonitas.",
+"nova": "As duas irmãs são muito bonitas.",
+"motivo": "falta artigo"
+},
+"2739477": {
+"orig": "O Tom e a Mary não gostam de você.",
+"nova": "O Tom e a Maria não gostam de você.",
+"motivo": "nome trocado"
+},
+"904822": {
+"orig": "Se não há solução, é por que não há problema.",
+"nova": "Se não há solução, isso significa que não há problema.",
+"motivo": "'por que' errado; sentido"
+},
+"1211698": {
+"orig": "Eu me chamo Jiaming Wang.",
+"nova": "Eu me chamo Wang Jiaming.",
+"motivo": "ordem do nome alterada"
+},
+"2484810": {
+"orig": "Não quero saber o que você pensa a respeito disso.",
+"nova": "Não quero nem saber o que você pensa a respeito disso.",
+"motivo": "faltava 'gar'"
+},
+"9976071": {
+"orig": "É gentileza sua, Lisa.",
+"nova": "É muita gentileza sua, Lisa.",
+"motivo": "faltava 'sehr'"
+},
+"6313941": {
+"orig": "A irmã de Tom ensina Russo a Maria.",
+"nova": "A irmã de Tom ensina russo a Maria.",
+"motivo": "maiúscula indevida"
+},
+"429037": {
+"orig": "Ele tem sempre sido gentil comigo.",
+"nova": "Ele sempre foi gentil comigo.",
+"motivo": "pt pouco natural"
+},
+"7372137": {
+"orig": "Eu poderia receber um pouco mais de arroz?",
+"nova": "Eu poderia pegar mais um pouco de arroz?",
+"motivo": "'receber' pouco natural"
+},
+"7552643": {
+"orig": "Tom é um pouco mais velho que eu.",
+"nova": "Tom é alguns anos mais velho que eu.",
+"motivo": "ein paar Jahre = alguns anos"
+},
+"2738759": {
+"orig": "\"Olá, Tom!\" \"Olá, Mary!\"",
+"nova": "\"Olá, Tom!\" \"Olá, Maria!\"",
+"motivo": "nome trocado"
+}
+},
+"remove": [
+6162,
+347931,
+430554,
+522754,
+544447,
+602742,
+611588,
+642246,
+660608,
+662281,
+662330,
+739307,
+753300,
+757214,
+759185,
+761056,
+766964,
+783553,
+822667,
+875293,
+983951,
+1058547,
+1144827,
+1220867,
+1260156,
+1294750,
+1295261,
+1302736,
+1331192,
+1333140,
+1450637,
+1477264,
+1527659,
+1565673,
+1690649,
+1698478,
+1700697,
+1713327,
+1714725,
+1769486,
+1787793,
+1854413,
+2101869,
+2135619,
+2204063,
+2229924,
+2349665,
+2885031,
+3374216,
+3976733,
+4690714,
+4722514,
+4843061,
+5176580,
+5717401,
+5965510,
+6134360,
+6173005,
+6290183,
+6290323,
+6301758,
+6626130,
+6886949,
+6920824,
+7018016,
+7056800,
+7085278,
+7772479,
+7786630,
+7821789,
+8214563,
+8225720,
+8227811,
+8871862,
+9960296,
+10193838,
+11649141,
+11649305,
+11649347,
+11649378,
+11649575,
+11651416,
+12411801,
+12431906,
+12471691,
+12513065,
+12525181,
+12526307,
+12555929,
+12581817,
+12627525,
+12632015,
+12632016,
+12740210,
+12864468,
+12887668,
+12890116,
+12890117,
+12906697,
+12910228,
+12990904,
+13038998,
+13252411,
+13252412,
+13252414,
+13306903,
+13311756,
+13470755,
+13498336,
+13597590,
+13600472,
+13642472,
+13811475,
+13941113
+]
+}
