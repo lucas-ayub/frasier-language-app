@@ -226,6 +226,14 @@ for sl, tl in PAIRS:
             k += 1
         lvinfo.append({'name': names[li], 'start': start, 'end': len(final)})
     d = os.path.join(OUT, pair)
+    # guarda a ordem e a conversão anteriores para não perder o caminho do progresso antigo
+    prev_ids, prev_mig = None, None
+    if os.path.exists(os.path.join(d, 'index.json')):
+        pi = json.load(open(os.path.join(d, 'index.json')))
+        prev_ids = []
+        for c in range((pi['total'] + pi['chunk'] - 1) // pi['chunk']):
+            prev_ids += [r[4] for r in json.load(open(os.path.join(d, f'c{c}.json'), encoding='utf-8'))]
+        if os.path.exists(os.path.join(d, 'migrate.json')): prev_mig = json.load(open(os.path.join(d, 'migrate.json')))
     if os.path.exists(d): shutil.rmtree(d)
     os.makedirs(d)
     for n in range(0, len(final), CHUNK):
@@ -242,9 +250,15 @@ for sl, tl in PAIRS:
         if osubs: out.append({'id': tid, 'name': tname, 'icon': icon, 'subs': osubs})
     json.dump({'tracks': out}, open(f'{d}/tracks.json', 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
     oi = old_ids(code)
+    pos = {r[4]: n for n, r in enumerate(final)}
     if oi:
-        pos = {r[4]: n for n, r in enumerate(final)}
         json.dump({'from': code, 'map': [pos.get(t, -1) for t in oi]}, open(f'{d}/migrate.json', 'w'), separators=(',', ':'))
+    elif prev_mig and prev_ids:
+        # compõe: índice antigo -> índice da geração anterior -> índice novo
+        json.dump({'from': prev_mig.get('from'), 'map': [pos.get(prev_ids[k], -1) if 0 <= k < len(prev_ids) else -1 for k in prev_mig['map']]},
+                  open(f'{d}/migrate.json', 'w'), separators=(',', ':'))
+    if prev_ids and prev_ids != [r[4] for r in final]:
+        REPORT.setdefault('order_changed', []).append(pair)   # a ordem mudou: progresso v2 precisaria de conversão
     native_both = sum(1 for r in final if skill.get((owner.get(r[4]), tl)) == 5 and skill.get((owner.get(r[5]), sl)) == 5)
     REPORT[pair] = {'total': len(final), 'native_both': native_both, 'with_audio': sum(1 for r in final if r[4] in audio),
                     'vocab': len(ranked), 'score_dist': sorted(dist.items()),
