@@ -1,5 +1,5 @@
 {
-"reviewed_upto": 99000,
+"reviewed_upto": 120000,
 "fix": {
 "6641370": {
 "orig": "How's it coming?",
@@ -24250,26 +24250,5282 @@
 "orig": "The earthquake was the biggest one that we had ever experienced.",
 "nova": "The earthquake was the strongest one we've ever experienced.",
 "motivo": "stärkste = strongest; tempo verbal"
+},
+"3925113": {
+"orig": "I must object to this plan.",
+"nova": "I'm afraid I must object to this plan.",
+"motivo": "'leider' missing"
+},
+"6477100": {
+"orig": "Tom, Mary and John are gathered around Alice.",
+"nova": "Tom, Mary and John had gathered around Elke.",
+"motivo": "tense; name Elke"
+},
+"2837956": {
+"orig": "My mother made a sweater for me.",
+"nova": "My mother knitted me a sweater.",
+"motivo": "gestrickt = knitted"
+},
+"3407614": {
+"orig": "I know what the Jacksons were doing.",
+"nova": "I know what the Johannsens did.",
+"motivo": "tense; name Johannsens"
+},
+"3982641": {
+"orig": "What you decided to do is insane.",
+"nova": "What you were planning to do is just sick.",
+"motivo": "vorhattest = were planning"
+},
+"4800979": {
+"orig": "I thought that went exceedingly well.",
+"nova": "I thought it was going extremely well.",
+"motivo": "tense (liefe)"
+},
+"6644306": {
+"orig": "I'm looking out for you.",
+"nova": "I'm on the lookout for you.",
+"motivo": "'looking out for' = protecting"
+},
+"1927683": {
+"orig": "Are you a registered voter?",
+"nova": "Are you eligible to vote?",
+"motivo": "wahlberechtigt = eligible to vote"
+},
+"2789968": {
+"orig": "Tom said he was having a good time.",
+"nova": "Tom said he'd had a great time.",
+"motivo": "tense/intensity"
+},
+"883270": {
+"orig": "My father stopped drinking.",
+"nova": "My father stopped getting drunk.",
+"motivo": "sich betrinken = get drunk"
+},
+"2162558": {
+"orig": "You have got to be kidding.",
+"nova": "You're joking, I presume?",
+"motivo": "'nehme ich an' missing"
+},
+"2695939": {
+"orig": "Come on, Tom. Don't be shy.",
+"nova": "Come on, Tom. Don't be a chicken.",
+"motivo": "Hasenfuß = coward"
+},
+"1252359": {
+"orig": "I'm not wearing pants.",
+"nova": "I'm not wearing any underwear.",
+"motivo": "Unterhose = underwear"
+},
+"1902342": {
+"orig": "The shirt you gave me fit perfectly.",
+"nova": "The shirt you gave me fits perfectly.",
+"motivo": "tense (passt)"
+},
+"4010099": {
+"orig": "Tom baked a pie.",
+"nova": "Tom baked a cake.",
+"motivo": "Kuchen = cake"
+},
+"5805753": {
+"orig": "If Tom hadn't been so insecure, he could probably have accepted Mary's love.",
+"nova": "If Tom hadn't been so insecure, he might have been able to accept Mary's love.",
+"motivo": "vielleicht = might, not probably"
+},
+"3982760": {
+"orig": "I don't remember agreeing to anything.",
+"nova": "I don't remember making any commitments.",
+"motivo": "Zusagen = commitments"
+},
+"2371799": {
+"orig": "\"Why are you smiling?\" \"Do I need a reason?\"",
+"nova": "\"Why are you smiling?\" \"Do you need a reason to smile?\"",
+"motivo": "general 'man' question"
+},
+"5763605": {
+"orig": "My grandmother used to use her sewing machine a lot up until about three years ago.",
+"nova": "My grandmother used to use her sewing machine a lot up until three years ago.",
+"motivo": "'about' not in German"
+},
+"3971946": {
+"orig": "I was quick tempered when I was young.",
+"nova": "I was quick-tempered when I was young.",
+"motivo": "hyphenation"
+},
+"11078331": {
+"orig": "I told you this wasn't a good idea.",
+"nova": "I told you you'd better not do that.",
+"motivo": "meaning of 'besser lassen'"
+},
+"11078345": {
+"orig": "Doctors took dramatic measures to save the teen's life.",
+"nova": "Doctors took drastic measures to save the teen's life.",
+"motivo": "drastisch = drastic"
+},
+"816916": {
+"orig": "Short skirts are already out of fashion.",
+"nova": "Short skirts have long been out of fashion.",
+"motivo": "längst = long since"
+},
+"678919": {
+"orig": "The situation is growing serious.",
+"nova": "The situation is getting more and more serious.",
+"motivo": "immer ernster = increasingly"
+},
+"603956": {
+"orig": "I tried to absorb as much of local culture as possible.",
+"nova": "I tried to absorb as much of the local culture as possible.",
+"motivo": "missing article"
+},
+"631493": {
+"orig": "Our college uses far too much electricity.",
+"nova": "Our colleague uses far too much electricity.",
+"motivo": "Kollege = colleague"
+},
+"1187379": {
+"orig": "The crow flew away.",
+"nova": "That crow flew away.",
+"motivo": "diese = this/that"
+},
+"1389207": {
+"orig": "There is no greater mystery in life than love.",
+"nova": "There is no greater mystery in the world than love.",
+"motivo": "in der Welt = in the world"
+},
+"829034": {
+"orig": "My train left Kyoto at six, and arrived in Tokyo at nine.",
+"nova": "My train leaves Kyoto at six and arrives in Tokyo at nine.",
+"motivo": "tense (present)"
+},
+"1205582": {
+"orig": "I drank too much and the ground seemed to spin under my feet.",
+"nova": "I drank too much and the ground seemed to be shaking under my feet.",
+"motivo": "wackeln = shake, not spin"
+},
+"4085402": {
+"orig": "Do people ever accuse you of being conceited?",
+"nova": "Has anyone ever accused you of being conceited?",
+"motivo": "structure/tense"
+},
+"1512850": {
+"orig": "What's your favorite song to workout to?",
+"nova": "What's your favorite song to work out to?",
+"motivo": "'work out' as verb"
+},
+"6476599": {
+"orig": "Tom and Mary invited John and Alice to their wedding.",
+"nova": "Tom and Mary invited John and Elke to their wedding.",
+"motivo": "name Elke"
+},
+"1863506": {
+"orig": "Tom ate some food, drank some beer, and then went right to sleep.",
+"nova": "Tom ate some food, drank some beer, and then went straight to bed.",
+"motivo": "ins Bett = to bed"
+},
+"1872949": {
+"orig": "I'll teach you to do that again.",
+"nova": "Don't you dare do that again.",
+"motivo": "meaning of 'Untersteh dich'"
+},
+"1892567": {
+"orig": "It turned out that the cards were stacked against her from the beginning of the game.",
+"nova": "The cards were stacked against her from the beginning of the game.",
+"motivo": "extra 'It turned out'"
+},
+"1895415": {
+"orig": "We had a splendid dinner that evening.",
+"nova": "We had a splendid dinner tonight.",
+"motivo": "heute = today/tonight"
+},
+"1935571": {
+"orig": "The man charged me with being irresponsible.",
+"nova": "The man accused me of being irresponsible.",
+"motivo": "beschuldigen = accuse"
+},
+"2817213": {
+"orig": "Tom never took his eyes off Mary.",
+"nova": "Tom couldn't take his eyes off Mary.",
+"motivo": "konnte nicht = couldn't"
+},
+"2049981": {
+"orig": "Could you help me out here?",
+"nova": "Could you help me get out?",
+"motivo": "hinauskommen = get out"
+},
+"2290361": {
+"orig": "The majority of those men worked in the mine.",
+"nova": "The majority of the men worked in the mine.",
+"motivo": "\"those\" não está no alemão"
+},
+"2404394": {
+"orig": "Give me five gallons of gas, please.",
+"nova": "Give me nineteen liters of fuel, please.",
+"motivo": "quantidade/unidade trocada"
+},
+"2766570": {
+"orig": "Tom says you're lying about what time you arrived.",
+"nova": "Tom says you lied about what time you arrived.",
+"motivo": "tempo: hättest gelogen = passado"
+},
+"3208200": {
+"orig": "Tom and his lawyer left the courtroom together just a few minutes ago.",
+"nova": "Tom and his lawyer left the courtroom just a few minutes ago.",
+"motivo": "\"together\" não está no alemão"
+},
+"6673366": {
+"orig": "Tom says he doesn't think you should do that.",
+"nova": "Tom thinks you'd better not do that.",
+"motivo": "\"ist der Meinung\" = acha, não \"says\""
+},
+"3314955": {
+"orig": "First impressions can often be misleading.",
+"nova": "First impressions can be deceiving.",
+"motivo": "\"often\" não está no alemão"
+},
+"6618872": {
+"orig": "Tom was finished.",
+"nova": "Tom was exhausted.",
+"motivo": "\"fix und fertig\" = exausto"
+},
+"6057902": {
+"orig": "Oops, I did it again.",
+"nova": "Oh no! I did it again!",
+"motivo": "\"O nein\" = Oh no, não \"Oops\""
+},
+"498098": {
+"orig": "How long may I borrow this notebook?",
+"nova": "How long may I borrow this laptop?",
+"motivo": "\"Notebook\" em alemão = laptop"
+},
+"5081294": {
+"orig": "Tom ate his lunch at his desk.",
+"nova": "Tom ate breakfast at his desk.",
+"motivo": "frühstückte = café da manhã, não almoço"
+},
+"1708645": {
+"orig": "People struggled against poverty.",
+"nova": "People struggle against poverty.",
+"motivo": "tempo: presente no alemão"
+},
+"937531": {
+"orig": "I haven't had the chance to introduce myself to her.",
+"nova": "I didn't have the chance to introduce myself to her.",
+"motivo": "tempo: hatte = passado"
+},
+"2561216": {
+"orig": "How will you dispose of this problem?",
+"nova": "How are you going to get rid of this problem?",
+"motivo": "inglês pouco natural (\"dispose of\")"
+},
+"1818363": {
+"orig": "The bus turned around the corner.",
+"nova": "The bus turned the corner.",
+"motivo": "inglês não natural"
+},
+"1959541": {
+"orig": "I can't believe that didn't work.",
+"nova": "I can hardly believe that didn't work.",
+"motivo": "\"kaum\" = hardly"
+},
+"817043": {
+"orig": "He is a kind boy.",
+"nova": "He is a polite boy.",
+"motivo": "höflich = polite"
+},
+"3658498": {
+"orig": "Don't knock it unless you try it first.",
+"nova": "Don't knock it until you've tried it.",
+"motivo": "expressão inglesa incorreta"
+},
+"4943178": {
+"orig": "Tom fooled Mary.",
+"nova": "Tom deceived Mary.",
+"motivo": "betrügen = enganar/trair, \"fooled\" fraco"
+},
+"1512901": {
+"orig": "He gave a vague answer.",
+"nova": "He gave me a vague answer.",
+"motivo": "falta \"me\" (mir)"
+},
+"740640": {
+"orig": "The car I rented from you has a problem.",
+"nova": "The car I rented from you is defective.",
+"motivo": "defekt = com defeito"
+},
+"980657": {
+"orig": "They studied English yesterday.",
+"nova": "They practiced English yesterday.",
+"motivo": "geübt = praticaram"
+},
+"2966092": {
+"orig": "I'm glad to hear that.",
+"nova": "It's reassuring to hear that.",
+"motivo": "beruhigen = tranquilizar"
+},
+"6196915": {
+"orig": "I ordered a BLT sandwich.",
+"nova": "I ordered a ham, lettuce and tomato sandwich.",
+"motivo": "Schinken = presunto, não bacon (BLT)"
+},
+"1854250": {
+"orig": "I didn't commit myself to attend the meeting.",
+"nova": "I didn't feel obliged to attend the meeting.",
+"motivo": "sentido errado"
+},
+"1512848": {
+"orig": "What's your favorite song to workout to?",
+"nova": "What's your favorite song to work out to?",
+"motivo": "ortografia inglesa: work out (verbo)"
+},
+"1906020": {
+"orig": "I wish you'd quit doing what you're doing.",
+"nova": "I wish you'd never stop doing what you're doing.",
+"motivo": "sentido invertido"
+},
+"2766593": {
+"orig": "Tom and Mary are having a little financial trouble.",
+"nova": "Tom and Mary are in financial trouble.",
+"motivo": "\"a little\" não está no alemão"
+},
+"2972407": {
+"orig": "Tom is an experienced salesman.",
+"nova": "Tom is an experienced businessman.",
+"motivo": "Geschäftsmann = businessman"
+},
+"1586092": {
+"orig": "I'm uncomfortable in these new shoes.",
+"nova": "These new shoes are uncomfortable.",
+"motivo": "tradução muda o sujeito"
+},
+"1623884": {
+"orig": "Every minute seemed to last a lifetime.",
+"nova": "Every minute seemed to last an eternity.",
+"motivo": "Ewigkeit = eternity"
+},
+"1746024": {
+"orig": "I have to check my mailbox.",
+"nova": "I have to check my inbox.",
+"motivo": "Posteingang = inbox"
+},
+"6641896": {
+"orig": "Why don't you ask Mary out?",
+"nova": "Why don't you take Mary out?",
+"motivo": "ausführen = take out, não ask out"
+},
+"4084604": {
+"orig": "Tom is quite outgoing.",
+"nova": "Tom is quite open-minded.",
+"motivo": "aufgeschlossen = open-minded"
+},
+"3345673": {
+"orig": "I can't let you enter without a pass.",
+"nova": "I can't let you in without a passport.",
+"motivo": "Pass = passport"
+},
+"5805603": {
+"orig": "Do you spend most of your time worrying about things that don't matter so much?",
+"nova": "Do you spend most of your time worrying about things that don't matter?",
+"motivo": "so much a mais"
+},
+"602399": {
+"orig": "Don't stick your nose into my personal affairs.",
+"nova": "Don't stick your nose into my affairs.",
+"motivo": "personal a mais"
+},
+"6618980": {
+"orig": "Tom seemed bossy.",
+"nova": "Tom seemed opinionated.",
+"motivo": "rechthaberisch ≠ bossy"
+},
+"7441773": {
+"orig": "Tom got very disgusted.",
+"nova": "Tom was utterly disgusted.",
+"motivo": "aufs höchste = utterly"
+},
+"4762858": {
+"orig": "Tom took out his key and opened the door.",
+"nova": "Tom took out his key and unlocked the door.",
+"motivo": "aufsperren = unlock"
+},
+"2815221": {
+"orig": "You'll never guess what happened.",
+"nova": "You'll never guess what just happened!",
+"motivo": "gerade = just"
+},
+"1825111": {
+"orig": "Helen Keller was blind, deaf and dumb.",
+"nova": "Helen Keller was blind, deaf and mute.",
+"motivo": "dumb datado/ofensivo"
+},
+"544618": {
+"orig": "Once upon a time, there lived a poor man and a rich woman.",
+"nova": "Once upon a time, there lived a poor old man and a rich woman.",
+"motivo": "faltava old"
+},
+"1367933": {
+"orig": "There are many rats on the ship.",
+"nova": "There are many rats on this ship.",
+"motivo": "diesem = this"
+},
+"636293": {
+"orig": "The new bridge will have been completed by March.",
+"nova": "The new bridge will be completed in March.",
+"motivo": "im März = in March"
+},
+"3094642": {
+"orig": "I understand you know a lot about Boston.",
+"nova": "I can see you know a lot about Boston.",
+"motivo": "merken = notice"
+},
+"785484": {
+"orig": "He loves to gossip.",
+"nova": "He loves to chat.",
+"motivo": "schwatzen = chat, não gossip"
+},
+"920155": {
+"orig": "He finished the beer and ordered another.",
+"nova": "He finished his beer and ordered another.",
+"motivo": "sein Bier = his beer"
+},
+"2118066": {
+"orig": "Just saying you don't like fish because of the bones is not really a good reason for not liking fish.",
+"nova": "The bones are no reason not to like fish!",
+"motivo": "tradução não fiel/prolixa"
+},
+"2930956": {
+"orig": "Tom is supposedly cleaning his bedroom.",
+"nova": "Tom is probably cleaning his bedroom.",
+"motivo": "vermutlich = probably"
+},
+"1992038": {
+"orig": "You've been doing a pretty good job so far.",
+"nova": "You've done a really good job so far.",
+"motivo": "wirklich = really"
+},
+"5763744": {
+"orig": "Tom, Mary, John and Alice are friends. They've known each other since they were children.",
+"nova": "Tom, Mary, John and Elke are friends. They've known each other since they were children.",
+"motivo": "nome trocado: Elke"
+},
+"4902269": {
+"orig": "Everything else doesn't matter now.",
+"nova": "Nothing else matters now.",
+"motivo": "inglês pouco natural"
+},
+"2434644": {
+"orig": "Tom divorced Mary after the children graduated from college.",
+"nova": "Tom divorced Mary after the children had left college.",
+"motivo": "verlassen = leave, não graduate"
+},
+"5312267": {
+"orig": "No one wants to volunteer.",
+"nova": "No one is volunteering.",
+"motivo": "sich melden = volunteer (fato)"
+},
+"5763745": {
+"orig": "Tom, Mary, John and Alice are friends. They've known each other since they were children.",
+"nova": "Tom, Mary, John and Elke are friends. They've known each other since they were children.",
+"motivo": "nome trocado: Elke"
+},
+"1768760": {
+"orig": "You are saying you intentionally hide your good looks?",
+"nova": "Are you saying you intentionally hide your good looks?",
+"motivo": "é pergunta"
+},
+"501974": {
+"orig": "Your dress is unsuitable for the occasion.",
+"nova": "Your clothes are unsuitable for this occasion.",
+"motivo": "Kleidung = clothes"
+},
+"2247333": {
+"orig": "I remind you that you are still under oath.",
+"nova": "May I remind you that you are still under oath.",
+"motivo": "ich darf = may I"
+},
+"2983053": {
+"orig": "It was a perfect fit.",
+"nova": "They fit perfectly.",
+"motivo": "sie haben = they"
+},
+"2743862": {
+"orig": "Everyone in the city appears to be constantly on the go.",
+"nova": "Everyone in this city appears to be constantly on the go.",
+"motivo": "dieser = this"
+},
+"6585352": {
+"orig": "Don't call me a jerk.",
+"nova": "Don't call me an idiot.",
+"motivo": "Idiot ≠ jerk"
+},
+"1293639": {
+"orig": "Calm down and begin at the beginning.",
+"nova": "Take a deep breath and start again from the beginning.",
+"motivo": "tief durchatmen = deep breath"
+},
+"3979410": {
+"orig": "My father was no less affectionate and tender to me than my mother was.",
+"nova": "My father was no less affectionate to me than my mother was.",
+"motivo": "and tender a mais"
+},
+"5805642": {
+"orig": "Tom decided that it wasn't necessary to deal with that problem this afternoon.",
+"nova": "Tom decided that it wasn't necessary to deal with the problem that afternoon.",
+"motivo": "an diesem Nachmittag = that afternoon"
+},
+"647780": {
+"orig": "If he'd known the truth, he'd have told me.",
+"nova": "He wouldn't have kept the truth from me.",
+"motivo": "tradução com sentido diferente"
+},
+"741184": {
+"orig": "The teacher suspected the student was cheating.",
+"nova": "The teacher suspected the student of cheating.",
+"motivo": "tempo: geschummelt zu haben"
+},
+"840204": {
+"orig": "I discovered too late that I left out the most important part of my speech.",
+"nova": "I discovered too late that I had left out the most important part of my speech.",
+"motivo": "mais-que-perfeito"
+},
+"1524159": {
+"orig": "Tom and Mary both prefer watching comedies.",
+"nova": "Tom and Mary prefer watching comedies.",
+"motivo": "both a mais"
+},
+"955718": {
+"orig": "I wish I could figure out how to delete my Facebook account.",
+"nova": "I'd like to figure out how to delete my Facebook account.",
+"motivo": "würde gerne = I'd like"
+},
+"5763568": {
+"orig": "I think Mary was the prettiest girl in our class when we were in the third grade.",
+"nova": "When I was in third grade, I thought Mary was the prettiest girl in the class.",
+"motivo": "tradução com sentido diferente"
+},
+"5623018": {
+"orig": "I hurt my foot getting in the automobile.",
+"nova": "I hurt my foot getting into the car.",
+"motivo": "automobile pouco natural"
+},
+"4134671": {
+"orig": "Tom showed me a drawing he did of Mary.",
+"nova": "Tom showed me a picture of Mary that he had made.",
+"motivo": "drawing não está no original"
+},
+"1529411": {
+"orig": "If I won the lottery, I'd buy you a new car.",
+"nova": "If I won the lottery, I'd buy myself a new car.",
+"motivo": "mir = myself"
+},
+"2767968": {
+"orig": "Tom and Mary looked through all the items on the table.",
+"nova": "Tom and Mary looked at the items on the table.",
+"motivo": "all a mais"
+},
+"1842175": {
+"orig": "Tom stopped at a convenience store to buy some milk.",
+"nova": "Tom stopped at the supermarket to buy some milk.",
+"motivo": "Supermarkt ≠ convenience store"
+},
+"1851679": {
+"orig": "Tom thought Cookie would be a good name for his dog.",
+"nova": "Tom thought Krümel would be a good name for his dog.",
+"motivo": "nome trocado"
+},
+"1901106": {
+"orig": "That job wasn't very interesting. However, the pay was good.",
+"nova": "That job wasn't very interesting. At least the pay was good.",
+"motivo": "immerhin = at least"
+},
+"5746506": {
+"orig": "Tom told the children that they could stay in this room as long as they didn't make any noise.",
+"nova": "Tom told the children that they could stay in his room as long as they didn't make any noise.",
+"motivo": "seinem = his"
+},
+"1931904": {
+"orig": "Tom told me that he couldn't blame me for breaking my promise.",
+"nova": "Tom said that he couldn't blame me for breaking my promise.",
+"motivo": "sagte = said"
+},
+"2287563": {
+"orig": "You've got your priorities backwards.",
+"nova": "They've got their priorities backwards.",
+"motivo": "ihre minúsculo = they"
+},
+"2292116": {
+"orig": "I apologize for my choice of words.",
+"nova": "I'd like to apologize for my choice of words.",
+"motivo": "faltava 'möchte'"
+},
+"5805770": {
+"orig": "I know that it is highly unlikely that we'll be able to sell all this stuff.",
+"nova": "I know that it is highly unlikely that we'll be able to sell this stuff.",
+"motivo": "'all' a mais"
+},
+"3275412": {
+"orig": "I listened, but I didn't hear anything.",
+"nova": "I listened, but I couldn't understand anything.",
+"motivo": "verstehen = understand"
+},
+"2750484": {
+"orig": "Tom has a meeting every Monday afternoon.",
+"nova": "Tom has a meeting every Monday morning.",
+"motivo": "Montagmorgen = morning"
+},
+"5473965": {
+"orig": "Mary doesn't wear as much makeup as Alice.",
+"nova": "Mary doesn't wear as much makeup as Elke.",
+"motivo": "nome próprio"
+},
+"3743924": {
+"orig": "If I'd known what you were going to do, I'd've tried to stop you.",
+"nova": "If I'd known what you were going to do, I'd have tried to stop you.",
+"motivo": "contração I'd've informal"
+},
+"4126940": {
+"orig": "It was courteous of him to write a letter of thanks.",
+"nova": "It was kind of him to write us a thank-you letter.",
+"motivo": "faltava 'us'"
+},
+"5064136": {
+"orig": "This wasn't an easy task.",
+"nova": "That was by no means an easy task.",
+"motivo": "faltava 'beileibe'"
+},
+"6643557": {
+"orig": "I'll go look for Tom.",
+"nova": "I'll keep an eye out for Tom.",
+"motivo": "Ausschau halten ≠ go look for"
+},
+"656522": {
+"orig": "I object to being treated like a child.",
+"nova": "I refuse to be treated like a child.",
+"motivo": "weigere mich = refuse"
+},
+"5763748": {
+"orig": "Tom's muscles were tired and he wanted to get home and soak in a hot bath for a while.",
+"nova": "Tom's muscles were exhausted and he wanted to go home and get into a hot bath.",
+"motivo": "'for a while' a mais"
+},
+"740136": {
+"orig": "He likes adventure.",
+"nova": "He loves adventure.",
+"motivo": "liebt = loves"
+},
+"927960": {
+"orig": "He seems to be very happy.",
+"nova": "He seems to be overjoyed.",
+"motivo": "überglücklich = overjoyed"
+},
+"623465": {
+"orig": "The twin girls are so much alike that I can't tell one from the other.",
+"nova": "The twins are so much alike that I can't tell one from the other.",
+"motivo": "'girls' não está no alemão"
+},
+"5442862": {
+"orig": "The cake was very delicious.",
+"nova": "The cake tasted very good.",
+"motivo": "'very delicious' não natural"
+},
+"2428205": {
+"orig": "If Tom would smile more often, he'd probably have more friends.",
+"nova": "If Tom smiled more often, he'd probably have more friends.",
+"motivo": "condicional inglês incorreto"
+},
+"2363105": {
+"orig": "The red belt makes her black dress look even better.",
+"nova": "The red belt makes her red dress look even better.",
+"motivo": "cor do vestido trocada"
+},
+"6688662": {
+"orig": "Tom didn't take a bath for a week.",
+"nova": "Tom hadn't taken a bath for a week.",
+"motivo": "tempo: mais-que-perfeito"
+},
+"1699035": {
+"orig": "I don't really like the stores there.",
+"nova": "I don't really like the stores here.",
+"motivo": "hier = here"
+},
+"2292134": {
+"orig": "I apologize for what's happened here.",
+"nova": "I'd like to apologize for what's happened here.",
+"motivo": "faltava 'möchte'"
+},
+"2107779": {
+"orig": "I thought you'd speak French better than Tom.",
+"nova": "I thought you spoke French better than Tom.",
+"motivo": "sentido: discurso indireto, não condicional"
+},
+"3123583": {
+"orig": "I doubt that Tom has the courage to do what really needs to be done.",
+"nova": "I doubt that Tom has the courage to do what needs to be done.",
+"motivo": "'really' a mais"
+},
+"5805610": {
+"orig": "I remember when we used to never eat vegetables that we didn't grow ourselves.",
+"nova": "I remember how we never ate vegetables that we hadn't grown ourselves.",
+"motivo": "inglês pouco natural"
+},
+"674800": {
+"orig": "The dog was busy burying his bone in the garden.",
+"nova": "The dog was busily burying his bone in the garden.",
+"motivo": "faltava 'eifrig'"
+},
+"6975952": {
+"orig": "Tom wrote Mary a text message, but then deleted it before sending it.",
+"nova": "Tom wrote Mary a text message, but then deleted it instead of sending it.",
+"motivo": "statt = instead of"
+},
+"2758989": {
+"orig": "Please keep this news to yourself for a while.",
+"nova": "Please keep this news to yourselves for a while.",
+"motivo": "euch = plural"
+},
+"3935602": {
+"orig": "Tom looked terrified.",
+"nova": "Tom looked frightened.",
+"motivo": "erschrocken ≠ terrified"
+},
+"2204140": {
+"orig": "You're persevering.",
+"nova": "You're persistent.",
+"motivo": "inglês não natural"
+},
+"6369681": {
+"orig": "Tom says he thinks it won't be possible to do that.",
+"nova": "Tom doesn't think that's doable.",
+"motivo": "'says' a mais"
+},
+"2289443": {
+"orig": "This work's very accurately done.",
+"nova": "This work has been done very neatly.",
+"motivo": "ordentlich ≠ accurately"
+},
+"1956890": {
+"orig": "We'll make up for the loss.",
+"nova": "We'll cover the loss.",
+"motivo": "aufkommen für = pagar/cobrir"
+},
+"2497927": {
+"orig": "We have to conclude that the policy is a failure.",
+"nova": "We have to conclude that the strategy is a mistake.",
+"motivo": "Strategie/Fehler mal traduzidos"
+},
+"1511898": {
+"orig": "I won't tolerate your mistakes again.",
+"nova": "I won't tolerate your mistakes anymore.",
+"motivo": "nicht mehr = anymore"
+},
+"4949015": {
+"orig": "I'm tired. I'm going to lie down.",
+"nova": "I'm tired. I'm going to take a little nap.",
+"motivo": "Nickerchen = nap"
+},
+"3243321": {
+"orig": "Tom saves over 80% of what he earns.",
+"nova": "Tom saves eighty percent of what he earns.",
+"motivo": "'over' a mais"
+},
+"1906019": {
+"orig": "I wish you'd quit doing what you're doing.",
+"nova": "I wish you'd never stop doing what you're doing.",
+"motivo": "sentido invertido"
+},
+"784294": {
+"orig": "You have no cause for anger.",
+"nova": "You have no reason to get upset.",
+"motivo": "aufregen = get upset"
+},
+"4949014": {
+"orig": "I'm tired. I'm going to lie down.",
+"nova": "I'm tired. I'm going to lie down for a bit.",
+"motivo": "faltava 'ein Weilchen'"
+},
+"5805819": {
+"orig": "I thought chances of Tom not noticing what Mary was doing were pretty slim.",
+"nova": "I thought the chances of Tom not noticing what Mary was doing were pretty slim.",
+"motivo": "faltava artigo"
+},
+"1545056": {
+"orig": "I waited outside, thinking that we might meet bump into each other.",
+"nova": "I waited outside, thinking that we might bump into each other.",
+"motivo": "tradução quebrada"
+},
+"4917592": {
+"orig": "If Tom doesn't mind, I'd like to join him for lunch.",
+"nova": "If Tom doesn't mind, I'd like to have lunch with him today.",
+"motivo": "faltava 'heute'"
+},
+"2086377": {
+"orig": "Some of them are really fine.",
+"nova": "Some of them are really excellent.",
+"motivo": "hervorragend = excellent"
+},
+"2290354": {
+"orig": "The money was all there. Nobody touched it.",
+"nova": "The money was all there. Nobody had touched it.",
+"motivo": "tempo: mais-que-perfeito"
+},
+"3997713": {
+"orig": "You're very religious, aren't you?",
+"nova": "You're quite religious, aren't you?",
+"motivo": "ziemlich = quite"
+},
+"2225428": {
+"orig": "It made me supremely happy.",
+"nova": "That made me extremely happy.",
+"motivo": "'supremely' não natural"
+},
+"2997932": {
+"orig": "The pigs are coming! Let's beat it!",
+"nova": "The cops are coming! Let's beat it!",
+"motivo": "'pigs' mais ofensivo que 'Bullen'"
+},
+"3144002": {
+"orig": "I'm very discrete.",
+"nova": "I'm very discreet.",
+"motivo": "ortografia: discreet"
+},
+"6644878": {
+"orig": "Give it a break, Tom.",
+"nova": "Give him a break, Tom.",
+"motivo": "ihm = him"
+},
+"3707555": {
+"orig": "Tom got a part-time job as gardener.",
+"nova": "Tom got a part-time job as a gardener.",
+"motivo": "faltava artigo"
+},
+"2841396": {
+"orig": "Tom has psychic abilities.",
+"nova": "Tom has supernatural abilities.",
+"motivo": "übernatürlich = supernatural"
+},
+"659157": {
+"orig": "I had plenty of time to talk to many friends.",
+"nova": "I had plenty of opportunity to talk to many friends.",
+"motivo": "Gelegenheit = opportunity"
+},
+"5805672": {
+"orig": "I had to cancel that order because we didn't have enough money to pay for it.",
+"nova": "I had to cancel the order because I didn't have the money to pay for it.",
+"motivo": "pessoa trocada (mir → I)"
+},
+"4163989": {
+"orig": "She looked in her bag for the key of the house, but could not find it.",
+"nova": "She looked in her bag for her house key, but couldn't find it.",
+"motivo": "'key of the house' não natural"
+},
+"3016562": {
+"orig": "The only place Tom hadn't looked was in the basement.",
+"nova": "The only place Tom hadn't looked was the ground floor.",
+"motivo": "Erdgeschoss = ground floor"
+},
+"2422415": {
+"orig": "The mother laid her baby on the bed softly.",
+"nova": "The mother gently laid her baby on the bed.",
+"motivo": "sanft = gently"
+},
+"3078438": {
+"orig": "Tom was reading the sports page when Mary came into the living room.",
+"nova": "Thomas was reading the sports page when Mary came into the living room.",
+"motivo": "nome próprio"
+},
+"10318000": {
+"orig": "There's a flower shop near by.",
+"nova": "There's a flower shop nearby.",
+"motivo": "ortografia: nearby"
+},
+"2225429": {
+"orig": "It made me supremely happy.",
+"nova": "That made me incredibly happy.",
+"motivo": "'supremely' não natural"
+},
+"2766653": {
+"orig": "I want to thank you for picking Tom up after school.",
+"nova": "I'd like to thank you for picking Tom up from school.",
+"motivo": "möchte; von der Schule"
+},
+"3152059": {
+"orig": "I had a hasty breakfast and left home.",
+"nova": "I had a hasty breakfast and then left the house.",
+"motivo": "left home = sair de casa definitivamente"
+},
+"6952876": {
+"orig": "Tom thought about what it would be like to kiss Mary.",
+"nova": "Tom tried to imagine what it would be like to kiss Mary.",
+"motivo": "versuchte sich vorzustellen = tried to imagine"
+},
+"943238": {
+"orig": "Having failed four times, he didn't try anymore.",
+"nova": "Having failed four times, he didn't try again.",
+"motivo": "nicht noch mal = not again"
+},
+"1699036": {
+"orig": "I don't really like the stores there.",
+"nova": "I don't really like the stores here.",
+"motivo": "hier = here"
+},
+"3487536": {
+"orig": "Tom showed Mary the picture he was drawing.",
+"nova": "Tom showed Mary the picture he was painting.",
+"motivo": "malen = paint"
+},
+"5368972": {
+"orig": "We had to change buses three times to get here.",
+"nova": "We had to change three times on the way here.",
+"motivo": "'buses' não está no alemão"
+},
+"2204141": {
+"orig": "You're persevering.",
+"nova": "You're persistent.",
+"motivo": "beharrlich = persistent; persevering pouco natural"
+},
+"1709838": {
+"orig": "Would you please tell me how to spell that word?",
+"nova": "Would you please spell that word for me?",
+"motivo": "buchstabieren = spell"
+},
+"3189396": {
+"orig": "Tom had to pay for damages.",
+"nova": "Tom had to pay for the damage.",
+"motivo": "damages = indenização judicial"
+},
+"6826913": {
+"orig": "Since you're going to Tom's house anyway, could you give this to Tom?",
+"nova": "Since you're going there anyway, could you give this to Tom?",
+"motivo": "'Tom's house' não está no alemão"
+},
+"2176553": {
+"orig": "What's the most interesting thing you ate on your trip?",
+"nova": "What was the most interesting thing you ate on your trip?",
+"motivo": "tempo: war = was"
+},
+"991661": {
+"orig": "Even an expert driver can make a mistake.",
+"nova": "Even an experienced driver can make mistakes.",
+"motivo": "erfahren = experienced"
+},
+"3366964": {
+"orig": "I think I understand what went wrong.",
+"nova": "I think I know what went wrong.",
+"motivo": "weiß = know"
+},
+"5805594": {
+"orig": "Tom admitted that he didn't eat the cake that his girlfriend had baked for him.",
+"nova": "Tom admitted that he hadn't touched the cake his girlfriend had baked for him.",
+"motivo": "nicht angerührt = hadn't touched"
+},
+"1695811": {
+"orig": "Will feeding my dog garlic cause any problems?",
+"nova": "Could it cause any problems if I fed my dog garlic?",
+"motivo": "modo condicional"
+},
+"5331102": {
+"orig": "I'm very happy Tom and Mary are safe.",
+"nova": "I'm overjoyed that Tom and Mary are safe.",
+"motivo": "überglücklich = overjoyed"
+},
+"1321083": {
+"orig": "We disputed for hours about what to write.",
+"nova": "We spent hours discussing what to write.",
+"motivo": "disputed about não natural"
+},
+"6533735": {
+"orig": "Mary doesn't want to share her toys with her friends.",
+"nova": "Mary doesn't want her friends to play with her toys.",
+"motivo": "tradução livre demais"
+},
+"1899366": {
+"orig": "Even though there were many cookies on the dish, I only ate three.",
+"nova": "Even though there were many cookies in the bowl, I only ate three.",
+"motivo": "Schüssel = bowl"
+},
+"1952362": {
+"orig": "You can't keep hiding from the truth.",
+"nova": "You can't run away from the truth forever.",
+"motivo": "ewig davonlaufen = run away forever"
+},
+"774960": {
+"orig": "Hold the handrail.",
+"nova": "Use the handrail.",
+"motivo": "benutzen = use"
+},
+"784071": {
+"orig": "Do you accept Visa card?",
+"nova": "Do you accept Visa?",
+"motivo": "inglês agramatical"
+},
+"800122": {
+"orig": "I love blackberries.",
+"nova": "I like blackberries.",
+"motivo": "mögen = like"
+},
+"1314747": {
+"orig": "Is your dog mean?",
+"nova": "Does your dog bite?",
+"motivo": "bissig = that bites"
+},
+"1397242": {
+"orig": "Tom was framed.",
+"nova": "Tom was tricked.",
+"motivo": "reingelegt = tricked, não framed"
+},
+"1495987": {
+"orig": "I have a truck.",
+"nova": "I have a pickup truck.",
+"motivo": "Pick-up = pickup"
+},
+"1523198": {
+"orig": "He is eating.",
+"nova": "He is dining.",
+"motivo": "speisen = dine (formal)"
+},
+"1531080": {
+"orig": "She is a runner.",
+"nova": "She runs errands.",
+"motivo": "Botengänge erledigen = run errands"
+},
+"1606316": {
+"orig": "That's what I've always said.",
+"nova": "I said that from the start!",
+"motivo": "von vornherein = from the start"
+},
+"1713368": {
+"orig": "I have a cough.",
+"nova": "I'm coughing.",
+"motivo": "huste = am coughing"
+},
+"1745972": {
+"orig": "I have to cut the wood.",
+"nova": "I have to chop the wood.",
+"motivo": "hacken = chop"
+},
+"1907080": {
+"orig": "That's embarrassing.",
+"nova": "That's shameful.",
+"motivo": "beschämend = shameful"
+},
+"1918709": {
+"orig": "I am a bit drunk.",
+"nova": "I'm a bit tipsy.",
+"motivo": "beschwipst = tipsy"
+},
+"2030497": {
+"orig": "You're joking!",
+"nova": "You must be joking!",
+"motivo": "wohl = must be"
+},
+"2797115": {
+"orig": "That's a delicate problem.",
+"nova": "That's a delicate subject.",
+"motivo": "Thema = subject/topic"
+},
+"2167592": {
+"orig": "Is this your briefcase?",
+"nova": "Is this conference folder yours?",
+"motivo": "Konferenzmappe ≠ briefcase"
+},
+"3846060": {
+"orig": "Tom has been extremely cooperative.",
+"nova": "Tom was extremely cooperative.",
+"motivo": "tempo: war = was"
+},
+"2205526": {
+"orig": "Tom is vain.",
+"nova": "Tom is conceited.",
+"motivo": "aufgeblasen = conceited"
+},
+"2228442": {
+"orig": "I'm going to grow wheat there.",
+"nova": "I want to grow wheat there.",
+"motivo": "will = want"
+},
+"3730861": {
+"orig": "Are you blowing me off?",
+"nova": "Are you trying to chase me away?",
+"motivo": "verjagen = chase away"
+},
+"3750898": {
+"orig": "The door squeaked.",
+"nova": "The door creaked.",
+"motivo": "knarren = creak"
+},
+"3885620": {
+"orig": "Tom has a hunch.",
+"nova": "Tom has a hunchback.",
+"motivo": "Buckel ≠ hunch (palpite)"
+},
+"4237066": {
+"orig": "Tom is a misfit.",
+"nova": "Tom is a loner.",
+"motivo": "Eigenbrötler = loner"
+},
+"4873102": {
+"orig": "They kept talking all the time.",
+"nova": "They talked nonstop the whole time.",
+"motivo": "ohne Unterlass = nonstop"
+},
+"4943251": {
+"orig": "I must resist.",
+"nova": "I have to defend myself.",
+"motivo": "sich wehren = defend oneself"
+},
+"6615264": {
+"orig": "Tom's stranded.",
+"nova": "Tom is penniless.",
+"motivo": "mittellos = penniless"
+},
+"6960531": {
+"orig": "This is the main street of this city.",
+"nova": "This is the city's main street.",
+"motivo": "der Stadt = the city"
+},
+"7285945": {
+"orig": "Tom has a perfect alibi.",
+"nova": "Tom has an airtight alibi.",
+"motivo": "stichfest = airtight"
+},
+"7337572": {
+"orig": "Tom was pushing me.",
+"nova": "Tom pushed me.",
+"motivo": "hat geschubst = pushed"
+},
+"7592255": {
+"orig": "Tom tried to intervene.",
+"nova": "Tom wanted to intervene.",
+"motivo": "wollte = wanted"
+},
+"1525652": {
+"orig": "He drives a pickup truck.",
+"nova": "He drives a tow truck.",
+"motivo": "Abschleppwagen = tow truck"
+},
+"2662277": {
+"orig": "The isolation was terrible.",
+"nova": "The loneliness was terrible.",
+"motivo": "Einsamkeit = loneliness"
+},
+"8237577": {
+"orig": "This house has double glazed windows.",
+"nova": "This house has double-glazed windows.",
+"motivo": "hífen"
+},
+"8237604": {
+"orig": "Tom planted the seeds.",
+"nova": "Tom planted the seedlings.",
+"motivo": "Setzlinge = seedlings"
+},
+"8237623": {
+"orig": "Tom gave Mary a roll of film.",
+"nova": "Tom gave Marie a roll of film.",
+"motivo": "nome Marie"
+},
+"8237730": {
+"orig": "Tom and Mary looked at the ruins.",
+"nova": "Tom and Marie looked at the ruins.",
+"motivo": "nome Marie"
+},
+"8305517": {
+"orig": "I tested everything.",
+"nova": "I checked everything.",
+"motivo": "prüfen = check"
+},
+"8323071": {
+"orig": "We're powerful.",
+"nova": "We're influential.",
+"motivo": "einflussreich = influential"
+},
+"705869": {
+"orig": "One's lifestyle is largely determined by money.",
+"nova": "Our lifestyle depends largely on money.",
+"motivo": "unser = our"
+},
+"3109716": {
+"orig": "It's going to collapse.",
+"nova": "It's about to collapse.",
+"motivo": "gleich = about to"
+},
+"1097408": {
+"orig": "How much is the monthly rate?",
+"nova": "How much is the monthly fee?",
+"motivo": "Gebühr = fee"
+},
+"1407805": {
+"orig": "I'm on top of the world.",
+"nova": "I'm full of energy.",
+"motivo": "idioma: Bäume ausreißen = cheio de energia"
+},
+"1827766": {
+"orig": "My success was largely due to luck.",
+"nova": "My success is largely due to luck.",
+"motivo": "tempo presente"
+},
+"5444136": {
+"orig": "These are getting hard to find.",
+"nova": "These are getting harder and harder to find.",
+"motivo": "immer schwieriger"
+},
+"3053220": {
+"orig": "I like the smell of freshly-baked bread.",
+"nova": "I like the smell of freshly baked bread.",
+"motivo": "hífen indevido"
+},
+"4997678": {
+"orig": "I'm a graduate student.",
+"nova": "I'm a PhD student.",
+"motivo": "Doktorand = PhD student"
+},
+"616068": {
+"orig": "She is one of the best ballerinas in the world.",
+"nova": "She is one of the best dancers in the world.",
+"motivo": "Tänzerinnen = dancers"
+},
+"6614964": {
+"orig": "Tom was abusive.",
+"nova": "Tom was insulting.",
+"motivo": "beleidigend = insulting"
+},
+"1365311": {
+"orig": "The disease spread in several ways.",
+"nova": "The disease spreads in several ways.",
+"motivo": "tempo presente"
+},
+"11108212": {
+"orig": "I don't need a shoeshine.",
+"nova": "I don't need any shoe polish.",
+"motivo": "Schuhpolitur = shoe polish"
+},
+"11151294": {
+"orig": "Which do you like better, apple cider, or champagne?",
+"nova": "Which do you like better, apple cider or champagne?",
+"motivo": "vírgula indevida"
+},
+"1254": {
+"orig": "The worst is still to come.",
+"nova": "We have to expect the worst.",
+"motivo": "sentido errado"
+},
+"1222788": {
+"orig": "A little bird told me.",
+"nova": "Everybody knows about it.",
+"motivo": "idioma = segredo de polichinelo"
+},
+"464160": {
+"orig": "Please write with a pen.",
+"nova": "Please write with a fountain pen.",
+"motivo": "Füllfederhalter = fountain pen"
+},
+"464624": {
+"orig": "The Titanic sunk on its maiden voyage.",
+"nova": "The Titanic sank on its maiden voyage.",
+"motivo": "sunk -> sank"
+},
+"485464": {
+"orig": "Goodbye till tomorrow.",
+"nova": "Bye, see you tomorrow.",
+"motivo": "inglês não natural"
+},
+"6645307": {
+"orig": "You're sharp.",
+"nova": "You're cunning.",
+"motivo": "durchtrieben = cunning/sly"
+},
+"602412": {
+"orig": "I'm crazy about football.",
+"nova": "I'm crazy about American football.",
+"motivo": "especificar American football"
+},
+"6477097": {
+"orig": "Mary and Alice are Tom's aunts.",
+"nova": "Mary and Elke are Tom's aunts.",
+"motivo": "nome trocado"
+},
+"4046443": {
+"orig": "How much did you have to pay for the tickets?",
+"nova": "How much did you have to pay for the plane tickets?",
+"motivo": "faltava 'plane'"
+},
+"655134": {
+"orig": "The captain ordered his men to gather at once.",
+"nova": "The captain ordered his men to fall in at once.",
+"motivo": "antreten = fall in"
+},
+"5561826": {
+"orig": "This story was inspired by true events.",
+"nova": "This story is based on true events.",
+"motivo": "beruht auf = is based on"
+},
+"660638": {
+"orig": "The sun is about to sink.",
+"nova": "The sun is starting to set.",
+"motivo": "sentido/tempo"
+},
+"672342": {
+"orig": "Nothing makes us age more quickly than the thought that we're ageing quickly.",
+"nova": "Nothing makes us age more quickly than the fear that we're ageing quickly.",
+"motivo": "Furcht = fear"
+},
+"725474": {
+"orig": "Customers came one after another.",
+"nova": "The customers came like clockwork.",
+"motivo": "wie am Schnürchen = like clockwork"
+},
+"725933": {
+"orig": "It's an unprecedented case.",
+"nova": "There's no precedent for this.",
+"motivo": "tradução livre demais"
+},
+"6625177": {
+"orig": "Tom wants answers.",
+"nova": "Tom wants solutions.",
+"motivo": "Lösungen = solutions"
+},
+"748292": {
+"orig": "This is the latest acquisition to my library.",
+"nova": "This is the latest acquisition for my library.",
+"motivo": "preposição"
+},
+"756947": {
+"orig": "This material stretches easily.",
+"nova": "This material expands easily.",
+"motivo": "sich ausdehnen = expand"
+},
+"757011": {
+"orig": "They lifted her above their heads.",
+"nova": "They lifted her up.",
+"motivo": "informação a mais"
+},
+"759067": {
+"orig": "I found the missing piece of your necklace.",
+"nova": "I found the missing link of your necklace.",
+"motivo": "Glied = link"
+},
+"764914": {
+"orig": "The boss is an open person.",
+"nova": "The boss is a sincere person.",
+"motivo": "aufrichtig = sincere"
+},
+"927946": {
+"orig": "You may as well not do it at all than do it imperfectly.",
+"nova": "If you're going to do it badly, you may as well not do it at all.",
+"motivo": "inglês agramatical"
+},
+"940205": {
+"orig": "The snow has begun melting.",
+"nova": "The snow began to melt.",
+"motivo": "tempo verbal"
+},
+"782120": {
+"orig": "He was tired from his long walk.",
+"nova": "He was exhausted from his long march.",
+"motivo": "erschöpft/Marsch"
+},
+"4009793": {
+"orig": "Tom likes word games.",
+"nova": "Tom likes puns.",
+"motivo": "Wortspiele = puns/wordplay"
+},
+"824363": {
+"orig": "Second semester has ended.",
+"nova": "The second semester has ended.",
+"motivo": "falta artigo"
+},
+"825602": {
+"orig": "I'm playing a TV game.",
+"nova": "I'm playing a video game.",
+"motivo": "TV game não natural"
+},
+"2339412": {
+"orig": "Can't you see a stapler somewhere around there?",
+"nova": "Haven't you seen a stapler around here?",
+"motivo": "sentido errado"
+},
+"3109718": {
+"orig": "It's going to collapse.",
+"nova": "It's about to collapse.",
+"motivo": "faltava 'gleich'"
+},
+"942855": {
+"orig": "How much time does the average teenager watch TV every day?",
+"nova": "How much TV does the average teenager watch every day?",
+"motivo": "inglês agramatical"
+},
+"1015579": {
+"orig": "It was a casual meeting.",
+"nova": "It was a chance meeting.",
+"motivo": "zufällig = chance, não casual"
+},
+"2105203": {
+"orig": "You can't have your cake and eat it, too.",
+"nova": "If you chase two rabbits, you will catch neither.",
+"motivo": "provérbio não equivalente"
+},
+"1187151": {
+"orig": "Luck has been on my side in this competition.",
+"nova": "Luck was on my side in this competition.",
+"motivo": "tempo verbal"
+},
+"2771311": {
+"orig": "How very curious!",
+"nova": "How very interesting!",
+"motivo": "interessant = interesting"
+},
+"1905232": {
+"orig": "The road is ten feet in width.",
+"nova": "The road is three meters wide.",
+"motivo": "unidade alterada"
+},
+"2166515": {
+"orig": "It was a problem difficult to solve.",
+"nova": "It was a difficult problem to solve.",
+"motivo": "inglês não natural"
+},
+"2932521": {
+"orig": "He's one of my in-laws.",
+"nova": "He's one of my brothers-in-law.",
+"motivo": "Schwager = brother-in-law"
+},
+"1446897": {
+"orig": "Tom filled his bag with walnuts.",
+"nova": "Tom filled his bag with nuts.",
+"motivo": "Nüsse = nuts"
+},
+"1466885": {
+"orig": "She's double-jointed.",
+"nova": "She's very flexible.",
+"motivo": "gelenkig = flexible"
+},
+"1512847": {
+"orig": "What's your favorite song to workout to?",
+"nova": "What's your favorite song to work out to?",
+"motivo": "workout -> work out"
+},
+"3156161": {
+"orig": "Two nurses are attending her.",
+"nova": "Two nurses are looking after her.",
+"motivo": "inglês incorreto"
+},
+"1530195": {
+"orig": "Indeed you know a lot of things, but you're not good at teaching them.",
+"nova": "You may know a lot, but you're not good at teaching it to others.",
+"motivo": "inglês não natural"
+},
+"1536078": {
+"orig": "The sky is covered with clouds.",
+"nova": "The sky was overcast.",
+"motivo": "tempo verbal"
+},
+"2763173": {
+"orig": "Tom wanted to know why Mary didn't want to come.",
+"nova": "Tom wanted to know why Mary refused to come.",
+"motivo": "ablehnte = recusou"
+},
+"1670970": {
+"orig": "She is smarter than he is.",
+"nova": "She is more skillful than he is.",
+"motivo": "gewandt ≠ smart"
+},
+"1713274": {
+"orig": "Tom is cleaning his house.",
+"nova": "Tom is cleaning the house.",
+"motivo": "das Haus, não his"
+},
+"6618737": {
+"orig": "Who scolded Tom?",
+"nova": "Who insulted Tom?",
+"motivo": "beschimpfen = insultar"
+},
+"2813865": {
+"orig": "I can't remember how to go there.",
+"nova": "I can't remember how to get there.",
+"motivo": "inglês não idiomático"
+},
+"1769549": {
+"orig": "Toudaiji is the bigger of the two temples.",
+"nova": "Tōdai-ji is the bigger of the two temples.",
+"motivo": "manter nome como no alemão"
+},
+"1788985": {
+"orig": "I've known the deceased for a long time.",
+"nova": "I knew the deceased for quite a long time.",
+"motivo": "tempo verbal; ziemlich"
+},
+"2992770": {
+"orig": "It's about time you woke up.",
+"nova": "It's about time you got up.",
+"motivo": "aufstehen = levantar"
+},
+"1794112": {
+"orig": "I encourage all my students.",
+"nova": "I encouraged all my students.",
+"motivo": "tempo verbal"
+},
+"5704676": {
+"orig": "My mind was racing.",
+"nova": "My heart was racing.",
+"motivo": "Herz = coração"
+},
+"1900452": {
+"orig": "The cat had a ribbon around its neck.",
+"nova": "The cat was wearing a collar.",
+"motivo": "Halsband = coleira"
+},
+"1907177": {
+"orig": "It was never our intention to overcharge you.",
+"nova": "It was never our intention to overwhelm you.",
+"motivo": "überfordern ≠ overcharge"
+},
+"1919920": {
+"orig": "The notice was badly printed.",
+"nova": "The message was printed illegibly.",
+"motivo": "unleserlich = ilegível"
+},
+"1923949": {
+"orig": "Tom asked Mary to help him reformat the hard disk.",
+"nova": "Tom asked Mary to help him reformat his hard disk.",
+"motivo": "seiner = his"
+},
+"6469054": {
+"orig": "Tom won't show up here again.",
+"nova": "Tom wouldn't show up here again.",
+"motivo": "würde = condicional"
+},
+"2785192": {
+"orig": "Tom was carried away by the police.",
+"nova": "Tom was led away by the police.",
+"motivo": "abführen = levar preso"
+},
+"4670407": {
+"orig": "Is eating raw pumpkin safe?",
+"nova": "Is raw pumpkin edible?",
+"motivo": "essbar = comestível"
+},
+"1952447": {
+"orig": "I can't just leave Tom.",
+"nova": "I can't just leave Tom alone.",
+"motivo": "alleinlassen = deixar sozinho"
+},
+"1967693": {
+"orig": "I can't remember the secret code.",
+"nova": "I can't remember the PIN.",
+"motivo": "Geheimzahl = PIN"
+},
+"5785301": {
+"orig": "That's something I don't understand.",
+"nova": "There's something I don't understand.",
+"motivo": "Da ist = there is"
+},
+"1971492": {
+"orig": "Tom told Mary about his imaginary friend.",
+"nova": "Tom told Mary about his invisible friend.",
+"motivo": "unsichtbar = invisible"
+},
+"2118214": {
+"orig": "Are sandwiches OK for lunch?",
+"nova": "Are sandwiches OK for breakfast?",
+"motivo": "Frühstück = breakfast"
+},
+"5277790": {
+"orig": "The cause of the accident is still obscure.",
+"nova": "The cause of the accident is still unclear.",
+"motivo": "ungeklärt = unclear"
+},
+"2344963": {
+"orig": "Which is cheaper, the bus or the street car?",
+"nova": "Which is cheaper, the bus or the streetcar?",
+"motivo": "ortografia streetcar"
+},
+"2196283": {
+"orig": "I'd like to volunteer my services.",
+"nova": "I'd volunteer my services.",
+"motivo": "würde ≠ would like"
+},
+"4474354": {
+"orig": "Throw him in the brig.",
+"nova": "Throw him in jail!",
+"motivo": "Gefängnis ≠ brig"
+},
+"2209012": {
+"orig": "Would you mind if I speak to Tom alone for a sec?",
+"nova": "Would you mind if I spoke to Tom alone for a sec?",
+"motivo": "concordância de tempo"
+},
+"2212557": {
+"orig": "Tom sealed the envelope.",
+"nova": "Tom sealed the letter.",
+"motivo": "Brief = letter"
+},
+"3887971": {
+"orig": "I'm just a little wheezy.",
+"nova": "I'm just a little out of breath.",
+"motivo": "außer Puste = sem fôlego"
+},
+"5797723": {
+"orig": "Tom heard a fog horn in the distance.",
+"nova": "Tom heard a foghorn in the distance.",
+"motivo": "ortografia foghorn"
+},
+"2233796": {
+"orig": "Mary always has to put her two cents worth in.",
+"nova": "Mary always has to put her two cents' worth in.",
+"motivo": "apóstrofo"
+},
+"2349743": {
+"orig": "It's a contagious disease.",
+"nova": "It's about a contagious disease.",
+"motivo": "es geht um = trata-se de"
+},
+"2290180": {
+"orig": "The pool is full of clean water.",
+"nova": "The pool is full of clear water.",
+"motivo": "klar = clear"
+},
+"2325676": {
+"orig": "Tom scrunched down.",
+"nova": "Tom squatted down.",
+"motivo": "hinhocken = agachar"
+},
+"6896034": {
+"orig": "I keep forgetting to cut my toe nails.",
+"nova": "I keep forgetting to cut my toenails.",
+"motivo": "ortografia toenails"
+},
+"2342918": {
+"orig": "Bunk beds are a way to save space.",
+"nova": "Loft beds are a way to save space.",
+"motivo": "Hochbett = loft bed"
+},
+"5449287": {
+"orig": "Tom hates climbing ladders.",
+"nova": "Tom doesn't like climbing ladders.",
+"motivo": "nicht gern ≠ hates"
+},
+"2424209": {
+"orig": "The soldier acted bravely.",
+"nova": "The soldiers acted bravely.",
+"motivo": "plural"
+},
+"2414558": {
+"orig": "I copied a passage from the book into my notebook.",
+"nova": "I copied a passage from the book onto my laptop.",
+"motivo": "Notebook = laptop (falso cognato)"
+},
+"3078436": {
+"orig": "Tom was shaken by the experience.",
+"nova": "Thomas was shaken by the experience.",
+"motivo": "manter nome Thomas"
+},
+"2489376": {
+"orig": "Tom is terrible at speaking French.",
+"nova": "Tom's French is terrible.",
+"motivo": "fidelidade"
+},
+"4111311": {
+"orig": "It's very small and cramped.",
+"nova": "It's small and cramped.",
+"motivo": "sem 'very'"
+},
+"4891560": {
+"orig": "We weren't doing anything wrong.",
+"nova": "We didn't do anything wrong.",
+"motivo": "tempo verbal"
+},
+"6781527": {
+"orig": "Tom is a perfect gentleman.",
+"nova": "Tom has perfect manners.",
+"motivo": "fidelidade"
+},
+"5785314": {
+"orig": "A friendship is the most valuable thing in the world.",
+"nova": "Friendship is the most valuable thing in the world.",
+"motivo": "sem artigo"
+},
+"6615068": {
+"orig": "Tom stood back.",
+"nova": "Tom stood by and did nothing.",
+"motivo": "tatenlos zusehen"
+},
+"2739447": {
+"orig": "Was it hard for you to find my house?",
+"nova": "Did you have trouble finding your way here?",
+"motivo": "fidelidade"
+},
+"2945404": {
+"orig": "I can't get this work done by anybody.",
+"nova": "I can't have just anybody do this work.",
+"motivo": "sentido: 'nicht von irgendjemandem' = não qualquer um"
+},
+"2783790": {
+"orig": "This river is not polluted.",
+"nova": "The river is not polluted.",
+"motivo": "Der Fluss = the river"
+},
+"5286309": {
+"orig": "These are expensive tickets.",
+"nova": "These are very expensive tickets.",
+"motivo": "faltava 'very'"
+},
+"2897412": {
+"orig": "Tom's a bully, just like John is.",
+"nova": "Tom's a bully, just like Johannes is.",
+"motivo": "manter nome Johannes"
+},
+"2929472": {
+"orig": "You're such a weirdo.",
+"nova": "You're totally nuts!",
+"motivo": "'einen Knall haben' = ser maluco"
+},
+"3394212": {
+"orig": "It's been one step forward and two steps back with Tom's health lately.",
+"nova": "Tom's recovery has suffered a setback lately.",
+"motivo": "tradução livre demais"
+},
+"3033612": {
+"orig": "Tom asked Mary to listen carefully to everything John said.",
+"nova": "Tom asked Mary to listen carefully to Johann.",
+"motivo": "nome Johann; 'everything ... said' a mais"
+},
+"3089697": {
+"orig": "You often find that sympathy turns into love.",
+"nova": "You often find that fondness turns into love.",
+"motivo": "falso cognato Sympathie"
+},
+"3499082": {
+"orig": "Tom had an anxiety attack.",
+"nova": "Tom had a panic attack.",
+"motivo": "Panikattacke = panic attack"
+},
+"5064168": {
+"orig": "Tom is a personal friend.",
+"nova": "Tom is a personal friend of mine.",
+"motivo": "faltava 'mein'"
+},
+"5285716": {
+"orig": "Mosquitoes are perhaps one of the most dangerous animals in the world.",
+"nova": "Mosquitoes are possibly among the most dangerous animals in the world.",
+"motivo": "'zählen zu' = among; gramática"
+},
+"3243443": {
+"orig": "Tom wants full custody of the kids.",
+"nova": "Tom wants sole custody of the kids.",
+"motivo": "alleinige = sole"
+},
+"5312268": {
+"orig": "No one wants to volunteer.",
+"nova": "No one is volunteering.",
+"motivo": "sentido: ninguém se oferece"
+},
+"3321230": {
+"orig": "He is very clever for a boy of ten.",
+"nova": "He's pretty smart for a ten-year-old.",
+"motivo": "ziemlich = pretty, não very"
+},
+"5214772": {
+"orig": "I knew what you were up to.",
+"nova": "I know what you were up to.",
+"motivo": "weiß = presente"
+},
+"3714029": {
+"orig": "We'd like you to join our company.",
+"nova": "We'd like you to join us.",
+"motivo": "'company' a mais"
+},
+"6154370": {
+"orig": "Tom is a survivalist.",
+"nova": "Tom is a born survivor.",
+"motivo": "Überlebenskünstler ≠ survivalist"
+},
+"3944630": {
+"orig": "Tom has a violent temper.",
+"nova": "Tom has violent tendencies.",
+"motivo": "gewalttätig veranlagt ≠ temper"
+},
+"3945718": {
+"orig": "My license has been suspended.",
+"nova": "My license has been revoked.",
+"motivo": "entzogen = revoked"
+},
+"4059330": {
+"orig": "Tom just wants a muffin and a cup of coffee.",
+"nova": "Tom just wants a muffin and a cup of tea.",
+"motivo": "Tee = tea"
+},
+"4101268": {
+"orig": "Tom graduated from a very elite university.",
+"nova": "Tom graduated from an elite university.",
+"motivo": "'very' a mais"
+},
+"6729880": {
+"orig": "Tom pulled out a whistle and blew it.",
+"nova": "Tom pulled out a flute and played it.",
+"motivo": "Flöte = flute"
+},
+"5070801": {
+"orig": "The people toppled the dictator.",
+"nova": "The people toppled the dictatorship.",
+"motivo": "Diktatur = dictatorship"
+},
+"5133522": {
+"orig": "That's our number one priority.",
+"nova": "That's top priority.",
+"motivo": "'our' a mais"
+},
+"6107570": {
+"orig": "Don't slurp your soup.",
+"nova": "Don't slurp!",
+"motivo": "'your soup' a mais"
+},
+"5683457": {
+"orig": "Tom sipped some coffee.",
+"nova": "Tom slurped his coffee.",
+"motivo": "schlürfen = slurp"
+},
+"6728962": {
+"orig": "Tom is a busy man.",
+"nova": "Tom is a busy person.",
+"motivo": "Person, não man"
+},
+"5538945": {
+"orig": "Tom replaced John as captain.",
+"nova": "Tom replaced Johannes as captain.",
+"motivo": "manter nome Johannes"
+},
+"6736306": {
+"orig": "Tom died because of his injuries.",
+"nova": "Tom died of his injuries.",
+"motivo": "inglês mais natural"
+},
+"5710040": {
+"orig": "The teacher told Tom to shut up.",
+"nova": "The teacher ordered Tom to be quiet.",
+"motivo": "registro: gebot zu schweigen"
+},
+"5805544": {
+"orig": "My band will perform this week at Chuck's Bar and Grill. Please come and see us.",
+"nova": "My band is playing at \"Kalles Kneipe\" this week. Come on by!",
+"motivo": "nome do bar mantido; tradução fiel"
+},
+"5763712": {
+"orig": "Tom pulled out some necklaces from his bag and told Mary to choose the one she liked.",
+"nova": "Tom pulled some necklaces out of his bag and told Mary to choose the one she liked best.",
+"motivo": "faltava 'best'"
+},
+"5763722": {
+"orig": "Tom thought it would be a good idea to start a website that sold nothing but popcorn.",
+"nova": "Tom thought it would be a great idea to start a website that sold nothing but popcorn.",
+"motivo": "Bombenidee = great idea"
+},
+"6056964": {
+"orig": "Wild boars have eaten all of our potatoes.",
+"nova": "The wild boars have eaten all of our potatoes.",
+"motivo": "artigo definido"
+},
+"6116606": {
+"orig": "Tom sweetened his tea with honey; Mary didn't sweeten hers at all.",
+"nova": "Tom sweetened his tea with honey instead of sugar; Mary didn't sweeten hers at all.",
+"motivo": "faltava 'instead of sugar'"
+},
+"6688941": {
+"orig": "I have won.",
+"nova": "I'm the winner.",
+"motivo": "Ich bin Sieger = sou o vencedor"
+},
+"3540661": {
+"orig": "The pocket edition is cheaper.",
+"nova": "The paperback edition is cheaper.",
+"motivo": "Taschenbuch = paperback"
+},
+"3987269": {
+"orig": "Fill in the blanks.",
+"nova": "Fill in the form fields.",
+"motivo": "fidelidade (Formularfelder)"
+},
+"602774": {
+"orig": "A glass of cold water is very refreshing in hot weather.",
+"nova": "A glass of cold water is refreshing in hot weather.",
+"motivo": "'very' a mais"
+},
+"629523": {
+"orig": "I got a temporary job at the firm.",
+"nova": "I have a temporary job at the firm.",
+"motivo": "tempo: habe = have"
+},
+"652167": {
+"orig": "He taught a group of Indian boys.",
+"nova": "He taught a group of Native American boys.",
+"motivo": "indianisch = Native American"
+},
+"737217": {
+"orig": "He drives a truck.",
+"nova": "He drives a pickup truck.",
+"motivo": "Pickup = pickup truck"
+},
+"758220": {
+"orig": "Tom can fix the heater.",
+"nova": "Tom can fix the radiator.",
+"motivo": "Heizkörper = radiator"
+},
+"773878": {
+"orig": "That's very big.",
+"nova": "That's enormous.",
+"motivo": "enorm = enormous"
+},
+"798168": {
+"orig": "Just brush your hair.",
+"nova": "Just comb your hair.",
+"motivo": "kämmen = comb"
+},
+"804475": {
+"orig": "Now it's your serve.",
+"nova": "It's your serve.",
+"motivo": "'Now' a mais"
+},
+"898680": {
+"orig": "Tom is my brother.",
+"nova": "Tomás is my brother.",
+"motivo": "manter nome Tomás"
+},
+"981325": {
+"orig": "She obeys him.",
+"nova": "She's completely under his thumb.",
+"motivo": "hörig ≠ obeys"
+},
+"1734731": {
+"orig": "If he had stayed at home that day, he would not have met with disaster.",
+"nova": "If he had stayed at home that day, he would not have had an accident.",
+"motivo": "verunglücken = sofrer acidente"
+},
+"1909423": {
+"orig": "It's grotesque.",
+"nova": "It's bizarre.",
+"motivo": "skurril != grotesque"
+},
+"1965937": {
+"orig": "You can't leave me now.",
+"nova": "You can't let me down now.",
+"motivo": "hängenlassen = decepcionar"
+},
+"2036929": {
+"orig": "The lid is closed.",
+"nova": "The eyelid is closed.",
+"motivo": "Augenlid = pálpebra"
+},
+"2163407": {
+"orig": "I like taking walks in the woods.",
+"nova": "I love taking walks in the woods.",
+"motivo": "liebe = love"
+},
+"2204062": {
+"orig": "Tom squinted.",
+"nova": "Tom blinked.",
+"motivo": "blinzeln = piscar"
+},
+"2252752": {
+"orig": "They're playing cards.",
+"nova": "These are playing cards.",
+"motivo": "tradução ambígua"
+},
+"2386272": {
+"orig": "I made a snack for us.",
+"nova": "I made us a few snacks.",
+"motivo": "número (ein paar Häppchen)"
+},
+"2996779": {
+"orig": "Nobody likes a quitter.",
+"nova": "Nobody likes a shirker.",
+"motivo": "Drückeberger = shirker"
+},
+"3109104": {
+"orig": "You're smirking again.",
+"nova": "You're smiling again.",
+"motivo": "schmunzeln != smirk"
+},
+"3110792": {
+"orig": "Tom sent me there.",
+"nova": "Tom sent me here.",
+"motivo": "hierher = here"
+},
+"3182466": {
+"orig": "Tom talked my ears off.",
+"nova": "Tom talked my ear off.",
+"motivo": "idioma inglês"
+},
+"3372637": {
+"orig": "Tom is reluctant.",
+"nova": "Tom is reserved.",
+"motivo": "zurückhaltend = reserved"
+},
+"3388252": {
+"orig": "You don't give orders here.",
+"nova": "Stop bossing everyone around here.",
+"motivo": "sentido diferente"
+},
+"3673016": {
+"orig": "How do you prove that?",
+"nova": "How do you check that?",
+"motivo": "prüfen = check/test"
+},
+"3980174": {
+"orig": "Why were you yelling?",
+"nova": "Why are you yelling like that?",
+"motivo": "tempo presente"
+},
+"4004484": {
+"orig": "Who's picking up the tab?",
+"nova": "Who's paying for the drinks?",
+"motivo": "sentido (Getränke)"
+},
+"4019558": {
+"orig": "Tom was a stock broker.",
+"nova": "Tom was a stockbroker.",
+"motivo": "ortografia"
+},
+"4859781": {
+"orig": "You're illiterate.",
+"nova": "You're uneducated.",
+"motivo": "ungebildet != illiterate"
+},
+"4942810": {
+"orig": "How adventurous!",
+"nova": "How daring!",
+"motivo": "gewagt = daring"
+},
+"4942945": {
+"orig": "Stop sniffling.",
+"nova": "Stop sniffing.",
+"motivo": "schnüffeln != sniffle"
+},
+"4943185": {
+"orig": "Tom despises Mary.",
+"nova": "Tom spurns Mary.",
+"motivo": "verschmähen = spurn"
+},
+"4943208": {
+"orig": "Tom slept late.",
+"nova": "Tom overslept.",
+"motivo": "verschlafen = oversleep"
+},
+"5244315": {
+"orig": "Tom's stalling.",
+"nova": "Tom is hesitating.",
+"motivo": "zögern = hesitate"
+},
+"5300044": {
+"orig": "Do you deny that?",
+"nova": "Do you reject that?",
+"motivo": "ablehnen != deny"
+},
+"5685344": {
+"orig": "Would you like a cupcake?",
+"nova": "Would you like a little Bundt cake?",
+"motivo": "Napfkuchen != cupcake"
+},
+"6602454": {
+"orig": "I love westerns.",
+"nova": "I like westerns.",
+"motivo": "mögen = like"
+},
+"6645094": {
+"orig": "He made me go.",
+"nova": "He sent me away.",
+"motivo": "fortschicken = send away"
+},
+"6700816": {
+"orig": "I feel very chilly.",
+"nova": "I'm freezing.",
+"motivo": "hundekalt = freezing"
+},
+"7441645": {
+"orig": "Who made Tom leave?",
+"nova": "Who sent Tom away?",
+"motivo": "wegschicken = send away"
+},
+"7456702": {
+"orig": "Tom has a vile temper.",
+"nova": "Tom has a quick temper.",
+"motivo": "aufbrausend != vile"
+},
+"7584320": {
+"orig": "Tom was acquitted of the charges.",
+"nova": "Tom's fees were waived.",
+"motivo": "Gebühren erlassen = taxas dispensadas"
+},
+"7632336": {
+"orig": "I think that's an excellent idea.",
+"nova": "I think that's an excellent suggestion.",
+"motivo": "Vorschlag = suggestion"
+},
+"7636401": {
+"orig": "Tom is such a show off.",
+"nova": "Tom is such a show-off.",
+"motivo": "ortografia (show-off)"
+},
+"8220741": {
+"orig": "Everybody has calmed down.",
+"nova": "Everybody calmed down.",
+"motivo": "tempo verbal"
+},
+"8227557": {
+"orig": "The toilet overflowed.",
+"nova": "The toilet was flooded.",
+"motivo": "sentido (war überflutet)"
+},
+"8237717": {
+"orig": "The ceremony will take place in the town hall.",
+"nova": "The ceremony will take place in the community hall.",
+"motivo": "Gemeindehaus != town hall"
+},
+"8244929": {
+"orig": "We're fishermen.",
+"nova": "We're all anglers.",
+"motivo": "falta 'all'"
+},
+"8356472": {
+"orig": "Get a good night's sleep.",
+"nova": "I wish you a restful night.",
+"motivo": "sentido diferente"
+},
+"8641489": {
+"orig": "They are boiling water for tea.",
+"nova": "They've just put water on for tea.",
+"motivo": "tempo/sentido (gerade aufgesetzt)"
+},
+"478472": {
+"orig": "Pakistan is a Muslim country.",
+"nova": "Pakistan is an Islamic country.",
+"motivo": "islamisch = Islamic"
+},
+"655241": {
+"orig": "She became a postman.",
+"nova": "She became a postwoman.",
+"motivo": "gênero"
+},
+"810730": {
+"orig": "Misery loves company.",
+"nova": "A sorrow shared is a sorrow halved.",
+"motivo": "provérbio com sentido diferente"
+},
+"1729550": {
+"orig": "I shouldn't have logged off.",
+"nova": "I shouldn't have pulled out.",
+"motivo": "sich ausklinken != log off"
+},
+"2762140": {
+"orig": "You should've tried some of Tom's homemade pie.",
+"nova": "You should've tried some of Tom's homemade cake.",
+"motivo": "Kuchen = cake"
+},
+"3076502": {
+"orig": "There was a smell of coffee and freshly baked bread in the kitchen.",
+"nova": "There was a smell of coffee and freshly baked rolls in the kitchen.",
+"motivo": "Brötchen = rolls"
+},
+"4274049": {
+"orig": "Tomorrow we'll get our proof.",
+"nova": "Tomorrow we'll get our report cards.",
+"motivo": "Zeugnis = report card"
+},
+"5247458": {
+"orig": "Tom says Mary should resign.",
+"nova": "Tom says Mary should step down.",
+"motivo": "abdanken = step down"
+},
+"5248545": {
+"orig": "They gave their horses water.",
+"nova": "The horses were watered.",
+"motivo": "sentido (tränken)"
+},
+"7632340": {
+"orig": "I feel like a siesta.",
+"nova": "I feel like taking a nap.",
+"motivo": "inglês pouco natural"
+},
+"7900035": {
+"orig": "Tom is a townie.",
+"nova": "Tom is a city dweller.",
+"motivo": "Städter != townie"
+},
+"8255294": {
+"orig": "I'm going to take a day off.",
+"nova": "I'm going to skip work for a day.",
+"motivo": "blaumachen = faltar sem motivo"
+},
+"8418740": {
+"orig": "You're a sight for sore eyes.",
+"nova": "You're a feast for the eyes!",
+"motivo": "Augenweide != sight for sore eyes"
+},
+"11038526": {
+"orig": "The cat was killed by the coyotes.",
+"nova": "My cat was killed by the coyotes.",
+"motivo": "Meine Katze = my cat"
+},
+"11099202": {
+"orig": "Tom needs put in jail.",
+"nova": "Tom should be locked up.",
+"motivo": "inglês não padrão (needs put)"
+},
+"11101361": {
+"orig": "The party was getting out of control.",
+"nova": "The party took on a life of its own.",
+"motivo": "sentido de verselbständigen; tempo"
+},
+"11101362": {
+"orig": "The party was getting out of control.",
+"nova": "The party got out of control.",
+"motivo": "tempo: geriet = got"
+},
+"11265033": {
+"orig": "I'm a graduate student.",
+"nova": "I'm a doctoral student.",
+"motivo": "Doktorandin = doutoranda"
+},
+"11312536": {
+"orig": "Tom won the booby prize.",
+"nova": "Tom got the consolation prize.",
+"motivo": "Trostpreis = consolation prize; bekommen"
+},
+"12837208": {
+"orig": "The guerrillas often went to great risks to secure accurate information.",
+"nova": "The guerrillas often took great risks to obtain reliable information.",
+"motivo": "inglês não natural (went to great risks)"
+},
+"445071": {
+"orig": "The school is located within five minutes' walk of the station.",
+"nova": "The school is a five-minute walk from the stop.",
+"motivo": "Haltestelle = stop, não station"
+},
+"446648": {
+"orig": "You can omit the preposition in this phrase.",
+"nova": "You can omit the preposition in this sentence.",
+"motivo": "Satz = sentence"
+},
+"449675": {
+"orig": "He denied the rumor.",
+"nova": "He refuted the rumor.",
+"motivo": "entkräften = refutar, não negar"
+},
+"451257": {
+"orig": "What's the name of the mountain range?",
+"nova": "What's the name of this mountain range?",
+"motivo": "diese = this"
+},
+"458623": {
+"orig": "The drains are blocked up.",
+"nova": "The drain is blocked.",
+"motivo": "número: Abwasserleitung singular"
+},
+"483197": {
+"orig": "I talked with our sales people.",
+"nova": "I talked with our salespeople.",
+"motivo": "ortografia: salespeople"
+},
+"503659": {
+"orig": "The field mice were eating up the farmers' grain.",
+"nova": "The field mice have eaten up the farmers' grain.",
+"motivo": "tempo: perfeito, ação concluída"
+},
+"521566": {
+"orig": "My pet dog was seriously ill.",
+"nova": "My lapdog was seriously ill.",
+"motivo": "Schoßhund = lapdog"
+},
+"532248": {
+"orig": "You will receive a confirmation email after your account has been activated by an administrator.",
+"nova": "You will receive a confirmation once your account has been activated by an administrator.",
+"motivo": "informação a mais (email)"
+},
+"556807": {
+"orig": "He had no difficulty explaining the mystery.",
+"nova": "He had no difficulty solving the mystery.",
+"motivo": "aufklären = solucionar"
+},
+"601449": {
+"orig": "You may as well get used to it.",
+"nova": "You'd better get used to it.",
+"motivo": "besser = had better"
+},
+"601454": {
+"orig": "The talk between labor and management yielded no definite results.",
+"nova": "The talks between labor and management yielded no definite results.",
+"motivo": "número: Gespräche plural"
+},
+"627559": {
+"orig": "Tom is interested in painting.",
+"nova": "Jack is interested in painting.",
+"motivo": "nome próprio trocado"
+},
+"631496": {
+"orig": "Alkalis neutralize acids.",
+"nova": "Bases neutralize acids.",
+"motivo": "Basen = bases"
+},
+"647746": {
+"orig": "He lives in a little cozy house.",
+"nova": "He lives in a cozy little house.",
+"motivo": "ordem dos adjetivos em inglês"
+},
+"647759": {
+"orig": "I don't like bad children.",
+"nova": "I don't like naughty children.",
+"motivo": "ungezogen = naughty"
+},
+"661978": {
+"orig": "The engineer climbed the telephone pole.",
+"nova": "The technician climbed the telephone pole.",
+"motivo": "Techniker = technician"
+},
+"674799": {
+"orig": "How many barbers work in that barbershop?",
+"nova": "How many hairdressers work in this salon?",
+"motivo": "Friseur/Salon; diesem = this"
+},
+"684725": {
+"orig": "School has closed for the Christmas holidays.",
+"nova": "School stays closed over the Christmas holidays.",
+"motivo": "bleibt geschlossen ≠ has closed"
+},
+"690682": {
+"orig": "The soup in the bowl was very delicious.",
+"nova": "The soup in the tureen was delicious.",
+"motivo": "Terrine = tureen; 'very delicious' não natural"
+},
+"692854": {
+"orig": "I like my steak rare.",
+"nova": "I like my steak lightly seared.",
+"motivo": "leicht angebraten ≠ rare exatamente"
+},
+"709722": {
+"orig": "Smoking does damage your lungs.",
+"nova": "Smoking destroys your lungs.",
+"motivo": "zerstört = destroys"
+},
+"715876": {
+"orig": "The glove has a hole in the thumb.",
+"nova": "This glove has a hole in the thumb.",
+"motivo": "Dieser = this"
+},
+"719144": {
+"orig": "Those homeless people are living hand-to-mouth.",
+"nova": "These people without a homeland are living hand to mouth.",
+"motivo": "heimatlos ≠ homeless (obdachlos)"
+},
+"720264": {
+"orig": "In some countries, the punishment for treason can be life in prison.",
+"nova": "In some countries, treason is punished with life imprisonment.",
+"motivo": "informação a mais (can be)"
+},
+"729806": {
+"orig": "My father implied our summer trip was arranged.",
+"nova": "My father hinted that our summer trip had already been arranged.",
+"motivo": "falta 'already'; tempo"
+},
+"733733": {
+"orig": "The important point to note is that both parties offered similar solutions to this problem.",
+"nova": "What is remarkable here is that both parties proposed similar solutions to the problem.",
+"motivo": "bemerkenswert ≠ important"
+},
+"734533": {
+"orig": "The dough used for pancakes is thin.",
+"nova": "The batter used for pancakes is runny.",
+"motivo": "Teig dünnflüssig = batter, runny"
+},
+"736296": {
+"orig": "They are living on charity.",
+"nova": "They lived on charity.",
+"motivo": "tempo: lebten = passado"
+},
+"737349": {
+"orig": "Tom's meeting with his boss was very tense.",
+"nova": "Tom's meeting with his boss was very grueling.",
+"motivo": "zermürbend ≠ tense"
+},
+"746648": {
+"orig": "The man who nearly drowned began to breathe.",
+"nova": "The man who had nearly drowned began to gasp for air.",
+"motivo": "nach Luft schnappen = gasp for air"
+},
+"746715": {
+"orig": "My mother has gone to the beauty shop.",
+"nova": "My mother has gone to the cosmetics store.",
+"motivo": "Kosmetikgeschäft ≠ beauty shop"
+},
+"747910": {
+"orig": "There were many snow storms last winter.",
+"nova": "There were many snowstorms last winter.",
+"motivo": "ortografia: snowstorms"
+},
+"748048": {
+"orig": "I've been on sick leave.",
+"nova": "I was on sick leave.",
+"motivo": "tempo"
+},
+"755388": {
+"orig": "I resigned from my position as club treasurer.",
+"nova": "I resigned from my position as treasurer.",
+"motivo": "informação a mais (club)"
+},
+"756061": {
+"orig": "I don't know how to prove this math equation.",
+"nova": "I don't know how to solve this math equation.",
+"motivo": "lösen = solve"
+},
+"758145": {
+"orig": "The workers are expanding the road.",
+"nova": "The workers are widening the road.",
+"motivo": "verbreitern = widen"
+},
+"758184": {
+"orig": "Tom is making spare parts in a car factory.",
+"nova": "Tom makes spare parts in a car factory.",
+"motivo": "aspecto: habitual"
+},
+"759079": {
+"orig": "The banker's pay cut was temporary, not permanent.",
+"nova": "The bank clerk's pay cut was temporary, not permanent.",
+"motivo": "Bankkaufmann = bank clerk"
+},
+"759242": {
+"orig": "Tom prefers patients who can't talk.",
+"nova": "Tom's favorite patients are the ones who can't talk.",
+"motivo": "tradução imprecisa"
+},
+"759331": {
+"orig": "Is bungee jumping frightening or fun?",
+"nova": "Is bungee jumping fun, or is it just a thrill?",
+"motivo": "sentido: Nervenkitzel = thrill"
+},
+"764882": {
+"orig": "The sergeant ordered the private to do push ups.",
+"nova": "The sergeant ordered the private to do push-ups.",
+"motivo": "ortografia: push-ups"
+},
+"768985": {
+"orig": "Why don't you get yourself a decent house?",
+"nova": "Why don't you get yourself a modest house?",
+"motivo": "bescheiden = modest"
+},
+"773622": {
+"orig": "Will you buy for me some saffron?",
+"nova": "Can you buy some saffron for me?",
+"motivo": "inglês não natural"
+},
+"774300": {
+"orig": "I have a nasty feeling something's gone wrong.",
+"nova": "I have a bad feeling about this.",
+"motivo": "mir schwant nichts Gutes = mau pressentimento"
+},
+"774969": {
+"orig": "The mail is delayed because of the strike.",
+"nova": "The shipment is delayed because of the strike.",
+"motivo": "Postsendung = shipment"
+},
+"783030": {
+"orig": "The Diet is now in session.",
+"nova": "Parliament is currently deliberating.",
+"motivo": "Parlament ≠ Diet; Beratung"
+},
+"783915": {
+"orig": "A squid has ten legs.",
+"nova": "A squid has ten tentacles.",
+"motivo": "Tentakel = tentacles"
+},
+"784691": {
+"orig": "Gangsters robbed a bank of thousands of dollars.",
+"nova": "A gang robbed a bank of thousands of dollars.",
+"motivo": "Bande = gang"
+},
+"785271": {
+"orig": "The stadium is adjacent to the school.",
+"nova": "The sports facility is next to the school.",
+"motivo": "Sportanlage ≠ stadium"
+},
+"787393": {
+"orig": "He is an honest man and will always remain so.",
+"nova": "He is an honorable man and will always remain so.",
+"motivo": "Ehrenmann = man of honor"
+},
+"795613": {
+"orig": "Do you want to look into it?",
+"nova": "Do you want to look inside?",
+"motivo": "hineinschauen = look inside"
+},
+"796314": {
+"orig": "When Kawazoe pinned me down at the meeting, I broke out in a cold sweat.",
+"nova": "When Kawazoe tore into me at the meeting, I broke out in a cold sweat.",
+"motivo": "niedermachen ≠ pin down"
+},
+"812536": {
+"orig": "In ancient times, plagues killed many people.",
+"nova": "In earlier times, many people died of plagues.",
+"motivo": "früheren ≠ ancient"
+},
+"829287": {
+"orig": "He studied interior decoration.",
+"nova": "He studied interior design.",
+"motivo": "Innenarchitektur = interior design"
+},
+"877080": {
+"orig": "May I help you ma'am?",
+"nova": "May I help you, ma'am?",
+"motivo": "missing comma"
+},
+"880828": {
+"orig": "That small star is brightest.",
+"nova": "That little star there is the brightest.",
+"motivo": "missing article"
+},
+"898489": {
+"orig": "My father bought me a digital watch for birthday present.",
+"nova": "My father gave me a digital watch for my birthday.",
+"motivo": "geschenkt=gave; grammar"
+},
+"909930": {
+"orig": "She talked him into buying a new house.",
+"nova": "She tried to talk him into buying a new house.",
+"motivo": "einreden auf = urge, not succeed"
+},
+"922006": {
+"orig": "I want to get a connecting flight to Boston.",
+"nova": "I need a connecting flight to Boston.",
+"motivo": "brauche = need"
+},
+"947133": {
+"orig": "Don't throw away your chance.",
+"nova": "Don't throw away your chances.",
+"motivo": "plural Chancen"
+},
+"949740": {
+"orig": "I found a bird whose wing was severely damaged.",
+"nova": "I found a bird whose wing was badly injured.",
+"motivo": "verletzt = injured"
+},
+"978164": {
+"orig": "Did you come from a musical family?",
+"nova": "Do you come from a musical family?",
+"motivo": "tense: present"
+},
+"1003504": {
+"orig": "This soil is moist.",
+"nova": "The ground is moist.",
+"motivo": "Der Erdboden ≠ this soil"
+},
+"1013896": {
+"orig": "We had a brief discussion about human rights.",
+"nova": "We had a slight disagreement about human rights.",
+"motivo": "Meinungsverschiedenheit = disagreement"
+},
+"1014737": {
+"orig": "Many Americans were angry about the Japanese invasion.",
+"nova": "Many Americans were angry about the Japanese attack.",
+"motivo": "Überfall = attack"
+},
+"1045860": {
+"orig": "Tom can still remember the pain caused when Mary left him.",
+"nova": "Tom can still remember the pain he felt when Mary left him.",
+"motivo": "awkward/unfaithful"
+},
+"1046112": {
+"orig": "Tom calculated that he had given Mary over 34,000 dollars in the past six months.",
+"nova": "Tom calculated that he had given Maria over 34,000 dollars in the past six months.",
+"motivo": "name Maria"
+},
+"1047488": {
+"orig": "If you stop and relax, this will relieve the tension and stress in your shoulders.",
+"nova": "If you just stop and relax, the tension in your shoulders will ease.",
+"motivo": "added 'stress'; unfaithful"
+},
+"1047733": {
+"orig": "Tom beat Mary at checkers.",
+"nova": "Tom beat Maria at checkers.",
+"motivo": "name Maria"
+},
+"1047767": {
+"orig": "Tom assured Mary that he'd help her paint the ceiling of her kitchen.",
+"nova": "Tom assured Maria that he'd help her paint the kitchen ceiling.",
+"motivo": "name Maria"
+},
+"1060535": {
+"orig": "Certainly he is handsome and intelligent, but there is something about him that I can't like.",
+"nova": "Certainly he is handsome and intelligent, but there is something about him that I don't like.",
+"motivo": "unnatural English"
+},
+"1077563": {
+"orig": "Tom asked Mary to wait in the lobby.",
+"nova": "Tom asked Maria to wait in the lobby.",
+"motivo": "name Maria"
+},
+"1109893": {
+"orig": "Tom looked at the tall man suspiciously.",
+"nova": "Tom looks at the tall man suspiciously.",
+"motivo": "tense: present"
+},
+"1177129": {
+"orig": "Computer supplies are very expensive in Japan.",
+"nova": "Computer supplies are quite expensive in Japan.",
+"motivo": "ziemlich = quite"
+},
+"1186037": {
+"orig": "The morning after I arrived there, I took a walk into the woods of oaks.",
+"nova": "The morning after I arrived there, I went for a walk in the oak forest.",
+"motivo": "unnatural English"
+},
+"1190428": {
+"orig": "You'd better not talk back to Tom.",
+"nova": "You'd better not tell Tom about it.",
+"motivo": "weitererzählen ≠ talk back"
+},
+"1194357": {
+"orig": "Birds can fly thousands of miles away and return to the same place every year.",
+"nova": "Birds can fly thousands of kilometers away and return to the same place every year.",
+"motivo": "Kilometer ≠ miles"
+},
+"1219192": {
+"orig": "The two companies plan to unite.",
+"nova": "The two companies plan to merge.",
+"motivo": "fusionieren = merge"
+},
+"1223694": {
+"orig": "That's too a high price.",
+"nova": "That's too high a price.",
+"motivo": "English grammar"
+},
+"1391393": {
+"orig": "Don't be late for the train.",
+"nova": "Don't miss your train.",
+"motivo": "verpassen = miss"
+},
+"1403683": {
+"orig": "Where is the south terminal?",
+"nova": "Where is the south station?",
+"motivo": "Südbahnhof = south station"
+},
+"1417189": {
+"orig": "Will you sing me a Beatles' song?",
+"nova": "Can you sing me a song by the Beatles?",
+"motivo": "English: Beatles' song"
+},
+"1428439": {
+"orig": "The corridor was so crowded that we couldn't walk.",
+"nova": "The corridor was so crowded that you couldn't get through.",
+"motivo": "man/hindurchkommen"
+},
+"1500502": {
+"orig": "This sweater is warm.",
+"nova": "This sweatshirt is warm.",
+"motivo": "Sweatshirt ≠ sweater"
+},
+"1507886": {
+"orig": "Tightly-knit carpets are generally more valuable.",
+"nova": "Densely knotted carpets are usually more valuable.",
+"motivo": "geknüpft = knotted"
+},
+"1512969": {
+"orig": "A hard wind is blowing.",
+"nova": "A stiff breeze is blowing.",
+"motivo": "steife Brise = stiff breeze"
+},
+"1521262": {
+"orig": "Tom had a falling-out with Mary.",
+"nova": "Tom had a falling-out with Maria.",
+"motivo": "name Maria"
+},
+"1544259": {
+"orig": "He told me his life's story.",
+"nova": "He told me his life story.",
+"motivo": "mais natural"
+},
+"1545897": {
+"orig": "We used to go to the movies on Saturday evening.",
+"nova": "We used to go to the movies on Saturday evenings.",
+"motivo": "samstagabends = habitual"
+},
+"1547458": {
+"orig": "Tom and Mary are saving for a place of their own.",
+"nova": "Tom and Maria are saving for a place of their own.",
+"motivo": "nome Maria"
+},
+"1550137": {
+"orig": "He's active doing charity work.",
+"nova": "He does volunteer work.",
+"motivo": "sentido: ehrenamtlich"
+},
+"1555679": {
+"orig": "He reached for the pistol.",
+"nova": "He reached for his pistol.",
+"motivo": "seiner = his"
+},
+"1561793": {
+"orig": "Please say a prayer for those who were onboard.",
+"nova": "Please say a prayer for the people on board.",
+"motivo": "tempo/ortografia"
+},
+"1562770": {
+"orig": "Taxation is based on income.",
+"nova": "The tax rate is based on income.",
+"motivo": "Steuersatz = tax rate"
+},
+"1599117": {
+"orig": "You should return what you borrow.",
+"nova": "You have to give back what you borrow.",
+"motivo": "musst = have to"
+},
+"1619425": {
+"orig": "This fruit has an unpleasant smell.",
+"nova": "This fruit has a disgusting smell.",
+"motivo": "widerlich = disgusting"
+},
+"1636487": {
+"orig": "Tom was stabbed to death.",
+"nova": "Tom was beaten to death.",
+"motivo": "totgeprügelt = beaten"
+},
+"1637847": {
+"orig": "Ancient people liked to tell stories of bravery.",
+"nova": "Old people liked to tell stories of bravery.",
+"motivo": "Alte Menschen = old people"
+},
+"1639460": {
+"orig": "Wow, it's hot today.",
+"nova": "Phew, it's hot today!",
+"motivo": "Puh = phew"
+},
+"1647315": {
+"orig": "Everyone sang the refrain.",
+"nova": "Everyone sang along to the refrain.",
+"motivo": "mitsingen = sing along"
+},
+"1570561": {
+"orig": "Mary has just come home.",
+"nova": "Maria has just come home.",
+"motivo": "nome Maria"
+},
+"1662911": {
+"orig": "Tom is rinsing the dishes.",
+"nova": "Tom is washing the dishes.",
+"motivo": "Geschirr abspülen = wash"
+},
+"1665911": {
+"orig": "Tom asked Mary to stay at home until the babysitter got there.",
+"nova": "Tom asked Maria to stay at home until the babysitter got there.",
+"motivo": "nome Maria"
+},
+"1671187": {
+"orig": "Wow, it's pretty cold today.",
+"nova": "Brr, it's freaking cold today.",
+"motivo": "sentido/registro"
+},
+"1683748": {
+"orig": "Tom opened the door before Mary had a chance to knock.",
+"nova": "Tom opened the door before Maria had a chance to knock.",
+"motivo": "nome Maria"
+},
+"1688394": {
+"orig": "Tom caught Mary sneaking out of the house.",
+"nova": "Tom caught Maria sneaking out of the house.",
+"motivo": "nome Maria"
+},
+"1688408": {
+"orig": "Tom and Mary got divorced, just like you predicted.",
+"nova": "Tom and Maria got divorced, just like you predicted.",
+"motivo": "nome Maria"
+},
+"1688419": {
+"orig": "Tom claimed he had nothing to do with Mary's murder.",
+"nova": "Tom claimed he had nothing to do with Maria's murder.",
+"motivo": "nome Maria"
+},
+"1688421": {
+"orig": "Tom threatened to burn Mary's house down.",
+"nova": "Tom threatened to burn Maria's house down.",
+"motivo": "nome Maria"
+},
+"1690919": {
+"orig": "I'm not your coach anymore.",
+"nova": "I'm not your training supervisor anymore.",
+"motivo": "Ausbildungsleiter"
+},
+"1690976": {
+"orig": "It's hard to believe that Tom wasn't aware that Mary was in love with him.",
+"nova": "It's hard to believe that Tom wasn't aware that Maria was in love with him.",
+"motivo": "nome Maria"
+},
+"1691342": {
+"orig": "Tom wondered how long John and Mary had been dating.",
+"nova": "Tom wondered how long Johannes and Maria had been dating.",
+"motivo": "nomes Johannes/Maria"
+},
+"1696142": {
+"orig": "What's your favorite fast food?",
+"nova": "What's your favorite fast food place?",
+"motivo": "Schnellimbiss = lugar"
+},
+"1698528": {
+"orig": "The news of his death spread.",
+"nova": "The news of his death spread like wildfire.",
+"motivo": "faltava like wildfire"
+},
+"1699176": {
+"orig": "According to the news report, the ruling coalition has secured 72 seats as of 5 p.m.",
+"nova": "According to the news report, the ruling coalition had secured 72 seats by five o'clock.",
+"motivo": "tempo verbal"
+},
+"1699531": {
+"orig": "I'm sorry, but we can't meet your requirements.",
+"nova": "I'm sorry, but we can't meet their requirements.",
+"motivo": "ihren = their"
+},
+"1700743": {
+"orig": "Boys tend to look down on their sisters.",
+"nova": "Boys tend to look down on their younger sisters.",
+"motivo": "faltava younger"
+},
+"1701789": {
+"orig": "We got an interesting piece of information.",
+"nova": "We got a very revealing piece of information.",
+"motivo": "aufschlussreich = revealing"
+},
+"1701813": {
+"orig": "Tom knows who crashed into Mary's car.",
+"nova": "Tom knows who crashed into Maria's car.",
+"motivo": "nome Maria"
+},
+"1701815": {
+"orig": "Tom knows who crashed into Mary's car.",
+"nova": "Tom knows who crashed into Maria's car.",
+"motivo": "nome Maria"
+},
+"1701817": {
+"orig": "Tom knows who crashed into Mary's car.",
+"nova": "Tom knows who crashed into Maria's car.",
+"motivo": "nome Maria"
+},
+"1704009": {
+"orig": "The stable is right behind the farm house.",
+"nova": "The stable is right behind the farmhouse.",
+"motivo": "ortografia farmhouse"
+},
+"1706916": {
+"orig": "Tom wrote Mary a love letter, but he didn't send it.",
+"nova": "Tom wrote Maria a love letter, but he didn't send it.",
+"motivo": "nome Maria"
+},
+"1706917": {
+"orig": "Tom wrote Mary a love letter, but he didn't send it.",
+"nova": "Tom wrote Maria a love letter, but he didn't send it.",
+"motivo": "nome Maria"
+},
+"1706953": {
+"orig": "Tom sent Mary a love letter, but he never did find out whether it arrived.",
+"nova": "Tom sent Maria a love letter, but he never did find out whether it arrived.",
+"motivo": "nome Maria"
+},
+"1709952": {
+"orig": "Tom couldn't just sit by and watch Mary being bullied.",
+"nova": "Tom couldn't just sit by and watch Maria being bullied.",
+"motivo": "nome Maria"
+},
+"1713273": {
+"orig": "Tom is cleaning his house.",
+"nova": "Tom is cleaning the house.",
+"motivo": "das Haus = the house"
+},
+"1713460": {
+"orig": "The engine is purring.",
+"nova": "The engine is humming.",
+"motivo": "brummen = hum"
+},
+"1729816": {
+"orig": "This will improve the performance.",
+"nova": "This increases productivity.",
+"motivo": "sentido/tempo"
+},
+"1731526": {
+"orig": "Tom certainly fooled us all.",
+"nova": "Tom fooled us all.",
+"motivo": "certainly a mais"
+},
+"1731527": {
+"orig": "Tom certainly fooled us all.",
+"nova": "Tom fooled us all.",
+"motivo": "certainly a mais"
+},
+"1735304": {
+"orig": "Please be careful not to let the dog loose.",
+"nova": "Please be careful not to let go of the dog.",
+"motivo": "loslassen = let go of"
+},
+"1743294": {
+"orig": "I feed my dog two cups of dog food every evening.",
+"nova": "I feed my dogs two cups of dog food every evening.",
+"motivo": "número: Hunden"
+},
+"1747605": {
+"orig": "When was the last time you caught a fish?",
+"nova": "When was the last time you went fishing?",
+"motivo": "angeln = go fishing"
+},
+"1754257": {
+"orig": "Tom hopes Mary doesn't end up in jail.",
+"nova": "Tom hopes Maria doesn't end up in jail.",
+"motivo": "nome Maria"
+},
+"1759495": {
+"orig": "Tom apologized to Mary for his son's impolite remarks.",
+"nova": "Tom apologized to Maria for his son's impolite remarks.",
+"motivo": "nome Maria"
+},
+"1765846": {
+"orig": "We went to the mountain to ski.",
+"nova": "We went to the mountains to ski.",
+"motivo": "in die Berge = plural"
+},
+"1768580": {
+"orig": "Both Tom and Mary work as models.",
+"nova": "Both Tom and Maria work as models.",
+"motivo": "nome Maria"
+},
+"1771190": {
+"orig": "Ask Tom to bring Mary tomorrow.",
+"nova": "Ask Tom to bring Maria tomorrow.",
+"motivo": "nome Maria"
+},
+"1773397": {
+"orig": "Some students find it difficult to follow the rules.",
+"nova": "Some students have difficulty fitting in.",
+"motivo": "sich einfügen = fit in"
+},
+"1796694": {
+"orig": "I bought this house as an investment.",
+"nova": "I bought the house as an investment.",
+"motivo": "das Haus = the house"
+},
+"1797133": {
+"orig": "Tom appeared to have a particular fondness for squirrels.",
+"nova": "Tom appeared to have a particular fondness for unicorns.",
+"motivo": "Einhörner = unicorns"
+},
+"1805926": {
+"orig": "I got a rash on my hands from dishwasher detergent.",
+"nova": "I got a rash on my hands from dishwashing liquid.",
+"motivo": "Geschirrspülmittel"
+},
+"1808838": {
+"orig": "He kept on writing stories about animals.",
+"nova": "She kept on writing stories about animals.",
+"motivo": "gênero: Sie = she"
+},
+"1814117": {
+"orig": "Tom and Mary were my backup singers back when I used to perform.",
+"nova": "Tom and Maria were my backup singers back when I used to perform.",
+"motivo": "nome Maria"
+},
+"1819022": {
+"orig": "He has two daughters, one is a pianist and the other is a violinist.",
+"nova": "He has two daughters: one is a pianist and the other is a violinist.",
+"motivo": "pontuação"
+},
+"1831253": {
+"orig": "It's best to wear a cap on your head during the cold Moscow winters.",
+"nova": "It's best to wear a fur hat during the cold Moscow winters.",
+"motivo": "Schapka = fur hat"
+},
+"1842215": {
+"orig": "This affair is rapidly turning into a scandal.",
+"nova": "This affair is turning into a scandal.",
+"motivo": "rapidly a mais"
+},
+"1846555": {
+"orig": "Tom named his dog Cookie.",
+"nova": "Tom named his dog Bello.",
+"motivo": "nome Bello"
+},
+"1854249": {
+"orig": "I didn't commit myself to attend the meeting.",
+"nova": "I hadn't felt obliged to attend the meeting.",
+"motivo": "sentido"
+},
+"1863589": {
+"orig": "Mary felt like Tom was undressing her with his eyes.",
+"nova": "Maria felt like Tom was undressing her with his eyes.",
+"motivo": "nome Maria"
+},
+"1865765": {
+"orig": "When I'm hot, a glass of cool water really refreshes me.",
+"nova": "When I'm hot, a glass of cold water really refreshes me.",
+"motivo": "kaltes = cold"
+},
+"1872877": {
+"orig": "Tom saw Mary walking up the steps.",
+"nova": "Tom saw Maria walking up the steps.",
+"motivo": "nome Maria"
+},
+"1872881": {
+"orig": "Tom saw Mary coming towards him.",
+"nova": "Tom saw Maria coming towards him.",
+"motivo": "nome Maria"
+},
+"1875438": {
+"orig": "Tom gave Mary a list of all the victims.",
+"nova": "Tom gave Maria a list of all the victims.",
+"motivo": "nome Maria"
+},
+"1885226": {
+"orig": "Tom blocked Mary's punch and kicked her again.",
+"nova": "Tom blocked Maria's punch and kicked her again.",
+"motivo": "nome Maria"
+},
+"1890250": {
+"orig": "Can I borrow your hair drier?",
+"nova": "Can I borrow your hair dryer?",
+"motivo": "ortografia dryer"
+},
+"1893475": {
+"orig": "Tom just needs a little time to get used to the idea that Mary will now be his stepsister.",
+"nova": "Tom just needs a little time to get used to the idea that Maria is now his stepsister.",
+"motivo": "nome Maria e tempo"
+},
+"1893577": {
+"orig": "I think I mistakenly said it was Tom when it was actually Mary that did that.",
+"nova": "I think I mistakenly accused Tom when it was actually Maria.",
+"motivo": "nome Maria, bezichtigen"
+},
+"1896854": {
+"orig": "After months spent looking for one, Mary finally bought herself a new dress.",
+"nova": "After months of browsing, Maria bought herself a new dress.",
+"motivo": "nome Maria, finally a mais"
+},
+"1898818": {
+"orig": "Mary was wearing a black robe.",
+"nova": "Maria was wearing a black robe.",
+"motivo": "nome Maria"
+},
+"1898819": {
+"orig": "Mary usually wears her long hair in pigtails.",
+"nova": "Maria usually wears her long hair in pigtails.",
+"motivo": "nome Maria"
+},
+"1900436": {
+"orig": "The cat clung to her dress.",
+"nova": "The cat clung to her clothes.",
+"motivo": "Kleidung = clothes"
+},
+"1900482": {
+"orig": "The cat slowly approached the mouse.",
+"nova": "The cat slowly crept up on the mouse.",
+"motivo": "sich heranpirschen"
+},
+"1902257": {
+"orig": "Practically every guy in the bar was looking at Mary.",
+"nova": "Practically every guy in the bar was looking at Maria.",
+"motivo": "nome Maria"
+},
+"1902308": {
+"orig": "The first time Tom brought Mary home, his mother said, \"This one's a keeper.\"",
+"nova": "The first time Tom brought Maria home, his mother said, \"This one's a keeper.\"",
+"motivo": "nome Maria"
+},
+"1913574": {
+"orig": "The store was crowded with holiday shoppers.",
+"nova": "The store was packed with vacationers doing their shopping.",
+"motivo": "Urlauber = vacationers"
+},
+"1913655": {
+"orig": "What a smart guy!",
+"nova": "What a clever little fellow!",
+"motivo": "Kerlchen"
+},
+"1921275": {
+"orig": "The transportation system in that city is quite good.",
+"nova": "Public transportation in this city is quite good.",
+"motivo": "öffentlicher Nahverkehr = public transportation"
+},
+"1925551": {
+"orig": "My mother is a psychology teacher.",
+"nova": "My mother is a psychology lecturer.",
+"motivo": "Dozentin = lecturer"
+},
+"1931137": {
+"orig": "Tom's behavior wasn't acceptable.",
+"nova": "Tom's behavior was outrageous.",
+"motivo": "unerhört = outrageous"
+},
+"1931818": {
+"orig": "Tom wanted to eat a couple of slices of salami.",
+"nova": "Tom wanted to eat a couple of slices of Mettwurst.",
+"motivo": "Mettwurst não é salami"
+},
+"1932392": {
+"orig": "The man was branded as a traitor.",
+"nova": "The man was denounced as a traitor.",
+"motivo": "angeprangert = denounced"
+},
+"1932460": {
+"orig": "I want to get a sightseeing visa.",
+"nova": "I want to get a visitor visa.",
+"motivo": "Besuchervisum = visitor visa"
+},
+"1934391": {
+"orig": "Tom must buy a pair of shoes. His old ones are all worn out.",
+"nova": "Tom must buy a new pair of shoes. His old ones are completely worn out.",
+"motivo": "faltava 'new'"
+},
+"1944393": {
+"orig": "The boy had the dish empty in a moment.",
+"nova": "The boy emptied his plate in no time.",
+"motivo": "inglês pouco natural"
+},
+"1944394": {
+"orig": "The boy had the dish empty in a moment.",
+"nova": "The boy had emptied his plate in an instant.",
+"motivo": "inglês pouco natural"
+},
+"1944564": {
+"orig": "Tom has to dress up for work.",
+"nova": "Tom has to get ready for work.",
+"motivo": "sich fertigmachen = get ready"
+},
+"1946647": {
+"orig": "Tom has been going to that beach every summer since he was very young.",
+"nova": "Tom has been going to the beach every summer since he was very young.",
+"motivo": "'den Strand' = the beach"
+},
+"1946665": {
+"orig": "Tom has an uncle who is a banker.",
+"nova": "Tom has an uncle who is a bank clerk.",
+"motivo": "Bankkaufmann = bank clerk"
+},
+"1952412": {
+"orig": "We can't just stand here.",
+"nova": "I can't just stand around here.",
+"motivo": "pessoa trocada (ich)"
+},
+"1989599": {
+"orig": "Tom doesn't like to use the term \"a person of color\" because he thinks it implies that white people have no color.",
+"nova": "Tom doesn't like to use the term \"colored person\" because he thinks it implies that white people have no color.",
+"motivo": "Farbiger = colored person"
+},
+"1995003": {
+"orig": "People all over the world are anxious for peace.",
+"nova": "People all over the world fear for peace.",
+"motivo": "bangen um = fear for"
+},
+"2026787": {
+"orig": "The percolator isn't working.",
+"nova": "The coffee maker is broken.",
+"motivo": "Kaffeemaschine = coffee maker"
+},
+"2051159": {
+"orig": "I have been absorbed in reading a mystery.",
+"nova": "I was absorbed in a mystery novel.",
+"motivo": "tempo verbal"
+},
+"2077540": {
+"orig": "I'm a townie.",
+"nova": "I'm a city dweller.",
+"motivo": "Städterin = city dweller"
+},
+"2090760": {
+"orig": "Tom has a longer beard than John does.",
+"nova": "Tom has a longer beard than Johannes does.",
+"motivo": "nome próprio trocado"
+},
+"2091863": {
+"orig": "That'll complicate matters more.",
+"nova": "That'll complicate matters.",
+"motivo": "'more' a mais"
+},
+"2107777": {
+"orig": "Keep your dog chained up to the tree.",
+"nova": "Keep your dog tied to the tree.",
+"motivo": "festgebunden = tied"
+},
+"2117338": {
+"orig": "I understand that this decision will be difficult for you.",
+"nova": "I understand that this decision is difficult for you.",
+"motivo": "tempo verbal"
+},
+"2121300": {
+"orig": "That's nothing new.",
+"nova": "That would be carrying coals to Newcastle.",
+"motivo": "sentido errado do idioma"
+},
+"2137490": {
+"orig": "I'd like to decorate my room with flowers.",
+"nova": "I like to decorate my room with flowers.",
+"motivo": "gerne = like to"
+},
+"2139787": {
+"orig": "Tom doesn't like any kind of spicy food.",
+"nova": "Tom doesn't like seasoned food.",
+"motivo": "gewürzt = seasoned"
+},
+"2140801": {
+"orig": "I'm not used to making speeches in public.",
+"nova": "I'm not used to appearing in public.",
+"motivo": "auftreten = appear"
+},
+"2143683": {
+"orig": "That is not my line.",
+"nova": "That's not my field.",
+"motivo": "inglês datado; Fachgebiet = field"
+},
+"2145618": {
+"orig": "It was a nervous moment for me.",
+"nova": "It was a critical moment for me.",
+"motivo": "kritisch = critical"
+},
+"2160909": {
+"orig": "They are the extreme cases.",
+"nova": "Those are the exceptional cases.",
+"motivo": "Ausnahmefälle = exceptional cases"
+},
+"2169242": {
+"orig": "She says she's not dating anyone now, but I don't believe her.",
+"nova": "She said she's not dating anyone right now, but I don't believe her.",
+"motivo": "tempo verbal"
+},
+"2171377": {
+"orig": "Is this your red pencil?",
+"nova": "Is this your red colored pencil?",
+"motivo": "Buntstift = colored pencil"
+},
+"2178196": {
+"orig": "I live next door to the toy shop.",
+"nova": "I live near the toy shop.",
+"motivo": "in der Nähe = near"
+},
+"2179501": {
+"orig": "You should buy her a gift card instead.",
+"nova": "You should send her a gift card instead.",
+"motivo": "zukommen lassen = send"
+},
+"2189018": {
+"orig": "I think the movie is a very heart warming one.",
+"nova": "I think the movie is very heartwarming.",
+"motivo": "inglês pouco natural"
+},
+"2190195": {
+"orig": "I want to be an astronaut.",
+"nova": "I want to be a cosmonaut.",
+"motivo": "Kosmonaut = cosmonaut"
+},
+"2207099": {
+"orig": "I was chilled to the bone.",
+"nova": "I was scared stiff.",
+"motivo": "sentido: susto, não frio"
+},
+"2217239": {
+"orig": "Many wives complain about high prices.",
+"nova": "Many housewives complain about high prices.",
+"motivo": "Hausfrauen = housewives"
+},
+"2242178": {
+"orig": "Luck is against me.",
+"nova": "Luck has turned against me.",
+"motivo": "tempo/sentido"
+},
+"2290360": {
+"orig": "The majority of those men worked in the mine.",
+"nova": "Most of the men worked in the mine.",
+"motivo": "'those' não está no alemão"
+},
+"2290543": {
+"orig": "The firemen localized the fire.",
+"nova": "The firemen contained the fire.",
+"motivo": "'localized' não natural"
+},
+"2291712": {
+"orig": "That man was a wretch.",
+"nova": "That man was a scoundrel.",
+"motivo": "Halunke = scoundrel"
+},
+"2292063": {
+"orig": "I appreciate what you're doing, but I don't think it'll help.",
+"nova": "I appreciate your efforts, but I don't think that'll help us.",
+"motivo": "tradução livre demais"
+},
+"2301679": {
+"orig": "I have no funds in the bank.",
+"nova": "I have no investments at the bank.",
+"motivo": "Anlagen = investimentos"
+},
+"2317045": {
+"orig": "I don't like doctors.",
+"nova": "I don't trust doctors.",
+"motivo": "nicht geheuer = desconfiança/desconforto"
+},
+"2325271": {
+"orig": "A butcher deals in meat.",
+"nova": "Butchers deal in meat.",
+"motivo": "número: plural"
+},
+"2325958": {
+"orig": "I erased my name off the list.",
+"nova": "I erased my name from the list.",
+"motivo": "'erased off' não padrão"
+},
+"2332543": {
+"orig": "The old lady has been rather feeble since her illness.",
+"nova": "The old lady had been rather feeble since her illness.",
+"motivo": "tempo verbal"
+},
+"2344962": {
+"orig": "Where do I throw these eggshells?",
+"nova": "Where can I throw away these eggshells?",
+"motivo": "falta 'away'; kann"
+},
+"2344988": {
+"orig": "We felt isolated.",
+"nova": "We felt excluded.",
+"motivo": "ausgegrenzt = excluded"
+},
+"2346381": {
+"orig": "The lake is deepest in this area.",
+"nova": "The lake is the deepest in this area.",
+"motivo": "sem 'the' muda o sentido"
+},
+"2346968": {
+"orig": "The new boy had a nervous stammer.",
+"nova": "The new boy stammered with nervousness.",
+"motivo": "ação pontual, não condição"
+},
+"2357829": {
+"orig": "I haven't yet had time to see about a hotel for the night.",
+"nova": "I didn't even have time to look for a hotel for the night.",
+"motivo": "falta 'even'; tempo"
+},
+"2365525": {
+"orig": "I want to reserve a first-class stateroom.",
+"nova": "I'd like to reserve a first-class compartment.",
+"motivo": "Abteil = compartment, não stateroom"
+},
+"2410221": {
+"orig": "Tom can't tie his shoelaces by himself.",
+"nova": "Tom can't tie his shoelaces.",
+"motivo": "'by himself' não está no alemão"
+},
+"2418424": {
+"orig": "The bill passed the Diet.",
+"nova": "The bill passed the state parliament.",
+"motivo": "Landtag ≠ Diet"
+},
+"2437298": {
+"orig": "The meaning of this sentence is obscure.",
+"nova": "The meaning of this verdict is unclear.",
+"motivo": "Urteil = verdict"
+},
+"2478844": {
+"orig": "Please spare my life.",
+"nova": "Please spare me!",
+"motivo": "'my life' não está no alemão"
+},
+"2480199": {
+"orig": "I can't hide the fact from you.",
+"nova": "I can't fool you.",
+"motivo": "vormachen = enganar"
+},
+"2486983": {
+"orig": "Tom told me he wanted to live on a secluded beach.",
+"nova": "Tom said he wanted to live on a secluded beach.",
+"motivo": "'me' não está no alemão"
+},
+"2487627": {
+"orig": "The tax bill was passed yesterday.",
+"nova": "The tax assessment was delivered yesterday.",
+"motivo": "sentido errado"
+},
+"2489402": {
+"orig": "Why are you studying French so hard?",
+"nova": "Why are you studying French so zealously?",
+"motivo": "übereifrig = overzealous"
+},
+"2509771": {
+"orig": "I think, without a doubt, that I'll win the tennis match.",
+"nova": "I have no doubt that I'll win the tennis match.",
+"motivo": "tradução torta"
+},
+"2510408": {
+"orig": "The shrine was built two hundred years ago.",
+"nova": "The tomb was built two hundred years ago.",
+"motivo": "Grabmal = tomb"
+},
+"2511656": {
+"orig": "We found a secret door into the building.",
+"nova": "We found a secret door in the building.",
+"motivo": "in dem Gebäude = in the building"
+},
+"2572860": {
+"orig": "The trout is a freshwater fish.",
+"nova": "The trout is a river fish.",
+"motivo": "Flussfisch = river fish"
+},
+"2637906": {
+"orig": "Tom has been to Boston many times.",
+"nova": "Tom has been to Boston several times.",
+"motivo": "diverse = several"
+},
+"2652153": {
+"orig": "I'm so tired that I can't walk any longer.",
+"nova": "I'm so tired that I can't go on.",
+"motivo": "'walk' não está no alemão"
+},
+"2655091": {
+"orig": "I wanted to slap myself.",
+"nova": "I could have slapped myself.",
+"motivo": "modo/sentido"
+},
+"2685389": {
+"orig": "Can I have this box carried upstairs?",
+"nova": "Can someone bring the box up for me?",
+"motivo": "tradução não fiel"
+},
+"2688006": {
+"orig": "The density of water depends on the temperature.",
+"nova": "The density of water changes with temperature.",
+"motivo": "ändert sich = changes"
+},
+"2694712": {
+"orig": "Tom is perfectionist.",
+"nova": "Tom is a perfectionist.",
+"motivo": "falta artigo"
+},
+"2696894": {
+"orig": "We are anxious for world peace.",
+"nova": "We are striving for world peace.",
+"motivo": "streben nach = strive for"
+},
+"2700667": {
+"orig": "There is heavy traffic on this road.",
+"nova": "This is a road with heavy truck traffic.",
+"motivo": "Schwerlastverkehr = tráfego pesado de caminhões"
+},
+"2716654": {
+"orig": "Tom was dressed in black and wore a black ski mask.",
+"nova": "Tom was dressed in black and wore black ski goggles.",
+"motivo": "Schibrille = ski goggles"
+},
+"2724962": {
+"orig": "This shop is a rental video shop.",
+"nova": "This shop is a video rental store.",
+"motivo": "inglês não natural"
+},
+"2726976": {
+"orig": "No woman could measure up to his standard.",
+"nova": "No woman could measure up to his standards.",
+"motivo": "Ansprüche = standards (plural)"
+},
+"2746359": {
+"orig": "Tom doesn't know how to dribble a ball.",
+"nova": "Tom doesn't even know how to dribble a ball.",
+"motivo": "falta 'even'"
+},
+"2750440": {
+"orig": "Tom asked Mary to leave the windows open.",
+"nova": "Tom asked Mary to leave the window open.",
+"motivo": "número: singular"
+},
+"2750493": {
+"orig": "Tom never signed up for swimming lessons.",
+"nova": "Tom has never taken swimming lessons.",
+"motivo": "sentido/tempo"
+},
+"2752112": {
+"orig": "The area is built up now.",
+"nova": "The area is being built up now.",
+"motivo": "voz: em andamento"
+},
+"2755738": {
+"orig": "Tom knocked on the door and Mary answered it.",
+"nova": "Tom knocked on the door, and Mary asked him to come in.",
+"motivo": "hereinbitten = convidar a entrar"
+},
+"2758014": {
+"orig": "Tom got blamed even though it wasn't his fault.",
+"nova": "Tom was reprimanded even though it wasn't his fault.",
+"motivo": "gerügt = repreendido"
+},
+"2758773": {
+"orig": "Tom lives in a mobile home.",
+"nova": "Tom lives in a prefab house.",
+"motivo": "Fertighaus ≠ mobile home"
+},
+"2766589": {
+"orig": "The doctor told us that what Tom has isn't contagious.",
+"nova": "The doctor said that what Tom has isn't contagious.",
+"motivo": "'us' a mais"
+},
+"2767775": {
+"orig": "Why didn't you tell Tom the same time you told Mary?",
+"nova": "Why didn't you tell Tom at the same time you told Mary?",
+"motivo": "falta 'at'"
+},
+"2767959": {
+"orig": "Why are you always the one deciding everything for us?",
+"nova": "Why do you always have to be the one who decides everything?",
+"motivo": "'for us' a mais"
+},
+"2767975": {
+"orig": "Tom didn't say where he'd bought his new bass clarinet.",
+"nova": "Tom didn't say where he got his new bass clarinet.",
+"motivo": "woher er hat = got"
+},
+"2769388": {
+"orig": "Tom pointed out several grammar mistakes on Mary's essay.",
+"nova": "Tom pointed out several grammar mistakes in Mary's essay.",
+"motivo": "preposição"
+},
+"2770857": {
+"orig": "Tom is slurring his words. I think he's drunk quite a lot.",
+"nova": "Tom is slurring his words. I think he's pretty drunk.",
+"motivo": "ambiguidade/sentido"
+},
+"2770873": {
+"orig": "Tom doesn't know if he can do what you're asking him to do.",
+"nova": "Tom doesn't know if he can do what you asked him to do.",
+"motivo": "tempo verbal"
+},
+"2781097": {
+"orig": "Tom and I wore each other's clothes.",
+"nova": "Tom and I had swapped clothes.",
+"motivo": "sentido/tempo"
+},
+"2793526": {
+"orig": "Tom usually keeps his phone in manner mode.",
+"nova": "Tom's phone is always on silent.",
+"motivo": "immer = always; manner mode"
+},
+"2796349": {
+"orig": "They think that Tom followed Mary home and killed her.",
+"nova": "They think that Tom followed Mary home and murdered her.",
+"motivo": "ermordete = murdered"
+},
+"2798473": {
+"orig": "This cloth is superior to that.",
+"nova": "This cloth is superior to that one.",
+"motivo": "inglês"
+},
+"2800946": {
+"orig": "Add up this column of figures.",
+"nova": "Add up this series of numbers.",
+"motivo": "Zahlenreihe"
+},
+"2808523": {
+"orig": "We've been much busier than we expected to be.",
+"nova": "We were in much more of a hurry than we expected.",
+"motivo": "es eilig haben ≠ busy"
+},
+"2810210": {
+"orig": "What Tom thought was a harmless joke, soon became deadly serious.",
+"nova": "What Tom meant as a harmless joke soon became deadly serious.",
+"motivo": "vírgula/sentido"
+},
+"2815295": {
+"orig": "A new oil tanker was launched.",
+"nova": "A new oil tanker put to sea.",
+"motivo": "in See stechen ≠ launch"
+},
+"2830628": {
+"orig": "Fill out this registration card, please.",
+"nova": "Please fill out this registration form.",
+"motivo": "Formular = form"
+},
+"2830650": {
+"orig": "We'll need a head hunting agency to find the right man for this executive position.",
+"nova": "We'll need a headhunting agency to find the right person for this executive position.",
+"motivo": "ortografia; Besetzung neutro"
+},
+"2830678": {
+"orig": "We'll need a head hunting agency to find the right man for this executive position.",
+"nova": "We'll have to go to a recruitment agency to find the right person for this executive position.",
+"motivo": "Personalvermittlung; neutro"
+},
+"2833405": {
+"orig": "This kind of plant grows only in the tropical regions.",
+"nova": "This kind of plant grows only in tropical regions.",
+"motivo": "artigo"
+},
+"2833426": {
+"orig": "This kind of shoe is apt to slip on wet ground.",
+"nova": "This kind of shoe can be slippery on wet ground.",
+"motivo": "sentido"
+},
+"2841088": {
+"orig": "This is a hearing, not a trial.",
+"nova": "This is an interrogation, not a trial.",
+"motivo": "Vernehmung"
+},
+"2861865": {
+"orig": "We'll never live this fiasco down.",
+"nova": "We won't get over this fiasco.",
+"motivo": "hinwegkommen ≠ live down"
+},
+"2874184": {
+"orig": "What should you do to decrease your debt?",
+"nova": "What can you do to reduce your debt?",
+"motivo": "kann = can"
+},
+"2880136": {
+"orig": "I've been unable to contact Tom.",
+"nova": "Tom couldn't be reached.",
+"motivo": "sujeito/sentido"
+},
+"2908303": {
+"orig": "We must not make too much of this incident.",
+"nova": "We shouldn't make too much of this incident.",
+"motivo": "sollten = should"
+},
+"2966311": {
+"orig": "Could you give me a wake-up call at seven?",
+"nova": "Could I get a wake-up call at seven?",
+"motivo": "sujeito/estrutura"
+},
+"2983836": {
+"orig": "I felt tired from having worked for hours.",
+"nova": "I was exhausted from hours of work.",
+"motivo": "erschöpft = exhausted"
+},
+"2996926": {
+"orig": "Tom and Mary told everyone they were planning to live in Boston.",
+"nova": "Tom and Mary told everyone they were planning to move to Boston.",
+"motivo": "ziehen = move"
+},
+"2999735": {
+"orig": "The problem is worse than I thought.",
+"nova": "The problem is trickier than I thought.",
+"motivo": "vertrackt = tricky"
+},
+"3002347": {
+"orig": "I doubt Tom would be interested in joining the army.",
+"nova": "I doubt Tom would be interested in joining the armed forces.",
+"motivo": "Streitkräfte"
+},
+"3009087": {
+"orig": "Mary was a difficult child, but she has matured into a beautiful young woman.",
+"nova": "Mary was a difficult child, but she matured into a beautiful young woman.",
+"motivo": "tempo verbal"
+},
+"3012699": {
+"orig": "Tom is an overachiever.",
+"nova": "Tom is highly gifted.",
+"motivo": "hochbegabt ≠ overachiever"
+},
+"3014934": {
+"orig": "I changed my name to Tom Jackson.",
+"nova": "I changed my name to Tom Johannsen.",
+"motivo": "nome próprio"
+},
+"3053681": {
+"orig": "All right, do it your own way, but don't blame me if you fail.",
+"nova": "All right, do it your way, but don't come complaining to me if it goes wrong.",
+"motivo": "sentido"
+},
+"3061326": {
+"orig": "Tom was fired because he couldn't be trusted.",
+"nova": "Tom was fired for being unreliable.",
+"motivo": "Unzuverlässigkeit"
+},
+"3066031": {
+"orig": "This is creepy.",
+"nova": "This is hair-raising.",
+"motivo": "haarsträubend"
+},
+"3074846": {
+"orig": "I really like the concept of this website.",
+"nova": "I like the concept of this website.",
+"motivo": "'really' a mais"
+},
+"3078445": {
+"orig": "Tom was standing near the entrance.",
+"nova": "Thomas was standing near the entrance.",
+"motivo": "nome próprio"
+},
+"3081104": {
+"orig": "He traveled on business.",
+"nova": "He was on a business trip.",
+"motivo": "sentido/estrutura"
+},
+"3082359": {
+"orig": "I came here of my own free will.",
+"nova": "I'm here of my own free will.",
+"motivo": "tempo"
+},
+"3097464": {
+"orig": "Tom drank the potion.",
+"nova": "Tom swallowed the potion.",
+"motivo": "schlucken = swallow"
+},
+"3144193": {
+"orig": "Tom will go to Boston the month after next.",
+"nova": "Thomas will go to Boston the month after next.",
+"motivo": "nome próprio"
+},
+"3145244": {
+"orig": "We have to split.",
+"nova": "We have to split up.",
+"motivo": "sentido"
+},
+"3148078": {
+"orig": "Did you and Tom discuss a price?",
+"nova": "Did you and Thomas negotiate a price?",
+"motivo": "nome; aushandeln"
+},
+"3150077": {
+"orig": "Tom is a regular.",
+"nova": "Thomas is a regular.",
+"motivo": "nome próprio"
+},
+"3191598": {
+"orig": "Tom got his neck broken in a ski accident.",
+"nova": "Tom broke his neck in a skiing accident.",
+"motivo": "inglês"
+},
+"3239205": {
+"orig": "Why don't you stop worrying and get some sleep?",
+"nova": "Why don't you stop worrying and get some rest?",
+"motivo": "ausruhen = rest"
+},
+"3243434": {
+"orig": "Tom was given full custody of the children.",
+"nova": "Tom was given sole custody of the children.",
+"motivo": "alleinige = sole"
+},
+"3261179": {
+"orig": "There was a moment of meaningful silence.",
+"nova": "For a few moments there was a meaningful silence.",
+"motivo": "einige Augenblicke"
+},
+"3275400": {
+"orig": "You should receive them by the end of the week.",
+"nova": "They should arrive around the beginning of the week.",
+"motivo": "sentido errado (início da semana, chegar)"
+},
+"3280413": {
+"orig": "There are many old Indian legends.",
+"nova": "There are many old Native American legends.",
+"motivo": "'Indian' ambíguo (indianisch = indígena americano)"
+},
+"3312321": {
+"orig": "Tom is more intelligent and sophisticated than most boys his age.",
+"nova": "Tom is more intelligent and better educated than most boys his age.",
+"motivo": "gebildet = educated"
+},
+"3346773": {
+"orig": "Tom had a back up plan in case something went wrong.",
+"nova": "Tom had a backup plan in case something went wrong.",
+"motivo": "ortografia: backup"
+},
+"3351749": {
+"orig": "Tom suggested ways we could save money.",
+"nova": "Tom suggested ways to save money.",
+"motivo": "'we' acrescentado"
+},
+"3382656": {
+"orig": "I just got a weird message from Tom.",
+"nova": "I got a weird message from Tom.",
+"motivo": "'just' acrescentado"
+},
+"3384925": {
+"orig": "The guard unlocked the cell door.",
+"nova": "The guard opened the cell door.",
+"motivo": "öffnete = opened"
+},
+"3388271": {
+"orig": "Some couples argue over minor issues.",
+"nova": "Many couples argue over minor issues.",
+"motivo": "viele = many"
+},
+"3390792": {
+"orig": "How long did you say you were in Boston?",
+"nova": "How long are you staying in Boston again?",
+"motivo": "tempo: weilst = presente"
+},
+"3406004": {
+"orig": "That would make sense, wouldn't it?",
+"nova": "That wouldn't make sense, would it?",
+"motivo": "negação omitida"
+},
+"3411659": {
+"orig": "That was very considerate of Tom.",
+"nova": "That was very prudent of Tom.",
+"motivo": "bedachtsam ≠ considerate"
+},
+"3411660": {
+"orig": "That was very considerate of Tom.",
+"nova": "That was very prudent of Tom.",
+"motivo": "umsichtig = prudent/circumspect"
+},
+"3418450": {
+"orig": "The lodge is made of rough-hewn logs.",
+"nova": "The cabin is made of rough logs.",
+"motivo": "Hütte = cabin/hut"
+},
+"3428871": {
+"orig": "Tom did nothing illegal.",
+"nova": "Tom did nothing wrong.",
+"motivo": "Unrechtes = wrong, não illegal"
+},
+"3428884": {
+"orig": "Tom was wearing an orange prison jumpsuit.",
+"nova": "Tom was wearing orange prison clothes.",
+"motivo": "'jumpsuit' acrescentado"
+},
+"3429654": {
+"orig": "The inhabitants fled the city.",
+"nova": "The inhabitants are fleeing the city.",
+"motivo": "tempo: presente"
+},
+"3449760": {
+"orig": "This weekend Tom and Mary plan to go on a double date with John and Alice.",
+"nova": "This weekend Tom and Mary plan to go on a double date with Johannes and Elke.",
+"motivo": "nomes próprios trocados"
+},
+"3458444": {
+"orig": "Tom and Mary have the same blood type.",
+"nova": "Tom and Mariechen have the same blood type.",
+"motivo": "nome próprio trocado"
+},
+"3522779": {
+"orig": "Tom certainly helped make this a better place to live.",
+"nova": "Tom played a big part in improving the living situation here.",
+"motivo": "tradução livre demais/'certainly' acrescentado"
+},
+"3522875": {
+"orig": "My six-month old son is teething.",
+"nova": "My six-month-old son is teething.",
+"motivo": "hífen: six-month-old"
+},
+"3525057": {
+"orig": "Gambling isn't one of Tom's vices.",
+"nova": "Gambling is one of Tom's vices.",
+"motivo": "negação indevida"
+},
+"3532089": {
+"orig": "I ought to punch you for saying that.",
+"nova": "I ought to give you a thump for saying that.",
+"motivo": "knuffen ≠ punch (mais leve)"
+},
+"3543013": {
+"orig": "Tom was moaning in pain.",
+"nova": "Tom was whimpering in pain.",
+"motivo": "wimmern = whimper"
+},
+"3628367": {
+"orig": "Tom decorated the room.",
+"nova": "Tom decorated the hall.",
+"motivo": "Saal = hall"
+},
+"3630320": {
+"orig": "Is it too late for us to register?",
+"nova": "Is it too late to register?",
+"motivo": "'for us' acrescentado"
+},
+"3630410": {
+"orig": "You could get arrested for that.",
+"nova": "The police could arrest you for that.",
+"motivo": "sujeito 'Polizei' omitido"
+},
+"3638074": {
+"orig": "The coat is lined with fur.",
+"nova": "This coat has fur trim.",
+"motivo": "Pelzbesatz = fur trim, não lining"
+},
+"3638076": {
+"orig": "The coat is lined with fur.",
+"nova": "This coat is trimmed with fur.",
+"motivo": "gesäumt = trimmed/edged, não lined"
+},
+"3640892": {
+"orig": "The building is managed by a local cultural foundation.",
+"nova": "The building is currently managed by a regional cultural foundation.",
+"motivo": "'derzeit' omitido"
+},
+"3691630": {
+"orig": "People from all around the world attended to his funeral.",
+"nova": "People from all around the world attended his funeral.",
+"motivo": "gramática: attended to"
+},
+"3695306": {
+"orig": "I live in a two story house.",
+"nova": "I live in a two-story house.",
+"motivo": "hífen: two-story"
+},
+"3707524": {
+"orig": "Sound knowledge of computer systems and programming languages is integral to Tom's job.",
+"nova": "Sound knowledge of operating systems and programming languages is essential to Tom's job.",
+"motivo": "Betriebssysteme = operating systems"
+},
+"3724696": {
+"orig": "Tom was staring at a photograph.",
+"nova": "Tom was looking at a photograph.",
+"motivo": "betrachten = look at"
+},
+"3728164": {
+"orig": "I could get you arrested for that.",
+"nova": "I could put you behind bars for that.",
+"motivo": "sentido: hinter Gitter bringen"
+},
+"3752797": {
+"orig": "Mother Teresa was given the Nobel prize.",
+"nova": "Mother Teresa was awarded the Nobel Prize.",
+"motivo": "maiúscula: Nobel Prize"
+},
+"3752812": {
+"orig": "Tom is now middle age and has serious health problems.",
+"nova": "Tom is now middle-aged and has serious health problems.",
+"motivo": "gramática: middle-aged"
+},
+"3754755": {
+"orig": "Tom's attempt at a solution created more problems than it solved.",
+"nova": "Tom's attempts at a solution created more problems than they solved.",
+"motivo": "número: Lösungsversuche plural"
+},
+"3786939": {
+"orig": "Are you wearing a girdle?",
+"nova": "Are you wearing a corset?",
+"motivo": "Korsett = corset"
+},
+"3842275": {
+"orig": "Tom was in the cabin.",
+"nova": "Tom was in the cab.",
+"motivo": "Führerhaus = (driver's) cab"
+},
+"3864697": {
+"orig": "After several delays, the plane finally left.",
+"nova": "After several delays, the plane finally took off.",
+"motivo": "abheben = take off"
+},
+"3865612": {
+"orig": "How many pies did you bake?",
+"nova": "How many casseroles did you bake?",
+"motivo": "Auflauf = casserole"
+},
+"3868800": {
+"orig": "For the lack of something better to do, Tom decided to take a long walk.",
+"nova": "For lack of something better to do, Tom decided to take a long walk.",
+"motivo": "gramática: 'for lack of'"
+},
+"3885518": {
+"orig": "Tom bought an expensive toy for his young son, who then proceeded to spend hours playing with the box it came in.",
+"nova": "Tom gave his young son an expensive toy, but the boy then spent hours playing with the packaging.",
+"motivo": "geschenkt = gave; Verpackung"
+},
+"3897962": {
+"orig": "Unlike Tom, John is a loving father.",
+"nova": "Unlike Tom, Johannes is a loving father.",
+"motivo": "nome próprio trocado"
+},
+"3924636": {
+"orig": "Tom thought he'd broken a bone in his foot, but an X-ray showed that he hadn't.",
+"nova": "Tom thought he'd broken his ankle, but an X-ray showed that he hadn't.",
+"motivo": "Fußknöchel = ankle"
+},
+"3949567": {
+"orig": "That bridge has been out of use for a long time.",
+"nova": "This bridge was unusable for a long time.",
+"motivo": "tempo/demonstrativo"
+},
+"4002334": {
+"orig": "Tom has always maintained that he is innocent, and claims to this day that he was framed.",
+"nova": "Tom has always maintained that he is innocent, and claims to this day that he was slandered.",
+"motivo": "verleumdet = slandered, não framed"
+},
+"4007489": {
+"orig": "Tom won't tell us anything about himself.",
+"nova": "Tom doesn't want to reveal anything about himself.",
+"motivo": "'us' acrescentado"
+},
+"4010090": {
+"orig": "Tom doesn't want Mary there.",
+"nova": "Tom doesn't want Mary here.",
+"motivo": "hier = here"
+},
+"4022718": {
+"orig": "Tom majored in engineering in college.",
+"nova": "Tom majored in mechanical engineering in college.",
+"motivo": "Maschinenbau = mechanical engineering"
+},
+"4033435": {
+"orig": "Tom is a sloppy painter.",
+"nova": "Tom is a sloppy draftsman.",
+"motivo": "Zeichner ≠ painter"
+},
+"4046013": {
+"orig": "Have you seen Tom since he's shaved his head?",
+"nova": "Have you seen Tom since he shaved his head?",
+"motivo": "tempo verbal"
+},
+"4048966": {
+"orig": "Tom and Mary spent a week relaxing on a houseboat.",
+"nova": "Tom and Mary spent a weekend relaxing on a houseboat.",
+"motivo": "Wochenende = weekend"
+},
+"4051619": {
+"orig": "The suspect was last seen wearing blue jeans and an orange sweatshirt.",
+"nova": "The suspect was last seen wearing blue jeans and an orange sweater.",
+"motivo": "Pullover = sweater"
+},
+"4089801": {
+"orig": "The room is in immaculate order.",
+"nova": "The room is in immaculate condition.",
+"motivo": "colocação: immaculate condition"
+},
+"4134710": {
+"orig": "I'm still not used to getting up so early.",
+"nova": "I'm not used to getting up so early.",
+"motivo": "'still' acrescentado"
+},
+"4176568": {
+"orig": "Rubies are one of most beautiful gems in the world.",
+"nova": "Rubies are among the most beautiful gems in the world.",
+"motivo": "erro gramatical (falta 'the')"
+},
+"4201131": {
+"orig": "I'll lend you my textbook if you promise not to write anything in it.",
+"nova": "I'll lend you my book if you promise not to write anything in it.",
+"motivo": "Buch = book, não textbook"
+},
+"4209720": {
+"orig": "Tom used to have a penpal in Australia that he wrote to several times a month.",
+"nova": "Tom used to have a pen pal in Australia who wrote to him several times a month.",
+"motivo": "direção invertida: o amigo escrevia para Tom"
+},
+"4398441": {
+"orig": "That's the logical thing to do.",
+"nova": "That's the most logical course of action.",
+"motivo": "superlativo omitido"
+},
+"4461947": {
+"orig": "I've learned from the best.",
+"nova": "I had a good teacher.",
+"motivo": "tradução livre demais"
+},
+"4485967": {
+"orig": "I don't like bad children.",
+"nova": "I don't like badly behaved children.",
+"motivo": "ungezogen = mal-educado, não 'bad'"
+},
+"4661911": {
+"orig": "I can't think of anything more depressing than that.",
+"nova": "I can't think of anything sadder than that.",
+"motivo": "traurig = sad, não depressing"
+},
+"4672247": {
+"orig": "I hate being a boss.",
+"nova": "I hate pulling rank.",
+"motivo": "sentido errado: 'den Chef raushängen lassen' = agir como chefe"
+},
+"4672254": {
+"orig": "It's a stupid policy.",
+"nova": "It's a stupid rule.",
+"motivo": "Regel = rule"
+},
+"4693239": {
+"orig": "Tom was attacked by a rabid squirrel on Halloween day.",
+"nova": "Tom was attacked by a rabid squirrel on Halloween.",
+"motivo": "'Halloween day' não natural"
+},
+"4720367": {
+"orig": "We aided him in his business.",
+"nova": "We supported him in his cause.",
+"motivo": "Sache = causa, não business"
+},
+"4814978": {
+"orig": "Let's hope that common sense prevails.",
+"nova": "Let's hope that reason prevails.",
+"motivo": "Vernunft = reason"
+},
+"4816288": {
+"orig": "This is the most comfortable chair I've ever sat in.",
+"nova": "This is the most comfortable armchair I've ever sat in.",
+"motivo": "Fauteuil = armchair"
+},
+"4842438": {
+"orig": "Luckily, the computer hasn't crashed.",
+"nova": "Luckily, the computer isn't crashing.",
+"motivo": "tempo verbal: presente"
+},
+"4844853": {
+"orig": "I put the ladder against the wall.",
+"nova": "I leaned the ladder against the wall.",
+"motivo": "lehnen = lean"
+},
+"4878091": {
+"orig": "Tom tried to make amends by giving back all the money he had stolen.",
+"nova": "Tom tried to make amends by giving back the money he had stolen.",
+"motivo": "'all' acrescentado"
+},
+"4891632": {
+"orig": "Tom doesn't struggle like this.",
+"nova": "Tom doesn't slave away like that.",
+"motivo": "sentido: sich abrackern = matar-se de trabalhar"
+},
+"4948833": {
+"orig": "Where did you find that dress?",
+"nova": "Where did you get that costume?",
+"motivo": "Verkleidung = fantasia/disfarce, não dress"
+},
+"4962471": {
+"orig": "Some countries refuse to take refugees.",
+"nova": "Some countries refuse to take in war refugees.",
+"motivo": "omitiu 'war' (Kriegsflüchtlinge)"
+},
+"5064141": {
+"orig": "Tom can't move very fast.",
+"nova": "Tom is really clumsy.",
+"motivo": "Bewegungslegastheniker = desajeitado"
+},
+"5064278": {
+"orig": "It'll make sense when you're older.",
+"nova": "It'll make sense to you in time.",
+"motivo": "'when you're older' não está no alemão"
+},
+"5078892": {
+"orig": "I don't like meat. I prefer a vegetarian diet.",
+"nova": "I don't like meat. I prefer a plant-based diet.",
+"motivo": "pflanzlich = plant-based"
+},
+"5084364": {
+"orig": "The ticket you've bought isn't valid during peak-time travel.",
+"nova": "The ticket you bought isn't valid during rush hour.",
+"motivo": "'peak-time travel' não natural"
+},
+"5089410": {
+"orig": "Mistakes happen.",
+"nova": "Accidents happen.",
+"motivo": "Missgeschick = acidente/contratempo"
+},
+"5094137": {
+"orig": "Tom keeps a rabbit's foot as a good-luck charm.",
+"nova": "Tom carries a rabbit's foot as a good-luck charm.",
+"motivo": "mit sich führen = carregar"
+},
+"5107012": {
+"orig": "Spinets are similar to harpsichords.",
+"nova": "The spinet resembled the harpsichord.",
+"motivo": "tempo/número trocados"
+},
+"5119878": {
+"orig": "A book without preface is like a body without a soul.",
+"nova": "A book without a preface is like a body without a soul.",
+"motivo": "falta artigo"
+},
+"5154552": {
+"orig": "Tom was challenged to a drinking contest.",
+"nova": "He was challenged to a drinking contest.",
+"motivo": "nome trocado: alemão diz 'Er'"
+},
+"5167720": {
+"orig": "I'm a private person.",
+"nova": "I'm a private individual.",
+"motivo": "'private person' em inglês = pessoa reservada"
+},
+"5187484": {
+"orig": "It sounds very plausible.",
+"nova": "That sounds plausible.",
+"motivo": "'very' acrescentado"
+},
+"5221417": {
+"orig": "Tom swore when his expensive smartphone fell into the toilet.",
+"nova": "Tomi swore when his expensive smartphone fell into the toilet.",
+"motivo": "nome: alemão diz 'Tomi'"
+},
+"5243184": {
+"orig": "Tom is a very amazing person.",
+"nova": "Tom is a truly amazing person.",
+"motivo": "'very amazing' não natural"
+},
+"5244338": {
+"orig": "Crude oil has been falling in price.",
+"nova": "The price of crude oil has fallen.",
+"motivo": "tempo/aspecto: 'ist gefallen'"
+},
+"5244416": {
+"orig": "We'll make a sailor out of you yet.",
+"nova": "You'll be a real sailor yet.",
+"motivo": "sujeito trocado"
+},
+"5263209": {
+"orig": "Does this mean that we have to file bankruptcy?",
+"nova": "Does this mean that we have to file for bankruptcy?",
+"motivo": "falta 'for'"
+},
+"5299474": {
+"orig": "Tom was mauled to death by a bear.",
+"nova": "Tom was mauled by a bear.",
+"motivo": "'to death' não está no alemão"
+},
+"5302169": {
+"orig": "That's a depressing thought.",
+"nova": "That's an unsettling thought.",
+"motivo": "beklemmend = inquietante"
+},
+"5304674": {
+"orig": "Are you a secretive person?",
+"nova": "Are you a discreet person?",
+"motivo": "verschwiegen = discreto"
+},
+"5316086": {
+"orig": "The only flavor ice cream that Tom eats is vanilla.",
+"nova": "The only flavor of ice cream that Tom likes is vanilla.",
+"motivo": "inglês agramatical; mag = likes"
+},
+"5321432": {
+"orig": "Tom is not a lazy boy. As a matter of fact, he works hard.",
+"nova": "Tom is no slacker. In fact, he works really hard.",
+"motivo": "'boy' acrescentado"
+},
+"5325951": {
+"orig": "Engineers are problems solvers.",
+"nova": "Engineers are problem solvers.",
+"motivo": "erro: 'problems solvers'"
+},
+"5337378": {
+"orig": "Tom banged his knees on the glass coffee table.",
+"nova": "Tom banged his knee on the glass coffee table.",
+"motivo": "número: das Knie (singular)"
+},
+"5346426": {
+"orig": "Tom told the taxi driver to turn left.",
+"nova": "Tom asked the taxi driver to turn left.",
+"motivo": "bitten = pedir"
+},
+"5369011": {
+"orig": "Tom is a wonderful young man.",
+"nova": "Tom is a charming young man.",
+"motivo": "reizend = charming"
+},
+"5369054": {
+"orig": "Tom was born in Boston and he grew up in Boston.",
+"nova": "Tom was born in Boston and grew up there too.",
+"motivo": "inglês repetitivo; 'ebendort' = there"
+},
+"5436885": {
+"orig": "Tom has had the toughest luck.",
+"nova": "Tom had really bad luck.",
+"motivo": "tempo trocado; 'toughest luck' não natural"
+},
+"5449303": {
+"orig": "The situation resulted in violence.",
+"nova": "The situation escalated into violence.",
+"motivo": "ausarten = degenerar/escalar"
+},
+"5489475": {
+"orig": "Rainforests should be preserved.",
+"nova": "Rainforests must be protected.",
+"motivo": "müssen = must; schützen = protect"
+},
+"5537773": {
+"orig": "We have the right to bear arms.",
+"nova": "It's our fundamental right to bear arms.",
+"motivo": "omitiu 'Urrecht'"
+},
+"5557274": {
+"orig": "This hill overlooks the city.",
+"nova": "This hill towers over the city.",
+"motivo": "überragen = elevar-se sobre"
+},
+"5561889": {
+"orig": "Tom ate a TV dinner.",
+"nova": "Tom made himself a ready meal.",
+"motivo": "'gemacht' = preparou, não ate"
+},
+"5561910": {
+"orig": "Tom ate a TV dinner.",
+"nova": "Tom made himself a frozen dinner.",
+"motivo": "'gemacht' = preparou, não ate"
+},
+"5621972": {
+"orig": "It told Tom that I was sorry.",
+"nova": "I told Tom that I was sorry.",
+"motivo": "erro de digitação 'It'"
+},
+"5654695": {
+"orig": "I suppose we're just lucky.",
+"nova": "I suppose we're just on a lucky streak.",
+"motivo": "Glückssträhne = maré de sorte"
+},
+"5708464": {
+"orig": "I know you have somewhere else you need to be.",
+"nova": "I know you're needed elsewhere.",
+"motivo": "sentido"
+},
+"5711607": {
+"orig": "Thousands of people died during the plague.",
+"nova": "Thousands of people died of the plague.",
+"motivo": "durch = causa"
+},
+"5745750": {
+"orig": "According to the thermometer, it's about thirty degrees, but it's really humid so it feels much hotter than that.",
+"nova": "According to the thermometer, it's thirty degrees, but it's really humid so it feels much hotter than that.",
+"motivo": "about a mais"
+},
+"5745753": {
+"orig": "The police suspected there was a connection between the abandoned car and the dead body found three miles away.",
+"nova": "The police suspected there was a connection between the abandoned car and the dead body found three kilometers away.",
+"motivo": "km vs miles"
+},
+"5746448": {
+"orig": "There have been a lot of complaints from students about the amount of homework that Mr. Jackson gives.",
+"nova": "There have been a lot of complaints from students about the amount of homework that Mr. Johannsen gives.",
+"motivo": "nome próprio"
+},
+"5746511": {
+"orig": "On Friday evenings, a group of us with spouses working overseas meet at Chuck's Bar and Grill.",
+"nova": "On Friday evenings, a group of us with spouses working overseas meet at Kalle's Pub.",
+"motivo": "nome próprio"
+},
+"5749606": {
+"orig": "Six hundred thousand men were killed or wounded.",
+"nova": "Six hundred thousand people were killed or wounded.",
+"motivo": "Menschen = people"
+},
+"5763508": {
+"orig": "Contact your local police if you have any information on Tom Jackson's whereabouts.",
+"nova": "Contact your local police if you have any information on Tom Johannsen's whereabouts.",
+"motivo": "nome próprio"
+},
+"5763564": {
+"orig": "I think it's highly unlikely that we'll ever get any help from the national government.",
+"nova": "I think it's highly unlikely that we'll ever get any help from the state government.",
+"motivo": "Landesregierung = state"
+},
+"5763575": {
+"orig": "I wish I was smart enough to invent something that sold well enough for me to get rich.",
+"nova": "I wish I were smart enough to invent something that would make me rich.",
+"motivo": "informação a mais"
+},
+"5763609": {
+"orig": "Of all the things Tom did last weekend, he says that windsurfing was the most fun.",
+"nova": "Tom said that of all the things he did last weekend, windsurfing was the most fun.",
+"motivo": "tempo: sagte"
+},
+"5763626": {
+"orig": "The cake is in the oven now and it should be ready to come out in about ten minutes.",
+"nova": "The cake is in the oven now and it should be ready to come out in ten minutes.",
+"motivo": "about a mais"
+},
+"5763630": {
+"orig": "The hour-long concert at the Kennedy Center was broadcast live on TV last night.",
+"nova": "The hour-long concert at the Kennedy Center was broadcast on TV last night.",
+"motivo": "live a mais"
+},
+"5763655": {
+"orig": "Tom began reading that book three weeks ago and he still has only read less than half of it.",
+"nova": "Tom began reading that book three weeks ago and he still hasn't gotten past the halfway point.",
+"motivo": "inglês não natural"
+},
+"5763671": {
+"orig": "Tom clearly hopes that Mary won't notice that he broke one of her expensive teacups.",
+"nova": "Tom fervently hopes that Mary won't notice that he broke one of her expensive teacups.",
+"motivo": "inbrünstig = fervently"
+},
+"5797728": {
+"orig": "Tom ate a sweet lemon for the first time.",
+"nova": "Tom ate a sweet lime for the first time.",
+"motivo": "Limette = lime"
+},
+"5805530": {
+"orig": "My teacher told me that I should have spent more time preparing my presentation.",
+"nova": "My teacher told me that I should have put more effort into preparing my presentation.",
+"motivo": "Mühe = effort"
+},
+"5805622": {
+"orig": "The police officer checked to see if the body lying on the ground had a pulse.",
+"nova": "The police officer checked the pulse of the person lying on the ground.",
+"motivo": "body = cadáver"
+},
+"5805693": {
+"orig": "Tom claims that he can taste the difference between these two brands of salt.",
+"nova": "Tom claims that he can taste the difference between these two kinds of salt.",
+"motivo": "Sorten = kinds"
+},
+"5805792": {
+"orig": "Tom said the reason he broke up with Mary was that she was very possessive.",
+"nova": "Tom said the reason he broke up with Mary was that she was very clingy.",
+"motivo": "klammern = clingy"
+},
+"5826443": {
+"orig": "Tom certainly wasn't making much noise last night when we passed his house.",
+"nova": "Tom wasn't making much noise last night when we passed his house.",
+"motivo": "certainly a mais"
+},
+"5880061": {
+"orig": "Tom ate a frozen dinner.",
+"nova": "Tom made himself a microwave meal for dinner.",
+"motivo": "sentido"
+},
+"6006608": {
+"orig": "You should have paid more attention in physics class.",
+"nova": "You should have paid attention in physics class.",
+"motivo": "more a mais"
+},
+"6080875": {
+"orig": "Hamburgers aren't made of ham.",
+"nova": "Hamburgers aren't made of ham, as native English speakers might think.",
+"motivo": "informação a menos"
+},
+"6139263": {
+"orig": "Tom called me a scaredy-cat.",
+"nova": "He called me a scaredy-cat.",
+"motivo": "Er = he, não Tom"
+},
+"6142390": {
+"orig": "Tom had a hip replacement surgery.",
+"nova": "Tom had hip surgery.",
+"motivo": "sentido mais específico"
+},
+"6185164": {
+"orig": "The Nile is the largest river in Africa.",
+"nova": "The Nile is the longest river in Africa.",
+"motivo": "längste = longest"
+},
+"6218447": {
+"orig": "Mary wore an eyecatching dress.",
+"nova": "Mary wore an eye-catching dress.",
+"motivo": "ortografia"
+},
+"6374021": {
+"orig": "Tom was hanged for a murder he didn't commit.",
+"nova": "Tom was hanged for a crime he didn't commit.",
+"motivo": "Verbrechen = crime"
+},
+"6381842": {
+"orig": "As the date of the wedding approached, Tom started having second-thoughts.",
+"nova": "As the date of the wedding approached, Tom started having second thoughts.",
+"motivo": "hífen"
+},
+"6392346": {
+"orig": "It's about three inches in diameter.",
+"nova": "It's about eight centimeters in diameter.",
+"motivo": "unidade"
+},
+"6477088": {
+"orig": "Mary and Alice are identical twins.",
+"nova": "Mary and Elke are identical twins.",
+"motivo": "nome próprio"
+},
+"6573712": {
+"orig": "Why do you suspect it was Tom who did that?",
+"nova": "Why do you suspect Tom?",
+"motivo": "informação a mais"
+},
+"6579735": {
+"orig": "God bless you.",
+"nova": "May God protect you.",
+"motivo": "beschützen = protect"
+},
+"6584501": {
+"orig": "In addition to Mary and her new boyfriend, Tom invited three of Mary's ex-boyfriends, without telling her.",
+"nova": "In addition to Mary and her new boyfriend, Tom unwittingly invited three of her ex-boyfriends.",
+"motivo": "unwissentlich = unwittingly"
+},
+"6594723": {
+"orig": "Tom's accent is barely discernable.",
+"nova": "Tom's accent is barely discernible.",
+"motivo": "ortografia"
+},
+"6611455": {
+"orig": "It's a full-time, year-around job.",
+"nova": "It's a full-time, year-round job.",
+"motivo": "ortografia"
+},
+"6615163": {
+"orig": "Tom is doubtful.",
+"nova": "Tom is undecided.",
+"motivo": "unschlüssig = undecided"
+},
+"6615312": {
+"orig": "Tom is unnerved.",
+"nova": "Tom is exasperated.",
+"motivo": "entnervt ≠ unnerved"
+},
+"6618813": {
+"orig": "Tom won't argue.",
+"nova": "Tom won't object.",
+"motivo": "Einwendungen = objections"
+},
+"6619286": {
+"orig": "Tom is insightful.",
+"nova": "Tom is reasonable.",
+"motivo": "falso cognato einsichtig"
+},
+"6619455": {
+"orig": "Tom felt repulsed.",
+"nova": "Tom felt rejected.",
+"motivo": "zurückgestoßen = rejected"
+},
+"6625067": {
+"orig": "What're you doing up?",
+"nova": "What are you preparing?",
+"motivo": "sentido"
+},
+"6625068": {
+"orig": "What're you doing up?",
+"nova": "What are you decorating?",
+"motivo": "sentido"
+},
+"6625571": {
+"orig": "Tom moves quickly.",
+"nova": "Tom acts quickly.",
+"motivo": "agieren = act"
+},
+"6626192": {
+"orig": "You're my woman.",
+"nova": "You're my partner.",
+"motivo": "Partnerin = partner"
+},
+"6641464": {
+"orig": "Don't make me go.",
+"nova": "If you keep this up, I'll have to leave.",
+"motivo": "sentido"
+},
+"6644186": {
+"orig": "I loved the play.",
+"nova": "I loved the show.",
+"motivo": "Vorführung ≠ play"
+},
+"6644254": {
+"orig": "I'm coming for you.",
+"nova": "I'm coming because of you.",
+"motivo": "sentido"
+},
+"6645092": {
+"orig": "He doesn't run.",
+"nova": "He isn't running.",
+"motivo": "kandidieren = run for office"
+},
+"6682188": {
+"orig": "Break it down.",
+"nova": "Spell it out.",
+"motivo": "ausbuchstabieren = spell out"
+},
+"6682580": {
+"orig": "The reasons Tom gave for doing that weren't very good.",
+"nova": "The reasons Tom gave weren't very good.",
+"motivo": "informação a mais"
+},
+"6813952": {
+"orig": "Tom only has one faded photograph of grandfather.",
+"nova": "Tom only has one faded photograph of his grandfather.",
+"motivo": "falta 'his'"
+},
+"6817152": {
+"orig": "The Jacksons have invited us over for dinner tonight.",
+"nova": "The Hansens have invited us over for dinner tonight.",
+"motivo": "nome trocado"
+},
+"6821538": {
+"orig": "Tom is a retired Army colonel.",
+"nova": "Tom is a retired colonel.",
+"motivo": "'Army' não está no alemão"
+},
+"6859476": {
+"orig": "Tom got a ticket for passing on a yellow line.",
+"nova": "Tom got a ticket for crossing a solid line.",
+"motivo": "Sperrlinie = linha contínua, não 'yellow line'"
+},
+"6882461": {
+"orig": "Tom tied his horse to the wooden post.",
+"nova": "Tom tied his horse to a wooden post.",
+"motivo": "artigo indefinido no alemão"
+},
+"6961813": {
+"orig": "Tom asked me to throw the ball back to him.",
+"nova": "Tom wanted me to throw the ball back to him.",
+"motivo": "wollte = wanted, não asked"
+},
+"7010767": {
+"orig": "Tom says he hopes you'll be able to win.",
+"nova": "Tom says he hopes you'll win.",
+"motivo": "'be able to' não está no alemão"
+},
+"7023771": {
+"orig": "Mary and Alice are often mistaken for sisters.",
+"nova": "Mary and Elke are often mistaken for sisters.",
+"motivo": "nome trocado"
+},
+"7027917": {
+"orig": "Tom was taking a selfie on the edge of the volcano when he lost his footing and fell into the crater.",
+"nova": "Tom was about to take a selfie on the edge of the volcano when he lost his footing and fell into the crater.",
+"motivo": "wollte gerade = was about to"
+},
+"3982581": {
+"orig": "Tom looks very tense.",
+"nova": "Tom looks overworked.",
+"motivo": "überanstrengt ≠ tense"
+},
+"1314746": {
+"orig": "Is your dog mean?",
+"nova": "Does your dog bite?",
+"motivo": "bissig = que morde"
+},
+"1365858": {
+"orig": "They're a dime a dozen.",
+"nova": "They're dirt cheap.",
+"motivo": "spottbillig = muito barato"
+},
+"1716656": {
+"orig": "Tom had a hectic week.",
+"nova": "Tom has had a hectic week.",
+"motivo": "tempo verbal"
+},
+"6216132": {
+"orig": "Would like a soda or something?",
+"nova": "Would you like a mineral water or something?",
+"motivo": "falta 'you'; Mineralwasser ≠ soda"
+},
+"6395220": {
+"orig": "It was clear from the outset that the discussion would end again in argument.",
+"nova": "It was clear from the outset that the discussion would end in an argument again.",
+"motivo": "inglês não natural"
+},
+"1000483": {
+"orig": "How can I ever forgive myself?",
+"nova": "I'm terribly sorry!",
+"motivo": "tradução livre demais de 'untröstlich'"
+},
+"2151052": {
+"orig": "Drivers should wear seat belts.",
+"nova": "Drivers must wear seat belts.",
+"motivo": "müssen = must"
+},
+"2167589": {
+"orig": "Is this your briefcase?",
+"nova": "Is this conference folder yours?",
+"motivo": "Konferenzmappe ≠ briefcase"
+},
+"2746776": {
+"orig": "Tom put his shoes on with his shoe horn.",
+"nova": "Tom puts his shoes on with his shoehorn.",
+"motivo": "tempo verbal (presente)"
+},
+"3310622": {
+"orig": "We've been over it three times already.",
+"nova": "We've already gotten through it three times.",
+"motivo": "überstanden ≠ been over"
+},
+"2664105": {
+"orig": "This room heats easily.",
+"nova": "This room warms up quickly.",
+"motivo": "sentido/naturalidade"
+},
+"1674108": {
+"orig": "He went traveling in search of adventure.",
+"nova": "He went traveling because he was adventurous.",
+"motivo": "sentido mais fiel"
+},
+"4987690": {
+"orig": "I know that you all are cowards.",
+"nova": "I know that you're all cowards.",
+"motivo": "inglês mais natural"
+},
+"3390319": {
+"orig": "I like sauerkraut.",
+"nova": "I love sauerkraut.",
+"motivo": "liebe = love"
+},
+"772680": {
+"orig": "The man is mourning after receiving sad news.",
+"nova": "The man has been grieving since he received the sad news.",
+"motivo": "tempo/sentido"
+},
+"6619185": {
+"orig": "Tom is assertive.",
+"nova": "Tom is self-confident.",
+"motivo": "selbstbewusst = self-confident"
+},
+"3971937": {
+"orig": "It has a certain charm.",
+"nova": "He has a certain charm.",
+"motivo": "pessoa (er)"
+},
+"948118": {
+"orig": "I gave my mother carnations on Mother's Day.",
+"nova": "I gave my mother red carnations on Mother's Day.",
+"motivo": "falta 'red'"
+},
+"4878312": {
+"orig": "How is that significant?",
+"nova": "How is that relevant?",
+"motivo": "relevant ≠ significant"
+},
+"5645294": {
+"orig": "Have you ever even seen a firefly?",
+"nova": "Have you ever seen a firefly?",
+"motivo": "'even' a mais"
+},
+"6477085": {
+"orig": "Mary made Alice a new dress.",
+"nova": "Mary sewed Elke a new dress.",
+"motivo": "nome trocado; nähte = sewed"
+},
+"8237767": {
+"orig": "Tom and Mary went on a road trip around Europe.",
+"nova": "Tom and Marie went on a road trip around Europe.",
+"motivo": "nome trocado"
+},
+"5805529": {
+"orig": "I checked and rechecked, so I don't think there are any mistakes on that report.",
+"nova": "I checked the report several times, so I don't think it contains any mistakes.",
+"motivo": "tradução mais fiel e natural"
+},
+"727410": {
+"orig": "I got it through my head that my parent's strict rules were for my own benefit.",
+"nova": "I finally got it through my head that my parents' strict rules were for my own benefit.",
+"motivo": "falta 'finally'; apóstrofo errado"
+},
+"6981145": {
+"orig": "Tom gave Mary a fist bump.",
+"nova": "Tom and Mary bumped fists.",
+"motivo": "sentido: os dois bateram os punhos"
+},
+"2400529": {
+"orig": "How long are you going to keep whimpering about that? You can't change the past.",
+"nova": "How long are you going to keep whining about that? You can't change the past.",
+"motivo": "jammern = whine"
+},
+"1355280": {
+"orig": "I live near the dyke.",
+"nova": "I live near the dike.",
+"motivo": "evitar 'dyke' (ambíguo/ofensivo)"
+},
+"4997671": {
+"orig": "Tom is a graduate student.",
+"nova": "Tom is a doctoral student.",
+"motivo": "Doktorand = doctoral student"
+},
+"4023661": {
+"orig": "Tom was paroled last month.",
+"nova": "Tom was paroled yesterday.",
+"motivo": "gestern = yesterday"
+},
+"5256298": {
+"orig": "Would you like to sit on my knee?",
+"nova": "Would you like to sit on my lap?",
+"motivo": "Schoß = lap"
+},
+"6615322": {
+"orig": "Tom is freaked.",
+"nova": "Tom has freaked out.",
+"motivo": "inglês não natural"
+},
+"11151295": {
+"orig": "Which do you like better, apple cider, or champagne?",
+"nova": "Which do you prefer, cider or champagne?",
+"motivo": "pontuação/naturalidade"
+},
+"5133542": {
+"orig": "What's your favorite junk food?",
+"nova": "What's your favorite kind of fast food?",
+"motivo": "Fastfood ≠ junk food"
+},
+"936359": {
+"orig": "The Titanic sunk on its maiden voyage.",
+"nova": "The Titanic sank on its maiden voyage.",
+"motivo": "pretérito errado: sunk"
+},
+"2843201": {
+"orig": "Don't go off without saying good-by.",
+"nova": "Don't go off without saying goodbye.",
+"motivo": "ortografia: good-by"
+},
+"525047": {
+"orig": "Are you a student of a private high school?",
+"nova": "Do you go to a private school?",
+"motivo": "inglês não natural; 'high' a mais"
+},
+"5763505": {
+"orig": "As Tom and Mary spent time together, they began to get to know each other better.",
+"nova": "The more time Tom and Mary spent together, the better they got to know each other.",
+"motivo": "estrutura je mehr/desto perdida"
+},
+"2152811": {
+"orig": "I thought you always played football on Saturday.",
+"nova": "I thought you always played football on Sundays.",
+"motivo": "sonntags = Sundays"
+},
+"1510896": {
+"orig": "It was just 6 years ago that I visited New Zealand for the first time.",
+"nova": "It's been six years since I first visited New Zealand.",
+"motivo": "tempo e 'just' a mais"
+},
+"696578": {
+"orig": "Can you help me wash these dishes?",
+"nova": "Could you help me wash the dishes?",
+"motivo": "'these' a mais"
+},
+"5805733": {
+"orig": "Tom shouldn't have written his password on the inside cover of his notebook.",
+"nova": "Tom shouldn't have written his password on the inside of his laptop bag.",
+"motivo": "Notebook-Tasche = laptop bag"
+},
+"715105": {
+"orig": "The sudden increase of cars is causing a large number of traffic accidents every day.",
+"nova": "The sudden increase in cars is causing a large number of traffic accidents every day.",
+"motivo": "'increase of' pouco idiomático"
+},
+"6765970": {
+"orig": "Tom needed to be punished for doing that, so his father punished him.",
+"nova": "He needed to be punished for doing that, so his father punished him.",
+"motivo": "nome Tom não está no alemão"
+},
+"955663": {
+"orig": "Numerous stars were visible in the sky.",
+"nova": "Numerous stars were twinkling in the sky.",
+"motivo": "funkelten = twinkled"
+},
+"3984113": {
+"orig": "Tom's dog cowered under the kitchen table during the storm.",
+"nova": "Tom's dog cowered under the table during the storm.",
+"motivo": "'kitchen' a mais"
+},
+"759273": {
+"orig": "Mary wants to paint her car bright blue.",
+"nova": "Mary wants to paint her car light blue.",
+"motivo": "hellblau = light blue"
+},
+"2185942": {
+"orig": "You can't make an omelette without breaking eggs.",
+"nova": "You can't make pancakes without breaking a few eggs.",
+"motivo": "Eierkuchen = pancake, não omelette"
+},
+"792716": {
+"orig": "As far as the eye could reach, there was no sign of life.",
+"nova": "As far as the eye could see, there was no sign of life.",
+"motivo": "'eye could reach' não idiomático"
+},
+"797926": {
+"orig": "Puns are hard to translate.",
+"nova": "Puns can only very rarely be translated.",
+"motivo": "sentido diferente"
+},
+"3087381": {
+"orig": "Tom put a bunch of letters on Mary's desk.",
+"nova": "Tom put a stack of letters on Mary's desk.",
+"motivo": "Stapel = stack"
+},
+"1019577": {
+"orig": "Is there any salad oil in the bottle?",
+"nova": "Is there any salad oil left in the bottle?",
+"motivo": "'noch' omitido"
+},
+"874709": {
+"orig": "Will you take a personal check?",
+"nova": "Do you accept checks?",
+"motivo": "Barscheck não é 'personal check'"
+},
+"907831": {
+"orig": "Can't you see a stapler somewhere around there?",
+"nova": "Do you see a stapler anywhere around here?",
+"motivo": "negação inexistente"
+},
+"925015": {
+"orig": "I think the soup needs a bit of salt.",
+"nova": "I think the soup needs a pinch of salt.",
+"motivo": "Prise = pinch"
+},
+"949692": {
+"orig": "Your ideas are quite old fashioned.",
+"nova": "Your ideas are a bit old-fashioned.",
+"motivo": "ein bisschen = a bit"
+},
+"949694": {
+"orig": "The plan calls for a lot of money.",
+"nova": "The project is eating up a lot of money.",
+"motivo": "sentido diferente"
+},
+"955965": {
+"orig": "I suggested that we bring the meeting to an end.",
+"nova": "I suggested that we should slowly start bringing the meeting to an end.",
+"motivo": "'so langsam' omitido"
+},
+"957593": {
+"orig": "He always speaks of the government with contempt.",
+"nova": "He's always complaining about the government.",
+"motivo": "schimpfen auf = reclamar de"
+},
+"981882": {
+"orig": "The Union soldiers fought fiercely.",
+"nova": "The Union soldiers fought passionately.",
+"motivo": "leidenschaftlich = passionately"
+},
+"1049911": {
+"orig": "The stars are shining in the sky.",
+"nova": "The stars are twinkling in the sky.",
+"motivo": "funkeln = twinkle"
+},
+"5320676": {
+"orig": "I'm tired of pretending.",
+"nova": "I've had enough of this hypocrisy.",
+"motivo": "Heuchelei = hypocrisy"
+},
+"1355440": {
+"orig": "No one knows what the outcome will be.",
+"nova": "No one can foresee the outcome.",
+"motivo": "sentido: vorhersehen = foresee"
+},
+"3440128": {
+"orig": "Tom is double-jointed.",
+"nova": "Tom is very flexible.",
+"motivo": "gelenkig ≠ double-jointed"
+},
+"1599666": {
+"orig": "He was looking forward to spending the weekend with her in their little cottage in Somerset.",
+"nova": "He was looking forward to spending the weekend with her in their country house in Somerset.",
+"motivo": "'little' a mais; Landhaus"
+},
+"1628054": {
+"orig": "Do you like to exercise alone or with a class?",
+"nova": "Do you prefer to exercise alone or in a group?",
+"motivo": "Gruppe ≠ class; lieber = prefer"
+},
+"3032596": {
+"orig": "Mary batted her eyelashes at Tom.",
+"nova": "Mary winked at Tom.",
+"motivo": "zuzwinkern = wink"
+},
+"1625770": {
+"orig": "The cherry blossoms are at their best now.",
+"nova": "Now is the best time to admire the cherry blossoms.",
+"motivo": "tradução não fiel"
+},
+"5325639": {
+"orig": "Tom deposited 1,000 dollars in his saving account.",
+"nova": "Tom deposited 1,000 dollars in his savings account.",
+"motivo": "'saving' -> 'savings'"
+},
+"1704313": {
+"orig": "Each year, twenty-seven million acres of the tropical rainforests are destroyed.",
+"nova": "Each year, ten million hectares of tropical rainforest are destroyed.",
+"motivo": "número/unidade diferentes"
+},
+"2580785": {
+"orig": "It's cruel to put a live lobster into a pot of boiling water.",
+"nova": "It's cruel to throw a live lobster into a pot of boiling water.",
+"motivo": "werfen = throw"
+},
+"1735160": {
+"orig": "I can't remember how to go there.",
+"nova": "I can't remember how to get there anymore.",
+"motivo": "'go there' não idiomático"
+},
+"1817020": {
+"orig": "Toudaiji is the bigger of the two temples.",
+"nova": "Todai-ji is the bigger of the two temples.",
+"motivo": "grafia do nome"
+},
+"6162710": {
+"orig": "Tom woke up in the middle of the night and ate an entire bag of cookies.",
+"nova": "Tom got up in the middle of the night and ate an entire bag of cookies.",
+"motivo": "aufstehen = get up"
+},
+"2344887": {
+"orig": "A valise of this size is very handy.",
+"nova": "A travel bag of this size is very handy.",
+"motivo": "'valise' arcaico"
+},
+"1893415": {
+"orig": "Tom has accumulated a lot of junk since he's moved into this house.",
+"nova": "Tom has accumulated a lot of junk since he moved into this house.",
+"motivo": "tempo verbal em inglês"
+},
+"1907176": {
+"orig": "It was never our intention to overcharge you.",
+"nova": "It was never our intention to overwhelm you.",
+"motivo": "überfordern ≠ overcharge"
+},
+"1923947": {
+"orig": "Tom asked Mary to help him reformat the hard disk.",
+"nova": "Tom asked Mary to help him reformat his hard drive.",
+"motivo": "'seiner' = his"
+},
+"1924038": {
+"orig": "The middle aged man was charged with assault.",
+"nova": "The middle-aged man was charged with assault.",
+"motivo": "hífen em middle-aged"
+},
+"3937849": {
+"orig": "Tom is a college drop out.",
+"nova": "Tom is a school dropout.",
+"motivo": "Schulabbrecher ≠ college dropout"
+},
+"1952441": {
+"orig": "I can't just leave Tom there.",
+"nova": "We can't just leave Tom there.",
+"motivo": "pessoa: wir = we"
+},
+"3078447": {
+"orig": "Tom is just sitting on the porch, doing nothing.",
+"nova": "Thomas is just sitting on the porch, doing nothing.",
+"motivo": "nome do alemão: Thomas"
+},
+"1973790": {
+"orig": "I can't take you anywhere.",
+"nova": "I can't take you everywhere.",
+"motivo": "überallhin = everywhere"
+},
+"2072015": {
+"orig": "I'll need to download it.",
+"nova": "I'll probably have to download it.",
+"motivo": "falta 'wohl'"
+},
+"2125010": {
+"orig": "According to a recent study, the average life span of the Japanese is still increasing.",
+"nova": "According to recent studies, the average life expectancy of the Japanese is steadily increasing.",
+"motivo": "plural/beständig"
+},
+"2143652": {
+"orig": "The girl is skillful with her fingers.",
+"nova": "The girl is nimble with her fingers.",
+"motivo": "flink = nimble"
+},
+"2202281": {
+"orig": "What a gorgeous sunset! Let's hang around for a couple of minutes and watch it.",
+"nova": "What a gorgeous sunset! Let's stay here a while and watch it.",
+"motivo": "eine Weile ≠ a couple of minutes"
+},
+"2230530": {
+"orig": "Tom doesn't like being around children because he's always afraid of catching a cold from one of them.",
+"nova": "Tom doesn't like being around children because he's afraid he might catch a cold from them.",
+"motivo": "'always' a mais"
+},
+"2233795": {
+"orig": "Mary always has to put her two cents worth in.",
+"nova": "Mary always has to put in her two cents' worth.",
+"motivo": "apóstrofo"
+},
+"2244274": {
+"orig": "I bought a scarf for my grandfather on my father's side for his 88th birthday.",
+"nova": "I gave my paternal grandfather a scarf for his eighty-eighth birthday.",
+"motivo": "geschenkt = gave"
+},
+"2344908": {
+"orig": "I have to set my watch back. It's very fast.",
+"nova": "I have to set my watch back. It's fast.",
+"motivo": "zu schnell ≠ very fast"
+},
+"6952992": {
+"orig": "I spent the whole day cleaning my house.",
+"nova": "I spent the whole day cleaning.",
+"motivo": "'my house' a mais"
+},
+"2363107": {
+"orig": "The red belt makes her black dress look even better.",
+"nova": "The red belt makes her red dress look even better.",
+"motivo": "rotes Kleid = red dress"
+},
+"5763691": {
+"orig": "Tom didn't want to waste any more time calculating how much time had been wasted.",
+"nova": "Tom didn't want to waste any more time thinking about the time that had already been wasted.",
+"motivo": "'calculating' não está no alemão"
+},
+"2491634": {
+"orig": "Tom wondered how long it would take Mary to realize John wouldn't be coming back.",
+"nova": "Tom wonders how long it would take Mary to realize John wouldn't be coming back.",
+"motivo": "tempo: fragt sich = wonders"
+},
+"5051702": {
+"orig": "We have the same destiny.",
+"nova": "The same fate awaits us.",
+"motivo": "blüht = awaits"
+},
+"5805716": {
+"orig": "I never for a moment imagined that I'd be able to meet so many famous people.",
+"nova": "I'd never for a moment have expected to meet so many famous people.",
+"motivo": "'be able to' a mais; modo"
+},
+"2590812": {
+"orig": "Tom and Mary never had trouble finding something to talk about.",
+"nova": "Tom and Mary have never had trouble finding something to talk about.",
+"motivo": "tempo"
+},
+"5746515": {
+"orig": "No one would've remembered Tom if he hadn't painted his name on the ceiling of the classroom.",
+"nova": "No one would still remember Tom if he hadn't painted his name on the ceiling of the classroom.",
+"motivo": "'noch' / tempo"
+},
+"2697147": {
+"orig": "There was a long line at the women's restrooms.",
+"nova": "There was a long line outside the women's restroom.",
+"motivo": "singular"
+},
+"2698396": {
+"orig": "Tom came home all covered in mud.",
+"nova": "Tom came home completely filthy.",
+"motivo": "verdreckt ≠ mud"
+},
+"3129160": {
+"orig": "The door to Tom's room was closed.",
+"nova": "The door to Tom's room was locked.",
+"motivo": "verschlossen = locked"
+},
+"2751194": {
+"orig": "I guess after that many beers Tom is probably very drunk.",
+"nova": "After that many beers, Tom must be dead drunk.",
+"motivo": "bestimmt/stockbetrunken"
+},
+"2814091": {
+"orig": "Is this the first time you've had this symptom?",
+"nova": "Is this the first time you've had these symptoms?",
+"motivo": "plural"
+},
+"2853480": {
+"orig": "Tom sat on the bench and crossed his legs.",
+"nova": "Tom sat down on a bench and crossed his legs.",
+"motivo": "eine Bank = a bench"
+},
+"6787739": {
+"orig": "Tom heard a loud explosion.",
+"nova": "Tom heard a loud bang.",
+"motivo": "Knall = bang"
+},
+"3530489": {
+"orig": "This is a happy occasion.",
+"nova": "This is a lucky coincidence.",
+"motivo": "glückliche Fügung ≠ occasion"
+},
+"3128438": {
+"orig": "My parents told me that we should respect the elderly.",
+"nova": "My parents taught me to respect the elderly.",
+"motivo": "gelehrt = taught"
+},
+"3297360": {
+"orig": "I studied English very hard every day, but I didn't learn a lot.",
+"nova": "I studied a lot of English every day, but I learned almost nothing.",
+"motivo": "fast nichts"
+},
+"3321232": {
+"orig": "He is very clever for a boy of ten.",
+"nova": "He's quite intelligent for a ten-year-old.",
+"motivo": "ziemlich intelligent"
+},
+"3383496": {
+"orig": "That's why we have to stay.",
+"nova": "For this very reason, we have to stay.",
+"motivo": "ebendiesem Grunde"
+},
+"3412237": {
+"orig": "I want Italian dressing on my salad.",
+"nova": "I'd like Italian dressing on my salad.",
+"motivo": "hätte gern = I'd like"
+},
+"3442577": {
+"orig": "Tom Jackson is a very influential man.",
+"nova": "Tom Johannsen is a very influential man.",
+"motivo": "nome trocado"
+},
+"3450210": {
+"orig": "Tom grabbed Mary by the throat and choked her.",
+"nova": "Tom grabbed Mary by the throat and strangled her.",
+"motivo": "erwürgen = strangle"
+},
+"3714031": {
+"orig": "We'd like you to join our company.",
+"nova": "We'd like it if you joined us.",
+"motivo": "'our company' a mais"
+},
+"5868331": {
+"orig": "Do you think it'll be difficult to finish reading this book in a week?",
+"nova": "Do you think it would be difficult to finish reading this book in a week?",
+"motivo": "Konjunktiv II"
+},
+"6821122": {
+"orig": "If Tom does that, it would surprise me.",
+"nova": "It would surprise me if Tom did that.",
+"motivo": "modo/tempo"
+},
+"4089840": {
+"orig": "Tom's right eye is twitching again.",
+"nova": "Tom's right eye started twitching again.",
+"motivo": "tempo: begann"
+},
+"5070803": {
+"orig": "The people toppled the dictator.",
+"nova": "The dictatorship was brought down by the people.",
+"motivo": "Diktatur = dictatorship"
+},
+"5133520": {
+"orig": "That's our number one priority.",
+"nova": "That's the top priority.",
+"motivo": "'our' a mais"
+},
+"5182130": {
+"orig": "You shouldn't make any noise when you eat soup.",
+"nova": "You shouldn't slurp like that when you eat soup.",
+"motivo": "schlürfen = slurp"
+},
+"5251184": {
+"orig": "She bought him a car, but he didn't have a driver's license so he couldn't drive it anywhere.",
+"nova": "She gave him a car, but since he didn't have a driver's license, he couldn't drive it anywhere.",
+"motivo": "geschenkt = gave"
+},
+"5338614": {
+"orig": "Tom left some dirty dishes in the sink­.",
+"nova": "Tom left some dirty dishes in the sink.",
+"motivo": "caractere invisível (soft hyphen) na tradução"
+},
+"5763627": {
+"orig": "The company provides health care and life insurance benefits for all of its employees.",
+"nova": "The company provides health and life insurance benefits for its employees.",
+"motivo": "'all' a mais"
+},
+"5763713": {
+"orig": "Tom pulled out some necklaces from his bag and told Mary to choose the one she liked.",
+"nova": "Tom pulled some necklaces out of his bag and told Mary to choose the one she liked best.",
+"motivo": "am besten"
+},
+"6036503": {
+"orig": "Both of them are very brilliant.",
+"nova": "They're both really brilliant.",
+"motivo": "'very brilliant' não natural"
+},
+"6470081": {
+"orig": "Tom proposed to Mary and she accepted.",
+"nova": "Tom suggested it to Mary, and she accepted.",
+"motivo": "vorgeschlagen ≠ proposed (casamento)"
+},
+"6614990": {
+"orig": "Tom stood rigid.",
+"nova": "Tom stood motionless.",
+"motivo": "unbeweglich = motionless"
+},
+"7004568": {
+"orig": "Texting while driving is very dangerous.",
+"nova": "Texting while driving is dangerous.",
+"motivo": "'very' a mais"
+},
+"6688940": {
+"orig": "I have won.",
+"nova": "I'm the winner.",
+"motivo": "Sieger = winner"
 }
 },
 "remove": [
+249,
 298,
 475,
 857,
+6099,
 440967,
 443952,
 445083,
+448638,
 448683,
+455126,
 457026,
 460097,
 475600,
 477262,
 478095,
+483209,
 496941,
 502051,
 504678,
 504694,
 505966,
+506106,
 509977,
 511228,
 522754,
@@ -24282,11 +29538,18 @@
 541594,
 542226,
 544447,
+548097,
+553803,
 554234,
 569566,
 574085,
 575580,
 579327,
+582999,
+584844,
+588214,
+589841,
+591245,
 593568,
 593569,
 594762,
@@ -24300,41 +29563,63 @@
 603553,
 606008,
 606208,
+607867,
 608476,
+609730,
 612933,
 612948,
 614092,
+618106,
+618687,
+619998,
 621584,
+621839,
+622715,
 623008,
+626769,
+626790,
 635579,
 637041,
 638331,
 638602,
+638704,
+639191,
 639211,
+639937,
 639980,
 640690,
+640918,
 641798,
 642252,
 642254,
 644566,
+645572,
 650223,
 651294,
+651304,
 652040,
+652083,
+652093,
 652365,
+652390,
 652398,
 652459,
 653544,
 654361,
 655089,
 655553,
+655578,
 657113,
 658401,
+659111,
 659656,
 659702,
 659800,
 660547,
 660636,
 661365,
+662329,
+662344,
 662354,
 664534,
 666028,
@@ -24343,8 +29628,10 @@
 669594,
 669890,
 669891,
+669910,
 670802,
 670803,
+675286,
 675876,
 676383,
 677717,
@@ -24352,21 +29639,33 @@
 682716,
 682718,
 682742,
+682769,
+683013,
 684061,
 687238,
+689459,
+692245,
 692249,
 693577,
 693585,
 695955,
+696007,
 696134,
 696286,
 697633,
+700664,
+701340,
 701371,
+701741,
+702013,
 702223,
 702762,
 704588,
 705448,
 705457,
+705988,
+706113,
+707524,
 707551,
 709477,
 709478,
@@ -24375,12 +29674,20 @@
 713169,
 714556,
 715371,
+716190,
+716214,
+716223,
 716285,
 716289,
+718922,
 719480,
+719503,
+719526,
 719975,
+721296,
 721307,
 721322,
+721396,
 721401,
 721403,
 722533,
@@ -24388,6 +29695,8 @@
 723304,
 723704,
 724224,
+724279,
+724938,
 725055,
 725141,
 725550,
@@ -24395,7 +29704,11 @@
 725948,
 725988,
 726033,
+726041,
 726063,
+727035,
+727224,
+727422,
 728254,
 728257,
 728343,
@@ -24405,20 +29718,28 @@
 730644,
 730650,
 730654,
+730997,
 731064,
+731395,
 732008,
 732026,
 732447,
 732562,
 732736,
 733443,
+734542,
 736247,
+737378,
+737972,
+738003,
 738099,
 739355,
 740954,
 741183,
 741244,
+741657,
 742406,
+742429,
 742443,
 743435,
 744378,
@@ -24426,9 +29747,15 @@
 745737,
 745740,
 745742,
+745755,
+746023,
 746676,
 747718,
+747748,
+747756,
 750966,
+751246,
+751774,
 752357,
 753522,
 753647,
@@ -24437,6 +29764,7 @@
 754259,
 754765,
 754871,
+755386,
 755449,
 755955,
 756002,
@@ -24446,48 +29774,76 @@
 756821,
 757128,
 757431,
+757537,
 758234,
+758596,
+759069,
+759237,
 759244,
 759245,
 759246,
 759385,
 759393,
+759410,
 759798,
 761560,
+762197,
 763293,
 763591,
+763596,
+764880,
+764890,
+765113,
 766688,
 767254,
 767275,
 767278,
+767281,
 768972,
 770510,
+772238,
+772245,
 772260,
+772264,
+772273,
 772276,
+772277,
 772615,
 773621,
 773651,
 773926,
 773959,
+774965,
+774977,
 775027,
+775044,
+775150,
+775374,
 777180,
 777776,
 777779,
 778538,
 781007,
 782063,
+782229,
 782418,
 782470,
 783277,
+783387,
 783435,
 783454,
+784291,
+784357,
 785534,
 786526,
 786911,
 788500,
+789374,
+792652,
 792749,
 793675,
 793901,
+795147,
 795721,
 802037,
 802060,
@@ -24505,15 +29861,19 @@
 812545,
 813057,
 814827,
+817843,
 818307,
 820331,
 822667,
 823405,
 824144,
+824169,
 824212,
+824282,
 824596,
 830142,
 830654,
+834154,
 834914,
 837992,
 839004,
@@ -24521,8 +29881,10 @@
 849081,
 860247,
 861185,
+862052,
 863213,
 867571,
+867679,
 871893,
 873942,
 875293,
@@ -24540,8 +29902,11 @@
 919071,
 919072,
 919103,
+923521,
 924922,
+925372,
 928706,
+932023,
 933123,
 933934,
 934054,
@@ -24554,28 +29919,40 @@
 966202,
 967140,
 969177,
+969260,
 971025,
+973775,
 982093,
 982094,
 988025,
+989775,
 1002796,
 1002807,
+1006022,
+1009309,
+1012489,
+1020507,
 1030349,
 1038851,
 1045044,
+1045413,
 1046085,
 1046099,
 1046390,
 1046420,
+1048200,
+1049747,
 1049884,
 1056470,
 1059102,
 1066099,
+1068098,
 1069389,
 1082133,
 1088097,
 1090194,
 1090256,
+1099045,
 1105449,
 1119092,
 1126623,
@@ -24585,16 +29962,22 @@
 1141967,
 1142407,
 1148215,
+1148546,
 1159447,
 1170109,
 1179262,
+1179797,
 1181117,
+1181685,
 1182246,
 1183135,
 1184934,
 1184938,
+1184950,
+1186707,
 1187114,
 1190250,
+1190424,
 1192608,
 1193262,
 1196616,
@@ -24617,33 +30000,57 @@
 1231830,
 1231844,
 1231849,
+1231889,
 1231923,
 1238407,
 1252877,
 1252921,
 1257329,
+1259747,
+1260968,
+1264704,
 1278747,
 1280263,
+1282708,
 1286111,
 1286133,
 1287740,
+1287756,
+1287782,
+1292407,
 1292643,
+1293397,
 1294750,
 1295487,
+1301572,
+1303047,
+1306150,
 1308428,
+1312670,
+1313057,
+1314442,
+1314445,
 1314904,
+1315401,
 1318634,
 1323221,
 1325441,
 1326809,
+1328644,
 1331310,
 1331372,
+1331425,
+1333138,
 1333140,
+1334421,
+1339653,
 1341808,
 1343554,
 1343600,
+1355093,
 1358516,
 1361866,
+1367938,
 1383293,
 1391265,
 1392703,
@@ -24652,17 +30059,23 @@
 1408189,
 1409625,
 1417986,
+1420648,
 1423170,
+1423519,
 1423816,
 1426753,
+1430153,
 1432984,
 1434507,
+1434824,
 1437803,
+1438875,
 1439965,
 1441234,
 1442811,
 1443742,
 1445073,
+1445859,
 1445971,
 1446805,
 1448330,
@@ -24670,31 +30083,56 @@
 1458656,
 1459146,
 1459889,
+1462150,
+1466941,
 1468497,
 1482087,
+1490422,
 1494436,
 1494793,
+1496005,
+1497168,
+1499851,
 1507748,
 1507941,
+1508214,
+1511481,
+1511555,
+1512032,
 1512094,
 1512968,
+1513401,
+1513761,
 1515144,
 1516686,
 1520313,
 1524035,
+1524621,
+1527155,
 1527771,
 1528137,
 1529096,
+1530239,
 1530863,
 1537779,
+1537867,
+1538004,
+1538005,
+1538260,
 1538870,
 1540491,
 1542983,
 1544280,
+1545492,
 1546094,
+1547256,
+1548873,
 1549034,
+1550049,
 1550111,
+1550151,
 1550313,
+1550863,
 1553239,
 1554763,
 1555029,
@@ -24706,17 +30144,24 @@
 1562760,
 1562823,
 1562868,
+1562870,
+1565089,
 1566417,
 1567100,
+1569302,
 1570731,
 1573092,
+1573445,
 1573463,
 1578343,
 1578868,
+1580889,
 1581296,
 1584280,
 1586149,
 1586710,
+1587350,
+1588964,
 1588966,
 1594871,
 1597407,
@@ -24725,151 +30170,271 @@
 1600428,
 1601812,
 1601833,
+1604282,
+1604285,
+1604322,
 1604608,
 1605528,
 1615596,
 1617165,
 1619275,
 1620026,
+1620028,
 1620029,
+1625793,
+1625944,
 1629742,
+1636528,
 1637023,
+1637029,
 1637119,
 1642297,
+1645655,
 1646232,
 1646968,
 1649862,
 1652740,
+1652880,
+1656175,
 1657267,
+1657757,
+1657759,
 1661212,
+1661289,
+1662251,
+1662889,
+1662999,
+1663095,
 1666263,
+1672117,
+1676533,
 1678565,
 1678566,
 1680628,
 1682211,
 1682212,
+1687642,
+1688231,
+1688235,
+1688281,
 1688322,
 1688405,
 1688412,
+1688452,
 1689169,
 1691043,
 1691117,
 1691251,
+1691470,
+1691492,
 1691564,
+1694745,
+1694799,
+1694819,
 1694855,
 1694889,
 1694919,
+1694972,
+1694999,
+1695447,
 1695630,
+1695759,
+1695785,
+1695830,
+1695989,
 1695993,
 1696090,
+1696095,
 1696098,
+1696117,
 1696145,
 1696191,
+1697934,
+1699016,
 1699045,
 1699050,
 1699108,
+1699129,
+1699303,
 1702544,
+1702563,
+1702568,
 1703059,
 1703060,
 1703062,
+1703810,
+1704556,
+1705068,
 1706839,
+1706865,
+1708028,
+1708851,
 1709807,
 1709822,
 1709858,
 1709859,
 1709860,
+1712594,
 1712817,
 1713290,
+1715228,
+1716011,
+1716013,
+1717110,
 1718217,
+1718283,
 1718631,
+1720264,
 1722734,
+1729472,
+1729526,
 1729780,
 1729786,
 1729787,
 1729788,
+1730215,
 1731252,
+1732416,
+1732442,
+1732444,
 1733038,
+1733629,
 1735149,
+1736833,
 1741170,
+1743313,
 1745314,
 1745322,
+1745852,
 1747623,
 1751553,
 1752564,
 1759468,
 1762860,
+1763878,
+1764121,
 1765480,
 1765786,
 1765787,
 1767689,
+1768612,
+1768697,
 1768704,
 1768839,
 1772981,
+1772984,
+1772985,
+1772987,
+1772988,
+1772991,
+1772994,
+1772995,
+1772996,
+1773380,
 1775266,
+1775412,
 1775445,
 1779987,
+1783734,
+1784165,
 1787491,
+1787636,
+1789930,
 1789936,
 1789980,
 1790590,
+1790602,
+1790693,
 1790789,
+1793870,
+1793873,
 1794481,
 1795660,
 1798255,
+1798295,
+1800014,
 1800083,
+1800536,
+1800754,
+1804748,
+1805249,
 1806591,
 1806646,
 1811221,
 1811915,
+1811938,
 1812011,
+1812124,
 1813461,
+1813489,
+1813521,
+1813677,
 1815082,
+1816704,
 1817389,
 1818308,
 1819198,
 1819229,
 1819959,
+1820063,
 1822010,
 1822910,
 1824037,
 1824626,
 1825737,
 1826889,
+1827031,
+1830713,
 1830999,
 1832377,
 1832994,
+1833392,
 1833715,
 1834378,
 1834535,
 1837200,
 1839290,
 1840349,
+1841922,
 1841924,
 1842034,
+1842113,
+1842301,
 1843955,
+1844043,
 1844107,
+1844303,
 1846534,
+1846679,
 1847117,
 1847509,
 1847982,
 1848463,
 1848659,
+1848806,
 1849148,
+1851587,
 1851642,
 1851643,
 1851653,
+1851681,
+1853897,
 1854326,
 1855810,
 1855857,
 1856407,
 1862614,
+1862685,
 1862695,
+1862717,
 1863285,
 1863474,
 1863692,
 1864949,
 1865813,
 1866331,
+1866637,
+1867088,
 1869015,
 1869968,
 1870823,
@@ -24877,41 +30442,70 @@
 1872606,
 1872888,
 1872945,
+1873599,
 1874094,
+1874439,
 1875374,
+1875446,
 1878024,
+1881069,
+1881256,
 1881317,
+1881506,
+1882232,
 1883188,
+1883712,
 1885243,
+1885276,
 1885279,
 1885280,
+1888487,
+1888514,
 1888593,
 1891455,
 1892421,
 1892427,
 1892468,
+1893402,
 1893551,
 1893573,
 1893580,
+1893941,
 1893942,
 1894048,
+1895095,
 1898615,
+1898747,
 1898786,
 1898813,
+1898814,
+1900431,
 1900432,
+1902243,
+1902284,
 1902318,
+1902339,
 1902382,
 1903366,
+1904336,
+1904347,
 1905090,
+1905161,
 1905162,
 1905833,
 1905991,
+1906017,
 1906982,
 1906990,
+1907159,
 1907160,
+1907164,
 1907165,
 1907167,
+1907168,
 1907212,
+1907223,
+1907237,
 1907249,
 1907327,
 1907330,
@@ -24925,20 +30519,31 @@
 1907562,
 1909226,
 1909291,
+1909387,
 1909586,
 1910588,
 1910936,
 1916543,
 1916604,
 1917785,
+1917786,
 1918448,
 1918668,
 1919386,
 1919389,
+1921270,
+1921732,
+1922277,
+1922371,
+1922559,
 1923656,
 1923657,
+1924009,
 1924717,
 1924820,
+1924857,
+1924949,
+1925679,
 1926128,
 1926181,
 1926208,
@@ -24946,74 +30551,133 @@
 1927587,
 1930919,
 1931118,
+1931155,
 1931174,
 1931198,
+1931279,
 1931284,
 1931285,
 1931335,
+1931822,
+1931850,
+1931895,
 1931930,
+1931944,
 1931970,
 1932007,
+1932066,
+1932107,
+1932163,
+1932405,
 1932417,
+1933374,
 1933410,
 1933416,
 1933516,
+1933532,
+1933547,
 1933550,
+1934098,
 1934099,
 1934168,
+1934203,
+1934273,
 1934326,
 1934382,
+1934438,
 1934446,
 1934461,
+1935429,
+1937974,
+1938017,
+1938044,
 1938163,
 1938185,
+1938217,
 1938228,
+1938296,
+1938300,
 1938319,
 1938473,
+1940715,
+1940753,
+1940970,
 1940972,
+1941008,
 1941026,
+1941052,
+1941063,
+1941064,
+1941198,
+1941213,
+1941219,
+1941660,
+1942028,
 1944237,
+1944736,
+1944780,
 1946560,
 1946563,
 1947250,
 1948436,
 1949695,
 1950242,
+1950267,
+1950365,
+1951232,
 1952341,
+1952353,
+1952373,
 1952422,
 1952515,
+1953572,
 1953580,
 1953584,
 1953719,
 1953727,
 1954007,
+1954054,
 1954489,
 1955559,
+1955583,
 1955597,
 1956587,
 1956609,
+1957408,
+1959629,
 1960123,
 1960433,
+1963396,
+1963927,
+1965912,
 1965938,
 1966019,
 1966053,
 1966095,
+1966161,
 1966824,
 1966826,
 1967609,
 1967677,
+1967776,
 1968021,
 1968072,
 1971513,
 1976408,
+1976755,
 1976876,
 1977002,
 1984579,
+1987920,
+1990023,
 1992002,
 1995783,
 2000710,
 2000806,
 2001178,
+2001646,
+2003616,
+2009893,
 2015900,
 2022575,
 2027359,
@@ -25022,28 +30686,47 @@
 2030869,
 2031380,
 2032244,
+2043454,
+2047944,
+2051474,
 2052581,
 2052583,
+2054704,
+2054736,
+2055782,
+2057377,
 2058718,
 2058719,
 2062399,
 2063196,
+2063296,
+2064411,
+2064473,
 2068546,
 2068945,
+2069099,
 2074664,
 2083021,
+2085050,
 2085073,
 2089162,
 2090721,
+2092770,
 2093666,
 2093668,
 2093692,
+2096861,
 2098527,
 2102037,
 2102038,
+2104262,
 2107827,
+2108812,
+2109007,
+2109020,
 2109168,
 2109965,
+2110778,
 2112514,
 2115985,
 2116012,
@@ -25052,6 +30735,7 @@
 2118769,
 2121398,
 2121475,
+2124640,
 2126088,
 2132445,
 2133512,
@@ -25060,34 +30744,54 @@
 2137902,
 2139202,
 2140520,
+2141542,
 2144164,
+2144770,
+2145601,
+2146739,
+2151079,
+2151320,
 2151678,
 2153100,
 2153102,
+2153110,
 2153120,
 2153181,
+2153193,
 2157615,
 2162380,
+2164975,
 2165442,
 2167598,
+2174661,
 2176450,
 2178729,
+2178973,
+2179711,
 2179768,
 2181444,
+2182216,
+2182679,
 2182911,
 2184284,
+2185302,
 2185317,
 2186776,
 2188575,
 2189014,
+2189778,
 2190353,
+2192639,
+2192895,
 2193265,
 2195759,
 2195994,
 2196030,
+2197520,
 2198187,
 2198188,
 2201483,
+2201514,
 2201838,
 2201840,
 2202487,
@@ -25095,42 +30799,62 @@
 2203926,
 2203928,
 2203963,
+2204155,
+2204156,
 2204270,
+2204274,
+2204275,
 2204314,
 2204315,
 2204351,
 2204797,
 2205646,
 2205690,
+2205895,
 2209007,
 2212606,
 2214072,
 2214090,
 2215032,
 2215440,
+2215493,
 2215814,
 2216007,
+2217683,
 2217896,
 2219379,
+2220697,
+2223404,
 2225356,
 2225497,
 2225505,
+2225585,
 2226466,
 2226547,
+2228537,
 2229939,
 2229940,
 2231371,
+2231482,
 2231483,
+2231518,
 2232217,
 2233145,
+2233451,
 2233557,
 2233867,
+2234256,
+2234900,
 2238101,
+2244744,
 2244873,
+2245113,
+2246830,
 2250662,
 2250663,
 2250704,
 2252177,
+2252460,
 2256203,
 2258080,
 2261089,
@@ -25139,51 +30863,93 @@
 2263323,
 2263921,
 2265217,
+2265947,
+2265954,
+2267545,
 2270733,
+2271675,
+2272614,
 2286063,
 2287057,
 2287059,
 2287460,
 2289307,
 2289312,
+2289410,
+2289440,
+2289606,
 2290157,
 2290217,
+2290586,
+2290594,
+2291426,
+2291526,
+2291553,
 2291711,
+2292083,
+2292939,
 2292964,
+2293947,
 2293969,
+2294166,
+2294311,
 2300318,
+2301623,
+2301657,
 2301692,
+2306810,
 2306862,
 2306885,
 2307012,
+2308539,
 2308961,
+2311327,
+2319029,
 2319841,
 2321080,
 2322391,
+2322512,
+2322562,
 2322628,
 2322812,
+2326036,
 2326067,
+2336567,
 2339646,
 2339654,
+2344583,
+2344856,
+2344939,
 2344943,
 2344947,
 2349665,
 2349823,
+2351735,
 2351851,
 2351960,
+2351966,
 2352058,
+2356900,
+2357734,
 2357765,
 2357935,
 2364048,
 2365505,
 2365511,
 2367250,
+2369664,
+2371934,
+2378620,
 2379702,
 2381385,
 2384693,
 2385426,
+2392741,
+2392886,
+2399923,
 2400330,
 2401333,
+2404479,
 2406047,
 2409632,
 2410857,
@@ -25191,41 +30957,59 @@
 2411752,
 2414564,
 2416051,
+2416617,
 2417988,
 2417989,
+2418432,
 2418856,
 2419090,
 2419122,
+2419140,
 2419255,
 2420418,
 2422478,
 2427956,
+2428208,
 2428219,
 2428220,
+2429878,
 2432368,
 2432369,
+2432387,
+2432903,
 2433951,
+2435496,
 2435586,
 2435859,
 2436273,
 2436291,
+2438836,
 2441358,
+2447145,
 2448524,
 2453459,
 2453480,
 2456179,
 2457532,
 2457536,
+2458068,
 2459401,
 2459452,
 2461492,
+2467943,
 2470128,
 2471949,
+2474334,
+2475428,
 2476410,
 2480184,
+2483560,
+2484342,
 2484343,
+2484798,
 2485080,
 2485277,
+2485452,
 2485500,
 2487572,
 2487636,
@@ -25234,62 +31018,118 @@
 2489357,
 2490030,
 2491400,
+2494159,
+2497053,
 2509331,
+2511647,
+2513828,
 2514810,
 2515335,
 2521756,
 2527670,
+2527698,
 2529604,
+2532984,
+2535085,
 2535315,
 2561223,
+2571209,
 2576475,
+2576487,
 2576996,
 2580830,
 2582586,
+2588647,
+2590646,
 2592410,
 2594968,
+2597647,
 2606145,
 2616617,
 2625313,
 2626705,
+2627650,
+2627653,
+2627657,
+2627661,
+2627664,
+2627668,
+2627744,
+2627745,
+2627746,
 2630134,
 2630239,
+2630258,
 2632663,
 2632666,
 2632701,
+2632708,
+2632711,
+2633987,
 2634030,
 2634060,
+2634504,
+2634735,
 2636959,
+2637040,
+2651804,
 2655809,
 2656512,
+2656593,
 2656661,
 2658872,
 2658932,
 2659900,
 2667763,
 2673244,
+2674723,
 2679193,
+2683093,
 2683503,
 2684592,
 2688490,
+2700072,
+2701395,
 2702892,
 2707917,
+2710505,
 2711837,
+2714570,
 2716702,
+2717155,
 2717261,
+2717574,
+2718778,
 2720075,
+2724980,
+2725176,
 2726987,
 2727862,
+2728002,
+2729084,
+2732345,
+2734540,
+2734542,
+2734547,
 2735790,
+2735792,
 2736997,
+2737292,
+2739310,
 2739369,
 2739396,
 2739431,
+2739445,
+2745894,
 2746056,
+2746389,
+2747899,
 2747912,
 2748535,
 2748577,
 2750342,
+2750347,
+2750458,
 2750560,
 2752091,
 2752092,
@@ -25297,24 +31137,45 @@
 2752156,
 2752208,
 2752355,
+2754118,
+2754184,
+2754193,
 2754206,
 2754294,
 2754359,
+2755665,
+2755887,
+2757881,
+2757892,
 2757929,
 2757958,
+2764050,
 2765141,
 2765768,
 2765983,
+2766010,
+2766525,
 2766598,
 2766612,
+2766640,
 2767779,
+2767803,
 2767824,
 2767828,
+2767950,
+2768362,
 2768400,
+2768672,
 2768780,
 2769151,
+2769339,
+2770224,
+2770239,
 2770757,
 2770882,
+2770898,
+2770903,
+2770990,
 2771832,
 2773950,
 2774379,
@@ -25323,17 +31184,24 @@
 2779057,
 2779101,
 2779549,
+2782645,
+2788408,
 2790175,
 2790207,
+2790298,
 2790392,
 2792797,
 2793481,
 2793488,
 2794546,
 2798414,
+2802074,
+2808348,
 2810505,
 2810541,
 2820221,
+2824312,
+2825949,
 2827023,
 2827187,
 2829684,
@@ -25341,41 +31209,69 @@
 2831626,
 2837267,
 2839000,
+2839884,
+2841391,
 2853458,
+2853649,
 2853913,
+2854576,
+2854642,
+2858621,
 2862570,
 2863814,
+2869956,
 2874162,
 2876609,
 2878972,
 2882681,
 2883504,
+2884579,
 2886163,
 2886480,
 2886800,
+2887018,
+2887317,
 2887331,
+2888146,
 2890588,
 2893050,
 2895307,
+2897178,
+2907723,
 2908344,
+2909123,
 2911390,
 2911896,
 2915021,
 2916429,
 2919295,
 2924733,
+2927034,
 2931745,
 2931868,
+2932320,
+2932483,
+2932504,
+2935531,
 2935559,
 2938883,
+2938884,
 2945322,
 2954088,
 2954241,
+2966324,
 2966554,
+2966998,
+2967241,
+2967243,
+2968230,
 2968242,
 2970869,
+2973640,
 2976244,
 2976549,
+2976586,
+2977538,
 2978629,
 2979000,
 2981270,
@@ -25384,124 +31280,212 @@
 2986769,
 2990160,
 2991139,
+2991434,
 2993788,
 2994771,
+2994830,
+2994870,
 2996910,
 2997027,
 2999721,
+3005331,
 3008425,
+3009890,
 3010278,
+3016526,
 3016921,
 3017287,
 3017973,
+3026171,
+3026426,
+3026721,
 3026729,
 3030263,
+3031260,
+3032094,
 3032146,
 3033046,
 3034122,
+3034151,
 3034507,
+3040207,
 3040671,
 3040672,
 3042104,
 3044723,
+3046066,
+3061169,
+3062551,
+3064351,
+3068704,
+3068930,
+3074476,
 3074970,
+3075126,
 3075129,
+3077027,
+3082310,
+3082385,
 3082689,
 3082749,
 3084497,
+3086219,
 3086542,
+3086639,
 3092147,
 3096859,
+3097798,
+3102059,
 3102087,
 3102620,
 3103527,
 3103546,
+3103870,
+3103964,
 3104105,
 3104190,
 3104424,
+3106428,
+3106583,
 3106649,
+3106664,
+3106676,
 3106736,
 3109335,
 3109702,
 3109717,
+3110779,
 3110916,
 3115771,
 3116164,
 3117932,
+3120811,
 3120907,
+3120947,
 3121298,
 3122700,
 3122718,
 3129141,
+3129356,
 3134003,
 3135800,
+3136363,
 3136966,
 3141842,
 3142457,
+3144004,
 3145002,
 3145003,
 3145004,
 3145044,
 3150219,
+3153643,
+3155218,
 3155289,
+3155530,
 3158026,
 3169897,
+3170907,
 3174227,
+3175401,
 3177603,
 3179324,
 3179329,
 3180908,
+3181414,
+3183642,
+3183643,
+3183774,
 3186413,
 3189292,
+3191739,
 3201462,
 3202916,
 3207224,
 3207275,
+3207373,
+3212901,
+3219357,
+3223384,
+3224470,
+3228527,
 3231851,
 3232153,
+3236998,
 3239117,
+3239521,
+3240579,
+3242053,
+3243292,
+3243652,
 3246789,
 3252780,
+3254373,
+3257353,
+3263495,
 3263757,
 3263965,
+3270753,
+3274929,
+3275342,
 3275418,
+3278575,
 3280745,
 3284244,
 3284266,
 3284277,
 3287871,
+3289111,
+3290631,
+3292627,
 3292711,
 3294187,
 3298384,
+3304082,
 3304095,
+3304102,
 3304107,
 3307939,
 3316335,
+3317688,
 3320777,
 3321234,
 3321538,
 3321593,
 3322128,
+3324571,
 3326954,
 3327217,
 3327219,
 3331182,
+3332764,
 3337587,
 3343940,
 3344127,
 3345423,
 3345424,
+3351753,
 3353799,
 3362573,
+3367088,
 3367775,
+3373089,
+3373588,
 3374013,
 3376033,
 3383355,
+3383389,
 3383472,
 3383477,
 3384162,
+3385581,
+3385830,
+3386005,
 3399769,
 3402869,
+3403810,
+3403833,
+3403834,
 3403835,
 3403917,
 3404209,
@@ -25510,27 +31494,39 @@
 3404239,
 3405781,
 3405782,
+3405783,
 3405954,
 3405974,
+3405981,
+3406002,
+3406014,
 3406109,
 3407550,
 3407565,
 3407566,
 3407567,
+3407571,
+3410539,
 3411635,
 3411707,
+3411730,
+3411785,
 3412066,
 3412143,
 3412184,
+3412235,
 3412252,
 3414774,
 3421045,
+3421316,
 3421323,
 3421326,
 3421327,
 3421329,
 3421330,
 3421331,
+3422582,
+3425312,
 3425811,
 3428835,
 3429193,
@@ -25538,15 +31534,27 @@
 3430729,
 3431735,
 3433918,
+3437701,
 3438328,
 3438721,
 3440474,
+3441130,
 3445114,
 3453736,
 3454507,
+3455839,
+3460347,
+3463188,
 3465660,
+3466187,
 3467730,
+3467883,
+3468023,
+3477247,
 3481892,
+3485280,
+3486890,
+3487388,
 3490164,
 3490367,
 3495762,
@@ -25555,22 +31563,33 @@
 3498692,
 3498693,
 3498803,
+3506156,
 3506244,
+3508058,
+3508059,
 3518893,
+3519502,
+3522874,
+3525056,
+3531521,
 3536840,
 3539537,
 3542313,
+3544625,
 3548176,
 3548955,
+3549727,
 3565129,
 3572640,
 3584945,
 3584965,
 3591815,
+3604656,
 3604755,
 3604761,
 3608194,
 3609986,
+3623783,
 3625881,
 3640440,
 3640452,
@@ -25579,22 +31598,31 @@
 3641880,
 3670234,
 3672768,
+3678466,
 3681532,
 3682553,
+3687262,
 3690558,
 3698702,
+3702060,
+3703273,
 3707569,
 3707816,
 3713126,
 3724274,
+3724290,
 3730827,
 3746224,
 3755216,
+3755662,
 3760699,
 3761945,
+3765161,
+3766524,
 3768667,
 3780491,
 3783616,
+3787011,
 3787132,
 3787339,
 3787793,
@@ -25609,6 +31637,7 @@
 3839696,
 3842238,
 3843851,
+3846046,
 3846146,
 3846471,
 3846474,
@@ -25625,9 +31654,12 @@
 3880584,
 3881194,
 3882226,
+3885005,
 3890088,
 3891137,
+3892839,
 3892939,
+3895719,
 3896661,
 3896786,
 3898321,
@@ -25635,22 +31667,42 @@
 3898342,
 3898344,
 3898370,
+3898526,
 3902866,
+3924715,
 3925837,
 3925840,
 3928433,
 3935579,
+3943714,
+3945735,
 3948649,
+3949549,
+3954222,
+3957882,
+3962821,
+3963244,
 3964436,
+3965017,
 3968879,
 3971583,
 3979160,
 3982042,
+3982535,
+3982597,
+3982625,
+3982652,
+3982670,
 3982721,
 3982841,
+3987230,
+3987231,
 3989517,
 3989543,
 3997017,
+3997570,
+3997670,
+4001586,
 4001728,
 4004708,
 4006646,
@@ -25658,8 +31710,10 @@
 4007211,
 4007296,
 4007356,
+4007362,
 4007417,
 4007430,
+4007471,
 4007478,
 4007480,
 4007481,
@@ -25671,36 +31725,57 @@
 4018886,
 4018913,
 4018934,
+4018938,
 4019008,
 4019038,
 4019154,
+4020247,
+4020332,
+4020481,
 4023254,
 4033076,
 4037690,
 4041268,
 4043504,
 4043568,
+4044092,
 4045912,
+4045967,
 4046003,
+4046005,
+4051631,
 4055033,
+4055040,
 4055048,
 4055049,
 4055050,
 4065592,
 4077153,
+4077156,
 4082501,
 4086079,
+4086784,
 4087713,
 4095212,
 4109040,
+4109165,
 4111050,
+4113441,
+4119119,
+4122057,
 4126050,
+4126399,
 4127815,
+4132294,
 4134726,
 4134752,
+4134754,
 4135975,
 4136209,
 4140732,
+4141201,
+4141254,
+4143461,
 4144464,
 4144467,
 4165301,
@@ -25710,8 +31785,13 @@
 4174336,
 4177324,
 4178574,
+4187836,
 4195401,
+4200878,
 4201013,
+4208070,
+4209713,
+4215968,
 4224695,
 4225636,
 4228313,
@@ -25719,6 +31799,8 @@
 4242435,
 4242643,
 4242644,
+4264540,
+4268674,
 4272312,
 4272326,
 4277072,
@@ -25726,25 +31808,43 @@
 4289965,
 4293403,
 4293434,
+4293496,
 4293506,
+4296486,
+4313800,
+4317495,
 4325486,
 4354347,
 4384709,
 4405059,
 4442113,
+4442450,
+4446810,
+4448405,
 4448436,
+4448461,
 4453449,
+4453450,
 4453489,
 4453490,
+4453763,
+4459588,
+4463049,
 4471212,
+4471404,
 4471465,
 4471483,
+4473101,
+4475947,
 4483014,
+4488048,
 4525359,
 4527066,
+4536298,
 4552789,
 4560002,
 4561088,
+4561669,
 4595299,
 4617790,
 4635703,
@@ -25753,44 +31853,66 @@
 4645352,
 4655265,
 4659651,
+4672245,
 4678703,
+4684555,
 4688881,
 4690084,
+4692289,
 4692300,
 4697655,
 4700010,
 4701183,
 4701239,
 4709287,
+4709694,
 4709743,
 4710814,
 4711661,
+4718347,
 4720333,
+4724715,
 4727269,
+4729114,
+4732225,
 4732278,
+4735235,
 4737715,
 4750034,
 4756214,
 4765829,
 4774468,
 4782632,
+4785304,
+4803307,
 4803446,
+4807125,
 4814433,
 4820376,
 4823019,
 4834531,
 4863069,
+4868195,
+4873493,
 4878078,
+4878282,
+4878326,
+4878329,
 4878397,
+4881010,
 4882707,
 4890153,
 4890575,
+4894567,
 4901981,
 4907583,
+4908790,
 4908866,
 4911000,
+4914255,
 4914304,
 4914373,
+4915377,
 4916651,
 4917545,
 4917588,
@@ -25801,8 +31923,10 @@
 4933748,
 4939068,
 4941782,
+4942571,
 4942609,
 4942648,
+4942649,
 4942887,
 4943051,
 4943113,
@@ -25811,29 +31935,46 @@
 4948770,
 4948813,
 4948849,
+4961988,
 4968307,
 4968308,
 4968312,
 4968550,
 4969651,
+4970186,
+4982693,
 5023563,
 5036453,
+5036457,
 5054601,
 5063989,
 5064057,
 5064061,
 5064135,
+5064170,
 5064174,
 5064177,
 5064352,
 5066985,
 5069333,
 5071715,
+5078891,
 5079792,
 5082371,
+5089910,
+5094179,
 5103561,
+5114546,
+5133611,
+5164124,
 5171984,
+5172940,
+5175284,
 5175312,
+5187410,
+5193708,
+5195372,
+5205914,
 5206330,
 5206332,
 5214868,
@@ -25843,9 +31984,11 @@
 5229164,
 5231019,
 5233811,
+5238337,
 5238357,
 5238895,
 5241356,
+5243098,
 5244193,
 5244202,
 5244205,
@@ -25853,83 +31996,135 @@
 5244602,
 5244626,
 5248552,
+5253482,
+5253853,
+5255358,
 5255373,
 5256354,
 5258738,
+5258748,
+5262999,
 5270131,
 5270229,
 5275077,
 5275080,
 5275081,
+5277434,
 5277945,
 5285722,
 5287175,
+5293360,
 5296651,
 5298691,
 5298831,
+5299620,
 5303194,
+5309111,
+5309567,
+5310430,
+5313374,
+5313382,
 5318813,
+5319043,
 5322074,
+5326014,
 5329248,
 5329252,
+5331780,
+5333850,
 5338090,
+5342058,
 5342757,
 5342760,
 5342867,
 5342873,
 5342874,
 5342877,
+5344273,
 5346321,
 5346401,
+5346407,
+5346453,
 5346475,
 5346522,
+5346846,
 5351361,
+5368967,
 5368998,
+5369003,
 5389414,
+5390773,
 5394493,
 5397482,
 5400352,
 5414278,
 5431238,
+5433471,
 5436878,
 5436916,
 5437131,
 5442856,
 5445003,
+5449290,
 5449321,
+5449322,
 5462786,
 5464280,
 5473982,
+5480531,
 5488426,
 5489486,
 5494270,
 5499106,
 5499570,
+5499596,
+5503945,
 5504511,
 5504512,
+5505951,
+5506249,
 5509576,
+5509584,
+5511597,
+5522569,
 5526141,
+5527338,
 5537775,
 5538940,
+5541337,
 5559640,
+5561749,
 5573418,
+5573676,
 5581235,
 5597133,
 5598766,
+5603104,
 5603373,
 5603933,
+5608450,
+5608975,
 5610333,
 5613728,
+5614865,
+5621954,
 5636701,
 5639015,
+5645757,
 5656412,
 5664774,
+5686210,
+5689490,
 5694074,
 5694076,
 5694077,
+5694085,
+5694097,
 5694098,
 5694147,
+5698152,
 5699004,
+5704564,
 5707231,
 5708236,
 5709772,
@@ -25937,30 +32132,73 @@
 5719905,
 5722382,
 5732756,
+5745423,
 5745743,
+5745760,
+5746423,
+5746441,
+5746509,
+5746517,
+5746525,
 5763475,
+5763542,
+5763556,
 5763611,
+5763623,
+5763641,
+5763646,
 5763657,
+5763658,
+5763669,
+5763681,
+5763682,
+5763692,
+5763710,
+5763727,
+5763732,
 5763754,
 5773742,
 5773743,
 5773752,
 5778035,
+5781354,
+5782560,
+5782573,
 5786786,
 5787307,
 5787981,
+5788016,
 5788018,
+5788023,
 5789500,
+5789509,
+5793085,
 5793087,
+5805527,
+5805533,
+5805534,
 5805550,
+5805551,
+5805588,
+5805595,
+5805645,
+5805655,
+5805670,
 5805673,
 5805684,
 5805700,
+5805731,
+5805788,
+5805793,
+5805818,
 5805884,
 5805920,
+5810701,
 5819083,
 5819127,
+5821176,
 5823181,
+5823209,
 5823487,
 5826486,
 5830148,
@@ -25968,6 +32206,7 @@
 5837679,
 5868263,
 5868287,
+5880117,
 5896984,
 5897007,
 5903904,
@@ -25976,7 +32215,9 @@
 5912491,
 5912526,
 5931202,
+5934975,
 5939411,
+5950009,
 5952354,
 5955685,
 5974998,
@@ -25984,11 +32225,18 @@
 5992795,
 5995179,
 5995935,
+6018593,
+6018617,
+6023307,
 6028298,
 6028381,
 6028460,
 6032112,
+6032466,
 6036585,
+6062178,
+6078379,
+6082967,
 6082984,
 6091918,
 6092684,
@@ -25996,6 +32244,8 @@
 6098643,
 6109890,
 6110082,
+6113565,
+6113785,
 6113793,
 6134728,
 6134738,
@@ -26004,30 +32254,44 @@
 6144416,
 6144641,
 6146121,
+6148889,
+6152304,
 6157770,
 6162693,
 6162712,
 6165382,
 6168861,
+6198792,
+6203506,
+6208256,
+6214986,
 6216252,
 6216291,
 6298828,
 6306787,
+6307235,
 6308284,
 6308285,
 6308288,
 6317082,
+6322858,
 6364994,
+6382419,
+6391742,
+6391743,
 6400798,
 6401397,
 6401464,
 6401893,
 6401894,
+6443015,
 6443302,
 6460326,
+6462780,
 6464879,
 6469050,
 6469075,
+6469888,
 6471399,
 6472745,
 6472859,
@@ -26039,8 +32303,13 @@
 6481763,
 6482537,
 6488013,
+6555351,
 6559518,
+6561621,
+6565899,
 6569184,
+6569372,
+6573584,
 6584491,
 6589449,
 6591190,
@@ -26064,12 +32333,20 @@
 6611633,
 6611907,
 6611920,
+6614844,
+6614975,
 6614979,
 6614993,
+6615016,
 6615020,
 6615059,
+6615083,
 6615087,
 6615090,
+6615147,
+6615186,
+6615198,
+6615339,
 6615560,
 6615563,
 6615612,
@@ -26078,23 +32355,31 @@
 6618778,
 6618787,
 6618857,
+6618883,
 6618900,
 6618929,
 6618939,
 6618983,
 6619001,
+6619020,
 6619128,
 6619202,
 6619213,
 6619221,
 6619253,
+6619260,
 6619274,
 6619277,
+6619298,
 6619310,
 6619325,
+6619337,
+6619392,
 6619423,
+6619443,
 6619511,
 6619539,
+6619550,
 6624776,
 6624785,
 6624800,
@@ -26118,11 +32403,13 @@
 6625119,
 6625121,
 6625122,
+6625129,
 6625143,
 6625230,
 6625239,
 6625249,
 6625269,
+6625315,
 6625321,
 6625337,
 6625359,
@@ -26176,6 +32463,8 @@
 6626344,
 6628918,
 6635527,
+6636477,
+6637552,
 6639210,
 6639860,
 6640898,
@@ -26201,15 +32490,19 @@
 6641450,
 6641452,
 6641453,
+6641479,
+6641502,
 6641510,
 6641526,
 6641529,
 6641537,
+6641545,
 6641546,
 6641547,
 6641550,
 6641553,
 6641555,
+6641565,
 6641567,
 6641585,
 6641589,
@@ -26243,13 +32536,16 @@
 6641979,
 6641980,
 6641981,
+6642007,
 6642060,
 6642067,
 6642098,
+6642114,
 6642144,
 6642253,
 6642303,
 6642325,
+6642516,
 6642527,
 6642535,
 6642592,
@@ -26265,7 +32561,9 @@
 6642882,
 6642915,
 6642982,
+6643052,
 6643086,
+6643104,
 6643105,
 6643106,
 6643120,
@@ -26310,6 +32608,7 @@
 6643973,
 6643975,
 6644008,
+6644116,
 6644124,
 6644177,
 6644180,
@@ -26345,6 +32644,7 @@
 6644850,
 6644867,
 6644874,
+6644877,
 6644884,
 6644886,
 6644908,
@@ -26375,6 +32675,7 @@
 6645295,
 6645318,
 6645320,
+6645402,
 6645423,
 6645516,
 6645517,
@@ -26412,11 +32713,15 @@
 6645746,
 6645770,
 6667307,
+6669372,
+6671701,
+6671835,
 6673063,
 6673064,
 6680637,
 6681701,
 6685937,
+6685946,
 6701691,
 6703717,
 6708361,
@@ -26424,27 +32729,47 @@
 6714321,
 6714381,
 6714684,
+6715069,
 6731068,
 6734233,
 6741536,
 6741544,
 6743673,
+6764890,
+6770419,
+6774036,
+6774042,
 6780497,
 6785107,
+6785182,
+6787019,
+6787705,
 6787749,
 6803359,
 6813947,
+6814084,
+6815278,
+6822295,
+6822374,
 6826608,
 6826612,
 6831449,
+6834801,
 6837444,
+6840093,
 6857225,
 6864340,
 6864425,
 6879488,
+6891477,
+6891482,
+6896032,
+6901413,
 6929095,
 6938978,
 6939261,
+6945499,
+6960786,
 6964481,
 6964483,
 6964725,
@@ -26461,90 +32786,151 @@
 6971917,
 6972132,
 6985630,
+6986074,
 6989319,
+6990114,
+7010299,
 7012054,
+7014110,
+7016476,
 7018016,
 7022413,
+7022497,
+7023755,
 7024130,
 7024160,
 7024441,
+7024473,
+7031199,
+7031200,
+7031722,
 7287011,
 7287220,
 7287265,
 7302317,
+7329590,
+7330283,
 7337550,
 7337580,
 7337846,
 7354621,
+7361540,
 7432433,
 7432456,
 7432477,
+7441712,
 7441772,
+7441775,
 7451601,
 7456459,
 7461099,
 7485783,
 7485785,
+7523342,
 7548770,
+7548782,
 7590407,
 7636168,
 7636445,
 7764911,
+7841890,
 7850855,
+7881663,
+7892576,
 7999244,
+8055653,
+8060478,
 8072307,
 8108162,
 8120854,
 8132140,
 8132141,
+8173095,
 8190790,
+8220802,
 8220876,
+8220880,
+8227488,
 8227538,
+8227545,
 8227547,
+8231517,
 8237548,
 8237637,
 8237651,
 8237745,
+8237770,
+8243102,
+8243152,
 8243191,
 8244894,
+8244896,
 8244911,
+8244916,
+8244950,
 8244970,
+8245033,
 8270016,
 8328673,
 8328683,
+8328719,
 8328768,
 8356465,
 8381099,
+8508478,
 8672363,
 8695545,
+8697507,
 9014457,
 10007370,
 10082969,
+10498224,
+10714181,
 11043347,
+11046044,
+11048990,
 11053860,
 11056103,
 11056148,
+11068508,
+11078948,
 11078950,
 11082115,
+11085382,
+11092838,
 11098855,
 11098856,
 11098857,
+11098876,
+11101212,
 11103028,
 11115241,
 11122151,
 11124802,
+11125326,
+11126835,
+11137420,
+11137453,
+11147200,
 11151346,
 11153648,
 11277932,
+11364525,
 12155162,
+12217547,
 12285566,
 12308693,
 12308694,
+12509435,
+12509436,
+12581871,
 12620533,
 12620534,
+12620535,
 12658335,
 12691032,
 12779015,
+13067643,
 13677839
 ]
 }
