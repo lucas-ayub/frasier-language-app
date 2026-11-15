@@ -1,5 +1,5 @@
 {
-"reviewed_upto": 33000,
+"reviewed_upto": 45000,
 "fix": {
 "17707": {
 "orig": "Quero-te.",
@@ -14220,45 +14220,5758 @@
 "orig": "Eu realmente não quero jogar tênis nesta tarde.",
 "nova": "Eu não estou muito a fim de jogar tênis esta tarde.",
 "motivo": "don't really want ≠ realmente não quero"
+},
+"8392234": {
+"orig": "Tom não ficou surpreso que Mary não tinha feito isso.",
+"nova": "Tom não ficou surpreso por Mary não ter feito isso.",
+"motivo": "gramática (modo)"
+},
+"2590912": {
+"orig": "Quero saber o que está acontecendo lá fora.",
+"nova": "Quero saber o que está acontecendo aqui fora.",
+"motivo": "out here = aqui fora"
+},
+"6529359": {
+"orig": "Tom quer melhorar seu francês.",
+"nova": "Tom queria melhorar seu francês.",
+"motivo": "tempo verbal"
+},
+"3150367": {
+"orig": "Tom sabe que precisa de tempo.",
+"nova": "Tom sabe que precisa ganhar tempo.",
+"motivo": "buy time = ganhar tempo"
+},
+"6346735": {
+"orig": "Todos os meus filhos falam Francês.",
+"nova": "Todos os meus filhos falam francês.",
+"motivo": "maiúscula indevida"
+},
+"6273941": {
+"orig": "Eu não estou tão ocupado assim.",
+"nova": "Eu não estou nem um pouco ocupado.",
+"motivo": "sentido: not at all"
+},
+"7514587": {
+"orig": "Eu sabia que o Tom não era tão velho para fazer isso.",
+"nova": "Eu sei que o Tom não é velho demais para fazer isso.",
+"motivo": "tempo verbal/sentido"
+},
+"2545002": {
+"orig": "Pensava que era tarde demais.",
+"nova": "Achei que fosse chegar tarde demais.",
+"motivo": "sentido/tempo"
+},
+"1092690": {
+"orig": "Tom me disse que não podia esperar para sair de lá.",
+"nova": "Tom me disse que não via a hora de sair de lá.",
+"motivo": "couldn't wait = não via a hora"
+},
+"7229687": {
+"orig": "Eu não acho que este é o único que perdi.",
+"nova": "Eu não acho que este seja o que eu perdi.",
+"motivo": "the one ≠ o único"
+},
+"55704": {
+"orig": "Esta é a única coisa que resta.",
+"nova": "Esta é a única coisa que sobrou.",
+"motivo": "tempo verbal"
+},
+"8930075": {
+"orig": "Você não está feliz junto com o Tom?",
+"nova": "Você e o Tom não são felizes juntos?",
+"motivo": "sentido"
+},
+"3181667": {
+"orig": "Tom ainda está conversando com Maria.",
+"nova": "Tom ainda está conversando com Mary.",
+"motivo": "nome trocado"
+},
+"6918978": {
+"orig": "Tom sabia que Maria era professora.",
+"nova": "Tom sabia que Mary era professora.",
+"motivo": "nome trocado"
+},
+"2699004": {
+"orig": "Coma e beba o máximo que você puder.",
+"nova": "Coma e beba o quanto quiser.",
+"motivo": "want ≠ puder"
+},
+"2991954": {
+"orig": "Você realmente pensa que se pode fazer uma coisa dessa?",
+"nova": "Você realmente acha que esse tipo de coisa pode ser feito?",
+"motivo": "gramática/fidelidade"
+},
+"6274879": {
+"orig": "Tom disse que Maria está brava.",
+"nova": "Tom disse que Mary está brava.",
+"motivo": "nome trocado"
+},
+"2396118": {
+"orig": "Eu vi você aqui fora sozinho e pensei que talvez você gostaria de conversar com alguém.",
+"nova": "Eu vi você aqui fora sozinho e pensei que talvez você gostasse de conversar com alguém.",
+"motivo": "modo verbal"
+},
+"887581": {
+"orig": "Ela foi dar um passeio com ele de manhã.",
+"nova": "Ela foi dar um passeio com ele hoje de manhã.",
+"motivo": "faltou this morning"
+},
+"6658264": {
+"orig": "Não sei como falar com crianças.",
+"nova": "Não sei como falar com crianças pequenas.",
+"motivo": "faltou young"
+},
+"3459828": {
+"orig": "O mais importante é não se render.",
+"nova": "O mais importante é não desistir.",
+"motivo": "give up = desistir"
+},
+"2387533": {
+"orig": "Eu preciso de alguém que eu possa confiar.",
+"nova": "Eu preciso de alguém em quem eu possa confiar.",
+"motivo": "regência"
+},
+"8389160": {
+"orig": "Tom nem respondeu a uma das minhas perguntas.",
+"nova": "Tom não respondeu nem a uma das minhas perguntas.",
+"motivo": "sentido ambíguo"
+},
+"7735198": {
+"orig": "Poderia esta ser nossa última chance de fazer aquilo?",
+"nova": "Será que esta é a nossa última chance de fazer isso?",
+"motivo": "tradução artificial"
+},
+"5072010": {
+"orig": "Isso é o que nos realmente precisamos.",
+"nova": "Isso é o que nós realmente precisamos.",
+"motivo": "acentuação (nós)"
+},
+"3737851": {
+"orig": "Você quer ir embora?",
+"nova": "Você quer ir para casa?",
+"motivo": "go home = ir para casa"
+},
+"8406029": {
+"orig": "Eu acho que posso fazer algo desse tipo.",
+"nova": "Eu acho que posso fazer algo a respeito disso.",
+"motivo": "sentido errado"
+},
+"2644989": {
+"orig": "Tom e Maria estão apaixonados.",
+"nova": "Tom e Mary estão apaixonados.",
+"motivo": "nome trocado"
+},
+"6823412": {
+"orig": "Espero que Tom e Maria façam isso por nós.",
+"nova": "Espero que Tom e Mary façam isso por nós.",
+"motivo": "nome trocado"
+},
+"4665845": {
+"orig": "Onde Tom e Maria moram?",
+"nova": "Onde Tom e Mary moram?",
+"motivo": "nome trocado"
+},
+"3161752": {
+"orig": "Tom fez um esforço excepcional para ajudar Mary.",
+"nova": "Tom fez de tudo para me ajudar.",
+"motivo": "me ≠ Mary"
+},
+"8272001": {
+"orig": "Esta é a primeira vez que aconteceu.",
+"nova": "É a primeira vez que isso acontece.",
+"motivo": "faltou sujeito/natural"
+},
+"2542938": {
+"orig": "Eu não tenho certeza no que acreditar.",
+"nova": "Eu não tenho certeza de em que acreditar.",
+"motivo": "regência"
+},
+"2033379": {
+"orig": "Eu não quero parar.",
+"nova": "Na verdade, eu não quero parar.",
+"motivo": "faltou really"
+},
+"8388896": {
+"orig": "Estou com medo que tenho que sair.",
+"nova": "Receio que eu tenha que ir embora.",
+"motivo": "I'm afraid = receio"
+},
+"1886409": {
+"orig": "Você abre a porta para mim?",
+"nova": "Você poderia abrir a porta para mim, por favor?",
+"motivo": "faltou please"
+},
+"3619407": {
+"orig": "Tom não era capaz do que queria fazer.",
+"nova": "Tom não conseguiu fazer o que queria fazer.",
+"motivo": "sentido/gramática"
+},
+"7229685": {
+"orig": "Eu não acho que este é o único que perdi.",
+"nova": "Eu não acho que este seja o que eu perdi.",
+"motivo": "the one ≠ o único"
+},
+"3910167": {
+"orig": "Não os viste, pois não?",
+"nova": "Você não os viu, viu?",
+"motivo": "forma de Portugal"
+},
+"8230011": {
+"orig": "Eu acho que você é bem parecido.",
+"nova": "Eu acho que você é bonito.",
+"motivo": "good-looking = bonito"
+},
+"3726297": {
+"orig": "Eu vou te contar o que eu me lembro.",
+"nova": "Eu vou te contar do que eu me lembro.",
+"motivo": "regência"
+},
+"6170235": {
+"orig": "O Tom deveria ter alguém que faça isso por ele.",
+"nova": "O Tom deveria pedir para alguém fazer isso por ele.",
+"motivo": "sentido/natural"
+},
+"8365600": {
+"orig": "Eu acho que é uma boa ideia mesmo.",
+"nova": "Eu mesmo acho que é uma boa ideia.",
+"motivo": "myself = eu mesmo"
+},
+"2323113": {
+"orig": "Eu não acho que eu sei a resposta.",
+"nova": "Acho que não sei a resposta.",
+"motivo": "gramática"
+},
+"6248253": {
+"orig": "Eu não quero me sentar do lado do Tom.",
+"nova": "Eu não queria me sentar do lado do Tom.",
+"motivo": "tempo verbal"
+},
+"5689337": {
+"orig": "Tom está indo para uma escola em Boston.",
+"nova": "Tom está estudando em uma escola em Boston.",
+"motivo": "sentido: go to school = estudar"
+},
+"4663530": {
+"orig": "Tom realmente não entende como eu me sinto.",
+"nova": "Tom não entende muito bem como eu me sinto.",
+"motivo": "doesn't really ≠ realmente não"
+},
+"2034595": {
+"orig": "Tom queria falar com Maria, mas ele não conseguiu encontrá-la.",
+"nova": "Tom queria falar com Mary, mas ele não conseguiu encontrá-la.",
+"motivo": "nome trocado"
+},
+"1446093": {
+"orig": "Se eu fosse você, ia já para casa.",
+"nova": "Se eu fosse você, iria para casa imediatamente.",
+"motivo": "forma de Portugal"
+},
+"3229744": {
+"orig": "O horário de bate-papo acabou.",
+"nova": "A hora de conversar acabou.",
+"motivo": "sentido/registro"
+},
+"6430250": {
+"orig": "Tom disse para todos que Maria estava lá.",
+"nova": "Tom disse para todos que Mary estava lá.",
+"motivo": "nome trocado"
+},
+"245698": {
+"orig": "Você tem alguns bons livros infantis para ler?",
+"nova": "Você tem algum livro bom para crianças lerem?",
+"motivo": "tradução pouco natural"
+},
+"1316314": {
+"orig": "Ele notificou-me sobre a mudança de planos.",
+"nova": "Ele me contou sobre a mudança no plano.",
+"motivo": "told ≠ notificou; colocação"
+},
+"6237736": {
+"orig": "Parece que o Tom se está a divertir com isso.",
+"nova": "Parece que o Tom está se divertindo fazendo isso.",
+"motivo": "forma de Portugal"
+},
+"6334851": {
+"orig": "Tom não faria isso mesmo se quisesse.",
+"nova": "Tom não teria feito isso mesmo que quisesse.",
+"motivo": "tempo verbal"
+},
+"3142531": {
+"orig": "Porque ninguém vai responder a nenhuma de minhas perguntas?",
+"nova": "Por que ninguém responde a nenhuma das minhas perguntas?",
+"motivo": "ortografia (por que)"
+},
+"6355646": {
+"orig": "Diga isso em francês, por favor,",
+"nova": "Diga isso em francês, por favor.",
+"motivo": "pontuação"
+},
+"4663523": {
+"orig": "Tom já tinha dito a Mary para não fazer aquilo.",
+"nova": "Tom já disse a Mary para não fazer isso.",
+"motivo": "tempo verbal"
+},
+"8276388": {
+"orig": "Eu tenho tudo o que pedi.",
+"nova": "Eu recebi tudo o que pedi.",
+"motivo": "tempo verbal"
+},
+"5448787": {
+"orig": "Estávamos feliz em fazer isso.",
+"nova": "Estávamos felizes em fazer isso.",
+"motivo": "concordância"
+},
+"8276424": {
+"orig": "Quanto em dinheiro você encontrou?",
+"nova": "Quanto dinheiro você encontrou?",
+"motivo": "tradução pouco natural"
+},
+"7737168": {
+"orig": "Tom pediu para Maria parar com isso.",
+"nova": "Tom pediu para Mary parar com isso.",
+"motivo": "nome trocado"
+},
+"6003796": {
+"orig": "Tom contou a Maria coisas que ela já sabia.",
+"nova": "Tom contou a Mary coisas que ela já sabia.",
+"motivo": "nome trocado"
+},
+"7217411": {
+"orig": "Acho que eu estava certo.",
+"nova": "Receio que eu estivesse certo.",
+"motivo": "I'm afraid = receio"
+},
+"2641230": {
+"orig": "Você sente uma queda pela Mary, não é?",
+"nova": "Você tem uma queda pela Mary, não é?",
+"motivo": "expressão errada"
+},
+"3424412": {
+"orig": "Que mais tem o Tom para fazer?",
+"nova": "O que mais o Tom tem que fazer?",
+"motivo": "forma de Portugal"
+},
+"3824492": {
+"orig": "Volte para o lugar que você veio.",
+"nova": "Volte para o lugar de onde você veio.",
+"motivo": "regência"
+},
+"2359331": {
+"orig": "Eu estive esperando anos por isso.",
+"nova": "Faz anos que espero por isso.",
+"motivo": "decalque do inglês"
+},
+"4267446": {
+"orig": "Acho que não deverias estar a fazer isso.",
+"nova": "Acho que você não deveria estar fazendo isso.",
+"motivo": "forma de Portugal"
+},
+"3304945": {
+"orig": "Você não tem idéia do que seja o verdadeiro amor.",
+"nova": "Você não tem ideia do que seja o verdadeiro amor.",
+"motivo": "ortografia (ideia)"
+},
+"252908": {
+"orig": "Eu olho para você como o meu melhor amigo.",
+"nova": "Eu considero você o meu melhor amigo.",
+"motivo": "look on = considerar"
+},
+"2301384": {
+"orig": "Eu posso afirmar que você está zangado.",
+"nova": "Dá para ver que você está zangado.",
+"motivo": "I can tell = dá para ver"
+},
+"6264675": {
+"orig": "O Tom disse que achava que a Mary não se estava a divertir.",
+"nova": "O Tom disse que achava que a Mary não estava se divertindo.",
+"motivo": "forma de Portugal"
+},
+"3826295": {
+"orig": "Tom disse que queria fazer algo que ele nunca tenha feito antes.",
+"nova": "Tom disse que queria fazer algo que ele nunca tinha feito antes.",
+"motivo": "tempo/modo verbal"
+},
+"1830458": {
+"orig": "Tom estava jantando quando Maria chegou.",
+"nova": "Tom estava jantando quando Mary chegou.",
+"motivo": "nome trocado"
+},
+"6238332": {
+"orig": "Eu realmente não quero ir nadar com você.",
+"nova": "Eu não estou muito a fim de ir nadar com você.",
+"motivo": "don't really ≠ realmente não"
+},
+"7356840": {
+"orig": "Talvez a gente podia se encontrar depois da escola.",
+"nova": "Talvez a gente pudesse se encontrar depois da escola.",
+"motivo": "modo verbal"
+},
+"2640567": {
+"orig": "Fiquei surpreso do Tom estar lá de manhã.",
+"nova": "Fiquei surpreso de o Tom estar lá hoje de manhã.",
+"motivo": "faltou this"
+},
+"7176533": {
+"orig": "Tom sabe que Maria está mentindo.",
+"nova": "Tom sabe que Mary está mentindo.",
+"motivo": "nome trocado"
+},
+"2451504": {
+"orig": "Tom não fala muito bem em francês.",
+"nova": "Tom não fala muito francês.",
+"motivo": "sentido"
+},
+"2012188": {
+"orig": "Tom queria que Maria fosse embora.",
+"nova": "Tom queria que Mary fosse embora.",
+"motivo": "nome trocado"
+},
+"5748269": {
+"orig": "Tom ficou feliz por Maria.",
+"nova": "Tom ficou feliz por Mary.",
+"motivo": "nome trocado"
+},
+"6248232": {
+"orig": "Eu não tenho que ajudar mais o Tom.",
+"nova": "Eu não tenho mais que ajudar o Tom.",
+"motivo": "ordem das palavras"
+},
+"6529594": {
+"orig": "O Tom e a Mary ainda não estão juntos?",
+"nova": "O Tom e a Mary não estão mais juntos?",
+"motivo": "sentido (ainda não = not yet)"
+},
+"6345992": {
+"orig": "Você vai aprender a fazer isso a tempo.",
+"nova": "Você vai aprender a fazer isso com o tempo.",
+"motivo": "in time = com o tempo"
+},
+"2030013": {
+"orig": "Eu não queria estar aqui em primeiro lugar.",
+"nova": "Para começar, eu nem queria estar aqui.",
+"motivo": "decalque (in the first place)"
+},
+"5168409": {
+"orig": "Eu desejava saber como dirigisse um carro.",
+"nova": "Eu queria saber dirigir.",
+"motivo": "gramática/sentido"
+},
+"5160530": {
+"orig": "A tua coluna ainda está doendo?",
+"nova": "Suas costas ainda estão doendo?",
+"motivo": "back = costas"
+},
+"2644036": {
+"orig": "Tom e Maria não estão com fome.",
+"nova": "Tom e Mary não estão com fome.",
+"motivo": "nome trocado"
+},
+"6347032": {
+"orig": "Sinto muito por não deixá-lo fazer isso.",
+"nova": "Sinto muito por não ter deixado você fazer isso.",
+"motivo": "tempo verbal"
+},
+"2290385": {
+"orig": "Eu não sabia que você não cantava.",
+"nova": "Eu não sabia que você não sabia cantar.",
+"motivo": "couldn't = não sabia"
+},
+"788994": {
+"orig": "Quando meu irmão era pequeno, eu costumava levá-lo ao parque.",
+"nova": "Quando meu irmão era pequeno, eu o levava com frequência ao parque.",
+"motivo": "faltou often"
+},
+"3826529": {
+"orig": "Tom e Maria estavam aqui quando você chegou?",
+"nova": "Tom e Mary estavam aqui quando você chegou?",
+"motivo": "nome trocado"
+},
+"6118720": {
+"orig": "Eu fiquei surpreso o quão fácil foi fazer aquilo.",
+"nova": "Eu fiquei surpreso com o quão fácil foi fazer aquilo.",
+"motivo": "regência"
+},
+"5531625": {
+"orig": "Nós nunca falamos em Francês em casa.",
+"nova": "Nós nunca falamos francês em casa.",
+"motivo": "maiúscula indevida"
+},
+"6110392": {
+"orig": "Tom vai fazer isso agorinha.",
+"nova": "Tom vai fazer isso agora mesmo.",
+"motivo": "agorinha regional/ambíguo"
+},
+"6345736": {
+"orig": "Eu perguntei ao Tom porque ele não fez isso.",
+"nova": "Eu perguntei ao Tom por que ele não fez isso.",
+"motivo": "por que"
+},
+"257056": {
+"orig": "Adoraria vir com você.",
+"nova": "Adoraria ir com você.",
+"motivo": "come with you = ir com você"
+},
+"2011961": {
+"orig": "Tom queria que Maria ficasse.",
+"nova": "Tom queria que Mary ficasse.",
+"motivo": "nome trocado"
+},
+"2283622": {
+"orig": "Você não teve de sair.",
+"nova": "Você não precisava ter saído.",
+"motivo": "sentido"
+},
+"2360462": {
+"orig": "Tenho de descobrir onde é que o Tomás foi ontem.",
+"nova": "Tenho de descobrir onde o Tom foi ontem.",
+"motivo": "nome trocado"
+},
+"2208422": {
+"orig": "Eu disse para deixar o Tom sozinho.",
+"nova": "Eu disse para deixar o Tom em paz.",
+"motivo": "leave alone = deixar em paz"
+},
+"324574": {
+"orig": "Você deixou a porta aberta ontem à noite?",
+"nova": "Foi você que deixou a porta aberta ontem à noite?",
+"motivo": "ênfase perdida"
+},
+"3732328": {
+"orig": "Tom perguntou à Mary se ela era casada.",
+"nova": "Tom perguntou se Mary era casada.",
+"motivo": "informação a mais"
+},
+"2542448": {
+"orig": "Eu vou te dar.",
+"nova": "Eu vou dá-los a você.",
+"motivo": "objeto omitido"
+},
+"2641940": {
+"orig": "Tom e Maria estão procurando João.",
+"nova": "Tom e Mary estão procurando John.",
+"motivo": "nomes trocados"
+},
+"8355728": {
+"orig": "Tom gosta de seu professor de Francês.",
+"nova": "Tom gosta de seu professor de francês.",
+"motivo": "maiúscula indevida"
+},
+"3822318": {
+"orig": "Não nos importamos com dinheiro.",
+"nova": "Não nos importamos com o dinheiro.",
+"motivo": "artigo omitido"
+},
+"6245498": {
+"orig": "Eu perguntei a Tom porque é que eu não devia fazer isso.",
+"nova": "Eu perguntei a Tom por que eu não devia fazer isso.",
+"motivo": "por que"
+},
+"6123576": {
+"orig": "O Tom precisa encontrar uma outra maneira de fazer isso.",
+"nova": "O Tom precisa encontrar alguma maneira de fazer isso.",
+"motivo": "some way ≠ outra"
+},
+"5744233": {
+"orig": "Nós estamos prontos para fazer isso.",
+"nova": "Nós estávamos prontos para fazer isso.",
+"motivo": "tempo verbal"
+},
+"1028858": {
+"orig": "Tom ficou bravo com Maria.",
+"nova": "Tom ficou bravo com Mary.",
+"motivo": "nome trocado"
+},
+"3738006": {
+"orig": "Alguma vez o Tomás esquece alguma coisa?",
+"nova": "O Tom alguma vez esquece alguma coisa?",
+"motivo": "nome trocado"
+},
+"5990213": {
+"orig": "Tom e Maria se conheceram em uma festa de Halloween.",
+"nova": "Tom e Mary se conheceram em uma festa de Halloween.",
+"motivo": "nome trocado"
+},
+"1147447": {
+"orig": "Eu tive que ver um médico ontem.",
+"nova": "Eu tive que ir ao médico ontem.",
+"motivo": "decalque"
+},
+"24585": {
+"orig": "À que horas e onde podemos nos encontrar?",
+"nova": "A que horas e onde poderíamos nos encontrar?",
+"motivo": "crase indevida; modo"
+},
+"8389094": {
+"orig": "Quanto tempo geralmente leva para você ir em casa?",
+"nova": "Quanto tempo você geralmente leva para ir a pé para casa?",
+"motivo": "walk omitido; gramática"
+},
+"1093344": {
+"orig": "Tom sabia que Mary tinha algo em mente.",
+"nova": "Tom sabia que algo estava preocupando a Mary.",
+"motivo": "sentido de on one's mind"
+},
+"6093967": {
+"orig": "Você não está bem com isso?",
+"nova": "Você não concorda com isso?",
+"motivo": "decalque"
+},
+"2954987": {
+"orig": "Você é o único canadense aqui.",
+"nova": "Você não é o único canadense aqui.",
+"motivo": "negação omitida"
+},
+"2540101": {
+"orig": "Eu não vou dizer qualquer coisa a você.",
+"nova": "Eu não vou te dizer nada.",
+"motivo": "qualquer coisa → nada"
+},
+"2981808": {
+"orig": "Tom queria falar com Maria.",
+"nova": "Tom queria falar com Mary.",
+"motivo": "nome trocado"
+},
+"6666795": {
+"orig": "O Tom perguntou-me se eu podia ajudar a Mary.",
+"nova": "O Tom me perguntou se eu podia ajudar a Mary.",
+"motivo": "próclise pt-BR"
+},
+"2544525": {
+"orig": "Tom estava apaixonado por Maria.",
+"nova": "Tom estava apaixonado por Mary.",
+"motivo": "nome trocado"
+},
+"3181662": {
+"orig": "Tom quer que eu converse com Maria.",
+"nova": "Tom quer que eu converse com Mary.",
+"motivo": "nome trocado"
+},
+"3734028": {
+"orig": "Tom sabe como falar Francês",
+"nova": "Tom sabe falar francês.",
+"motivo": "maiúscula; pontuação"
+},
+"3448995": {
+"orig": "Tom vai chegar amanhã.",
+"nova": "Tom vai estar aqui amanhã.",
+"motivo": "sentido"
+},
+"31027": {
+"orig": "Diz-me se te estou a atrapalhar.",
+"nova": "Por favor, me diga se eu estiver atrapalhando você.",
+"motivo": "pt-PT; please omitido"
+},
+"38897": {
+"orig": "Por favor diga-me de seu problema.",
+"nova": "Por favor, me fale sobre o seu problema.",
+"motivo": "regência/naturalidade"
+},
+"3069522": {
+"orig": "Tom achava que não era bom o suficiente para Maria.",
+"nova": "Tom achava que não era bom o suficiente para Mary.",
+"motivo": "nome trocado"
+},
+"6096326": {
+"orig": "O Tom disse que achou que era uma má ideia fazer isso?",
+"nova": "O Tom disse que achava que era uma má ideia nós fazermos isso?",
+"motivo": "for us omitido"
+},
+"8390097": {
+"orig": "Tom é um bom professor de Francês.",
+"nova": "Tom é um bom professor de francês.",
+"motivo": "maiúscula indevida"
+},
+"6252873": {
+"orig": "O Tom não deveria fazer aquilo de novo.",
+"nova": "O Tom não deveria ter que fazer isso de novo.",
+"motivo": "have to omitido"
+},
+"8925924": {
+"orig": "Não conseguia ouvir o que você acabou de dizer.",
+"nova": "Não consegui ouvir o que você acabou de dizer.",
+"motivo": "tempo verbal"
+},
+"6263718": {
+"orig": "O Tom tem sido um bom amigo.",
+"nova": "O Tom tem sido um ótimo amigo.",
+"motivo": "very omitido"
+},
+"69377": {
+"orig": "Você a levou para na noite passada?",
+"nova": "Você a levou para casa ontem à noite?",
+"motivo": "frase truncada"
+},
+"2643874": {
+"orig": "Tom estava preocupado com Maria.",
+"nova": "Tom estava preocupado com Mary.",
+"motivo": "nome trocado"
+},
+"1092471": {
+"orig": "Tom quer que Mary conheça sua mãe.",
+"nova": "Tom quer que Mary conheça a mãe dele.",
+"motivo": "ambiguidade de sua"
+},
+"2641151": {
+"orig": "Tom e Maria decidiram não vir.",
+"nova": "Tom e Mary decidiram não vir.",
+"motivo": "nome trocado"
+},
+"8988798": {
+"orig": "O Tom provavelmente já não está a estudar francês.",
+"nova": "O Tom provavelmente não está mais estudando francês.",
+"motivo": "pt-PT"
+},
+"6237740": {
+"orig": "O Tom deve conseguir mostrar-te como se faz.",
+"nova": "O Tom deve conseguir te mostrar como fazer isso.",
+"motivo": "pt-PT"
+},
+"9009272": {
+"orig": "Achei que você pudesse ir nadar com a gente.",
+"nova": "Achei que você talvez quisesse ir nadar com a gente.",
+"motivo": "want omitido"
+},
+"17294": {
+"orig": "Qual é a distância de sua casa para o parque?",
+"nova": "Qual é a distância da sua casa até o parque?",
+"motivo": "regência"
+},
+"4715881": {
+"orig": "Tom me perguntou se eu estava gostando do meu novo emprego.",
+"nova": "Tom me perguntou o que eu estava achando do meu novo emprego.",
+"motivo": "sentido"
+},
+"6120723": {
+"orig": "Eu não estou surpreso que o Tom queria fazer aquilo.",
+"nova": "Eu não estou surpreso que o Tom quisesse fazer aquilo.",
+"motivo": "modo verbal"
+},
+"2591674": {
+"orig": "Por que você queria fazer algo assim?",
+"nova": "Por que você iria querer fazer algo assim?",
+"motivo": "would omitido"
+},
+"2544715": {
+"orig": "Não estou apaixonado por Maria.",
+"nova": "Não estou apaixonado por Mary.",
+"motivo": "nome trocado"
+},
+"3473758": {
+"orig": "O Tom quer mesmo lá ir.",
+"nova": "O Tom quer mesmo ir lá.",
+"motivo": "ordem pt-PT"
+},
+"6871286": {
+"orig": "O Tom quer saber quando terminarmos.",
+"nova": "O Tom quer saber quando você terminar.",
+"motivo": "pessoa trocada"
+},
+"2643673": {
+"orig": "Tom e Mary são amigos.",
+"nova": "Tom e Mary são meus amigos.",
+"motivo": "my omitido"
+},
+"3278707": {
+"orig": "Alguém conhece o sobrenome Tomás?",
+"nova": "Alguém sabe o sobrenome do Tom?",
+"motivo": "nome trocado; gramática"
+},
+"8392212": {
+"orig": "Tom tem medo de tentar fazer isso.",
+"nova": "Tom tem medo até de tentar fazer isso.",
+"motivo": "even omitido"
+},
+"7023754": {
+"orig": "O Tomás disse-te por que é que não veio à tua festa?",
+"nova": "O Tom te disse por que não veio à sua festa?",
+"motivo": "pt-PT; nome trocado"
+},
+"2821070": {
+"orig": "Thomas estivera no lugar errado no momento inoportuno.",
+"nova": "Tom estava no lugar errado na hora errada.",
+"motivo": "nome trocado; tempo; naturalidade"
+},
+"1858701": {
+"orig": "\"Este não é o relógio do Tom.\" \"Eu nunca disse que é.\"",
+"nova": "\"Este não é o relógio do Tom.\" \"Eu nunca disse que era.\"",
+"motivo": "tempo verbal"
+},
+"2642980": {
+"orig": "Tom e Maria se divertiram juntos.",
+"nova": "Tom e Mary se divertiram juntos.",
+"motivo": "nome trocado"
+},
+"6846818": {
+"orig": "Tom disse que talvez possa nos ajudar.",
+"nova": "Tom disse que talvez pudesse nos ajudar.",
+"motivo": "tempo verbal"
+},
+"8513252": {
+"orig": "Tom não retruca ninguém.",
+"nova": "Tom não responde mal a ninguém.",
+"motivo": "regência/sentido"
+},
+"3069526": {
+"orig": "Eu não achava que você entenderia.",
+"nova": "Tom não achava que você entenderia.",
+"motivo": "sujeito trocado"
+},
+"7543550": {
+"orig": "Tom e Mary estão vindo por esse caminho.",
+"nova": "Tom e Mary estão vindo para cá.",
+"motivo": "this way = para cá"
+},
+"4012320": {
+"orig": "Os seu pais estarão em casa esta noite?",
+"nova": "Os seus pais estarão em casa esta noite?",
+"motivo": "concordância"
+},
+"1936509": {
+"orig": "Eu gostaria de ligar para o Tom para saber se ele vem me visitar amanhã.",
+"nova": "Eu gostaria de ligar para o Tom para ver se ele pode vir me visitar amanhã.",
+"motivo": "can omitido"
+},
+"8276492": {
+"orig": "Quanto em dinheiro precisaremos?",
+"nova": "De quanto dinheiro vamos precisar?",
+"motivo": "gramática/naturalidade"
+},
+"5514063": {
+"orig": "Tom sabia por que Maria não estava na escola.",
+"nova": "Tom sabia por que Mary não estava na escola.",
+"motivo": "nome trocado"
+},
+"3976620": {
+"orig": "Meu nome é Tom e esta é Maria.",
+"nova": "Meu nome é Tom e esta é Mary.",
+"motivo": "nome trocado"
+},
+"241931": {
+"orig": "Agora ele não tem mais nada para o que viver.",
+"nova": "Agora ele não tem nada pelo que viver.",
+"motivo": "naturalidade"
+},
+"1029111": {
+"orig": "Tom não sabe o que dizer para fazer Maria se sentir melhor.",
+"nova": "Tom não sabe o que dizer para fazer Mary se sentir melhor.",
+"motivo": "nome trocado"
+},
+"3382837": {
+"orig": "Eu desejo nada menos que o melhor para você.",
+"nova": "Eu só desejo o melhor para você.",
+"motivo": "sentido (nothing but)"
+},
+"4269256": {
+"orig": "Fiquei fora de casa por um bom tempo.",
+"nova": "Estou fora de casa há muito tempo.",
+"motivo": "tempo verbal"
+},
+"4013841": {
+"orig": "Tom estava com receio de que ninguém viria para sua festa.",
+"nova": "Tom estava com receio de que ninguém viesse à sua festa.",
+"motivo": "modo verbal"
+},
+"6794999": {
+"orig": "Ambos Tom e Mary têm boa aparência.",
+"nova": "Tanto Tom quanto Mary são bonitos.",
+"motivo": "decalque"
+},
+"8353542": {
+"orig": "O que você acha que o Antônio está tentando nos dizer?",
+"nova": "O que você acha que o Tom está tentando nos dizer?",
+"motivo": "nome trocado"
+},
+"3133588": {
+"orig": "Ninguém sabe o que aconteceu ao Tomás.",
+"nova": "Ninguém sabe o que aconteceu com o Tom.",
+"motivo": "nome trocado"
+},
+"3818862": {
+"orig": "Tom e Maria estavam nos esperando.",
+"nova": "Tom e Mary estavam nos esperando.",
+"motivo": "nome trocado"
+},
+"1952038": {
+"orig": "Eu não posso ficar com este relógio. Tenho de o devolver ao Tomás.",
+"nova": "Eu não posso ficar com este relógio. Tenho que devolvê-lo ao Tom.",
+"motivo": "nome trocado; pt-PT"
+},
+"9041514": {
+"orig": "Tom disse que talvez nunca mais nos veja.",
+"nova": "Tom disse que talvez nunca mais nos visse.",
+"motivo": "tempo verbal"
+},
+"3087627": {
+"orig": "Tom não devia ter deixado Maria dirigir.",
+"nova": "Tom não devia ter deixado Mary dirigir.",
+"motivo": "nome trocado"
+},
+"5195233": {
+"orig": "Você se lembra de onde conheceu Tom?",
+"nova": "Você se lembra de quando conheceu o Tom?",
+"motivo": "when ≠ onde"
+},
+"257474": {
+"orig": "Eu venho estudando inglês por três anos.",
+"nova": "Eu estudo inglês há três anos.",
+"motivo": "por → há"
+},
+"4986495": {
+"orig": "Tom já está aqui, mas Maria ainda não chegou.",
+"nova": "Tom já está aqui, mas Mary ainda não chegou.",
+"motivo": "nome trocado"
+},
+"4515093": {
+"orig": "Você não se importa onde se senta, não é?",
+"nova": "Você não se importa com o lugar onde vai se sentar, não é?",
+"motivo": "regência"
+},
+"6808805": {
+"orig": "Tom já foi solicitado a fazer isso novamente.",
+"nova": "Já pediram ao Tom para fazer isso de novo.",
+"motivo": "naturalidade"
+},
+"3181550": {
+"orig": "Deixe-me ter uma conversa com Tom.",
+"nova": "Deixe-me conversar com o Tom.",
+"motivo": "decalque"
+},
+"5849325": {
+"orig": "O que você vai fazer amanhã?",
+"nova": "O que nós vamos fazer amanhã?",
+"motivo": "pessoa trocada"
+},
+"6833155": {
+"orig": "Se eu te atrapalhar, diz-me.",
+"nova": "Se eu te atrapalhar, é só me avisar.",
+"motivo": "pt-PT"
+},
+"1140078": {
+"orig": "Conta-me o que você descobriu.",
+"nova": "Me conte o que você descobrir.",
+"motivo": "pt-PT; tempo"
+},
+"8272002": {
+"orig": "Esta é a primeira vez que aconteceu.",
+"nova": "É a primeira vez que isso acontece.",
+"motivo": "objeto omitido"
+},
+"6108577": {
+"orig": "Eu faria aquilo do jeito certo se fosse você.",
+"nova": "Eu faria isso imediatamente se fosse você.",
+"motivo": "right away ≠ do jeito certo"
+},
+"4268458": {
+"orig": "Tom disse que não queria ir à festa de Maria.",
+"nova": "Tom disse que não queria ir à festa da Mary.",
+"motivo": "nome trocado"
+},
+"6877372": {
+"orig": "Se eu tivesse dinheiro suficiente, eu compraria isto.",
+"nova": "Se eu tivesse tido dinheiro suficiente, teria comprado aquilo.",
+"motivo": "tempo verbal"
+},
+"259591": {
+"orig": "Estou acostumado a trabalhar toda a noite.",
+"nova": "Estou acostumado a trabalhar a noite toda.",
+"motivo": "pt-PT"
+},
+"3549865": {
+"orig": "Você acha que o Tom consegue nos escutar?",
+"nova": "Você acha mesmo que o Tom consegue nos escutar?",
+"motivo": "really omitido"
+},
+"1093857": {
+"orig": "Thomas estivera no lugar errado no momento inoportuno.",
+"nova": "Tom tinha estado no lugar errado na hora errada.",
+"motivo": "nome trocado; naturalidade"
+},
+"1599": {
+"orig": "Seria divertido ver como as coisas mudam ao passar dos anos.",
+"nova": "Seria divertido ver como as coisas mudam ao longo dos anos.",
+"motivo": "expressão"
+},
+"2374082": {
+"orig": "Eu só quero te fazer uma pergunta.",
+"nova": "Eu só queria te fazer uma pergunta.",
+"motivo": "tempo verbal"
+},
+"1028671": {
+"orig": "Tom soube que Maria estava doente.",
+"nova": "Tom soube que Mary estava doente.",
+"motivo": "nome trocado"
+},
+"1025416": {
+"orig": "Tom tem estudado francês por três anos.",
+"nova": "Tom estuda francês há três anos.",
+"motivo": "por → há"
+},
+"9423297": {
+"orig": "OK, vemo-nos amanhã.",
+"nova": "OK, te vejo amanhã.",
+"motivo": "pt-PT"
+},
+"7356839": {
+"orig": "Talvez a gente podia se encontrar amanhã à noite.",
+"nova": "Talvez a gente pudesse se encontrar amanhã à noite.",
+"motivo": "modo verbal"
+},
+"1028302": {
+"orig": "Tom encontrou Mary por acaso no caminho para a escola.",
+"nova": "Tom encontrou Mary por acaso no caminho da escola para casa.",
+"motivo": "sentido invertido"
+},
+"7653930": {
+"orig": "Maria é sua irmã mais velha, não é?",
+"nova": "Mary é sua irmã mais velha, não é?",
+"motivo": "nome trocado"
+},
+"5278258": {
+"orig": "Não me importo se eu viver ou se eu morrer.",
+"nova": "Não me importa se eu vivo ou morro.",
+"motivo": "modo verbal"
+},
+"2713154": {
+"orig": "Tom tem mais dinheiro que Maria.",
+"nova": "Tom tem mais dinheiro que Mary.",
+"motivo": "nome trocado"
+},
+"1029304": {
+"orig": "Tom não sabia que Maria tinha filhos.",
+"nova": "Tom não sabia que Mary tinha filhos.",
+"motivo": "nome trocado"
+},
+"2046726": {
+"orig": "Tom não está tão ocupado.",
+"nova": "Tom não está nada ocupado.",
+"motivo": "at all ≠ tão"
+},
+"7954252": {
+"orig": "Espera-me à porta.",
+"nova": "Me espere na porta.",
+"motivo": "pt-PT"
+},
+"6660622": {
+"orig": "O Tom chegou atrasado noite passada.",
+"nova": "O Tom ficou fora até tarde ontem à noite.",
+"motivo": "sentido"
+},
+"314369": {
+"orig": "Ela veio para perto e perguntou o meu nome.",
+"nova": "Ela se aproximou de mim e perguntou o meu nome.",
+"motivo": "naturalidade"
+},
+"259172": {
+"orig": "Não estou habituado a levantar-me cedo.",
+"nova": "Não estou acostumado a acordar cedo.",
+"motivo": "forma de Portugal"
+},
+"6349091": {
+"orig": "Estou certo de que Tom não possa vencer.",
+"nova": "Estou certo de que Tom não pode vencer.",
+"motivo": "modo verbal"
+},
+"2233522": {
+"orig": "Você achou que não viria esta noite, não é mesmo?",
+"nova": "Você achou que eu não viria esta noite, não é mesmo?",
+"motivo": "sujeito ambíguo"
+},
+"29869": {
+"orig": "Gostaria de ficar sozinho um instante, se não se importa.",
+"nova": "Gostaria de ficar sozinho por um tempo, se não se importa.",
+"motivo": "for a while"
+},
+"6108571": {
+"orig": "Estamos prontos para começar a reunião.",
+"nova": "Estamos nos preparando para começar a reunião.",
+"motivo": "sentido: getting ready"
+},
+"2912622": {
+"orig": "Quanto o Tom tem?",
+"nova": "Quanto dinheiro o Tom tem?",
+"motivo": "faltava 'dinheiro'"
+},
+"1030130": {
+"orig": "Eu já disse a Tom que Maria não está aqui.",
+"nova": "Eu já disse a Tom que Mary não está aqui.",
+"motivo": "nome trocado"
+},
+"954535": {
+"orig": "Para você, com que se parece isto?",
+"nova": "Com o que isto se parece para você?",
+"motivo": "tradução truncada/estranha"
+},
+"5825251": {
+"orig": "Eu só queria que você saísse.",
+"nova": "Eu só quero que você saia.",
+"motivo": "tempo verbal"
+},
+"7023753": {
+"orig": "O Tomás disse-te por que é que ontem não estava na escola?",
+"nova": "O Tom te disse por que não estava na escola ontem?",
+"motivo": "forma de Portugal; nome trocado"
+},
+"1093291": {
+"orig": "Tom ama Mary, mas ela não gosta dele.",
+"nova": "Tom gosta da Mary, mas ela não gosta dele.",
+"motivo": "likes ≠ ama"
+},
+"3201798": {
+"orig": "Tom me disse que ele teve um problema.",
+"nova": "Tom me disse que ele tinha um problema.",
+"motivo": "tempo verbal"
+},
+"4496677": {
+"orig": "Eu queria que o Tom não voltasse mais aqui.",
+"nova": "Eu queria que o Tom não viesse mais aqui.",
+"motivo": "sentido"
+},
+"4588199": {
+"orig": "Tom sabia que Maria era casada.",
+"nova": "Tom sabia que Mary era casada.",
+"motivo": "nome trocado"
+},
+"3442204": {
+"orig": "Por que só não pedir para eles saírem?",
+"nova": "Por que não pedir simplesmente que eles saiam?",
+"motivo": "construção estranha"
+},
+"70800": {
+"orig": "Do que você chama o seu pai?",
+"nova": "Como você chama o seu pai?",
+"motivo": "construção"
+},
+"6263820": {
+"orig": "Tom não se lembra de fazer isso.",
+"nova": "Tom não se lembra de ter feito isso.",
+"motivo": "tempo verbal"
+},
+"2641921": {
+"orig": "Tom e Maria querem aprender francês.",
+"nova": "Tom e Mary querem aprender francês.",
+"motivo": "nome trocado"
+},
+"6438470": {
+"orig": "Tom foi professor de francês de Maria.",
+"nova": "Tom foi professor de francês de Mary.",
+"motivo": "nome trocado"
+},
+"7227634": {
+"orig": "Não acho que vás gostar deste livro.",
+"nova": "Não acho que você vá gostar deste livro.",
+"motivo": "forma de Portugal"
+},
+"3819074": {
+"orig": "Tudo o que o Tom acabou de dizer é verdade.",
+"nova": "Tudo o que o Tom acabou de dizer era verdade.",
+"motivo": "tempo verbal"
+},
+"1028035": {
+"orig": "Tom não deveria zombar de Maria.",
+"nova": "Tom não deveria zombar de Mary.",
+"motivo": "nome trocado"
+},
+"7171510": {
+"orig": "Eu pensei que poderia estar muito ocupado para ajudar.",
+"nova": "Eu pensei que você poderia estar ocupado demais para ajudar.",
+"motivo": "sujeito ambíguo"
+},
+"6349094": {
+"orig": "Estou realmente certo de que Tom possa vencer.",
+"nova": "Tenho quase certeza de que Tom pode vencer.",
+"motivo": "pretty sure; modo verbal"
+},
+"3920764": {
+"orig": "Eu estava preocupado com você.",
+"nova": "Eu estava morrendo de preocupação com você.",
+"motivo": "worried sick"
+},
+"8326194": {
+"orig": "Só que quando eu mais precisei de você, você foi embora.",
+"nova": "Justo quando eu mais precisei de você, você foi embora.",
+"motivo": "sentido de 'just when'"
+},
+"6240208": {
+"orig": "Já está quase na hora do encontro começar.",
+"nova": "Já está quase na hora de a reunião começar.",
+"motivo": "meeting = reunião"
+},
+"6040060": {
+"orig": "Existe uma boa chance de que Tom seja contratado.",
+"nova": "Há uma chance muito boa de que Tom consiga esse emprego.",
+"motivo": "faltava 'very'"
+},
+"3201994": {
+"orig": "O Tomás disse-nos que tu também eras canadiano.",
+"nova": "O Tom nos disse que você também era canadense.",
+"motivo": "forma de Portugal; nome trocado"
+},
+"1028481": {
+"orig": "Tom é três anos mais velho do que Maria.",
+"nova": "Tom é três anos mais velho do que Mary.",
+"motivo": "nome trocado"
+},
+"8246141": {
+"orig": "Eu queria comer com o Tom",
+"nova": "Eu queria comer com o Tom.",
+"motivo": "pontuação"
+},
+"8355754": {
+"orig": "Você acha que Tom está bem?",
+"nova": "Você realmente acha que Tom está bem?",
+"motivo": "faltava 'really'"
+},
+"5739339": {
+"orig": "O Tom tem muito o que viver.",
+"nova": "O Tom tem muitas expectativas a corresponder.",
+"motivo": "sentido de 'live up to'"
+},
+"7759940": {
+"orig": "Por que eles tentam fazer aquilo?",
+"nova": "Por que eles tentaram fazer aquilo?",
+"motivo": "tempo verbal"
+},
+"2011897": {
+"orig": "Eu quero ser deixado sozinho.",
+"nova": "Eu quero que me deixem em paz.",
+"motivo": "tradução literal artificial"
+},
+"5936659": {
+"orig": "O Tom gosta da Mary, mas a Mary não gosta dela.",
+"nova": "O Tom gosta da Mary, mas a Mary não gosta dele.",
+"motivo": "gênero errado"
+},
+"2033483": {
+"orig": "Mary quer que você convide-a para sair..",
+"nova": "Mary quer que você a convide para sair.",
+"motivo": "colocação pronominal; pontuação"
+},
+"8963218": {
+"orig": "Você não gostaria de ir comigo?",
+"nova": "Você não queria estar indo comigo?",
+"motivo": "sentido alterado"
+},
+"7221995": {
+"orig": "Eu não falo só de Tom.",
+"nova": "Não estou falando só do Tom.",
+"motivo": "aspecto verbal"
+},
+"5852156": {
+"orig": "Eu estive trabalhando a minha vida toda.",
+"nova": "Eu trabalhei a minha vida toda.",
+"motivo": "calque do inglês"
+},
+"6264000": {
+"orig": "Tom provavelmente não sabe por que Maria fez isso.",
+"nova": "Tom provavelmente não sabe por que Mary fez isso.",
+"motivo": "nome trocado"
+},
+"6237327": {
+"orig": "Eu não acho que vou ter de ser eu a fazer isso.",
+"nova": "Eu não acho que vou ter que fazer isso sozinho.",
+"motivo": "sentido; construção de Portugal"
+},
+"6234683": {
+"orig": "É possível que Tom tenha de enfrentar isso sozinho.",
+"nova": "Eu achei que Tom talvez precisasse fazer isso sozinho.",
+"motivo": "sentido errado"
+},
+"3924663": {
+"orig": "Peço desculpa. Nunca mais voltarei a fazer isso.",
+"nova": "Desculpe. Nunca mais vou fazer isso.",
+"motivo": "forma de Portugal"
+},
+"4017221": {
+"orig": "Tom decidiu nunca mais falar com Maria.",
+"nova": "Tom decidiu nunca mais falar com Mary.",
+"motivo": "nome trocado"
+},
+"953139": {
+"orig": "Assim que eu tiver uma chance virei para uma visita.",
+"nova": "Assim que eu tiver uma chance, virei fazer uma visita.",
+"motivo": "pontuação"
+},
+"6767151": {
+"orig": "Eu não estou surpreso que Tom não sabe o que fazer.",
+"nova": "Eu não estou surpreso que Tom não saiba o que fazer.",
+"motivo": "modo verbal"
+},
+"3390686": {
+"orig": "Achamos que o último nome dele é Jackson.",
+"nova": "Achamos que o sobrenome dele é Jackson.",
+"motivo": "last name = sobrenome"
+},
+"7172165": {
+"orig": "Achava que você iria querer.",
+"nova": "Achei que você não iria querer isso.",
+"motivo": "sentido invertido"
+},
+"4497578": {
+"orig": "Tom não entendeu, mas Maria sim.",
+"nova": "Tom não entendeu, mas Mary sim.",
+"motivo": "nome trocado"
+},
+"7149702": {
+"orig": "Casemo-nos na Austrália.",
+"nova": "Vamos nos casar na Austrália.",
+"motivo": "forma artificial"
+},
+"6389801": {
+"orig": "Tom tem dinheiro suficiente para comprar a casa que quiser.",
+"nova": "Tom tem dinheiro suficiente para comprar a casa que ele quer.",
+"motivo": "sentido"
+},
+"1026884": {
+"orig": "Tom veio me ver só no dia seguinte.",
+"nova": "Tom veio me ver outro dia mesmo.",
+"motivo": "sentido errado"
+},
+"2986137": {
+"orig": "Tom disse que ele só quer fazer Mary feliz.",
+"nova": "Tom diz que ele só quer fazer Mary feliz.",
+"motivo": "tempo verbal"
+},
+"2359031": {
+"orig": "Tenho sido professor por um longo tempo.",
+"nova": "Sou professor há muito tempo.",
+"motivo": "calque do inglês"
+},
+"3201149": {
+"orig": "O Tomás falou-me acerca do novo plano.",
+"nova": "O Tom me falou sobre o novo plano.",
+"motivo": "forma de Portugal; nome trocado"
+},
+"30155": {
+"orig": "Dormi bem esta noite.",
+"nova": "Dormi bem ontem à noite.",
+"motivo": "last night"
+},
+"2970710": {
+"orig": "O que você está fazendo tão cedo?",
+"nova": "O que você está fazendo aqui tão cedo?",
+"motivo": "faltava 'here'"
+},
+"6433752": {
+"orig": "Mary disse que pensou que Tom provavelmente fez isso.",
+"nova": "Mary disse que achava que Tom provavelmente tinha feito isso.",
+"motivo": "tempo verbal"
+},
+"6352591": {
+"orig": "O Tom avisou-me que não ia ganhar.",
+"nova": "O Tom me disse que não ia ganhar.",
+"motivo": "forma de Portugal; told ≠ avisou"
+},
+"8264575": {
+"orig": "Eu sabia que você precisava fazer isso.",
+"nova": "Eu sabia que você precisaria fazer isso.",
+"motivo": "tempo verbal"
+},
+"1092551": {
+"orig": "Tom queria que Maria conhecesse os seus pais.",
+"nova": "Tom queria que Mary conhecesse os pais dele.",
+"motivo": "nome trocado"
+},
+"8392232": {
+"orig": "Tom não parecia surpreso que Mary não tinha feito isso.",
+"nova": "Tom não pareceu surpreso por Mary não ter feito isso.",
+"motivo": "construção/modo"
+},
+"1094621": {
+"orig": "Tom não queria que Maria soubesse que ele era rico.",
+"nova": "Tom não queria que Mary soubesse que ele era rico.",
+"motivo": "nome trocado"
+},
+"3531756": {
+"orig": "Por que Tom gosta tanto de Maria?",
+"nova": "Por que Tom gosta tanto de Mary?",
+"motivo": "nome trocado"
+},
+"3594008": {
+"orig": "Isso não é para eu dizer.",
+"nova": "Não cabe a mim dizer.",
+"motivo": "tradução literal"
+},
+"2951555": {
+"orig": "Assegure-se de dizer a Tom o que aconteceu.",
+"nova": "Não deixe de contar ao Tom o que aconteceu.",
+"motivo": "calque"
+},
+"2291645": {
+"orig": "Já te disse tudo o que eu sabia.",
+"nova": "Já te disse tudo o que eu sei.",
+"motivo": "tempo verbal"
+},
+"2645303": {
+"orig": "Tom disse que Maria estava feliz.",
+"nova": "Tom disse que Mary estava feliz.",
+"motivo": "nome trocado"
+},
+"7542377": {
+"orig": "Tom não me disse o que eu devo fazer.",
+"nova": "Tom não quis me dizer o que eu devia fazer.",
+"motivo": "wouldn't = recusa; tempo"
+},
+"2543053": {
+"orig": "Eu temo que tenha trabalho a fazer.",
+"nova": "Infelizmente, tenho trabalho a fazer.",
+"motivo": "I'm afraid = infelizmente"
+},
+"3619628": {
+"orig": "Não acho que Tom sabe onde ele está.",
+"nova": "Acho que o Tom nem sabe onde está.",
+"motivo": "faltava 'even'"
+},
+"5903714": {
+"orig": "Tom não sabia que Maria estaria na festa ontem à noite.",
+"nova": "Tom não sabia que Mary estaria na festa ontem à noite.",
+"motivo": "nome trocado"
+},
+"1886503": {
+"orig": "Porque você não chamou ajuda?",
+"nova": "Por que você não chamou ajuda?",
+"motivo": "ortografia: por que"
+},
+"6898110": {
+"orig": "Você não é velho o bastante para beber, é?",
+"nova": "Você ainda não tem idade para beber, tem?",
+"motivo": "faltava 'yet'"
+},
+"6108368": {
+"orig": "Tom, Mary, John e Alice acham que Boston é um bom lugar para se morar.",
+"nova": "Tom, Mary, John e Alice, todos acham que Boston é um bom lugar para se morar.",
+"motivo": "faltava 'all'"
+},
+"1093831": {
+"orig": "Tom não fazia ideia que Maria estava doente.",
+"nova": "Tom não fazia ideia de que Mary estava doente.",
+"motivo": "nome trocado; regência"
+},
+"3394320": {
+"orig": "Você teve um bom jantar com o Tom?",
+"nova": "O jantar com o Tom foi bom?",
+"motivo": "calque"
+},
+"6237731": {
+"orig": "Tom deveria estar estudando francês noite passada.",
+"nova": "Tom devia ter estudado francês ontem à noite.",
+"motivo": "tempo verbal"
+},
+"5788648": {
+"orig": "Tom não consegue cantar tão bem quanto a Maria.",
+"nova": "Tom não consegue cantar tão bem quanto a Mary.",
+"motivo": "nome trocado"
+},
+"8392235": {
+"orig": "Tom não ficou surpreso que Mary não fazia isso.",
+"nova": "Tom não ficou surpreso por Mary não ter feito isso.",
+"motivo": "tempo/construção"
+},
+"6346884": {
+"orig": "Eu estou pensando se o Tom ainda está assustado.",
+"nova": "Será que o Tom ainda está assustado?",
+"motivo": "I wonder"
+},
+"5915370": {
+"orig": "Eu acho que o Tom não me queria aqui hoje.",
+"nova": "Eu acho que o Tom não queria estar aqui hoje.",
+"motivo": "sentido errado"
+},
+"8341476": {
+"orig": "Tom já estava lá pelo tempo que cheguei lá.",
+"nova": "Tom já estava lá quando eu cheguei.",
+"motivo": "calque"
+},
+"5821427": {
+"orig": "Tom disse que Maria está ocupada.",
+"nova": "Tom disse que Mary está ocupada.",
+"motivo": "nome trocado"
+},
+"3152566": {
+"orig": "Você conseguiu o seu emprego de volta?",
+"nova": "Eles te devolveram o seu emprego?",
+"motivo": "sentido"
+},
+"6267588": {
+"orig": "O Tom não contaria para a Mary por que ele fez isso.",
+"nova": "O Tom não quis contar para a Mary por que fez isso.",
+"motivo": "wouldn't = recusa"
+},
+"8272870": {
+"orig": "Para trabalhar aqui, você precisa ser capaz de falar Francês.",
+"nova": "Para trabalhar aqui, você precisa ser capaz de falar francês.",
+"motivo": "maiúscula indevida"
+},
+"5726100": {
+"orig": "Daremos a eles tudo de nós.",
+"nova": "Vamos dar tudo de nós por eles.",
+"motivo": "construção estranha"
+},
+"2013599": {
+"orig": "Quero que o Tom me ligue todos os dias.",
+"nova": "Quero que o Tom ligue todos os dias.",
+"motivo": "informação a mais"
+},
+"6096887": {
+"orig": "Vocês três já não foram para Boston juntos?",
+"nova": "Vocês três nunca vão juntos para Boston?",
+"motivo": "sentido errado"
+},
+"5036336": {
+"orig": "Eu não sei se haverá dinheiro suficiente para mim.",
+"nova": "Eu não sei se esse dinheiro vai ser suficiente para mim.",
+"motivo": "sentido"
+},
+"2712948": {
+"orig": "Não consigo lembrar do último nome do Tom.",
+"nova": "Não consigo me lembrar do sobrenome do Tom.",
+"motivo": "last name = sobrenome"
+},
+"2541482": {
+"orig": "Eu só queria saber com quem o Tom estava falando.",
+"nova": "Eu me pergunto com quem o Tom estava falando.",
+"motivo": "informação a mais"
+},
+"5904844": {
+"orig": "Tom diz que me quer em Boston com a Mary.",
+"nova": "Tom diz que quer que eu vá a Boston com a Mary.",
+"motivo": "sentido"
+},
+"3330465": {
+"orig": "Eu estava esperando você chegar lá.",
+"nova": "Eu estava esperando você chegar aqui.",
+"motivo": "here ≠ lá"
+},
+"2361743": {
+"orig": "Acho que encontrará tudo o que você pedir.",
+"nova": "Acho que você encontrará tudo o que pediu.",
+"motivo": "tempo verbal"
+},
+"2641372": {
+"orig": "Antônio disse aonde nós devemos nos encontrar com ele?",
+"nova": "O Tom disse onde devemos nos encontrar com ele?",
+"motivo": "nome trocado; onde/aonde"
+},
+"238626": {
+"orig": "Decidi não ir ao cinema por fim.",
+"nova": "Afinal, decidi não ir ao cinema.",
+"motivo": "after all = afinal"
+},
+"4749995": {
+"orig": "Tom perguntou a Maria o que ela achava de seu emprego novo.",
+"nova": "Tom perguntou a Mary o que ela achava de seu emprego novo.",
+"motivo": "nome trocado"
+},
+"6767154": {
+"orig": "Eu não estou surpreso que Tom foi capaz de fazer aquilo.",
+"nova": "Eu não estou surpreso que Tom tenha sido capaz de fazer aquilo.",
+"motivo": "modo verbal"
+},
+"8152877": {
+"orig": "Você não pode nos dizer nada sobre?",
+"nova": "Você não pode nos dizer nada sobre isso?",
+"motivo": "frase incompleta"
+},
+"1026768": {
+"orig": "Tom não pode ter feito o que você disse que ele fez.",
+"nova": "Tom não pode ter feito o que você diz que ele fez.",
+"motivo": "tempo verbal"
+},
+"1514520": {
+"orig": "Tom perguntou a Maria qual era o nome dela.",
+"nova": "Tom perguntou a Mary qual era o sobrenome dela.",
+"motivo": "last name = sobrenome; nome trocado"
+},
+"3921074": {
+"orig": "Tom não está fazendo um bom trabalho.",
+"nova": "Tom não está fazendo um trabalho muito bom.",
+"motivo": "faltava 'very'"
+},
+"5216737": {
+"orig": "Tom disse a Maria que ela estava errada.",
+"nova": "Tom disse a Mary que ela estava errada.",
+"motivo": "nome trocado"
+},
+"1868091": {
+"orig": "Tom conhece Maria melhor do que ninguém.",
+"nova": "Tom conhece Mary melhor do que ninguém.",
+"motivo": "nome trocado"
+},
+"6257401": {
+"orig": "O Tom quase nunca faz mais isso.",
+"nova": "O Tom quase nunca mais faz isso.",
+"motivo": "ordem/naturalidade"
+},
+"65836": {
+"orig": "Você deve fazer o serviço, mesmo se não gosta dele.",
+"nova": "Você deve fazer o serviço, mesmo que não goste dele.",
+"motivo": "modo verbal"
+},
+"2276675": {
+"orig": "Por favor, não me chame mais.",
+"nova": "Por favor, não me ligue mais.",
+"motivo": "call = ligar"
+},
+"6089829": {
+"orig": "Para onde você está indo?",
+"nova": "Para onde mais você vai?",
+"motivo": "faltava 'else'"
+},
+"279239": {
+"orig": "Aconteceu de eu estar fora quando veio o convite.",
+"nova": "Por acaso eu estava fora quando a ligação chegou.",
+"motivo": "call = ligação"
+},
+"2542155": {
+"orig": "Tom não voltaria a dormir.",
+"nova": "Tom não quis voltar a dormir.",
+"motivo": "wouldn't = recusa"
+},
+"5811753": {
+"orig": "Você tem alguma ideia que possa vir a nos ajudar?",
+"nova": "Você tem alguma ideia de quem possa nos ajudar?",
+"motivo": "que → quem"
+},
+"4016776": {
+"orig": "Tom não deixa Maria dirigir seu carro.",
+"nova": "Tom não deixa Mary dirigir o carro dele.",
+"motivo": "nome trocado"
+},
+"7186145": {
+"orig": "Olha, Tom, desculpa lá ter-te magoado.",
+"nova": "Olha, Tom, desculpa por ter te magoado.",
+"motivo": "forma de Portugal"
+},
+"5777736": {
+"orig": "Eu sei que o Tom está doente.",
+"nova": "Eu sei que o Tom tem estado doente.",
+"motivo": "tempo verbal"
+},
+"6661464": {
+"orig": "Adorava ouvir o Tom cantar com a Mary.",
+"nova": "Eu adoraria ouvir o Tom cantar com a Mary.",
+"motivo": "forma de Portugal"
+},
+"7008113": {
+"orig": "Você é a pessoa mais interessante que eu já conheci.conheci.",
+"nova": "Você é a pessoa mais interessante que eu já conheci.",
+"motivo": "palavra duplicada"
+},
+"5810682": {
+"orig": "Porque você não tenta? Talvez você goste disso.",
+"nova": "Por que você não tenta? Talvez você goste.",
+"motivo": "porque → por que"
+},
+"3738944": {
+"orig": "Compraste o que eu te havia pedido?",
+"nova": "Você comprou o que eu te pedi para comprar?",
+"motivo": "forma lusitana/arcaica"
+},
+"3824512": {
+"orig": "Nós ainda somos bons amigos.",
+"nova": "Nós todos ainda somos bons amigos.",
+"motivo": "faltava 'all'"
+},
+"256060": {
+"orig": "Eu tenho de ir lá sozinho.",
+"nova": "Eu tive de ir lá sozinho.",
+"motivo": "tempo verbal"
+},
+"3737465": {
+"orig": "Tom não esperou Maria.",
+"nova": "Tom não esperou Mary.",
+"motivo": "nome trocado"
+},
+"5667947": {
+"orig": "Acho que eu poderia ter feito um trabalho melhor.",
+"nova": "Acho que eu poderia fazer um trabalho melhor.",
+"motivo": "tempo verbal"
+},
+"6336046": {
+"orig": "Mesmo se eu quisesse ter feito isso, eu não teria feito.",
+"nova": "Mesmo se eu tivesse querido fazer isso, eu não teria feito.",
+"motivo": "tempo verbal"
+},
+"6352600": {
+"orig": "O Tom disse-me que não estava cansado.",
+"nova": "O Tom me disse que não estava cansado.",
+"motivo": "pt-PT"
+},
+"4016188": {
+"orig": "Você tem certeza de que esta é a coisa certa a se fazer?",
+"nova": "Você tem certeza de que essa é a melhor coisa a se fazer?",
+"motivo": "best ≠ certa"
+},
+"6225351": {
+"orig": "O Tomás não faz ideia do que a Maria precisa de fazer.",
+"nova": "O Tom não faz ideia do que a Mary precisa fazer.",
+"motivo": "nomes trocados, pt-PT"
+},
+"2643283": {
+"orig": "Tom não ligou para Maria, ligou?",
+"nova": "Tom não ligou para Mary, ligou?",
+"motivo": "nome trocado"
+},
+"1886088": {
+"orig": "Você conhece o Tom bem o suficiente para pedir que ela faça isso?",
+"nova": "Você conhece o Tom bem o suficiente para pedir que ele faça isso?",
+"motivo": "gênero errado"
+},
+"3395971": {
+"orig": "Tom e Maria ainda estão trabalhando.",
+"nova": "Tom e Mary ainda estão trabalhando.",
+"motivo": "nome trocado"
+},
+"321159": {
+"orig": "Faça-o agora mesmo, antes de que se esqueça.",
+"nova": "Faça isso agora mesmo, antes que você esqueça.",
+"motivo": "'antes de que' não natural"
+},
+"1140110": {
+"orig": "Eu não me preocupo por dinheiro.",
+"nova": "Eu não estou preocupado com dinheiro.",
+"motivo": "regência errada"
+},
+"4502280": {
+"orig": "Quantos anos você tinha quando começou a estudar Francês?",
+"nova": "Quantos anos você tinha quando começou a estudar francês?",
+"motivo": "maiúscula indevida"
+},
+"3405193": {
+"orig": "Tom é uma pessoa que você pode confiar.",
+"nova": "Tom é uma pessoa em quem você pode confiar.",
+"motivo": "regência"
+},
+"7512932": {
+"orig": "Talvez o Tom não saiba que a Mary não queria fazer isso.",
+"nova": "Talvez o Tom não saiba que a Mary não fez isso.",
+"motivo": "sentido errado"
+},
+"2640129": {
+"orig": "Tom ficou surpreso com o bom desempenho de Mary.",
+"nova": "Tom pareceu surpreso com o bom desempenho de Mary.",
+"motivo": "looked = pareceu"
+},
+"2018887": {
+"orig": "Você não queria que o Tom morresse, quer?",
+"nova": "Você não queria que o Tom morresse, queria?",
+"motivo": "tempo na tag"
+},
+"5726149": {
+"orig": "Nós sabíamos que fomos melhor que isso.",
+"nova": "Nós sabíamos que éramos melhores que isso.",
+"motivo": "gramática/tempo"
+},
+"4134506": {
+"orig": "Tom disse que não sabia qual escola Maria frequentou.",
+"nova": "Tom disse que não sabia em qual escola Mary estudava.",
+"motivo": "nome trocado"
+},
+"7176321": {
+"orig": "Tom sabe que Maria não gosta dele.",
+"nova": "Tom sabe que Mary não gosta dele.",
+"motivo": "nome trocado"
+},
+"3442346": {
+"orig": "Tens de saber onde procurar.",
+"nova": "Você só tem que saber onde procurar.",
+"motivo": "pt-PT, faltava 'just'"
+},
+"6112517": {
+"orig": "Quando encontrarem Tom, avisem-me.",
+"nova": "Quando encontrarem o Tom, me avisem.",
+"motivo": "colocação pt-BR"
+},
+"1450785": {
+"orig": "Não tenho tempo para ler o livro.",
+"nova": "Não consigo encontrar tempo para ler o livro.",
+"motivo": "can't find time"
+},
+"3822791": {
+"orig": "Tom teve de esperar Maria.",
+"nova": "Tom teve de esperar Mary.",
+"motivo": "nome trocado"
+},
+"6340955": {
+"orig": "Mesmo se quiséssemos fazer aquilo, nós não temos tempo.",
+"nova": "Mesmo se quisermos fazer isso, não temos tempo.",
+"motivo": "tempo verbal"
+},
+"953278": {
+"orig": "Falaram-te do problema?",
+"nova": "Te falaram do problema?",
+"motivo": "pt-PT"
+},
+"1029308": {
+"orig": "Tom não sabia que Maria era casada.",
+"nova": "Tom não sabia que Mary era casada.",
+"motivo": "nome trocado"
+},
+"3826912": {
+"orig": "Nunca mais me ligue de novo.",
+"nova": "Nunca mais me ligue.",
+"motivo": "redundância"
+},
+"3195705": {
+"orig": "Você me conhece muito bem para saber que eu não faria isso.",
+"nova": "Você me conhece bem o suficiente para saber que eu não faria isso.",
+"motivo": "well enough"
+},
+"1028508": {
+"orig": "Tom ainda não está falando com Maria.",
+"nova": "Tom ainda não está falando com Mary.",
+"motivo": "nome trocado"
+},
+"7240000": {
+"orig": "Eu quero que todos saibam que não foi eu que fiz isso.",
+"nova": "Eu quero que todos saibam que não fui eu quem fez isso.",
+"motivo": "concordância"
+},
+"6661879": {
+"orig": "Você não tem idade o bastante para dirigir.",
+"nova": "Você ainda não tem idade o bastante para dirigir.",
+"motivo": "faltava 'yet'"
+},
+"5915782": {
+"orig": "Tom pensou que Maria fosse canadense.",
+"nova": "Tom pensou que Mary fosse canadense.",
+"motivo": "nome trocado"
+},
+"4789791": {
+"orig": "Tom não pode ir à escola, porque ele está no hospital.",
+"nova": "Tom não pôde ir à escola porque está no hospital.",
+"motivo": "tempo verbal"
+},
+"2540473": {
+"orig": "Eu ainda não sei se posso ficar aqui.",
+"nova": "Eu ainda não tenho certeza se vou poder estar lá.",
+"motivo": "sentido errado"
+},
+"5628215": {
+"orig": "Isso não me diz nada.",
+"nova": "Isso não me parece nada.",
+"motivo": "sentido alterado"
+},
+"5831964": {
+"orig": "Pensava que eu estava fazendo da maneira que você me disse.",
+"nova": "Pensei que estava fazendo isso do jeito que você me disse.",
+"motivo": "faltava objeto; tempo"
+},
+"2007381": {
+"orig": "Vamos lá ver o que podemos encontrar.",
+"nova": "Vamos ver o que conseguimos descobrir.",
+"motivo": "find out = descobrir"
+},
+"1514524": {
+"orig": "Tom perguntou a João qual era o sobrenome de Maria.",
+"nova": "Tom perguntou a John qual era o sobrenome de Mary.",
+"motivo": "nomes trocados"
+},
+"2645946": {
+"orig": "Tom e Maria estavam ocupados.",
+"nova": "Tom e Mary estavam ocupados.",
+"motivo": "nome trocado"
+},
+"8279905": {
+"orig": "Eu não era capaz de falar Francês quando cheguei lá.",
+"nova": "Eu não conseguia falar francês quando cheguei lá.",
+"motivo": "maiúscula indevida"
+},
+"1028425": {
+"orig": "Tom sabia que Maria era professora.",
+"nova": "Tom sabia que Mary era professora.",
+"motivo": "nome trocado"
+},
+"6247254": {
+"orig": "Eu não quero deixar o Tom esperando.",
+"nova": "Eu não queria deixar o Tom esperando.",
+"motivo": "tempo verbal"
+},
+"242776": {
+"orig": "Você quer nadar hoje?",
+"nova": "Você não quer nadar hoje?",
+"motivo": "faltava negação"
+},
+"1096238": {
+"orig": "Pelo que o Tom sabia, Maria poderia estar em Boston com o John.",
+"nova": "Pelo que o Tom sabia, Mary poderia estar em Boston com o John.",
+"motivo": "nome trocado"
+},
+"1230774": {
+"orig": "As pessoas aqui são acostumadas ao frio.",
+"nova": "As pessoas aqui estão acostumadas ao frio.",
+"motivo": "ser/estar"
+},
+"7507123": {
+"orig": "Tom não sabia que Maria estava estudando francês com João.",
+"nova": "Tom não sabia que Mary estava estudando francês com John.",
+"motivo": "nomes trocados"
+},
+"4943316": {
+"orig": "Isso é o que você precisa agora.",
+"nova": "Isso é exatamente o que você precisa agora.",
+"motivo": "just = exatamente"
+},
+"3822812": {
+"orig": "Tom não falou com Maria.",
+"nova": "Tom não falou com Mary.",
+"motivo": "nome trocado"
+},
+"2543212": {
+"orig": "Eu disse ao Tom que voltaria.",
+"nova": "Eu disse ao Tom que já voltaria.",
+"motivo": "faltava 'right'"
+},
+"4012395": {
+"orig": "Que é que você quer fazer amanhã?",
+"nova": "O que você gostaria de fazer amanhã?",
+"motivo": "forma lusitana; would like"
+},
+"3738805": {
+"orig": "Queres que to leia?",
+"nova": "Você quer que eu leia para você?",
+"motivo": "pt-PT"
+},
+"69583": {
+"orig": "Por que estás ocupado hoje?",
+"nova": "Por que você está ocupado hoje?",
+"motivo": "pt-PT (tu estás)"
+},
+"4784228": {
+"orig": "Você acha mesmo que o Tom será capaz de ajudar a Maria?",
+"nova": "Você acha mesmo que o Tom será capaz de ajudar a Mary?",
+"motivo": "nome trocado"
+},
+"7519227": {
+"orig": "Tom não sabe que Mary é comprometida.",
+"nova": "Tom não sabe que Mary é casada.",
+"motivo": "married = casada"
+},
+"2360132": {
+"orig": "Eu não tenho ideia qual é o problema do Tom.",
+"nova": "Eu não tenho ideia de qual é o problema do Tom.",
+"motivo": "regência"
+},
+"2540840": {
+"orig": "Tom e Maria estão conversando com João.",
+"nova": "Tom e Mary estão conversando com John.",
+"motivo": "nomes trocados"
+},
+"6530469": {
+"orig": "Antônio está trabalhando naquele problema.",
+"nova": "Tom está trabalhando naquele problema.",
+"motivo": "nome trocado"
+},
+"1348913": {
+"orig": "Tenho certeza de que gostarão do almoço.",
+"nova": "Tenho certeza de que você vai gostar deste almoço.",
+"motivo": "número/faltava 'this'"
+},
+"5360757": {
+"orig": "Tom estará em Boston semana que vem?",
+"nova": "Tom ainda estará em Boston na próxima segunda-feira?",
+"motivo": "sentido errado (Monday, still)"
+},
+"6108379": {
+"orig": "Todos os meninos da sala queriam se sentar no lado da Mary.",
+"nova": "Todos os meninos da sala queriam se sentar ao lado da Mary.",
+"motivo": "'no lado' → 'ao lado'"
+},
+"6356672": {
+"orig": "Foi o Tom que pediu à Maria para fazê-lo.",
+"nova": "Foi o Tom que pediu à Mary para fazer isso.",
+"motivo": "nome trocado"
+},
+"6345944": {
+"orig": "Achas que tenho de fazer isso outra vez?",
+"nova": "Você acha que eu tenho que fazer isso outra vez?",
+"motivo": "pt-PT"
+},
+"68656": {
+"orig": "Deixe-me ver este livro que pertence a Tom.",
+"nova": "Deixe-me ver aquele livro do Tom.",
+"motivo": "that ≠ este"
+},
+"401045": {
+"orig": "Meu irmão não gosta dela, desde a primeira vez que a encontrou.",
+"nova": "Meu irmão não gostou dela desde a primeira vez que a conheceu.",
+"motivo": "tempo verbal"
+},
+"3368233": {
+"orig": "Sinto muito. Isso é tudo que eu recordo realmente.",
+"nova": "Sinto muito. Isso é tudo de que eu realmente me lembro.",
+"motivo": "pouco natural"
+},
+"7517458": {
+"orig": "Eu não sabia que você não cantava.",
+"nova": "Eu não sabia que você não sabia cantar.",
+"motivo": "couldn't = não sabia"
+},
+"2288880": {
+"orig": "Você não tem trabalho que fazer?",
+"nova": "Você não tem trabalho para fazer?",
+"motivo": "pouco natural"
+},
+"3201156": {
+"orig": "Disseram-me que voltasse aqui.",
+"nova": "Me disseram para voltar aqui.",
+"motivo": "pt-PT"
+},
+"1936388": {
+"orig": "Eu tenho algo que quero dizer.",
+"nova": "Eu gostaria de dizer uma coisa.",
+"motivo": "sentido alterado"
+},
+"5101986": {
+"orig": "Você sabe de certeza que aquele era Tom?",
+"nova": "Você sabe com certeza que aquele era o Tom?",
+"motivo": "pt-PT"
+},
+"6346309": {
+"orig": "Eu sabia que o Tom deveria fazer aquilo.",
+"nova": "Eu sabia que o Tom teria que fazer aquilo.",
+"motivo": "would have to"
+},
+"2764177": {
+"orig": "Eu não quero viver convosco.",
+"nova": "Eu não quero morar com você.",
+"motivo": "pt-PT (convosco)"
+},
+"37385": {
+"orig": "Tom e João são bons amigos.",
+"nova": "Tom e John são bons amigos.",
+"motivo": "nome trocado"
+},
+"7198253": {
+"orig": "Isso não será um problema.",
+"nova": "Isso não vai ser problema nenhum.",
+"motivo": "faltava 'at all'"
+},
+"2401214": {
+"orig": "Tom queria se casar com Maria.",
+"nova": "Tom queria se casar com Mary.",
+"motivo": "nome trocado"
+},
+"3203818": {
+"orig": "Lhes dirás quem és tu?",
+"nova": "Você vai dizer a eles quem você é?",
+"motivo": "pt-PT/arcaico"
+},
+"2641166": {
+"orig": "Isso tem de ser o que nós estávamos procurando.",
+"nova": "Isso tem de ser o que nós estamos procurando.",
+"motivo": "tempo verbal"
+},
+"5853125": {
+"orig": "Eu acho que não encontraremos alguém que possa fazer isso por nós.",
+"nova": "Eu acho que não vamos encontrar ninguém que possa fazer isso por nós.",
+"motivo": "alguém → ninguém"
+},
+"3023941": {
+"orig": "Tom veio de Boston na semana antes da semana passada.",
+"nova": "Tom voltou de Boston na semana retrasada.",
+"motivo": "pouco natural"
+},
+"2291197": {
+"orig": "Não dormi muito esta noite.",
+"nova": "Não dormi muito ontem à noite.",
+"motivo": "last night"
+},
+"8597782": {
+"orig": "Pensei que você tivesse dito que sabia que Tom poderia fazer isso sozinho.",
+"nova": "Pensei que você tivesse dito que sabia que o Tom talvez tivesse que fazer isso sozinho.",
+"motivo": "faltava 'have to'"
+},
+"6358081": {
+"orig": "Tom disse que Maria não vai vencer.",
+"nova": "Tom disse que Mary não vai vencer.",
+"motivo": "nome trocado"
+},
+"3736181": {
+"orig": "Há uma verdade no que o Tom diz.",
+"nova": "Há alguma verdade no que o Tom diz.",
+"motivo": "some truth"
+},
+"1543660": {
+"orig": "Alguém lembra por que nós decidimos fazer aquilo?",
+"nova": "Alguém lembra por que nós decidimos fazer isso?",
+"motivo": "this ≠ aquilo"
+},
+"2361760": {
+"orig": "Eu te falei que isso não funcionou..",
+"nova": "Eu te falei que isso não funcionava.",
+"motivo": "pontuação dupla; tempo"
+},
+"7520676": {
+"orig": "Sabes que tinhas razão.",
+"nova": "Você sabe que tinha razão.",
+"motivo": "pt-PT"
+},
+"5371608": {
+"orig": "Por que o Tom pediu para a Mary para fazer isso?",
+"nova": "Por que o Tom pediu para a Mary fazer isso?",
+"motivo": "redundância"
+},
+"3826251": {
+"orig": "Isso é o que você realmente acredita?",
+"nova": "É nisso que você realmente acredita?",
+"motivo": "regência"
+},
+"7199017": {
+"orig": "Não é Tom que precisa de fazer isso. Sou eu.",
+"nova": "Não é o Tom que precisa fazer isso. Sou eu.",
+"motivo": "pt-PT"
+},
+"7185936": {
+"orig": "Sinto muito por não deixá-lo fazer isso.",
+"nova": "Sinto muito por não ter deixado você fazer isso.",
+"motivo": "tempo verbal"
+},
+"8341501": {
+"orig": "Quando você estará voltando para Boston?",
+"nova": "Quando você vai voltar para Boston?",
+"motivo": "gerundismo"
+},
+"5904702": {
+"orig": "Tom não sabia que Maria estava estudando francês com João.",
+"nova": "Tom não sabia que Mary estava estudando francês com John.",
+"motivo": "nomes trocados"
+},
+"8392233": {
+"orig": "Tom não parecia surpreso que Mary não tinha feito isso.",
+"nova": "Tom não parecia surpreso que Mary não tivesse feito isso.",
+"motivo": "modo verbal"
+},
+"1868473": {
+"orig": "Tom e Maria não têm medo de João.",
+"nova": "Tom e Mary não têm medo de John.",
+"motivo": "nomes trocados"
+},
+"6730748": {
+"orig": "Tom sabia que Maria estava com João.",
+"nova": "Tom sabia que Mary estava com John.",
+"motivo": "nomes trocados"
+},
+"3731160": {
+"orig": "Como é que eles descobriram o Tomás?",
+"nova": "Como é que eles ficaram sabendo do Tom?",
+"motivo": "nome trocado; sentido"
+},
+"2645781": {
+"orig": "Tom disse que Maria estava ocupada.",
+"nova": "Tom disse que Mary estava ocupada.",
+"motivo": "nome trocado"
+},
+"6248608": {
+"orig": "Tente chegar lá antes do Tom.",
+"nova": "Tente chegar aqui antes do Tom.",
+"motivo": "here = aqui"
+},
+"6126313": {
+"orig": "Tom foi quem fez o trabalho.",
+"nova": "Tom foi quem fez esse trabalho.",
+"motivo": "that job"
+},
+"8505603": {
+"orig": "Estás a fazer alguma coisa de errado.",
+"nova": "Você está fazendo alguma coisa errada.",
+"motivo": "pt-PT"
+},
+"4743817": {
+"orig": "Tom nunca vai confiar em mim de novo.",
+"nova": "Tom nunca mais vai acreditar em mim.",
+"motivo": "believe = acreditar"
+},
+"6261002": {
+"orig": "Eu me cansei muito de fazer isso.",
+"nova": "Eu fiquei muito cansado fazendo isso.",
+"motivo": "sentido"
+},
+"3638788": {
+"orig": "Não sabia que andavas à minha procura.",
+"nova": "Eu não sabia que você estava me procurando.",
+"motivo": "pt-PT"
+},
+"5181137": {
+"orig": "É melhor não deixar a mesma coisa acontecer com a gente.",
+"nova": "Não vamos deixar a mesma coisa acontecer com a gente.",
+"motivo": "let's not"
+},
+"2641687": {
+"orig": "Tom e Maria estavam cansados de esperar.",
+"nova": "Tom e Mary estavam cansados de esperar.",
+"motivo": "nome trocado"
+},
+"306456": {
+"orig": "Eles não cuidam do cachorro.",
+"nova": "Eles não cuidam daquele cachorro.",
+"motivo": "that dog"
+},
+"5623242": {
+"orig": "Nós provavelmente não temos dinheiro para comprar isso.",
+"nova": "Nós provavelmente não temos dinheiro suficiente para comprar isso.",
+"motivo": "enough faltando"
+},
+"6348595": {
+"orig": "Não tenho certeza se Tom pode nadar.",
+"nova": "Não tenho certeza se o Tom sabe nadar.",
+"motivo": "can swim = sabe nadar"
+},
+"8277211": {
+"orig": "Não tinha certeza que você gostava disso.",
+"nova": "Eu não tinha certeza de que você gostaria disso.",
+"motivo": "tempo verbal"
+},
+"276340": {
+"orig": "Há alguém aqui que saiba dirigir?",
+"nova": "Há alguém que saiba dirigir?",
+"motivo": "acréscimo"
+},
+"4730907": {
+"orig": "Tom me contaria a vontade, tenho certeza.",
+"nova": "Tom me contaria a verdade, tenho certeza.",
+"motivo": "vontade → verdade"
+},
+"8271755": {
+"orig": "Tom disse a Mary que poderia encontrá-la na Segunda-Feira.",
+"nova": "Tom disse a Mary que poderia encontrá-la na segunda-feira.",
+"motivo": "maiúsculas"
+},
+"924413": {
+"orig": "Sem a sua ajuda, ele não terminaria a tempo.",
+"nova": "Sem a sua ajuda, nós não teríamos terminado a tempo.",
+"motivo": "pessoa errada"
+},
+"5455319": {
+"orig": "Não confie em ninguém, inclusive Tom.",
+"nova": "Não confie em ninguém, nem mesmo no Tom.",
+"motivo": "not even"
+},
+"3822552": {
+"orig": "Há mais alguma coisa que me tenha a dizer?",
+"nova": "Há alguma coisa que você tenha que me dizer?",
+"motivo": "acréscimo; pt-PT"
+},
+"2014655": {
+"orig": "Não quero mexer no seu dinheiro.",
+"nova": "Não quero pegar o seu dinheiro.",
+"motivo": "take = pegar"
+},
+"6250042": {
+"orig": "Tom perguntou se ele realmente tem que fazer aquilo.",
+"nova": "Tom perguntou se ele realmente tinha que fazer aquilo.",
+"motivo": "tempo verbal"
+},
+"3529320": {
+"orig": "Por favor, não deixe-nos aqui.",
+"nova": "Por favor, não nos deixe aqui.",
+"motivo": "colocação pronominal"
+},
+"4493906": {
+"orig": "Não há nada melhor que isto.",
+"nova": "Não há nada melhor que isso.",
+"motivo": "that = isso"
+},
+"6342846": {
+"orig": "Eu não tenho ideia do por que Tom não fez isso.",
+"nova": "Eu não tenho ideia de por que o Tom não fez isso.",
+"motivo": "gramática"
+},
+"5189288": {
+"orig": "Eu sou acostumado a dormir mais.",
+"nova": "Eu estou acostumado a dormir mais.",
+"motivo": "gramática"
+},
+"3041872": {
+"orig": "Tom provavelmente não lembra qual é a aparência de Maria.",
+"nova": "Tom provavelmente não lembra qual é a aparência da Mary.",
+"motivo": "nome trocado"
+},
+"3330687": {
+"orig": "Eu acho que conheço o Tom tão bem quanto todo o mundo.",
+"nova": "Eu acho que conheço o Tom tão bem quanto qualquer pessoa.",
+"motivo": "as well as anybody"
+},
+"8595598": {
+"orig": "Tom e eu costumávamos almoçar juntos.",
+"nova": "Tom e eu costumávamos almoçar juntos com frequência.",
+"motivo": "often faltando"
+},
+"8226853": {
+"orig": "Que tal ficarmos juntos na segunda à noite?",
+"nova": "Que tal nos encontrarmos na segunda à noite?",
+"motivo": "getting together"
+},
+"2643310": {
+"orig": "Tom e Maria devem estar preocupados.",
+"nova": "Tom e Mary devem estar preocupados.",
+"motivo": "nome trocado"
+},
+"7179849": {
+"orig": "Tom disse que eu pareci muito doente.",
+"nova": "Tom disse que eu parecia muito doente.",
+"motivo": "tempo verbal"
+},
+"3172189": {
+"orig": "O Tom sabe que você gosta da Maria?",
+"nova": "O Tom sabe que você gosta da Mary?",
+"motivo": "nome trocado"
+},
+"7644688": {
+"orig": "Seria melhor falar com Tom.",
+"nova": "Seria melhor você falar com o Tom.",
+"motivo": "for you faltando"
+},
+"1887083": {
+"orig": "Eu sempre soube que o Tomás voltaria.",
+"nova": "Eu sempre soube que o Tom voltaria.",
+"motivo": "nome trocado"
+},
+"6833232": {
+"orig": "Eu tentarei não me meter no teu caminho.",
+"nova": "Eu vou tentar não te atrapalhar.",
+"motivo": "get in your way"
+},
+"1029059": {
+"orig": "Tom não gosta muito da ideia de Maria.",
+"nova": "Tom não gosta muito da ideia da Mary.",
+"motivo": "nome trocado"
+},
+"1955054": {
+"orig": "Não posso pensar sobre mais nada.",
+"nova": "Não consigo pensar em mais nada.",
+"motivo": "pouco natural"
+},
+"2540644": {
+"orig": "Eu estava falando com a sua mãe ainda agora.",
+"nova": "Eu estava falando com a sua mãe agora mesmo.",
+"motivo": "pt-PT"
+},
+"6347594": {
+"orig": "O Tom não precisa acordar tão cedo.",
+"nova": "O Tom não precisava acordar tão cedo.",
+"motivo": "tempo verbal"
+},
+"51187": {
+"orig": "Isso pode ser verdade, mas eu realmente acho que não.",
+"nova": "Isso pode ser verdade, mas, na verdade, eu acho que não.",
+"motivo": "sentido"
+},
+"2034060": {
+"orig": "Sei que queres estar sozinha, por isso vou-me embora.",
+"nova": "Eu sei que você provavelmente quer ficar sozinha, então vou embora.",
+"motivo": "pt-PT; probably faltando"
+},
+"9015760": {
+"orig": "Não será tão engraçado quanto você pensa.",
+"nova": "Não vai ser tão divertido quanto você pensa.",
+"motivo": "fun = divertido"
+},
+"6350838": {
+"orig": "O Tom vai ganhar, eu tenho certeza.",
+"nova": "O Tom vai ganhar, tenho quase certeza.",
+"motivo": "pretty sure"
+},
+"2046918": {
+"orig": "Estou simplesmente ocupado demais para comer agora.",
+"nova": "Estou simplesmente ocupado demais para parar para almoçar agora.",
+"motivo": "informação a menos"
+},
+"3737123": {
+"orig": "Tom não tem de ir para a escola na segunda-feira.",
+"nova": "Tom não tem de ir para a escola na próxima segunda-feira.",
+"motivo": "next faltando"
+},
+"4030809": {
+"orig": "Você não precisa responder a esta pergunta.",
+"nova": "Você não precisa responder a essa pergunta.",
+"motivo": "that = essa"
+},
+"1030108": {
+"orig": "Será que Tom sabe cantar tão bem quanto Maria?",
+"nova": "Será que Tom sabe cantar tão bem quanto a Mary?",
+"motivo": "nome trocado"
+},
+"2958485": {
+"orig": "Tom estava um pouco surpreso pelo quão bem Mary podia falar Francês.",
+"nova": "Tom ficou um pouco surpreso com o quão bem a Mary sabia falar francês.",
+"motivo": "maiúscula; naturalidade"
+},
+"5203701": {
+"orig": "Eu acho que o Tom e a Maria estão mentindo.",
+"nova": "Eu acho que tanto o Tom quanto a Mary estão mentindo.",
+"motivo": "nome trocado; both"
+},
+"8893576": {
+"orig": "Eu não caio nessa de fazer algo assim.",
+"nova": "Eu sei que não devo fazer algo assim.",
+"motivo": "sentido"
+},
+"8902219": {
+"orig": "Tom quer ser convidado a fazer isso de novo.",
+"nova": "Tom quer que peçam para ele fazer isso de novo.",
+"motivo": "asked = pedir"
+},
+"3734060": {
+"orig": "Tom queria que Maria estudasse francês.",
+"nova": "Tom queria que a Mary estudasse francês.",
+"motivo": "nome trocado"
+},
+"6225235": {
+"orig": "Tom disse que Mary deveria fazer isso sozinha.",
+"nova": "Tom disse que Mary não deveria ter feito isso sozinha.",
+"motivo": "sentido invertido"
+},
+"2643039": {
+"orig": "Eu achei que Tom deveria estar com fome.",
+"nova": "Eu achei que o Tom estaria com fome.",
+"motivo": "would be = estaria"
+},
+"8271756": {
+"orig": "Tom disse a Mary que poderia encontrá-la na Segunda-Feira.",
+"nova": "Tom disse a Mary que poderia encontrá-la na segunda-feira.",
+"motivo": "maiúsculas"
+},
+"7548996": {
+"orig": "Não sei nada sobre isso.",
+"nova": "Não sei absolutamente nada sobre isso.",
+"motivo": "at all faltando"
+},
+"3068830": {
+"orig": "Tom quer falar com você.",
+"nova": "Tom gostaria de falar com você.",
+"motivo": "would like"
+},
+"6125444": {
+"orig": "Tom não quer que Maria compre isso.",
+"nova": "Tom não quer que a Mary compre isso.",
+"motivo": "nome trocado"
+},
+"6344300": {
+"orig": "Foi pedido a Tom para não fazer isso novamente.",
+"nova": "Pediram ao Tom que não fizesse isso novamente.",
+"motivo": "pouco natural"
+},
+"8936862": {
+"orig": "Tom não quer que fiquemos.",
+"nova": "Tom não vai querer que fiquemos.",
+"motivo": "tempo verbal"
+},
+"2028396": {
+"orig": "Conto-te tudo o que quiseres.",
+"nova": "Eu vou te contar tudo o que você quiser saber.",
+"motivo": "pt-PT"
+},
+"5570988": {
+"orig": "Tom não estava totalmente ocupado.",
+"nova": "Tom não estava nada ocupado.",
+"motivo": "sentido errado"
+},
+"3123519": {
+"orig": "O que você não gosta sobre o seu trabalho?",
+"nova": "Do que você não gosta no seu trabalho?",
+"motivo": "gramática"
+},
+"8864918": {
+"orig": "Gostaria de ter mais tempo para ajudá-lo.",
+"nova": "Eu gostaria de ter tido mais tempo para ajudá-lo.",
+"motivo": "tempo verbal"
+},
+"4937833": {
+"orig": "Você acha que não vai acontecer?",
+"nova": "Você ainda acha que não vai acontecer?",
+"motivo": "still faltando"
+},
+"6336402": {
+"orig": "Eu me pergunto se o Tom disse ou não para a Mary que ela tinha que fazer isso.",
+"nova": "Eu me pergunto se o Tom disse à Mary que ela tinha que fazer isso.",
+"motivo": "acréscimo"
+},
+"4016190": {
+"orig": "O que você acha que seja a coisa certa a se fazer?",
+"nova": "O que você acha que é a coisa certa a se fazer?",
+"motivo": "modo verbal"
+},
+"2641337": {
+"orig": "Tom e Maria estão esperando o ônibus.",
+"nova": "Tom e Mary estão esperando o ônibus.",
+"motivo": "nome trocado"
+},
+"1027542": {
+"orig": "Eu ouvi falar que o Tom estava trabalhando com você noite passada. Isso é verdade?",
+"nova": "Eu ouvi falar que o Tom estava trabalhando até tarde com você ontem à noite. Isso é verdade?",
+"motivo": "late faltando"
+},
+"6683568": {
+"orig": "Acho ser a única pessoa capaz de ajudar o Tom com isso.",
+"nova": "Eu provavelmente sou a única pessoa que pode ajudar o Tom a fazer isso.",
+"motivo": "probably faltando"
+},
+"8812019": {
+"orig": "Estou dando o meu melhor para ter tudo pronto na segunda-feira.",
+"nova": "Estou fazendo o meu melhor para terminar tudo até segunda-feira.",
+"motivo": "by = até"
+},
+"3023503": {
+"orig": "Tom sabe que Maria está com fome.",
+"nova": "Tom sabe que a Mary está com fome.",
+"motivo": "nome trocado"
+},
+"1094269": {
+"orig": "O Tom não quer que a verdade apareça.",
+"nova": "O Tom não quer que a verdade venha à tona.",
+"motivo": "sentido"
+},
+"6760173": {
+"orig": "Eu não fiquei quando o Tom me contou que a Mary não precisava fazer aquilo.",
+"nova": "Eu não fiquei surpreso quando o Tom me contou que a Mary não precisava fazer aquilo.",
+"motivo": "palavra faltando"
+},
+"6708672": {
+"orig": "Eu ainda me sinto mal por ter mentido pra Tom.",
+"nova": "Eu ainda me sinto mal por ter mentido para o Tom.",
+"motivo": "gramática"
+},
+"5516997": {
+"orig": "O Tom sabia o que a Mary queria comer.",
+"nova": "O Tom sabia onde a Mary queria comer.",
+"motivo": "where = onde"
+},
+"1860557": {
+"orig": "Me diga de novo, porque você quer que eu faça aquilo.",
+"nova": "Me diga de novo por que você quer que eu faça aquilo.",
+"motivo": "por que"
+},
+"5179261": {
+"orig": "Vamos ver se conseguimos fazer um bom trabalho.",
+"nova": "Vamos ver quão bem conseguimos fazer esse trabalho.",
+"motivo": "sentido"
+},
+"2182817": {
+"orig": "Tu não vai acreditar.",
+"nova": "Você não vai acreditar nisso.",
+"motivo": "concordância"
+},
+"3737899": {
+"orig": "Alguém sabe porque o Tom não está aqui?",
+"nova": "Alguém sabe por que o Tom não está aqui?",
+"motivo": "por que"
+},
+"6897978": {
+"orig": "Ninguém quer falar com você mais.",
+"nova": "Ninguém mais quer falar com você.",
+"motivo": "ordem"
+},
+"6125744": {
+"orig": "O Tom não sabia que isso iria acontecer.",
+"nova": "O Tom não achava que isso iria acontecer.",
+"motivo": "think = achar"
+},
+"6196908": {
+"orig": "Há ainda uma coisa que eu não percebo.",
+"nova": "Ainda há uma coisa que eu não entendo.",
+"motivo": "pt-PT"
+},
+"5469049": {
+"orig": "O Tom se divertiu com a Mary e os seus amigos.",
+"nova": "O Tom se divertiu com a Mary e os amigos dela.",
+"motivo": "ambiguidade"
+},
+"6336722": {
+"orig": "Será que Tom sabia por que Maria precisava fazer aquilo?",
+"nova": "Será que o Tom sabia que a Mary precisava fazer aquilo?",
+"motivo": "acréscimo; nome trocado"
+},
+"6760175": {
+"orig": "Eu não fiquei quando o Tom me contou que a Mary não queria fazer aquilo.",
+"nova": "Eu não fiquei surpreso quando o Tom me contou que a Mary não queria fazer aquilo.",
+"motivo": "palavra faltando"
+},
+"6124076": {
+"orig": "Foi para o Tom que você pediu para fazer isso?",
+"nova": "Foi o Tom que pediu para você fazer isso?",
+"motivo": "sentido invertido"
+},
+"6730667": {
+"orig": "Não pensei em nada disso na hora.",
+"nova": "Na hora, eu não dei importância a isso.",
+"motivo": "sentido errado"
+},
+"6525345": {
+"orig": "Tom e Mary chegaram aqui tarde.",
+"nova": "Tanto o Tom quanto a Mary chegaram aqui tarde.",
+"motivo": "both faltando"
+},
+"6255646": {
+"orig": "O Tom disse que isso não aconteceria daquela maneira.",
+"nova": "O Tom disse que isso não aconteceu daquela maneira.",
+"motivo": "tempo verbal"
+},
+"6125545": {
+"orig": "O Tom devia de dizer à Mary para fazer isso.",
+"nova": "O Tom deveria dizer à Mary que ela precisa fazer isso.",
+"motivo": "gramática; sentido"
+},
+"7152638": {
+"orig": "Tom quer dois de nós para ir para a Austrália com ele na segunda.",
+"nova": "Tom quer que dois de nós vão para a Austrália com ele na segunda.",
+"motivo": "pouco natural"
+},
+"260642": {
+"orig": "Eu não sabia como responder a sua questão.",
+"nova": "Eu não sabia como responder à pergunta dele.",
+"motivo": "his; naturalidade"
+},
+"41508": {
+"orig": "Se você comer muito, ficará doente.",
+"nova": "Se você comer tanto, vai ficar doente.",
+"motivo": "so much = tanto"
+},
+"4663343": {
+"orig": "Tom não quer que Maria cante em sua festa.",
+"nova": "Tom não quer que a Mary cante na festa dele.",
+"motivo": "nome trocado"
+},
+"5729639": {
+"orig": "Eu tenho certeza de que o Tom está ok com isso.",
+"nova": "Eu tenho quase certeza de que o Tom está de acordo com isso.",
+"motivo": "pretty sure"
+},
+"6342419": {
+"orig": "Tom e eu frequentemente não concordamos um com o outro.",
+"nova": "Tom e eu não costumamos concordar um com o outro.",
+"motivo": "sentido"
+},
+"2408217": {
+"orig": "Eu acho que Tom e Maria estão certos.",
+"nova": "Eu acho que Tom e Mary estão certos.",
+"motivo": "nome trocado"
+},
+"3820987": {
+"orig": "Isso é tudo o que eu queria dizer.",
+"nova": "Isso é tudo o que eu quero dizer.",
+"motivo": "tempo verbal"
+},
+"6630635": {
+"orig": "Estou realmente encantado.",
+"nova": "Estou muito feliz com isso.",
+"motivo": "sentido"
+},
+"7214698": {
+"orig": "Tom me disse que queria parar de fazer isso.",
+"nova": "Tom me disse que queria que eu parasse de fazer isso.",
+"motivo": "sentido errado"
+},
+"1390": {
+"orig": "Há um problema que você não consegue ver.",
+"nova": "Há um problema ali que você não está vendo.",
+"motivo": "there faltando"
+},
+"6871259": {
+"orig": "Eu realmente acredito que isso não vá acontecer.",
+"nova": "Eu realmente acredito que isso não vai acontecer.",
+"motivo": "modo verbal"
+},
+"2210775": {
+"orig": "Por que você não pede ajuda?",
+"nova": "Por que você simplesmente não pede ajuda?",
+"motivo": "just faltando"
+},
+"8226901": {
+"orig": "Realmente gostaria de estudar Francês.",
+"nova": "Eu realmente gostaria de estudar francês.",
+"motivo": "maiúscula"
+},
+"3737935": {
+"orig": "Você vai comprar alguma coisa?",
+"nova": "Você vai comprar mais alguma coisa?",
+"motivo": "else faltando"
+},
+"6003748": {
+"orig": "Tom e Maria se divertiram muito juntos.",
+"nova": "Tom e Mary se divertiram muito juntos.",
+"motivo": "nome trocado"
+},
+"5277594": {
+"orig": "Tom nada melhor do que Maria.",
+"nova": "Tom nada melhor do que a Mary.",
+"motivo": "nome trocado"
+},
+"1029247": {
+"orig": "Tom não queria que Maria dirigisse o seu carro.",
+"nova": "Tom não queria que a Mary dirigisse o carro dele.",
+"motivo": "nome trocado"
+},
+"6124960": {
+"orig": "O Tom sabia que a Mary não estava com muito medo.",
+"nova": "O Tom sabia que a Mary não estava realmente com medo.",
+"motivo": "really = realmente"
+},
+"7519085": {
+"orig": "Eu sabia que Tom não gostou de fazer isso.",
+"nova": "Eu sabia que o Tom não gostava de fazer isso.",
+"motivo": "tempo verbal"
+},
+"3618906": {
+"orig": "Não quero que o Tom te veja mais.",
+"nova": "Não queremos que o Tom te veja mais.",
+"motivo": "pessoa errada"
+},
+"2541047": {
+"orig": "Eu queria que você não me chamasse daquilo.",
+"nova": "Eu queria que você não me chamasse assim.",
+"motivo": "naturalidade"
+},
+"8240854": {
+"orig": "Eu estudo Francês quase todos os dias.",
+"nova": "Eu estudo francês quase todos os dias.",
+"motivo": "maiúscula"
+},
+"8355729": {
+"orig": "Tom não gosta de sua professora de Francês.",
+"nova": "Tom não gosta da professora de francês dele.",
+"motivo": "maiúscula"
+},
+"5374936": {
+"orig": "Tom sabia que Maria estava com fome.",
+"nova": "Tom sabia que a Mary estava com fome.",
+"motivo": "nome trocado"
+},
+"4795904": {
+"orig": "Tom não é alguém que você deveria confiar.",
+"nova": "Tom não é alguém em quem você deveria confiar.",
+"motivo": "regência"
+},
+"3436558": {
+"orig": "Que hora Tom veio para casa?",
+"nova": "A que horas o Tom chegou em casa?",
+"motivo": "gramática"
+},
+"3587322": {
+"orig": "Por que você sabe muito sobre a Austrália?",
+"nova": "Por que você sabe tanto sobre a Austrália?",
+"motivo": "so much = tanto"
+},
+"3723347": {
+"orig": "Não sei como ser feliz mais.",
+"nova": "Não sei mais como ser feliz.",
+"motivo": "ordem"
+},
+"873071": {
+"orig": "São seus filhos que estão atrasados.",
+"nova": "Foram os seus filhos que se atrasaram.",
+"motivo": "tempo verbal"
+},
+"3310765": {
+"orig": "Nós vamos cuidar do Tom.",
+"nova": "Nós vamos cuidar bem do Tom.",
+"motivo": "faltava 'bem'"
+},
+"2821118": {
+"orig": "Espero que você e seus amigos se divirtam aqui.",
+"nova": "Espero que você e seu amigo se divirtam aqui.",
+"motivo": "número trocado"
+},
+"7003205": {
+"orig": "Eu não contei a ninguém que nós estávamos aqui.",
+"nova": "Eu não contei a ninguém que você estava aqui.",
+"motivo": "pessoa trocada"
+},
+"6124912": {
+"orig": "O Tom encontrou uma maneira fácil de fazer dinheiro.",
+"nova": "O Tom encontrou uma maneira fácil de ganhar dinheiro.",
+"motivo": "anglicismo"
+},
+"9153878": {
+"orig": "Você deve realizar os seus planos.",
+"nova": "Você precisa fazer o que disse que faria.",
+"motivo": "sentido alterado"
+},
+"3733628": {
+"orig": "Tom queria que Maria aprendesse a dirigir.",
+"nova": "Tom queria que Mary aprendesse a dirigir.",
+"motivo": "nome trocado"
+},
+"8240421": {
+"orig": "Você estará voltando para Boston com Tom na próxima semana?",
+"nova": "Você vai vir a Boston com o Tom na semana que vem?",
+"motivo": "sentido errado (voltando)"
+},
+"5834901": {
+"orig": "Eu preciso chegar em casa.",
+"nova": "Eu preciso mesmo ir para casa.",
+"motivo": "faltava 'really'"
+},
+"73754": {
+"orig": "\"Você tem alguma coisa para fazer?\" \"Não, nada mesmo.\"",
+"nova": "\"Você tem alguma coisa para fazer?\" \"Não, na verdade não.\"",
+"motivo": "sentido de 'not really'"
+},
+"6126287": {
+"orig": "Para que o Tom quer isso?",
+"nova": "Para que o Tom quer fazer isso?",
+"motivo": "faltava 'fazer'"
+},
+"2044604": {
+"orig": "Me alegraria fazer assim.",
+"nova": "Eu ficaria feliz em fazer isso.",
+"motivo": "tradução não natural"
+},
+"2645159": {
+"orig": "Por que vocês são todos tão ocupados?",
+"nova": "Por que vocês estão todos tão ocupados?",
+"motivo": "ser/estar"
+},
+"5482623": {
+"orig": "Há algo muito errado.",
+"nova": "Agora tem algo realmente errado.",
+"motivo": "faltava 'agora'"
+},
+"4496019": {
+"orig": "Algumas pessoas poderão acreditar em qualquer coisa.",
+"nova": "Algumas pessoas acreditam em qualquer coisa.",
+"motivo": "tempo/modalidade"
+},
+"5228815": {
+"orig": "Tom disse que não gostava mais de Maria.",
+"nova": "Tom disse que não gostava mais da Mary.",
+"motivo": "nome trocado"
+},
+"5836399": {
+"orig": "Isso tem sido um problema pelos últimos três anos.",
+"nova": "Isso tem sido um problema nos últimos três anos.",
+"motivo": "anglicismo"
+},
+"8866748": {
+"orig": "Vamos saber o que vai acontecer.",
+"nova": "Nos avise o que vai acontecer.",
+"motivo": "sentido errado"
+},
+"4248322": {
+"orig": "O que o médico acha que está errado com Tom?",
+"nova": "O que o médico acha que o Tom tem?",
+"motivo": "anglicismo"
+},
+"7156772": {
+"orig": "Tom deve ir para a Austrália com Mary na segunda-feira que vem.",
+"nova": "Tom pode ir para a Austrália com a Mary na segunda-feira que vem.",
+"motivo": "modalidade (might)"
+},
+"1092828": {
+"orig": "Tom acha que sabe quando Maria está mentindo.",
+"nova": "Tom acha que sabe quando Mary está mentindo.",
+"motivo": "nome trocado"
+},
+"6255610": {
+"orig": "O Tom disse que esse não é o que ele queria.",
+"nova": "O Tom disse que isso não é o que ele queria.",
+"motivo": "gramática"
+},
+"6241158": {
+"orig": "Tom disse que ele foi solicitado a não fazer isso novamente.",
+"nova": "Tom disse que pediram para ele não fazer isso de novo.",
+"motivo": "tradução não natural"
+},
+"6250433": {
+"orig": "Eu não sei porque o Tom está com medo.",
+"nova": "Eu não sei por que o Tom está com medo.",
+"motivo": "ortografia (por que)"
+},
+"69116": {
+"orig": "Você fala francês muito bem. Eu gostaria de poder falar bem como você.",
+"nova": "Você fala francês muito bem. Eu gostaria de poder falar tão bem quanto você.",
+"motivo": "faltava 'tão'"
+},
+"7545338": {
+"orig": "Não há mais nada a fazer.",
+"nova": "Não há mais nada que tenhamos que fazer.",
+"motivo": "faltava 'we have to'"
+},
+"5696016": {
+"orig": "Tom não queria que Maria se machucasse.",
+"nova": "Tom não queria que Mary se machucasse.",
+"motivo": "nome trocado"
+},
+"243997": {
+"orig": "A primeira coisa a fazer é chamar pelo médico.",
+"nova": "A primeira coisa a fazer era chamar o médico.",
+"motivo": "tempo verbal"
+},
+"7503803": {
+"orig": "Sei que não está vindo a minha festa, mas queria que viesse.",
+"nova": "Sei que você não vem à minha festa, mas queria que viesse.",
+"motivo": "crase/naturalidade"
+},
+"5677692": {
+"orig": "Tom não queria falar com Maria.",
+"nova": "Tom não queria falar com Mary.",
+"motivo": "nome trocado"
+},
+"3424440": {
+"orig": "Por que não simplesmente fazer o que lhe foi pedido que fizesse?",
+"nova": "Por que não simplesmente fazer o que lhe pediram?",
+"motivo": "redação truncada"
+},
+"5178310": {
+"orig": "Deixe-nos saber como podemos te ajudar.",
+"nova": "Nos diga como podemos te ajudar.",
+"motivo": "anglicismo"
+},
+"7176324": {
+"orig": "Tom sabe que Maria não fala francês.",
+"nova": "Tom sabe que Mary não fala francês.",
+"motivo": "nome trocado"
+},
+"7150209": {
+"orig": "Você estará indo para Austrália com quem?",
+"nova": "Com quem você vai para a Austrália?",
+"motivo": "gerundismo"
+},
+"5784253": {
+"orig": "Tom mandou Mary pedir ajudar a John.",
+"nova": "Tom mandou a Mary pedir ajuda ao John.",
+"motivo": "erro gramatical"
+},
+"8930066": {
+"orig": "Tom não precisa falar Francês no seu emprego.",
+"nova": "Tom não precisa falar francês no seu emprego.",
+"motivo": "maiúscula indevida"
+},
+"7513413": {
+"orig": "Não sabia que andavas à minha procura.",
+"nova": "Eu não sabia que você estava me procurando.",
+"motivo": "pt-PT"
+},
+"6252026": {
+"orig": "Tom não se lembra como chegou em casa.",
+"nova": "Tom não se lembra de como chegou em casa.",
+"motivo": "regência"
+},
+"2797253": {
+"orig": "De que é que tu e o Tom estavam a falar?",
+"nova": "Sobre o que você e o Tom estavam falando?",
+"motivo": "pt-PT"
+},
+"3444524": {
+"orig": "Gostei mais do plano de Tom que do de Mary.",
+"nova": "Gosto mais do plano do Tom do que do da Mary.",
+"motivo": "tempo verbal"
+},
+"2777212": {
+"orig": "É verdade que você não pode nadar?",
+"nova": "É verdade que você não sabe nadar?",
+"motivo": "can = saber"
+},
+"2957253": {
+"orig": "Tom ainda está bravo com Maria.",
+"nova": "Tom ainda está bravo com a Mary.",
+"motivo": "nome trocado"
+},
+"1095983": {
+"orig": "Tom e Maria não confiam um no outro.",
+"nova": "Tom e Mary não confiam um no outro.",
+"motivo": "nome trocado"
+},
+"2537750": {
+"orig": "Tom estava mentindo quando disse que não conhecia Maria.",
+"nova": "Tom estava mentindo quando disse que não conhecia a Mary.",
+"motivo": "nome trocado"
+},
+"1094617": {
+"orig": "Tom não queria que Maria trabalhasse.",
+"nova": "Tom não queria que Mary trabalhasse.",
+"motivo": "nome trocado"
+},
+"1028509": {
+"orig": "Tom ainda está apaixonado por Maria.",
+"nova": "Tom ainda está apaixonado pela Mary.",
+"motivo": "nome trocado"
+},
+"1092094": {
+"orig": "Você deveria ser mais como Tom.",
+"nova": "Você deveria tentar ser mais como o Tom.",
+"motivo": "faltava 'try'"
+},
+"6124598": {
+"orig": "O único trabalho que Tom nunca teve é o que ele tem agora.",
+"nova": "O único trabalho que o Tom já teve é o que ele tem agora.",
+"motivo": "sentido invertido"
+},
+"3826994": {
+"orig": "Tom e Maria não tinham nada para falar.",
+"nova": "Tom e Mary não tinham nada para conversar.",
+"motivo": "nome trocado"
+},
+"6646294": {
+"orig": "Tom disse a Mary que não estava com medo.",
+"nova": "Tom me disse que a Mary não estava com medo.",
+"motivo": "sentido errado"
+},
+"2539115": {
+"orig": "Tom não sabia que Maria era casada.",
+"nova": "Tom não sabia que a Mary era casada.",
+"motivo": "nome trocado"
+},
+"289109": {
+"orig": "Ele está sempre a te olhar. Deve te amar.",
+"nova": "Ele está sempre olhando para você. Deve te amar.",
+"motivo": "pt-PT"
+},
+"269788": {
+"orig": "Eu posso falar sobre qualquer coisa com o meu amigo.",
+"nova": "Eu posso falar sobre qualquer coisa com o meu melhor amigo.",
+"motivo": "faltava 'melhor'"
+},
+"2396082": {
+"orig": "Não sei porque você não contou a verdade.",
+"nova": "Não sei por que você não contou a verdade.",
+"motivo": "ortografia (por que)"
+},
+"1027362": {
+"orig": "O meu amigo mais interessante é o Tom.",
+"nova": "O meu amigo canadense mais interessante é o Tom.",
+"motivo": "faltava 'canadense'"
+},
+"2891644": {
+"orig": "Você deve ir para casa.",
+"nova": "Está na hora de você ir para casa.",
+"motivo": "sentido alterado"
+},
+"3950963": {
+"orig": "Tom sabe que Maria não gosta dele.",
+"nova": "Tom sabe que a Mary não gosta dele.",
+"motivo": "nome trocado"
+},
+"6254387": {
+"orig": "O Tomás disse que fazer isso poderia ser uma boa ideia.",
+"nova": "O Tom disse que fazer isso seria uma boa ideia.",
+"motivo": "nome trocado/modo"
+},
+"6261049": {
+"orig": "Tom sabe que ele tem que estudar Francês.",
+"nova": "Tom sabe que ele tem que estudar francês.",
+"motivo": "maiúscula indevida"
+},
+"3444520": {
+"orig": "Tom está muito preocupado com Maria.",
+"nova": "Tom está muito preocupado com a Mary.",
+"motivo": "nome trocado"
+},
+"6123469": {
+"orig": "Seria correto pedir para Tom fazer isso?",
+"nova": "Tudo bem pedir para o Tom fazer isso?",
+"motivo": "sentido de 'OK'"
+},
+"3923281": {
+"orig": "Tom é a única pessoa em quem Mary confia.",
+"nova": "Tom é a única pessoa em quem Mary pode confiar.",
+"motivo": "faltava 'can'"
+},
+"1023795": {
+"orig": "O que é que Tom tem que fazer com isso?",
+"nova": "O que o Tom tem a ver com isso?",
+"motivo": "sentido errado"
+},
+"4044346": {
+"orig": "Tom queria que Maria aprendesse a falar francês.",
+"nova": "Tom queria que Mary aprendesse a falar francês.",
+"motivo": "nome trocado"
+},
+"5851590": {
+"orig": "Não me importo com o que as pessoas pensam.",
+"nova": "Não me importo com o que as pessoas pensam de mim.",
+"motivo": "faltava 'about me'"
+},
+"2064842": {
+"orig": "Posso arranjar-te alguma coisa para comeres.",
+"nova": "Posso arranjar alguma coisa para você comer.",
+"motivo": "pt-PT"
+},
+"5666187": {
+"orig": "Tom não sabia o que Maria queria comprar.",
+"nova": "Tom não sabia o que a Mary queria comprar.",
+"motivo": "nome trocado"
+},
+"2642721": {
+"orig": "Tom e Maria ainda estão apaixonados.",
+"nova": "Tom e Mary ainda estão apaixonados.",
+"motivo": "nome trocado"
+},
+"6828487": {
+"orig": "Nós ambos sabemos o que vai acontecer.",
+"nova": "Nós dois sabemos o que vai acontecer.",
+"motivo": "não natural"
+},
+"5916154": {
+"orig": "Ainda chamo Tom de vez em quando.",
+"nova": "Ainda ligo para o Tom de vez em quando.",
+"motivo": "sentido de 'call'"
+},
+"887171": {
+"orig": "Ela se distraiu falando com ele.",
+"nova": "Ela se divertiu conversando com ele.",
+"motivo": "sentido alterado"
+},
+"8238864": {
+"orig": "Como você aprendeu a falar Francês tão bem?",
+"nova": "Como você aprendeu a falar francês tão bem?",
+"motivo": "maiúscula indevida"
+},
+"8407355": {
+"orig": "Eu realmente não gostei da minha professora de francês.",
+"nova": "Eu não gostava muito da minha professora de francês.",
+"motivo": "sentido de 'didn't really'"
+},
+"2451364": {
+"orig": "Você sabe se o Tom pode falar francês?",
+"nova": "Você sabe se o Tom sabe falar francês?",
+"motivo": "can = saber"
+},
+"2643493": {
+"orig": "Tom não vai ter que esperar por mais tempo.",
+"nova": "Tom não vai ter que esperar muito.",
+"motivo": "sentido alterado"
+},
+"3078739": {
+"orig": "EU não vou mais trabalhar para você.",
+"nova": "Eu não vou mais trabalhar para você.",
+"motivo": "maiúsculas indevidas"
+},
+"4081298": {
+"orig": "Eu estive esperando o Tom por um bom tempo.",
+"nova": "Estou esperando o Tom há muito tempo.",
+"motivo": "tempo verbal/anglicismo"
+},
+"5156966": {
+"orig": "Se tu soubesses, tu me contarias, não iria ?",
+"nova": "Se você soubesse, me contaria, não é?",
+"motivo": "gramática da pergunta final"
+},
+"5529405": {
+"orig": "Tom deve estar preocupado com Maria.",
+"nova": "Tom deve estar preocupado com a Mary.",
+"motivo": "nome trocado"
+},
+"2030071": {
+"orig": "Tom não quer que Maria descubra a verdade.",
+"nova": "Tom não quer que a Mary descubra a verdade.",
+"motivo": "nome trocado"
+},
+"1356740": {
+"orig": "Eu ouvi dizer que a Mary estava doente na semana passada, mas ela parece bem agora.",
+"nova": "Eu ouvi dizer que a Mary ficou doente a semana passada inteira, mas ela parece bem agora.",
+"motivo": "faltava 'all'"
+},
+"5190632": {
+"orig": "Eu não tive tempo para fazer nada do que precisava ser feito.",
+"nova": "Eu não tive tempo de fazer tudo o que precisava ser feito.",
+"motivo": "sentido alterado"
+},
+"2747656": {
+"orig": "Tom ainda não confia muito em Maria.",
+"nova": "Tom ainda não confia muito na Mary.",
+"motivo": "nome trocado"
+},
+"4015565": {
+"orig": "Tem certeza de que você não quer ajuda?",
+"nova": "Tem certeza de que você não precisa de ajuda?",
+"motivo": "verbo trocado"
+},
+"1358272": {
+"orig": "Não quero comprar isso se não o necessito.",
+"nova": "Não quero comprar isso se não precisar.",
+"motivo": "não natural"
+},
+"2713068": {
+"orig": "Vamos viajar amanhã.",
+"nova": "Vamos embora amanhã.",
+"motivo": "sentido alterado"
+},
+"3131736": {
+"orig": "Tom nunca deixaria que aquilo acontecesse.",
+"nova": "Tom nunca teria deixado aquilo acontecer.",
+"motivo": "tempo verbal"
+},
+"6528745": {
+"orig": "Tom não sabe que Mary é comprometida.",
+"nova": "Tom não sabe que a Mary é casada.",
+"motivo": "sentido errado"
+},
+"6343291": {
+"orig": "Não estava à espera que estivesses pronto para fazer isso.",
+"nova": "Eu não achei que você estaria pronto para fazer isso.",
+"motivo": "pt-PT"
+},
+"6531017": {
+"orig": "O Tom vai ver isso.",
+"nova": "O Tom vai trabalhar nisso.",
+"motivo": "sentido alterado"
+},
+"3232902": {
+"orig": "Quando o Tom saiu de Boston?",
+"nova": "Quando o Tom partiu para Boston?",
+"motivo": "sentido invertido"
+},
+"2645498": {
+"orig": "Eu não estou tão ocupado agora.",
+"nova": "Eu não estou nada ocupado agora.",
+"motivo": "sentido alterado"
+},
+"2698346": {
+"orig": "Que é que está errado na maneira como o fizemos?",
+"nova": "O que há de errado na maneira como fizemos isso?",
+"motivo": "não natural"
+},
+"2640391": {
+"orig": "Eu não tinha ideia de que você podia falar francês tão bem.",
+"nova": "Eu não tinha ideia de que você sabia falar francês tão bem.",
+"motivo": "can = saber"
+},
+"1095028": {
+"orig": "Tom não conseguia entender porque ela queria aprender Francês.",
+"nova": "Tom não conseguia entender por que ela queria aprender francês.",
+"motivo": "ortografia/maiúscula"
+},
+"8440060": {
+"orig": "Eu levo minhas crianças para a escola todas as manhãs.",
+"nova": "Eu levo meus filhos para a escola todas as manhãs.",
+"motivo": "naturalidade (children = filhos)"
+},
+"6437959": {
+"orig": "Tom não sabia que Maria estava com fome.",
+"nova": "Tom não sabia que a Mary estava com fome.",
+"motivo": "nome trocado"
+},
+"6124969": {
+"orig": "O Tom sabia que ele não tinha dinheiro o suficiente para comprar tudo o que ele queria.",
+"nova": "O Tom sabia que ele não tinha dinheiro o suficiente para comprar tudo o que ele precisava.",
+"motivo": "needed ≠ queria"
+},
+"2641401": {
+"orig": "O que isso tem a ver?",
+"nova": "O que isso tem a ver com isto?",
+"motivo": "faltava 'with this'"
+},
+"6273276": {
+"orig": "Eu sei que Tom está apaixonado por Maria.",
+"nova": "Eu sei que Tom está apaixonado pela Mary.",
+"motivo": "nome trocado"
+},
+"7167598": {
+"orig": "Espero que você tenha uma boa estada na Austrália.",
+"nova": "Espero que você se divirta na Austrália.",
+"motivo": "sentido de 'good time'"
+},
+"1029148": {
+"orig": "Tom não sabe se Maria virá amanhã.",
+"nova": "Tom não sabe se a Mary virá amanhã.",
+"motivo": "nome trocado"
+},
+"2013893": {
+"orig": "Eu não quero que Maria me abandone.",
+"nova": "Eu não quero que a Mary me abandone.",
+"motivo": "nome trocado"
+},
+"2541265": {
+"orig": "Tom e Maria eram amigos.",
+"nova": "Tom e Mary eram amigos.",
+"motivo": "nome trocado"
+},
+"7174442": {
+"orig": "Achei melhor tentar outra vez.",
+"nova": "Pensei em tentar fazer isso de novo.",
+"motivo": "sentido alterado"
+},
+"2315017": {
+"orig": "Eu não disse a Tom que Maria era casada.",
+"nova": "Eu não disse a Tom que a Mary era casada.",
+"motivo": "nome trocado"
+},
+"6528240": {
+"orig": "Tom disse que não se lembrava disso.",
+"nova": "Tom disse que não se lembrava disso de jeito nenhum.",
+"motivo": "faltava 'at all'"
+},
+"1897715": {
+"orig": "Parece que você tomou conta do problema.",
+"nova": "Parece que você resolveu o problema.",
+"motivo": "sentido de 'take care of'"
+},
+"1028292": {
+"orig": "Tom deve estar bravo com Maria.",
+"nova": "Tom deve estar bravo com a Mary.",
+"motivo": "nome trocado"
+},
+"5211682": {
+"orig": "Devias dar mais coisas para fazer ao Tom e à Mary.",
+"nova": "Você deveria dar mais coisas para o Tom e a Mary fazerem.",
+"motivo": "pt-PT (devias)"
+},
+"5514065": {
+"orig": "Tom sabia onde Maria queria morar.",
+"nova": "Tom sabia onde Mary queria morar.",
+"motivo": "nome trocado"
+},
+"8388899": {
+"orig": "Eu tenho medo que tenho que sair.",
+"nova": "Receio que eu tenha que ir embora.",
+"motivo": "I'm afraid = receio; tradução agramatical"
+},
+"7214224": {
+"orig": "O Tom disse-me que não estava cansado.",
+"nova": "O Tom me disse que não estava cansado.",
+"motivo": "pt-PT (disse-me)"
+},
+"5181089": {
+"orig": "Esperamos que isso não ocorra novamente.",
+"nova": "Esperemos que isso não ocorra novamente.",
+"motivo": "let's hope = esperemos"
+},
+"8183729": {
+"orig": "Eu disse para o Tom que eu achava que essa era uma ótima ideia.",
+"nova": "Eu disse para o Tom que eu achava que essa era uma boa ideia.",
+"motivo": "good = boa, não ótima"
+},
+"2951999": {
+"orig": "Não ligo para o que as pessoas pensam.",
+"nova": "Não ligo para o que as outras pessoas pensam.",
+"motivo": "faltou 'outras'"
+},
+"2288155": {
+"orig": "Você não nada muito bem, nada?",
+"nova": "Você não nada muito bem, né?",
+"motivo": "tag question mal traduzida"
+},
+"6346869": {
+"orig": "Pergunto-me se Tom vai mesmo vencer.",
+"nova": "Eu me pergunto se o Tom vai mesmo vencer.",
+"motivo": "ênclise lusitana"
+},
+"2034059": {
+"orig": "Eu só queria ter um bom momento como qualquer outro.",
+"nova": "Eu só queria me divertir como qualquer outra pessoa.",
+"motivo": "calque 'ter um bom momento'"
+},
+"6833102": {
+"orig": "O Tom poderia se magoar se ele fizer isso.",
+"nova": "O Tom pode se machucar se fizer isso.",
+"motivo": "hurt = machucar; tempos"
+},
+"953129": {
+"orig": "Tem certeza de quer fazer isso?",
+"nova": "Tem certeza de que quer fazer isso?",
+"motivo": "faltou 'que'"
+},
+"2033463": {
+"orig": "Você quer deixar com o Tom?",
+"nova": "Você quer ir embora com o Tom?",
+"motivo": "leave = ir embora"
+},
+"1887787": {
+"orig": "Acho que deveríamos comprar o carro do Tom.",
+"nova": "Acho que deveríamos tentar comprar o carro do Tom.",
+"motivo": "faltou 'try to'"
+},
+"8277549": {
+"orig": "Eu não acredito que você consegue fazer.",
+"nova": "Eu não acredito que você consiga fazer isso.",
+"motivo": "subjuntivo"
+},
+"4663470": {
+"orig": "Alguém sabe falar francês?",
+"nova": "Alguém aqui sabe falar francês?",
+"motivo": "faltou 'here'"
+},
+"5162570": {
+"orig": "Tom não tinha ideia de que Maria já era casada.",
+"nova": "Tom não tinha ideia de que Mary já era casada.",
+"motivo": "nome trocado"
+},
+"8227155": {
+"orig": "Eu estive esperando o dia todo para que isso acontecesse.",
+"nova": "Passei o dia todo esperando que isso acontecesse.",
+"motivo": "calque 'estive esperando'"
+},
+"5797476": {
+"orig": "Tenho a impressão de que você não se importa nem um pouco comigo.",
+"nova": "Tenho a impressão de que você não se importa de verdade comigo.",
+"motivo": "'nem um pouco' exagera"
+},
+"8598960": {
+"orig": "Tom tem trabalhado o Francês dele.",
+"nova": "Tom tem se dedicado a melhorar o francês dele.",
+"motivo": "calque e maiúscula"
+},
+"6346623": {
+"orig": "Você realmente acha que Tom pode nadar?",
+"nova": "Você realmente acha que Tom sabe nadar?",
+"motivo": "can swim = sabe nadar"
+},
+"3822836": {
+"orig": "Tom está muito bravo com Maria.",
+"nova": "Tom está muito bravo com Mary.",
+"motivo": "nome trocado"
+},
+"1024918": {
+"orig": "Tom é uma das únicas pessoas em que eu posso confiar.",
+"nova": "Tom é uma das poucas pessoas em quem eu posso confiar.",
+"motivo": "few = poucas"
+},
+"2451458": {
+"orig": "Como você diz ''amor'' em francês?",
+"nova": "Como se diz \"amor\" em francês?",
+"motivo": "aspas incorretas"
+},
+"6123632": {
+"orig": "O Tom nunca mais vai deixar a Mary fazer aquilo de novo.",
+"nova": "O Tom nunca mais vai deixar a Mary fazer aquilo.",
+"motivo": "redundância"
+},
+"6118298": {
+"orig": "Tom não gosta dos amigos de Maria.",
+"nova": "Tom não gosta dos amigos de Mary.",
+"motivo": "nome trocado"
+},
+"1027897": {
+"orig": "Tom disse a Maria que ela estava errada.",
+"nova": "Tom disse a Mary que ela estava errada.",
+"motivo": "nome trocado"
+},
+"3531407": {
+"orig": "Eu não acho que Tom vai acreditar em Maria.",
+"nova": "Eu não acho que Tom vai acreditar em Mary.",
+"motivo": "nome trocado"
+},
+"6349523": {
+"orig": "O Tom me disse que eu não venceria de novo.",
+"nova": "O Tom me disse que eu nunca mais venceria.",
+"motivo": "never... again"
+},
+"2060773": {
+"orig": "Você realmente achou que eu não aprenderia a verdade?",
+"nova": "Você realmente achou que eu não descobriria a verdade?",
+"motivo": "learn = descobrir"
+},
+"3330268": {
+"orig": "Acho que precisas ir a casa agora.",
+"nova": "Acho que você precisa ir para casa agora.",
+"motivo": "pt-PT"
+},
+"2025925": {
+"orig": "Tom não queria que Maria falasse com João.",
+"nova": "Tom não queria que Mary falasse com John.",
+"motivo": "nomes trocados"
+},
+"5412624": {
+"orig": "Tom pediu-me para ir a casa dele amanhã.",
+"nova": "Tom me pediu para ir à casa dele amanhã.",
+"motivo": "pt-PT"
+},
+"3678261": {
+"orig": "Tom quer que Maria seja feliz.",
+"nova": "Tom quer que Mary seja feliz.",
+"motivo": "nome trocado"
+},
+"306716": {
+"orig": "Fizeram-me ir lá sozinho.",
+"nova": "Me fizeram ir lá sozinho.",
+"motivo": "ênclise pt-PT"
+},
+"3115678": {
+"orig": "Caso haja algo que a gente possa fazer, só chamar.",
+"nova": "Se houver algo que a gente possa fazer, é só ligar.",
+"motivo": "tradução truncada"
+},
+"6357644": {
+"orig": "Tom não acha que Maria irá vencer.",
+"nova": "Tom não acha que Mary irá vencer.",
+"motivo": "nome trocado"
+},
+"5853268": {
+"orig": "Se alguém tivesse me perguntando se eu já fui casado, eu responderia que sim.",
+"nova": "Se alguém tivesse me perguntado se eu era casado, eu teria dito que sim.",
+"motivo": "erro de grafia e tempo verbal"
+},
+"2537536": {
+"orig": "Tom nunca descobriu a verdade sobre Maria e João.",
+"nova": "Tom nunca descobriu a verdade sobre Mary e John.",
+"motivo": "nomes trocados"
+},
+"6337636": {
+"orig": "Eu não confio isso a ninguém.",
+"nova": "Não confio em mais ninguém para fazer isso por mim.",
+"motivo": "sentido alterado"
+},
+"2033235": {
+"orig": "Eu realmente quero conversar.",
+"nova": "Eu só quero mesmo conversar.",
+"motivo": "faltou 'just'"
+},
+"7156902": {
+"orig": "Deixe-me falar-lhe um pouco sobre a Austrália.",
+"nova": "Deixe-me contar a você algo sobre a Austrália.",
+"motivo": "ênclise lusitana; something"
+},
+"8250862": {
+"orig": "Você ainda mora onde costumava?",
+"nova": "Você ainda mora onde morava antes?",
+"motivo": "tradução incompleta"
+},
+"247851": {
+"orig": "Vamos viajar amanhã.",
+"nova": "Nós vamos embora amanhã.",
+"motivo": "leave ≠ viajar"
+},
+"7512898": {
+"orig": "Tom pode entender francês melhor que a Mary.",
+"nova": "Tom entende francês melhor que a Mary.",
+"motivo": "calque 'pode entender'"
+},
+"3970711": {
+"orig": "O Tom quer se casar mas não com a Mary.",
+"nova": "O Tom quer se casar, mas não com a Mary.",
+"motivo": "vírgula"
+},
+"6255242": {
+"orig": "O Tom achou que ele deveria estudar francês.",
+"nova": "O Tom achou que tinha que estudar francês.",
+"motivo": "had to = tinha que"
+},
+"6123215": {
+"orig": "Tom disse que ele não planejava fazer aquilo.",
+"nova": "Tom disse que não planejava realmente fazer aquilo.",
+"motivo": "faltou 'really'"
+},
+"6823668": {
+"orig": "É fácil entender porque as pessoas confiam no Tom.",
+"nova": "É fácil entender por que as pessoas confiam no Tom.",
+"motivo": "porque → por que"
+},
+"1024287": {
+"orig": "Tom, de fato, fala demais.",
+"nova": "Tom realmente fala muito.",
+"motivo": "a lot ≠ demais"
+},
+"3818713": {
+"orig": "Tenho de ir para ver o que quer o Tomás.",
+"nova": "Tenho que ir ver o que o Tom quer.",
+"motivo": "nome trocado; pt-PT"
+},
+"8400328": {
+"orig": "Eu nunca tive esta felicidade.",
+"nova": "Eu nunca estive tão feliz.",
+"motivo": "tradução artificial"
+},
+"8511102": {
+"orig": "Eu pensei que Tom acreditasse em mim.",
+"nova": "Eu pensei que Tom acreditaria em mim.",
+"motivo": "would = futuro do pretérito"
+},
+"8979274": {
+"orig": "Eu entendo porque o Tom iria querer fazer aquilo.",
+"nova": "Eu entendo por que o Tom iria querer fazer aquilo.",
+"motivo": "porque → por que"
+},
+"6647127": {
+"orig": "O Tom e a Marry disseram que ainda eram casados.",
+"nova": "O Tom me disse que ele e a Mary ainda eram casados.",
+"motivo": "sentido errado; nome com erro"
+},
+"1955015": {
+"orig": "Não dá para te dizer quanto tempo eu tenho esperado por isso.",
+"nova": "Não dá para te dizer há quanto tempo eu estou esperando por isso.",
+"motivo": "calque; faltou 'há'"
+},
+"2541503": {
+"orig": "Fiquei preocupado que você não viria.",
+"nova": "Eu estava preocupado que você não viesse.",
+"motivo": "tempo/modo"
+},
+"3826671": {
+"orig": "A verdade é que eu realmente não te amo mais.",
+"nova": "A verdade é que eu não te amo mais de verdade.",
+"motivo": "posição de 'really' muda sentido"
+},
+"5509411": {
+"orig": "Tom sabe que Maria não fala francês.",
+"nova": "Tom sabe que Mary não fala francês.",
+"motivo": "nome trocado"
+},
+"6728943": {
+"orig": "Tom estava esperando por você, mas eu não estou vendo ele agora.",
+"nova": "Tom estava esperando por você ali, mas eu não estou vendo ele agora.",
+"motivo": "faltou 'over there'"
+},
+"16672": {
+"orig": "Espero que você possa aparecer com um plano melhor que esse.",
+"nova": "Espero que você consiga bolar um plano melhor que esse.",
+"motivo": "calque 'come up with'"
+},
+"7806107": {
+"orig": "Você pode nadar muito melhor que o Tom.",
+"nova": "Você nada muito melhor que o Tom.",
+"motivo": "calque 'pode nadar'"
+},
+"3860095": {
+"orig": "Eu acho que Tom e Maria estão apaixonados.",
+"nova": "Eu acho que Tom e Mary estão apaixonados.",
+"motivo": "nome trocado"
+},
+"7176632": {
+"orig": "O Tom sabe que nós não fizemos isso para ele.",
+"nova": "O Tom sabe que nós não fizemos isso por ele.",
+"motivo": "for him = por ele"
+},
+"3651470": {
+"orig": "Por que eu não posso jogar com os meus amigos?",
+"nova": "Por que eu não posso brincar com os meus amigos?",
+"motivo": "play = brincar"
+},
+"6348619": {
+"orig": "Eu vou pegar Tom para esperar por você.",
+"nova": "Vou pedir para o Tom esperar por você.",
+"motivo": "'get someone to' mal traduzido"
+},
+"5057825": {
+"orig": "O que é isso que você tem tanto medo?",
+"nova": "Do que é que você tem medo?",
+"motivo": "agramatical; 'tanto' a mais"
+},
+"954505": {
+"orig": "Que faz aqui tão tarde da noite?",
+"nova": "O que você está fazendo aqui tão tarde da noite?",
+"motivo": "forma lusitana/elíptica"
+},
+"6125241": {
+"orig": "O Tom não está voltando para nos ajudar.",
+"nova": "O Tom não vai voltar para nos ajudar.",
+"motivo": "tempo verbal"
+},
+"2012726": {
+"orig": "Tom queria falar com Maria.",
+"nova": "Tom queria falar com Mary.",
+"motivo": "nome trocado"
+},
+"7514927": {
+"orig": "Tom não sabia que Maria falava francês.",
+"nova": "Tom não sabia que Mary falava francês.",
+"motivo": "nome trocado"
+},
+"3129620": {
+"orig": "Tom disse o que aconteceu, não disse?",
+"nova": "Tom te contou o que aconteceu, não contou?",
+"motivo": "faltou 'you'"
+},
+"8226900": {
+"orig": "Na verdade gostaria de estudar Francês.",
+"nova": "Eu gostaria muito de estudar francês.",
+"motivo": "really ≠ na verdade; maiúscula"
+},
+"6352612": {
+"orig": "O Tom disse-me que não estava chateado.",
+"nova": "O Tom me disse que não estava bravo.",
+"motivo": "pt-PT; angry"
+},
+"8595077": {
+"orig": "Pensei que você dissesse que gostaria de saber por que Tom tinha que fazer isso.",
+"nova": "Pensei que você tivesse dito que gostaria de saber por que Tom tinha que fazer isso.",
+"motivo": "tempo verbal"
+},
+"1092459": {
+"orig": "Tom quer conhecer Maria melhor.",
+"nova": "Tom quer conhecer Mary melhor.",
+"motivo": "nome trocado"
+},
+"2031339": {
+"orig": "Eu quero que o Tom entenda o que é para ser feito.",
+"nova": "Eu quero que o Tom entenda o que tem que ser feito.",
+"motivo": "has to be done"
+},
+"8264467": {
+"orig": "Não podíamos pedir um professor de Francês melhor que Tom.",
+"nova": "Não podíamos pedir um professor de francês melhor que Tom.",
+"motivo": "maiúscula indevida"
+},
+"6659085": {
+"orig": "O Tom está a tentar aprender a nadar.",
+"nova": "O Tom está tentando aprender a nadar.",
+"motivo": "pt-PT"
+},
+"7214227": {
+"orig": "O Tom avisou-me que não ia ganhar.",
+"nova": "O Tom me disse que não ia ganhar.",
+"motivo": "pt-PT; told ≠ avisou"
+},
+"6439119": {
+"orig": "Tom disse que Maria está zangada.",
+"nova": "Tom disse que Mary está zangada.",
+"motivo": "nome trocado"
+},
+"3818122": {
+"orig": "Sua mãe está preocupada contigo.",
+"nova": "Sua mãe está preocupada com você.",
+"motivo": "mistura de tratamento"
+},
+"8267217": {
+"orig": "Eu acho que fazer isso era errado.",
+"nova": "Eu acho que fazer isso foi errado.",
+"motivo": "tempo verbal"
+},
+"3725234": {
+"orig": "Essa não é a forma que eu queria me lembrar de Tom.",
+"nova": "Essa não é a forma como eu queria me lembrar do Tom.",
+"motivo": "gramática"
+},
+"6525635": {
+"orig": "Ambos, Tom e Maria, estão bravos.",
+"nova": "Tanto Tom quanto Mary estão bravos.",
+"motivo": "nome trocado; construção"
+},
+"6249717": {
+"orig": "O Tom realmente não sabe o que aconteceu.",
+"nova": "O Tom não sabe direito o que aconteceu.",
+"motivo": "not really ≠ realmente não"
+},
+"2025902": {
+"orig": "Quero que saibas que acredito em ti.",
+"nova": "Quero que você saiba que acredito em você.",
+"motivo": "tu/ti lusitano"
+},
+"7546959": {
+"orig": "Você pode ficar. Eu não quero isso mais.",
+"nova": "Pode ficar com isso. Eu não quero mais.",
+"motivo": "ordem não natural"
+},
+"6239367": {
+"orig": "Eu não disse para o Tom por que ele deveria trabalhar até tarde.",
+"nova": "Eu não disse para o Tom por que ele tinha que trabalhar até tarde.",
+"motivo": "had to = tinha que"
+},
+"1886389": {
+"orig": "Você conhece a pessoa com quem eu estou falando, certo?",
+"nova": "Você sabe de quem eu estou falando, certo?",
+"motivo": "sentido errado"
+},
+"3737513": {
+"orig": "Eu posso afirmar que você está zangado.",
+"nova": "Dá para ver que você está zangado.",
+"motivo": "I can tell = dá para ver"
+},
+"6243190": {
+"orig": "O Tom poderia ter se machucado se tivesse tentado fazer isso.",
+"nova": "O Tom poderia se machucar se tentasse fazer isso.",
+"motivo": "tempo verbal"
+},
+"1029305": {
+"orig": "Tom não sabia que Maria falava francês.",
+"nova": "Tom não sabia que Mary falava francês.",
+"motivo": "nome trocado"
+},
+"6108560": {
+"orig": "Eu acho que você deveria deixar o Tom saber que você não quer fazer aquilo.",
+"nova": "Eu acho que você deveria avisar o Tom de que você não quer fazer aquilo.",
+"motivo": "calque 'deixar saber'"
+},
+"2644982": {
+"orig": "Tom e Maria não estão ocupados.",
+"nova": "Tom e Mary não estão ocupados.",
+"motivo": "nome trocado"
+},
+"6657618": {
+"orig": "Eu não entendo por que você quer me fazer isso.",
+"nova": "Eu não entendo por que você quer que eu faça isso.",
+"motivo": "sentido errado"
+},
+"242744": {
+"orig": "Gostaria de fazer mais alguma coisa hoje.",
+"nova": "Gostaria de fazer outra coisa hoje.",
+"motivo": "something else = outra coisa"
+},
+"1164474": {
+"orig": "Tom sabia que Maria ficaria com raiva.",
+"nova": "Tom sabia que Mary ficaria com raiva.",
+"motivo": "nome trocado"
+},
+"1029237": {
+"orig": "Tom não queria trabalhar com Maria.",
+"nova": "Tom não queria trabalhar com Mary.",
+"motivo": "nome trocado"
+},
+"8594612": {
+"orig": "Você esperava se fosse eu?",
+"nova": "Você esperaria se fosse eu?",
+"motivo": "would = futuro do pretérito"
+},
+"4497437": {
+"orig": "Tom achava que Maria não entendia francês.",
+"nova": "Tom achava que Mary não entendia francês.",
+"motivo": "nome trocado"
+},
+"2679452": {
+"orig": "Você gostaria de me pedir alguma coisa a mais?",
+"nova": "Você gostaria de me perguntar mais alguma coisa?",
+"motivo": "ask = perguntar"
+},
+"6357131": {
+"orig": "Tom nunca mais deixará Mary ganhar novamente.",
+"nova": "Tom nunca mais deixará Mary ganhar.",
+"motivo": "redundância"
+},
+"6120705": {
+"orig": "O que o Tom gosta de fazer que vocês não gostem?",
+"nova": "O que o Tom gosta de fazer que você não gosta?",
+"motivo": "modo/pessoa"
+},
+"7176524": {
+"orig": "Tom sabe que Mary não fez isso para ele.",
+"nova": "Tom sabe que Mary não fez isso por ele.",
+"motivo": "for him = por ele"
+},
+"1025918": {
+"orig": "Tom não quer ir lá sozinho.",
+"nova": "Tom não quer ir sozinho.",
+"motivo": "'lá' a mais"
+},
+"1950893": {
+"orig": "Eu não posso acreditar que o Tom simplesmente desistiu.",
+"nova": "Eu não acredito que o Tom simplesmente desistiria.",
+"motivo": "would ≠ pretérito"
+},
+"3736315": {
+"orig": "Receio que eu não posso deixar você fazer isso.",
+"nova": "Receio não poder deixar você fazer isso.",
+"motivo": "gramática"
+},
+"6990802": {
+"orig": "Tom e Maria estavam cansados, mas felizes.",
+"nova": "Tom e Mary estavam cansados, mas felizes.",
+"motivo": "nome trocado"
+},
+"1141198": {
+"orig": "Tom prometeu que isso não aconteceria de novo.",
+"nova": "Tom disse que não deixaria isso acontecer de novo.",
+"motivo": "sentido alterado"
+},
+"5850199": {
+"orig": "Tom e Maria estão casados há quase três anos.",
+"nova": "Tom e Mary estão casados há quase três anos.",
+"motivo": "nome trocado"
+},
+"1094354": {
+"orig": "Tom não se lembra da última vez em que viu Maria.",
+"nova": "Tom não se lembra da última vez em que viu Mary.",
+"motivo": "nome trocado"
+},
+"3162089": {
+"orig": "Há algo mais que eu posso fazer para ajudar?",
+"nova": "Há algo mais que eu possa fazer para ajudar?",
+"motivo": "subjuntivo"
+},
+"1830560": {
+"orig": "Vou comer qualquer coisa.",
+"nova": "Vou pegar alguma coisa para comer.",
+"motivo": "sentido alterado"
+},
+"2640259": {
+"orig": "Tom disse que Mary não sabe falar francês.",
+"nova": "Tom disse que Mary não sabia falar francês.",
+"motivo": "tempo verbal"
+},
+"5275676": {
+"orig": "Você me tirou a palavra da boca.",
+"nova": "Eu ia dizer exatamente isso.",
+"motivo": "tradução livre demais"
+},
+"1543643": {
+"orig": "Eu te falei para me deixar sozinho.",
+"nova": "Eu te falei para me deixar em paz.",
+"motivo": "leave me alone = deixar em paz"
+},
+"3360501": {
+"orig": "Ainda tens muito trabalho pela frente.",
+"nova": "Você ainda tem muito trabalho pela frente.",
+"motivo": "pt-PT (tens)"
+},
+"7191258": {
+"orig": "Eu pensei que você disse que o Tom estava na Austrália.",
+"nova": "Eu pensei que você tinha dito que o Tom estava na Austrália.",
+"motivo": "tempo verbal"
+},
+"6352606": {
+"orig": "O Tom disse-me que não era feliz.",
+"nova": "O Tom me disse que não estava feliz.",
+"motivo": "pt-PT; estar/ser"
+},
+"3594443": {
+"orig": "Se você não quer se casar, será melhor que você não se case.",
+"nova": "Se você não quer se casar, seria melhor que você não se casasse.",
+"motivo": "tempo/modo"
+},
+"4049019": {
+"orig": "Não me lembro da última vez em que vi o Tom feliz.",
+"nova": "Não me lembro da última vez em que vi o Tom tão feliz.",
+"motivo": "faltou 'so'"
+},
+"2631753": {
+"orig": "Estou cansado, mas ainda não posso ir dormir.",
+"nova": "Estou cansado, mas ainda não consigo dormir.",
+"motivo": "can't = não consigo"
+},
+"2644309": {
+"orig": "Tom disse a Maria que estava ocupado.",
+"nova": "Tom disse a Mary que estava ocupado.",
+"motivo": "nome trocado"
+},
+"4792326": {
+"orig": "Eu entendo melhor do que falo o Francês.",
+"nova": "Eu consigo entender francês melhor do que consigo falar.",
+"motivo": "estrutura truncada; maiúscula"
+},
+"6802795": {
+"orig": "Como sabias que o Tom não nadava?",
+"nova": "Como você sabia que o Tom não sabia nadar?",
+"motivo": "\"couldn't swim\" = não sabia nadar"
+},
+"6438843": {
+"orig": "Tom disse que Maria estava zangada.",
+"nova": "Tom disse que Mary estava zangada.",
+"motivo": "nome trocado"
+},
+"1029857": {
+"orig": "Tom e Maria não parecem estar com fome.",
+"nova": "Tom e Mary não parecem estar com fome.",
+"motivo": "nome trocado"
+},
+"2644371": {
+"orig": "Tom sabia que Maria não estava ocupada.",
+"nova": "Tom sabia que Mary não estava ocupada.",
+"motivo": "nome trocado"
+},
+"2747681": {
+"orig": "Não me lembro precisamente o que aconteceu.",
+"nova": "Não me lembro muito bem do que aconteceu.",
+"motivo": "sentido alterado"
+},
+"869437": {
+"orig": "Amanhã você já o terá.",
+"nova": "Vou deixar isso pronto para você até amanhã.",
+"motivo": "tradução infiel"
+},
+"3732364": {
+"orig": "Tom me contou tudo o que vinha acontecendo.",
+"nova": "Tom me contou tudo sobre o que tinha acontecido.",
+"motivo": "tempo verbal"
+},
+"903807": {
+"orig": "Eu acho que é hora de eu pedir sua ajuda.",
+"nova": "Eu acho que é hora de eu pedir a ajuda dela.",
+"motivo": "\"her\" ambíguo"
+},
+"8242146": {
+"orig": "Não acredito que você fez isso para mim.",
+"nova": "Não acredito que você fez isso comigo.",
+"motivo": "\"to me\" = comigo"
+},
+"2417967": {
+"orig": "Como se diz ''Eu te amo'' em francês?",
+"nova": "Como se diz \"Eu te amo\" em francês?",
+"motivo": "aspas malformadas"
+},
+"3734473": {
+"orig": "O Tom que a Mary em Boston com ele.",
+"nova": "O Tom quer que a Mary vá para Boston com ele.",
+"motivo": "tradução incompleta"
+},
+"2208522": {
+"orig": "Não posso deixar-te aqui sozinha.",
+"nova": "Não posso te deixar aqui sozinha.",
+"motivo": "colocação PT-PT"
+},
+"6646295": {
+"orig": "Tom disse a Mary que não estava com medo.",
+"nova": "Tom me disse que a Mary não estava com medo.",
+"motivo": "sentido errado"
+},
+"3826997": {
+"orig": "Tom não sabia o que Maria estava falando.",
+"nova": "Tom não sabia do que a Mary estava falando.",
+"motivo": "nome trocado"
+},
+"7168069": {
+"orig": "Eu acho que Tom e Maria estão apaixonados.",
+"nova": "Eu acho que Tom e Mary estão apaixonados.",
+"motivo": "nome trocado"
+},
+"5665632": {
+"orig": "Tom não sabe o que Maria quer comer.",
+"nova": "Tom não sabe o que Mary quer comer.",
+"motivo": "nome trocado"
+},
+"3826470": {
+"orig": "Tom não sabia que Maria estava indo para a Austrália.",
+"nova": "Tom não sabia que Mary estava indo para a Austrália.",
+"motivo": "nome trocado"
+},
+"3729738": {
+"orig": "Vens mesmo a tempo. O Tom está quase pronto.",
+"nova": "Você chegou bem na hora. O Tom está quase pronto.",
+"motivo": "PT-PT"
+},
+"6347537": {
+"orig": "O Tom realmente não quer comer agora.",
+"nova": "O Tom não está com muita vontade de comer agora.",
+"motivo": "\"doesn't really\" mal traduzido"
+},
+"2408293": {
+"orig": "Eu acho que Tom ainda está apaixonado por Maria.",
+"nova": "Eu acho que Tom ainda está apaixonado por Mary.",
+"motivo": "nome trocado"
+},
+"7511676": {
+"orig": "Eu sei que o Tom sabe porque eu não gosto de fazer isso.",
+"nova": "Eu sei que o Tom sabe por que eu não gosto de fazer isso.",
+"motivo": "\"por que\" separado"
+},
+"6263636": {
+"orig": "O Tomás deveria dizer à Maria para não fazer isso mais.",
+"nova": "O Tom deveria dizer à Mary para não fazer mais isso.",
+"motivo": "nomes trocados"
+},
+"3133142": {
+"orig": "Você nunca sabe o que vai acontecer.",
+"nova": "Você nunca sabe o que vai acontecer a seguir.",
+"motivo": "falta \"next\""
+},
+"4497564": {
+"orig": "Tom não come tanto quanto Maria.",
+"nova": "Tom não come tanto quanto Mary.",
+"motivo": "nome trocado"
+},
+"2028594": {
+"orig": "Você tem certeza de que não quer me contar, Tom?",
+"nova": "Você tem certeza de que não quer que eu conte para o Tom?",
+"motivo": "sentido errado"
+},
+"1096011": {
+"orig": "O Tom e a Mary são amigos de verdade.",
+"nova": "O Tom e a Mary são muito bons amigos.",
+"motivo": "sentido alterado"
+},
+"2644337": {
+"orig": "O Tom disse que estava ocupado.",
+"nova": "O Tom disse que tinha estado ocupado.",
+"motivo": "tempo verbal"
+},
+"5551154": {
+"orig": "Não vou fazê-lo esperar muito.",
+"nova": "Não vamos fazer você esperar muito.",
+"motivo": "pessoa trocada"
+},
+"5090877": {
+"orig": "Você é a única pessoa que eu conheço que não saiba nadar.",
+"nova": "Você é a única pessoa que eu conheço que não sabe nadar.",
+"motivo": "modo verbal"
+},
+"6125750": {
+"orig": "Tom não queria deixar a casa.",
+"nova": "Tom não queria sair de casa.",
+"motivo": "sentido ambíguo"
+},
+"6860422": {
+"orig": "Tom já fez alguns amigos novos.",
+"nova": "Tom já tinha feito alguns amigos novos.",
+"motivo": "tempo verbal"
+},
+"4066386": {
+"orig": "Tom disse que não sabia que estava errado.",
+"nova": "Tom disse que não sabia o que estava errado.",
+"motivo": "sentido errado"
+},
+"4757139": {
+"orig": "Tom não deixaria mais ninguém na sala.",
+"nova": "Tom não deixava mais ninguém entrar na sala.",
+"motivo": "falta \"entrar\""
+},
+"2028352": {
+"orig": "Você não quer que o Tom saiba onde você estava, certo?",
+"nova": "Você não quer que o Tom saiba que você estava certo?",
+"motivo": "sentido errado"
+},
+"7153000": {
+"orig": "Não queres verdadeiramente viver na Austrália, não é?",
+"nova": "Você não quer mesmo morar na Austrália, quer?",
+"motivo": "não natural / PT-PT"
+},
+"6947045": {
+"orig": "Eu trabalhava em Boston, mas não trabalho lá mais.",
+"nova": "Eu trabalhava em Boston, mas não trabalho mais lá.",
+"motivo": "ordem não natural"
+},
+"4871489": {
+"orig": "Você deve saber que eu estou apaixonado por Maria.",
+"nova": "Você deve saber que eu estou apaixonado pela Mary.",
+"motivo": "nome trocado"
+},
+"3444505": {
+"orig": "Tom não está tão ocupado quanto Maria.",
+"nova": "Tom não está tão ocupado quanto Mary.",
+"motivo": "nome trocado"
+},
+"887555": {
+"orig": "Ela estava pronta em devolver seu dinheiro a ele.",
+"nova": "Ela estava pronta para devolver a ele todo o dinheiro dele.",
+"motivo": "preposição e falta \"all\""
+},
+"3734844": {
+"orig": "Tom e Maria não esperaram João.",
+"nova": "Tom e Mary não esperaram o John.",
+"motivo": "nomes trocados"
+},
+"7217470": {
+"orig": "Receio que eu não posso deixar você fazer isso.",
+"nova": "Receio que eu não possa deixar você fazer isso.",
+"motivo": "modo verbal"
+},
+"6513886": {
+"orig": "Tom e Maria disseram que estavam com muita fome.",
+"nova": "Tom e Mary disseram que estavam com muita fome.",
+"motivo": "nome trocado"
+},
+"7168908": {
+"orig": "Eu acho que Tom ainda está apaixonado por Maria.",
+"nova": "Eu acho que Tom ainda está apaixonado pela Mary.",
+"motivo": "nome trocado"
+},
+"4076758": {
+"orig": "Eu pensei que Tom fosse pedir a Maria que fosse para Boston com ele.",
+"nova": "Eu pensei que Tom fosse pedir à Mary que fosse para Boston com ele.",
+"motivo": "nome trocado"
+},
+"1092441": {
+"orig": "Tom estava com medo de que Mary não acreditaria nele.",
+"nova": "Tom estava com medo de que Mary não acreditasse nele.",
+"motivo": "modo verbal"
+},
+"7137076": {
+"orig": "Eu fiz o máximo possível para ter a certeza de que isso não tinha acontecido.",
+"nova": "Eu fiz o possível para garantir que isso não acontecesse.",
+"motivo": "sentido errado"
+},
+"3820995": {
+"orig": "Eu disse o que eu vou fazer.",
+"nova": "Eu disse tudo o que tinha para dizer.",
+"motivo": "sentido errado"
+},
+"4076759": {
+"orig": "Eu pensei que o Tom fosse pedir a Maria para ir com ele para Boston.",
+"nova": "Eu pensei que o Tom fosse pedir à Mary para ir com ele para Boston.",
+"motivo": "nome trocado"
+},
+"1094786": {
+"orig": "Tom não ficou bravo com Maria.",
+"nova": "Tom não ficou bravo com a Mary.",
+"motivo": "nome trocado"
+},
+"7183155": {
+"orig": "Acontece que eu estava na Austrália nessa altura.",
+"nova": "Por acaso eu estava na Austrália naquela época.",
+"motivo": "PT-PT / sentido"
+},
+"2208553": {
+"orig": "Eu te disse que deixasses o Tom em paz.",
+"nova": "Eu te disse para deixar o Tom em paz.",
+"motivo": "forma não natural"
+},
+"2064978": {
+"orig": "Nós estávamos conversando sobre algo aquela vez, mas não lembro o quê.",
+"nova": "Nós estávamos conversando sobre algo naquele momento, mas não lembro o quê.",
+"motivo": "gramática"
+},
+"1092683": {
+"orig": "Tom me disse que não tinha medo de Maria.",
+"nova": "Tom me disse que não tinha medo da Mary.",
+"motivo": "nome trocado"
+},
+"2640937": {
+"orig": "Nós nos preocupamos se tinha acontecido alguma coisa.",
+"nova": "Nós ficamos preocupados que algo tivesse acontecido.",
+"motivo": "tradução não natural"
+},
+"308228": {
+"orig": "Deveria esperar que ela volte?",
+"nova": "Devo esperar até ela voltar?",
+"motivo": "tempos incoerentes"
+},
+"2042763": {
+"orig": "Não sei porque Tom não veio e não quero perguntá-lo.",
+"nova": "Não sei por que Tom não veio e não quero perguntar a ele.",
+"motivo": "ortografia/regência"
+},
+"2323239": {
+"orig": "Não acho que nós deveríamos estar aqui.",
+"nova": "Não acho que nós deveríamos ficar aqui.",
+"motivo": "\"stay\" = ficar"
+},
+"2362140": {
+"orig": "Eu apenas não sei o que dizer.",
+"nova": "Eu simplesmente não sabia o que dizer.",
+"motivo": "tempo verbal"
+},
+"3824039": {
+"orig": "Por que você nos pediu ajuda se realmente não queria nossa ajuda?",
+"nova": "Por que você nos pediu ajuda se não queria de verdade a nossa ajuda?",
+"motivo": "\"didn't really\" mal traduzido"
+},
+"4012337": {
+"orig": "Você tem certeza de que não quer ir à Boston com o Tom?",
+"nova": "Você tem certeza de que não quer ir a Boston com o Tom?",
+"motivo": "crase indevida"
+},
+"2542170": {
+"orig": "Tom não ficaria feliz em te ver.",
+"nova": "Tom não vai ficar feliz em te ver.",
+"motivo": "tempo verbal"
+},
+"1860553": {
+"orig": "Me diga para esperar por você e eu irei.",
+"nova": "Me diga para esperar por você e eu vou esperar.",
+"motivo": "sentido errado"
+},
+"6652092": {
+"orig": "O Tom disse que queria ver a Maria ganhar.",
+"nova": "O Tom disse que queria ver a Mary ganhar.",
+"motivo": "nome trocado"
+},
+"3200954": {
+"orig": "Tom disse à Maria que ele não estava feliz.",
+"nova": "Tom disse à Mary que ele não estava feliz.",
+"motivo": "nome trocado"
+},
+"1874054": {
+"orig": "Você tem certeza de que quer esperar o Tom?",
+"nova": "Você quer mesmo esperar o Tom?",
+"motivo": "sentido alterado"
+},
+"2026963": {
+"orig": "O Tom não irá se você não quiser.",
+"nova": "O Tom não vai embora se você não quiser.",
+"motivo": "\"leave\" = ir embora"
+},
+"2427844": {
+"orig": "Eu não sei porque o Tom está tão bravo.",
+"nova": "Eu não sei por que o Tom está tão bravo.",
+"motivo": "\"por que\" separado"
+},
+"6823792": {
+"orig": "Teria sido melhor ficar em casa.",
+"nova": "Seria melhor ficar em casa.",
+"motivo": "tempo verbal"
+},
+"6439405": {
+"orig": "Tom disse que Maria está ocupada.",
+"nova": "Tom disse que Mary está ocupada.",
+"motivo": "nome trocado"
+},
+"3026677": {
+"orig": "Não estou preocupado com Tom. Estou preocupado contigo, Maria.",
+"nova": "Não estou preocupado com Tom. Estou preocupado com você, Mary.",
+"motivo": "nome trocado"
+},
+"7736972": {
+"orig": "Tom me disse para falar com Maria.",
+"nova": "Tom me disse para falar com a Mary.",
+"motivo": "nome trocado"
+},
+"8398091": {
+"orig": "Não foi o Tom aquele que me falou para eu não ir embora.",
+"nova": "Não foi o Tom quem me disse para não ir embora.",
+"motivo": "não natural"
+},
+"1095966": {
+"orig": "O Tom e a Mary têm sido amigos desde muito tempo atrás.",
+"nova": "O Tom e a Mary são amigos há muito tempo.",
+"motivo": "decalque não natural"
+},
+"1029100": {
+"orig": "Tom não sabe, quando Mary deixará Boston.",
+"nova": "Tom não sabe quando Mary vai deixar Boston.",
+"motivo": "vírgula indevida"
+},
+"70210": {
+"orig": "Por quanto tempo você esteve ocupado?",
+"nova": "Há quanto tempo você está ocupado?",
+"motivo": "tempo verbal"
+},
+"7248379": {
+"orig": "Eles disseram-nos para esperar aqui.",
+"nova": "Eles nos disseram para esperar aqui.",
+"motivo": "PT-PT"
+},
+"4015634": {
+"orig": "Tom não disse a Maria nada do que tinha acontecido.",
+"nova": "Tom não disse à Mary nada do que tinha acontecido.",
+"motivo": "nome trocado"
+},
+"7214221": {
+"orig": "O Tom disse-me que não estava chateado.",
+"nova": "O Tom me disse que não estava bravo.",
+"motivo": "PT-PT / sentido"
+},
+"3732084": {
+"orig": "Por que o amor nos faz assim felizes?",
+"nova": "Por que o amor nos faz tão felizes?",
+"motivo": "não natural"
+},
+"8244184": {
+"orig": "Você disse seus amigos que você está indo para Boston?",
+"nova": "Você disse aos seus amigos que você está indo para Boston?",
+"motivo": "falta preposição"
+},
+"5374408": {
+"orig": "Tom e Maria queriam ficar sozinhos.",
+"nova": "Tom e Mary queriam ficar sozinhos.",
+"motivo": "nome trocado"
+},
+"7023911": {
+"orig": "Ontem estiveste muito ocupado?",
+"nova": "Quão ocupado você esteve ontem?",
+"motivo": "sentido alterado / PT-PT"
+},
+"7228086": {
+"orig": "Eu não acho que nós deveríamos estar aqui.",
+"nova": "Eu não acho que nós deveríamos ficar aqui.",
+"motivo": "\"stay\" = ficar"
+},
+"5915366": {
+"orig": "Eu acho que é o melhor para o Tom ficar aqui.",
+"nova": "Eu acho que é melhor o Tom ficar aqui.",
+"motivo": "não natural"
+},
+"7892424": {
+"orig": "Estou bravo pelo Tom não me ligar.",
+"nova": "Estou bravo porque o Tom não me ligou.",
+"motivo": "gramática"
+},
+"3181668": {
+"orig": "Tom vai falar com Maria.",
+"nova": "Tom vai falar com a Mary.",
+"motivo": "nome trocado"
+},
+"5916955": {
+"orig": "Tom não está tão ocupado quanto Maria.",
+"nova": "Tom não está tão ocupado quanto Mary.",
+"motivo": "nome trocado"
+},
+"6261898": {
+"orig": "Tom não parece estar muito feliz para mim.",
+"nova": "Para mim, o Tom não parece estar muito feliz.",
+"motivo": "decalque \"para mim\""
+},
+"7214223": {
+"orig": "O Tom disse-me que não era feliz.",
+"nova": "O Tom me disse que não estava feliz.",
+"motivo": "PT-PT"
+},
+"5825849": {
+"orig": "Eu gostaria de saber por que você não esperou por Tom.",
+"nova": "Eu gostaria de saber por que você simplesmente não esperou o Tom.",
+"motivo": "falta \"just\""
+},
+"6898301": {
+"orig": "Você não esta ocupado agora, está?",
+"nova": "Você não está ocupado agora, está?",
+"motivo": "acentuação"
+},
+"36335": {
+"orig": "Não faço ideia do porquê dela ter ficado com tanta raiva.",
+"nova": "Não faço ideia de por que ela ficou com tanta raiva.",
+"motivo": "gramática"
+},
+"761904": {
+"orig": "Ela ficou muito zangada com suas crianças.",
+"nova": "Ela ficou muito zangada com os filhos.",
+"motivo": "não natural"
+},
+"2322724": {
+"orig": "Eu não sei por que você está tão bravo.",
+"nova": "Eu não sei por que vocês estão todos tão bravos.",
+"motivo": "número trocado"
+},
+"6259471": {
+"orig": "O Tom não parece estar muito feliz para mim.",
+"nova": "Para mim, o Tom não parece estar muito feliz.",
+"motivo": "decalque \"para mim\""
+},
+"2308182": {
+"orig": "Eu podia jurar que o Tom não estava feliz.",
+"nova": "Deu para perceber que o Tom não estava feliz.",
+"motivo": "sentido errado"
+},
+"8367394": {
+"orig": "Tom vai estar ocupado o dia todo.",
+"nova": "Tom vai estar muito ocupado o dia todo.",
+"motivo": "falta \"very\""
+},
+"3730056": {
+"orig": "Tom nos fará muito feliz.",
+"nova": "Tom vai nos fazer muito felizes.",
+"motivo": "concordância"
+},
+"2642582": {
+"orig": "Tom disse a Maria que estava ocupado.",
+"nova": "Tom disse à Mary que estava ocupado.",
+"motivo": "nome trocado"
+},
+"2642602": {
+"orig": "Tom disse que tinha coisas para fazer.",
+"nova": "Tom disse que tinha estado ocupado.",
+"motivo": "sentido alterado"
+},
+"2210835": {
+"orig": "Por que você não fala com o Tom?",
+"nova": "Por que você simplesmente não fala com o Tom?",
+"motivo": "falta \"just\""
+},
+"6125920": {
+"orig": "Se o Tom fizer, Mary vai ficar muito feliz.",
+"nova": "Se o Tom fizer isso, a Mary vai ficar feliz.",
+"motivo": "\"muito\" a mais"
+},
+"2208643": {
+"orig": "Nunca mais me deixe sozinho com o Tom.",
+"nova": "Nunca me deixe sozinho com o Tom.",
+"motivo": "\"mais\" a mais"
+},
+"887358": {
+"orig": "Ela não disse nada que o deixaria nervoso.",
+"nova": "Ela não disse nada que o deixasse bravo.",
+"motivo": "modo verbal"
+},
+"1092498": {
+"orig": "Tom queria dizer algo a Maria.",
+"nova": "Tom queria dizer algo à Mary.",
+"motivo": "nome trocado"
+},
+"887277": {
+"orig": "Ela olhou para ele e sabia que estava zangado.",
+"nova": "Ela olhou para ele e soube que ele estava zangado.",
+"motivo": "tempo verbal"
+},
+"4809297": {
+"orig": "Eu nunca tinha visto o Tom com tanta raiva.",
+"nova": "Foi a primeira vez que eu vi o Tom com tanta raiva.",
+"motivo": "tradução infiel"
+},
+"2044888": {
+"orig": "Tom me contou que ela estava realmente feliz aqui.",
+"nova": "Tom me contou que estava muito feliz lá.",
+"motivo": "pessoa/lugar errados"
+},
+"7732056": {
+"orig": "O Tom estava muito feliz para fazer aquilo para você.",
+"nova": "O Tom ficou muito feliz em fazer aquilo por você.",
+"motivo": "sentido errado"
+},
+"4376883": {
+"orig": "Tom estava tão bravo com Mary que mal conseguia olhar para ela.",
+"nova": "Tom estava tão bravo com Mary que nem conseguia olhar para ela.",
+"motivo": "\"even\" ≠ mal"
+},
+"2014744": {
+"orig": "Tom e Maria querem falar comigo.",
+"nova": "Tom e Mary querem falar comigo.",
+"motivo": "nome trocado"
+},
+"2210446": {
+"orig": "Acabei de dizer a Tom para deixá-la em paz.",
+"nova": "Acabei de dizer ao Tom para deixar a Mary em paz.",
+"motivo": "nome omitido"
+},
+"3181822": {
+"orig": "Eu acho que Tom deveria falar com Maria.",
+"nova": "Eu acho que Tom deveria falar com a Mary.",
+"motivo": "nome trocado"
+},
+"6268881": {
+"orig": "Tom disse a Maria para deixar John em paz.",
+"nova": "Tom disse à Mary para deixar o John em paz.",
+"motivo": "nome trocado"
+},
+"2044945": {
+"orig": "Não tenho certeza se Tom será feliz.",
+"nova": "Não tenho certeza se o Tom algum dia vai ser feliz.",
+"motivo": "falta \"ever\""
+},
+"4134221": {
+"orig": "Tom queria que Maria falasse com João.",
+"nova": "Tom queria que a Mary falasse com o John.",
+"motivo": "nomes trocados"
+},
+"2451302": {
+"orig": "Eu não sei dizer isso em Francês.",
+"nova": "Eu não sei dizer isso em francês.",
+"motivo": "maiúscula indevida"
+},
+"1094243": {
+"orig": "Tom não quer falar com Maria.",
+"nova": "Tom não quer falar com Mary.",
+"motivo": "nome trocado"
+},
+"2044991": {
+"orig": "Não acho que Tom e Mary vão ser felizes com aquilo.",
+"nova": "Não acho que Tom e Mary vão ficar felizes com isso.",
+"motivo": "happy about = ficar feliz com"
+},
+"2359775": {
+"orig": "Eu tenho que falar com Tom e Maria.",
+"nova": "Eu tenho que falar com Tom e Mary.",
+"motivo": "nome trocado"
+},
+"7230831": {
+"orig": "Eu não acho que Tom quer fazer isso sozinho.",
+"nova": "Eu não acho que Tom quisesse fazer isso sozinho.",
+"motivo": "tempo verbal"
+},
+"3824106": {
+"orig": "Tom não disse onde ele estava indo, não é?",
+"nova": "Tom não disse aonde ele estava indo, não é?",
+"motivo": "onde/aonde"
+},
+"2641902": {
+"orig": "Tom não quis falar com Maria.",
+"nova": "Tom não quis falar com Mary.",
+"motivo": "nome trocado"
+},
+"3732693": {
+"orig": "Tom não estava tão ocupado quanto Maria me disse que ele estaria.",
+"nova": "Tom não estava tão ocupado quanto Mary me disse que ele estaria.",
+"motivo": "nome trocado"
+},
+"6237413": {
+"orig": "Tom deveria estar ocupado agora, mas não acho que esteja.",
+"nova": "Tom pode estar ocupado agora, mas não acho que esteja.",
+"motivo": "could = pode, não deveria"
+},
+"6003746": {
+"orig": "Tom e Maria tiveram muito tempo para conversar.",
+"nova": "Tom e Mary tiveram muito tempo para conversar.",
+"motivo": "nome trocado"
+},
+"1094488": {
+"orig": "Tom não tem tempo para conversar agora.",
+"nova": "Tom não tem tempo para conversar com você agora.",
+"motivo": "faltava 'com você'"
+},
+"5757497": {
+"orig": "É provável que eu vá.",
+"nova": "Eu deveria ir.",
+"motivo": "sentido errado"
+},
+"3825724": {
+"orig": "Eu amo esta cidade .",
+"nova": "Eu amo esta cidade.",
+"motivo": "espaço antes do ponto"
+},
+"2245998": {
+"orig": "Eu preciso de aconselhamento.",
+"nova": "Eu preciso de conselhos.",
+"motivo": "naturalidade"
+},
+"4792306": {
+"orig": "Isso custa muito.",
+"nova": "Isso custou muito.",
+"motivo": "tempo verbal (passado)"
+},
+"282276": {
+"orig": "Que dor!",
+"nova": "Que chato!",
+"motivo": "idiomático: what a pain"
+},
+"8909955": {
+"orig": "Deixa-me descansar.",
+"nova": "Me deixa descansar.",
+"motivo": "forma de Portugal"
+},
+"20763": {
+"orig": "Lava-te.",
+"nova": "Vá se lavar.",
+"motivo": "forma de Portugal"
+},
+"1553407": {
+"orig": "Chegue para frente.",
+"nova": "Chega para lá.",
+"motivo": "sentido errado"
+},
+"53035": {
+"orig": "E daí?",
+"nova": "E depois?",
+"motivo": "then what = e depois"
+},
+"462430": {
+"orig": "Cala-te!",
+"nova": "Cala a boca!",
+"motivo": "forma de Portugal"
+},
+"2202842": {
+"orig": "Estou famoso.",
+"nova": "Eu sou famoso.",
+"motivo": "ser/estar"
+},
+"2066291": {
+"orig": "Estou bravo.",
+"nova": "Eu sou louco.",
+"motivo": "crazy = louco, não bravo"
+},
+"433519": {
+"orig": "É um negócio.",
+"nova": "São negócios.",
+"motivo": "sentido"
+},
+"2255234": {
+"orig": "Quem te ouve pensa que estás louco.",
+"nova": "Você parece estar louco.",
+"motivo": "forma de Portugal/tradução livre"
+},
+"41774": {
+"orig": "Corte-o pela metade.",
+"nova": "Corte-o ao meio.",
+"motivo": "pela metade ≠ ao meio"
+},
+"256175": {
+"orig": "Eu adorava nadar.",
+"nova": "Eu gostei de nadar.",
+"motivo": "tempo/sentido"
+},
+"2699632": {
+"orig": "Ela tinha um rádio.",
+"nova": "Ele tinha um rádio.",
+"motivo": "gênero trocado"
+},
+"5379859": {
+"orig": "Tal é a minha opinião.",
+"nova": "Essa é a minha opinião.",
+"motivo": "naturalidade"
+},
+"41717": {
+"orig": "Apanhe-o.",
+"nova": "Pegue-o.",
+"motivo": "forma de Portugal"
+},
+"1890910": {
+"orig": "Vou ao mercado.",
+"nova": "Vou fazer compras.",
+"motivo": "sentido restrito demais"
+},
+"2203642": {
+"orig": "Nos vamos decidir.",
+"nova": "Nós vamos decidir.",
+"motivo": "acento"
+},
+"2245275": {
+"orig": "Lava a loiça.",
+"nova": "Lave a louça.",
+"motivo": "forma de Portugal"
+},
+"259651": {
+"orig": "Eu amo o inverno.",
+"nova": "Eu gosto do inverno.",
+"motivo": "like ≠ amar"
+},
+"3330980": {
+"orig": "Desvende isso.",
+"nova": "Descubra você mesmo.",
+"motivo": "sentido"
+},
+"1179935": {
+"orig": "Estou seguro.",
+"nova": "Tenho certeza.",
+"motivo": "forma não brasileira"
+},
+"292709": {
+"orig": "Ele está com a bola.",
+"nova": "Ele pegou a bola.",
+"motivo": "tempo verbal"
+},
+"39118": {
+"orig": "A porta abriu-se.",
+"nova": "A porta se abriu.",
+"motivo": "colocação pronominal PT"
+},
+"672229": {
+"orig": "Ele corria.",
+"nova": "Ele correu.",
+"motivo": "tempo verbal"
+},
+"1416534": {
+"orig": "O vermelho é o melhor.",
+"nova": "O vermelho é melhor.",
+"motivo": "better ≠ o melhor"
+},
+"2036345": {
+"orig": "Eu assisto televisão.",
+"nova": "Estou assistindo televisão.",
+"motivo": "aspecto progressivo"
+},
+"5048602": {
+"orig": "Nos encontramos muitas vezes.",
+"nova": "Nós nos encontramos várias vezes.",
+"motivo": "several = várias"
+},
+"2111611": {
+"orig": "Ande!",
+"nova": "Fique esperto!",
+"motivo": "sentido"
+},
+"9361401": {
+"orig": "Nós escrevíamos muito.",
+"nova": "Nós escrevemos muito.",
+"motivo": "tempo verbal"
+},
+"268897": {
+"orig": "Levou todo o fim de tarde.",
+"nova": "Levou a noite toda.",
+"motivo": "evening = noite"
+},
+"2250914": {
+"orig": "Isso me parece engraçado.",
+"nova": "Isso parece divertido.",
+"motivo": "fun ≠ engraçado"
+},
+"5758148": {
+"orig": "Chamou-me a atenção.",
+"nova": "Me chamou a atenção.",
+"motivo": "colocação pt-PT"
+},
+"3955830": {
+"orig": "Não fumar!",
+"nova": "Não fume.",
+"motivo": "imperativo"
+},
+"3329594": {
+"orig": "Posso pegar emprestado uma camisa?",
+"nova": "Posso pegar uma camisa emprestada?",
+"motivo": "concordância"
+},
+"2203825": {
+"orig": "Nós estamos ficando.",
+"nova": "Nós vamos ficar.",
+"motivo": "sentido/natural"
+},
+"1071787": {
+"orig": "Tome os remédios.",
+"nova": "Tome o remédio.",
+"motivo": "número"
+},
+"316154": {
+"orig": "Ela foi ás compras.",
+"nova": "Ela foi às compras.",
+"motivo": "crase"
+},
+"2248855": {
+"orig": "Foi trancado.",
+"nova": "Estava trancado.",
+"motivo": "sentido"
+},
+"740936": {
+"orig": "Eu gosto de sorvete.",
+"nova": "Eu amo sorvete.",
+"motivo": "love≠gostar"
+},
+"5618350": {
+"orig": "A que horas é o meu voo?",
+"nova": "Quando é o meu voo?",
+"motivo": "when≠que horas"
+},
+"503752": {
+"orig": "É outono, agora.",
+"nova": "Agora é outono.",
+"motivo": "pontuação"
+},
+"2546760": {
+"orig": "Antes não tivesses vindo.",
+"nova": "Eu queria que você não tivesse vindo.",
+"motivo": "pt-PT/literário"
+},
+"5924129": {
+"orig": "Lave as janelas.",
+"nova": "Limpe as janelas.",
+"motivo": "clean=limpar"
+},
+"313193": {
+"orig": "Ela chorava.",
+"nova": "Ela chorou.",
+"motivo": "tempo verbal"
+},
+"2203613": {
+"orig": "Tom mudou?",
+"nova": "Tom mudou.",
+"motivo": "pontuação"
+},
+"7453168": {
+"orig": "Esta é a minha filha.",
+"nova": "Essa é a minha filha.",
+"motivo": "demonstrativo"
+},
+"71603": {
+"orig": "Não deixe de nos informar se poderá vir.",
+"nova": "Nos avise se você pode vir.",
+"motivo": "acréscimo de sentido"
+},
+"2009278": {
+"orig": "Deixaram-me para trás.",
+"nova": "Me deixaram para trás.",
+"motivo": "colocação pt-PT"
+},
+"2203810": {
+"orig": "Nós estaremos de pé.",
+"nova": "Nós vamos ficar de pé.",
+"motivo": "natural"
+},
+"5386494": {
+"orig": "É um país de grandes dimensões.",
+"nova": "É um país grande.",
+"motivo": "artificial"
+},
+"307605": {
+"orig": "Eles sentaram-se debaixo de uma árvore.",
+"nova": "Eles se sentaram debaixo de uma árvore.",
+"motivo": "colocação pt-PT"
+},
+"2123577": {
+"orig": "É bizarro.",
+"nova": "É estranho.",
+"motivo": "sentido"
+},
+"620713": {
+"orig": "A nossa equipa pode ganhar.",
+"nova": "A nossa equipe pode ganhar.",
+"motivo": "pt-PT"
+},
+"1140531": {
+"orig": "Despediram-me.",
+"nova": "Fui demitido.",
+"motivo": "pt-PT/natural"
+},
+"879577": {
+"orig": "Eu gosto desta taça.",
+"nova": "Eu gosto desta xícara.",
+"motivo": "cup=xícara"
+},
+"2247439": {
+"orig": "Caminhei aqui.",
+"nova": "Eu vim a pé.",
+"motivo": "sentido"
+},
+"2245278": {
+"orig": "Quer dançar?",
+"nova": "Você dança?",
+"motivo": "sentido"
+},
+"5757742": {
+"orig": "Ponha o vestido azul.",
+"nova": "Use um vestido azul.",
+"motivo": "artigo/sentido"
+},
+"2203014": {
+"orig": "Estou dentro.",
+"nova": "Estou aqui dentro.",
+"motivo": "ambiguidade"
+},
+"239522": {
+"orig": "A porta dianteira estava aberta.",
+"nova": "A porta da frente estava aberta.",
+"motivo": "sentido"
+},
+"2240299": {
+"orig": "Amávamos o Tomás.",
+"nova": "Nós amávamos o Tom.",
+"motivo": "nome trocado"
+},
+"2713580": {
+"orig": "Nós, de fato, nunca nos encontramos.",
+"nova": "Na verdade, nós nunca nos conhecemos.",
+"motivo": "met=conhecer"
+},
+"2007938": {
+"orig": "Vamos embora.",
+"nova": "Vamos desistir.",
+"motivo": "sentido"
+},
+"2203808": {
+"orig": "Tom estava falando.",
+"nova": "Tom falou.",
+"motivo": "tempo verbal"
+},
+"1300494": {
+"orig": "Está chovendo?",
+"nova": "Está chovendo agora?",
+"motivo": "informação a menos"
+},
+"68478": {
+"orig": "Quero esta bolsa.",
+"nova": "Quero aquela bolsa.",
+"motivo": "demonstrativo"
+},
+"1141191": {
+"orig": "Tom foi dormir tarde.",
+"nova": "Tom dormiu até tarde.",
+"motivo": "sentido"
+},
+"257131": {
+"orig": "Sou maior que você.",
+"nova": "Sou mais alto que você.",
+"motivo": "taller=mais alto"
+},
+"259881": {
+"orig": "Eu mantenho treze gatos.",
+"nova": "Eu tenho treze gatos.",
+"motivo": "decalque"
+},
+"2256871": {
+"orig": "Pegue aquele.",
+"nova": "Pegue isso.",
+"motivo": "gênero/demonstrativo"
+},
+"4080952": {
+"orig": "Tom foi à faculdade?",
+"nova": "O Tom fez faculdade?",
+"motivo": "sentido"
+},
+"4666586": {
+"orig": "Tom come menos que Maria.",
+"nova": "Tom come menos que Mary.",
+"motivo": "nome trocado"
+},
+"299844": {
+"orig": "Ele tem um mau coração.",
+"nova": "Ele tem problemas de coração.",
+"motivo": "sentido"
+},
+"311898": {
+"orig": "Ela sorria.",
+"nova": "Ela sorriu.",
+"motivo": "tempo verbal"
+},
+"21295": {
+"orig": "Boa viagem!",
+"nova": "Tenha um bom voo!",
+"motivo": "sentido"
+},
+"2248365": {
+"orig": "Eu chamei duas vezes.",
+"nova": "Eu liguei duas vezes.",
+"motivo": "sentido"
+},
+"2111893": {
+"orig": "Dirija rápido.",
+"nova": "Dirija mais rápido.",
+"motivo": "informação a menos"
+},
+"7114506": {
+"orig": "Arrependo-me de rir.",
+"nova": "Me arrependo de ter rido.",
+"motivo": "pt-PT/natural"
+},
+"2869142": {
+"orig": "Antes eu não tivesse dito isso.",
+"nova": "Eu queria não ter dito isso.",
+"motivo": "natural"
+},
+"2107662": {
+"orig": "Veja cuidadosamente.",
+"nova": "Observe com atenção.",
+"motivo": "natural"
+},
+"8918667": {
+"orig": "Tom tinha razão.",
+"nova": "Tom tinha certeza.",
+"motivo": "sentido"
+},
+"323737": {
+"orig": "O olhos deles se encontraram.",
+"nova": "Os olhos deles se encontraram.",
+"motivo": "concordância"
+},
+"2359461": {
+"orig": "Não fiz nada.",
+"nova": "Eu não fiz nada disso.",
+"motivo": "sentido"
+},
+"2169050": {
+"orig": "Eu comprei há um mês.",
+"nova": "Eu comprei isso há um mês.",
+"motivo": "objeto faltando"
+},
+"8355616": {
+"orig": "Tom falou.",
+"nova": "Tom estava falando.",
+"motivo": "tempo verbal"
+},
+"5860556": {
+"orig": "Eu fiquei preocupado.",
+"nova": "Comecei a me preocupar.",
+"motivo": "sentido"
+},
+"1028437": {
+"orig": "Tom matou Maria.",
+"nova": "Tom matou Mary.",
+"motivo": "nome trocado"
+},
+"1887558": {
+"orig": "Eu gosto desta cidade.",
+"nova": "Eu adoro esta cidade.",
+"motivo": "love≠gostar"
+},
+"2649067": {
+"orig": "Por que é escuro?",
+"nova": "Por que está escuro?",
+"motivo": "ser/estar"
+},
+"775986": {
+"orig": "Você escuta?",
+"nova": "Você está ouvindo?",
+"motivo": "tempo/aspecto"
+},
+"2241467": {
+"orig": "Nós caminhávamos aqui.",
+"nova": "Nós viemos a pé.",
+"motivo": "sentido"
+},
+"3360637": {
+"orig": "Tom quebrou um vidro.",
+"nova": "Tom quebrou um copo.",
+"motivo": "glass=copo"
+},
+"261159": {
+"orig": "Fiz um vestido a ela.",
+"nova": "Fiz um vestido para ela.",
+"motivo": "regência"
+},
+"1107280": {
+"orig": "O gato é negro.",
+"nova": "O gato é preto.",
+"motivo": "natural pt-BR"
+},
+"45778": {
+"orig": "Não nades no rio.",
+"nova": "Não nade no rio.",
+"motivo": "pt-PT"
+},
+"3461106": {
+"orig": "Estávamos comendo ovo.",
+"nova": "Estávamos comendo ovos.",
+"motivo": "número"
+},
+"7538399": {
+"orig": "Na verdade, meu nome não é Tom.",
+"nova": "Na verdade, eu não sou o Tom.",
+"motivo": "sentido"
+},
+"2248420": {
+"orig": "Eu vi pior.",
+"nova": "Já vi pior.",
+"motivo": "natural"
+},
+"6274657": {
+"orig": "Tomás estudava Francês.",
+"nova": "Tom estudou francês.",
+"motivo": "nome/tempo/maiúscula"
+},
+"293921": {
+"orig": "Ele deixou o Japão por bem.",
+"nova": "Ele deixou o Japão para sempre.",
+"motivo": "sentido"
+},
+"7008782": {
+"orig": "Eu conheci o Tom em outubro.",
+"nova": "Eu conheci o Tom em outubro deste ano.",
+"motivo": "informação a menos"
+},
+"2200024": {
+"orig": "Eu fiquei triste.",
+"nova": "Eu estava triste.",
+"motivo": "sentido"
+},
+"52086": {
+"orig": "Eu vou está junto em breve.",
+"nova": "Eu chego daqui a pouco.",
+"motivo": "erro gramatical"
+},
+"2456789": {
+"orig": "Estou estudando vários idiomas.",
+"nova": "Eu estudo vários idiomas.",
+"motivo": "tempo verbal"
+},
+"3374772": {
+"orig": "Eu não estive bebendo.",
+"nova": "Eu não estava bebendo.",
+"motivo": "tempo verbal"
+},
+"297216": {
+"orig": "Ele está com medo da morte.",
+"nova": "Ele tem medo da morte.",
+"motivo": "sentido"
+},
+"2304": {
+"orig": "É uma verdadeira pechincha.",
+"nova": "É um bom negócio.",
+"motivo": "acréscimo de sentido"
+},
+"3428597": {
+"orig": "Você está com vontade de ir?",
+"nova": "Você está disposto a ir?",
+"motivo": "willing = disposto"
+},
+"255279": {
+"orig": "Sentei-me entre Tom e João.",
+"nova": "Sentei-me entre Tom e John.",
+"motivo": "nome trocado"
+},
+"5217323": {
+"orig": "Nunca imaginei isso.",
+"nova": "Eu nunca consegui entender isso.",
+"motivo": "sentido errado"
+},
+"2644497": {
+"orig": "A arma não tinha sido atirada.",
+"nova": "A arma não tinha sido disparada.",
+"motivo": "verbo inadequado"
+},
+"2548294": {
+"orig": "Eu os enviarei para você.",
+"nova": "Eu o enviarei para você.",
+"motivo": "número trocado"
+},
+"280465": {
+"orig": "Não jogue na rua.",
+"nova": "Não brinque na rua.",
+"motivo": "play = brincar aqui"
+},
+"298478": {
+"orig": "Ele veio de bicicleta.",
+"nova": "Ele foi de bicicleta.",
+"motivo": "went = foi"
+},
+"2245743": {
+"orig": "Eu me sinto engraçado.",
+"nova": "Eu me sinto esquisito.",
+"motivo": "funny = estranho aqui"
+},
+"2235729": {
+"orig": "Prometi ao Tomás.",
+"nova": "Prometi ao Tom.",
+"motivo": "nome trocado"
+},
+"31711": {
+"orig": "Tome mais um copo.",
+"nova": "Tome mais uma xícara.",
+"motivo": "cup = xícara"
+},
+"2247529": {
+"orig": "Eu estava triste.",
+"nova": "Eu estava chateado.",
+"motivo": "upset = chateado"
+},
+"6273397": {
+"orig": "Tom não está pronto também.",
+"nova": "Tom também não está pronto.",
+"motivo": "colocação natural"
+},
+"2248159": {
+"orig": "Eu não sou louco.",
+"nova": "Eu não estou bravo.",
+"motivo": "estado, não ser; mad = bravo"
+},
+"50273": {
+"orig": "Isso custará meu trabalho.",
+"nova": "Isso vai me custar o emprego.",
+"motivo": "falta 'me'"
+},
+"3184869": {
+"orig": "Fique dentro.",
+"nova": "Fique aqui dentro.",
+"motivo": "tradução incompleta/artificial"
+},
+"8916483": {
+"orig": "Tom estava realmente lá.",
+"nova": "Na verdade, Tom estava lá.",
+"motivo": "actually = na verdade"
+},
+"4062880": {
+"orig": "Quando o Tom vem?",
+"nova": "Quando o Tom chega?",
+"motivo": "arrive = chegar"
+},
+"297515": {
+"orig": "Ele me encontrou um táxi.",
+"nova": "Ele arranjou um táxi para mim.",
+"motivo": "ambíguo/literal"
+},
+"2236876": {
+"orig": "Tom está terrível.",
+"nova": "Tom é terrível.",
+"motivo": "ser vs estar"
+},
+"63181": {
+"orig": "Não brinque de pega-pega.",
+"nova": "Não brinque de jogar bola.",
+"motivo": "play catch ≠ pega-pega"
+},
+"2520218": {
+"orig": "O carro era roubado.",
+"nova": "O carro foi roubado.",
+"motivo": "tempo verbal"
+},
+"4646117": {
+"orig": "Hoje chove.",
+"nova": "Está chovendo hoje.",
+"motivo": "aspecto natural"
+},
+"806838": {
+"orig": "Haviam muitos outros.",
+"nova": "Havia muitos outros.",
+"motivo": "haver impessoal"
+},
+"2245904": {
+"orig": "Não tenho dormido.",
+"nova": "Eu não dormi.",
+"motivo": "aspecto trocado"
+},
+"2647497": {
+"orig": "Antônio não é um suspeito.",
+"nova": "Tom não é um suspeito.",
+"motivo": "nome trocado"
+},
+"1047232": {
+"orig": "Um cão mordeu-lhe a perna.",
+"nova": "Um cachorro mordeu a perna dela.",
+"motivo": "forma de Portugal"
+},
+"2547901": {
+"orig": "Eu não pedi por isso.",
+"nova": "Eu não estava perguntando isso.",
+"motivo": "sentido errado"
+},
+"2257536": {
+"orig": "Ambos riram.",
+"nova": "Os dois riem.",
+"motivo": "tempo trocado"
+},
+"2401212": {
+"orig": "Tom visitou Maria.",
+"nova": "Tom visitou Mary.",
+"motivo": "nome trocado"
+},
+"60528": {
+"orig": "Posso emprestar esta caneta?",
+"nova": "Posso pegar esta caneta emprestada?",
+"motivo": "borrow ≠ emprestar"
+},
+"2248742": {
+"orig": "Não é necessária.",
+"nova": "Não é necessário.",
+"motivo": "gênero sem justificativa"
+},
+"59652": {
+"orig": "Que comprimento tem esta ponte?",
+"nova": "Qual é o comprimento desta ponte?",
+"motivo": "naturalidade pt-BR"
+},
+"1579041": {
+"orig": "Isso é entre eu e você.",
+"nova": "Isso é entre mim e você.",
+"motivo": "erro gramatical"
+},
+"3533855": {
+"orig": "Quero ir para uma faculdade.",
+"nova": "Eu gostaria de ir para a faculdade.",
+"motivo": "modo/artigo"
+},
+"1764750": {
+"orig": "Isto é o meu lápis.",
+"nova": "Este é o meu lápis.",
+"motivo": "naturalidade"
+},
+"259397": {
+"orig": "Vi a figura dum homem.",
+"nova": "Vi a figura de um homem.",
+"motivo": "contração de Portugal"
+},
+"4494533": {
+"orig": "Quem eram eles mesmo?",
+"nova": "Quem eram eles exatamente?",
+"motivo": "sentido de 'mesmo'"
+},
+"2111880": {
+"orig": "Todas ficaram.",
+"nova": "Todos ficaram.",
+"motivo": "gênero sem justificativa"
+},
+"1886587": {
+"orig": "Qual chave?",
+"nova": "Qual é a chave?",
+"motivo": "frase incompleta"
+},
+"6375135": {
+"orig": "Apenas diga a palavra.",
+"nova": "É só pedir.",
+"motivo": "expressão traduzida literalmente"
+},
+"312531": {
+"orig": "Ela tornar-se-á médica.",
+"nova": "Ela vai se tornar médica.",
+"motivo": "mesóclise de Portugal/formal"
+},
+"5758116": {
+"orig": "O Tomás assassinou um homem.",
+"nova": "O Tom matou um homem.",
+"motivo": "nome trocado"
+},
+"2234117": {
+"orig": "Quais são as novas?",
+"nova": "Quais são as novidades?",
+"motivo": "arcaico"
+},
+"2202726": {
+"orig": "É um perigo.",
+"nova": "Você é perigoso.",
+"motivo": "sujeito/sentido perdido"
+},
+"8416346": {
+"orig": "Maria ama flores.",
+"nova": "Mary ama flores.",
+"motivo": "nome trocado"
+},
+"299429": {
+"orig": "Ele está na biblioteca.",
+"nova": "Ele está na biblioteca dele.",
+"motivo": "falta 'his'"
+},
+"1887889": {
+"orig": "Eu quero sonhar",
+"nova": "Eu quero sonhar.",
+"motivo": "pontuação"
+},
+"2123503": {
+"orig": "Nós estamos dentro.",
+"nova": "Estamos aqui dentro.",
+"motivo": "artificial"
+},
+"1912958": {
+"orig": "Dá-me uma boa razão.",
+"nova": "Me dê uma boa razão.",
+"motivo": "forma de Portugal"
+},
+"2007914": {
+"orig": "Movamo-nos.",
+"nova": "Vamos seguir em frente.",
+"motivo": "sentido errado"
+},
+"2243049": {
+"orig": "Eles prenderam ela.",
+"nova": "Eles a prenderam.",
+"motivo": "pronome"
+},
+"308501": {
+"orig": "Ela deu-me um presente.",
+"nova": "Ela me deu um presente.",
+"motivo": "colocação de Portugal"
+},
+"2241672": {
+"orig": "Fizemos pior.",
+"nova": "Já fizemos pior.",
+"motivo": "aspecto (present perfect)"
+},
+"3172325": {
+"orig": "Você é grande?",
+"nova": "Você é alto?",
+"motivo": "tall = alto"
+},
+"319999": {
+"orig": "Você segue?",
+"nova": "Você está acompanhando?",
+"motivo": "sentido errado"
+},
+"2241090": {
+"orig": "Nos sentimos terríveis.",
+"nova": "Nós nos sentimos péssimos.",
+"motivo": "naturalidade"
+},
+"3820557": {
+"orig": "Estranhei ouvir isso.",
+"nova": "Parece estranho.",
+"motivo": "sentido errado"
+},
+"302672": {
+"orig": "Ele deu a ela um pequeno conselho.",
+"nova": "Ele deu um conselho a ela.",
+"motivo": "informação a mais"
+},
+"2262431": {
+"orig": "Ele concordou em ir.",
+"nova": "Tom concordou em ir.",
+"motivo": "nome perdido"
+},
+"5858695": {
+"orig": "Eu te trouxe um presente.",
+"nova": "Comprei um presente para você.",
+"motivo": "verbo impreciso"
+},
+"1028539": {
+"orig": "Tom é o marido de Maria.",
+"nova": "Tom é o marido de Mary.",
+"motivo": "nome trocado"
+},
+"3422015": {
+"orig": "A cadeira tá quebrada.",
+"nova": "A cadeira está quebrada.",
+"motivo": "coloquial 'tá'"
+},
+"1779245": {
+"orig": "Não fumar aqui.",
+"nova": "Não fume aqui.",
+"motivo": "imperativo"
+},
+"2060042": {
+"orig": "Estamos querendo aprender.",
+"nova": "Estamos dispostos a aprender.",
+"motivo": "willing = dispostos"
+},
+"1954814": {
+"orig": "Não te posso salvar.",
+"nova": "Não posso te salvar.",
+"motivo": "colocação pt-BR"
+},
+"1028687": {
+"orig": "Tom odeia Maria.",
+"nova": "Tom odeia Mary.",
+"motivo": "nome trocado"
+},
+"887578": {
+"orig": "Ela assistia a ele comendo.",
+"nova": "Ela o observou comendo.",
+"motivo": "tempo/regência"
+},
+"5164849": {
+"orig": "Antes Tom não tivesse feito isso.",
+"nova": "Eu queria que Tom não tivesse feito isso.",
+"motivo": "tradução artificial"
+},
+"8772782": {
+"orig": "Não vá para fora.",
+"nova": "Não saia.",
+"motivo": "não natural"
+},
+"2546498": {
+"orig": "Eu o levo.",
+"nova": "Vou levar você comigo.",
+"motivo": "faltava 'comigo'/tempo"
+},
+"243278": {
+"orig": "Estou planejando estudar à noite.",
+"nova": "Estou planejando estudar hoje à noite.",
+"motivo": "tonight = hoje à noite"
+},
+"2642421": {
+"orig": "Tom e Maria se conheceram no ensino médio.",
+"nova": "Tom e Mary se conheceram no ensino médio.",
+"motivo": "nome trocado"
+},
+"3822162": {
+"orig": "Eu gosto de música sertaneja.",
+"nova": "Eu gosto de música country.",
+"motivo": "country ≠ sertaneja"
+},
+"3921520": {
+"orig": "Tom está fazendo janta.",
+"nova": "Tom está fazendo o jantar.",
+"motivo": "naturalidade"
+},
+"19660": {
+"orig": "Apressemo-nos.",
+"nova": "Vamos nos apressar.",
+"motivo": "naturalidade pt-BR"
+},
+"70925": {
+"orig": "Eu não quis dizer você.",
+"nova": "Não estou falando de você.",
+"motivo": "sentido/tempo"
+},
+"1951624": {
+"orig": "Eu não consigo encontrar o Tom também.",
+"nova": "Também não consigo encontrar o Tom.",
+"motivo": "naturalidade"
+},
+"2245305": {
+"orig": "É para não me chatear.",
+"nova": "Não fique bravo.",
+"motivo": "tradução errada"
+},
+"298732": {
+"orig": "Ele superou seu trabalho.",
+"nova": "Ele terminou o trabalho.",
+"motivo": "sentido errado"
+},
+"806942": {
+"orig": "Esta foi um situação engraçada.",
+"nova": "Foi uma situação estranha.",
+"motivo": "strange≠engraçada; gramática"
+},
+"3593981": {
+"orig": "Pode ser que isso funcione.",
+"nova": "Isso pode até funcionar.",
+"motivo": "faltava 'actually'"
+},
+"3822447": {
+"orig": "Envie-me uma mensagem.",
+"nova": "Escreva-me uma mensagem.",
+"motivo": "write = escrever"
+},
+"4244136": {
+"orig": "Que é que o Tom está bebendo?",
+"nova": "O que o Tom está bebendo?",
+"motivo": "naturalidade pt-BR"
+},
+"32644": {
+"orig": "Ainda chove?",
+"nova": "Ainda está chovendo?",
+"motivo": "aspecto progressivo"
+},
+"1841712": {
+"orig": "Gostei disso.",
+"nova": "Na verdade, eu gostei disso.",
+"motivo": "faltava 'actually'"
+},
+"8597091": {
+"orig": "Ninguém saiu de pé.",
+"nova": "Ninguém ficou de pé.",
+"motivo": "sentido"
+},
+"5961656": {
+"orig": "Gosta de piza?",
+"nova": "Você gosta de pizza?",
+"motivo": "ortografia pt-BR"
+},
+"2468": {
+"orig": "Você me passou sua gripe.",
+"nova": "Você me passou seu resfriado.",
+"motivo": "cold = resfriado"
+},
+"1029232": {
+"orig": "Tom desapontou Maria.",
+"nova": "Tom desapontou Mary.",
+"motivo": "nome trocado"
+},
+"887579": {
+"orig": "Ela assistia a ele nadando.",
+"nova": "Ela o observou nadando.",
+"motivo": "tempo/regência"
+},
+"682353": {
+"orig": "Por favor, coloque a mesa perto da parede.",
+"nova": "Por favor, coloque a mesa junto à parede.",
+"motivo": "next to ≠ perto"
+},
+"3151568": {
+"orig": "Nos dê algumas semanas.",
+"nova": "Espere algumas semanas.",
+"motivo": "sentido errado"
+},
+"1028343": {
+"orig": "O Tom mora perto de Maria.",
+"nova": "O Tom mora perto da Mary.",
+"motivo": "nome trocado"
+},
+"387465": {
+"orig": "O natal está perto, certo?",
+"nova": "O Natal está perto, certo?",
+"motivo": "maiúscula"
+},
+"3618714": {
+"orig": "O Tom andou na escola secundária comigo.",
+"nova": "O Tom estudou no ensino médio comigo.",
+"motivo": "forma de Portugal"
+},
+"2240247": {
+"orig": "Tom teria chorado.",
+"nova": "Tom choraria.",
+"motivo": "tempo verbal"
+},
+"2375928": {
+"orig": "Eu sei como isso vai.",
+"nova": "Eu sei como é.",
+"motivo": "tradução literal"
+},
+"2280285": {
+"orig": "Não se preocupe muito.",
+"nova": "Não se preocupe tanto.",
+"motivo": "so much = tanto"
+},
+"8400334": {
+"orig": "Eu só tenho uma hora",
+"nova": "Eu só tenho uma hora.",
+"motivo": "pontuação"
+},
+"2233682": {
+"orig": "Está perfeito.",
+"nova": "Está bom.",
+"motivo": "fine ≠ perfeito"
+},
+"2055263": {
+"orig": "Eu tenho o dia todo.",
+"nova": "Eu tenho o dia todo livre.",
+"motivo": "faltava 'livre'"
+},
+"2111239": {
+"orig": "Eles estão fortes.",
+"nova": "Eles são fortes.",
+"motivo": "ser/estar"
+},
+"3819156": {
+"orig": "Eu gosto de gatos também.",
+"nova": "Eu adoro gatos também.",
+"motivo": "love = adorar"
+},
+"3330353": {
+"orig": "Não era sortudo.",
+"nova": "Não tive sorte.",
+"motivo": "sentido"
+},
+"265308": {
+"orig": "Adoro tirar fotos.",
+"nova": "Gosto de tirar fotos.",
+"motivo": "enjoy ≠ adorar"
+},
+"2275686": {
+"orig": "Prefiro-o dessa maneira.",
+"nova": "Prefiro assim.",
+"motivo": "naturalidade"
+},
+"68886": {
+"orig": "Você sabe jogar beisebol?",
+"nova": "Você conhece beisebol?",
+"motivo": "sentido alterado"
+},
+"36003": {
+"orig": "Que lindo jardim.",
+"nova": "Que lindo jardim!",
+"motivo": "pontuação"
+},
+"6809895": {
+"orig": "Eu não vi o Tom por meses.",
+"nova": "Faz meses que não vejo o Tom.",
+"motivo": "tradução literal"
+},
+"3155782": {
+"orig": "Jogue essa faca fora.",
+"nova": "Guarde essa faca.",
+"motivo": "put away = guardar"
+},
+"286873": {
+"orig": "Qual é a sua altura?",
+"nova": "Qual é a altura dele?",
+"motivo": "he = dele"
+},
+"16996": {
+"orig": "Cuide das suas próprias coisas!",
+"nova": "Cuide da sua vida!",
+"motivo": "naturalidade"
+},
+"6071730": {
+"orig": "Era este desfecho que esperavas?",
+"nova": "É isso que você esperava?",
+"motivo": "acréscimo/tempo"
+},
+"8462311": {
+"orig": "Sou terrível nisso.",
+"nova": "Sou péssimo nisso.",
+"motivo": "calque"
+},
+"2129925": {
+"orig": "Estou permitido a usar isso?",
+"nova": "Tenho permissão para usar isto?",
+"motivo": "agramatical"
+},
+"2235846": {
+"orig": "Deixe o Tom quieto.",
+"nova": "Mantenha o Tom calado.",
+"motivo": "sentido errado"
+},
+"2682190": {
+"orig": "Gosto da sua mochila.",
+"nova": "Adoro a sua bolsa.",
+"motivo": "bag = bolsa; love"
+},
+"3444406": {
+"orig": "Tom está parado perto de Maria.",
+"nova": "Tom está parado perto de Mary.",
+"motivo": "nome trocado"
+},
+"2234155": {
+"orig": "Qual é o negócio do Tom?",
+"nova": "Qual é o problema do Tom?",
+"motivo": "calque"
+},
+"2648906": {
+"orig": "Você não pode estar falando sério!",
+"nova": "Isso foi uma piada?",
+"motivo": "tradução infiel"
 }
 },
 "remove": [
+6019,
+33113,
+35414,
 42238,
 55083,
 56994,
 62601,
 66275,
+66691,
 69823,
 72095,
 238029,
 239724,
 250318,
 252078,
+252311,
 252524,
 256020,
 289571,
 292076,
 306081,
 306303,
+307041,
 310104,
+318237,
+322838,
 327655,
+381512,
+387436,
 511183,
 611936,
+953610,
 953998,
+1051766,
 1091968,
+1181143,
 1477239,
+1655403,
+1776165,
 1824594,
 1824596,
 1879874,
 1884414,
 2011372,
+2016597,
 2033765,
+2042745,
 2044493,
 2163131,
 2233703,
 2234150,
 2245198,
 2255421,
+2355811,
 2374820,
 2541466,
 2548291,
@@ -14266,9 +19979,12 @@
 2649169,
 2891620,
 2892052,
+3251021,
 3329919,
 3330064,
 3355355,
+3408647,
+3424434,
 3439509,
 3618492,
 3636407,
@@ -14280,42 +19996,60 @@
 4016179,
 4132580,
 4135198,
+4700059,
+4700080,
+5166546,
 5752383,
 5852174,
 5916266,
 5938492,
+6049439,
 6085749,
 6097653,
+6125438,
 6223229,
 6223883,
 6230788,
+6233707,
 6250423,
+6254783,
+6257786,
 6259825,
 6260744,
+6266766,
+6267087,
+6270757,
 6345004,
+6345984,
 6356125,
 6438367,
 6659650,
+6728796,
 6927870,
 6963293,
+7117451,
 7152907,
 7156898,
 7176075,
+7176300,
 7183182,
 7191497,
 7737041,
 7775627,
 7792811,
+7899929,
 7932293,
 8063770,
 8227133,
 8257796,
 8264474,
 8341491,
+8388913,
 8410386,
 8438527,
 8518475,
 8927336,
+8933032,
 8945745,
 9044485
 ]
