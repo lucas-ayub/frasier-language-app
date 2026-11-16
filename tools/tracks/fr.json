@@ -1,0 +1,3648 @@
+{
+ "lang": "fr",
+ "tracks": [
+  {
+   "id": "basico",
+   "subs": [
+    {
+     "id": "saudacoes",
+     "name": "Cumprimentos e cortesia",
+     "desc": "Bonjour, merci, pardon, au revoir, s'il vous plaît… Ex.: « Merci beaucoup ! »",
+     "pattern": "(?<![\\w-])(?P<w>bonjour|bonsoir|salut|merci|pardon|bienvenue|désolée?s?|enchantée?|excusez-moi|excuse-moi|(?<=\\bau )revoir|(?<=\\bà )bientôt|(?<=il vous )plaît|(?<=il te )plaît|(?<=vous en )prie|(?<=en )prie)(?![\\w'’-])",
+     "options": {
+      "bonjour": [
+       "bonsoir",
+       "merci",
+       "pardon"
+      ],
+      "bonsoir": [
+       "bonjour",
+       "merci",
+       "salut"
+      ],
+      "salut": [
+       "merci",
+       "pardon",
+       "bonsoir"
+      ],
+      "merci": [
+       "pardon",
+       "bonjour",
+       "salut"
+      ],
+      "pardon": [
+       "merci",
+       "salut",
+       "bienvenue"
+      ],
+      "bienvenue": [
+       "merci",
+       "bonjour",
+       "pardon"
+      ],
+      "désolé": [
+       "merci",
+       "bienvenue",
+       "enchanté"
+      ],
+      "désolée": [
+       "merci",
+       "bienvenue",
+       "enchantée"
+      ],
+      "désolés": [
+       "merci",
+       "bienvenue",
+       "enchantés"
+      ],
+      "désolées": [
+       "merci",
+       "bienvenue",
+       "enchantées"
+      ],
+      "enchanté": [
+       "désolé",
+       "merci",
+       "bienvenue"
+      ],
+      "enchantée": [
+       "désolée",
+       "merci",
+       "bienvenue"
+      ],
+      "excusez-moi": [
+       "merci",
+       "bonjour",
+       "bienvenue"
+      ],
+      "excuse-moi": [
+       "merci",
+       "salut",
+       "bienvenue"
+      ],
+      "revoir": [
+       "bientôt",
+       "bonjour",
+       "merci"
+      ],
+      "bientôt": [
+       "revoir",
+       "bonsoir",
+       "merci"
+      ],
+      "plaît": [
+       "prie",
+       "merci",
+       "pardon"
+      ],
+      "prie": [
+       "plaît",
+       "merci",
+       "pardon"
+      ]
+     }
+    },
+    {
+     "id": "numeros",
+     "name": "Números",
+     "desc": "Deux, trois, dix, vingt, cent, mille… Ex.: « J'ai trois frères. »",
+     "pattern": "(?<![\\w'’-])(?<!tous )(?<!toutes )(?<!les )(?<!des )(?<!aux )(?<!nous )(?<!vous )(?<!eux )(?P<w>cinquante|quarante|quatorze|soixante|quatre|quinze|treize|trente|cents|douze|mille|seize|trois|vingt|cent|cinq|deux|huit|neuf|onze|sept|dix|six)(?![\\w'’-])(?! fois\\b(?<=mille fois))",
+     "options": {
+      "deux": [
+       "trois",
+       "quatre"
+      ],
+      "trois": [
+       "deux",
+       "quatre",
+       "cinq"
+      ],
+      "quatre": [
+       "trois",
+       "cinq",
+       "six"
+      ],
+      "cinq": [
+       "quatre",
+       "six",
+       "sept"
+      ],
+      "six": [
+       "cinq",
+       "sept",
+       "huit"
+      ],
+      "sept": [
+       "six",
+       "huit",
+       "neuf"
+      ],
+      "huit": [
+       "sept",
+       "neuf",
+       "dix"
+      ],
+      "neuf": [
+       "huit",
+       "dix",
+       "onze"
+      ],
+      "dix": [
+       "neuf",
+       "onze",
+       "douze"
+      ],
+      "onze": [
+       "dix",
+       "douze",
+       "treize"
+      ],
+      "douze": [
+       "onze",
+       "treize",
+       "quatorze"
+      ],
+      "treize": [
+       "douze",
+       "quatorze",
+       "quinze"
+      ],
+      "quatorze": [
+       "treize",
+       "quinze",
+       "seize"
+      ],
+      "quinze": [
+       "quatorze",
+       "seize",
+       "vingt"
+      ],
+      "seize": [
+       "quinze",
+       "vingt",
+       "trente"
+      ],
+      "vingt": [
+       "seize",
+       "trente",
+       "quarante"
+      ],
+      "trente": [
+       "vingt",
+       "quarante",
+       "cinquante"
+      ],
+      "quarante": [
+       "trente",
+       "cinquante",
+       "soixante"
+      ],
+      "cinquante": [
+       "quarante",
+       "soixante",
+       "cent"
+      ],
+      "soixante": [
+       "cinquante",
+       "cent",
+       "mille"
+      ],
+      "cent": [
+       "soixante",
+       "mille",
+       "cinquante"
+      ],
+      "mille": [
+       "cent",
+       "soixante"
+      ],
+      "cents": [
+       "mille",
+       "vingt",
+       "trente"
+      ],
+      "vingts": [
+       "cents",
+       "mille",
+       "trente"
+      ]
+     },
+     "exclude": "\\b(?:tous|toutes) (?:les|deux) deux\\b|\\bneuf(?:ve)?s?\\b(?! (?:heures?|ans|jours|mois|semaines|minutes|fois|personnes|enfants|livres|euros|dollars|cents|mille|h\\b))"
+    },
+    {
+     "id": "cores",
+     "name": "Cores",
+     "desc": "Rouge, bleu(e), vert(e), noir(e), blanc(he)… concordam com o substantivo. Ex.: « une voiture rouge ».",
+     "pattern": "(?<![\\w-])(?<!\\bun )(?<!\\bles )(?<!\\bdes )(?<!\\bdu )(?<!\\ble )(?<!\\bfait )(?<!\\bfasse )(?<!\\bfaisait )(?<!\\bau )(?P<w>violettes|blanches|violette|blanche|violets|blancs|bleues|brunes|grises|jaunes|marron|noires|rouges|vertes|violet|blanc|bleue|bleus|brune|bruns|grise|jaune|noire|noirs|rouge|verte|verts|bleu|brun|gris|noir|vert)(?![\\w'’-])",
+     "options": {
+      "bleu": [
+       "vert",
+       "noir",
+       "blanc"
+      ],
+      "vert": [
+       "blanc",
+       "gris",
+       "violet"
+      ],
+      "noir": [
+       "violet",
+       "brun",
+       "bleu"
+      ],
+      "blanc": [
+       "bleu",
+       "vert",
+       "noir"
+      ],
+      "gris": [
+       "noir",
+       "blanc",
+       "bleu"
+      ],
+      "violet": [
+       "gris",
+       "brun",
+       "bleu"
+      ],
+      "brun": [
+       "bleu",
+       "vert",
+       "noir"
+      ],
+      "bleue": [
+       "verte",
+       "noire",
+       "blanche"
+      ],
+      "verte": [
+       "blanche",
+       "grise",
+       "violette"
+      ],
+      "noire": [
+       "violette",
+       "brune",
+       "bleue"
+      ],
+      "blanche": [
+       "bleue",
+       "verte",
+       "noire"
+      ],
+      "grise": [
+       "noire",
+       "blanche",
+       "violette"
+      ],
+      "violette": [
+       "grise",
+       "brune",
+       "bleue"
+      ],
+      "brune": [
+       "bleue",
+       "verte",
+       "noire"
+      ],
+      "bleus": [
+       "verts",
+       "noirs",
+       "blancs"
+      ],
+      "verts": [
+       "blancs",
+       "violets",
+       "bruns"
+      ],
+      "noirs": [
+       "bruns",
+       "bleus",
+       "verts"
+      ],
+      "blancs": [
+       "verts",
+       "noirs",
+       "violets"
+      ],
+      "violets": [
+       "blancs",
+       "bruns",
+       "bleus"
+      ],
+      "bruns": [
+       "bleus",
+       "verts",
+       "noirs"
+      ],
+      "bleues": [
+       "vertes",
+       "noires",
+       "blanches"
+      ],
+      "vertes": [
+       "blanches",
+       "grises",
+       "violettes"
+      ],
+      "noires": [
+       "violettes",
+       "brunes",
+       "bleues"
+      ],
+      "blanches": [
+       "bleues",
+       "vertes",
+       "noires"
+      ],
+      "grises": [
+       "noires",
+       "blanches",
+       "violettes"
+      ],
+      "violettes": [
+       "grises",
+       "brunes",
+       "bleues"
+      ],
+      "brunes": [
+       "bleues",
+       "vertes",
+       "noires"
+      ],
+      "rouge": [
+       "jaune",
+       "rose",
+       "marron"
+      ],
+      "jaune": [
+       "rouge",
+       "rose",
+       "orange"
+      ],
+      "marron": [
+       "rouge",
+       "jaune",
+       "rose"
+      ],
+      "rouges": [
+       "jaunes",
+       "roses",
+       "verts"
+      ],
+      "jaunes": [
+       "rouges",
+       "roses",
+       "bleus"
+      ]
+     },
+     "exclude": "\\bvins? (?:rouges?|blancs?)|\\bnoir (?:et|ou|sur) blanc\\b|\\bmaison[- ]blanche|\\bnuits? blanches?|\\bnoirs? de monde|\\bmarrons? (?:glacés?|chauds?)|\\brouges? à lèvres|\\bjaunes? d['’]œufs?|\\bmarché noir|\\bhumour noir|\\bliste noire|\\bcarte blanche|\\bmer noire|\\bbeurre noir|\\bchocolat noir|\\bblanc d['’]œuf|\\bverres? de (?:rouge|blanc)|\\bpeur bleue|\\bcolère noire|\\bvoix blanche|\\bpoissons? rouges?|\\bmains? verte"
+    },
+    {
+     "id": "dias",
+     "name": "Dias, meses e estações",
+     "desc": "Em francês dias e meses são escritos com minúscula: lundi, mardi… janvier, février… Ex.: « Je pars lundi. »",
+     "pattern": "(?<![\\w-])(?P<w>dimanches|mercredis|printemps|septembre|vendredis|dimanche|décembre|mercredi|novembre|vendredi|automne|février|janvier|juillet|octobre|samedis|jeudis|lundis|mardis|samedi|avril|hiver|jeudi|lundi|mardi|août|juin|mars|mai|(?:(?<=\\bl')|(?<=\\bl’)|(?<=\\ben )|(?<=\\bcet )|(?<=\\bd')|(?<=\\bd’)|(?<=\\bbel )|(?<=\\bdernier )|(?<=\\bprochain )|(?<=\\bcourant de l')|(?<=\\bdurant l'))été)(?![\\w'’-])",
+     "options": {
+      "lundi": [
+       "mardi",
+       "dimanche",
+       "jeudi"
+      ],
+      "mardi": [
+       "mercredi",
+       "lundi",
+       "vendredi"
+      ],
+      "mercredi": [
+       "jeudi",
+       "mardi",
+       "samedi"
+      ],
+      "jeudi": [
+       "vendredi",
+       "mercredi",
+       "dimanche"
+      ],
+      "vendredi": [
+       "samedi",
+       "jeudi",
+       "lundi"
+      ],
+      "samedi": [
+       "dimanche",
+       "vendredi",
+       "mardi"
+      ],
+      "dimanche": [
+       "lundi",
+       "samedi",
+       "mercredi"
+      ],
+      "janvier": [
+       "février",
+       "décembre",
+       "avril"
+      ],
+      "février": [
+       "mars",
+       "janvier",
+       "mai"
+      ],
+      "mars": [
+       "avril",
+       "février",
+       "juin"
+      ],
+      "avril": [
+       "mai",
+       "mars",
+       "juillet"
+      ],
+      "mai": [
+       "juin",
+       "avril",
+       "août"
+      ],
+      "juin": [
+       "juillet",
+       "mai",
+       "septembre"
+      ],
+      "juillet": [
+       "août",
+       "juin",
+       "octobre"
+      ],
+      "août": [
+       "septembre",
+       "juillet",
+       "novembre"
+      ],
+      "septembre": [
+       "octobre",
+       "août",
+       "décembre"
+      ],
+      "octobre": [
+       "novembre",
+       "septembre",
+       "janvier"
+      ],
+      "novembre": [
+       "décembre",
+       "octobre",
+       "février"
+      ],
+      "décembre": [
+       "janvier",
+       "novembre",
+       "mars"
+      ],
+      "printemps": [
+       "été",
+       "automne",
+       "hiver"
+      ],
+      "été": [
+       "printemps",
+       "automne",
+       "hiver"
+      ],
+      "automne": [
+       "printemps",
+       "été",
+       "hiver"
+      ],
+      "hiver": [
+       "printemps",
+       "été",
+       "automne"
+      ],
+      "lundis": [
+       "mardis",
+       "dimanches",
+       "jeudis"
+      ],
+      "mardis": [
+       "mercredis",
+       "lundis",
+       "vendredis"
+      ],
+      "mercredis": [
+       "jeudis",
+       "mardis",
+       "samedis"
+      ],
+      "jeudis": [
+       "vendredis",
+       "mercredis",
+       "dimanches"
+      ],
+      "vendredis": [
+       "samedis",
+       "jeudis",
+       "lundis"
+      ],
+      "samedis": [
+       "dimanches",
+       "vendredis",
+       "mardis"
+      ],
+      "dimanches": [
+       "lundis",
+       "samedis",
+       "mercredis"
+      ]
+     },
+     "exclude": "\\b(?:sur|planète|de) Mars\\b|\\bMars (?:est|a)\\b"
+    },
+    {
+     "id": "familia",
+     "name": "Família",
+     "desc": "Père, mère, frère, sœur, fils, fille, mari, femme… Ex.: « Ma sœur habite à Lyon. »",
+     "pattern": "(?<![\\w-])(?P<w>grands-parents|petits-enfants|petite-fille|beau-frère|belle-mère|belle-sœur|grand-mère|grand-père|petit-fils|beau-père|cousines|cousine|cousins|enfants|famille|parents|cousin|enfant|filles|frères|neveux|nièces|oncles|tantes|femme|fille|frère|neveu|nièce|oncle|sœurs|tante|bébé|fils|mari|mère|père|sœur)(?![\\w'’-])",
+     "options": {
+      "père": [
+       "frère",
+       "fils",
+       "oncle"
+      ],
+      "frère": [
+       "oncle",
+       "cousin",
+       "mari"
+      ],
+      "fils": [
+       "mari",
+       "grand-père",
+       "neveu"
+      ],
+      "oncle": [
+       "neveu",
+       "père",
+       "frère"
+      ],
+      "cousin": [
+       "frère",
+       "fils",
+       "oncle"
+      ],
+      "mari": [
+       "oncle",
+       "cousin",
+       "grand-père"
+      ],
+      "grand-père": [
+       "mari",
+       "neveu",
+       "père"
+      ],
+      "neveu": [
+       "père",
+       "frère",
+       "fils"
+      ],
+      "mère": [
+       "sœur",
+       "fille",
+       "tante"
+      ],
+      "sœur": [
+       "tante",
+       "cousine",
+       "femme"
+      ],
+      "fille": [
+       "femme",
+       "grand-mère",
+       "nièce"
+      ],
+      "tante": [
+       "nièce",
+       "mère",
+       "sœur"
+      ],
+      "cousine": [
+       "sœur",
+       "fille",
+       "tante"
+      ],
+      "femme": [
+       "tante",
+       "cousine",
+       "grand-mère"
+      ],
+      "grand-mère": [
+       "femme",
+       "nièce",
+       "mère"
+      ],
+      "nièce": [
+       "mère",
+       "sœur",
+       "fille"
+      ],
+      "parents": [
+       "frères",
+       "sœurs",
+       "filles"
+      ],
+      "frères": [
+       "filles",
+       "enfants",
+       "oncles"
+      ],
+      "sœurs": [
+       "oncles",
+       "tantes",
+       "cousins"
+      ],
+      "filles": [
+       "cousins",
+       "grands-parents",
+       "parents"
+      ],
+      "enfants": [
+       "parents",
+       "frères",
+       "sœurs"
+      ],
+      "oncles": [
+       "sœurs",
+       "filles",
+       "enfants"
+      ],
+      "tantes": [
+       "enfants",
+       "oncles",
+       "cousins"
+      ],
+      "cousins": [
+       "tantes",
+       "grands-parents",
+       "parents"
+      ],
+      "grands-parents": [
+       "parents",
+       "frères",
+       "sœurs"
+      ],
+      "enfant": [
+       "fils",
+       "frère",
+       "bébé"
+      ],
+      "bébé": [
+       "enfant",
+       "fils",
+       "frère"
+      ],
+      "famille": [
+       "maison",
+       "femme",
+       "mère"
+      ],
+      "petit-fils": [
+       "neveu",
+       "grand-père",
+       "fils"
+      ],
+      "petite-fille": [
+       "nièce",
+       "grand-mère",
+       "fille"
+      ],
+      "neveux": [
+       "cousins",
+       "frères",
+       "oncles"
+      ],
+      "nièces": [
+       "cousines",
+       "sœurs",
+       "tantes"
+      ],
+      "cousines": [
+       "sœurs",
+       "tantes",
+       "filles"
+      ],
+      "petits-enfants": [
+       "grands-parents",
+       "enfants",
+       "neveux"
+      ],
+      "beau-père": [
+       "grand-père",
+       "oncle",
+       "mari"
+      ],
+      "belle-mère": [
+       "grand-mère",
+       "tante",
+       "femme"
+      ],
+      "beau-frère": [
+       "cousin",
+       "neveu",
+       "oncle"
+      ],
+      "belle-sœur": [
+       "cousine",
+       "nièce",
+       "tante"
+      ]
+     },
+     "exclude": "\\bfils? de (?:pute|chienne)|\\bPère Noël|\\bsage-femme|\\bfemmes? de (?:ménage|chambre)|\\bmère patrie|\\bjeune fille|\\bpetite fille\\b|\\bbelle[- ]fille|\\bfemme d['’]affaires|\\bnos pères\\b|\\b(?:les|des|aux|de|ces|du) fils\\b|\\bfils (?:électriques?|métalliques?|de fer|du téléphone|conducteurs?)"
+    },
+    {
+     "id": "corpo",
+     "name": "Corpo humano",
+     "desc": "Tête, main, pied, bras, jambe, yeux, cœur… Ex.: « J'ai mal à la tête. »",
+     "pattern": "(?<![\\w-])(?P<w>oreilles|poitrine|cerveau|cheveux|estomac|oreille|orteils|épaules|bouche|doigts|genoux|jambes|lèvres|ventre|visage|épaule|dents|doigt|genou|gorge|jambe|mains|pieds|bras|cœur|dent|main|peau|pied|sang|tête|yeux|cou|dos|nez|œil|os)(?![\\w'’-])",
+     "options": {
+      "tête": [
+       "main",
+       "jambe",
+       "bouche"
+      ],
+      "main": [
+       "tête",
+       "jambe",
+       "bouche"
+      ],
+      "mains": [
+       "jambes",
+       "dents",
+       "oreilles"
+      ],
+      "pied": [
+       "bras",
+       "dos",
+       "cou"
+      ],
+      "pieds": [
+       "bras",
+       "yeux",
+       "doigts"
+      ],
+      "bras": [
+       "pied",
+       "dos",
+       "cou"
+      ],
+      "jambe": [
+       "main",
+       "tête",
+       "bouche"
+      ],
+      "jambes": [
+       "mains",
+       "oreilles",
+       "dents"
+      ],
+      "œil": [
+       "nez",
+       "pied",
+       "bras"
+      ],
+      "yeux": [
+       "pieds",
+       "doigts",
+       "bras"
+      ],
+      "oreille": [
+       "bouche",
+       "main",
+       "jambe"
+      ],
+      "oreilles": [
+       "mains",
+       "jambes",
+       "dents"
+      ],
+      "nez": [
+       "dos",
+       "cou",
+       "pied"
+      ],
+      "bouche": [
+       "tête",
+       "main",
+       "oreille"
+      ],
+      "dent": [
+       "main",
+       "jambe",
+       "tête"
+      ],
+      "dents": [
+       "mains",
+       "oreilles",
+       "jambes"
+      ],
+      "cheveux": [
+       "yeux",
+       "pieds",
+       "doigts"
+      ],
+      "cou": [
+       "dos",
+       "nez",
+       "bras"
+      ],
+      "dos": [
+       "cou",
+       "ventre",
+       "nez"
+      ],
+      "ventre": [
+       "dos",
+       "cou",
+       "cœur"
+      ],
+      "cœur": [
+       "ventre",
+       "dos",
+       "cou"
+      ],
+      "doigt": [
+       "pied",
+       "bras",
+       "nez"
+      ],
+      "doigts": [
+       "pieds",
+       "yeux",
+       "bras"
+      ],
+      "visage": [
+       "dos",
+       "ventre",
+       "cou"
+      ],
+      "épaule": [
+       "jambe",
+       "main",
+       "tête"
+      ],
+      "épaules": [
+       "jambes",
+       "mains",
+       "oreilles"
+      ],
+      "genou": [
+       "pied",
+       "bras",
+       "doigt"
+      ],
+      "genoux": [
+       "pieds",
+       "bras",
+       "doigts"
+      ],
+      "estomac": [
+       "ventre",
+       "dos",
+       "cœur"
+      ],
+      "peau": [
+       "main",
+       "tête",
+       "jambe"
+      ],
+      "lèvres": [
+       "dents",
+       "oreilles",
+       "mains"
+      ],
+      "gorge": [
+       "tête",
+       "bouche",
+       "jambe"
+      ],
+      "poitrine": [
+       "tête",
+       "jambe",
+       "gorge"
+      ],
+      "cerveau": [
+       "cœur",
+       "ventre",
+       "dos"
+      ],
+      "orteils": [
+       "doigts",
+       "pieds",
+       "bras"
+      ],
+      "sang": [
+       "cœur",
+       "os",
+       "dos"
+      ],
+      "os": [
+       "sang",
+       "cœur",
+       "nez"
+      ]
+     },
+     "exclude": "\\bpar cœur|\\bà pied\\b|\\bcoup d['’]œil|\\btête-à-tête|\\bmain-d['’]œuvre|\\bdos d['’]âne|\\bsang-froid|\\bde bon cœur|\\bde main en main|\\bcoups? de (?:pied|poing|main|tête)|\\bboucles? d['’]oreilles?|\\bjet\\w* un œil|\\bmains? forte|\\bjusqu['’]au cou"
+    },
+    {
+     "id": "roupas",
+     "name": "Roupas",
+     "desc": "Chemise, pantalon, robe, chaussures, manteau, chapeau… Ex.: « Je mets mon manteau. »",
+     "pattern": "(?<![\\w-])(?P<w>chaussettes|imperméable|chaussette|chaussures|casquette|chaussure|pantalons|vêtements|ceinture|chapeaux|chemises|costumes|cravates|lunettes|manteaux|pantalon|t-shirts|uniforme|vêtement|blouson|chapeau|chemise|costume|cravate|maillot|manteau|t-shirt|écharpe|bonnet|bottes|pyjama|vestes|botte|gants|gilet|jupes|pulls|robes|short|veste|gant|jupe|pull|robe)(?![\\w'’-])",
+     "options": {
+      "chemise": [
+       "robe",
+       "jupe",
+       "chaussure"
+      ],
+      "robe": [
+       "chaussure",
+       "chaussette",
+       "veste"
+      ],
+      "jupe": [
+       "veste",
+       "cravate",
+       "casquette"
+      ],
+      "chaussure": [
+       "casquette",
+       "ceinture",
+       "écharpe"
+      ],
+      "chaussette": [
+       "écharpe",
+       "botte",
+       "chemise"
+      ],
+      "veste": [
+       "chemise",
+       "robe",
+       "jupe"
+      ],
+      "cravate": [
+       "jupe",
+       "chaussure",
+       "chaussette"
+      ],
+      "casquette": [
+       "chaussette",
+       "veste",
+       "cravate"
+      ],
+      "ceinture": [
+       "cravate",
+       "casquette",
+       "écharpe"
+      ],
+      "écharpe": [
+       "ceinture",
+       "botte",
+       "chemise"
+      ],
+      "botte": [
+       "chemise",
+       "robe",
+       "jupe"
+      ],
+      "pantalon": [
+       "chapeau",
+       "manteau",
+       "pull"
+      ],
+      "chapeau": [
+       "pull",
+       "costume",
+       "t-shirt"
+      ],
+      "manteau": [
+       "t-shirt",
+       "pyjama",
+       "maillot"
+      ],
+      "pull": [
+       "maillot",
+       "blouson",
+       "gilet"
+      ],
+      "costume": [
+       "gilet",
+       "imperméable",
+       "short"
+      ],
+      "t-shirt": [
+       "short",
+       "uniforme",
+       "vêtement"
+      ],
+      "pyjama": [
+       "vêtement",
+       "bonnet",
+       "gant"
+      ],
+      "maillot": [
+       "gant",
+       "pantalon",
+       "chapeau"
+      ],
+      "blouson": [
+       "chapeau",
+       "manteau",
+       "pull"
+      ],
+      "gilet": [
+       "pull",
+       "costume",
+       "t-shirt"
+      ],
+      "imperméable": [
+       "t-shirt",
+       "pyjama",
+       "maillot"
+      ],
+      "short": [
+       "maillot",
+       "blouson",
+       "gilet"
+      ],
+      "uniforme": [
+       "gilet",
+       "imperméable",
+       "short"
+      ],
+      "vêtement": [
+       "short",
+       "uniforme",
+       "bonnet"
+      ],
+      "bonnet": [
+       "vêtement",
+       "gant",
+       "pantalon"
+      ],
+      "gant": [
+       "pantalon",
+       "chapeau",
+       "manteau"
+      ],
+      "chemises": [
+       "robes",
+       "jupes",
+       "chaussures"
+      ],
+      "robes": [
+       "chaussures",
+       "chaussettes",
+       "vestes"
+      ],
+      "jupes": [
+       "vestes",
+       "cravates",
+       "bottes"
+      ],
+      "chaussures": [
+       "bottes",
+       "pantalons",
+       "chapeaux"
+      ],
+      "chaussettes": [
+       "chapeaux",
+       "manteaux",
+       "pulls"
+      ],
+      "vestes": [
+       "pulls",
+       "costumes",
+       "vêtements"
+      ],
+      "cravates": [
+       "vêtements",
+       "gants",
+       "lunettes"
+      ],
+      "bottes": [
+       "lunettes",
+       "t-shirts",
+       "chemises"
+      ],
+      "pantalons": [
+       "chemises",
+       "robes",
+       "jupes"
+      ],
+      "chapeaux": [
+       "jupes",
+       "chaussures",
+       "chaussettes"
+      ],
+      "manteaux": [
+       "chaussettes",
+       "vestes",
+       "cravates"
+      ],
+      "pulls": [
+       "cravates",
+       "bottes",
+       "pantalons"
+      ],
+      "costumes": [
+       "pantalons",
+       "chapeaux",
+       "manteaux"
+      ],
+      "vêtements": [
+       "manteaux",
+       "pulls",
+       "costumes"
+      ],
+      "gants": [
+       "costumes",
+       "vêtements",
+       "lunettes"
+      ],
+      "lunettes": [
+       "gants",
+       "t-shirts",
+       "chemises"
+      ],
+      "t-shirts": [
+       "chemises",
+       "robes",
+       "jupes"
+      ]
+     },
+     "exclude": "\\bchapeau !|\\bcostume de bain|\\bbottes? de (?:foin|paille)|\\bvestes? de sauvetage|\\bmaillot de bain|\\bvieux jeu"
+    },
+    {
+     "id": "animais",
+     "name": "Animais",
+     "desc": "Chien, chat, cheval (chevaux), oiseau (oiseaux), vache, poisson… Ex.: « J'ai deux chats. »",
+     "pattern": "(?<![\\w-])(?P<w>grenouilles|grenouille|araignées|papillons|éléphants|abeilles|araignée|baleines|dauphins|escargot|insectes|papillon|poissons|serpents|éléphant|abeille|animaux|baleine|canards|chevaux|chienne|chèvres|cochons|dauphin|fourmis|insecte|mouches|moutons|oiseaux|poisson|renards|serpent|taureau|tortues|animal|canard|chatte|cheval|chiens|chèvre|cochon|fourmi|girafe|lapins|mouche|mouton|oiseau|poules|poulet|renard|requin|singes|souris|tigres|tortue|vaches|chats|chien|lapin|lions|loups|poule|singe|tigre|vache|chat|lion|loup|ours|rats|rat|âne)(?![\\w'’-])",
+     "options": {
+      "chien": [
+       "chat",
+       "cheval",
+       "oiseau"
+      ],
+      "chat": [
+       "oiseau",
+       "poisson",
+       "cochon"
+      ],
+      "cheval": [
+       "cochon",
+       "mouton",
+       "lapin"
+      ],
+      "oiseau": [
+       "lapin",
+       "lion",
+       "tigre"
+      ],
+      "poisson": [
+       "tigre",
+       "ours",
+       "éléphant"
+      ],
+      "cochon": [
+       "éléphant",
+       "singe",
+       "serpent"
+      ],
+      "mouton": [
+       "serpent",
+       "loup",
+       "renard"
+      ],
+      "lapin": [
+       "renard",
+       "canard",
+       "insecte"
+      ],
+      "lion": [
+       "insecte",
+       "animal",
+       "âne"
+      ],
+      "tigre": [
+       "âne",
+       "rat",
+       "poulet"
+      ],
+      "ours": [
+       "poulet",
+       "papillon",
+       "dauphin"
+      ],
+      "éléphant": [
+       "dauphin",
+       "requin",
+       "taureau"
+      ],
+      "singe": [
+       "taureau",
+       "escargot",
+       "chien"
+      ],
+      "serpent": [
+       "chien",
+       "chat",
+       "cheval"
+      ],
+      "loup": [
+       "cheval",
+       "oiseau",
+       "poisson"
+      ],
+      "renard": [
+       "poisson",
+       "cochon",
+       "mouton"
+      ],
+      "canard": [
+       "mouton",
+       "lapin",
+       "lion"
+      ],
+      "insecte": [
+       "lion",
+       "tigre",
+       "ours"
+      ],
+      "animal": [
+       "ours",
+       "éléphant",
+       "singe"
+      ],
+      "âne": [
+       "singe",
+       "serpent",
+       "loup"
+      ],
+      "rat": [
+       "loup",
+       "renard",
+       "canard"
+      ],
+      "poulet": [
+       "canard",
+       "insecte",
+       "animal"
+      ],
+      "papillon": [
+       "animal",
+       "âne",
+       "rat"
+      ],
+      "dauphin": [
+       "rat",
+       "poulet",
+       "papillon"
+      ],
+      "requin": [
+       "papillon",
+       "dauphin",
+       "taureau"
+      ],
+      "taureau": [
+       "requin",
+       "escargot",
+       "chien"
+      ],
+      "escargot": [
+       "chien",
+       "chat",
+       "cheval"
+      ],
+      "vache": [
+       "souris",
+       "poule",
+       "abeille"
+      ],
+      "souris": [
+       "abeille",
+       "araignée",
+       "grenouille"
+      ],
+      "poule": [
+       "grenouille",
+       "tortue",
+       "baleine"
+      ],
+      "abeille": [
+       "baleine",
+       "girafe",
+       "chèvre"
+      ],
+      "araignée": [
+       "chèvre",
+       "mouche",
+       "fourmi"
+      ],
+      "grenouille": [
+       "fourmi",
+       "chienne",
+       "vache"
+      ],
+      "tortue": [
+       "vache",
+       "souris",
+       "poule"
+      ],
+      "baleine": [
+       "poule",
+       "abeille",
+       "araignée"
+      ],
+      "girafe": [
+       "araignée",
+       "grenouille",
+       "tortue"
+      ],
+      "chèvre": [
+       "tortue",
+       "baleine",
+       "girafe"
+      ],
+      "mouche": [
+       "girafe",
+       "chèvre",
+       "fourmi"
+      ],
+      "fourmi": [
+       "mouche",
+       "chienne",
+       "vache"
+      ],
+      "chienne": [
+       "chatte",
+       "vache",
+       "poule"
+      ],
+      "chiens": [
+       "chats",
+       "chevaux",
+       "oiseaux"
+      ],
+      "chats": [
+       "oiseaux",
+       "poissons",
+       "vaches"
+      ],
+      "chevaux": [
+       "vaches",
+       "cochons",
+       "moutons"
+      ],
+      "oiseaux": [
+       "moutons",
+       "lapins",
+       "lions"
+      ],
+      "poissons": [
+       "lions",
+       "tigres",
+       "éléphants"
+      ],
+      "vaches": [
+       "éléphants",
+       "singes",
+       "serpents"
+      ],
+      "cochons": [
+       "serpents",
+       "loups",
+       "renards"
+      ],
+      "moutons": [
+       "renards",
+       "canards",
+       "poules"
+      ],
+      "lapins": [
+       "poules",
+       "abeilles",
+       "araignées"
+      ],
+      "lions": [
+       "araignées",
+       "insectes",
+       "animaux"
+      ],
+      "tigres": [
+       "animaux",
+       "chèvres",
+       "mouches"
+      ],
+      "éléphants": [
+       "mouches",
+       "fourmis",
+       "baleines"
+      ],
+      "singes": [
+       "baleines",
+       "dauphins",
+       "tortues"
+      ],
+      "serpents": [
+       "tortues",
+       "grenouilles",
+       "rats"
+      ],
+      "loups": [
+       "rats",
+       "papillons",
+       "chiens"
+      ],
+      "renards": [
+       "chiens",
+       "chats",
+       "chevaux"
+      ],
+      "canards": [
+       "chevaux",
+       "oiseaux",
+       "poissons"
+      ],
+      "poules": [
+       "poissons",
+       "vaches",
+       "cochons"
+      ],
+      "abeilles": [
+       "cochons",
+       "moutons",
+       "lapins"
+      ],
+      "araignées": [
+       "lapins",
+       "lions",
+       "tigres"
+      ],
+      "insectes": [
+       "tigres",
+       "éléphants",
+       "singes"
+      ],
+      "animaux": [
+       "singes",
+       "serpents",
+       "loups"
+      ],
+      "chèvres": [
+       "loups",
+       "renards",
+       "canards"
+      ],
+      "mouches": [
+       "canards",
+       "poules",
+       "abeilles"
+      ],
+      "fourmis": [
+       "abeilles",
+       "araignées",
+       "insectes"
+      ],
+      "baleines": [
+       "insectes",
+       "animaux",
+       "chèvres"
+      ],
+      "dauphins": [
+       "chèvres",
+       "mouches",
+       "fourmis"
+      ],
+      "tortues": [
+       "fourmis",
+       "baleines",
+       "dauphins"
+      ],
+      "grenouilles": [
+       "dauphins",
+       "tortues",
+       "rats"
+      ],
+      "rats": [
+       "grenouilles",
+       "papillons",
+       "chiens"
+      ],
+      "papillons": [
+       "chiens",
+       "chats",
+       "chevaux"
+      ],
+      "chatte": [
+       "chienne",
+       "vache",
+       "poule"
+      ]
+     },
+     "exclude": "\\bavoir un chat dans la gorge|\\bpoisson d['’]avril|\\bpoulet (?:rôti|frit|grillé)|\\bdu poulet|\\bdu poisson|\\bde poulet|\\bde poisson|\\bpoule mouillée|\\bchair de poule|\\bcheval de bataille|\\bfroid de canard|\\banimal de compagnie(?=x)|\\bTigres?\\b(?=.*(?:tamoul))"
+    },
+    {
+     "id": "comida",
+     "name": "Comidas e bebidas",
+     "desc": "Pain, eau, lait, café, fromage, viande, pomme, œufs… Ex.: « Je bois du café. »",
+     "pattern": "(?<![\\w-])(?P<w>petit-déjeuner|champignons|champignon|confiture|hamburger|biscuits|carottes|chocolat|haricots|sandwich|bananes|biscuit|bonbons|carotte|cerises|dessert|fraises|fromage|gâteaux|légumes|oignons|oranges|poisson|raisins|tomates|banane|beurre|cerise|citron|farine|fraise|frites|fruits|gâteau|jambon|légume|oignon|orange|poires|poivre|pommes|poulet|raisin|salade|tomate|viande|yaourt|épices|bière|crème|fruit|glace|huile|pizza|poire|pomme|pâtes|repas|sauce|soupe|steak|sucre|tarte|bœuf|café|lait|miel|noix|pain|porc|œufs|eau|jus|riz|sel|thé|vin|œuf)(?![\\w'’-])(?! de terre)",
+     "options": {
+      "pain": [
+       "lait",
+       "café",
+       "thé"
+      ],
+      "lait": [
+       "thé",
+       "vin",
+       "jus"
+      ],
+      "café": [
+       "jus",
+       "fromage",
+       "poisson"
+      ],
+      "thé": [
+       "poisson",
+       "poulet",
+       "riz"
+      ],
+      "vin": [
+       "riz",
+       "sucre",
+       "sel"
+      ],
+      "jus": [
+       "sel",
+       "beurre",
+       "gâteau"
+      ],
+      "fromage": [
+       "gâteau",
+       "fruit",
+       "légume"
+      ],
+      "poisson": [
+       "légume",
+       "chocolat",
+       "sandwich"
+      ],
+      "poulet": [
+       "sandwich",
+       "porc",
+       "bœuf"
+      ],
+      "riz": [
+       "bœuf",
+       "miel",
+       "poivre"
+      ],
+      "sucre": [
+       "poivre",
+       "dessert",
+       "repas"
+      ],
+      "sel": [
+       "repas",
+       "petit-déjeuner",
+       "œuf"
+      ],
+      "beurre": [
+       "œuf",
+       "yaourt",
+       "citron"
+      ],
+      "gâteau": [
+       "citron",
+       "raisin",
+       "oignon"
+      ],
+      "fruit": [
+       "oignon",
+       "jambon",
+       "steak"
+      ],
+      "légume": [
+       "steak",
+       "biscuit",
+       "hamburger"
+      ],
+      "chocolat": [
+       "hamburger",
+       "champignon",
+       "pain"
+      ],
+      "sandwich": [
+       "pain",
+       "lait",
+       "café"
+      ],
+      "porc": [
+       "café",
+       "thé",
+       "vin"
+      ],
+      "bœuf": [
+       "vin",
+       "jus",
+       "fromage"
+      ],
+      "miel": [
+       "fromage",
+       "poisson",
+       "poulet"
+      ],
+      "poivre": [
+       "poulet",
+       "riz",
+       "sucre"
+      ],
+      "dessert": [
+       "sucre",
+       "sel",
+       "beurre"
+      ],
+      "repas": [
+       "beurre",
+       "gâteau",
+       "fruit"
+      ],
+      "petit-déjeuner": [
+       "fruit",
+       "légume",
+       "chocolat"
+      ],
+      "œuf": [
+       "chocolat",
+       "sandwich",
+       "porc"
+      ],
+      "yaourt": [
+       "porc",
+       "bœuf",
+       "miel"
+      ],
+      "citron": [
+       "miel",
+       "poivre",
+       "dessert"
+      ],
+      "raisin": [
+       "dessert",
+       "repas",
+       "petit-déjeuner"
+      ],
+      "oignon": [
+       "petit-déjeuner",
+       "œuf",
+       "yaourt"
+      ],
+      "jambon": [
+       "yaourt",
+       "citron",
+       "raisin"
+      ],
+      "steak": [
+       "raisin",
+       "oignon",
+       "jambon"
+      ],
+      "biscuit": [
+       "jambon",
+       "steak",
+       "hamburger"
+      ],
+      "hamburger": [
+       "biscuit",
+       "champignon",
+       "pain"
+      ],
+      "champignon": [
+       "pain",
+       "lait",
+       "café"
+      ],
+      "eau": [
+       "bière",
+       "viande",
+       "pomme"
+      ],
+      "bière": [
+       "pomme",
+       "soupe",
+       "salade"
+      ],
+      "viande": [
+       "salade",
+       "banane",
+       "tomate"
+      ],
+      "pomme": [
+       "tomate",
+       "carotte",
+       "fraise"
+      ],
+      "soupe": [
+       "fraise",
+       "pizza",
+       "confiture"
+      ],
+      "salade": [
+       "confiture",
+       "orange",
+       "huile"
+      ],
+      "banane": [
+       "huile",
+       "farine",
+       "cerise"
+      ],
+      "tomate": [
+       "cerise",
+       "poire",
+       "crème"
+      ],
+      "carotte": [
+       "crème",
+       "glace",
+       "sauce"
+      ],
+      "fraise": [
+       "sauce",
+       "tarte",
+       "eau"
+      ],
+      "pizza": [
+       "eau",
+       "bière",
+       "viande"
+      ],
+      "confiture": [
+       "viande",
+       "pomme",
+       "soupe"
+      ],
+      "orange": [
+       "soupe",
+       "salade",
+       "banane"
+      ],
+      "huile": [
+       "banane",
+       "tomate",
+       "carotte"
+      ],
+      "farine": [
+       "carotte",
+       "fraise",
+       "pizza"
+      ],
+      "cerise": [
+       "pizza",
+       "confiture",
+       "orange"
+      ],
+      "poire": [
+       "orange",
+       "huile",
+       "farine"
+      ],
+      "crème": [
+       "farine",
+       "cerise",
+       "poire"
+      ],
+      "glace": [
+       "poire",
+       "crème",
+       "sauce"
+      ],
+      "sauce": [
+       "glace",
+       "tarte",
+       "eau"
+      ],
+      "tarte": [
+       "eau",
+       "bière",
+       "viande"
+      ],
+      "œufs": [
+       "pommes",
+       "fruits",
+       "légumes"
+      ],
+      "pommes": [
+       "légumes",
+       "gâteaux",
+       "bananes"
+      ],
+      "fruits": [
+       "bananes",
+       "tomates",
+       "carottes"
+      ],
+      "légumes": [
+       "carottes",
+       "fraises",
+       "pâtes"
+      ],
+      "gâteaux": [
+       "pâtes",
+       "frites",
+       "oranges"
+      ],
+      "bananes": [
+       "oranges",
+       "cerises",
+       "biscuits"
+      ],
+      "tomates": [
+       "biscuits",
+       "oignons",
+       "champignons"
+      ],
+      "carottes": [
+       "champignons",
+       "raisins",
+       "poires"
+      ],
+      "fraises": [
+       "poires",
+       "bonbons",
+       "noix"
+      ],
+      "pâtes": [
+       "noix",
+       "haricots",
+       "épices"
+      ],
+      "frites": [
+       "épices",
+       "œufs",
+       "pommes"
+      ],
+      "oranges": [
+       "pommes",
+       "fruits",
+       "légumes"
+      ],
+      "cerises": [
+       "légumes",
+       "gâteaux",
+       "bananes"
+      ],
+      "biscuits": [
+       "bananes",
+       "tomates",
+       "carottes"
+      ],
+      "oignons": [
+       "carottes",
+       "fraises",
+       "pâtes"
+      ],
+      "champignons": [
+       "pâtes",
+       "frites",
+       "oranges"
+      ],
+      "raisins": [
+       "oranges",
+       "cerises",
+       "biscuits"
+      ],
+      "poires": [
+       "biscuits",
+       "oignons",
+       "champignons"
+      ],
+      "bonbons": [
+       "champignons",
+       "raisins",
+       "poires"
+      ],
+      "noix": [
+       "poires",
+       "bonbons",
+       "haricots"
+      ],
+      "haricots": [
+       "noix",
+       "épices",
+       "œufs"
+      ],
+      "épices": [
+       "œufs",
+       "pommes",
+       "fruits"
+      ]
+     },
+     "exclude": "\\bpoissons? (?:rouges?|d['’]avril)|\\bglace (?:de|du|à)\\b|\\b(?:la|une) glace\\b(?! (?:à|au) )|\\bmiroir|\\bOrange\\b|\\bpain d['’]épice|\\bsel de|\\bsalade de|\\bfaire du sel|\\bpatins? à glace|\\bsur la glace|\\bmettre du beurre|\\bvieille? noix"
+    },
+    {
+     "id": "perguntas",
+     "name": "Palavras interrogativas",
+     "desc": "Qui (quem), que/quoi (o quê), où (onde), quand (quando), pourquoi (por quê), comment (como), combien (quanto), quel(le) (qual). Ex.: « Où est la gare ? »",
+     "pattern": "(?:^[«\\\"]?\\s*(?:(?:À|A|De|D|Avec|Pour|Chez|Par|Sur|Dans|Depuis|Contre|Sans|Vers|Jusqu|En|Entre|Sous|Pendant|Derrière|Devant|Près)(?:\\s+|['’]))?|(?<=\\s)(?=(?:où|quoi|quand|comment|combien|qui)\\s*\\?\\s*[»\\\"]?\\s*$))(?P<w>qui|que|quoi|où|quand|pourquoi|comment|combien|quel|quelle|quels|quelles)(?![\\w'’-])(?=[^.!]*\\?\\s*[»\\\"]?\\s*$)",
+     "options": {
+      "qui": [
+       "que",
+       "où",
+       "quand"
+      ],
+      "que": [
+       "qui",
+       "où",
+       "comment"
+      ],
+      "quoi": [
+       "qui",
+       "où",
+       "quand"
+      ],
+      "où": [
+       "quand",
+       "comment",
+       "qui"
+      ],
+      "quand": [
+       "où",
+       "comment",
+       "pourquoi"
+      ],
+      "pourquoi": [
+       "comment",
+       "quand",
+       "où"
+      ],
+      "comment": [
+       "pourquoi",
+       "quand",
+       "où"
+      ],
+      "combien": [
+       "comment",
+       "quand",
+       "pourquoi"
+      ],
+      "quel": [
+       "qui",
+       "où",
+       "combien"
+      ],
+      "quelle": [
+       "qui",
+       "où",
+       "combien"
+      ],
+      "quels": [
+       "qui",
+       "où",
+       "combien"
+      ],
+      "quelles": [
+       "qui",
+       "où",
+       "combien"
+      ]
+     },
+     "exclude": "^[«\\\"]?\\s*(?:Quand|Comment|Où|Qui)\\b[^?]*,(?! (?:Tom|Marie|Mary|John|maman|papa|chéri|chérie|mon|ma|les gars)\\b)"
+    },
+    {
+     "id": "lugares",
+     "name": "Lugares da cidade",
+     "desc": "Maison, école, gare, banque, hôpital, magasin, rue, ville… Ex.: « Où est la gare ? »",
+     "pattern": "(?<![\\w-])(?P<w>bibliothèque|centre-ville|commissariat|appartement|boulangerie|supermarché|restaurant|université|librairie|pharmacie|aéroport|boutique|quartier|château|hôpital|magasin|piscine|théâtre|village|banque|bureau|cinéma|jardin|mairie|maison|église|hôtel|musée|plage|stade|ville|école|gare|parc|pont|port|rue|zoo)(?![\\w'’-])",
+     "options": {
+      "hôpital": [
+       "magasin",
+       "restaurant",
+       "hôtel"
+      ],
+      "magasin": [
+       "hôtel",
+       "bureau",
+       "parc"
+      ],
+      "restaurant": [
+       "parc",
+       "musée",
+       "aéroport"
+      ],
+      "hôtel": [
+       "aéroport",
+       "cinéma",
+       "supermarché"
+      ],
+      "bureau": [
+       "supermarché",
+       "jardin",
+       "village"
+      ],
+      "parc": [
+       "village",
+       "pont",
+       "stade"
+      ],
+      "musée": [
+       "stade",
+       "zoo",
+       "théâtre"
+      ],
+      "aéroport": [
+       "théâtre",
+       "quartier",
+       "appartement"
+      ],
+      "cinéma": [
+       "appartement",
+       "château",
+       "port"
+      ],
+      "supermarché": [
+       "port",
+       "centre-ville",
+       "commissariat"
+      ],
+      "jardin": [
+       "commissariat",
+       "hôpital",
+       "magasin"
+      ],
+      "village": [
+       "magasin",
+       "restaurant",
+       "hôtel"
+      ],
+      "pont": [
+       "hôtel",
+       "bureau",
+       "parc"
+      ],
+      "stade": [
+       "parc",
+       "musée",
+       "aéroport"
+      ],
+      "zoo": [
+       "aéroport",
+       "cinéma",
+       "supermarché"
+      ],
+      "théâtre": [
+       "supermarché",
+       "jardin",
+       "village"
+      ],
+      "quartier": [
+       "village",
+       "pont",
+       "stade"
+      ],
+      "appartement": [
+       "stade",
+       "zoo",
+       "théâtre"
+      ],
+      "château": [
+       "théâtre",
+       "quartier",
+       "appartement"
+      ],
+      "port": [
+       "appartement",
+       "château",
+       "centre-ville"
+      ],
+      "centre-ville": [
+       "port",
+       "commissariat",
+       "hôpital"
+      ],
+      "commissariat": [
+       "hôpital",
+       "magasin",
+       "restaurant"
+      ],
+      "maison": [
+       "école",
+       "gare",
+       "banque"
+      ],
+      "école": [
+       "banque",
+       "église",
+       "rue"
+      ],
+      "gare": [
+       "rue",
+       "ville",
+       "pharmacie"
+      ],
+      "banque": [
+       "pharmacie",
+       "bibliothèque",
+       "plage"
+      ],
+      "église": [
+       "plage",
+       "boulangerie",
+       "université"
+      ],
+      "rue": [
+       "université",
+       "piscine",
+       "mairie"
+      ],
+      "ville": [
+       "mairie",
+       "boutique",
+       "librairie"
+      ],
+      "pharmacie": [
+       "librairie",
+       "maison",
+       "école"
+      ],
+      "bibliothèque": [
+       "école",
+       "gare",
+       "banque"
+      ],
+      "plage": [
+       "banque",
+       "église",
+       "rue"
+      ],
+      "boulangerie": [
+       "rue",
+       "ville",
+       "pharmacie"
+      ],
+      "université": [
+       "pharmacie",
+       "bibliothèque",
+       "plage"
+      ],
+      "piscine": [
+       "plage",
+       "boulangerie",
+       "université"
+      ],
+      "mairie": [
+       "université",
+       "piscine",
+       "boutique"
+      ],
+      "boutique": [
+       "mairie",
+       "librairie",
+       "maison"
+      ],
+      "librairie": [
+       "maison",
+       "école",
+       "gare"
+      ]
+     },
+     "exclude": "\\bbon marché|\\bmeilleur marché|\\bmarché (?:du travail|noir|financier|boursier|commun|conclu)|\\bmaison d['’]édition|\\bà la maison blanche|\\bmaison blanche|\\bbanque de données|\\bbureau de (?:tabac|vote)|\\bport (?:d['’]arme|du)\\b|\\bhôpital psychiatrique(?=x)"
+    },
+    {
+     "id": "profissoes",
+     "name": "Profissões",
+     "desc": "Médecin, professeur, avocat(e), infirmier/infirmière, serveur/serveuse… Ex.: « Ma mère est médecin. »",
+     "pattern": "(?<![\\w-])(?P<w>agriculteurs|institutrice|journalistes|agriculteur|infirmières|instituteur|journaliste|photographe|professeure|professeurs|traductrice|architecte|cuisiniers|cuisinière|infirmiers|infirmière|ingénieurs|musicienne|professeur|secrétaire|traducteur|étudiantes|boulanger|chanteurs|chanteuse|chauffeur|coiffeuse|cuisinier|infirmier|ingénieur|musiciens|policiers|écrivains|étudiante|étudiants|artistes|chanteur|coiffeur|dentiste|musicien|médecins|plombier|policier|pompiers|serveurs|serveuse|vendeuse|écrivain|étudiant|acteurs|actrice|artiste|avocate|avocats|boucher|docteur|médecin|peintre|pompier|serveur|soldats|vendeur|acteur|avocat|pilote|soldat)(?![\\w'’-])",
+     "options": {
+      "médecin": [
+       "professeur",
+       "avocat",
+       "étudiant"
+      ],
+      "professeur": [
+       "étudiant",
+       "infirmier",
+       "ingénieur"
+      ],
+      "avocat": [
+       "ingénieur",
+       "policier",
+       "pompier"
+      ],
+      "étudiant": [
+       "pompier",
+       "cuisinier",
+       "serveur"
+      ],
+      "infirmier": [
+       "serveur",
+       "chanteur",
+       "écrivain"
+      ],
+      "ingénieur": [
+       "écrivain",
+       "acteur",
+       "journaliste"
+      ],
+      "policier": [
+       "journaliste",
+       "boulanger",
+       "vendeur"
+      ],
+      "pompier": [
+       "vendeur",
+       "pilote",
+       "chauffeur"
+      ],
+      "cuisinier": [
+       "chauffeur",
+       "artiste",
+       "musicien"
+      ],
+      "serveur": [
+       "musicien",
+       "agriculteur",
+       "dentiste"
+      ],
+      "chanteur": [
+       "dentiste",
+       "secrétaire",
+       "architecte"
+      ],
+      "écrivain": [
+       "architecte",
+       "coiffeur",
+       "instituteur"
+      ],
+      "acteur": [
+       "instituteur",
+       "docteur",
+       "peintre"
+      ],
+      "journaliste": [
+       "vendeuse",
+       "musicienne",
+       "coiffeuse"
+      ],
+      "boulanger": [
+       "photographe",
+       "traducteur",
+       "boucher"
+      ],
+      "vendeur": [
+       "boucher",
+       "plombier",
+       "médecin"
+      ],
+      "pilote": [
+       "médecin",
+       "professeur",
+       "avocat"
+      ],
+      "chauffeur": [
+       "avocat",
+       "étudiant",
+       "infirmier"
+      ],
+      "artiste": [
+       "traductrice",
+       "journaliste",
+       "secrétaire"
+      ],
+      "musicien": [
+       "policier",
+       "pompier",
+       "cuisinier"
+      ],
+      "agriculteur": [
+       "cuisinier",
+       "serveur",
+       "chanteur"
+      ],
+      "dentiste": [
+       "secrétaire",
+       "artiste",
+       "photographe"
+      ],
+      "secrétaire": [
+       "coiffeuse",
+       "institutrice",
+       "traductrice"
+      ],
+      "architecte": [
+       "boulanger",
+       "vendeur",
+       "pilote"
+      ],
+      "coiffeur": [
+       "pilote",
+       "chauffeur",
+       "artiste"
+      ],
+      "instituteur": [
+       "artiste",
+       "musicien",
+       "agriculteur"
+      ],
+      "docteur": [
+       "agriculteur",
+       "dentiste",
+       "secrétaire"
+      ],
+      "peintre": [
+       "secrétaire",
+       "architecte",
+       "coiffeur"
+      ],
+      "soldat": [
+       "coiffeur",
+       "instituteur",
+       "docteur"
+      ],
+      "photographe": [
+       "dentiste",
+       "professeure",
+       "avocate"
+      ],
+      "traducteur": [
+       "soldat",
+       "photographe",
+       "boucher"
+      ],
+      "boucher": [
+       "traducteur",
+       "plombier",
+       "médecin"
+      ],
+      "plombier": [
+       "médecin",
+       "professeur",
+       "avocat"
+      ],
+      "avocate": [
+       "étudiante",
+       "infirmière",
+       "cuisinière"
+      ],
+      "étudiante": [
+       "cuisinière",
+       "serveuse",
+       "chanteuse"
+      ],
+      "infirmière": [
+       "chanteuse",
+       "actrice",
+       "vendeuse"
+      ],
+      "cuisinière": [
+       "vendeuse",
+       "musicienne",
+       "coiffeuse"
+      ],
+      "serveuse": [
+       "coiffeuse",
+       "institutrice",
+       "traductrice"
+      ],
+      "chanteuse": [
+       "traductrice",
+       "journaliste",
+       "secrétaire"
+      ],
+      "actrice": [
+       "secrétaire",
+       "artiste",
+       "dentiste"
+      ],
+      "vendeuse": [
+       "dentiste",
+       "photographe",
+       "professeure"
+      ],
+      "musicienne": [
+       "professeure",
+       "avocate",
+       "étudiante"
+      ],
+      "coiffeuse": [
+       "étudiante",
+       "infirmière",
+       "cuisinière"
+      ],
+      "institutrice": [
+       "cuisinière",
+       "serveuse",
+       "chanteuse"
+      ],
+      "traductrice": [
+       "chanteuse",
+       "actrice",
+       "vendeuse"
+      ],
+      "professeure": [
+       "avocate",
+       "étudiante",
+       "infirmière"
+      ],
+      "médecins": [
+       "professeurs",
+       "avocats",
+       "étudiants"
+      ],
+      "professeurs": [
+       "étudiants",
+       "étudiantes",
+       "infirmières"
+      ],
+      "avocats": [
+       "infirmières",
+       "infirmiers",
+       "ingénieurs"
+      ],
+      "étudiants": [
+       "ingénieurs",
+       "policiers",
+       "pompiers"
+      ],
+      "étudiantes": [
+       "pompiers",
+       "chanteurs",
+       "écrivains"
+      ],
+      "infirmières": [
+       "écrivains",
+       "acteurs",
+       "journalistes"
+      ],
+      "infirmiers": [
+       "journalistes",
+       "soldats",
+       "artistes"
+      ],
+      "ingénieurs": [
+       "artistes",
+       "musiciens",
+       "agriculteurs"
+      ],
+      "policiers": [
+       "agriculteurs",
+       "serveurs",
+       "cuisiniers"
+      ],
+      "pompiers": [
+       "cuisiniers",
+       "médecins",
+       "professeurs"
+      ],
+      "chanteurs": [
+       "professeurs",
+       "avocats",
+       "étudiants"
+      ],
+      "écrivains": [
+       "étudiants",
+       "étudiantes",
+       "infirmières"
+      ],
+      "acteurs": [
+       "infirmières",
+       "infirmiers",
+       "ingénieurs"
+      ],
+      "journalistes": [
+       "ingénieurs",
+       "policiers",
+       "pompiers"
+      ],
+      "soldats": [
+       "pompiers",
+       "chanteurs",
+       "écrivains"
+      ],
+      "artistes": [
+       "écrivains",
+       "acteurs",
+       "journalistes"
+      ],
+      "musiciens": [
+       "journalistes",
+       "soldats",
+       "artistes"
+      ],
+      "agriculteurs": [
+       "artistes",
+       "musiciens",
+       "serveurs"
+      ],
+      "serveurs": [
+       "agriculteurs",
+       "cuisiniers",
+       "médecins"
+      ],
+      "cuisiniers": [
+       "médecins",
+       "professeurs",
+       "avocats"
+      ]
+     },
+     "exclude": "\\bpilote automatique|\\bserveurs? (?:est|sont|était|web|de messagerie|informatiques?|en panne|du site|ne répond)|\\bpeintre en bâtiment(?=x)"
+    },
+    {
+     "id": "opostos",
+     "name": "Adjetivos opostos",
+     "desc": "Grand ≠ petit, bon ≠ mauvais, chaud ≠ froid, facile ≠ difficile, riche ≠ pauvre… Ex.: « Ce café est froid. »",
+     "pattern": "(?<![\\w'’-])(?<!\\bde )(?<!\\bà )(?<!\\ble )(?<!\\bles )(?<!\\bdu )(?<!\\bau )(?<!\\bun )(?<!\\bdes )(?<!\\bmon )(?<!\\bmes )(?<!\\bma )(?<!\\bles plus )(?<!\\ble plus )(?<!\\bla plus )(?<!\\bil court )(?<!\\belle court )(?<!\\bon court )(?<!\\bqui court )(?<!\\bai )(?<!\\bas )(?<!\\ba )(?<!\\bavons )(?<!\\bavez )(?<!\\bont )(?<!\\bavait )(?<!\\bavais )(?<!\\bavoir )(?<!\\bété )(?P<w>difficiles|difficile|mauvaises|heureuse|mauvaise|nouvelle|faciles|grandes|heureux|mauvais|nouveau|ouverte|pauvres|petites|rapides|tristes|vieille|bonnes|chaude|courte|facile|faible|fermée|froide|grande|grands|jeunes|longue|lourde|légère|ouvert|pauvre|petite|petits|pleine|rapide|riches|triste|belle|bonne|chaud|chers|chère|court|fermé|froid|grand|jeune|laide|lourd|léger|petit|plein|riche|vieux|beau|cher|fort|laid|lent|long|vide|bon)(?![\\w'’-])",
+     "options": {
+      "grand": [
+       "petit",
+       "long",
+       "gros"
+      ],
+      "petit": [
+       "grand",
+       "long",
+       "gros"
+      ],
+      "grande": [
+       "petite",
+       "longue",
+       "grosse"
+      ],
+      "petite": [
+       "grande",
+       "longue",
+       "grosse"
+      ],
+      "grands": [
+       "petits",
+       "longs",
+       "gros"
+      ],
+      "petits": [
+       "grands",
+       "longs",
+       "gros"
+      ],
+      "grandes": [
+       "petites",
+       "longues",
+       "grosses"
+      ],
+      "petites": [
+       "grandes",
+       "longues",
+       "grosses"
+      ],
+      "bon": [
+       "mauvais",
+       "grand",
+       "nouveau"
+      ],
+      "mauvais": [
+       "bon",
+       "petit",
+       "vieux"
+      ],
+      "bonne": [
+       "mauvaise",
+       "grande",
+       "nouvelle"
+      ],
+      "mauvaise": [
+       "bonne",
+       "petite",
+       "vieille"
+      ],
+      "bonnes": [
+       "mauvaises",
+       "grandes",
+       "nouvelles"
+      ],
+      "mauvaises": [
+       "bonnes",
+       "petites",
+       "vieilles"
+      ],
+      "chaud": [
+       "froid",
+       "sec",
+       "doux"
+      ],
+      "froid": [
+       "chaud",
+       "sec",
+       "doux"
+      ],
+      "chaude": [
+       "froide",
+       "sèche",
+       "douce"
+      ],
+      "froide": [
+       "chaude",
+       "sèche",
+       "douce"
+      ],
+      "nouveau": [
+       "vieux",
+       "petit",
+       "grand"
+      ],
+      "vieux": [
+       "nouveau",
+       "jeune",
+       "petit"
+      ],
+      "nouvelle": [
+       "vieille",
+       "petite",
+       "grande"
+      ],
+      "vieille": [
+       "nouvelle",
+       "jeune",
+       "petite"
+      ],
+      "jeune": [
+       "vieux",
+       "nouveau",
+       "grand"
+      ],
+      "jeunes": [
+       "vieux",
+       "âgés",
+       "grands"
+      ],
+      "facile": [
+       "difficile",
+       "lent",
+       "long"
+      ],
+      "difficile": [
+       "facile",
+       "rapide",
+       "court"
+      ],
+      "faciles": [
+       "difficiles",
+       "longs",
+       "lents"
+      ],
+      "difficiles": [
+       "faciles",
+       "rapides",
+       "courts"
+      ],
+      "riche": [
+       "pauvre",
+       "jeune",
+       "triste"
+      ],
+      "pauvre": [
+       "riche",
+       "jeune",
+       "heureux"
+      ],
+      "riches": [
+       "pauvres",
+       "jeunes",
+       "tristes"
+      ],
+      "pauvres": [
+       "riches",
+       "jeunes",
+       "heureux"
+      ],
+      "heureux": [
+       "triste",
+       "malheureux",
+       "fatigué"
+      ],
+      "heureuse": [
+       "triste",
+       "malheureuse",
+       "fatiguée"
+      ],
+      "triste": [
+       "heureux",
+       "content",
+       "joyeux"
+      ],
+      "tristes": [
+       "heureux",
+       "contents",
+       "joyeux"
+      ],
+      "rapide": [
+       "lent",
+       "facile",
+       "long"
+      ],
+      "lent": [
+       "rapide",
+       "court",
+       "facile"
+      ],
+      "rapides": [
+       "lents",
+       "faciles",
+       "longs"
+      ],
+      "plein": [
+       "vide",
+       "ouvert",
+       "fermé"
+      ],
+      "pleine": [
+       "vide",
+       "ouverte",
+       "fermée"
+      ],
+      "vide": [
+       "plein",
+       "ouvert",
+       "fermé"
+      ],
+      "beau": [
+       "laid",
+       "vieux",
+       "grand"
+      ],
+      "belle": [
+       "laide",
+       "vieille",
+       "grande"
+      ],
+      "laid": [
+       "beau",
+       "petit",
+       "vieux"
+      ],
+      "laide": [
+       "belle",
+       "petite",
+       "vieille"
+      ],
+      "cher": [
+       "bon marché",
+       "gratuit",
+       "petit"
+      ],
+      "chère": [
+       "bon marché",
+       "gratuite",
+       "petite"
+      ],
+      "chers": [
+       "bon marché",
+       "gratuits",
+       "petits"
+      ],
+      "ouvert": [
+       "fermé",
+       "plein",
+       "vide"
+      ],
+      "fermé": [
+       "ouvert",
+       "plein",
+       "vide"
+      ],
+      "ouverte": [
+       "fermée",
+       "pleine",
+       "vide"
+      ],
+      "fermée": [
+       "ouverte",
+       "pleine",
+       "vide"
+      ],
+      "fort": [
+       "faible",
+       "lent",
+       "petit"
+      ],
+      "faible": [
+       "fort",
+       "rapide",
+       "grand"
+      ],
+      "long": [
+       "court",
+       "petit",
+       "lent"
+      ],
+      "longue": [
+       "courte",
+       "petite",
+       "lente"
+      ],
+      "court": [
+       "long",
+       "grand",
+       "lent"
+      ],
+      "courte": [
+       "longue",
+       "grande",
+       "lente"
+      ],
+      "lourd": [
+       "léger",
+       "petit",
+       "faible"
+      ],
+      "léger": [
+       "lourd",
+       "grand",
+       "fort"
+      ],
+      "lourde": [
+       "légère",
+       "petite",
+       "faible"
+      ],
+      "légère": [
+       "lourde",
+       "grande",
+       "forte"
+      ]
+     },
+     "exclude": "\\bpetit[- ]déjeuner|\\bbon marché|\\b(?:de|à) nouveau\\b|\\ble long d|\\ben plein\\b|\\bplein de\\b|\\bpetit à petit|\\bà court\\b|\\bcourt-circuit|\\bfort (?:bien|peu|probablement|heureusement)|\\bbon (?:sang|appétit|courage|voyage|anniversaire)|\\bbonne (?:nuit|chance|journée|soirée|année)|^[«\\\"]?\\s*bon\\s*[,!.]|\\bc['’]est bon\\b|\\bmon (?:cher|vieux)|\\bma (?:chère|belle|vieille)|\\bà la belle|\\bbon gré|\\bpetite? amie?s?\\b|\\bpetits? amis\\b|\\bcourt (?:vers|après|à|dans|le|la|les|jusqu|plus|vite)\\b|\\b(?:tu|je) cours\\b|\\bpar cœur|\\bbelle-|\\bvieux jeu"
+    }
+   ]
+  },
+  {
+   "id": "gramatica",
+   "subs": [
+    {
+     "id": "artigos",
+     "name": "Artigos: le, la, un, une",
+     "desc": "O gênero em francês nem sempre bate com o português: le (masc.), la (fem.), les (plural); un / une / des. Ex.: « la mer » (o mar), « le lait » (o leite).",
+     "pattern": "(?<![\\w'’-])(?<!\\bje )(?<!\\btu )(?<!\\bil )(?<!\\belle )(?<!\\bon )(?<!\\bnous )(?<!\\bvous )(?<!\\bils )(?<!\\belles )(?<!\\bne )(?<!\\bn')(?<!\\bn’)(?<!\\bme )(?<!\\bte )(?<!\\bse )(?<!\\bqui )(?<!\\bde )(?<!\\bà )(?<!\\bTom )(?<!\\bMary )(?<!\\bMarie )(?<!\\bJohn )(?<!\\bJean )(?<!\\bla )(?P<w>le|la|les|un|une)\\s+(?!(?!(?:père|mère|frère|livre|livres|verre|lettre|hiver|dîner|déjeuner|soir|devoir|devoirs|pouvoir|plaisir|avenir|désir|souvenir|sourire|rire|cuir|noir|air|mer|fer|cher|monstre|ministre|centre|théâtre|maître|maire|guerre|terre|pierre|chaire|chambre|nombre|ombre|arbre|titre|prêtre|fenêtre|tigre|poivre|sucre|beurre|cadre|ordre|propre|libre|pauvre|autre|premier|dernier|métier|papier|panier|quartier|policier|pompier|boucher|boulanger|cahier|clavier|escalier|fermier|jardinier|soldat|loisir|miroir|couloir|trottoir|tiroir|mouchoir|espoir|rasoir|savoir|voir|dossier|courrier|calendrier|chantier|sentier|acier|cuisinier|ouvrier|écolier|passager|étranger|danger|boucher|baiser|bar|car|four|jour|tour|amour|retour|cour|sœur|cœur|heure|fleur|peur|couleur|docteur|professeur|chanteur|moteur|ordinateur|bonheur|malheur|odeur|chaleur|valeur|erreur|auteur|acteur|serveur|facteur|empire|navire|salaire|dictionnaire|anniversaire|histoire|mémoire|victoire|gloire|foire|poire|armoire|boire|grammaire|affaire|affaires|frontière|lumière|rivière|manière|matière|bière|carrière|prière|cuillère|colère|misère|caractère|mystère|vocabulaire|entrée|repaire|horaire|pire|sire|lire|cire|tire|satire|plaisir|désir|empire|soupir|élixir|zéphyr|martyr|dollar|nectar|jaguar|radar|hangar|cauchemar|bazar|oscar|pétrole|dir)\\b)\\w+(?:er|ir|re|oir)\\b)(?!(?:\\w+(?:aient|issent|ssait|ssaient|eront|erai|erait|eraient|erons|erez)|sait|savait|savaient|savent|voit|vois|voyait|voient|dit|disait|disent|connaît|connais|connaissait|aime|aimait|aiment|aimes|veut|voulait|veulent|peut|prend|prenait|prennent|met|mettait|trouve|trouvait|trouvent|regarde|regardait|regardent|donne|donnait|donnent|appelle|appelait|croit|croyait|attend|attendait|tient|suit|écrit|reconnaît|reconnut|vit|vu|aida|aide|aidait|aident|mange|mangea|mangent|achète|tue|tua|prit|mit|fit|vendit|vend|vendent|cherche|cherchait|cherchent|laisse|laissa|connut|embrasse|déteste|détestent|emmène|ramène|ouvre|ouvrit|ferma|ferme(?=\\s+(?:à|avec|pas|toujours|jamais|bien|vite))|garde|gardait|appela|prendra|aura|sera)\\b)(?![\\w’']+-(?:t-)?(?:je|tu|il|elle|on|nous|vous|ils|elles|moi|toi|lui|leur)\\b)(?=\\w)",
+     "options": {
+      "le": [
+       "la",
+       "les"
+      ],
+      "la": [
+       "le",
+       "les"
+      ],
+      "les": [
+       "le",
+       "la"
+      ],
+      "un": [
+       "une",
+       "des"
+      ],
+      "une": [
+       "un",
+       "des"
+      ]
+     }
+    },
+    {
+     "id": "etre_avoir",
+     "name": "Être ou avoir",
+     "desc": "Être = ser/estar; avoir = ter. Atenção: idade, fome, frio, medo e razão usam avoir. Ex.: « Il a vingt ans », « J'ai faim », « Nous sommes prêts ».",
+     "pattern": "(?<![\\w'’-])(?<!\\bc')(?<!\\bc’)(?<!\\bj')(?<!\\bj’)(?<!\\by )(?<!\\bqu')(?<!\\bqu’)(?<!\\bs')(?<!\\bs’)(?<!\\bm')(?<!\\bm’)(?<!\\bt')(?<!\\bt’)(?<!\\bl')(?<!\\bl’)(?P<w>suis|es|est|sommes|êtes|sont|ai|as|(?-i:a)|avons|avez|ont)(?![\\w'’-])(?!\\s+(?:(?:pas|jamais|plus|déjà|bien|toujours|encore|beaucoup|trop|vraiment|souvent|rien|tout|mal|enfin|presque|peut-être|sûrement|aussi|même|juste|seulement|probablement|certainement|vite|longtemps|tous|toutes|souvent)\\s+)*(?!(?:un|du|lui|qui|ici|aussi|ami|amie|amis|amies|midi|mari|souci|oui|si|ni|vrai|fils|parmi|gris|prix|pays|avis|tapis|mépris|paris|lit|nuit|huit|bruit|fruit|petit|petite|petits|petites|gentil|joli|jolie|jolis|poli|polie|ravi|ravie|ravis|nu|nue|cru|tu|vu?e?s? de|sûr|sûre|dû|plu|déçu|déçue|lu|lue|lit|esprit|appétit|crédit|droit|droite|endroit|étroit|adroit|conflit|profit|produit|circuit|biscuit|habit|délit|débit|récit|nuit|tout|toute|tous|bout|goût|août|coût|mot|trop|peu|tôt|faux|bas|gros|clos|dos|mort|morte|morts|fort|forte|tort|sort|port|nord|bord|accord|alors|dehors|déjà|là|à|parti|partie|parties|sortie|ennui|appui|minuit|aujourd['’]hui|fourmi|ennemi|ennemie|abri|cri|défi|pari|tri|épi|merci|ceci|celui|ainsi|parmi|hémi|émeu|feu|jeu|lieu|peu|bleu|bleue|bleus|cheveu|neveu|vœu|dieu|milieu|aveu|pneu)\\b)(?:\\w+(?:é|ée|és|ées|i|ie|is|ies|u|ue|us|ues|it|ite|its|ites|ert|erte|erts|ertes|eint|einte|eints|aint|ainte|uit|uite|ort|orte|orts|ortes))\\b)",
+     "options": {
+      "suis": [
+       "ai",
+       "es"
+      ],
+      "es": [
+       "as",
+       "est"
+      ],
+      "est": [
+       "a",
+       "es"
+      ],
+      "sommes": [
+       "avons",
+       "êtes"
+      ],
+      "êtes": [
+       "avez",
+       "sommes"
+      ],
+      "sont": [
+       "ont",
+       "est"
+      ],
+      "ai": [
+       "suis",
+       "as"
+      ],
+      "as": [
+       "es",
+       "a"
+      ],
+      "a": [
+       "est",
+       "as"
+      ],
+      "avons": [
+       "sommes",
+       "avez"
+      ],
+      "avez": [
+       "êtes",
+       "avons"
+      ],
+      "ont": [
+       "sont",
+       "a"
+      ]
+     },
+     "exclude": "\\b(?:te|le|la|les) suis\\b"
+    },
+    {
+     "id": "negacao",
+     "name": "Negação: ne… pas, jamais…",
+     "desc": "A negação tem duas partes: ne (n') + pas (não), jamais (nunca), rien (nada), personne (ninguém), plus (não… mais). Ex.: « Je ne fume plus », « Il n'a rien dit ».",
+     "pattern": "\\b(?:ne\\s+|n['’]\\s*)(?:[\\w'’-]+\\s+){0,3}?(?<!est-ce )(?P<w>pas|jamais|rien|personne|plus)(?![\\w'’-])",
+     "options": {
+      "pas": [
+       "jamais",
+       "rien",
+       "plus"
+      ],
+      "jamais": [
+       "pas",
+       "rien",
+       "plus"
+      ],
+      "rien": [
+       "pas",
+       "personne",
+       "jamais"
+      ],
+      "personne": [
+       "rien",
+       "pas",
+       "jamais"
+      ],
+      "plus": [
+       "pas",
+       "jamais",
+       "rien"
+      ]
+     },
+     "exclude": "\\bn['’]est-ce pas\\b"
+    },
+    {
+     "id": "possessivos",
+     "name": "Possessivos: mon, ma, mes…",
+     "desc": "O possessivo concorda com a coisa possuída, não com o dono: son père, sa mère, ses parents (dele ou dela). Antes de vogal usa-se mon/ton/son mesmo no feminino: « mon amie ».",
+     "pattern": "(?<![\\w'’-])(?<!\\ble )(?<!\\bdu )(?<!\\bun )(?<!\\bau )(?<!\\bce )(?<!\\bles )(?<!\\bdes )(?<!\\bje )(?<!\\btu )(?<!\\bil )(?<!\\belle )(?<!\\bon )(?<!\\bnous )(?<!\\bvous )(?<!\\bils )(?<!\\belles )(?<!\\bne )(?<!\\bn')(?<!\\bn’)(?<!\\bpour )(?<!\\bde )(?<!\\bà )(?<!\\bdonner )(?<!\\bdire )(?<!\\bparler )(?P<w>mon|ma|mes|ton|ta|tes|son|sa|ses|notre|votre|nos|vos|leur|leurs)\\s+(?=\\w)(?!(?:\\w+(?:aient|issent|ssait|ssaient|eront|erai|erait|eraient|erons|erez)|sait|savait|savaient|savent|voit|vois|voyait|voient|dit|disait|disent|connaît|connais|connaissait|aime|aimait|aiment|aimes|veut|voulait|veulent|peut|prend|prenait|prennent|met|mettait|trouve|trouvait|trouvent|regarde|regardait|regardent|donne|donnait|donnent|appelle|appelait|croit|croyait|attend|attendait|tient|suit|écrit|reconnaît|reconnut|vit|vu|aida|aide|aidait|aident|mange|mangea|mangent|achète|tue|tua|prit|mit|fit|vendit|vend|vendent|cherche|cherchait|cherchent|laisse|laissa|connut|embrasse|déteste|détestent|emmène|ramène|ouvre|ouvrit|ferma|ferme(?=\\s+(?:à|avec|pas|toujours|jamais|bien|vite))|garde|gardait|appela|prendra|aura|sera)\\b)",
+     "options": {
+      "mon": [
+       "ma",
+       "mes"
+      ],
+      "ma": [
+       "mon",
+       "mes"
+      ],
+      "mes": [
+       "mon",
+       "ma"
+      ],
+      "ton": [
+       "ta",
+       "tes"
+      ],
+      "ta": [
+       "ton",
+       "tes"
+      ],
+      "tes": [
+       "ton",
+       "ta"
+      ],
+      "son": [
+       "sa",
+       "ses"
+      ],
+      "sa": [
+       "son",
+       "ses"
+      ],
+      "ses": [
+       "son",
+       "sa"
+      ],
+      "notre": [
+       "nos",
+       "nous"
+      ],
+      "nos": [
+       "notre",
+       "nous"
+      ],
+      "votre": [
+       "vos",
+       "vous"
+      ],
+      "vos": [
+       "votre",
+       "vous"
+      ],
+      "leur": [
+       "leurs",
+       "eux"
+      ],
+      "leurs": [
+       "leur",
+       "eux"
+      ]
+     }
+    },
+    {
+     "id": "demonstrativos",
+     "name": "Demonstrativos: ce, cet…",
+     "desc": "Ce (masc.), cet (masc. antes de vogal ou h mudo), cette (fem.), ces (plural). Ex.: « ce livre, cet homme, cette maison, ces enfants ».",
+     "pattern": "(?<![\\w'’-])(?P<w>ce|cet|cette|ces)\\s+(?!(?:que|qui|qu['’]|dont|sont|soit|serait|sera|seront|fut|furent|fût|devait|doit|doivent|peut|pourrait|semble|n['’]|ne|à|de|d['’]|sur|pour|faisant|disant|me|m['’]|te|nous|vous|lui|leur|y|en|le|la|les|l['’]|était|étaient|dernier|avec|par|dans|qu|quoi|matin)\\b)(?=\\w)",
+     "options": {
+      "ce": [
+       "cet",
+       "cette",
+       "ces"
+      ],
+      "cet": [
+       "ce",
+       "cette",
+       "ces"
+      ],
+      "cette": [
+       "ce",
+       "cet",
+       "ces"
+      ],
+      "ces": [
+       "ce",
+       "cet",
+       "cette"
+      ]
+     }
+    },
+    {
+     "id": "paises_cidades",
+     "name": "À, en, au, aux + lugares",
+     "desc": "Cidades: à (« à Paris »). Países femininos (quase todos em -e): en (« en France »). Masculinos: au (« au Japon »). Plurais: aux (« aux États-Unis »). Também en antes de país que começa com vogal: « en Iran ».",
+     "pattern": "(?<![\\w'’-])(?:(?P<w>à|au|aux|en)\\s+(?:(?<=à )(?:La\\sNouvelle-Orléans|Saint-Pétersbourg|San\\sFrancisco|Buenos\\sAires|Los\\sAngeles|Philadelphie|Montpellier|Casablanca|Copenhague|Hong\\sKong|Las\\sVegas|Manchester|Sao\\sPaulo|Strasbourg|São\\sPaulo|Washington|Amsterdam|Barcelone|Bruxelles|Cambridge|Francfort|Hiroshima|Jérusalem|Le\\sCaire|Le\\sHavre|Liverpool|Marseille|Melbourne|New\\sYork|Salzbourg|Singapour|Stockholm|Vancouver|Édimbourg|Belgrade|Beyrouth|Bordeaux|Brasilia|Brasília|Bucarest|Budapest|Cracovie|Florence|Grenoble|Hambourg|Helsinki|Istanbul|Lausanne|Lisbonne|Montréal|Nagasaki|Santiago|Shanghai|Tbilissi|Toulouse|Varsovie|Yokohama|Athènes|Atlanta|Avignon|Bangkok|Bologne|Chicago|Detroit|Grenade|Houston|Londres|Sapporo|Seattle|Séville|Tallinn|Toronto|Téhéran|Valence|Vilnius|Ankara|Anvers|Bagdad|Berlin|Bombay|Boston|Cannes|Dallas|Denver|Dublin|Erevan|Genève|Kaboul|Madrid|Mexico|Monaco|Moscou|Mumbai|Munich|Nagoya|Nantes|Naples|Ottawa|Oxford|Prague|Rennes|Sydney|Taipei|Venise|Vienne|Vérone|Zurich|Alger|Bahia|Bakou|Berne|Dakar|Damas|Delhi|Dijon|Hanoï|Hawaï|Kyoto|Lille|Miami|Milan|Minsk|Osaka|Paris|Porto|Pékin|Sofia|Séoul|Tokyo|Tunis|Turin|Bâle|Kiev|Kobe|Lima|Lyon|Nara|Nice|Oslo|Pise|Riga|Rome|Rio)|(?<=en )(?:Amérique\\sdu\\sNord|Amérique\\sdu\\sSud|Afrique\\sdu\\sSud|Amérique\\slatine|Nouvelle-Zélande|Grande-Bretagne|Pennsylvanie|Afghanistan|Antarctique|Biélorussie|Scandinavie|Andalousie|Angleterre|Californie|Allemagne|Argentine|Australie|Catalogne|Indonésie|Louisiane|Macédoine|Normandie|Sardaigne|Slovaquie|Thaïlande|Amérique|Autriche|Belgique|Bretagne|Bulgarie|Caroline|Colombie|Finlande|Jordanie|Lettonie|Lituanie|Malaisie|Moldavie|Mongolie|Provence|Roumanie|Slovénie|Tanzanie|Tchéquie|Virginie|Équateur|Éthiopie|Afrique|Albanie|Algérie|Arménie|Bavière|Bolivie|Croatie|Espagne|Estonie|Floride|Géorgie|Hongrie|Irlande|Islande|Kabylie|Norvège|Océanie|Ouganda|Pologne|Sibérie|Somalie|Toscane|Tunisie|Turquie|Ukraine|Uruguay|Alsace|Angola|Arabie|Bosnie|Europe|France|Galice|Israël|Italie|Russie|Serbie|Sicile|Suisse|Zambie|Écosse|Égypte|Chine|Corse|Corée|Grèce|Haïti|Libye|Suède|Syrie|Asie|Inde|Irak|Iran|Oman)|(?<=au )(?:Pays\\sde\\sGalles|Massachusetts|Connecticut|Costa\\sRica|Royaume-Uni|Bangladesh|Kazakhstan|Luxembourg|Monténégro|Mozambique|Sri\\sLanka|Groenland|Guatemala|Minnesota|Nicaragua|Tennessee|Venezuela|Viêt\\sNam|Wisconsin|Botswana|Cambodge|Cameroun|Colorado|Danemark|Delaware|Honduras|Kentucky|Michigan|Missouri|Nebraska|Pakistan|Paraguay|Portugal|Salvador|Zimbabwe|Burundi|Mexique|Montana|Myanmar|Nigeria|Nigéria|Sénégal|Vermont|Vietnam|Wyoming|Brésil|Canada|Dakota|Kansas|Kosovo|Koweït|Nevada|Panama|Québec|Rwanda|Soudan|Chili|Congo|Gabon|Ghana|Japon|Kenya|Liban|Maine|Maroc|Niger|Népal|Pérou|Qatar|Tchad|Texas|Tibet|Yémen|Laos|Mali)|(?<=aux )(?:Philippines|Etats-Unis|Seychelles|États-Unis|Antilles|Baléares|Canaries|Caraïbes|Maldives|Pays-Bas|Bahamas|Comores|Émirats|Açores))(?![\\w'’-]))",
+     "options": {
+      "à": [
+       "en",
+       "au",
+       "aux"
+      ],
+      "en": [
+       "à",
+       "au",
+       "aux"
+      ],
+      "au": [
+       "en",
+       "à",
+       "aux"
+      ],
+      "aux": [
+       "au",
+       "en",
+       "à"
+      ]
+     },
+     "case": true
+    },
+    {
+     "id": "partitivo",
+     "name": "Partitivo: du, des, de",
+     "desc": "Para quantidade indefinida: du (masc.), de la (fem.), des (plural). Depois de negação ou de palavras de quantidade vira só de. Ex.: « Je bois du café » → « Je ne bois pas de café », « beaucoup de livres ».",
+     "pattern": "(?:\\b(?:pas|plus|jamais|guère|beaucoup|trop|peu|assez|tant|autant|moins|combien|davantage)\\s+(?=de\\s(?!(?:le|la|les|l['’]|mon|ma|mes|ton|ta|tes|son|sa|ses|notre|votre|nos|vos|leur|leurs|ce|cet|cette|ces|tout|toute|tous|toutes|quoi|qui|quel|quelle|ne|n['’]|se|s['’]|me|m['’]|te|t['’]|nous|vous|lui|y|en|un|une|cela|ça|ceci|celui|celle|ceux|plus|moins|façon|manière|nouveau|suite|temps en temps|loin|près|rien|personne|même|bonne heur|moi|toi|eux|elle|elles|là|ici|cela|ceux)\\b)(?!\\w+(?:er|ir|re|oir)\\b)(?-i:(?![A-ZÀ-Ý])))|\\b(?:mang\\w*|boi\\w*|bu|buvons|buvez|achet\\w*|achèt\\w*|veux|veut|voulez|voulons|veulent|voudrais|voudrait|voudrions|voudriez|prends|prend|prenez|prenons|prendre|ajout\\w*|faut|apport\\w*|vend\\w*|offr\\w*|cherch\\w*|il y a|y a|y avait|ai|as|a|avons|avez|ont|avais|avait|ont|fais|fait|faire|faisons|faites)\\s+(?=(?:du|des)\\b(?!\\s+tout\\b)))(?P<w>de|du|des)(?![\\w'’-])",
+     "options": {
+      "de": [
+       "du",
+       "des",
+       "de la"
+      ],
+      "du": [
+       "de",
+       "des",
+       "de la"
+      ],
+      "des": [
+       "de",
+       "du",
+       "les"
+      ]
+     },
+     "exclude": "\\b(?:est|sont|était|étaient|suis|es|sommes|êtes|sera|soit|serait|c['’]est|ce n['’]est|ce ne sont)\\s+(?:pas|plus|jamais)\\s+de\\b|\\b(?:parl\\w*|chang\\w*|souvien\\w*|souven\\w*|occup\\w*|moqu\\w*|souci\\w*|plain\\w*|doute\\w*|sert|servir|manqu\\w*|rêv\\w*|dout\\w*|ag\\w*|s['’]agit|agissait)\\s+(?:\\w+\\s+)?(?:pas|plus|jamais)\\s+de\\b"
+    },
+    {
+     "id": "aux_pc",
+     "name": "Passé composé: être/avoir",
+     "desc": "A maioria dos verbos usa avoir (« J'ai mangé »). Usam être os verbos de movimento/mudança (aller, venir, partir, arriver, naître, mourir…) e os pronominais (« Je me suis levé »). Ex.: « Elle est partie », « Il a fini ».",
+     "pattern": "(?P<w>(?:(?<=\\bme )|(?<=\\bte )|(?<=\\bse )|(?<=\\bs')|(?<=\\bs’)|(?<=\\bm')|(?<=\\bm’)|(?<=\\bt')|(?<=\\bt’)|(?<=\\bnous nous )|(?<=\\bvous vous ))(?:suis|es|est|sommes|êtes|sont)(?=\\s+(?:(?:pas|jamais|plus|déjà|bien|toujours|encore|beaucoup|trop|vraiment|souvent|rien|tout|mal|enfin|presque|peut-être|sûrement|aussi|même|juste|seulement|probablement|certainement|vite|longtemps|tous|toutes|souvent)\\s+)*(?!(?:un|du|lui|qui|ici|aussi|ami|amie|amis|amies|midi|mari|souci|oui|si|ni|vrai|fils|parmi|gris|prix|pays|avis|tapis|mépris|paris|lit|nuit|huit|bruit|fruit|petit|petite|petits|petites|gentil|joli|jolie|jolis|poli|polie|ravi|ravie|ravis|nu|nue|cru|tu|vu?e?s? de|sûr|sûre|dû|plu|déçu|déçue|lu|lue|lit|esprit|appétit|crédit|droit|droite|endroit|étroit|adroit|conflit|profit|produit|circuit|biscuit|habit|délit|débit|récit|nuit|tout|toute|tous|bout|goût|août|coût|mot|trop|peu|tôt|faux|bas|gros|clos|dos|mort|morte|morts|fort|forte|tort|sort|port|nord|bord|accord|alors|dehors|déjà|là|à|parti|partie|parties|sortie|ennui|appui|minuit|aujourd['’]hui|fourmi|ennemi|ennemie|abri|cri|défi|pari|tri|épi|merci|ceci|celui|ainsi|parmi|hémi|émeu|feu|jeu|lieu|peu|bleu|bleue|bleus|cheveu|neveu|vœu|dieu|milieu|aveu|pneu)\\b)(?:\\w+(?:é|ée|és|ées|i|ie|is|ies|u|ue|us|ues|it|ite|its|ites|ert|erte|erts|ertes|eint|einte|eints|aint|ainte|uit|uite|ort|orte|orts|ortes))\\b)|(?<![\\w'’-])(?<!\\bc')(?<!\\bc’)(?<!\\bj')(?<!\\bj’)(?<!\\by )(?<!\\bqu')(?<!\\bqu’)(?<!\\bs')(?<!\\bs’)(?<!\\bm')(?<!\\bm’)(?<!\\bt')(?<!\\bt’)(?<!\\bl')(?<!\\bl’)(?:suis|es|est|sommes|êtes|sont)(?=\\s+(?:(?:pas|jamais|plus|déjà|bien|toujours|encore|beaucoup|trop|vraiment|souvent|rien|tout|mal|enfin|presque|peut-être|sûrement|aussi|même|juste|seulement|probablement|certainement|vite|longtemps|tous|toutes|souvent)\\s+)*(?:allée?s?|venue?s?|partie?s?|arrivée?s?|entrée?s?|sortie?s?|tombée?s?|restée?s?|née?s?|morte?s?|devenue?s?|revenue?s?|rentrée?s?|retournée?s?|décédée?s?|intervenue?s?|parvenue?s?|survenue?s?|repartie?s?|ressortie?s?|descendue?s?|montée?s?|remontée?s?|redescendue?s?)\\b)|(?<![\\w'’-])(?<!\\bc')(?<!\\bc’)(?<!\\bj')(?<!\\bj’)(?<!\\by )(?<!\\bqu')(?<!\\bqu’)(?<!\\bs')(?<!\\bs’)(?<!\\bm')(?<!\\bm’)(?<!\\bt')(?<!\\bt’)(?<!\\bl')(?<!\\bl’)(?:ai|as|(?-i:a)|avons|avez|ont)(?=\\s+(?:(?:pas|jamais|plus|déjà|bien|toujours|encore|beaucoup|trop|vraiment|souvent|rien|tout|mal|enfin|presque|peut-être|sûrement|aussi|même|juste|seulement|probablement|certainement|vite|longtemps|tous|toutes|souvent)\\s+)*(?!(?:un|du|lui|qui|ici|aussi|ami|amie|amis|midi|mari|souci|oui|si|ni|vrai|fils|parmi|gris|prix|pays|avis|tapis|mépris|lit|nuit|huit|bruit|fruit|petit|petits|gentil|nu|tu|sûr|esprit|appétit|crédit|droit|endroit|conflit|profit|produit|circuit|biscuit|habit|récit|tout|toute|tous|bout|goût|août|coût|mot|trop|peu|tôt|faux|bas|gros|dos|fort|tort|sort|port|nord|bord|accord|alors|dehors|déjà|là|parti|partie|ennui|appui|minuit|fourmi|ennemi|abri|cri|défi|pari|merci|ceci|celui|ainsi|feu|jeu|lieu|bleu|neveu|dieu|milieu|pneu|allée?s?|venue?s?|partie?s?|arrivée?s?|entrée?s?|sortie?s?|tombée?s?|restée?s?|née?s?|morte?s?|devenue?s?|revenue?s?|rentrée?s?|retournée?s?|décédée?s?|intervenue?s?|parvenue?s?|survenue?s?|repartie?s?|ressortie?s?|descendue?s?|montée?s?|remontée?s?|redescendue?s?)\\b)\\w+(?:é|i|is|u|it|ert|eint|aint|uit|ort)\\b))(?![\\w'’-])",
+     "options": {
+      "suis": [
+       "ai",
+       "es"
+      ],
+      "es": [
+       "as",
+       "est"
+      ],
+      "est": [
+       "a",
+       "es"
+      ],
+      "sommes": [
+       "avons",
+       "êtes"
+      ],
+      "êtes": [
+       "avez",
+       "sommes"
+      ],
+      "sont": [
+       "ont",
+       "est"
+      ],
+      "ai": [
+       "suis",
+       "as"
+      ],
+      "as": [
+       "es",
+       "a"
+      ],
+      "a": [
+       "est",
+       "as"
+      ],
+      "avons": [
+       "sommes",
+       "avez"
+      ],
+      "avez": [
+       "êtes",
+       "avons"
+      ],
+      "ont": [
+       "sont",
+       "a"
+      ]
+     }
+    },
+    {
+     "id": "imparfait",
+     "name": "Imparfait (era, tinha…)",
+     "desc": "O imparfait descreve o passado contínuo ou habitual (era, estava, tinha, fazia). Terminações: je/tu -ais, il/elle -ait, nous -ions, vous -iez, ils/elles -aient. Ex.: « Quand j'étais petit, j'avais un chien ».",
+     "pattern": "(?<![\\w'’-])(?P<w>(?:travaill|connaiss|regard|habit|écout|fais|pouv|voul|pens|croy|pren|parl|all|sav|dev|aim|jou|viv|voy|dis|ven|ét|av)(?:ais|ait|aient)|(?:ét|av)(?:ions|iez)|fallait)(?![\\w'’-])",
+     "options": {
+      "étais": [
+       "suis",
+       "était",
+       "étaient"
+      ],
+      "était": [
+       "est",
+       "étais",
+       "étaient"
+      ],
+      "étions": [
+       "sommes",
+       "étiez"
+      ],
+      "étiez": [
+       "êtes",
+       "étions"
+      ],
+      "étaient": [
+       "sont",
+       "était",
+       "étais"
+      ],
+      "avais": [
+       "ai",
+       "avait",
+       "avaient"
+      ],
+      "avait": [
+       "a",
+       "avais",
+       "avaient"
+      ],
+      "avions": [
+       "avons",
+       "aviez"
+      ],
+      "aviez": [
+       "avez",
+       "avions"
+      ],
+      "avaient": [
+       "ont",
+       "avait",
+       "avais"
+      ],
+      "faisais": [
+       "fais",
+       "faisait",
+       "faisaient"
+      ],
+      "faisait": [
+       "fait",
+       "faisais",
+       "faisaient"
+      ],
+      "faisaient": [
+       "font",
+       "faisait",
+       "faisais"
+      ],
+      "allais": [
+       "vais",
+       "allait",
+       "allaient"
+      ],
+      "allait": [
+       "va",
+       "allais",
+       "allaient"
+      ],
+      "allaient": [
+       "vont",
+       "allait",
+       "allais"
+      ],
+      "pouvais": [
+       "peux",
+       "pouvait",
+       "pouvaient"
+      ],
+      "pouvait": [
+       "peut",
+       "pouvais",
+       "pouvaient"
+      ],
+      "pouvaient": [
+       "peuvent",
+       "pouvait",
+       "pouvais"
+      ],
+      "voulais": [
+       "veux",
+       "voulait",
+       "voulaient"
+      ],
+      "voulait": [
+       "veut",
+       "voulais",
+       "voulaient"
+      ],
+      "voulaient": [
+       "veulent",
+       "voulait",
+       "voulais"
+      ],
+      "savais": [
+       "sais",
+       "savait",
+       "savaient"
+      ],
+      "savait": [
+       "sait",
+       "savais",
+       "savaient"
+      ],
+      "savaient": [
+       "savent",
+       "savait",
+       "savais"
+      ],
+      "devais": [
+       "dois",
+       "devait",
+       "devaient"
+      ],
+      "devait": [
+       "doit",
+       "devais",
+       "devaient"
+      ],
+      "devaient": [
+       "doivent",
+       "devait",
+       "devais"
+      ],
+      "pensais": [
+       "pense",
+       "pensait",
+       "pensaient"
+      ],
+      "pensait": [
+       "pense",
+       "pensais",
+       "pensaient"
+      ],
+      "pensaient": [
+       "pensent",
+       "pensait",
+       "pensais"
+      ],
+      "aimais": [
+       "aime",
+       "aimait",
+       "aimaient"
+      ],
+      "aimait": [
+       "aime",
+       "aimais",
+       "aimaient"
+      ],
+      "aimaient": [
+       "aiment",
+       "aimait",
+       "aimais"
+      ],
+      "habitais": [
+       "habite",
+       "habitait",
+       "habitaient"
+      ],
+      "habitait": [
+       "habite",
+       "habitais",
+       "habitaient"
+      ],
+      "habitaient": [
+       "habitent",
+       "habitait",
+       "habitais"
+      ],
+      "croyais": [
+       "crois",
+       "croyait",
+       "croyaient"
+      ],
+      "croyait": [
+       "croit",
+       "croyais",
+       "croyaient"
+      ],
+      "croyaient": [
+       "croient",
+       "croyait",
+       "croyais"
+      ],
+      "travaillais": [
+       "travaille",
+       "travaillait",
+       "travaillaient"
+      ],
+      "travaillait": [
+       "travaille",
+       "travaillais",
+       "travaillaient"
+      ],
+      "travaillaient": [
+       "travaillent",
+       "travaillait",
+       "travaillais"
+      ],
+      "connaissais": [
+       "connais",
+       "connaissait",
+       "connaissaient"
+      ],
+      "connaissait": [
+       "connaît",
+       "connaissais",
+       "connaissaient"
+      ],
+      "connaissaient": [
+       "connaissent",
+       "connaissait",
+       "connaissais"
+      ],
+      "prenais": [
+       "prends",
+       "prenait",
+       "prenaient"
+      ],
+      "prenait": [
+       "prend",
+       "prenais",
+       "prenaient"
+      ],
+      "prenaient": [
+       "prennent",
+       "prenait",
+       "prenais"
+      ],
+      "parlais": [
+       "parle",
+       "parlait",
+       "parlaient"
+      ],
+      "parlait": [
+       "parle",
+       "parlais",
+       "parlaient"
+      ],
+      "parlaient": [
+       "parlent",
+       "parlait",
+       "parlais"
+      ],
+      "jouais": [
+       "joue",
+       "jouait",
+       "jouaient"
+      ],
+      "jouait": [
+       "joue",
+       "jouais",
+       "jouaient"
+      ],
+      "jouaient": [
+       "jouent",
+       "jouait",
+       "jouais"
+      ],
+      "vivais": [
+       "vis",
+       "vivait",
+       "vivaient"
+      ],
+      "vivait": [
+       "vit",
+       "vivais",
+       "vivaient"
+      ],
+      "vivaient": [
+       "vivent",
+       "vivait",
+       "vivais"
+      ],
+      "voyais": [
+       "vois",
+       "voyait",
+       "voyaient"
+      ],
+      "voyait": [
+       "voit",
+       "voyais",
+       "voyaient"
+      ],
+      "voyaient": [
+       "voient",
+       "voyait",
+       "voyais"
+      ],
+      "disais": [
+       "dis",
+       "disait",
+       "disaient"
+      ],
+      "disait": [
+       "dit",
+       "disais",
+       "disaient"
+      ],
+      "disaient": [
+       "disent",
+       "disait",
+       "disais"
+      ],
+      "regardais": [
+       "regarde",
+       "regardait",
+       "regardaient"
+      ],
+      "regardait": [
+       "regarde",
+       "regardais",
+       "regardaient"
+      ],
+      "regardaient": [
+       "regardent",
+       "regardait",
+       "regardais"
+      ],
+      "venais": [
+       "viens",
+       "venait",
+       "venaient"
+      ],
+      "venait": [
+       "vient",
+       "venais",
+       "venaient"
+      ],
+      "venaient": [
+       "viennent",
+       "venait",
+       "venais"
+      ],
+      "écoutais": [
+       "écoute",
+       "écoutait",
+       "écoutaient"
+      ],
+      "écoutait": [
+       "écoute",
+       "écoutais",
+       "écoutaient"
+      ],
+      "écoutaient": [
+       "écoutent",
+       "écoutait",
+       "écoutais"
+      ],
+      "fallait": [
+       "faut",
+       "faudra"
+      ]
+     }
+    },
+    {
+     "id": "cod_coi",
+     "name": "Pronomes: le, la, lui, leur",
+     "desc": "Objeto direto: le / la / les (o, a, os). Objeto indireto (com « à »): lui (lhe, a ele/ela) e leur (lhes). Ex.: « Je le vois », « Je lui parle », « Je leur écris ».",
+     "pattern": "(?<![\\w'’-])(?:je|tu|il|elle|on|nous|vous|ils|elles)\\s+(?:ne\\s+|n['’])?(?P<w>le|la|les|lui|leur)\\s+(?!(?:en|y)\\b)(?=\\w)",
+     "options": {
+      "le": [
+       "lui",
+       "leur"
+      ],
+      "la": [
+       "lui",
+       "leur"
+      ],
+      "les": [
+       "leur",
+       "lui"
+      ],
+      "lui": [
+       "le",
+       "la",
+       "leur"
+      ],
+      "leur": [
+       "les",
+       "lui"
+      ]
+     }
+    },
+    {
+     "id": "y_en",
+     "name": "Pronomes y e en",
+     "desc": "Y substitui « à + coisa/lugar » (lá, nisso): « J'y vais ». En substitui « de + algo » (disso, dele, alguns): « J'en veux », « Il y en a trois ».",
+     "pattern": "(?:(?<![\\w'’-])(?:je|tu|il|elle|on|nous|vous|ils|elles|ne|me|te|se)\\s+|\\b[jnmtsl]['’])(?P<w>y|en)\\s+(?!(?:a|avait|aura|aurait|ait|eut|avoir|ayant)\\b)(?=\\w)(?!(?:France|Europe|Allemagne|Italie|Espagne|Chine|Angleterre|Amérique|Afrique|Asie|train|voiture|retard|avance|effet|fait|tout|plus|bas|haut|face|route|ville|vacances|colère|bonne|bon|forme|vie|partie|général|moyenne|réalité|plein|cours|ligne|panne|rang|silence|danger|sécurité|même|ce|cette|attendant|marchant|mangeant|parlant|faisant|disant|regardant|voyant|sortant|entrant|arrivant|rentrant|passant|prenant|lisant)\\b)",
+     "options": {
+      "y": [
+       "en",
+       "le"
+      ],
+      "en": [
+       "y",
+       "le"
+      ]
+     }
+    },
+    {
+     "id": "qui_que",
+     "name": "Relativos: qui ou que?",
+     "desc": "Qui é sujeito do verbo seguinte (« l'homme qui parle »); que é objeto e vem seguido de outro sujeito (« l'homme que je vois »). Ex.: « ce qui compte », « ce que je veux ».",
+     "pattern": "(?<![\\w'’-])(?:(?<!\\bà )(?:ce|celui|celle|ceux|celles|chose|quelqu['’]un|quelque\\s+chose)|(?:(?:le|la|les|un|une|des|mon|ma|mes|ton|ta|tes|son|sa|ses|notre|votre|nos|vos|leur|leurs|ce|cet|cette|ces|du|au|aux)\\s+|l['’])[\\w-]+)\\s+(?<!\\bfait )(?<!\\bidée )(?<!\\bpreuve )(?<!\\bnouvelle )(?<!\\bimpression )(?<!\\bsentiment )(?<!\\bespoir )(?<!\\bpeur )(?<!\\bcrainte )(?<!\\bchance )(?<!\\bcertitude )(?<!\\bcondition )(?<!\\bfois )(?<!\\bfaçon )(?<!\\bmanière )(?<!\\bsorte )(?<!\\bpoint )(?<!\\bheure )(?<!\\bmoment )(?<!\\btemps )(?<!\\bjour )(?<!\\bplus )(?<!\\bmoins )(?<!\\bautant )(?<!\\baussi )(?<!\\bsi )(?<!\\btant )(?<!\\btel )(?<!\\btelle )(?<!\\bmême )(?<!\\bautre )(?<!\\bautres )(?<!\\bainsi )(?<!\\bparce )(?<!\\balors )(?<!\\bbien )(?<!\\bdès )(?<!\\bavant )(?<!\\bpour )(?<!\\bsans )(?<!\\bpendant )(?<!\\bdepuis )(?<!\\bsorte )(?<!\\bmieux )(?<!\\bpire )(?<!\\bplutôt )(?<!\\brien )(?<!\\bpersonne )(?<!\\bseul )(?<!\\bseule )(?<!\\bsûr )(?<!\\bvrai )(?<!\\bdommage )(?<!\\bpossible )(?<!\\bclair )(?<!\\bévident )(?<!\\btrop )(?<!\\bassez )(?<!\\btellement )(?<!\\bpeu )(?<!\\bun )(?<!\\bune )(?<!\\bles )(?<!\\bdes )(?P<w>qui|que)(?![\\w'’-])",
+     "options": {
+      "qui": [
+       "que",
+       "dont"
+      ],
+      "que": [
+       "qui",
+       "dont"
+      ]
+     },
+     "exclude": "\\b(?:di[st]|dire|disait|disent|écri\\w*|répond\\w*|expliqu\\w*|annonc\\w*|promi\\w*|promet\\w*|rappel\\w*|assur\\w*|prévenu|informé|jur\\w*|apprend\\w*|appris|montr\\w*|prouv\\w*|signal\\w*|avou\\w*|confi\\w*|fai[st] savoir|pens\\w*|sai[st]|savai\\w*|savent|croi\\w*|cru|espér\\w*|espère\\w*|enseign\\w*|indiqu\\w*|sembl\\w*|imagin\\w*|suppos\\w*|comprend\\w*|compris|constat\\w*|remarqu\\w*|décid\\w*|pari\\w*|craign\\w*|ignor\\w*|oubli\\w*|vérifi\\w*|admet\\w*|admis|reconn\\w*|souhait\\w*|veu[xt]|voul\\w*|aim\\w*|préf[èé]r\\w*|exig\\w*|demand\\w*|insist\\w*|prétend\\w*|affirm\\w*|sentir|sens|sent|sentais|entend\\w*|vois|voit|voyait|voir|vu|lu|lis|lit|soit|fai[st]|faisait|font)\\b[^.?!]{0,40}\\b(?<!ce )que\\b|\\b(?:plus|moins|aussi|autant|si|tellement|tant|même|davantage|mieux|pire|tel|telle|tels|telles|autre|autres|ailleurs|plutôt)\\s+(?:[\\w'’-]+\\s+){0,2}que\\b|\\bne\\b[^.?!]*\\bque\\b|\\bafin que|\\bjusqu['’]à ce que|\\bau courant que|\\bde (?:sorte|façon|manière) que|\\bdu fait que|\\bà condition que|\\bau point que|\\bmalgré le fait que|\\bmoment où|\\bpourvu que|\\b(?:an|ans|mois|semaines?|jours?|heures?|minutes?|années?|siècles?|longtemps)\\s+(?:que|qu['’])"
+    }
+   ]
+  }
+ ]
+}

@@ -279,3 +279,5 @@ json.dump(REPORT, open(os.path.join(OUT, 'build-report.json'), 'w', encoding='ut
 for sl, tl in PAIRS:
     pr = CODE[sl] + '-' + CODE[tl]; log(pr, REPORT[pr]['total'], 'nativos nos dois lados:', REPORT[pr]['native_both'])
 log('downloads', REPORT['downloads'], 'sinais', REPORT['signals'])
+from build_tracks import build as build_tracks
+build_tracks(OUT, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'tracks'))

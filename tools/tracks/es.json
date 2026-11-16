@@ -1,0 +1,7839 @@
+{
+ "lang": "es",
+ "tracks": [
+  {
+   "id": "basico",
+   "subs": [
+    {
+     "id": "saudacoes",
+     "name": "Cumprimentos e cortesia",
+     "desc": "Fórmulas para cumprimentar, agradecer e pedir desculpas. Ex.: \"Buenos días\", \"Gracias\", \"Lo siento\", \"Por favor\".",
+     "pattern": "(?<![^\\W\\d_])(?P<w>hola|adiós|gracias|perd[oó]n|perdone|perdona|disculpen?|disculpa|(?<=buenos )días|(?<=buenas )(?:tardes|noches)|(?<=por )favor|(?<=lo )siento|(?<=hasta )(?:luego|pronto)|bienvenid[oa]s?|encantad[oa])(?![^\\W\\d_])",
+     "options": {
+      "hola": [
+       "adiós",
+       "gracias",
+       "perdón"
+      ],
+      "adiós": [
+       "hola",
+       "gracias",
+       "perdón"
+      ],
+      "gracias": [
+       "perdón",
+       "hola",
+       "adiós"
+      ],
+      "perdón": [
+       "gracias",
+       "adiós",
+       "hola"
+      ],
+      "perdona": [
+       "disculpa",
+       "gracias",
+       "hola"
+      ],
+      "perdone": [
+       "disculpe",
+       "gracias",
+       "adiós"
+      ],
+      "disculpa": [
+       "perdona",
+       "gracias",
+       "hola"
+      ],
+      "disculpe": [
+       "perdone",
+       "gracias",
+       "adiós"
+      ],
+      "disculpen": [
+       "disculpe",
+       "gracias",
+       "perdón"
+      ],
+      "días": [
+       "tardes",
+       "noches"
+      ],
+      "tardes": [
+       "días",
+       "noches"
+      ],
+      "noches": [
+       "días",
+       "tardes"
+      ],
+      "favor": [
+       "nada",
+       "gracias",
+       "perdón"
+      ],
+      "siento": [
+       "perdón",
+       "gracias",
+       "disculpe"
+      ],
+      "luego": [
+       "pronto",
+       "adiós",
+       "gracias"
+      ],
+      "pronto": [
+       "luego",
+       "adiós",
+       "gracias"
+      ],
+      "bienvenido": [
+       "bienvenida",
+       "bienvenidos",
+       "encantado"
+      ],
+      "bienvenida": [
+       "bienvenido",
+       "bienvenidas",
+       "encantada"
+      ],
+      "bienvenidos": [
+       "bienvenido",
+       "bienvenidas",
+       "encantados"
+      ],
+      "bienvenidas": [
+       "bienvenida",
+       "bienvenidos",
+       "encantadas"
+      ],
+      "encantado": [
+       "encantada",
+       "bienvenido",
+       "gracias"
+      ],
+      "encantada": [
+       "encantado",
+       "bienvenida",
+       "gracias"
+      ]
+     },
+     "exclude": "^(?=.{38,}).*\\bpor favor\\b|(?i:\\bperd[oó]n(?:e|a)?\\s+(?:a|al|por)\\b)|\\bencantad[oa]s?\\s+(?:de\\s+(?:que|la|el|los|las)|con)\\b|\\bbienvenid[oa]s?\\s+(?:a|al|de)\\s+(?:la|el)?\\b(?=.*\\b(?:fue|era|es)\\b)"
+    },
+    {
+     "id": "numeros",
+     "name": "Números",
+     "desc": "Números por extenso. Ex.: \"dos\", \"quince\", \"cien\", \"mil\". Atenção: 16-29 se escrevem juntos (dieciséis, veintidós).",
+     "pattern": "(?<![^\\W\\d_])(?P<w>cuatrocientas|cuatrocientos|veinticuatro|seiscientos|veintisiete|setecientos|ochocientas|trescientos|seiscientas|trescientas|veinticinco|veintinueve|novecientos|novecientas|ochocientos|setecientas|veintiséis|diecisiete|doscientas|quinientos|veintiocho|veintitrés|doscientos|quinientas|diecinueve|dieciséis|veintiuno|veintidós|cincuenta|dieciocho|cuarenta|millones|ochenta|catorce|noventa|treinta|setenta|sesenta|cuatro|veinte|ciento|millón|quince|cinco|nueve|siete|trece|doce|seis|cien|once|ocho|tres|diez|dos|mil)(?![^\\W\\d_])",
+     "options": {
+      "dos": [
+       "tres",
+       "cuatro",
+       "cinco"
+      ],
+      "tres": [
+       "dos",
+       "cuatro",
+       "cinco"
+      ],
+      "cuatro": [
+       "tres",
+       "cinco",
+       "dos"
+      ],
+      "cinco": [
+       "cuatro",
+       "seis",
+       "tres"
+      ],
+      "seis": [
+       "cinco",
+       "siete",
+       "cuatro"
+      ],
+      "siete": [
+       "seis",
+       "ocho",
+       "cinco"
+      ],
+      "ocho": [
+       "siete",
+       "nueve",
+       "seis"
+      ],
+      "nueve": [
+       "ocho",
+       "diez",
+       "siete"
+      ],
+      "diez": [
+       "doce",
+       "veinte",
+       "dos"
+      ],
+      "once": [
+       "diez",
+       "doce",
+       "nueve"
+      ],
+      "doce": [
+       "once",
+       "trece",
+       "diez"
+      ],
+      "trece": [
+       "doce",
+       "catorce",
+       "once"
+      ],
+      "catorce": [
+       "trece",
+       "quince",
+       "doce"
+      ],
+      "quince": [
+       "catorce",
+       "dieciséis",
+       "trece"
+      ],
+      "dieciséis": [
+       "quince",
+       "diecisiete",
+       "catorce"
+      ],
+      "diecisiete": [
+       "dieciséis",
+       "dieciocho",
+       "quince"
+      ],
+      "dieciocho": [
+       "diecisiete",
+       "diecinueve",
+       "dieciséis"
+      ],
+      "diecinueve": [
+       "dieciocho",
+       "diecisiete",
+       "dieciséis"
+      ],
+      "veinte": [
+       "treinta",
+       "diez",
+       "doce"
+      ],
+      "veintiuno": [
+       "veinte",
+       "veintidós",
+       "veintitrés"
+      ],
+      "veintidós": [
+       "veintiuno",
+       "veintitrés",
+       "veinte"
+      ],
+      "veintitrés": [
+       "veintidós",
+       "veinticuatro",
+       "veintiuno"
+      ],
+      "veinticuatro": [
+       "veintitrés",
+       "veinticinco",
+       "veintidós"
+      ],
+      "veinticinco": [
+       "veinticuatro",
+       "veintiséis",
+       "veintitrés"
+      ],
+      "veintiséis": [
+       "veinticinco",
+       "veintisiete",
+       "veinticuatro"
+      ],
+      "veintisiete": [
+       "veintiséis",
+       "veintiocho",
+       "veinticinco"
+      ],
+      "veintiocho": [
+       "veintisiete",
+       "veintinueve",
+       "veintiséis"
+      ],
+      "veintinueve": [
+       "veintiocho",
+       "treinta",
+       "veintisiete"
+      ],
+      "treinta": [
+       "veintinueve",
+       "cuarenta",
+       "veintiocho"
+      ],
+      "cuarenta": [
+       "treinta",
+       "cincuenta",
+       "veintinueve"
+      ],
+      "cincuenta": [
+       "cuarenta",
+       "sesenta",
+       "treinta"
+      ],
+      "sesenta": [
+       "cincuenta",
+       "setenta",
+       "cuarenta"
+      ],
+      "setenta": [
+       "sesenta",
+       "ochenta",
+       "cincuenta"
+      ],
+      "ochenta": [
+       "setenta",
+       "noventa",
+       "sesenta"
+      ],
+      "noventa": [
+       "ochenta",
+       "setenta",
+       "sesenta"
+      ],
+      "cien": [
+       "mil",
+       "diez",
+       "ciento"
+      ],
+      "ciento": [
+       "cien",
+       "mil",
+       "diez"
+      ],
+      "doscientos": [
+       "ciento",
+       "trescientos",
+       "cien"
+      ],
+      "trescientos": [
+       "doscientos",
+       "cuatrocientos",
+       "ciento"
+      ],
+      "cuatrocientos": [
+       "trescientos",
+       "quinientos",
+       "doscientos"
+      ],
+      "quinientos": [
+       "cuatrocientos",
+       "seiscientos",
+       "trescientos"
+      ],
+      "seiscientos": [
+       "quinientos",
+       "setecientos",
+       "cuatrocientos"
+      ],
+      "setecientos": [
+       "seiscientos",
+       "ochocientos",
+       "quinientos"
+      ],
+      "ochocientos": [
+       "setecientos",
+       "novecientos",
+       "seiscientos"
+      ],
+      "novecientos": [
+       "ochocientos",
+       "setecientos",
+       "seiscientos"
+      ],
+      "doscientas": [
+       "trescientas",
+       "cuatrocientas",
+       "quinientas"
+      ],
+      "trescientas": [
+       "doscientas",
+       "cuatrocientas",
+       "quinientas"
+      ],
+      "cuatrocientas": [
+       "trescientas",
+       "quinientas",
+       "doscientas"
+      ],
+      "quinientas": [
+       "cuatrocientas",
+       "seiscientas",
+       "trescientas"
+      ],
+      "seiscientas": [
+       "quinientas",
+       "setecientas",
+       "cuatrocientas"
+      ],
+      "setecientas": [
+       "seiscientas",
+       "ochocientas",
+       "quinientas"
+      ],
+      "ochocientas": [
+       "setecientas",
+       "novecientas",
+       "seiscientas"
+      ],
+      "novecientas": [
+       "ochocientas",
+       "setecientas",
+       "seiscientas"
+      ],
+      "mil": [
+       "cien",
+       "millón",
+       "diez"
+      ],
+      "millón": [
+       "mil",
+       "millones",
+       "cien"
+      ],
+      "millones": [
+       "miles",
+       "millón",
+       "cientos"
+      ]
+     },
+     "exclude": "\\bdos\\s+puntos\\b"
+    },
+    {
+     "id": "cores",
+     "name": "Cores",
+     "desc": "As cores concordam com o substantivo: \"un coche rojo\", \"una casa roja\". Azul, verde, gris variam só no plural.",
+     "pattern": "(?<![^\\W\\d_])(?P<w>amarillos|plateados|amarillas|plateadas|marrones|plateado|plateada|celestes|amarilla|amarillo|rosados|blancos|dorados|blancas|celeste|doradas|rosadas|blanco|grises|blanca|dorada|rosada|negros|verdes|dorado|beiges|rosado|azules|negras|marrón|negra|rojos|rojas|negro|verde|beige|gris|roja|rojo|azul)(?![^\\W\\d_])",
+     "options": {
+      "rojo": [
+       "amarillo",
+       "negro",
+       "blanco"
+      ],
+      "amarillo": [
+       "negro",
+       "blanco",
+       "azul"
+      ],
+      "negro": [
+       "blanco",
+       "azul",
+       "verde"
+      ],
+      "blanco": [
+       "azul",
+       "verde",
+       "gris"
+      ],
+      "rosado": [
+       "azul",
+       "verde",
+       "gris"
+      ],
+      "dorado": [
+       "verde",
+       "gris",
+       "marrón"
+      ],
+      "plateado": [
+       "gris",
+       "marrón",
+       "rojo"
+      ],
+      "azul": [
+       "rojo",
+       "amarillo",
+       "negro"
+      ],
+      "verde": [
+       "amarillo",
+       "negro",
+       "blanco"
+      ],
+      "gris": [
+       "negro",
+       "blanco",
+       "azul"
+      ],
+      "marrón": [
+       "blanco",
+       "azul",
+       "verde"
+      ],
+      "celeste": [
+       "blanco",
+       "azul",
+       "verde"
+      ],
+      "beige": [
+       "azul",
+       "verde",
+       "gris"
+      ],
+      "roja": [
+       "amarilla",
+       "negra",
+       "blanca"
+      ],
+      "amarilla": [
+       "negra",
+       "blanca",
+       "azul"
+      ],
+      "negra": [
+       "blanca",
+       "azul",
+       "verde"
+      ],
+      "blanca": [
+       "azul",
+       "verde",
+       "gris"
+      ],
+      "rosada": [
+       "azul",
+       "verde",
+       "gris"
+      ],
+      "dorada": [
+       "verde",
+       "gris",
+       "marrón"
+      ],
+      "plateada": [
+       "gris",
+       "marrón",
+       "roja"
+      ],
+      "rojos": [
+       "amarillos",
+       "negros",
+       "blancos"
+      ],
+      "amarillos": [
+       "negros",
+       "blancos",
+       "azules"
+      ],
+      "negros": [
+       "blancos",
+       "azules",
+       "verdes"
+      ],
+      "blancos": [
+       "azules",
+       "verdes",
+       "grises"
+      ],
+      "rosados": [
+       "azules",
+       "verdes",
+       "grises"
+      ],
+      "dorados": [
+       "verdes",
+       "grises",
+       "marrones"
+      ],
+      "plateados": [
+       "grises",
+       "marrones",
+       "rojos"
+      ],
+      "azules": [
+       "rojos",
+       "amarillos",
+       "negros"
+      ],
+      "verdes": [
+       "amarillos",
+       "negros",
+       "blancos"
+      ],
+      "grises": [
+       "negros",
+       "blancos",
+       "azules"
+      ],
+      "marrones": [
+       "blancos",
+       "azules",
+       "verdes"
+      ],
+      "celestes": [
+       "blancos",
+       "azules",
+       "verdes"
+      ],
+      "beiges": [
+       "azules",
+       "verdes",
+       "grises"
+      ],
+      "rojas": [
+       "amarillas",
+       "negras",
+       "blancas"
+      ],
+      "amarillas": [
+       "negras",
+       "blancas",
+       "azules"
+      ],
+      "negras": [
+       "blancas",
+       "azules",
+       "verdes"
+      ],
+      "blancas": [
+       "azules",
+       "verdes",
+       "grises"
+      ],
+      "rosadas": [
+       "azules",
+       "verdes",
+       "grises"
+      ],
+      "doradas": [
+       "verdes",
+       "grises",
+       "marrones"
+      ],
+      "plateadas": [
+       "grises",
+       "marrones",
+       "rojas"
+      ]
+     },
+     "exclude": "\\b(?:Casa Blanca|Blancanieves|en blanco|vino blanco|vino tinto|Mar Negro|Mar Rojo|Cruz Roja|mercado negro|oveja negra|lista negra|agujero negro|verde(?:s)? de envidia|chiste verde|viejo verde|tabaco negro|cerveza negra|humor negro|Blanco|Verde|Rojo|Negro|Gris|Celeste)\\b|\\b(?:poner|pongo|pone|puso|ponerse|puse|pusiste|ponemos|ponen|se puso|me puse)\\s+(?:muy\\s+|tan\\s+|completamente\\s+)?(?:roj|blanc|verde|amarill|moradd)"
+    },
+    {
+     "id": "dias",
+     "name": "Dias, meses e estações",
+     "desc": "Dias da semana, meses e estações (em minúscula em espanhol). Ex.: \"el lunes\", \"en enero\", \"en verano\".",
+     "pattern": "(?<![^\\W\\d_])(?P<w>septiembre|diciembre|miércoles|noviembre|primavera|setiembre|invierno|domingos|febrero|sábados|octubre|domingo|viernes|agosto|martes|verano|sábado|jueves|julio|lunes|abril|otoño|marzo|enero|junio|mayo)(?![^\\W\\d_])",
+     "options": {
+      "lunes": [
+       "martes",
+       "miércoles",
+       "jueves"
+      ],
+      "martes": [
+       "lunes",
+       "miércoles",
+       "jueves"
+      ],
+      "miércoles": [
+       "martes",
+       "jueves",
+       "lunes"
+      ],
+      "jueves": [
+       "miércoles",
+       "viernes",
+       "martes"
+      ],
+      "viernes": [
+       "jueves",
+       "sábado",
+       "miércoles"
+      ],
+      "sábado": [
+       "viernes",
+       "domingo",
+       "jueves"
+      ],
+      "domingo": [
+       "sábado",
+       "viernes",
+       "jueves"
+      ],
+      "sábados": [
+       "domingos",
+       "viernes",
+       "lunes"
+      ],
+      "domingos": [
+       "sábados",
+       "lunes",
+       "viernes"
+      ],
+      "enero": [
+       "febrero",
+       "marzo",
+       "abril"
+      ],
+      "febrero": [
+       "enero",
+       "marzo",
+       "abril"
+      ],
+      "marzo": [
+       "febrero",
+       "abril",
+       "enero"
+      ],
+      "abril": [
+       "marzo",
+       "mayo",
+       "febrero"
+      ],
+      "mayo": [
+       "abril",
+       "junio",
+       "marzo"
+      ],
+      "junio": [
+       "mayo",
+       "julio",
+       "abril"
+      ],
+      "julio": [
+       "junio",
+       "agosto",
+       "mayo"
+      ],
+      "agosto": [
+       "julio",
+       "septiembre",
+       "junio"
+      ],
+      "septiembre": [
+       "agosto",
+       "octubre",
+       "julio"
+      ],
+      "octubre": [
+       "septiembre",
+       "noviembre",
+       "agosto"
+      ],
+      "noviembre": [
+       "octubre",
+       "diciembre",
+       "septiembre"
+      ],
+      "diciembre": [
+       "noviembre",
+       "octubre",
+       "septiembre"
+      ],
+      "primavera": [
+       "verano",
+       "otoño",
+       "invierno"
+      ],
+      "verano": [
+       "otoño",
+       "invierno",
+       "primavera"
+      ],
+      "otoño": [
+       "invierno",
+       "primavera",
+       "verano"
+      ],
+      "invierno": [
+       "primavera",
+       "verano",
+       "otoño"
+      ],
+      "setiembre": [
+       "agosto",
+       "octubre",
+       "noviembre"
+      ]
+     },
+     "exclude": "\\bDomingo\\b(?!\\s)|(?-i:\\bMayo\\b)"
+    },
+    {
+     "id": "familia",
+     "name": "Família",
+     "desc": "Membros da família. Atenção: \"padres\" pode ser \"pais\" (pai e mãe). Ex.: \"mi hermana\", \"los abuelos\".",
+     "pattern": "(?<![^\\W\\d_])(?P<w>hermanas|sobrinas|hermanos|sobrinos|esposos|sobrina|hermana|esposas|abuelas|sobrino|suegros|hermano|suegras|maridos|abuelos|padres|primas|primos|nietos|marido|madres|esposo|suegra|nietas|abuelo|abuela|esposa|suegro|prima|padre|mamás|madre|nieto|hijas|primo|papás|hijos|nieta|hijo|mamá|hija|tíos|papá|tías|tía|tío)(?![^\\W\\d_])",
+     "options": {
+      "padre": [
+       "madre",
+       "papá",
+       "hermano"
+      ],
+      "papá": [
+       "mamá",
+       "hermano",
+       "hijo"
+      ],
+      "hermano": [
+       "hermana",
+       "hijo",
+       "abuelo"
+      ],
+      "hijo": [
+       "hija",
+       "abuelo",
+       "tío"
+      ],
+      "abuelo": [
+       "abuela",
+       "tío",
+       "primo"
+      ],
+      "tío": [
+       "tía",
+       "primo",
+       "nieto"
+      ],
+      "primo": [
+       "prima",
+       "nieto",
+       "sobrino"
+      ],
+      "nieto": [
+       "nieta",
+       "sobrino",
+       "esposo"
+      ],
+      "sobrino": [
+       "sobrina",
+       "esposo",
+       "marido"
+      ],
+      "esposo": [
+       "esposa",
+       "marido",
+       "suegro"
+      ],
+      "marido": [
+       "esposa",
+       "suegro",
+       "padre"
+      ],
+      "suegro": [
+       "suegra",
+       "padre",
+       "papá"
+      ],
+      "madre": [
+       "padre",
+       "mamá",
+       "hermana"
+      ],
+      "mamá": [
+       "papá",
+       "hermana",
+       "hija"
+      ],
+      "hermana": [
+       "hermano",
+       "hija",
+       "abuela"
+      ],
+      "hija": [
+       "hijo",
+       "abuela",
+       "tía"
+      ],
+      "abuela": [
+       "abuelo",
+       "tía",
+       "prima"
+      ],
+      "tía": [
+       "tío",
+       "prima",
+       "nieta"
+      ],
+      "prima": [
+       "primo",
+       "nieta",
+       "sobrina"
+      ],
+      "nieta": [
+       "nieto",
+       "sobrina",
+       "esposa"
+      ],
+      "sobrina": [
+       "sobrino",
+       "esposa"
+      ],
+      "esposa": [
+       "esposo",
+       "suegra",
+       "madre"
+      ],
+      "suegra": [
+       "suegro",
+       "madre",
+       "mamá"
+      ],
+      "padres": [
+       "madres",
+       "papás",
+       "hermanos"
+      ],
+      "papás": [
+       "mamás",
+       "hermanos",
+       "hijos"
+      ],
+      "hermanos": [
+       "hermanas",
+       "hijos",
+       "abuelos"
+      ],
+      "hijos": [
+       "hijas",
+       "abuelos",
+       "tíos"
+      ],
+      "abuelos": [
+       "abuelas",
+       "tíos",
+       "primos"
+      ],
+      "tíos": [
+       "tías",
+       "primos",
+       "nietos"
+      ],
+      "primos": [
+       "primas",
+       "nietos",
+       "sobrinos"
+      ],
+      "nietos": [
+       "nietas",
+       "sobrinos",
+       "esposos"
+      ],
+      "sobrinos": [
+       "sobrinas",
+       "esposos",
+       "maridos"
+      ],
+      "esposos": [
+       "esposas",
+       "maridos",
+       "suegros"
+      ],
+      "maridos": [
+       "esposas",
+       "suegros",
+       "padres"
+      ],
+      "suegros": [
+       "suegras",
+       "padres",
+       "papás"
+      ],
+      "madres": [
+       "padres",
+       "mamás",
+       "hermanas"
+      ],
+      "mamás": [
+       "papás",
+       "hermanas",
+       "hijas"
+      ],
+      "hermanas": [
+       "hermanos",
+       "hijas",
+       "abuelas"
+      ],
+      "hijas": [
+       "hijos",
+       "abuelas",
+       "tías"
+      ],
+      "abuelas": [
+       "abuelos",
+       "tías",
+       "primas"
+      ],
+      "tías": [
+       "tíos",
+       "primas",
+       "nietas"
+      ],
+      "primas": [
+       "primos",
+       "nietas",
+       "sobrinas"
+      ],
+      "nietas": [
+       "nietos",
+       "sobrinas",
+       "esposas"
+      ],
+      "sobrinas": [
+       "sobrinos",
+       "esposas"
+      ],
+      "esposas": [
+       "esposos",
+       "suegras",
+       "madres"
+      ],
+      "suegras": [
+       "suegros",
+       "madres",
+       "mamás"
+      ]
+     },
+     "exclude": "\\bhijo de (?:puta|perra)\\b|\\bPadre\\s+(?:Nuestro|[A-Z])|\\b(?:primo|primos)\\s+(?:número|números)\\b|\\bnúmeros? primos?\\b|\\bt[ií]o\\b(?=,)|^(?:t[ií]o|t[ií]a)\\b"
+    },
+    {
+     "id": "corpo",
+     "name": "Corpo humano",
+     "desc": "Partes do corpo. Em espanhol se usa o artigo, não o possessivo: \"Me duele la cabeza\" (Minha cabeça dói).",
+     "pattern": "(?<![^\\W\\d_])(?P<w>estómago|rodillas|mejillas|pestañas|tobillos|garganta|corazón|tobillo|rodilla|espalda|dientes|piernas|hombros|cabello|barriga|orejas|cuello|cabeza|pierna|diente|labios|cuerpo|hombro|brazos|nariz|dedos|manos|brazo|oreja|labio|pecho|codos|cejas|mano|boca|codo|ojos|uñas|pelo|piel|dedo|pies|uña|ojo|(?:(?<=\\bel )|(?<=\\bal )|(?<=\\bdel )|(?<=\\bun )|(?<=\\bmi )|(?<=\\bsu )|(?<=\\btu ))oído|(?:(?<=\\blos )|(?<=\\bmis )|(?<=\\bsus )|(?<=\\btus ))oídos|(?:(?<=\\bla )|(?<=\\bsu )|(?<=\\btu )|(?<=\\bmi )|(?<=\\buna ))cara|(?:(?<=\\bla )|(?<=\\bsu )|(?<=\\btu )|(?<=\\bmi ))lengua(?! materna)|(?:(?<=\\bel )|(?<=\\blos )|(?<=\\bun )|(?<=\\bal )|(?<=\\bdel )|(?<=\\bsu )|(?<=\\btu )|(?<=\\bmi )|(?<=\\bsus )|(?<=\\btus )|(?<=\\bmis )|(?<=\\bdos ))pie)(?![^\\W\\d_])",
+     "options": {
+      "ojo": [
+       "brazo",
+       "pie",
+       "dedo"
+      ],
+      "brazo": [
+       "pie",
+       "dedo",
+       "cuello"
+      ],
+      "pie": [
+       "dedo",
+       "cuello",
+       "pelo"
+      ],
+      "dedo": [
+       "cuello",
+       "pelo",
+       "hombro"
+      ],
+      "cuello": [
+       "pelo",
+       "hombro",
+       "diente"
+      ],
+      "pelo": [
+       "hombro",
+       "diente",
+       "ojo"
+      ],
+      "hombro": [
+       "diente",
+       "ojo",
+       "brazo"
+      ],
+      "diente": [
+       "ojo",
+       "brazo",
+       "pie"
+      ],
+      "estómago": [
+       "ojo",
+       "brazo",
+       "pie"
+      ],
+      "corazón": [
+       "brazo",
+       "pie",
+       "dedo"
+      ],
+      "cabello": [
+       "pie",
+       "dedo",
+       "cuello"
+      ],
+      "labio": [
+       "dedo",
+       "cuello",
+       "pelo"
+      ],
+      "codo": [
+       "cuello",
+       "pelo",
+       "hombro"
+      ],
+      "tobillo": [
+       "pelo",
+       "hombro",
+       "diente"
+      ],
+      "pecho": [
+       "hombro",
+       "diente",
+       "ojo"
+      ],
+      "cuerpo": [
+       "diente",
+       "ojo",
+       "brazo"
+      ],
+      "oído": [
+       "ojo",
+       "brazo",
+       "pie"
+      ],
+      "cabeza": [
+       "boca",
+       "mano",
+       "nariz"
+      ],
+      "cara": [
+       "boca",
+       "mano",
+       "nariz"
+      ],
+      "boca": [
+       "nariz",
+       "pierna",
+       "oreja"
+      ],
+      "mano": [
+       "pierna",
+       "oreja",
+       "espalda"
+      ],
+      "nariz": [
+       "oreja",
+       "espalda",
+       "rodilla"
+      ],
+      "pierna": [
+       "espalda",
+       "rodilla",
+       "cabeza"
+      ],
+      "oreja": [
+       "rodilla",
+       "cabeza",
+       "boca"
+      ],
+      "espalda": [
+       "cabeza",
+       "boca",
+       "mano"
+      ],
+      "rodilla": [
+       "boca",
+       "mano",
+       "nariz"
+      ],
+      "piel": [
+       "boca",
+       "mano",
+       "nariz"
+      ],
+      "garganta": [
+       "mano",
+       "nariz",
+       "pierna"
+      ],
+      "uña": [
+       "nariz",
+       "pierna",
+       "oreja"
+      ],
+      "lengua": [
+       "pierna",
+       "oreja",
+       "espalda"
+      ],
+      "muñeca": [
+       "oreja",
+       "espalda",
+       "rodilla"
+      ],
+      "barriga": [
+       "espalda",
+       "rodilla",
+       "cabeza"
+      ],
+      "ojos": [
+       "brazos",
+       "pies",
+       "dedos"
+      ],
+      "brazos": [
+       "pies",
+       "dedos",
+       "hombros"
+      ],
+      "pies": [
+       "dedos",
+       "hombros",
+       "dientes"
+      ],
+      "dedos": [
+       "hombros",
+       "dientes",
+       "ojos"
+      ],
+      "hombros": [
+       "dientes",
+       "ojos",
+       "brazos"
+      ],
+      "dientes": [
+       "ojos",
+       "brazos",
+       "pies"
+      ],
+      "labios": [
+       "ojos",
+       "brazos",
+       "pies"
+      ],
+      "codos": [
+       "brazos",
+       "pies",
+       "dedos"
+      ],
+      "tobillos": [
+       "pies",
+       "dedos",
+       "hombros"
+      ],
+      "oídos": [
+       "dedos",
+       "hombros",
+       "dientes"
+      ],
+      "manos": [
+       "piernas",
+       "orejas",
+       "rodillas"
+      ],
+      "piernas": [
+       "orejas",
+       "rodillas",
+       "manos"
+      ],
+      "orejas": [
+       "rodillas",
+       "manos",
+       "piernas"
+      ],
+      "rodillas": [
+       "manos",
+       "piernas",
+       "orejas"
+      ],
+      "uñas": [
+       "manos",
+       "piernas",
+       "orejas"
+      ],
+      "mejillas": [
+       "piernas",
+       "orejas",
+       "rodillas"
+      ],
+      "pestañas": [
+       "orejas",
+       "rodillas",
+       "manos"
+      ],
+      "cejas": [
+       "rodillas",
+       "manos",
+       "piernas"
+      ]
+     },
+     "exclude": "\\b(?:de|a|en) pie\\b|\\bcara a cara\\b|\\bpecho\\s+de\\s+pollo\\b|\\bcuerpo\\s+(?:de\\s+bomberos|diplomático)\\b|\\bmano de obra\\b|\\bde segunda mano\\b|\\btom(?:ar|a|as|an|ó|é|ado|ando|aste|aron)(?:le|te|me|nos)? el pelo\\b|\\bpelo(?:s)?\\b(?=.*\\btom\\w* el pelo)|\\bpor los pelos\\b|\\bmuñeca\\b"
+    },
+    {
+     "id": "roupas",
+     "name": "Roupas",
+     "desc": "Peças de roupa e acessórios. Ex.: \"una camisa\", \"los zapatos\". Atenção: \"ropa\" é singular (Mi ropa está sucia).",
+     "pattern": "(?<![^\\W\\d_])(?P<w>calcetines|zapatillas|pantalones|sandalias|bolsillos|camisetas|chaquetas|sombreros|corbatas|pantalón|cinturón|paraguas|sombrero|uniforme|chamarra|chaqueta|camiseta|anteojos|calcetín|vaqueros|abrigos|guantes|corbata|bufanda|cartera|camisas|zapatos|mochila|suéter|pijama|camisa|zapato|faldas|lentes|jersey|jeans|gorro|gafas|blusa|bolso|gorra|falda|ropa|(?:(?<=\\bel )|(?<=\\bun )|(?<=\\bsu )|(?<=\\btu )|(?<=\\bmi )|(?<=\\bese ))(?:vestido|traje|abrigo)|(?:(?<=\\blos )|(?<=\\bsus )|(?<=\\bmis )|(?<=\\btus )|(?<=\\bunos )|(?<=\\bestos )|(?<=\\besos ))(?:vestidos|trajes)|(?:(?<=\\blas )|(?<=\\bsus )|(?<=\\bmis )|(?<=\\btus )|(?<=\\bunas ))(?:botas|medias))(?![^\\W\\d_])",
+     "options": {
+      "vestido": [
+       "abrigo",
+       "zapato",
+       "sombrero"
+      ],
+      "abrigo": [
+       "zapato",
+       "sombrero",
+       "pantalón"
+      ],
+      "zapato": [
+       "sombrero",
+       "pantalón",
+       "suéter"
+      ],
+      "sombrero": [
+       "pantalón",
+       "suéter",
+       "vestido"
+      ],
+      "pantalón": [
+       "suéter",
+       "vestido",
+       "abrigo"
+      ],
+      "suéter": [
+       "vestido",
+       "abrigo",
+       "zapato"
+      ],
+      "jersey": [
+       "vestido",
+       "abrigo",
+       "zapato"
+      ],
+      "traje": [
+       "abrigo",
+       "zapato",
+       "sombrero"
+      ],
+      "cinturón": [
+       "zapato",
+       "sombrero",
+       "pantalón"
+      ],
+      "calcetín": [
+       "sombrero",
+       "pantalón",
+       "suéter"
+      ],
+      "bolso": [
+       "pantalón",
+       "suéter",
+       "vestido"
+      ],
+      "paraguas": [
+       "suéter",
+       "vestido",
+       "abrigo"
+      ],
+      "uniforme": [
+       "vestido",
+       "abrigo",
+       "zapato"
+      ],
+      "gorro": [
+       "abrigo",
+       "zapato",
+       "sombrero"
+      ],
+      "pijama": [
+       "zapato",
+       "sombrero",
+       "pantalón"
+      ],
+      "camisa": [
+       "camiseta",
+       "falda",
+       "chaqueta"
+      ],
+      "camiseta": [
+       "falda",
+       "chaqueta",
+       "corbata"
+      ],
+      "falda": [
+       "chaqueta",
+       "corbata",
+       "gorra"
+      ],
+      "chaqueta": [
+       "corbata",
+       "gorra",
+       "camisa"
+      ],
+      "corbata": [
+       "gorra",
+       "camisa",
+       "camiseta"
+      ],
+      "gorra": [
+       "camisa",
+       "camiseta",
+       "falda"
+      ],
+      "bufanda": [
+       "camisa",
+       "camiseta",
+       "falda"
+      ],
+      "ropa": [
+       "camiseta",
+       "falda",
+       "chaqueta"
+      ],
+      "chamarra": [
+       "falda",
+       "chaqueta",
+       "corbata"
+      ],
+      "blusa": [
+       "chaqueta",
+       "corbata",
+       "gorra"
+      ],
+      "cartera": [
+       "corbata",
+       "gorra",
+       "camisa"
+      ],
+      "mochila": [
+       "gorra",
+       "camisa",
+       "camiseta"
+      ],
+      "zapatos": [
+       "pantalones",
+       "calcetines",
+       "guantes"
+      ],
+      "pantalones": [
+       "calcetines",
+       "guantes",
+       "abrigos"
+      ],
+      "calcetines": [
+       "guantes",
+       "abrigos",
+       "zapatos"
+      ],
+      "guantes": [
+       "abrigos",
+       "zapatos",
+       "pantalones"
+      ],
+      "vestidos": [
+       "abrigos",
+       "zapatos",
+       "pantalones"
+      ],
+      "abrigos": [
+       "pantalones",
+       "calcetines",
+       "guantes"
+      ],
+      "vaqueros": [
+       "pantalones",
+       "calcetines",
+       "guantes"
+      ],
+      "jeans": [
+       "calcetines",
+       "guantes",
+       "abrigos"
+      ],
+      "sombreros": [
+       "abrigos",
+       "zapatos",
+       "pantalones"
+      ],
+      "trajes": [
+       "zapatos",
+       "pantalones",
+       "calcetines"
+      ],
+      "anteojos": [
+       "pantalones",
+       "calcetines",
+       "guantes"
+      ],
+      "lentes": [
+       "calcetines",
+       "guantes",
+       "abrigos"
+      ],
+      "bolsillos": [
+       "guantes",
+       "abrigos",
+       "zapatos"
+      ],
+      "camisas": [
+       "botas",
+       "gafas",
+       "faldas"
+      ],
+      "camisetas": [
+       "botas",
+       "gafas",
+       "faldas"
+      ],
+      "zapatillas": [
+       "gafas",
+       "faldas",
+       "camisas"
+      ],
+      "botas": [
+       "zapatillas",
+       "camisas",
+       "gafas"
+      ],
+      "gafas": [
+       "camisas",
+       "botas",
+       "faldas"
+      ],
+      "faldas": [
+       "botas",
+       "gafas",
+       "zapatillas"
+      ],
+      "sandalias": [
+       "botas",
+       "gafas",
+       "faldas"
+      ],
+      "medias": [
+       "gafas",
+       "faldas",
+       "zapatillas"
+      ],
+      "corbatas": [
+       "faldas",
+       "zapatillas",
+       "camisas"
+      ],
+      "chaquetas": [
+       "zapatillas",
+       "camisas",
+       "botas"
+      ]
+     },
+     "exclude": "\\bropa\\s+(?:de\\s+cama|interior)\\b(?=.*\\bropa\\b)|\\bmedias\\s+(?:naranjas|horas)\\b|\\bal abrigo\\b|\\bcartera\\s+de\\s+(?:clientes|inversiones)\\b"
+    },
+    {
+     "id": "animais",
+     "name": "Animais",
+     "desc": "Nomes de animais. Ex.: \"el perro\" (cachorro), \"el pájaro\", \"la vaca\". Atenção: \"el pez\" vivo × \"el pescado\" na mesa.",
+     "pattern": "(?<![^\\W\\d_])(?P<w>serpientes|tiburones|serpiente|mosquitos|mariposas|elefantes|mariposa|animales|gallinas|ballenas|ardillas|insectos|hormigas|caballos|delfines|tortugas|mosquito|elefante|cordero|caballo|camello|pájaros|insecto|palomas|jirafas|tortuga|ratones|canguro|ballena|conejos|caracol|ardilla|gallina|hormiga|tiburón|pájaro|tigres|animal|ovejas|arañas|moscas|leones|jirafa|conejo|delfín|abejas|cabras|paloma|gallos|perros|cerdos|ratas|gatos|abeja|patos|ranas|gallo|mosca|zorro|perro|oveja|cerdo|vacas|toros|araña|cabra|cebra|lobos|peces|ratón|tigre|gata|lobo|toro|gato|vaca|loro|pato|rana|león|osos|pez|oso|(?:(?<=\\bun )|(?<=\\bel )|(?<=\\bdel )|(?<=\\bal ))mono|(?:(?<=\\bun )|(?<=\\bel )|(?<=\\bdel )|(?<=\\bal )|(?<=\\blos )|(?<=\\bsus )|(?<=\\bunos )|(?<=\\bdos ))monos?)(?![^\\W\\d_])",
+     "options": {
+      "perro": [
+       "gato",
+       "caballo",
+       "pájaro"
+      ],
+      "gato": [
+       "caballo",
+       "pájaro",
+       "ratón"
+      ],
+      "caballo": [
+       "pájaro",
+       "ratón",
+       "león"
+      ],
+      "pájaro": [
+       "ratón",
+       "león",
+       "oso"
+      ],
+      "pez": [
+       "ratón",
+       "león",
+       "oso"
+      ],
+      "ratón": [
+       "oso",
+       "conejo",
+       "perro"
+      ],
+      "león": [
+       "conejo",
+       "perro",
+       "gato"
+      ],
+      "tigre": [
+       "conejo",
+       "perro",
+       "gato"
+      ],
+      "elefante": [
+       "perro",
+       "gato",
+       "caballo"
+      ],
+      "oso": [
+       "caballo",
+       "pájaro",
+       "ratón"
+      ],
+      "lobo": [
+       "caballo",
+       "pájaro",
+       "ratón"
+      ],
+      "conejo": [
+       "ratón",
+       "león",
+       "oso"
+      ],
+      "pato": [
+       "ratón",
+       "león",
+       "oso"
+      ],
+      "toro": [
+       "león",
+       "oso",
+       "conejo"
+      ],
+      "cerdo": [
+       "oso",
+       "conejo",
+       "perro"
+      ],
+      "burro": [
+       "conejo",
+       "perro",
+       "gato"
+      ],
+      "zorro": [
+       "perro",
+       "gato",
+       "caballo"
+      ],
+      "mono": [
+       "gato",
+       "caballo",
+       "pájaro"
+      ],
+      "insecto": [
+       "caballo",
+       "pájaro",
+       "ratón"
+      ],
+      "animal": [
+       "pájaro",
+       "ratón",
+       "león"
+      ],
+      "gallo": [
+       "ratón",
+       "león",
+       "oso"
+      ],
+      "loro": [
+       "león",
+       "oso",
+       "conejo"
+      ],
+      "delfín": [
+       "conejo",
+       "perro",
+       "gato"
+      ],
+      "tiburón": [
+       "perro",
+       "gato",
+       "caballo"
+      ],
+      "camello": [
+       "gato",
+       "caballo",
+       "pájaro"
+      ],
+      "cordero": [
+       "caballo",
+       "pájaro",
+       "ratón"
+      ],
+      "mosquito": [
+       "pájaro",
+       "ratón",
+       "león"
+      ],
+      "canguro": [
+       "ratón",
+       "león",
+       "oso"
+      ],
+      "caracol": [
+       "león",
+       "oso",
+       "conejo"
+      ],
+      "vaca": [
+       "oveja",
+       "gallina",
+       "serpiente"
+      ],
+      "oveja": [
+       "gallina",
+       "serpiente",
+       "abeja"
+      ],
+      "gallina": [
+       "serpiente",
+       "abeja",
+       "rana"
+      ],
+      "serpiente": [
+       "abeja",
+       "rana",
+       "tortuga"
+      ],
+      "abeja": [
+       "rana",
+       "tortuga",
+       "ballena"
+      ],
+      "araña": [
+       "rana",
+       "tortuga",
+       "ballena"
+      ],
+      "rana": [
+       "ballena",
+       "vaca",
+       "oveja"
+      ],
+      "tortuga": [
+       "vaca",
+       "oveja",
+       "gallina"
+      ],
+      "ballena": [
+       "oveja",
+       "gallina",
+       "serpiente"
+      ],
+      "mosca": [
+       "oveja",
+       "gallina",
+       "serpiente"
+      ],
+      "cabra": [
+       "gallina",
+       "serpiente",
+       "abeja"
+      ],
+      "jirafa": [
+       "serpiente",
+       "abeja",
+       "rana"
+      ],
+      "mariposa": [
+       "abeja",
+       "rana",
+       "tortuga"
+      ],
+      "ardilla": [
+       "rana",
+       "tortuga",
+       "ballena"
+      ],
+      "hormiga": [
+       "tortuga",
+       "ballena",
+       "vaca"
+      ],
+      "paloma": [
+       "ballena",
+       "vaca",
+       "oveja"
+      ],
+      "cebra": [
+       "vaca",
+       "oveja",
+       "gallina"
+      ],
+      "rata": [
+       "oveja",
+       "gallina",
+       "serpiente"
+      ],
+      "perra": [
+       "gallina",
+       "serpiente",
+       "abeja"
+      ],
+      "gata": [
+       "serpiente",
+       "abeja",
+       "rana"
+      ],
+      "perros": [
+       "gatos",
+       "caballos",
+       "pájaros"
+      ],
+      "gatos": [
+       "caballos",
+       "pájaros",
+       "ratones"
+      ],
+      "caballos": [
+       "pájaros",
+       "ratones",
+       "leones"
+      ],
+      "pájaros": [
+       "ratones",
+       "leones",
+       "osos"
+      ],
+      "peces": [
+       "ratones",
+       "leones",
+       "osos"
+      ],
+      "ratones": [
+       "osos",
+       "conejos",
+       "perros"
+      ],
+      "leones": [
+       "conejos",
+       "perros",
+       "gatos"
+      ],
+      "tigres": [
+       "conejos",
+       "perros",
+       "gatos"
+      ],
+      "elefantes": [
+       "perros",
+       "gatos",
+       "caballos"
+      ],
+      "osos": [
+       "caballos",
+       "pájaros",
+       "ratones"
+      ],
+      "lobos": [
+       "caballos",
+       "pájaros",
+       "ratones"
+      ],
+      "conejos": [
+       "ratones",
+       "leones",
+       "osos"
+      ],
+      "patos": [
+       "ratones",
+       "leones",
+       "osos"
+      ],
+      "toros": [
+       "leones",
+       "osos",
+       "conejos"
+      ],
+      "cerdos": [
+       "osos",
+       "conejos",
+       "perros"
+      ],
+      "monos": [
+       "conejos",
+       "perros",
+       "gatos"
+      ],
+      "insectos": [
+       "perros",
+       "gatos",
+       "caballos"
+      ],
+      "animales": [
+       "gatos",
+       "caballos",
+       "pájaros"
+      ],
+      "delfines": [
+       "caballos",
+       "pájaros",
+       "ratones"
+      ],
+      "tiburones": [
+       "pájaros",
+       "ratones",
+       "leones"
+      ],
+      "mosquitos": [
+       "ratones",
+       "leones",
+       "osos"
+      ],
+      "gallos": [
+       "leones",
+       "osos",
+       "conejos"
+      ],
+      "vacas": [
+       "ovejas",
+       "gallinas",
+       "serpientes"
+      ],
+      "ovejas": [
+       "gallinas",
+       "serpientes",
+       "abejas"
+      ],
+      "gallinas": [
+       "serpientes",
+       "abejas",
+       "ranas"
+      ],
+      "serpientes": [
+       "abejas",
+       "ranas",
+       "tortugas"
+      ],
+      "abejas": [
+       "ranas",
+       "tortugas",
+       "vacas"
+      ],
+      "arañas": [
+       "ranas",
+       "tortugas",
+       "vacas"
+      ],
+      "ranas": [
+       "vacas",
+       "ovejas",
+       "gallinas"
+      ],
+      "tortugas": [
+       "ovejas",
+       "gallinas",
+       "serpientes"
+      ],
+      "ballenas": [
+       "ovejas",
+       "gallinas",
+       "serpientes"
+      ],
+      "moscas": [
+       "gallinas",
+       "serpientes",
+       "abejas"
+      ],
+      "cabras": [
+       "serpientes",
+       "abejas",
+       "ranas"
+      ],
+      "jirafas": [
+       "abejas",
+       "ranas",
+       "tortugas"
+      ],
+      "mariposas": [
+       "ranas",
+       "tortugas",
+       "vacas"
+      ],
+      "ardillas": [
+       "tortugas",
+       "vacas",
+       "ovejas"
+      ],
+      "hormigas": [
+       "vacas",
+       "ovejas",
+       "gallinas"
+      ],
+      "palomas": [
+       "ovejas",
+       "gallinas",
+       "serpientes"
+      ],
+      "ratas": [
+       "gallinas",
+       "serpientes",
+       "abejas"
+      ]
+     },
+     "exclude": "\\bcaballo de fuerza|\\bhora punta\\b|\\bcaballos de fuerza\\b|\\bgato\\s+(?:hidráulico)\\b|\\bLeón\\b(?=\\s+[A-Z])|\\bpez gordo\\b|\\bvista de pájaro\\b|\\bpata de gallo\\b|\\bpiel de gallina\\b"
+    },
+    {
+     "id": "comida",
+     "name": "Comidas e bebidas",
+     "desc": "Alimentos, bebidas e refeições. Ex.: \"el pan\", \"la leche\" (feminino!), \"el desayuno\", \"la cena\".",
+     "pattern": "(?<![^\\W\\d_])(?P<w>hamburguesas|mantequilla|hamburguesa|zanahorias|espaguetis|zanahoria|bocadillo|legumbres|mermelada|caramelos|refrescos|chocolate|ensalada|mariscos|frijoles|caramelo|refresco|pasteles|galletas|sándwich|pimiento|pimienta|manzanas|plátanos|verduras|cebollas|bebidas|lechuga|limones|postres|plátano|verdura|cebolla|patatas|tomates|galleta|cerveza|manzana|postre|fresas|harina|aceite|huevos|patata|azúcar|sandía|frutas|filete|pastel|tomate|fideos|arroz|huevo|fresa|melón|yogur|pizza|jamón|limón|queso|carne|leche|fruta|pollo|tarta|peras|piña|zumo|maíz|jugo|miel|uvas|sopa|café|pan|uva|ajo|té|(?:(?<=\\bla )|(?<=\\bde )|(?<=\\bcon )|(?<=\\bsin )|(?<=\\bpoca )|(?<=\\bmucha ))sal|(?:(?<=\\bel )|(?<=\\bde )|(?<=\\bdel )|(?<=\\bun )|(?<=\\bal )|(?<=\\bcomer )|(?<=\\bcome )|(?<=\\bcomes )|(?<=\\bcomo )|(?<=\\bcomemos )|(?<=\\bcomen )|(?<=\\bcomí )|(?<=\\bcomió ))pescado|(?:(?<=\\bel )|(?<=\\bun )|(?<=\\bde )|(?<=\\bdel )|(?<=\\bal )|(?<=\\bsu )|(?<=\\bmi )|(?<=\\btu )|(?<=\\beste )|(?<=\\bese )|(?<=\\bmás )|(?<=\\bbuen )|(?<=\\bsin )|(?<=\\bcon )|(?<=\\bbeber )|(?<=\\bbebe )|(?<=\\bbebo )|(?<=\\bbebes )|(?<=\\bbebemos )|(?<=\\bbeben )|(?<=\\bbebió )|(?<=\\btomar )|(?<=\\btoma )|(?<=\\btomo )|(?<=\\bpoco )|(?<=\\bmucho )|(?<=\\botro )|(?<=\\btinto )|(?<=\\bblanco )|(?<=\\bel ))vino|(?:(?<=\\bun )|(?<=\\bel )|(?<=\\bde )|(?<=\\bdel )|(?<=\\blos )|(?<=\\bal ))helados?|(?:(?<=\\blos )|(?<=\\bde )|(?<=\\bunos )|(?<=\\bcomer )|(?<=\\bmuchos )|(?<=\\bcomes )|(?<=\\bcomo )|(?<=\\bcome ))dulces|(?:(?<=\\bla )|(?<=\\buna )|(?<=\\bde )|(?<=\\blas )|(?<=\\bunas )|(?<=\\btres )|(?<=\\bdos ))naranjas?|(?:(?<=\\blas )|(?<=\\bunas )|(?<=\\bde )|(?<=\\bcon )|(?<=\\bfritas ))papas|(?:(?<=\\bla )|(?<=\\buna )|(?<=\\bde )|(?<=\\bcon )|(?<=\\blas ))(?:pera|salsa|tortilla)|(?:(?<=\\bel )|(?<=\\bun )|(?<=\\bde )|(?<=\\bbeber )|(?<=\\bbebe )|(?<=\\bbebo )|(?<=\\bbeben )|(?<=\\bbebes )|(?<=\\bmás )|(?<=\\bpoca )|(?<=\\bmucha )|(?<=\\bsin ))agua|(?:(?<=\\bla )|(?<=\\buna )|(?<=\\bde )|(?<=\\blas )|(?<=\\btu )|(?<=\\bsu )|(?<=\\bmi )|(?<=\\besta )|(?<=\\bbuena )|(?<=\\brica )|(?<=\\bsin )|(?<=\\bmás )|(?<=\\bpoca )|(?<=\\bmucha ))(?:comida|bebida)|(?:(?<=\\bel )|(?<=\\bun )|(?<=\\bdel )|(?<=\\bal )|(?<=\\bsu )|(?<=\\bmi )|(?<=\\btu )|(?<=\\bel )|(?<=\\bpara ))(?:desayuno|almuerzo|merienda)|(?:(?<=\\bla )|(?<=\\buna )|(?<=\\bde )|(?<=\\bpara )|(?<=\\bsu )|(?<=\\bmi )|(?<=\\btu )|(?<=\\bnuestra )|(?<=\\besta )|(?<=\\bgran )|(?<=\\buna ))cena|(?:(?<=\\bel )|(?<=\\bun )|(?<=\\bde )|(?<=\\bdel ))pavo)(?![^\\W\\d_])",
+     "options": {
+      "pan": [
+       "vino",
+       "café",
+       "arroz"
+      ],
+      "vino": [
+       "café",
+       "arroz",
+       "pescado"
+      ],
+      "café": [
+       "arroz",
+       "pescado",
+       "pollo"
+      ],
+      "té": [
+       "arroz",
+       "pescado",
+       "pollo"
+      ],
+      "arroz": [
+       "pollo",
+       "queso",
+       "helado"
+      ],
+      "pescado": [
+       "queso",
+       "helado",
+       "pastel"
+      ],
+      "pollo": [
+       "helado",
+       "pastel",
+       "pan"
+      ],
+      "huevo": [
+       "helado",
+       "pastel",
+       "pan"
+      ],
+      "queso": [
+       "pan",
+       "vino",
+       "café"
+      ],
+      "azúcar": [
+       "pan",
+       "vino",
+       "café"
+      ],
+      "helado": [
+       "café",
+       "arroz",
+       "pescado"
+      ],
+      "pastel": [
+       "arroz",
+       "pescado",
+       "pollo"
+      ],
+      "chocolate": [
+       "arroz",
+       "pescado",
+       "pollo"
+      ],
+      "tomate": [
+       "pescado",
+       "pollo",
+       "queso"
+      ],
+      "jugo": [
+       "pollo",
+       "queso",
+       "helado"
+      ],
+      "zumo": [
+       "queso",
+       "helado",
+       "pastel"
+      ],
+      "agua": [
+       "helado",
+       "pastel",
+       "pan"
+      ],
+      "desayuno": [
+       "pastel",
+       "pan",
+       "vino"
+      ],
+      "almuerzo": [
+       "pan",
+       "vino",
+       "café"
+      ],
+      "jamón": [
+       "vino",
+       "café",
+       "arroz"
+      ],
+      "aceite": [
+       "café",
+       "arroz",
+       "pescado"
+      ],
+      "postre": [
+       "arroz",
+       "pescado",
+       "pollo"
+      ],
+      "ajo": [
+       "pescado",
+       "pollo",
+       "queso"
+      ],
+      "limón": [
+       "pollo",
+       "queso",
+       "helado"
+      ],
+      "plátano": [
+       "queso",
+       "helado",
+       "pastel"
+      ],
+      "maíz": [
+       "helado",
+       "pastel",
+       "pan"
+      ],
+      "refresco": [
+       "pastel",
+       "pan",
+       "vino"
+      ],
+      "bocadillo": [
+       "pan",
+       "vino",
+       "café"
+      ],
+      "sándwich": [
+       "vino",
+       "café",
+       "arroz"
+      ],
+      "filete": [
+       "café",
+       "arroz",
+       "pescado"
+      ],
+      "yogur": [
+       "arroz",
+       "pescado",
+       "pollo"
+      ],
+      "pimiento": [
+       "pescado",
+       "pollo",
+       "queso"
+      ],
+      "melón": [
+       "pollo",
+       "queso",
+       "helado"
+      ],
+      "caramelo": [
+       "queso",
+       "helado",
+       "pastel"
+      ],
+      "pavo": [
+       "helado",
+       "pastel",
+       "pan"
+      ],
+      "leche": [
+       "cerveza",
+       "carne",
+       "fruta"
+      ],
+      "cerveza": [
+       "carne",
+       "fruta",
+       "manzana"
+      ],
+      "carne": [
+       "fruta",
+       "manzana",
+       "sopa"
+      ],
+      "fruta": [
+       "manzana",
+       "sopa",
+       "ensalada"
+      ],
+      "manzana": [
+       "sopa",
+       "ensalada",
+       "mantequilla"
+      ],
+      "sopa": [
+       "ensalada",
+       "mantequilla",
+       "leche"
+      ],
+      "ensalada": [
+       "mantequilla",
+       "leche",
+       "cerveza"
+      ],
+      "mantequilla": [
+       "leche",
+       "cerveza",
+       "carne"
+      ],
+      "sal": [
+       "leche",
+       "cerveza",
+       "carne"
+      ],
+      "cena": [
+       "cerveza",
+       "carne",
+       "fruta"
+      ],
+      "pizza": [
+       "carne",
+       "fruta",
+       "manzana"
+      ],
+      "hamburguesa": [
+       "fruta",
+       "manzana",
+       "sopa"
+      ],
+      "naranja": [
+       "manzana",
+       "sopa",
+       "ensalada"
+      ],
+      "tarta": [
+       "sopa",
+       "ensalada",
+       "mantequilla"
+      ],
+      "pimienta": [
+       "ensalada",
+       "mantequilla",
+       "leche"
+      ],
+      "miel": [
+       "mantequilla",
+       "leche",
+       "cerveza"
+      ],
+      "verdura": [
+       "leche",
+       "cerveza",
+       "carne"
+      ],
+      "patata": [
+       "cerveza",
+       "carne",
+       "fruta"
+      ],
+      "zanahoria": [
+       "carne",
+       "fruta",
+       "manzana"
+      ],
+      "galleta": [
+       "fruta",
+       "manzana",
+       "sopa"
+      ],
+      "comida": [
+       "manzana",
+       "sopa",
+       "ensalada"
+      ],
+      "uva": [
+       "sopa",
+       "ensalada",
+       "mantequilla"
+      ],
+      "fresa": [
+       "ensalada",
+       "mantequilla",
+       "leche"
+      ],
+      "cebolla": [
+       "mantequilla",
+       "leche",
+       "cerveza"
+      ],
+      "pera": [
+       "leche",
+       "cerveza",
+       "carne"
+      ],
+      "sandía": [
+       "cerveza",
+       "carne",
+       "fruta"
+      ],
+      "harina": [
+       "carne",
+       "fruta",
+       "manzana"
+      ],
+      "mermelada": [
+       "fruta",
+       "manzana",
+       "sopa"
+      ],
+      "salsa": [
+       "manzana",
+       "sopa",
+       "ensalada"
+      ],
+      "lechuga": [
+       "sopa",
+       "ensalada",
+       "mantequilla"
+      ],
+      "piña": [
+       "ensalada",
+       "mantequilla",
+       "leche"
+      ],
+      "tortilla": [
+       "mantequilla",
+       "leche",
+       "cerveza"
+      ],
+      "bebida": [
+       "leche",
+       "cerveza",
+       "carne"
+      ],
+      "merienda": [
+       "cerveza",
+       "carne",
+       "fruta"
+      ],
+      "huevos": [
+       "tomates",
+       "pasteles",
+       "plátanos"
+      ],
+      "tomates": [
+       "pasteles",
+       "plátanos",
+       "dulces"
+      ],
+      "pasteles": [
+       "plátanos",
+       "dulces",
+       "huevos"
+      ],
+      "plátanos": [
+       "dulces",
+       "huevos",
+       "tomates"
+      ],
+      "dulces": [
+       "huevos",
+       "tomates",
+       "pasteles"
+      ],
+      "fideos": [
+       "huevos",
+       "tomates",
+       "pasteles"
+      ],
+      "espaguetis": [
+       "tomates",
+       "pasteles",
+       "plátanos"
+      ],
+      "frijoles": [
+       "pasteles",
+       "plátanos",
+       "dulces"
+      ],
+      "caramelos": [
+       "plátanos",
+       "dulces",
+       "huevos"
+      ],
+      "postres": [
+       "dulces",
+       "huevos",
+       "tomates"
+      ],
+      "refrescos": [
+       "huevos",
+       "tomates",
+       "pasteles"
+      ],
+      "limones": [
+       "tomates",
+       "pasteles",
+       "plátanos"
+      ],
+      "tacos": [
+       "pasteles",
+       "plátanos",
+       "dulces"
+      ],
+      "mariscos": [
+       "plátanos",
+       "dulces",
+       "huevos"
+      ],
+      "manzanas": [
+       "naranjas",
+       "frutas",
+       "verduras"
+      ],
+      "naranjas": [
+       "frutas",
+       "verduras",
+       "patatas"
+      ],
+      "frutas": [
+       "verduras",
+       "patatas",
+       "galletas"
+      ],
+      "verduras": [
+       "patatas",
+       "galletas",
+       "manzanas"
+      ],
+      "patatas": [
+       "galletas",
+       "manzanas",
+       "naranjas"
+      ],
+      "papas": [
+       "galletas",
+       "manzanas",
+       "naranjas"
+      ],
+      "galletas": [
+       "naranjas",
+       "frutas",
+       "verduras"
+      ],
+      "uvas": [
+       "naranjas",
+       "frutas",
+       "verduras"
+      ],
+      "fresas": [
+       "frutas",
+       "verduras",
+       "patatas"
+      ],
+      "zanahorias": [
+       "verduras",
+       "patatas",
+       "galletas"
+      ],
+      "cebollas": [
+       "patatas",
+       "galletas",
+       "manzanas"
+      ],
+      "peras": [
+       "galletas",
+       "manzanas",
+       "naranjas"
+      ],
+      "hamburguesas": [
+       "manzanas",
+       "naranjas",
+       "frutas"
+      ],
+      "bebidas": [
+       "naranjas",
+       "frutas",
+       "verduras"
+      ],
+      "legumbres": [
+       "frutas",
+       "verduras",
+       "patatas"
+      ]
+     },
+     "exclude": "\\b(?:sal|Sal)\\s+de\\s+(?:aquí|ahí|allí)\\b|\\bpez\\b|\\bcafé\\s+(?:Internet)\\b|\\bpan comido\\b|\\bcara de pocos amigos\\b|\\btorta\\b|\\bmedia naranja\\b"
+    },
+    {
+     "id": "perguntas",
+     "name": "Palavras interrogativas",
+     "desc": "Palavras de pergunta levam acento: qué, quién, dónde, cuándo, cómo, cuál, cuánto. Ex.: \"¿Dónde vives?\". Por quê = \"por qué\".",
+     "pattern": "(?<![^\\W\\d_])(?P<w>cuántas|cuántos|quiénes|cuánto|adónde|cuáles|cuándo|cuánta|quién|dónde|cuál|cómo|qué)(?![^\\W\\d_])",
+     "options": {
+      "qué": [
+       "cuál",
+       "cómo",
+       "quién"
+      ],
+      "quién": [
+       "qué",
+       "cuál",
+       "quiénes"
+      ],
+      "quiénes": [
+       "quién",
+       "cuáles",
+       "qué"
+      ],
+      "dónde": [
+       "cuándo",
+       "adónde",
+       "cómo"
+      ],
+      "adónde": [
+       "dónde",
+       "cuándo",
+       "cómo"
+      ],
+      "cuándo": [
+       "dónde",
+       "cómo",
+       "cuánto"
+      ],
+      "cómo": [
+       "qué",
+       "cuál",
+       "dónde"
+      ],
+      "cuál": [
+       "qué",
+       "cuáles",
+       "quién"
+      ],
+      "cuáles": [
+       "cuál",
+       "qué",
+       "quiénes"
+      ],
+      "cuánto": [
+       "cuántos",
+       "cuánta",
+       "cómo"
+      ],
+      "cuánta": [
+       "cuántas",
+       "cuánto",
+       "qué"
+      ],
+      "cuántos": [
+       "cuántas",
+       "cuánto",
+       "qué"
+      ],
+      "cuántas": [
+       "cuántos",
+       "cuánta",
+       "qué"
+      ]
+     },
+     "exclude": "¡[^!¿?]*\\b(?:qué|cómo|cuánto|cuánta|cuántos|cuántas)\\b"
+    },
+    {
+     "id": "lugares",
+     "name": "Lugares da cidade",
+     "desc": "Lugares e estabelecimentos. Ex.: \"el banco\", \"la estación\", \"la biblioteca\" (não é livraria: livraria = \"librería\").",
+     "pattern": "(?<![^\\W\\d_])(?P<w>restaurantes|supermercado|bibliotecas|universidad|restaurante|aeropuerto|biblioteca|peluquería|hospitales|panadería|carretera|zoológico|edificios|comisaría|edificio|hospital|farmacia|librería|iglesias|oficinas|ciudades|mercados|gimnasio|catedral|castillo|embajada|estación|escuelas|barrios|tiendas|mercado|granjas|estadio|piscina|pueblos|oficina|iglesia|escuela|hoteles|fábrica|parques|colegio|granja|cárcel|jardín|museos|puente|puerto|teatro|barrio|calles|playas|tienda|plazas|parque|pueblo|museo|hotel|plaza|cines|playa|cine|(?:(?<=\\bel )|(?<=\\bal )|(?<=\\bdel )|(?<=\\bun )|(?<=\\botro ))(?:banco|bar))(?![^\\W\\d_])",
+     "options": {
+      "hospital": [
+       "banco",
+       "restaurante",
+       "parque"
+      ],
+      "banco": [
+       "restaurante",
+       "parque",
+       "mercado"
+      ],
+      "restaurante": [
+       "parque",
+       "mercado",
+       "aeropuerto"
+      ],
+      "parque": [
+       "mercado",
+       "aeropuerto",
+       "hotel"
+      ],
+      "mercado": [
+       "aeropuerto",
+       "hotel",
+       "museo"
+      ],
+      "supermercado": [
+       "aeropuerto",
+       "hotel",
+       "museo"
+      ],
+      "aeropuerto": [
+       "museo",
+       "cine",
+       "hospital"
+      ],
+      "hotel": [
+       "cine",
+       "hospital",
+       "banco"
+      ],
+      "museo": [
+       "hospital",
+       "banco",
+       "restaurante"
+      ],
+      "cine": [
+       "banco",
+       "restaurante",
+       "parque"
+      ],
+      "teatro": [
+       "banco",
+       "restaurante",
+       "parque"
+      ],
+      "colegio": [
+       "restaurante",
+       "parque",
+       "mercado"
+      ],
+      "zoológico": [
+       "parque",
+       "mercado",
+       "aeropuerto"
+      ],
+      "puerto": [
+       "mercado",
+       "aeropuerto",
+       "hotel"
+      ],
+      "estadio": [
+       "aeropuerto",
+       "hotel",
+       "museo"
+      ],
+      "barrio": [
+       "hotel",
+       "museo",
+       "cine"
+      ],
+      "pueblo": [
+       "museo",
+       "cine",
+       "hospital"
+      ],
+      "edificio": [
+       "cine",
+       "hospital",
+       "banco"
+      ],
+      "jardín": [
+       "banco",
+       "restaurante",
+       "parque"
+      ],
+      "bar": [
+       "parque",
+       "mercado",
+       "aeropuerto"
+      ],
+      "puente": [
+       "mercado",
+       "aeropuerto",
+       "hotel"
+      ],
+      "castillo": [
+       "aeropuerto",
+       "hotel",
+       "museo"
+      ],
+      "gimnasio": [
+       "hotel",
+       "museo",
+       "cine"
+      ],
+      "escuela": [
+       "tienda",
+       "iglesia",
+       "biblioteca"
+      ],
+      "tienda": [
+       "iglesia",
+       "biblioteca",
+       "estación"
+      ],
+      "iglesia": [
+       "biblioteca",
+       "estación",
+       "oficina"
+      ],
+      "biblioteca": [
+       "estación",
+       "oficina",
+       "playa"
+      ],
+      "estación": [
+       "oficina",
+       "playa",
+       "farmacia"
+      ],
+      "oficina": [
+       "playa",
+       "farmacia",
+       "escuela"
+      ],
+      "playa": [
+       "farmacia",
+       "escuela",
+       "tienda"
+      ],
+      "plaza": [
+       "escuela",
+       "tienda",
+       "iglesia"
+      ],
+      "farmacia": [
+       "iglesia",
+       "biblioteca",
+       "estación"
+      ],
+      "universidad": [
+       "iglesia",
+       "biblioteca",
+       "estación"
+      ],
+      "panadería": [
+       "biblioteca",
+       "estación",
+       "oficina"
+      ],
+      "librería": [
+       "oficina",
+       "playa",
+       "farmacia"
+      ],
+      "comisaría": [
+       "playa",
+       "farmacia",
+       "escuela"
+      ],
+      "cárcel": [
+       "farmacia",
+       "escuela",
+       "tienda"
+      ],
+      "fábrica": [
+       "escuela",
+       "tienda",
+       "iglesia"
+      ],
+      "granja": [
+       "tienda",
+       "iglesia",
+       "biblioteca"
+      ],
+      "carretera": [
+       "iglesia",
+       "biblioteca",
+       "estación"
+      ],
+      "piscina": [
+       "biblioteca",
+       "estación",
+       "oficina"
+      ],
+      "peluquería": [
+       "estación",
+       "oficina",
+       "playa"
+      ],
+      "embajada": [
+       "playa",
+       "farmacia",
+       "escuela"
+      ],
+      "catedral": [
+       "farmacia",
+       "escuela",
+       "tienda"
+      ],
+      "hospitales": [
+       "bancos",
+       "restaurantes",
+       "parques"
+      ],
+      "bancos": [
+       "restaurantes",
+       "parques",
+       "hoteles"
+      ],
+      "restaurantes": [
+       "parques",
+       "hoteles",
+       "museos"
+      ],
+      "parques": [
+       "hoteles",
+       "museos",
+       "hospitales"
+      ],
+      "mercados": [
+       "hoteles",
+       "museos",
+       "hospitales"
+      ],
+      "hoteles": [
+       "hospitales",
+       "bancos",
+       "restaurantes"
+      ],
+      "museos": [
+       "bancos",
+       "restaurantes",
+       "parques"
+      ],
+      "cines": [
+       "bancos",
+       "restaurantes",
+       "parques"
+      ],
+      "pueblos": [
+       "restaurantes",
+       "parques",
+       "hoteles"
+      ],
+      "edificios": [
+       "parques",
+       "hoteles",
+       "museos"
+      ],
+      "barrios": [
+       "hoteles",
+       "museos",
+       "hospitales"
+      ],
+      "escuelas": [
+       "tiendas",
+       "iglesias",
+       "bibliotecas"
+      ],
+      "tiendas": [
+       "iglesias",
+       "bibliotecas",
+       "playas"
+      ],
+      "iglesias": [
+       "bibliotecas",
+       "playas",
+       "calles"
+      ],
+      "bibliotecas": [
+       "playas",
+       "calles",
+       "escuelas"
+      ],
+      "oficinas": [
+       "playas",
+       "calles",
+       "escuelas"
+      ],
+      "playas": [
+       "escuelas",
+       "tiendas",
+       "iglesias"
+      ],
+      "calles": [
+       "tiendas",
+       "iglesias",
+       "bibliotecas"
+      ],
+      "plazas": [
+       "tiendas",
+       "iglesias",
+       "bibliotecas"
+      ],
+      "ciudades": [
+       "iglesias",
+       "bibliotecas",
+       "playas"
+      ],
+      "granjas": [
+       "bibliotecas",
+       "playas",
+       "calles"
+      ]
+     },
+     "exclude": "\\bbanco\\s+(?:de\\s+(?:la\\s+)?(?:plaza|parque|madera|piedra)|del\\s+parque)\\b|\\bsentad[oa]s?\\s+en\\s+(?:el|un)\\s+banco\\b|\\bPuerto\\s+Rico\\b|\\bplaya\\s+de\\s+estacionamiento\\b|\\bGranja\\b"
+    },
+    {
+     "id": "profissoes",
+     "name": "Profissões",
+     "desc": "Profissões no masculino e feminino. Ex.: \"Mi madre es médica\", \"Él es camarero\". Sem artigo após ser: \"Soy profesor\".",
+     "pattern": "(?<![^\\W\\d_])(?P<w>programadoras|programadores|agricultores|programadora|agricultoras|carpinteros|científicas|secretarios|carpinteras|periodistas|arquitectos|arquitectas|científicos|agricultora|conductoras|programador|traductoras|conductores|traductores|periodista|vendedores|enfermeras|secretario|profesoras|peluqueros|vendedoras|enfermeros|agricultor|ingenieros|escritores|escritoras|conductora|carpintera|carpintero|científica|arquitecta|arquitecto|ingenieras|científico|profesores|peluqueras|traductora|peluquera|profesora|escritora|peluquero|cocineras|enfermero|ingeniero|cocineros|traductor|granjeras|camareros|ingeniera|enfermera|cantantes|granjeros|camareras|vendedora|dentistas|conductor|profesor|carteros|actrices|granjera|camarero|pintoras|dentista|escritor|vendedor|pintores|abogados|cantante|bomberas|cocinera|maestros|bomberos|granjero|abogadas|camarera|cocinero|maestras|meseros|abogada|abogado|pintora|actores|cartero|maestro|médicas|maestra|meseras|bombera|médicos|bombero|músicos|actriz|médica|médico|pintor|mesero|músico|mesera|actor)(?![^\\W\\d_])",
+     "options": {
+      "médico": [
+       "profesor",
+       "abogado",
+       "enfermero"
+      ],
+      "profesor": [
+       "abogado",
+       "enfermero",
+       "cocinero"
+      ],
+      "maestro": [
+       "abogado",
+       "enfermero",
+       "cocinero"
+      ],
+      "abogado": [
+       "cocinero",
+       "ingeniero",
+       "escritor"
+      ],
+      "enfermero": [
+       "ingeniero",
+       "escritor",
+       "pintor"
+      ],
+      "cocinero": [
+       "escritor",
+       "pintor",
+       "médico"
+      ],
+      "camarero": [
+       "escritor",
+       "pintor",
+       "médico"
+      ],
+      "ingeniero": [
+       "médico",
+       "profesor",
+       "abogado"
+      ],
+      "escritor": [
+       "profesor",
+       "abogado",
+       "enfermero"
+      ],
+      "cantante": [
+       "profesor",
+       "abogado",
+       "enfermero"
+      ],
+      "actor": [
+       "abogado",
+       "enfermero",
+       "cocinero"
+      ],
+      "periodista": [
+       "enfermero",
+       "cocinero",
+       "ingeniero"
+      ],
+      "pintor": [
+       "ingeniero",
+       "escritor",
+       "médico"
+      ],
+      "granjero": [
+       "escritor",
+       "pintor",
+       "médico"
+      ],
+      "dentista": [
+       "pintor",
+       "médico",
+       "profesor"
+      ],
+      "bombero": [
+       "médico",
+       "profesor",
+       "abogado"
+      ],
+      "carpintero": [
+       "abogado",
+       "enfermero",
+       "cocinero"
+      ],
+      "científico": [
+       "enfermero",
+       "cocinero",
+       "ingeniero"
+      ],
+      "mesero": [
+       "cocinero",
+       "ingeniero",
+       "escritor"
+      ],
+      "vendedor": [
+       "ingeniero",
+       "escritor",
+       "pintor"
+      ],
+      "secretario": [
+       "escritor",
+       "pintor",
+       "médico"
+      ],
+      "arquitecto": [
+       "médico",
+       "profesor",
+       "abogado"
+      ],
+      "músico": [
+       "abogado",
+       "enfermero",
+       "cocinero"
+      ],
+      "peluquero": [
+       "enfermero",
+       "cocinero",
+       "ingeniero"
+      ],
+      "cartero": [
+       "cocinero",
+       "ingeniero",
+       "escritor"
+      ],
+      "conductor": [
+       "ingeniero",
+       "escritor",
+       "pintor"
+      ],
+      "agricultor": [
+       "médico",
+       "profesor",
+       "abogado"
+      ],
+      "traductor": [
+       "profesor",
+       "abogado",
+       "enfermero"
+      ],
+      "programador": [
+       "abogado",
+       "enfermero",
+       "cocinero"
+      ],
+      "médica": [
+       "profesora",
+       "abogada",
+       "enfermera"
+      ],
+      "profesora": [
+       "abogada",
+       "enfermera",
+       "cocinera"
+      ],
+      "maestra": [
+       "abogada",
+       "enfermera",
+       "cocinera"
+      ],
+      "abogada": [
+       "cocinera",
+       "ingeniera",
+       "escritora"
+      ],
+      "enfermera": [
+       "ingeniera",
+       "escritora",
+       "pintora"
+      ],
+      "cocinera": [
+       "escritora",
+       "pintora",
+       "médica"
+      ],
+      "camarera": [
+       "escritora",
+       "pintora",
+       "médica"
+      ],
+      "ingeniera": [
+       "médica",
+       "profesora",
+       "abogada"
+      ],
+      "escritora": [
+       "profesora",
+       "abogada",
+       "enfermera"
+      ],
+      "actriz": [
+       "abogada",
+       "enfermera",
+       "cocinera"
+      ],
+      "pintora": [
+       "ingeniera",
+       "escritora",
+       "médica"
+      ],
+      "granjera": [
+       "escritora",
+       "pintora",
+       "médica"
+      ],
+      "bombera": [
+       "médica",
+       "profesora",
+       "abogada"
+      ],
+      "carpintera": [
+       "abogada",
+       "enfermera",
+       "cocinera"
+      ],
+      "científica": [
+       "enfermera",
+       "cocinera",
+       "ingeniera"
+      ],
+      "mesera": [
+       "cocinera",
+       "ingeniera",
+       "escritora"
+      ],
+      "vendedora": [
+       "ingeniera",
+       "escritora",
+       "pintora"
+      ],
+      "arquitecta": [
+       "médica",
+       "profesora",
+       "abogada"
+      ],
+      "peluquera": [
+       "enfermera",
+       "cocinera",
+       "ingeniera"
+      ],
+      "conductora": [
+       "ingeniera",
+       "escritora",
+       "pintora"
+      ],
+      "agricultora": [
+       "médica",
+       "profesora",
+       "abogada"
+      ],
+      "traductora": [
+       "profesora",
+       "abogada",
+       "enfermera"
+      ],
+      "programadora": [
+       "abogada",
+       "enfermera",
+       "cocinera"
+      ],
+      "médicos": [
+       "profesores",
+       "abogados",
+       "enfermeros"
+      ],
+      "profesores": [
+       "abogados",
+       "enfermeros",
+       "cocineros"
+      ],
+      "maestros": [
+       "abogados",
+       "enfermeros",
+       "cocineros"
+      ],
+      "abogados": [
+       "cocineros",
+       "ingenieros",
+       "escritores"
+      ],
+      "enfermeros": [
+       "ingenieros",
+       "escritores",
+       "pintores"
+      ],
+      "cocineros": [
+       "escritores",
+       "pintores",
+       "médicos"
+      ],
+      "camareros": [
+       "escritores",
+       "pintores",
+       "médicos"
+      ],
+      "ingenieros": [
+       "médicos",
+       "profesores",
+       "abogados"
+      ],
+      "escritores": [
+       "profesores",
+       "abogados",
+       "enfermeros"
+      ],
+      "cantantes": [
+       "profesores",
+       "abogados",
+       "enfermeros"
+      ],
+      "actores": [
+       "abogados",
+       "enfermeros",
+       "cocineros"
+      ],
+      "periodistas": [
+       "enfermeros",
+       "cocineros",
+       "ingenieros"
+      ],
+      "pintores": [
+       "ingenieros",
+       "escritores",
+       "médicos"
+      ],
+      "granjeros": [
+       "escritores",
+       "pintores",
+       "médicos"
+      ],
+      "dentistas": [
+       "pintores",
+       "médicos",
+       "profesores"
+      ],
+      "bomberos": [
+       "médicos",
+       "profesores",
+       "abogados"
+      ],
+      "carpinteros": [
+       "abogados",
+       "enfermeros",
+       "cocineros"
+      ],
+      "científicos": [
+       "enfermeros",
+       "cocineros",
+       "ingenieros"
+      ],
+      "meseros": [
+       "cocineros",
+       "ingenieros",
+       "escritores"
+      ],
+      "vendedores": [
+       "ingenieros",
+       "escritores",
+       "pintores"
+      ],
+      "secretarios": [
+       "escritores",
+       "pintores",
+       "médicos"
+      ],
+      "arquitectos": [
+       "médicos",
+       "profesores",
+       "abogados"
+      ],
+      "músicos": [
+       "abogados",
+       "enfermeros",
+       "cocineros"
+      ],
+      "peluqueros": [
+       "enfermeros",
+       "cocineros",
+       "ingenieros"
+      ],
+      "carteros": [
+       "cocineros",
+       "ingenieros",
+       "escritores"
+      ],
+      "conductores": [
+       "ingenieros",
+       "escritores",
+       "pintores"
+      ],
+      "agricultores": [
+       "médicos",
+       "profesores",
+       "abogados"
+      ],
+      "traductores": [
+       "profesores",
+       "abogados",
+       "enfermeros"
+      ],
+      "programadores": [
+       "abogados",
+       "enfermeros",
+       "cocineros"
+      ],
+      "médicas": [
+       "profesoras",
+       "abogadas",
+       "enfermeras"
+      ],
+      "profesoras": [
+       "abogadas",
+       "enfermeras",
+       "cocineras"
+      ],
+      "maestras": [
+       "abogadas",
+       "enfermeras",
+       "cocineras"
+      ],
+      "abogadas": [
+       "cocineras",
+       "ingenieras",
+       "escritoras"
+      ],
+      "enfermeras": [
+       "ingenieras",
+       "escritoras",
+       "pintoras"
+      ],
+      "cocineras": [
+       "escritoras",
+       "pintoras",
+       "médicas"
+      ],
+      "camareras": [
+       "escritoras",
+       "pintoras",
+       "médicas"
+      ],
+      "ingenieras": [
+       "médicas",
+       "profesoras",
+       "abogadas"
+      ],
+      "escritoras": [
+       "profesoras",
+       "abogadas",
+       "enfermeras"
+      ],
+      "actrices": [
+       "abogadas",
+       "enfermeras",
+       "cocineras"
+      ],
+      "pintoras": [
+       "ingenieras",
+       "escritoras",
+       "médicas"
+      ],
+      "granjeras": [
+       "escritoras",
+       "pintoras",
+       "médicas"
+      ],
+      "bomberas": [
+       "médicas",
+       "profesoras",
+       "abogadas"
+      ],
+      "carpinteras": [
+       "abogadas",
+       "enfermeras",
+       "cocineras"
+      ],
+      "científicas": [
+       "enfermeras",
+       "cocineras",
+       "ingenieras"
+      ],
+      "meseras": [
+       "cocineras",
+       "ingenieras",
+       "escritoras"
+      ],
+      "vendedoras": [
+       "ingenieras",
+       "escritoras",
+       "pintoras"
+      ],
+      "arquitectas": [
+       "médicas",
+       "profesoras",
+       "abogadas"
+      ],
+      "peluqueras": [
+       "enfermeras",
+       "cocineras",
+       "ingenieras"
+      ],
+      "conductoras": [
+       "ingenieras",
+       "escritoras",
+       "pintoras"
+      ],
+      "agricultoras": [
+       "médicas",
+       "profesoras",
+       "abogadas"
+      ],
+      "traductoras": [
+       "profesoras",
+       "abogadas",
+       "enfermeras"
+      ],
+      "programadoras": [
+       "abogadas",
+       "enfermeras",
+       "cocineras"
+      ]
+     },
+     "exclude": "\\bmaestr[oa]s?\\s+(?:de\\s+(?:obras|ceremonias)|del?\\s+ajedrez)\\b|\\bobra maestra\\b|\\bobras maestras\\b|\\bllave maestra\\b|\\bconductor(?:es)?\\s+(?:eléctric|de\\s+(?:electricidad|calor))\\b"
+    },
+    {
+     "id": "opostos",
+     "name": "Adjetivos opostos",
+     "desc": "Pares de opostos: grande/pequeño, caro/barato, largo/corto. Cuidado: \"largo\" = comprido; \"ancho\" = largo.",
+     "pattern": "(?<![^\\W\\d_])(?P<w>estrechos|estrechas|difíciles|calientes|estrecho|pequeños|estrecha|delgadas|abiertas|caliente|delgados|cerrados|abiertos|cerradas|pequeñas|limpios|pequeña|bonitos|grandes|débiles|tristes|abierta|rápidas|cerrada|bonitas|rápidos|baratas|difícil|jóvenes|limpias|cerrado|delgada|felices|abierto|fáciles|delgado|fuertes|pequeño|baratos|cortas|cortos|pobres|triste|nuevas|nuevos|rápido|buenas|limpia|fuerte|viejas|largas|largos|limpio|bonita|guapos|lentas|gordos|gordas|rápida|buenos|llenos|barata|anchos|barato|vacíos|anchas|lentos|sucios|llenas|sucias|bonito|vacías|viejos|guapas|ancho|sucia|corta|caras|lento|vacío|largo|malos|joven|lejos|ricas|lenta|malas|viejo|buena|fríos|sucio|llena|nueva|ricos|vacía|gordo|guapa|larga|corto|bueno|caros|vieja|feliz|gorda|fácil|lleno|nuevo|altos|frías|ancha|débil|pobre|altas|guapo|feas|rica|frío|fría|feos|mala|rico|caro|cara|alta|malo|feo|fea|(?:(?<=\\bmuy )|(?<=\\bmás )|(?<=\\btan )|(?<=\\bes )|(?<=\\bera )|(?<=\\bson )|(?<=\\beran )|(?<=\\bestá )|(?<=\\bbastante )|(?<=\\bdemasiado ))(?:bajo|baja|bajos|bajas|alto)|(?<!de )cerca(?! de)|grande(?! que)|(?:(?<=\\bmuy )|(?<=\\bmás )|(?<=\\btan )|(?<=\\bes )|(?<=\\bera )|(?<=\\bson )|(?<=\\beran )|(?<=\\bestá )|(?<=\\bbastante )|(?<=\\bdemasiado ))grande)(?![^\\W\\d_])",
+     "options": {
+      "grande": [
+       "pequeño",
+       "pequeña",
+       "bueno"
+      ],
+      "pequeño": [
+       "grande",
+       "alto",
+       "nuevo"
+      ],
+      "pequeña": [
+       "grande",
+       "alta",
+       "nueva"
+      ],
+      "grandes": [
+       "pequeños",
+       "pequeñas",
+       "rápidos"
+      ],
+      "pequeños": [
+       "grandes",
+       "caros",
+       "fáciles"
+      ],
+      "pequeñas": [
+       "grandes",
+       "caras",
+       "fáciles"
+      ],
+      "alto": [
+       "bajo",
+       "rápido",
+       "largo"
+      ],
+      "bajo": [
+       "alto",
+       "largo",
+       "grande"
+      ],
+      "alta": [
+       "baja",
+       "rápida",
+       "larga"
+      ],
+      "baja": [
+       "alta",
+       "larga",
+       "grande"
+      ],
+      "altos": [
+       "bajos",
+       "nuevos",
+       "buenos"
+      ],
+      "bajos": [
+       "altos",
+       "buenos",
+       "caros"
+      ],
+      "altas": [
+       "bajas",
+       "nuevas",
+       "buenas"
+      ],
+      "bajas": [
+       "altas",
+       "buenas",
+       "caras"
+      ],
+      "nuevo": [
+       "viejo",
+       "fácil",
+       "rápido"
+      ],
+      "viejo": [
+       "nuevo",
+       "joven",
+       "bueno"
+      ],
+      "nueva": [
+       "vieja",
+       "fácil",
+       "rápida"
+      ],
+      "vieja": [
+       "nueva",
+       "joven",
+       "buena"
+      ],
+      "nuevos": [
+       "viejos",
+       "grandes",
+       "altos"
+      ],
+      "viejos": [
+       "nuevos",
+       "jóvenes",
+       "rápidos"
+      ],
+      "nuevas": [
+       "viejas",
+       "grandes",
+       "altas"
+      ],
+      "viejas": [
+       "nuevas",
+       "jóvenes",
+       "rápidas"
+      ],
+      "bueno": [
+       "malo",
+       "rápido",
+       "largo"
+      ],
+      "malo": [
+       "bueno",
+       "rápido",
+       "largo"
+      ],
+      "buena": [
+       "mala",
+       "rápida",
+       "larga"
+      ],
+      "mala": [
+       "buena",
+       "rápida",
+       "larga"
+      ],
+      "buenos": [
+       "malos",
+       "altos",
+       "nuevos"
+      ],
+      "malos": [
+       "buenos",
+       "altos",
+       "nuevos"
+      ],
+      "buenas": [
+       "malas",
+       "altas",
+       "nuevas"
+      ],
+      "malas": [
+       "buenas",
+       "altas",
+       "nuevas"
+      ],
+      "caro": [
+       "barato",
+       "alto",
+       "nuevo"
+      ],
+      "barato": [
+       "caro",
+       "bueno",
+       "fácil"
+      ],
+      "cara": [
+       "barata",
+       "alta",
+       "nueva"
+      ],
+      "barata": [
+       "cara",
+       "buena",
+       "fácil"
+      ],
+      "caros": [
+       "baratos",
+       "fáciles",
+       "rápidos"
+      ],
+      "baratos": [
+       "caros",
+       "largos",
+       "grandes"
+      ],
+      "caras": [
+       "baratas",
+       "fáciles",
+       "rápidas"
+      ],
+      "baratas": [
+       "caras",
+       "largas",
+       "grandes"
+      ],
+      "fácil": [
+       "difícil",
+       "nuevo",
+       "bueno"
+      ],
+      "difícil": [
+       "fácil",
+       "nuevo",
+       "bueno"
+      ],
+      "fáciles": [
+       "difíciles",
+       "altos",
+       "nuevos"
+      ],
+      "difíciles": [
+       "fáciles",
+       "altos",
+       "nuevos"
+      ],
+      "rápido": [
+       "lento",
+       "caro",
+       "fácil"
+      ],
+      "lento": [
+       "rápido",
+       "grande",
+       "alto"
+      ],
+      "rápida": [
+       "lenta",
+       "cara",
+       "fácil"
+      ],
+      "lenta": [
+       "rápida",
+       "grande",
+       "alta"
+      ],
+      "rápidos": [
+       "lentos",
+       "grandes",
+       "altos"
+      ],
+      "lentos": [
+       "rápidos",
+       "buenos",
+       "caros"
+      ],
+      "rápidas": [
+       "lentas",
+       "grandes",
+       "altas"
+      ],
+      "lentas": [
+       "rápidas",
+       "buenas",
+       "caras"
+      ],
+      "caliente": [
+       "frío",
+       "fría",
+       "fácil"
+      ],
+      "frío": [
+       "caliente",
+       "caro",
+       "fácil"
+      ],
+      "fría": [
+       "caliente",
+       "rápida",
+       "larga"
+      ],
+      "calientes": [
+       "fríos",
+       "frías",
+       "grandes"
+      ],
+      "fríos": [
+       "calientes",
+       "largos",
+       "grandes"
+      ],
+      "frías": [
+       "calientes",
+       "altas",
+       "nuevas"
+      ],
+      "feliz": [
+       "triste",
+       "nuevo",
+       "bueno"
+      ],
+      "triste": [
+       "feliz",
+       "bueno",
+       "caro"
+      ],
+      "felices": [
+       "tristes",
+       "buenos",
+       "caros"
+      ],
+      "tristes": [
+       "felices",
+       "rápidos",
+       "largos"
+      ],
+      "rico": [
+       "pobre",
+       "fácil",
+       "rápido"
+      ],
+      "pobre": [
+       "rico",
+       "rica",
+       "grande"
+      ],
+      "rica": [
+       "pobre",
+       "larga",
+       "grande"
+      ],
+      "ricos": [
+       "pobres",
+       "grandes",
+       "altos"
+      ],
+      "pobres": [
+       "ricos",
+       "ricas",
+       "buenos"
+      ],
+      "ricas": [
+       "pobres",
+       "nuevas",
+       "buenas"
+      ],
+      "joven": [
+       "viejo",
+       "vieja",
+       "nuevo"
+      ],
+      "jóvenes": [
+       "viejos",
+       "viejas",
+       "rápidos"
+      ],
+      "largo": [
+       "corto",
+       "alto",
+       "nuevo"
+      ],
+      "corto": [
+       "largo",
+       "fácil",
+       "rápido"
+      ],
+      "larga": [
+       "corta",
+       "alta",
+       "nueva"
+      ],
+      "corta": [
+       "larga",
+       "fácil",
+       "rápida"
+      ],
+      "largos": [
+       "cortos",
+       "caros",
+       "fáciles"
+      ],
+      "cortos": [
+       "largos",
+       "altos",
+       "nuevos"
+      ],
+      "largas": [
+       "cortas",
+       "caras",
+       "fáciles"
+      ],
+      "cortas": [
+       "largas",
+       "altas",
+       "nuevas"
+      ],
+      "gordo": [
+       "delgado",
+       "bueno",
+       "caro"
+      ],
+      "delgado": [
+       "gordo",
+       "grande",
+       "alto"
+      ],
+      "gorda": [
+       "delgada",
+       "fácil",
+       "rápida"
+      ],
+      "delgada": [
+       "gorda",
+       "nueva",
+       "buena"
+      ],
+      "gordos": [
+       "delgados",
+       "rápidos",
+       "largos"
+      ],
+      "delgados": [
+       "gordos",
+       "buenos",
+       "caros"
+      ],
+      "gordas": [
+       "delgadas",
+       "grandes",
+       "altas"
+      ],
+      "delgadas": [
+       "gordas",
+       "fáciles",
+       "rápidas"
+      ],
+      "limpio": [
+       "sucio",
+       "nuevo",
+       "bueno"
+      ],
+      "sucio": [
+       "limpio",
+       "bueno",
+       "caro"
+      ],
+      "limpia": [
+       "sucia",
+       "cara",
+       "fácil"
+      ],
+      "sucia": [
+       "limpia",
+       "fácil",
+       "rápida"
+      ],
+      "limpios": [
+       "sucios",
+       "fáciles",
+       "rápidos"
+      ],
+      "sucios": [
+       "limpios",
+       "rápidos",
+       "largos"
+      ],
+      "limpias": [
+       "sucias",
+       "largas",
+       "grandes"
+      ],
+      "sucias": [
+       "limpias",
+       "grandes",
+       "altas"
+      ],
+      "abierto": [
+       "cerrado",
+       "rápido",
+       "largo"
+      ],
+      "cerrado": [
+       "abierto",
+       "grande",
+       "alto"
+      ],
+      "abierta": [
+       "cerrada",
+       "grande",
+       "alta"
+      ],
+      "cerrada": [
+       "abierta",
+       "nueva",
+       "buena"
+      ],
+      "abiertos": [
+       "cerrados",
+       "altos",
+       "nuevos"
+      ],
+      "cerrados": [
+       "abiertos",
+       "buenos",
+       "caros"
+      ],
+      "abiertas": [
+       "cerradas",
+       "buenas",
+       "caras"
+      ],
+      "cerradas": [
+       "abiertas",
+       "fáciles",
+       "rápidas"
+      ],
+      "lleno": [
+       "vacío",
+       "nuevo",
+       "bueno"
+      ],
+      "vacío": [
+       "lleno",
+       "rápido",
+       "largo"
+      ],
+      "llena": [
+       "vacía",
+       "cara",
+       "fácil"
+      ],
+      "vacía": [
+       "llena",
+       "grande",
+       "alta"
+      ],
+      "llenos": [
+       "vacíos",
+       "fáciles",
+       "rápidos"
+      ],
+      "vacíos": [
+       "llenos",
+       "altos",
+       "nuevos"
+      ],
+      "llenas": [
+       "vacías",
+       "largas",
+       "grandes"
+      ],
+      "vacías": [
+       "llenas",
+       "buenas",
+       "caras"
+      ],
+      "fuerte": [
+       "débil",
+       "bueno",
+       "caro"
+      ],
+      "débil": [
+       "fuerte",
+       "caro",
+       "fácil"
+      ],
+      "fuertes": [
+       "débiles",
+       "rápidos",
+       "largos"
+      ],
+      "débiles": [
+       "fuertes",
+       "caros",
+       "fáciles"
+      ],
+      "ancho": [
+       "estrecho",
+       "alto",
+       "nuevo"
+      ],
+      "estrecho": [
+       "ancho",
+       "fácil",
+       "rápido"
+      ],
+      "ancha": [
+       "estrecha",
+       "buena",
+       "cara"
+      ],
+      "estrecha": [
+       "ancha",
+       "larga",
+       "grande"
+      ],
+      "anchos": [
+       "estrechos",
+       "caros",
+       "fáciles"
+      ],
+      "estrechos": [
+       "anchos",
+       "grandes",
+       "altos"
+      ],
+      "anchas": [
+       "estrechas",
+       "rápidas",
+       "largas"
+      ],
+      "estrechas": [
+       "anchas",
+       "nuevas",
+       "buenas"
+      ],
+      "guapo": [
+       "feo",
+       "caro",
+       "fácil"
+      ],
+      "feo": [
+       "guapo",
+       "bonito",
+       "nuevo"
+      ],
+      "guapa": [
+       "fea",
+       "rápida",
+       "larga"
+      ],
+      "fea": [
+       "guapa",
+       "bonita",
+       "cara"
+      ],
+      "guapos": [
+       "feos",
+       "largos",
+       "grandes"
+      ],
+      "feos": [
+       "guapos",
+       "bonitos",
+       "fáciles"
+      ],
+      "guapas": [
+       "feas",
+       "altas",
+       "nuevas"
+      ],
+      "feas": [
+       "guapas",
+       "bonitas",
+       "largas"
+      ],
+      "bonito": [
+       "feo",
+       "bueno",
+       "caro"
+      ],
+      "bonita": [
+       "fea",
+       "fácil",
+       "rápida"
+      ],
+      "bonitos": [
+       "feos",
+       "rápidos",
+       "largos"
+      ],
+      "bonitas": [
+       "feas",
+       "grandes",
+       "altas"
+      ],
+      "lejos": [
+       "cerca",
+       "tarde"
+      ],
+      "cerca": [
+       "lejos",
+       "pronto"
+      ]
+     },
+     "exclude": "\\bde nuevo\\b|^\\W*bueno\\b\\s*[,.!]|,\\s*bueno\\s*,|\\bpor lo bajo\\b|\\ben voz (?:alta|baja)\\b|\\bmás tarde\\b|\\bnueva york\\b|\\bNueva Zelanda\\b|\\bbuen(?:os|as)\\s+(?:días|tardes|noches)\\b|\\blo malo\\b|\\bmal\\b|\\bme parece bien\\b|\\bTom\\b\\s+Rico|\\bPuerto Rico\\b|\\bCosta Rica\\b|\\b(?:pasado|hace) (?:mucho|poco)\\b|\\bal fin y al cabo\\b|\\btemprano o tarde\\b|\\btarde o temprano\\b|\\bfrío\\b(?=.*\\bhace\\b)|\\bhace\\s+(?:mucho\\s+)?(?:frío|calor)\\b|\\bdel tiempo\\b|\\b(?:a lo largo|a la larga)\\b"
+    }
+   ]
+  },
+  {
+   "id": "gramatica",
+   "subs": [
+    {
+     "id": "artigos",
+     "name": "Artigos (el, la, un, una)",
+     "desc": "O artigo concorda com o gênero do substantivo, que às vezes muda do português: \"la leche\", \"el viaje\", \"la nariz\", \"el árbol\". Antes de \"a\" tônico: \"el agua\".",
+     "pattern": "(?:(?<=\\b(?:de|en) )|(?<=\\bcon )|(?<=\\bpor )|(?<=\\bpara )|(?<=\\bsin )|(?<=\\bsobre )|(?<=\\bdesde )|(?<=\\bhacia )|(?<=\\bentre )|(?<=\\bcontra )|(?<=\\bdurante )|(?<=\\ba )|(?<=\\bhay )|(?<=\\btengo )|(?<=\\btiene )|(?<=\\btienes )|(?<=\\bes )|(?<=\\bson )|(?<=\\bera )|(?<=^)|(?<=¿)|(?<=¡))(?P<w>el|la|los|las|un|una|unos|unas)(?= (?!(?:mío|mía|míos|mías|tuyo|tuya|tuyos|tuyas|suyo|suya|suyos|suyas|nuestro|nuestra|nuestros|nuestras|vuestro|vuestra|único|única|únicos|únicas|solo|sola|demás|primeros|primeras|últimos|últimas|que|de|del|cual|cuales|mismo|misma|mismos|mismas|otro|otra|otros|otras|uno|una|demás|más|menos|mejor|peor|mayor|menor|primer|primero|primera|último|última|tercer|segundo|segunda|próximo|próxima|gran|grande|mucho|poco|vez|veces)\\b)[a-záéíóúñü]+\\b)",
+     "options": {
+      "el": [
+       "la",
+       "los",
+       "las"
+      ],
+      "la": [
+       "el",
+       "las",
+       "los"
+      ],
+      "los": [
+       "las",
+       "el",
+       "la"
+      ],
+      "las": [
+       "los",
+       "la",
+       "el"
+      ],
+      "un": [
+       "una",
+       "unos",
+       "unas"
+      ],
+      "una": [
+       "un",
+       "unas",
+       "unos"
+      ],
+      "unos": [
+       "unas",
+       "un",
+       "una"
+      ],
+      "unas": [
+       "unos",
+       "una",
+       "un"
+      ]
+     },
+     "exclude": "(?:^|[¿¡\"—])\\s*(?:La|Los|Las)\\s+(?:suficientemente|desperdiciemos|necesariamente|acostumbrarás|decepcionaste|encontraremos|sorprenderías|sorprendieron|arrepentirás|caracterizan|construyeron|convirtieron|desconcierta|descubrieron|desmoronaron|desperdicies|enorgullezco|esconderemos|intentaremos|sorprendería|sorprendimos|suspendieron|traicionaría|traicionaste|abandonaría|abandonaste|aconsejaron|acostumbras|arrepentirá|arrepientas|avergonzaba|comprometió|conseguimos|conseguirás|conseguiste|consideraba|decepcionas|despertamos|despidieron|diferencian|divirtieron|divorciaron|encontramos|encontraron|encontrarás|encontraría|encontraste|encontremos|enfrentamos|entenderéis|entenderías|entendieron|entristeció|escondieron|especializó|esperaremos|explicarías|felicitaron|funcionaban|interfieras|interrumpas|interrumpió|mantuvieron|multiplican|necesitabas|necesitamos|necesitaron|olvidaremos|preguntamos|preguntaron|preguntaría|preguntaste|preocupamos|preocuparse|presentaron|prohibieron|prometieron|recuperarás|repartieron|respondiste|restableció|suficientes|visitaremos|acompañará|acompañaré|acordarías|acostumbró|adivinarás|apetecería|aprendiste|arrepiente|arrepiento|arrepintió|avergüenza|avergüenzo|averiguará|averiguaré|ayudaremos|ayudáramos|castigaron|castigarán|comprendió|condenaron|confundáis|conocieron|consideran|convertirá|deberíamos|decepciona|decepcionó|despiertas|despiertes|desprecies|desvaneció|diferencia|dirigieron|discutimos|dispararon|disparaste|divertimos|divertiste|emborrachó|enamoraron|encantaría|encontraba|encontrará|encontraré|encuentran|encuentras|encuentres|enseñarías|entendemos|entenderás|entendería|entendiste|enterraron|entristece|escondiste|escribiera|escribiría|escucharon|escuchaste|especificó|estableció|estaríamos|estudiamos|estuvieras|extrañamos|funcionará|hiciéramos|hospedamos|hubiésemos|importante|importaría|incorrecto|intentamos|intentaría|intentaste|interesaba|interrumpa|lamentarás|lastimaría|levantamos|levantaron|levantaste|molestaría|necesitaba|ofrecieron|permitirán|pertenecen|pertenezco|preguntaba|preguntaré|preocupaba|preparamos|preparemos|prescribió|prestarías|prometiste|protegería|quedaremos|recomiendo|recuperará|responderé|resultaría|sorprendió|sospechaba|subestimes|suficiente|terminaron|terminaste|volveremos|abrazaron|aceptaban|aceptamos|acompañas|aconsejen|acordamos|acordaste|agarraron|agradabas|agradeció|agradezco|alegramos|alegraría|alimentan|aprenderá|aprovechó|arrodillé|arrodilló|asustaron|atropella|atropelló|ayudarías|cambiaron|cambiaste|casaremos|celebrará|chantajeó|compramos|compraron|compraría|compraste|comprende|comprendo|comunican|concentra|concentré|concierne|condujera|conduzcas|confiamos|confundas|confunden|confundió|conocemos|conociera|conocimos|considera|considero|consiguió|construyó|contrario|convenció|convierte|convirtió|deberíais|decidiste|decírselo|dejaremos|demuestra|describen|descubrió|desmoronó|despertar|despierta|despierte|desprecia|desvanece|devolveré|disculpes|discutáis|distingue|distraiga|divertían|diviertan|diviertas|diviertes|durmieron|eligieron|empezaron|encantaba|encantará|encargaré|encuentra|encuentre|encuentro|enfureció|engañaste|enseñaron|enseñarás|entenderé|entendéis|entendías|entiendan|entiendas|entienden|entiendes|entregaré|equivocan|equivocas|equivoqué|escabulló|escaparon|esconderé|escribiré|esperamos|esperaron|estacionó|estaremos|estuviera|estuviese|estuviste|estábamos|existiera|explicaré|extinguió|fortalece|fumadores|funcionan|garantizo|garantizó|golpearon|hicisteis|importaba|importará|imposible|intentará|intentaré|interesan|invitaron|lamentará|levantaba|levantase|limpiaste|malgastes|marcharon|menciones|mintieron|mostraron|necesitan|necesitas|necesites|necesitás|nombraron|obligaron|olvidamos|olvidaron|olvidarás|olvidaste|olvidemos|opusieron|ordenaron|oscureció|pararemos|peligroso|perdieron|perdonará|perdonaré|permitiré|pertenece|podríamos|precipitó|preguntan|preguntas|preguntes|preocupas|preocupes|preocupás|prestaste|pretendía|prometido|pronuncia|protegeré|publicará|queríamos|quisieron|realizará|recibimos|recomendé|recomendó|reconoció|reconozco|recordaba|recordaré|recuerdan|recuerdas|regalaron|regalaste|requieren|resolverá|respondas|responden|respondió|reunieron|rindieron|saludaron|sentirías|separaron|significa|siguieron|sintieron|sonrieron|sorprende|sorprendí|suspendió|terminaba|terminará|traduzcas|traicionó|vendieron|visitaron|abandonó|abofeteó|abrieron|acabamos|acabaron|acompaña|acompañe|acompaño|acompañó|aconsejo|aconsejé|aconsejó|acuerdas|acuerdes|acusaron|admitirá|adoraban|advierto|advirtió|afeitaba|alegrará|alimenta|apagaron|apareció|aparenta|apasiona|aprendió|apresuré|apresuró|aproxima|aproximó|arrastré|arrastró|arriesga|arruinas|ayudamos|ayudaras|ayudaron|ayudarán|ayudarás|ayudaría|ayudaste|ayudemos|bastante|burlaron|callaron|cambiará|cambiaré|cobraron|cogieron|combinan|comieron|comparto|compensa|comporta|comportó|comprara|compraré|comprase|confiáis|confunda|confundí|conmovió|conocéis|conocían|conocías|conseguí|consigas|consigue|contaron|contaría|contaste|contesta|contestó|contiene|contrató|conviene|correcto|cortaron|creerías|cuelgues|culparía|deberían|deberías|dejarías|deletrea|dependas|derritió|derrumbó|desayuna|desayuné|desbordó|deseamos|desperté|despertó|despidan|despidió|desplomó|devolvió|devuelva|difundió|disculpe|disculpo|disculpé|disculpó|discutan|discutas|discutir|disfrazó|disfruta|disgusta|dispares|dispongo|disuelve|divierte|divirtió|divorció|durmiera|elegimos|emociona|empezaba|empieces|encantan|encontré|encontró|enfadara|engordes|enseñaré|entender|entendió|entendés|entendía|entienda|entiende|entiendo|entraron|entregué|enviaste|equivoca|equivoco|equivocó|escondas|escondió|escondía|escribas|escriben|escribió|escribía|escuchas|escuches|esperaba|esperara|esperará|esperaré|estabais|estaréis|estrelló|estropeó|estudias|exageres|explique|expliqué|extendió|extiende|fascinan|fastidia|felicito|forzaron|funciona|funcionó|fuéramos|guardaré|gustaban|gustaron|gustaría|gustaste|habitual|hablamos|hablaron|hablarán|hablaste|hablemos|habíamos|hicieran|hicieras|hicieron|hirieron|hubieras|hubieses|incendió|incomodo|intentes|interesa|interese|interesó|invitaré|lastimas|levantan|levantas|levantes|llamaban|llamabas|llamamos|llamaron|llamaste|llegamos|llegaron|llegarás|llenaron|llevaban|llevamos|llevaras|llevaron|llevaría|logramos|lograron|lograrás|mandaron|mandaste|mantenga|mantengo|mantenía|mantiene|mencionó|mentiría|mentiste|metieron|molestan|molesten|mostraré|necesita|necesite|necesito|necesité|necesitó|obligaba|ocurrido|ocurrirá|olvidará|olvidaré|olvidéis|palabras|parecerá|parecéis|parecían|peleamos|perdamos|perdimos|perdiste|perdones|permitas|permiten|permites|permitió|permitía|persigue|pidieron|pillaron|podremos|podíamos|pregunto|pregunté|preguntó|preocupa|preocupo|preocupó|presenta|presento|presenté|presentó|presionó|prestara|prestaré|producen|prohibió|prometes|prometió|pudieras|pudieron|pusieron|quedaban|quedamos|quedaras|quedarme|quedaron|quedarás|quedaría|quedaste|quedemos|quemaron|queremos|querrías|quisiera|quisiste|quitamos|quitaron|quitaste|reconoce|reconocí|recuerda|recuerde|recuerdo|recupere|recuperó|refieres|regalaré|rendimos|requiere|respetan|responde|respondo|restregó|resuelve|retorció|reunimos|rompiste|sabremos|sabíamos|salieron|sentamos|sentaron|sentimos|sentirás|sentiría|serviría|subieron|sucedido|supieras|tengamos|teníamos|tildaron|trabajas|trabajes|trajiste|tuvieron|utilizan|vendemos|vinieras|vinieron|visitaba|visitaré|viéramos|volvamos|volvemos|volvería|volviera|zambulló|abotonó|abriera|abstuvo|aburres|aburrió|acabará|aceptan|acordás|acuerda|acuesta|acuesto|acumula|agradan|aguanto|alcanza|alcanzó|almorcé|almorzó|alzaron|amenazó|apagues|aparece|apetece|aplican|apoyaré|aprecio|apreció|aprende|aprendí|aprueba|apruebo|apuesto|apuñaló|arrancó|arregló|arruinó|aseguro|aseguró|asesinó|asistió|asustan|atreves|ayudara|ayudará|ayudaré|ayudase|ayudéis|bajaron|bebemos|bendiga|besamos|besaron|besaste|buscaba|calentó|callara|cambian|cambias|cambies|camines|canceló|cansado|casamos|casaron|casaría|castiga|cayeron|celebra|celebró|cepilla|cierres|combina|comería|cometió|comiera|comimos|comiste|compara|compone|compras|compres|conduce|confesó|confían|confías|confíes|congela|congeló|conocen|conocer|conoces|conoció|conocés|conocía|conozca|conozco|consigo|consume|contara|contaré|contase|costaba|costará|creemos|critica|cuentas|cuentes|cumplan|cumplen|cumplió|debemos|debería|debiste|decidió|decimos|decirle|declaró|dedicas|defendí|dejamos|dejaran|dejaron|dejarán|dejaría|dejaste|depende|derrite|deshice|deslizó|desmayé|desmayó|despedí|detenga|detesto|devolví|dijeras|dijeron|dijiste|dirigió|dirigía|discuta|disparé|disparó|dispone|divertí|duermes|echamos|echaron|echaría|echaste|empeore|enamora|enamoré|enamoró|encanta|encantó|encargo|encerró|encogió|enfadan|enfermó|engañen|enjuagó|enseñas|enseñes|entendí|entrará|entregó|enviaré|esconde|escondí|escriba|escribe|escribo|escribí|escucha|escucho|escuché|escuchó|esforzó|esperen|esperes|esperás|estaban|estabas|estamos|estarás|estaría|estudia|estudie|estudié|estudió|evaporó|existen|existía|explica|explicó|exponga|extrañé|fabrica|faltaba|general|gracias|gustaba|gustara|gustará|haberte|hablaba|hablara|hablará|hablaré|hablase|habláis|habléis|habrían|hacemos|hacerlo|hagamos|haremos|hiciera|hiciese|hicimos|hiciste|hubiera|hubiese|ignoran|imagino|imaginé|impidió|imploró|importa|importó|inclinó|indigna|indignó|informó|insulte|insultó|intenta|intente|intenté|intentó|intriga|inventó|inviten|juegues|jugamos|jugarán|juzgues|lamenta|lamento|lastima|lastime|lastimé|lastimó|lesioné|lesionó|levanta|levante|levanto|levanté|levantó|llamaba|llamara|llamará|llamaré|llegaba|llegara|llegaré|llegues|llevaba|llevara|llevará|llevaré|lloverá|lograba|logrará|mandaré|mantuvo|matamos|mataron|matarán|mejores|mereces|merecía|merezco|meterás|metimos|metiste|mientas|mienten|miraban|miraron|molesta|moleste|molesto|molestó|mudamos|mudaron|muerdes|muestre|negaron|obedece|obtiene|ocupado|ocupará|ocuparé|ocurren|ocurrió|ocurría|odiaban|ofreció|olviden|olvides|oponían|originó|pagamos|pagaron|pagaste|pararon|parecen|pareces|pareció|parecía|parezca|parezco|pasamos|pasaron|pasarás|pasaste|pedimos|pediste|pegaste|pensaba|percató|perderé|perdona|perdone|perdono|perdonó|permita|permite|piensas|pienses|pierdas|podemos|podrían|podrías|pondrás|pondría|ponemos|poneros|ponerse|ponerte|portara|posible|prendió|prepara|preparé|preparó|prestas|prestes|prestás|produce|produjo|prohíbe|prometo|prometí|propuso|provoca|pudiera|pudimos|pudiste|pusiera|pusimos|pusiste|quedaba|quedara|quedará|quedaré|quedase|quejaba|quejará|querría|queréis|querían|querías|quieras|quieren|quieres|rasguñó|realizó|rechazó|recibió|recogió|recordó|refiere|refiero|regresó|relajas|relajes|rendirá|repitas|repugna|resbaló|resfría|respeta|respetó|resulta|resultó|retrasó|reventó|robaron|robaste|romperá|rumorea|sabemos|sacaron|saldría|saliera|salimos|salpicó|sangran|seguiré|sentaba|sentara|seremos|servirá|sientas|sienten|sientes|sonrojó|soporta|soporto|sucedió|sueltes|sugiero|suicidó|supiera|suplicó|suponía|susurró|tardará|tendrás|tendría|tenemos|tengáis|termina|termino|terminé|terminó|tiraron|tomamos|tomaron|tomaría|tomaste|toquéis|trabaja|trabajó|tradujo|trataba|tropecé|tropezó|tuvimos|unieron|utiliza|vayamos|venderé|vendrás|vendría|veremos|viniera|viniste|vivimos|volverá|volveré|vuelvas|vuelven|abrace|abrazó|abrirá|aburre|aburro|abuses|acaban|acabas|acepta|acepto|aceptó|acerca|acercó|acordó|acosté|acostó|adaptó|admira|admiro|admite|adoran|afecte|afeita|afeito|aferró|agachó|agarré|agarró|agrada|agradó|ahorcó|ajustó|alegra|alegro|alegré|alegró|amabas|amamos|andaba|apague|apagué|apiadó|apoyes|apretó|aprobó|apunté|apuntó|arrojé|arrojó|asusta|asustó|atascó|atraen|atrapó|atreve|averió|ayudan|ayudas|ayuden|ayudes|ayudás|barato|bañaba|bebáis|besara|brilla|brindó|bromea|buscas|cambia|cambié|cambió|cantes|casara|casará|cayera|cederá|cierra|cierto|comete|cometí|compra|compre|compro|compré|compró|confía|confío|conoce|conocí|corras|corrió|cortan|creerá|cruces|cuadra|cubrió|cubría|cuente|cuesta|culpas|culpes|cumple|darías|debéis|debían|dedica|dedico|dedicó|dejaba|dejara|dejará|dejaré|dejase|desató|detuve|detuvo|dieran|dieron|digáis|dijera|dirige|dirías|dolían|duelen|duerme|duermo|durará|durmió|echaba|echaré|empezó|empujó|encaja|enfada|enfadó|enfríe|engañó|enseña|enseñe|enseño|enseñé|enseñó|enteró|entran|entras|entren|entres|erigió|escapé|escapó|espera|espere|espero|esperé|esperó|estaba|estará|estaré|estuve|estuvo|estáis|exigió|existe|expone|faltan|falten|finjas|fueran|fueras|fueron|fuimos|fuiste|fumara|fuméis|ganaré|gastes|golpeé|golpeó|graduó|grites|guardó|gustan|gustas|hablan|hablas|hablen|hables|habrás|habría|habéis|habían|habías|hacéis|hacían|hagáis|harían|harías|horneó|hundió|hundía|ignora|ignoro|ignoró|impide|impuso|inició|invito|invitó|iremos|irrita|irritó|jubiló|juegas|jugará|leyera|leíste|limpió|llaman|llamas|llamen|llames|llegue|llegué|llevan|llevas|lleven|lleves|lloran|llorar|llores|llorés|llovió|llovía|llueva|llueve|logres|maneja|marcho|marchó|matará|mataré|mejore|mejoró|mentir|merece|miente|miento|mintió|miraba|miréis|mordió|mostré|mostró|mudará|mueras|muerde|muerdo|mueren|mueres|nadara|normal|notaba|obligó|oculta|ocultó|ocurre|odiaba|odiáis|ofende|ofrecí|olvida|olvide|olvido|olvidé|olvidó|opongo|ordené|ordenó|oyeron|pagará|pagaré|paguen|paraba|parece|partió|pasaba|pasara|pasará|pasaré|pediré|pelean|peleen|pensar|perder|perdió|piensa|piense|pienso|pierda|pierde|planea|podrán|podrás|podría|podéis|podían|podías|pondrá|pondré|pongas|porque|portas|presta|preste|presté|prestó|puedan|puedas|pueden|puedes|quebré|quebró|quedan|quedas|queden|quedes|quejan|quejes|querer|querés|quería|quiera|quiere|quiero|rebeló|recibí|regalé|regaló|regañó|rehusó|rehúsa|rehúso|relaja|repite|retiró|reunió|reveló|reímos|rieron|rindió|rompas|romper|rompió|sabrás|sabría|sabéis|sabían|sabías|sacaré|saldré|salgas|saluda|saludé|saludó|sangra|saquen|saques|seamos|sentía|sentís|separó|señaló|sienta|siente|siento|siguen|sigues|siguió|sintió|sirven|sirvió|sobran|sonrió|sonríe|suceda|suelen|sueles|suenas|sugerí|supone|tendió|tendrá|tendré|tengan|tengas|tenéis|tenían|tenías|tienen|tienes|tocaba|tocara|tolera|tomara|tomará|tomaré|toques|torció|traeré|tragué|traiga|traigo|tratas|traten|trates|uniera|unirás|usamos|usaste|vayáis|veamos|venden|vendió|vendrá|vengas|vienen|vienes|vieron|visito|visitó|vistió|vivirá|volteó|volver|volvió|volvía|vuelva|vuelve|vuelvo|éramos|íbamos|abran|abras|abrió|acaba|acabo|acabó|acusó|adora|adoro|agotó|ahogó|alejó|amaba|amará|amaré|animó|apaga|apagó|apoya|apoyó|apuré|atacó|atrae|ayude|ayudo|ayudé|ayudó|bailo|basta|bañas|bebas|beber|bebió|bueno|burla|burló|caigo|calló|calmó|cansa|cansé|cansó|canta|cantó|casan|cases|causó|cedió|cerré|cerró|choca|cobró|cogió|colgó|coman|comas|comen|comes|comió|comía|común|conté|contó|corre|corta|corto|corté|cortó|costó|creas|creen|crees|creyó|creés|creía|cruzó|cuida|culpo|curan|daban|damos|darás|daría|deben|debes|debió|debés|debía|decir|decía|dejan|dejar|dejas|dejen|dejes|demás|desea|dicen|dices|diera|digan|digas|dimos|dirás|diría|diste|dolía|dormí|ducho|duché|dudes|duela|duele|echan|echas|eches|elevó|enojó|entra|entre|entró|envié|envió|estar|estoy|están|estás|estén|estés|evita|falta|faltó|formó|forzó|frotó|fuera|fuese|fumar|fumas|fumes|gasta|gritó|gruñó|guiñó|gusta|guste|gustó|haber|habla|hable|hablo|hablé|habló|habrá|habré|había|hacen|hacer|haces|hacés|hacía|hagan|hagas|hallé|harán|harás|haría|hayan|hayas|hemos|herir|hirió|huele|hunde|juega|jugué|ladra|lanzó|lavan|lavas|lejos|llama|llame|llamo|llamé|llamó|llega|llego|llegó|llena|lleva|lleve|llevo|llevé|llevó|lloro|lloró|logra|logro|logré|logró|manda|mande|mandé|mandó|matan|mentí|metas|metió|miran|miras|miren|mires|montó|mordí|moría|movió|muera|muere|muero|mueve|murió|niega|niego|nieva|ocupa|odian|odias|opone|opuso|oímos|oíste|pagan|pagué|paran|pares|pasan|pasas|pases|pateó|pedía|pegue|pegué|pensé|pensó|perdí|pidas|piden|pides|pidió|pillé|pinte|pintó|podrá|podré|podés|podía|ponen|pones|ponga|pongo|ponía|porta|portó|probó|pueda|puede|puedo|queda|quede|quedo|quedé|quedó|queja|quejó|quema|quemé|quemó|quise|quiso|quita|quito|quité|quitó|rascó|reían|rindo|rogué|rompe|rompí|ruego|saben|saber|sabes|sabrá|sabés|sabía|salga|salgo|salió|saltó|salvó|saque|saqué|seguí|senté|sentí|sentó|sepan|sepas|sequé|serán|serás|sería|seáis|sigue|sirve|soltó|solía|somos|subió|suele|suena|tarda|tejió|temen|temía|tener|tenga|tengo|tenés|tenía|tiene|tires|todas|toman|tomas|tomes|toqué|torcí|trajo|trata|trató|traía|ubica|usaba|usual|valía|vamos|vayan|vayas|vemos|vende|venga|venís|verás|vería|veían|viene|viera|vimos|viste|visto|vivas|volví|vuela|abra|abre|aman|amas|anda|ando|bajé|bajó|basa|baña|bebe|bebo|bebí|besé|besó|cabe|caes|caro|case|casi|casé|casó|cayó|coma|come|como|comí|crea|cree|creo|creí|creó|crié|crió|curó|daba|dará|daré|dañó|debe|debo|debí|deja|deje|dejo|dejé|dejó|dice|diga|digo|dije|dijo|dirá|diré|dude|dudo|dudé|dudó|duró|echa|eche|echo|eché|echó|eran|eras|eres|está|esté|fuma|fume|fumo|gana|gano|gané|ganó|gira|hace|haga|hago|hará|haré|haya|heló|hice|hizo|hubo|iban|ibas|irás|iría|juro|lava|lavo|lavé|lavó|leas|lees|leyó|malo|mata|mate|maté|mató|mete|metí|mira|mire|miro|miré|miró|mude|mudo|mudé|mudó|negó|notó|odia|oigo|oyes|paga|pagó|paró|pasa|pase|pasé|pasó|pedí|pega|pegó|pica|picó|pida|pide|pido|pisó|pone|pude|pudo|puse|puso|rajó|reía|roba|robé|robó|rogó|rían|ríen|ríes|sabe|saca|sacó|sale|salí|sean|seas|secó|sepa|será|seré|sigo|sois|sonó|soñé|suba|sube|subí|supe|supo|teme|temo|tiró|tiñó|toca|toco|tocó|toma|tomo|tomé|tomó|topé|topó|trae|tuve|tuvo|unió|usan|uses|vais|vale|vaya|vean|veas|veré|veía|vine|vive|vivo|vota|voté|ama|amo|cae|caí|dan|dar|das|den|des|dio|doy|era|eso|fue|fui|han|has|hay|iba|irá|iré|lea|lee|leo|les|leí|nos|oye|oyó|oía|reí|rio|rió|ríe|sea|son|sos|soy|usa|use|usé|van|vas|vea|ven|veo|ves|vio|voy|da|di|dé|es|ha|he|ir|le|lo|me|no|os|oí|se|sé|te|va|ve|vi)\\b|^(?:La|Lo|Los|Las)\\s+(?:he|has|ha|hemos|han|había|vi|vio|vimos|vieron|conozco|conoce|quiero|quiere|amo|ama|odio|tengo|tiene|compré|llevé|necesito|puse|dejé|hice|encontré|encontró|perdí|busco|traje|llamé|llamo|pongo|sé|creo|dejo|mató|mató|metió|abrió|cerró)\\b|\\b(?:un|una)\\s+(?:vez|veces|poco|poca|par|tal|cierto|cierta|millón|mil)\\b|\\bla\\s+una\\b|\\blos\\s+dos\\b|\\bun\\s+(?:hacha|águila|alma|aula|arma|agua|hambre|área|ala|ave|hada)\\b"
+    },
+    {
+     "id": "contracoes",
+     "name": "Contrações al e del",
+     "desc": "\"a + el\" vira \"al\" e \"de + el\" vira \"del\": \"Voy al cine\", \"la casa del vecino\". Não há contração com la/los/las nem com o pronome \"él\": \"de él\", \"a la playa\".",
+     "pattern": "(?<![^\\W\\d_])(?P<w>al|del|(?:a|de)(?= (?:él|la|los|las)\\b))(?![^\\W\\d_])",
+     "options": {
+      "al": [
+       "a",
+       "del"
+      ],
+      "del": [
+       "de",
+       "al"
+      ],
+      "a": [
+       "al",
+       "del"
+      ],
+      "de": [
+       "del",
+       "al"
+      ]
+     },
+     "exclude": "\\bel\\s+(?:Salvador|Cairo|Havre)\\b|\\bde\\s+la\\s+(?:que|cual)\\b|\\b(?:a|de)\\s+(?:la|los|las)\\s+(?:\\w+(?:ar|er|ir|é|ó|aste|ió))\\b(?=\\s|[.,!?])|^A\\s+(?:la|los|las)\\s|\\bal\\s+(?:principio|final|lado|menos|fin|revés|parecer|contrario)\\b(?!.*\\b(?:a|de)\\s+(?:la|los|las|él)\\b)"
+    },
+    {
+     "id": "ser_estar",
+     "name": "Ser ou estar",
+     "desc": "\"Ser\" para identidade, origem, profissão, hora e características; \"estar\" para lugar, estado e com gerúndio. Ex.: \"Soy de Brasil\", \"Estoy cansado\", \"Está en casa\", \"Está lloviendo\".",
+     "pattern": "(?<![^\\W\\d_])(?P<w>estábamos|estabas|estaban|estamos|éramos|estáis|estaba|somos|estás|estoy|están|sois|eran|está|eras|eres|soy|son|era|es)(?![^\\W\\d_])(?! (?:muy |tan |bastante |demasiado |un poco |realmente |completamente |todavía |aún |ya |siempre |también |un tanto )?(?:aburrid|list|mal[oa]s?\\b|buen[oa]s?\\b|ric[oa]s?\\b|viv[oa]s?\\b|verdes?\\b|segur[oa]s?\\b|callad|feliz|felices|trist|tranquil|orgullos|loc[oa]s?\\b|enferm|guap|gord|delgad|flac|joven|jóvenes|viej|nervios|cansad|atent|despiert|interesad|abiert|cerrad|ocupad|libre|solo|sola|solos|solas|bien\\b|claro\\b|cierto\\b|car[oa]s?\\b|nuev[oa]s?\\b|limpi|suci|lleno|llena|vací|seri[oa]|celos|educad|fe[oa]s?\\b|bonit|lind|hermos|alt[oa]s?\\b|baj[oa]s?\\b|grande|pequeñ|fuerte|débil|frí[oa]|calient|caliente|perdid|muert|casad|divorciad|separad|soltero|preparad|hech[oa]|terminad|acabad|equivocad|correct|incorrect|important|necesari|posible|imposible|difícil|fácil|tarde|temprano|aquí|allí|ahí|allá|así|lejos|cerca|en contra|a favor|de acuerdo|de vacaciones|de pie|de moda|para\\b|por\\b|dispuest|rot[oa]s?\\b|prohibid|permitid|incluid|pagad|vendid|escrit|dormid|sentad|parad|pres[oa]s?\\b|herid|embarazad|famos|preocupad|enojad|enfadad|content|emocionad|sorprendid|tont|estúpid|inteligent|sabi|amable|simpátic|antipátic|grosero|honest|sincer|tímid|valient|mied|poc[oa]\\b|much[oa]\\b|demasiad|tan\\b|más\\b|menos\\b|muy\\b|bastante|algo\\b|un poco|completamente|totalmente|realmente|siempre|todavía|aún|ya\\b|también|tampoco|nunca|no\\b))",
+     "options": {
+      "soy": [
+       "estoy",
+       "eres"
+      ],
+      "eres": [
+       "estás",
+       "es"
+      ],
+      "es": [
+       "está",
+       "son"
+      ],
+      "somos": [
+       "estamos",
+       "son"
+      ],
+      "sois": [
+       "estáis",
+       "son"
+      ],
+      "son": [
+       "están",
+       "es"
+      ],
+      "estoy": [
+       "soy",
+       "estás"
+      ],
+      "estás": [
+       "eres",
+       "está"
+      ],
+      "está": [
+       "es",
+       "están"
+      ],
+      "estamos": [
+       "somos",
+       "están"
+      ],
+      "estáis": [
+       "sois",
+       "están"
+      ],
+      "están": [
+       "son",
+       "está"
+      ],
+      "era": [
+       "estaba",
+       "eran"
+      ],
+      "eras": [
+       "estabas",
+       "era"
+      ],
+      "éramos": [
+       "estábamos",
+       "eran"
+      ],
+      "eran": [
+       "estaban",
+       "era"
+      ],
+      "estaba": [
+       "era",
+       "estaban"
+      ],
+      "estabas": [
+       "eras",
+       "estaba"
+      ],
+      "estábamos": [
+       "éramos",
+       "estaban"
+      ],
+      "estaban": [
+       "eran",
+       "estaba"
+      ]
+     },
+     "exclude": "\\b(?:es|son|era|eran)\\s+(?:la|el)\\s+(?:una|dos|tres|cuatro|cinco|seis|siete|ocho|nueve|diez|once|doce)\\b|\\bes\\s+que\\b(?=.*\\?)|\\bestá\\s+bien\\b|\\bya\\s+está\\b|\\b(?:qué|quién|cuál|quiénes|cuáles)\\s+(?:es|son|era|eran)\\b|\\bestoy\\s+casi\\b|\\bo\\s+sea\\b|\\bes\\s+decir\\b"
+    },
+    {
+     "id": "hay_esta",
+     "name": "Hay ou está",
+     "desc": "\"Hay\" apresenta algo novo (= há/tem), com um, algum, muitos ou sem artigo: \"Hay un gato en el jardín\". \"Está/están\" localiza algo já conhecido: \"El gato está en el jardín\".",
+     "pattern": "(?<![^\\W\\d_])(?P<w>hay(?! que\\b)|había(?= (?:no )?(?:un|una|unos|unas|algo|alguien|algún|alguna|algunos|algunas|mucho|mucha|muchos|muchas|poco|poca|pocos|pocas|nada|nadie|ningún|ninguna|varios|varias|demasiado|demasiada|demasiados|demasiadas|tanto|tanta|tantos|tantas|otro|otra|otros|otras|más|menos|dos|tres|cuatro|cinco|seis|siete|ocho|nueve|diez|cien|mil|bastante|bastantes|suficiente|suficientes|cada)\\b)|(?:está|están|estaba|estaban)(?= (?:en|aquí|allí|ahí|allá|acá|cerca|lejos|encima|debajo|detrás|delante|dentro|fuera|afuera|adentro|arriba|abajo|al lado|junto|sobre|bajo|entre|frente|enfrente)\\b))(?![^\\W\\d_])",
+     "options": {
+      "hay": [
+       "está",
+       "están"
+      ],
+      "está": [
+       "hay",
+       "están"
+      ],
+      "están": [
+       "hay",
+       "está"
+      ],
+      "había": [
+       "estaba",
+       "estaban"
+      ],
+      "estaba": [
+       "había",
+       "estaban"
+      ],
+      "estaban": [
+       "había",
+       "estaba"
+      ]
+     },
+     "exclude": "\\b(?:está|están|estaba|estaban)\\s+en\\s+(?:contra|lo cierto|lo correcto|forma|serio|peligro|problemas|paro|huelga|venta|marcha|camino|desacuerdo|silencio|coma|lo\\b|condiciones|buenas|malas|deuda|deudas|juego|duda|riesgo|uso|lo\\s+correcto|todo|cama|casa\\s+de|apuros)|\\b(?:está|están|estaba|estaban)\\s+(?:bajo\\s+(?:control|arresto|presión|la\\s+influencia)|fuera\\s+de\\s+(?:sí|control|peligro|lugar|servicio|discusión)|en\\s+lo\\s+cierto|entre\\s+la\\s+vida)|\\bhay\\s+(?:de\\s+nuevo|de\\s+malo|que|de)\\b|^¿?Qué\\s+hay\\b|\\bno\\s+hay\\s+de\\s+qué\\b|\\bestá\\s+cerca\\s+de\\s+(?:\\w+(?:ar|er|ir))\\b|\\b(?:está|estaba)\\s+(?:en|al)\\s+lado\\b(?=.*\\bhay\\b)|\\bquién(?:es)?\\b"
+    },
+    {
+     "id": "muy_mucho",
+     "name": "Muy ou mucho",
+     "desc": "\"Muy\" vem antes de adjetivo ou advérbio (muy alto, muy bien). \"Mucho\" acompanha verbo ou substantivo e concorda com ele (trabaja mucho, muchas casas). Atenção: \"mucho mejor\", \"mucho más\".",
+     "pattern": "(?<![^\\W\\d_])(?P<w>muy|mucho|(?:mucha|muchos|muchas)(?= [^\\W\\d_]))(?![^\\W\\d_])",
+     "options": {
+      "muy": [
+       "mucho",
+       "muchos"
+      ],
+      "mucho": [
+       "muy",
+       "muchos"
+      ],
+      "mucha": [
+       "muy",
+       "mucho"
+      ],
+      "muchos": [
+       "muy",
+       "mucho"
+      ],
+      "muchas": [
+       "muy",
+       "mucho"
+      ]
+     },
+     "exclude": "\\bmuchas\\s+gracias\\b|\\bni\\s+mucho\\s+menos\\b|\\bpor\\s+mucho\\s+que\\b|\\bmucho\\s+gusto\\b"
+    },
+    {
+     "id": "possessivos",
+     "name": "Possessivos (mi, tu, su…)",
+     "desc": "O possessivo concorda com a coisa possuída: \"mi libro\", \"mis libros\"; \"nuestra casa\", \"nuestros hijos\". \"Su/sus\" = dele, dela, deles, de você (formal).",
+     "pattern": "(?<![^\\W\\d_])(?P<w>vuestras|nuestros|vuestros|nuestras|nuestro|nuestra|vuestro|vuestra|sus|mis|tus|mi|tu|su)(?= (?!(?:eres|estás|tienes|puedes|sabes|quieres|vas|has|haces|dices|crees|piensas|necesitas|debes|mismo|misma|también|no|ya|lo|la|le|me|te|se|nos|solo|sola|y|o|que|eras|estabas|tenías|fuiste|serás|vienes|vives|hablas|ves|conoces|podrías|deberías|sí|nunca|siempre|tampoco|todavía|aún)\\b)[^\\W\\d_])",
+     "options": {
+      "mi": [
+       "mis",
+       "tu"
+      ],
+      "mis": [
+       "mi",
+       "tus"
+      ],
+      "tu": [
+       "tus",
+       "mi"
+      ],
+      "tus": [
+       "tu",
+       "mis"
+      ],
+      "su": [
+       "sus",
+       "mi"
+      ],
+      "sus": [
+       "su",
+       "mis"
+      ],
+      "nuestro": [
+       "nuestra",
+       "nuestros"
+      ],
+      "nuestra": [
+       "nuestro",
+       "nuestras"
+      ],
+      "nuestros": [
+       "nuestras",
+       "nuestro"
+      ],
+      "nuestras": [
+       "nuestros",
+       "nuestra"
+      ],
+      "vuestro": [
+       "vuestra",
+       "vuestros"
+      ],
+      "vuestra": [
+       "vuestro",
+       "vuestras"
+      ],
+      "vuestros": [
+       "vuestras",
+       "vuestro"
+      ],
+      "vuestras": [
+       "vuestros",
+       "vuestra"
+      ]
+     },
+     "exclude": "(?-i:^Tu\\s)(?=.*\\?)"
+    },
+    {
+     "id": "demonstrativos",
+     "name": "Demonstrativos (este, ese…)",
+     "desc": "Concordam com o substantivo: \"este libro\", \"esta mesa\", \"estos días\". \"Esto/eso\" (neutros) nunca vêm antes de substantivo: \"esto es nuevo\", mas \"este coche\".",
+     "pattern": "(?<![^\\W\\d_])(?P<w>aquellas|aquellos|aquella|estas|estos|aquel|esta|esos|este|esas|esa|ese)(?= (?!(?:es|son|era|eran|fue|fueron|está|están|estaba|será|parece|no|me|te|se|lo|la|le|nos|les|los|las|de|del|que|y|o|tiene|tienen|puede|sí|también|ya|va|debe|hace|hizo|dijo|ha|han|había|sería|podría|cuesta|cuestan|en|con|por|para|a|al|sin|sobre|mismo|misma|mismos|mismas|e|u|pero|cuando|si|donde|como|aquí|allí|ahí|allá|acá)\\b)[^\\W\\d_])",
+     "options": {
+      "este": [
+       "esta",
+       "esto",
+       "estos"
+      ],
+      "esta": [
+       "este",
+       "esto",
+       "estas"
+      ],
+      "estos": [
+       "estas",
+       "este",
+       "esto"
+      ],
+      "estas": [
+       "estos",
+       "esta",
+       "este"
+      ],
+      "ese": [
+       "esa",
+       "eso",
+       "esos"
+      ],
+      "esa": [
+       "ese",
+       "eso",
+       "esas"
+      ],
+      "esos": [
+       "esas",
+       "ese",
+       "eso"
+      ],
+      "esas": [
+       "esos",
+       "esa",
+       "ese"
+      ],
+      "aquel": [
+       "aquella",
+       "aquello",
+       "aquellos"
+      ],
+      "aquella": [
+       "aquel",
+       "aquello",
+       "aquellas"
+      ],
+      "aquellos": [
+       "aquellas",
+       "aquel",
+       "aquello"
+      ],
+      "aquellas": [
+       "aquellos",
+       "aquella",
+       "aquel"
+      ]
+     },
+     "exclude": "\\b(?:esta|este)\\s+(?:noche|mañana|tarde|vez|semana|año|mes)\\b(?=.*\\b(?:esta|este)\\s+(?:noche|mañana|tarde|vez|semana|año|mes)\\b.*\\b(?:esta|este)\\b)"
+    },
+    {
+     "id": "gustar",
+     "name": "Gustar: gusta ou gustan",
+     "desc": "Com gustar, o verbo concorda com o que se gosta: \"Me gusta el café\", \"Me gustan los perros\", \"Me gusta leer\". O mesmo vale para encantar, interesar e doler.",
+     "pattern": "(?:(?<=\\bme )|(?<=\\bte )|(?<=\\ble )|(?<=\\bos )|(?<=\\bnos )|(?<=\\bles )|(?<=\\bme lo )|(?<=\\bno )(?=gust))(?P<w>encantaron|encantaría|encantaban|encantaba|gustarían|interesan|gustaron|encantan|gustaría|gustaban|interesa|encanta|gustaba|encantó|gustas|gustan|duelen|gusta|gustó|duele)(?![^\\W\\d_])",
+     "options": {
+      "gusta": [
+       "gustan",
+       "gusto"
+      ],
+      "gustan": [
+       "gusta",
+       "gustas"
+      ],
+      "gustas": [
+       "gusta",
+       "gustan"
+      ],
+      "gustaba": [
+       "gustaban",
+       "gusta"
+      ],
+      "gustaban": [
+       "gustaba",
+       "gustan"
+      ],
+      "gustó": [
+       "gustaron",
+       "gusté"
+      ],
+      "gustaron": [
+       "gustó",
+       "gustan"
+      ],
+      "gustaría": [
+       "gustarían",
+       "gusta"
+      ],
+      "gustarían": [
+       "gustaría",
+       "gustan"
+      ],
+      "encanta": [
+       "encantan",
+       "encanto"
+      ],
+      "encantan": [
+       "encanta",
+       "encantas"
+      ],
+      "encantaba": [
+       "encantaban",
+       "encanta"
+      ],
+      "encantaban": [
+       "encantaba",
+       "encantan"
+      ],
+      "encantó": [
+       "encantaron",
+       "encanté"
+      ],
+      "encantaron": [
+       "encantó",
+       "encantan"
+      ],
+      "encantaría": [
+       "encantarían",
+       "encanta"
+      ],
+      "interesa": [
+       "interesan",
+       "intereso"
+      ],
+      "interesan": [
+       "interesa",
+       "interesas"
+      ],
+      "duele": [
+       "duelen",
+       "dolor"
+      ],
+      "duelen": [
+       "duele",
+       "dolores"
+      ]
+     }
+    },
+    {
+     "id": "por_para",
+     "name": "Por ou para",
+     "desc": "\"Para\" indica finalidade, destino e prazo: \"Estudio para aprender\", \"un regalo para ti\", \"para mañana\". \"Por\" indica causa, meio, troca, lugar por onde e período: \"gracias por\", \"por teléfono\", \"por la mañana\".",
+     "pattern": "(?<![^\\W\\d_])(?P<w>por|para)(?![^\\W\\d_])(?! (?:mí|ti|él|ella|ellos|ellas|nosotros|nosotras|vosotros|vosotras|usted|ustedes|sí|todos|todas|alguien|nadie|eso|esto|ello|lo\\s+que|quien|quién|qué|cuál|cuánto|eso|esa|ese|este|esta|tu\\s+(?:madre|padre|familia|bien|culpa)|su\\s+(?:madre|padre|familia|bien|culpa)|mi\\s+(?:madre|padre|familia|bien|culpa)|Tom|Mary|María|Tomás|John|Juan|Jim|Ken|Mike|Jack|Bill|Bob|Jane|Lucy|Alice|Pedro|Ana|Pablo|Carlos|Luis|Paul|Kate|Taro|Tony|Yumi|Emily|Nancy|Judy|Betty|Meg|Linda|Alex|George|Ricardo)\\b)(?! (?:qué|que|favor|lo\\s+menos|supuesto|eso|fin|cierto|ejemplo|si\\s+acaso|siempre|completo|mucho|poco)\\b)",
+     "options": [
+      "por",
+      "para"
+     ],
+     "exclude": "\\b(?:para|por)\\s+qué\\b|\\bestar?\\s+(?:para|por)\\b|\\b(?:está|estás|estoy|estamos|están|estaba|estaban)\\s+(?:para|por)\\b|\\bpara\\s+con\\b|\\bpor\\s+para\\b|\\bno\\s+es\\s+para\\s+tanto\\b|\\bpara\\s+de\\b|\\bno\\s+para\\b|^¡?para[!.]|\\b(?:por|para)\\s+(?:hoy|nada|hacer|ahora|acá|aquí|allí|allá|ahí|entonces|lo\\s+tanto|tanto|mientras|cierto|desgracia|suerte|casualidad|culpa|dentro|fuera|encima|debajo|delante|detrás|adelante|atrás)\\b|\\b(?:poco|mucho|demasiado)\\s+por\\b"
+    },
+    {
+     "id": "reflexivos",
+     "name": "Verbos reflexivos",
+     "desc": "O pronome reflexivo acompanha a pessoa do verbo: me levanto, te levantas, se levanta, nos levantamos, se levantan. Ex.: \"Me llamo Ana\", \"¿A qué hora te acuestas?\".",
+     "pattern": "(?<![^\\W\\d_])(?P<w>me(?= (?:no )?(?:arrepientí|arrepiento|emborracho|emborraché|equivoqué|despierto|sorprendo|sorprendí|equivoco|desperté|maquillo|preocupé|preocupo|divierto|maquillé|esfuerzo|escondí|enamoré|dediqué|escondo|acuerdo|esforcé|levanto|parezco|acerqué|enamoro|divertí|acuesto|levanté|atreví|acosté|marcho|asusto|afeito|alegro|pierdo|parecí|enfado|afeité|siento|relajo|alegré|atrevo|acordé|relajé|acerco|marché|enfadé|asusté|duermo|dedico|olvidé|olvido|dormí|peíné|pongo|ocupo|callo|vestí|quejé|enojé|quedé|senté|reúní|caigo|duché|muevo|quité|sentí|cansé|reúno|porto|ocupé|llamé|visto|porté|vistí|llamo|enojo|quedo|apuré|canso|peíno|quito|perdí|quejo|callé|apuro|ducho|mudé|poní|mudo|lavé|bañé|lavo|moví|baño|casé|caso|puse|fui|voy|doy|río|caí|reí)\\b)|te(?= (?:no )?(?:arrepientiste|emborrachaste|sorprendiste|arrepientes|preocupaste|despertaste|equivocaste|maquillaste|emborrachas|escondiste|enamoraste|esforzaste|levantaste|sorprendes|despiertas|divertiste|diviertes|equivocas|acordaste|preocupas|pareciste|atreviste|afeitaste|maquillas|olvidaste|acercaste|marchaste|esfuerzas|acostaste|enfadaste|alegraste|dedicaste|relajaste|asustaste|dormiste|apuraste|callaste|duchaste|escondes|ocupaste|enamoras|quejaste|portaste|quedaste|parezces|vististe|levantas|cansaste|llamaste|acuestas|sentaste|enojaste|acuerdas|reúniste|peínaste|sentiste|perdiste|quitaste|pusiste|sientas|acercas|bañaste|moviste|alegras|dedicas|sientes|mudaste|olvidas|pierdes|duermes|enfadas|poniste|marchas|afeitas|atreves|lavaste|casaste|asustas|relajas|ocupas|ponges|quedas|cansas|apuras|quitas|mueves|duchas|enojas|llamas|reúnes|peínas|fuiste|callas|vistes|portas|reíste|quejas|caíste|diste|lavas|mudas|bañas|pones|casas|ríes|caes|vas|das)\\b)|se(?= (?:no )?(?:emborracha|arrepintió|arrepiente|emborrachó|sorprendió|despierta|sorprende|despertó|divirtió|escondió|esfuerza|maquilló|divierte|preocupa|maquilla|preocupó|equivocó|equivoca|levantó|levanta|pareció|esconde|acuesta|parezce|esforzó|enamoró|enamora|acuerda|atrevió|sienta|reúnió|acercó|acostó|acordó|enfada|sintió|vistió|relajó|siente|atreve|alegra|marchó|enfadó|asustó|asusta|relaja|perdió|olvidó|acerca|duerme|afeitó|afeita|olvida|pierde|dedicó|dedica|marcha|alegró|durmió|cansa|reúne|peínó|duchó|mueve|queda|quitó|ponió|ponge|sentó|viste|apura|movió|quedó|quita|ocupa|calló|cansó|llamó|enoja|peína|ocupó|enojó|quejó|apuró|portó|porta|queja|calla|ducha|llama|cayó|pone|mudó|puso|baña|casó|muda|lavó|casa|bañó|lava|dio|rió|ríe|fue|cae|da|va)\\b)|se(?= (?:no )?(?:arrepintieron|emborracharon|sorprendieron|arrepienten|equivocaron|emborrachan|escondieron|despertaron|preocuparon|divirtieron|maquillaron|enamoraron|despiertan|sorprenden|levantaron|esforzaron|atrevieron|parecieron|durmieron|esfuerzan|acordaron|asustaron|reúnieron|acostaron|equivocan|marcharon|divierten|preocupan|acercaron|relajaron|alegraron|olvidaron|perdieron|afeitaron|vistieron|maquillan|sintieron|dedicaron|enfadaron|parezcen|movieron|esconden|pusieron|quitaron|peínaron|acuerdan|callaron|levantan|sentaron|acuestan|quedaron|apuraron|cansaron|llamaron|ducharon|ponieron|enojaron|quejaron|portaron|enamoran|ocuparon|asustan|casaron|duermen|enfadan|alegran|marchan|atreven|lavaron|relajan|bañaron|mudaron|pierden|sientan|dedican|cayeron|acercan|olvidan|sienten|afeitan|callan|rieron|visten|llaman|duchan|mueven|quedan|ocupan|peínan|reúnen|portan|dieron|quejan|enojan|apuran|cansan|fueron|quitan|pongen|mudan|lavan|ponen|bañan|casan|caen|ríen|dan|van)\\b)|nos(?= (?:no )?(?:emborrachamos|arrepientimos|sorprendemos|sorprendimos|equivocamos|preocupamos|maquillamos|despertamos|escondimos|esforzamos|escondemos|levantamos|enamoramos|divertimos|olvidamos|parecemos|acordamos|enfadamos|acostamos|acercamos|atrevemos|atrevimos|parecimos|alegramos|afeitamos|relajamos|asustamos|dedicamos|marchamos|enojamos|callamos|portamos|duchamos|llamamos|sentamos|ocupamos|dormimos|peínamos|perdimos|quitamos|vistimos|sentimos|perdemos|reúnimos|apuramos|quedamos|quejamos|cansamos|lavamos|pusimos|casamos|mudamos|ponimos|ponemos|movimos|bañamos|movemos|caímos|reímos|caemos|fuimos|vamos|dimos|damos)\\b)|os(?= (?:no )?(?:emborrachasteis|preocupasteis|equivocasteis|maquillasteis|despertasteis|emborracháis|levantasteis|enamorasteis|esforzasteis|relajasteis|enfadasteis|asustasteis|arrepientís|marchasteis|olvidasteis|sorprendéis|acostasteis|afeitasteis|dedicasteis|acercasteis|acordasteis|alegrasteis|ocupasteis|preocupáis|quedasteis|duchasteis|llamasteis|despertáis|enojasteis|cansasteis|callasteis|maquilláis|apurasteis|quitasteis|sentasteis|peínasteis|portasteis|equivocáis|quejasteis|esforzáis|enamoráis|levantáis|lavasteis|mudasteis|escondéis|bañasteis|casasteis|divertís|parecéis|relajáis|fuisteis|enfadáis|dedicáis|marcháis|afeitáis|atrevéis|acercáis|acostáis|olvidáis|acordáis|alegráis|asustáis|sentáis|quejáis|apuráis|perdéis|quedáis|ocupáis|calláis|quitáis|llamáis|enojáis|ducháis|peínáis|portáis|cansáis|laváis|ponéis|casáis|mudáis|bañáis|reúnís|vistís|movéis|dormís|sentís|vais)\\b))",
+     "options": {
+      "me": [
+       "te",
+       "se",
+       "nos"
+      ],
+      "te": [
+       "me",
+       "se",
+       "nos"
+      ],
+      "se": [
+       "me",
+       "te",
+       "nos"
+      ],
+      "nos": [
+       "me",
+       "te",
+       "se"
+      ],
+      "os": [
+       "nos",
+       "se",
+       "te"
+      ]
+     },
+     "exclude": "\\b(?:me|te|nos|os)\\s+(?:da|dan|dio|dieron|va|fue)\\b(?!\\s+cuenta)|\\bse\\s+(?:da|dan|dio)\\s+(?!cuenta)|\\b(?:me|te|nos|os|se)\\s+(?:pone|ponen|puso|pusieron)\\s+(?:a\\s+)?(?:la|el|los|las|un|una|en)\\b|\\bse\\s+(?:me|te|le|nos|les)\\b|\\bse\\s+(?:dice|habla|vende|venden|puede|necesita)\\b"
+    },
+    {
+     "id": "preterito",
+     "name": "Pretérito: fue ou era?",
+     "desc": "Indefinido (fui, tuve, hizo) para ações concluídas num momento: \"Ayer fui al cine\". Imperfecto (iba, tenía, hacía) para hábitos, descrições e ações em andamento: \"De niño iba al parque cada día\".",
+     "pattern": "^(?:(?=.*(?:\\b(?:ayer|anoche|anteayer|de repente|de pronto|una vez(?!\\s+(?:al|por|a\\s+la|cada))|por primera vez|(?:el|la|la semana|el año|el mes|el verano|el invierno|el lunes|el martes|el miércoles|el jueves|el viernes|el sábado|el domingo|el fin de semana)\\s+pasad[oa]|hace\\s+(?:un|una|unos|unas|dos|tres|cuatro|cinco|seis|siete|ocho|nueve|diez|veinte|treinta|cien|mucho|muchos|varios|algunos|poco|pocos)\\s*(?:\\w+\\s+)?(?:segundos?|minutos?|horas?|días?|semanas?|meses|mes|años?|tiempo|rato)|en\\s+(?:mil|el\\s+año)|esta\\s+mañana|el\\s+otro\\s+día|aquel\\s+día|ese\\s+día|toda\\s+la\\s+(?:noche|tarde|mañana)|todo\\s+el\\s+día|durante\\s+(?:\\w+\\s+){1,2}(?:años|horas|días|meses|semanas))\\b|\\b(?:todos\\s+los\\s+(?:días|años|veranos|domingos|sábados|lunes|meses|inviernos)|todas\\s+las\\s+(?:mañanas|noches|tardes|semanas)|cada\\s+(?:día|semana|mes|año|mañana|noche|vez\\s+que|verano|domingo)|a\\s+menudo|con\\s+frecuencia|frecuentemente|normalmente|generalmente|habitualmente|usualmente|de\\s+(?:niño|niña|pequeño|pequeña|joven|chico|chica)|cuando\\s+(?:era|éramos|eran|eras)\\s+(?:niñ|pequeñ|joven|jóvenes|chic|muy\\s+joven|estudiante|adolescente)|en\\s+aquella\\s+época|en\\s+aquel\\s+entonces|en\\s+aquellos\\s+(?:días|tiempos|años)|a\\s+veces)\\b)).*?|(?!.*(?:\\b(?:ayer|anoche|anteayer|de repente|de pronto|una vez(?!\\s+(?:al|por|a\\s+la|cada))|por primera vez|(?:el|la|la semana|el año|el mes|el verano|el invierno|el lunes|el martes|el miércoles|el jueves|el viernes|el sábado|el domingo|el fin de semana)\\s+pasad[oa]|hace\\s+(?:un|una|unos|unas|dos|tres|cuatro|cinco|seis|siete|ocho|nueve|diez|veinte|treinta|cien|mucho|muchos|varios|algunos|poco|pocos)\\s*(?:\\w+\\s+)?(?:segundos?|minutos?|horas?|días?|semanas?|meses|mes|años?|tiempo|rato)|en\\s+(?:mil|el\\s+año)|esta\\s+mañana|el\\s+otro\\s+día|aquel\\s+día|ese\\s+día|toda\\s+la\\s+(?:noche|tarde|mañana)|todo\\s+el\\s+día|durante\\s+(?:\\w+\\s+){1,2}(?:años|horas|días|meses|semanas))\\b|\\b(?:todos\\s+los\\s+(?:días|años|veranos|domingos|sábados|lunes|meses|inviernos)|todas\\s+las\\s+(?:mañanas|noches|tardes|semanas)|cada\\s+(?:día|semana|mes|año|mañana|noche|vez\\s+que|verano|domingo)|a\\s+menudo|con\\s+frecuencia|frecuentemente|normalmente|generalmente|habitualmente|usualmente|de\\s+(?:niño|niña|pequeño|pequeña|joven|chico|chica)|cuando\\s+(?:era|éramos|eran|eras)\\s+(?:niñ|pequeñ|joven|jóvenes|chic|muy\\s+joven|estudiante|adolescente)|en\\s+aquella\\s+época|en\\s+aquel\\s+entonces|en\\s+aquellos\\s+(?:días|tiempos|años)|a\\s+veces)\\b)).*?\\bmientras\\s+(?:(?:yo|tú|él|ella|nosotros|nosotras|ellos|ellas|usted|ustedes|Tom|Mary|María|papá|mamá|(?:su|mi|tu)\\s+[^\\W\\d_]+|me|te|se|lo|la|le|nos|les|los|las)\\s+){0,2}(?=(?:estudiábamos|trabajábamos|escribíamos|caminábamos|visitábamos|ayudábamos|llegábamos|cantábamos|estudiabas|llamábamos|estudiaban|conocíamos|hablábamos|viajábamos|trabajabas|trabajaban|ganábamos|nadábamos|visitaban|queríamos|estudiaba|dormíamos|mirábamos|visitabas|trabajaba|corríamos|escribían|pasábamos|escribías|estábamos|caminaban|caminabas|jugábamos|llegaban|hablaban|llamaban|cantabas|viajaban|hablabas|sabíamos|bebíamos|conocían|viajabas|visitaba|escribía|podíamos|hacíamos|salíamos|veníamos|llegabas|caminaba|conocías|decíamos|ayudaban|teníamos|ayudabas|vivíamos|comíamos|cantaban|llamabas|cantaba|corrían|veíamos|querían|nadabas|jugaban|ganabas|nadaban|conocía|estaban|estabas|hablaba|dormían|pasaban|viajaba|leíamos|corrías|jugabas|dábamos|ayudaba|ganaban|pasabas|miraban|dormías|llamaba|llegaba|mirabas|querías|decías|decían|quería|venías|ganaba|bebían|comían|estaba|nadaba|tenías|sabías|miraba|salías|tenían|nevaba|dormía|éramos|corría|venían|llovía|salían|podían|jugaba|bebías|sabían|pasaba|podías|vivían|hacías|íbamos|vivías|hacían|comías|comía|dabas|veías|podía|había|salía|bebía|leían|decía|vivía|sabía|hacía|daban|tenía|veían|leías|venía|daba|leía|eras|ibas|iban|veía|eran|era|iba)\\b))(?<![^\\W\\d_])(?P<w>trabajábamos|estudiábamos|escribíamos|caminábamos|visitábamos|escribieron|ayudábamos|estudiabas|estudiaron|escribiste|conocíamos|trabajaron|trabajaban|estudiaste|llegábamos|cantábamos|estuvieron|llamábamos|trabajaste|estudiaban|conocieron|hablábamos|viajábamos|trabajabas|ganábamos|nadábamos|visitaban|queríamos|caminaron|conociste|dormíamos|visitabas|conocimos|corrieron|pasábamos|escribías|caminaban|durmieron|estuvimos|estudiaba|mirábamos|quisieron|trabajaba|visitaste|caminaste|visitaron|corríamos|escribían|estábamos|caminabas|jugábamos|estuviste|hablaban|llamaban|hablabas|bebíamos|comieron|pudieron|podíamos|hablaron|veníamos|caminaba|llegaron|conocías|viajaron|quisimos|bebieron|viajaste|corriste|ayudaste|teníamos|ayudabas|hicieron|comíamos|cantaban|dormiste|cantaste|llegaban|escribió|cantabas|viajaban|sabíamos|conocían|llegaste|viajabas|visitaba|escribía|cantaron|salieron|hacíamos|salíamos|llegabas|vinieron|supieron|llamaste|llamaron|vivieron|decíamos|ayudaban|tuvieron|vivíamos|corrimos|ayudaron|hablaste|quisiste|llamabas|cantaba|jugaste|corrían|veíamos|dijimos|querían|jugaban|ganabas|estaban|tuviste|miraron|escribí|dormían|dijiste|trabajé|pasaron|viniste|hicimos|ganaron|supimos|hiciste|ayudaba|dábamos|vinimos|llamaba|supiste|trabajó|mirabas|pudimos|querías|tuvimos|comiste|ganaste|nadabas|conoció|nadaban|conocía|estabas|hablaba|bebiste|comimos|viviste|estudió|pasaban|saliste|pudiste|viajaba|estudié|leíamos|corrías|jugabas|nadaste|dijeron|nadaron|ganaban|jugaron|pasabas|pasaste|miraban|miraste|dormías|llegaba|bebimos|leyeron|decías|visitó|bebían|estaba|sabías|estuve|caminó|dormía|éramos|corría|venían|corrió|podían|estuvo|jugaba|conocí|pasaba|llegué|hacías|dieron|íbamos|fueron|llovió|hacían|leíste|decían|quería|venías|caminé|ganaba|comían|nadaba|tenías|miraba|fuimos|salías|tenían|nevaba|leímos|llovía|salían|fuiste|bebías|sabían|podías|vivían|visité|vivías|vieron|comías|durmió|dimos|podía|había|hablé|leían|quiso|salió|corrí|comió|sabía|daban|viajó|veían|leías|canté|dormí|comía|quise|dabas|diste|veías|viajé|viste|cantó|salía|ayudó|bebía|bebió|llegó|llamó|vivió|llamé|decía|ayudé|vivía|habló|hacía|vimos|tenía|venía|jugué|ganó|hizo|leía|eras|bebí|ibas|pasó|leyó|dijo|miré|jugó|dije|tuve|viví|hice|miró|supo|supe|pasé|daba|comí|gané|iban|vine|veía|nadó|eran|salí|nadé|pudo|tuvo|pude|nevó|hubo|fui|leí|dio|era|iba|fue|vio|di|vi)(?![^\\W\\d_])",
+     "options": {
+      "fui": [
+       "era",
+       "iba"
+      ],
+      "era": [
+       "fui",
+       "fue"
+      ],
+      "fuiste": [
+       "eras",
+       "ibas"
+      ],
+      "eras": [
+       "fuiste",
+       "fue"
+      ],
+      "fue": [
+       "era",
+       "iba"
+      ],
+      "fuimos": [
+       "éramos",
+       "íbamos"
+      ],
+      "éramos": [
+       "fuimos",
+       "fue"
+      ],
+      "fueron": [
+       "eran",
+       "iban"
+      ],
+      "eran": [
+       "fueron",
+       "fue"
+      ],
+      "estuve": [
+       "estaba",
+       "estaban"
+      ],
+      "estaba": [
+       "estuve",
+       "estuvo"
+      ],
+      "estuviste": [
+       "estabas",
+       "estaban"
+      ],
+      "estabas": [
+       "estuviste",
+       "estuvo"
+      ],
+      "estuvo": [
+       "estaba",
+       "estaban"
+      ],
+      "estuvimos": [
+       "estábamos",
+       "estaban"
+      ],
+      "estábamos": [
+       "estuvimos",
+       "estuvo"
+      ],
+      "estuvieron": [
+       "estaban",
+       "estuve"
+      ],
+      "estaban": [
+       "estuvieron",
+       "estuvo"
+      ],
+      "tuve": [
+       "tenía",
+       "tenían"
+      ],
+      "tenía": [
+       "tuve",
+       "tuvo"
+      ],
+      "tuviste": [
+       "tenías",
+       "tenían"
+      ],
+      "tenías": [
+       "tuviste",
+       "tuvo"
+      ],
+      "tuvo": [
+       "tenía",
+       "tenían"
+      ],
+      "tuvimos": [
+       "teníamos",
+       "tenían"
+      ],
+      "teníamos": [
+       "tuvimos",
+       "tuvo"
+      ],
+      "tuvieron": [
+       "tenían",
+       "tuve"
+      ],
+      "tenían": [
+       "tuvieron",
+       "tuvo"
+      ],
+      "hice": [
+       "hacía",
+       "hacían"
+      ],
+      "hacía": [
+       "hice",
+       "hizo"
+      ],
+      "hiciste": [
+       "hacías",
+       "hacían"
+      ],
+      "hacías": [
+       "hiciste",
+       "hizo"
+      ],
+      "hizo": [
+       "hacía",
+       "hacían"
+      ],
+      "hicimos": [
+       "hacíamos",
+       "hacían"
+      ],
+      "hacíamos": [
+       "hicimos",
+       "hizo"
+      ],
+      "hicieron": [
+       "hacían",
+       "hice"
+      ],
+      "hacían": [
+       "hicieron",
+       "hizo"
+      ],
+      "iba": [
+       "fui",
+       "fue"
+      ],
+      "ibas": [
+       "fuiste",
+       "fue"
+      ],
+      "íbamos": [
+       "fuimos",
+       "fue"
+      ],
+      "iban": [
+       "fueron",
+       "fue"
+      ],
+      "pude": [
+       "podía",
+       "podían"
+      ],
+      "podía": [
+       "pude",
+       "pudo"
+      ],
+      "pudiste": [
+       "podías",
+       "podían"
+      ],
+      "podías": [
+       "pudiste",
+       "pudo"
+      ],
+      "pudo": [
+       "podía",
+       "podían"
+      ],
+      "pudimos": [
+       "podíamos",
+       "podían"
+      ],
+      "podíamos": [
+       "pudimos",
+       "pudo"
+      ],
+      "pudieron": [
+       "podían",
+       "pude"
+      ],
+      "podían": [
+       "pudieron",
+       "pudo"
+      ],
+      "quise": [
+       "quería",
+       "querían"
+      ],
+      "quería": [
+       "quise",
+       "quiso"
+      ],
+      "quisiste": [
+       "querías",
+       "querían"
+      ],
+      "querías": [
+       "quisiste",
+       "quiso"
+      ],
+      "quiso": [
+       "quería",
+       "querían"
+      ],
+      "quisimos": [
+       "queríamos",
+       "querían"
+      ],
+      "queríamos": [
+       "quisimos",
+       "quiso"
+      ],
+      "quisieron": [
+       "querían",
+       "quise"
+      ],
+      "querían": [
+       "quisieron",
+       "quiso"
+      ],
+      "supe": [
+       "sabía",
+       "sabían"
+      ],
+      "sabía": [
+       "supe",
+       "supo"
+      ],
+      "supiste": [
+       "sabías",
+       "sabían"
+      ],
+      "sabías": [
+       "supiste",
+       "supo"
+      ],
+      "supo": [
+       "sabía",
+       "sabían"
+      ],
+      "supimos": [
+       "sabíamos",
+       "sabían"
+      ],
+      "sabíamos": [
+       "supimos",
+       "supo"
+      ],
+      "supieron": [
+       "sabían",
+       "supe"
+      ],
+      "sabían": [
+       "supieron",
+       "supo"
+      ],
+      "dije": [
+       "decía",
+       "decían"
+      ],
+      "decía": [
+       "dije",
+       "dijo"
+      ],
+      "dijiste": [
+       "decías",
+       "decían"
+      ],
+      "decías": [
+       "dijiste",
+       "dijo"
+      ],
+      "dijo": [
+       "decía",
+       "decían"
+      ],
+      "dijimos": [
+       "decíamos",
+       "decían"
+      ],
+      "decíamos": [
+       "dijimos",
+       "dijo"
+      ],
+      "dijeron": [
+       "decían",
+       "dije"
+      ],
+      "decían": [
+       "dijeron",
+       "dijo"
+      ],
+      "vi": [
+       "veía",
+       "veían"
+      ],
+      "veía": [
+       "vi",
+       "vio"
+      ],
+      "viste": [
+       "veías",
+       "veían"
+      ],
+      "veías": [
+       "viste",
+       "vio"
+      ],
+      "vio": [
+       "veía",
+       "veían"
+      ],
+      "vimos": [
+       "veíamos",
+       "veían"
+      ],
+      "veíamos": [
+       "vimos",
+       "vio"
+      ],
+      "vieron": [
+       "veían",
+       "vi"
+      ],
+      "veían": [
+       "vieron",
+       "vio"
+      ],
+      "vine": [
+       "venía",
+       "venían"
+      ],
+      "venía": [
+       "vine",
+       "vinieron"
+      ],
+      "viniste": [
+       "venías",
+       "venían"
+      ],
+      "venías": [
+       "viniste",
+       "vinieron"
+      ],
+      "vinimos": [
+       "veníamos",
+       "venían"
+      ],
+      "veníamos": [
+       "vinimos",
+       "vinieron"
+      ],
+      "vinieron": [
+       "venían",
+       "vine"
+      ],
+      "venían": [
+       "vinieron",
+       "vine"
+      ],
+      "viví": [
+       "vivía",
+       "vivían"
+      ],
+      "vivía": [
+       "viví",
+       "vivió"
+      ],
+      "viviste": [
+       "vivías",
+       "vivían"
+      ],
+      "vivías": [
+       "viviste",
+       "vivió"
+      ],
+      "vivió": [
+       "vivía",
+       "vivían"
+      ],
+      "vivíamos": [
+       "vivió",
+       "vivieron"
+      ],
+      "vivieron": [
+       "vivían",
+       "viví"
+      ],
+      "vivían": [
+       "vivieron",
+       "vivió"
+      ],
+      "trabajé": [
+       "trabajaba",
+       "trabajaban"
+      ],
+      "trabajaba": [
+       "trabajé",
+       "trabajó"
+      ],
+      "trabajaste": [
+       "trabajabas",
+       "trabajaban"
+      ],
+      "trabajabas": [
+       "trabajaste",
+       "trabajó"
+      ],
+      "trabajó": [
+       "trabajaba",
+       "trabajaban"
+      ],
+      "trabajábamos": [
+       "trabajó",
+       "trabajaron"
+      ],
+      "trabajaron": [
+       "trabajaban",
+       "trabajé"
+      ],
+      "trabajaban": [
+       "trabajaron",
+       "trabajó"
+      ],
+      "jugué": [
+       "jugaba",
+       "jugaban"
+      ],
+      "jugaba": [
+       "jugué",
+       "jugó"
+      ],
+      "jugaste": [
+       "jugabas",
+       "jugaban"
+      ],
+      "jugabas": [
+       "jugaste",
+       "jugó"
+      ],
+      "jugó": [
+       "jugaba",
+       "jugaban"
+      ],
+      "jugábamos": [
+       "jugó",
+       "jugaron"
+      ],
+      "jugaron": [
+       "jugaban",
+       "jugué"
+      ],
+      "jugaban": [
+       "jugaron",
+       "jugó"
+      ],
+      "hablé": [
+       "hablaba",
+       "hablaban"
+      ],
+      "hablaba": [
+       "hablé",
+       "habló"
+      ],
+      "hablaste": [
+       "hablabas",
+       "hablaban"
+      ],
+      "hablabas": [
+       "hablaste",
+       "habló"
+      ],
+      "habló": [
+       "hablaba",
+       "hablaban"
+      ],
+      "hablábamos": [
+       "habló",
+       "hablaron"
+      ],
+      "hablaron": [
+       "hablaban",
+       "hablé"
+      ],
+      "hablaban": [
+       "hablaron",
+       "habló"
+      ],
+      "comí": [
+       "comía",
+       "comían"
+      ],
+      "comía": [
+       "comí",
+       "comió"
+      ],
+      "comiste": [
+       "comías",
+       "comían"
+      ],
+      "comías": [
+       "comiste",
+       "comió"
+      ],
+      "comió": [
+       "comía",
+       "comían"
+      ],
+      "comimos": [
+       "comíamos",
+       "comían"
+      ],
+      "comíamos": [
+       "comimos",
+       "comió"
+      ],
+      "comieron": [
+       "comían",
+       "comí"
+      ],
+      "comían": [
+       "comieron",
+       "comió"
+      ],
+      "llovió": [
+       "llovía",
+       "llueve"
+      ],
+      "llovía": [
+       "llovió",
+       "llueve"
+      ],
+      "nevó": [
+       "nevaba",
+       "nieva"
+      ],
+      "nevaba": [
+       "nevó",
+       "nieva"
+      ],
+      "leí": [
+       "leía",
+       "leían"
+      ],
+      "leía": [
+       "leí",
+       "leyó"
+      ],
+      "leíste": [
+       "leías",
+       "leían"
+      ],
+      "leías": [
+       "leíste",
+       "leyó"
+      ],
+      "leyó": [
+       "leía",
+       "leían"
+      ],
+      "leímos": [
+       "leíamos",
+       "leían"
+      ],
+      "leíamos": [
+       "leímos",
+       "leyó"
+      ],
+      "leyeron": [
+       "leían",
+       "leí"
+      ],
+      "leían": [
+       "leyeron",
+       "leyó"
+      ],
+      "escribí": [
+       "escribía",
+       "escribían"
+      ],
+      "escribía": [
+       "escribí",
+       "escribió"
+      ],
+      "escribiste": [
+       "escribías",
+       "escribían"
+      ],
+      "escribías": [
+       "escribiste",
+       "escribió"
+      ],
+      "escribió": [
+       "escribía",
+       "escribían"
+      ],
+      "escribíamos": [
+       "escribió",
+       "escribieron"
+      ],
+      "escribieron": [
+       "escribían",
+       "escribí"
+      ],
+      "escribían": [
+       "escribieron",
+       "escribió"
+      ],
+      "estudié": [
+       "estudiaba",
+       "estudiaban"
+      ],
+      "estudiaba": [
+       "estudié",
+       "estudió"
+      ],
+      "estudiaste": [
+       "estudiabas",
+       "estudiaban"
+      ],
+      "estudiabas": [
+       "estudiaste",
+       "estudió"
+      ],
+      "estudió": [
+       "estudiaba",
+       "estudiaban"
+      ],
+      "estudiábamos": [
+       "estudió",
+       "estudiaron"
+      ],
+      "estudiaron": [
+       "estudiaban",
+       "estudié"
+      ],
+      "estudiaban": [
+       "estudiaron",
+       "estudió"
+      ],
+      "visité": [
+       "visitaba",
+       "visitaban"
+      ],
+      "visitaba": [
+       "visité",
+       "visitó"
+      ],
+      "visitaste": [
+       "visitabas",
+       "visitaban"
+      ],
+      "visitabas": [
+       "visitaste",
+       "visitó"
+      ],
+      "visitó": [
+       "visitaba",
+       "visitaban"
+      ],
+      "visitábamos": [
+       "visitó",
+       "visitaron"
+      ],
+      "visitaron": [
+       "visitaban",
+       "visité"
+      ],
+      "visitaban": [
+       "visitaron",
+       "visitó"
+      ],
+      "salí": [
+       "salía",
+       "salían"
+      ],
+      "salía": [
+       "salí",
+       "salió"
+      ],
+      "saliste": [
+       "salías",
+       "salían"
+      ],
+      "salías": [
+       "saliste",
+       "salió"
+      ],
+      "salió": [
+       "salía",
+       "salían"
+      ],
+      "salíamos": [
+       "salió",
+       "salieron"
+      ],
+      "salieron": [
+       "salían",
+       "salí"
+      ],
+      "salían": [
+       "salieron",
+       "salió"
+      ],
+      "dormí": [
+       "dormía",
+       "dormían"
+      ],
+      "dormía": [
+       "dormí",
+       "durmió"
+      ],
+      "dormiste": [
+       "dormías",
+       "dormían"
+      ],
+      "dormías": [
+       "dormiste",
+       "durmió"
+      ],
+      "durmió": [
+       "dormía",
+       "dormían"
+      ],
+      "dormíamos": [
+       "durmió",
+       "durmieron"
+      ],
+      "durmieron": [
+       "dormían",
+       "dormí"
+      ],
+      "dormían": [
+       "durmieron",
+       "durmió"
+      ],
+      "conocí": [
+       "conocía",
+       "conocían"
+      ],
+      "conocía": [
+       "conocí",
+       "conoció"
+      ],
+      "conociste": [
+       "conocías",
+       "conocían"
+      ],
+      "conocías": [
+       "conociste",
+       "conoció"
+      ],
+      "conoció": [
+       "conocía",
+       "conocían"
+      ],
+      "conocimos": [
+       "conocíamos",
+       "conocían"
+      ],
+      "conocíamos": [
+       "conocimos",
+       "conoció"
+      ],
+      "conocieron": [
+       "conocían",
+       "conocí"
+      ],
+      "conocían": [
+       "conocieron",
+       "conoció"
+      ],
+      "pasé": [
+       "pasaba",
+       "pasaban"
+      ],
+      "pasaba": [
+       "pasé",
+       "pasó"
+      ],
+      "pasaste": [
+       "pasabas",
+       "pasaban"
+      ],
+      "pasabas": [
+       "pasaste",
+       "pasó"
+      ],
+      "pasó": [
+       "pasaba",
+       "pasaban"
+      ],
+      "pasábamos": [
+       "pasó",
+       "pasaron"
+      ],
+      "pasaron": [
+       "pasaban",
+       "pasé"
+      ],
+      "pasaban": [
+       "pasaron",
+       "pasó"
+      ],
+      "llegué": [
+       "llegaba",
+       "llegaban"
+      ],
+      "llegaba": [
+       "llegué",
+       "llegó"
+      ],
+      "llegaste": [
+       "llegabas",
+       "llegaban"
+      ],
+      "llegabas": [
+       "llegaste",
+       "llegó"
+      ],
+      "llegó": [
+       "llegaba",
+       "llegaban"
+      ],
+      "llegábamos": [
+       "llegó",
+       "llegaron"
+      ],
+      "llegaron": [
+       "llegaban",
+       "llegué"
+      ],
+      "llegaban": [
+       "llegaron",
+       "llegó"
+      ],
+      "caminé": [
+       "caminaba",
+       "caminaban"
+      ],
+      "caminaba": [
+       "caminé",
+       "caminó"
+      ],
+      "caminaste": [
+       "caminabas",
+       "caminaban"
+      ],
+      "caminabas": [
+       "caminaste",
+       "caminó"
+      ],
+      "caminó": [
+       "caminaba",
+       "caminaban"
+      ],
+      "caminábamos": [
+       "caminó",
+       "caminaron"
+      ],
+      "caminaron": [
+       "caminaban",
+       "caminé"
+      ],
+      "caminaban": [
+       "caminaron",
+       "caminó"
+      ],
+      "ayudé": [
+       "ayudaba",
+       "ayudaban"
+      ],
+      "ayudaba": [
+       "ayudé",
+       "ayudó"
+      ],
+      "ayudaste": [
+       "ayudabas",
+       "ayudaban"
+      ],
+      "ayudabas": [
+       "ayudaste",
+       "ayudó"
+      ],
+      "ayudó": [
+       "ayudaba",
+       "ayudaban"
+      ],
+      "ayudábamos": [
+       "ayudó",
+       "ayudaron"
+      ],
+      "ayudaron": [
+       "ayudaban",
+       "ayudé"
+      ],
+      "ayudaban": [
+       "ayudaron",
+       "ayudó"
+      ],
+      "canté": [
+       "cantaba",
+       "cantaban"
+      ],
+      "cantaba": [
+       "canté",
+       "cantó"
+      ],
+      "cantaste": [
+       "cantabas",
+       "cantaban"
+      ],
+      "cantabas": [
+       "cantaste",
+       "cantó"
+      ],
+      "cantó": [
+       "cantaba",
+       "cantaban"
+      ],
+      "cantábamos": [
+       "cantó",
+       "cantaron"
+      ],
+      "cantaron": [
+       "cantaban",
+       "canté"
+      ],
+      "cantaban": [
+       "cantaron",
+       "cantó"
+      ],
+      "nadé": [
+       "nadaba",
+       "nadaban"
+      ],
+      "nadaba": [
+       "nadé",
+       "nadó"
+      ],
+      "nadaste": [
+       "nadabas",
+       "nadaban"
+      ],
+      "nadabas": [
+       "nadaste",
+       "nadó"
+      ],
+      "nadó": [
+       "nadaba",
+       "nadaban"
+      ],
+      "nadábamos": [
+       "nadó",
+       "nadaron"
+      ],
+      "nadaron": [
+       "nadaban",
+       "nadé"
+      ],
+      "nadaban": [
+       "nadaron",
+       "nadó"
+      ],
+      "bebí": [
+       "bebía",
+       "bebían"
+      ],
+      "bebía": [
+       "bebí",
+       "bebió"
+      ],
+      "bebiste": [
+       "bebías",
+       "bebían"
+      ],
+      "bebías": [
+       "bebiste",
+       "bebió"
+      ],
+      "bebió": [
+       "bebía",
+       "bebían"
+      ],
+      "bebimos": [
+       "bebíamos",
+       "bebían"
+      ],
+      "bebíamos": [
+       "bebimos",
+       "bebió"
+      ],
+      "bebieron": [
+       "bebían",
+       "bebí"
+      ],
+      "bebían": [
+       "bebieron",
+       "bebió"
+      ],
+      "llamé": [
+       "llamaba",
+       "llamaban"
+      ],
+      "llamaba": [
+       "llamé",
+       "llamó"
+      ],
+      "llamaste": [
+       "llamabas",
+       "llamaban"
+      ],
+      "llamabas": [
+       "llamaste",
+       "llamó"
+      ],
+      "llamó": [
+       "llamaba",
+       "llamaban"
+      ],
+      "llamábamos": [
+       "llamó",
+       "llamaron"
+      ],
+      "llamaron": [
+       "llamaban",
+       "llamé"
+      ],
+      "llamaban": [
+       "llamaron",
+       "llamó"
+      ],
+      "miré": [
+       "miraba",
+       "miraban"
+      ],
+      "miraba": [
+       "miré",
+       "miró"
+      ],
+      "miraste": [
+       "mirabas",
+       "miraban"
+      ],
+      "mirabas": [
+       "miraste",
+       "miró"
+      ],
+      "miró": [
+       "miraba",
+       "miraban"
+      ],
+      "mirábamos": [
+       "miró",
+       "miraron"
+      ],
+      "miraron": [
+       "miraban",
+       "miré"
+      ],
+      "miraban": [
+       "miraron",
+       "miró"
+      ],
+      "gané": [
+       "ganaba",
+       "ganaban"
+      ],
+      "ganaba": [
+       "gané",
+       "ganó"
+      ],
+      "ganaste": [
+       "ganabas",
+       "ganaban"
+      ],
+      "ganabas": [
+       "ganaste",
+       "ganó"
+      ],
+      "ganó": [
+       "ganaba",
+       "ganaban"
+      ],
+      "ganábamos": [
+       "ganó",
+       "ganaron"
+      ],
+      "ganaron": [
+       "ganaban",
+       "gané"
+      ],
+      "ganaban": [
+       "ganaron",
+       "ganó"
+      ],
+      "viajé": [
+       "viajaba",
+       "viajaban"
+      ],
+      "viajaba": [
+       "viajé",
+       "viajó"
+      ],
+      "viajaste": [
+       "viajabas",
+       "viajaban"
+      ],
+      "viajabas": [
+       "viajaste",
+       "viajó"
+      ],
+      "viajó": [
+       "viajaba",
+       "viajaban"
+      ],
+      "viajábamos": [
+       "viajó",
+       "viajaron"
+      ],
+      "viajaron": [
+       "viajaban",
+       "viajé"
+      ],
+      "viajaban": [
+       "viajaron",
+       "viajó"
+      ],
+      "corrí": [
+       "corría",
+       "corrían"
+      ],
+      "corría": [
+       "corrí",
+       "corrió"
+      ],
+      "corriste": [
+       "corrías",
+       "corrían"
+      ],
+      "corrías": [
+       "corriste",
+       "corrió"
+      ],
+      "corrió": [
+       "corría",
+       "corrían"
+      ],
+      "corrimos": [
+       "corríamos",
+       "corrían"
+      ],
+      "corríamos": [
+       "corrimos",
+       "corrió"
+      ],
+      "corrieron": [
+       "corrían",
+       "corrí"
+      ],
+      "corrían": [
+       "corrieron",
+       "corrió"
+      ],
+      "di": [
+       "daba",
+       "daban"
+      ],
+      "daba": [
+       "di",
+       "dio"
+      ],
+      "diste": [
+       "dabas",
+       "daban"
+      ],
+      "dabas": [
+       "diste",
+       "dio"
+      ],
+      "dio": [
+       "daba",
+       "daban"
+      ],
+      "dimos": [
+       "dábamos",
+       "daban"
+      ],
+      "dábamos": [
+       "dimos",
+       "dio"
+      ],
+      "dieron": [
+       "daban",
+       "di"
+      ],
+      "daban": [
+       "dieron",
+       "dio"
+      ],
+      "hubo": [
+       "había",
+       "hay"
+      ],
+      "había": [
+       "hubo",
+       "hay"
+      ]
+     },
+     "exclude": "(?=.*\\b(?:ayer|anoche|anteayer|de repente|de pronto|una vez(?!\\s+(?:al|por|a\\s+la|cada))|por primera vez|(?:el|la|la semana|el año|el mes|el verano|el invierno|el lunes|el martes|el miércoles|el jueves|el viernes|el sábado|el domingo|el fin de semana)\\s+pasad[oa]|hace\\s+(?:un|una|unos|unas|dos|tres|cuatro|cinco|seis|siete|ocho|nueve|diez|veinte|treinta|cien|mucho|muchos|varios|algunos|poco|pocos)\\s*(?:\\w+\\s+)?(?:segundos?|minutos?|horas?|días?|semanas?|meses|mes|años?|tiempo|rato)|en\\s+(?:mil|el\\s+año)|esta\\s+mañana|el\\s+otro\\s+día|aquel\\s+día|ese\\s+día|toda\\s+la\\s+(?:noche|tarde|mañana)|todo\\s+el\\s+día|durante\\s+(?:\\w+\\s+){1,2}(?:años|horas|días|meses|semanas))\\b)(?=.*\\b(?:todos\\s+los\\s+(?:días|años|veranos|domingos|sábados|lunes|meses|inviernos)|todas\\s+las\\s+(?:mañanas|noches|tardes|semanas)|cada\\s+(?:día|semana|mes|año|mañana|noche|vez\\s+que|verano|domingo)|a\\s+menudo|con\\s+frecuencia|frecuentemente|normalmente|generalmente|habitualmente|usualmente|de\\s+(?:niño|niña|pequeño|pequeña|joven|chico|chica)|cuando\\s+(?:era|éramos|eran|eras)\\s+(?:niñ|pequeñ|joven|jóvenes|chic|muy\\s+joven|estudiante|adolescente)|en\\s+aquella\\s+época|en\\s+aquel\\s+entonces|en\\s+aquellos\\s+(?:días|tiempos|años)|a\\s+veces)\\b)|^(?!.*\\b(?:durante\\s+(?:\\w+\\s+){0,2}(?:años|horas|días|meses|semanas|minutos|año|hora|mes|semana)|toda\\s+la\\s+(?:noche|tarde|mañana|semana|vida)|todo\\s+el\\s+(?:día|año|verano|invierno|mes|fin\\s+de\\s+semana)|de\\s+repente|de\\s+pronto|por\\s+(?:dos|tres|cuatro|cinco|seis|diez|veinte|muchos|varios)\\s+(?:años|horas|días|meses|semanas))\\b)(?!.*\\b(?:todos\\s+los\\s+(?:días|años|veranos|domingos|sábados|lunes|meses|inviernos)|todas\\s+las\\s+(?:mañanas|noches|tardes|semanas)|cada\\s+(?:día|semana|mes|año|mañana|noche|vez\\s+que|verano|domingo)|a\\s+menudo|con\\s+frecuencia|frecuentemente|normalmente|generalmente|habitualmente|usualmente|de\\s+(?:niño|niña|pequeño|pequeña|joven|chico|chica)|cuando\\s+(?:era|éramos|eran|eras)\\s+(?:niñ|pequeñ|joven|jóvenes|chic|muy\\s+joven|estudiante|adolescente)|mientras|en\\s+aquella\\s+época|en\\s+aquel\\s+entonces|en\\s+aquellos\\s+(?:días|tiempos|años)|a\\s+veces)\\b)(?=.*(?<![^\\W\\d_])(?:era|eras|éramos|eran|estuve|estuviste|estuvo|estuvimos|estuvieron|estaba|estabas|estábamos|estaban|tuve|tuviste|tuvo|tuvimos|tuvieron|tenía|tenías|teníamos|tenían|supe|supiste|supo|supimos|supieron|sabía|sabías|sabíamos|sabían|quise|quisiste|quiso|quisimos|quisieron|quería|querías|queríamos|querían|pude|pudiste|pudo|pudimos|pudieron|podía|podías|podíamos|podían|hubo|había|conocí|conociste|conoció|conocimos|conocieron|conocía|conocías|conocíamos|conocían|vivía|viví|vivió|vivimos|vivieron|vivían|(?:fui|fuiste|fue|fuimos|fueron)(?!\\s+(?:a|al|hasta|de\\s+compras|de\\s+viaje)\\b)|(?:hizo|hacía)(?=\\s+(?:mucho\\s+|tanto\\s+|demasiado\\s+|más\\s+|un\\s+)?(?:frío|calor|buen|mal|sol|viento|fresco|día)))(?![^\\W\\d_]))|^(?=.*\\b(?:durante\\s+(?:\\w+\\s+){0,2}(?:años|horas|días|meses|semanas|minutos|año|hora|mes|semana)|toda\\s+la\\s+(?:noche|tarde|mañana|semana|vida)|todo\\s+el\\s+(?:día|año|verano|invierno|mes|fin\\s+de\\s+semana)|de\\s+repente|de\\s+pronto|por\\s+(?:dos|tres|cuatro|cinco|seis|diez|veinte|muchos|varios)\\s+(?:años|horas|días|meses|semanas))\\b)(?=.*\\b(?:todos\\s+los\\s+(?:días|años|veranos|domingos|sábados|lunes|meses|inviernos)|todas\\s+las\\s+(?:mañanas|noches|tardes|semanas)|cada\\s+(?:día|semana|mes|año|mañana|noche|vez\\s+que|verano|domingo)|a\\s+menudo|con\\s+frecuencia|frecuentemente|normalmente|generalmente|habitualmente|usualmente|de\\s+(?:niño|niña|pequeño|pequeña|joven|chico|chica)|cuando\\s+(?:era|éramos|eran|eras)\\s+(?:niñ|pequeñ|joven|jóvenes|chic|muy\\s+joven|estudiante|adolescente)|mientras|en\\s+aquella\\s+época|en\\s+aquel\\s+entonces|en\\s+aquellos\\s+(?:días|tiempos|años)|a\\s+veces)\\b)|^(?!.*\\b(?:todos\\s+los\\s+(?:días|años|veranos|domingos|sábados|lunes|meses|inviernos)|todas\\s+las\\s+(?:mañanas|noches|tardes|semanas)|cada\\s+(?:día|semana|mes|año|mañana|noche|vez\\s+que|verano|domingo)|a\\s+menudo|con\\s+frecuencia|frecuentemente|normalmente|generalmente|habitualmente|usualmente|de\\s+(?:niño|niña|pequeño|pequeña|joven|chico|chica)|cuando\\s+(?:era|éramos|eran|eras)\\s+(?:niñ|pequeñ|joven|jóvenes|chic|muy\\s+joven|estudiante|adolescente)|mientras|en\\s+aquella\\s+época|en\\s+aquel\\s+entonces|en\\s+aquellos\\s+(?:días|tiempos|años)|a\\s+veces)\\b)(?=.*(?<![^\\W\\d_])(?:estudiábamos|trabajábamos|escribíamos|caminábamos|visitábamos|ayudábamos|llegábamos|cantábamos|estudiabas|llamábamos|estudiaban|conocíamos|hablábamos|viajábamos|trabajabas|trabajaban|ganábamos|nadábamos|visitaban|queríamos|estudiaba|dormíamos|mirábamos|visitabas|trabajaba|corríamos|escribían|pasábamos|escribías|estábamos|caminaban|caminabas|jugábamos|llegaban|hablaban|llamaban|cantabas|viajaban|hablabas|sabíamos|bebíamos|conocían|viajabas|visitaba|escribía|podíamos|hacíamos|salíamos|veníamos|llegabas|caminaba|conocías|decíamos|ayudaban|teníamos|ayudabas|vivíamos|comíamos|cantaban|llamabas|cantaba|corrían|veíamos|querían|nadabas|jugaban|ganabas|nadaban|conocía|estaban|estabas|hablaba|dormían|pasaban|viajaba|leíamos|corrías|jugabas|dábamos|ayudaba|ganaban|pasabas|miraban|dormías|llamaba|llegaba|mirabas|querías|decías|decían|quería|venías|ganaba|bebían|comían|estaba|nadaba|tenías|sabías|miraba|salías|tenían|nevaba|dormía|éramos|corría|venían|llovía|salían|podían|jugaba|bebías|sabían|pasaba|podías|vivían|hacías|íbamos|vivías|hacían|comías|comía|dabas|veías|podía|había|salía|bebía|leían|decía|vivía|sabía|hacía|daban|tenía|veían|leías|venía|daba|leía|eras|ibas|iban|veía|eran|era|iba)(?![^\\W\\d_]))|^(?!.*\\b(?:ayer|anoche|anteayer|de repente|de pronto|una vez(?!\\s+(?:al|por|a\\s+la|cada))|por primera vez|(?:el|la|la semana|el año|el mes|el verano|el invierno|el lunes|el martes|el miércoles|el jueves|el viernes|el sábado|el domingo|el fin de semana)\\s+pasad[oa]|hace\\s+(?:un|una|unos|unas|dos|tres|cuatro|cinco|seis|siete|ocho|nueve|diez|veinte|treinta|cien|mucho|muchos|varios|algunos|poco|pocos)\\s*(?:\\w+\\s+)?(?:segundos?|minutos?|horas?|días?|semanas?|meses|mes|años?|tiempo|rato)|en\\s+(?:mil|el\\s+año)|esta\\s+mañana|el\\s+otro\\s+día|aquel\\s+día|ese\\s+día|toda\\s+la\\s+(?:noche|tarde|mañana)|todo\\s+el\\s+día|durante\\s+(?:\\w+\\s+){1,2}(?:años|horas|días|meses|semanas))\\b)(?=.*(?<![^\\W\\d_])(?:escribieron|estuvieron|estudiaron|trabajaste|escribiste|conocieron|estudiaste|trabajaron|durmieron|caminaron|estuvimos|conociste|quisieron|visitaste|caminaste|visitaron|conocimos|corrieron|estuviste|dormiste|cantaste|escribió|comieron|hablaste|pudieron|llegaste|cantaron|bebieron|salieron|hablaron|llegaron|viajaron|quisimos|vinieron|viajaste|supieron|llamaste|llamaron|vivieron|corriste|ayudaste|tuvieron|hicieron|corrimos|ayudaron|quisiste|jugaste|tuvimos|comiste|ganaste|dijimos|conoció|tuviste|miraron|escribí|bebiste|dijiste|trabajé|pasaron|viniste|comimos|viviste|estudió|saliste|hicimos|pudiste|estudié|ganaron|supimos|hiciste|nadaste|dijeron|nadaron|jugaron|pasaste|vinimos|miraste|bebimos|supiste|trabajó|leyeron|pudimos|visitó|caminé|fuimos|estuve|caminó|leímos|corrió|estuvo|fuiste|conocí|llegué|dieron|visité|fueron|vieron|llovió|leíste|durmió|dormí|quise|dimos|diste|viajé|viste|hablé|cantó|ayudó|bebió|quiso|llegó|llamó|vivió|llamé|ayudé|salió|corrí|habló|comió|vimos|viajó|canté|jugué|supe|pasé|ganó|hizo|bebí|comí|pasó|leyó|gané|dijo|vine|miré|jugó|nadó|dije|salí|tuve|pudo|nadé|tuvo|pude|viví|hice|miró|nevó|supo|hubo|fui|leí|dio|fue|vio|di|vi)(?![^\\W\\d_]))|\\bhace\\s+\\w+\\s+(?:años|meses|días)\\s+que\\b|\\bmientras\\s+(?:que|tanto)\\b|\\b(?:había|habías|habíamos|habían|hubo)\\s+\\w+(?:ado|ido|to|cho|sto)\\b|\\b(?:había|hubo)\\s+que\\b|\\bsi\\s+(?:tuviera|fuera|pudiera)|\\bdijo\\s+que\\b.*\\b(?:era|tenía|estaba|iba|había|podía|quería|sabía)\\b|\\buna\\s+vez\\s+(?:al|por|a\\s+la|cada)\\b"
+    },
+    {
+     "id": "subjuntivo",
+     "name": "Subjuntivo (quiero que…)",
+     "desc": "Depois de desejo, pedido, dúvida ou finalidade + \"que\" usa-se o subjuntivo: \"Quiero que vengas\", \"Espero que llueva\", \"Ojalá esté bien\", \"para que lo sepas\".",
+     "pattern": "\\b(?:(?:quiero|quieres|quiere|queremos|quieren|queréis|espero|esperas|espera|esperamos|esperan|prefiero|prefiere|preferimos|prefieren|necesito|necesita|necesitamos|pido|pide|pedimos|ruego|deseo|desea|sugiero|sugiere|recomiendo|recomienda|exijo|dudo|duda|dudamos|me alegra|me alegro de|no creo|no pienso|no cree|no creemos|es importante|es necesario|es posible|es imposible|es probable|es mejor|es hora de|es raro|es una pena|es una lástima|qué pena|ojalá|para|antes de|sin|a menos|hasta|es preciso|basta con|tal vez|quizás|no es cierto|no es verdad|me sorprende|me molesta|me gusta|me encanta|no me importa|no importa|te pido|le pido|os pido|les pido|te ruego|le ruego|me pidió|me pide|déjame|deja|dile|dígale|decile|haz|hace falta|conviene)\\s+que|ojalá(?:\\s+que)?|para\\s+que|antes\\s+de\\s+que|sin\\s+que|a\\s+menos\\s+que|hasta\\s+que(?=\\s+(?:\\w+\\s+){0,2}(?:vuelva|llegue|vengas|venga|vuelvas|llegues|termine|termines|esté|haya|sea|pueda|puedas|salga)\\b))(?:\\s+(?:no|me|te|se|lo|la|le|nos|os|les|los|las|tú|vos|él|ella|usted|ustedes|ellos|ellas|nosotros|vosotros|yo|todos|todo|nadie|alguien|ya|Tom|Mary|María|Tomás|John|Juan|Jim|Ken|Mike|Jack|Bill|Bob|Jane|Lucy|Alice|Pedro|Ana|Pablo|Carlos|Luis|Paul|Kate|Taro|Tony|Yumi|Emily|Nancy|Judy|Betty|Meg|Linda|Alex|George|Ricardo))*\\s+(?P<w>sorprendamos|comprendamos|descansemos|funcionemos|acompañemos|contestemos|compartamos|encontremos|descubramos|preocupemos|respondamos|estudiemos|molestemos|arreglemos|sorprendas|terminemos|insistamos|comprendan|escuchemos|entendamos|conozcamos|sorprendan|encuentren|importemos|escribamos|intentemos|perdonemos|encuentres|trabajemos|permitamos|discutamos|aprendamos|regresemos|encantemos|preparemos|respetemos|levantemos|comprendas|enseñemos|ocurramos|preocupen|manejemos|sorprenda|esperemos|busquemos|descubras|escapemos|funcionen|cumplamos|ofendamos|encuentre|lleguemos|mejoremos|entiendan|respondan|comprenda|descubran|cambiemos|acompañen|recibamos|empecemos|compremos|acompañes|decidamos|cocinemos|asistamos|limpiemos|olvidemos|visitemos|funciones|compartas|existamos|preocupes|descanses|contestes|traigamos|respondas|compartan|descansen|aceptemos|contesten|entiendas|elijamos|callemos|regreses|insistas|viajemos|conteste|sintamos|suframos|aprendan|descanse|prepares|respetes|llevemos|avisemos|termines|conozcan|permitas|levantes|arregles|hablemos|rompamos|trabajes|insistan|escribas|paguemos|juguemos|salgamos|preocupe|intentes|intenten|aprendas|encanten|discutas|importen|escuches|firmemos|importes|escriban|volvamos|durmamos|preparen|acompañe|corramos|encantes|tengamos|pongamos|terminen|molestes|estudien|entienda|respeten|entremos|comparta|bailemos|discutan|escuchen|cantemos|salvemos|levanten|regresen|molesten|arreglen|empiecen|quedemos|cuidemos|responda|descubra|funcione|estudies|contemos|conozcas|ayudemos|perdonen|empieces|gustemos|trabajen|vendamos|mandemos|vengamos|partamos|queramos|llamemos|perdones|pensemos|permitan|mejores|encante|sepamos|reciban|bebamos|temamos|dejemos|cambien|manejes|termine|pienses|creamos|oigamos|regrese|asistan|hayamos|empiece|sientan|piensen|vivamos|ocurras|lleguen|vuelvas|lavemos|intente|cocines|ocurran|perdone|andemos|visiten|escuche|olviden|nademos|esperen|prepare|enseñen|discuta|vuelvan|hagamos|cumplas|miremos|compren|arregle|estemos|comamos|digamos|busques|odiemos|limpien|enseñes|levante|quieras|tomemos|cambies|traigas|escapen|permita|llegues|duremos|pidamos|subamos|duerman|aceptes|respete|pasemos|cuenten|recibas|sientas|debamos|importe|escriba|decidan|limpies|duermas|manejen|casemos|trabaje|aprenda|cumplan|decidas|muramos|jueguen|compres|moleste|cocinen|metamos|existas|podamos|ofendas|cuentes|ofendan|estudie|conozca|busquen|mejoren|existan|esperes|vayamos|quieran|juegues|visites|escapes|abramos|asistas|sigamos|olvides|ganemos|insista|traigan|acepten|entren|puedan|salves|compre|pagues|ocurra|sienta|seamos|calles|cantes|avisen|llamen|corras|lleves|reciba|paguen|mueras|mueran|vendas|firmes|escape|llames|duerma|hablen|rompan|enseñe|bailen|maneje|leamos|ayudes|decida|mandes|avises|callen|canten|quiera|traiga|amemos|hables|limpie|vendan|llueva|asista|busque|visite|rompas|queden|elijan|salven|sufras|juegue|espere|pongas|ofenda|partan|vengan|exista|corran|salgan|elijas|gusten|llegue|cuides|manden|pongan|salgas|tengas|viajen|cuente|quedes|sufran|cumpla|olvide|vengas|firmen|usemos|gustes|mejore|cuiden|veamos|viajes|ayuden|partas|entres|vuelva|piense|acepte|bailes|tengan|cocine|cambie|puedas|lleven|estén|sigas|creas|ponga|hagas|demos|odies|vayas|beban|hable|baile|deban|lleve|mande|duren|sigan|pasen|hagan|vayan|suban|hayan|teman|laves|dejen|sepan|rompa|dejes|salga|odien|crean|naden|pueda|quede|metan|pague|llame|nades|anden|calle|oigan|elija|cases|avise|coman|ganes|abras|cante|parta|tenga|ayude|cuide|metas|guste|bebas|miren|oigas|digan|temas|sepas|pidan|vivan|subas|dures|mires|nieve|comas|venda|pidas|salve|corra|entre|tomen|abran|vivas|tomes|casen|ganen|pases|hayas|muera|debas|laven|viaje|sufra|digas|firme|estés|andes|venga|crea|abra|veas|deje|seas|vaya|siga|leas|dure|sepa|deba|mire|haya|lean|gane|meta|tome|diga|pida|uses|tema|amen|pase|odie|suba|coma|oiga|viva|beba|vean|usen|sean|case|haga|nade|ames|esté|lave|ande|use|sea|vea|lea|ame|den|des|dé)(?![^\\W\\d_])",
+     "options": {
+      "sea": [
+       "es",
+       "será"
+      ],
+      "seas": [
+       "eres",
+       "serás"
+      ],
+      "seamos": [
+       "somos",
+       "seremos"
+      ],
+      "sean": [
+       "son",
+       "serán"
+      ],
+      "esté": [
+       "está",
+       "estará"
+      ],
+      "estés": [
+       "estás",
+       "estarás"
+      ],
+      "estemos": [
+       "estamos",
+       "estaremos"
+      ],
+      "estén": [
+       "están",
+       "estarán"
+      ],
+      "tenga": [
+       "tiene",
+       "tendrá"
+      ],
+      "tengas": [
+       "tienes",
+       "tendrás"
+      ],
+      "tengamos": [
+       "tenemos",
+       "tendremos"
+      ],
+      "tengan": [
+       "tienen",
+       "tendrán"
+      ],
+      "haga": [
+       "hace",
+       "hará"
+      ],
+      "hagas": [
+       "haces",
+       "harás"
+      ],
+      "hagamos": [
+       "hacemos",
+       "haremos"
+      ],
+      "hagan": [
+       "hacen",
+       "harán"
+      ],
+      "vaya": [
+       "va",
+       "irá"
+      ],
+      "vayas": [
+       "vas",
+       "irás"
+      ],
+      "vayamos": [
+       "vamos",
+       "iremos"
+      ],
+      "vayan": [
+       "van",
+       "irán"
+      ],
+      "venga": [
+       "viene",
+       "vendrá"
+      ],
+      "vengas": [
+       "vienes",
+       "vendrás"
+      ],
+      "vengamos": [
+       "venimos",
+       "vendremos"
+      ],
+      "vengan": [
+       "vienen",
+       "vendrán"
+      ],
+      "pueda": [
+       "puede",
+       "podrá"
+      ],
+      "puedas": [
+       "puedes",
+       "podrás"
+      ],
+      "podamos": [
+       "podemos",
+       "podremos"
+      ],
+      "puedan": [
+       "pueden",
+       "podrán"
+      ],
+      "sepa": [
+       "sabe",
+       "sabrá"
+      ],
+      "sepas": [
+       "sabes",
+       "sabrás"
+      ],
+      "sepamos": [
+       "sabemos",
+       "sabremos"
+      ],
+      "sepan": [
+       "saben",
+       "sabrán"
+      ],
+      "diga": [
+       "dice",
+       "dirá"
+      ],
+      "digas": [
+       "dices",
+       "dirás"
+      ],
+      "digamos": [
+       "decimos",
+       "diremos"
+      ],
+      "digan": [
+       "dicen",
+       "dirán"
+      ],
+      "haya": [
+       "ha",
+       "habrá"
+      ],
+      "hayas": [
+       "has",
+       "habrás"
+      ],
+      "hayamos": [
+       "hemos",
+       "habremos"
+      ],
+      "hayan": [
+       "han",
+       "habrán"
+      ],
+      "dé": [
+       "da",
+       "dará"
+      ],
+      "des": [
+       "das",
+       "darás"
+      ],
+      "demos": [
+       "damos",
+       "daremos"
+      ],
+      "den": [
+       "dan",
+       "darán"
+      ],
+      "vea": [
+       "ve",
+       "verá"
+      ],
+      "veas": [
+       "ves",
+       "verás"
+      ],
+      "veamos": [
+       "vemos",
+       "veremos"
+      ],
+      "vean": [
+       "ven",
+       "verán"
+      ],
+      "salga": [
+       "sale",
+       "saldrá"
+      ],
+      "salgas": [
+       "sales",
+       "saldrás"
+      ],
+      "salgamos": [
+       "salimos",
+       "saldremos"
+      ],
+      "salgan": [
+       "salen",
+       "saldrán"
+      ],
+      "ponga": [
+       "pone",
+       "pondrá"
+      ],
+      "pongas": [
+       "pones",
+       "pondrás"
+      ],
+      "pongamos": [
+       "ponemos",
+       "pondremos"
+      ],
+      "pongan": [
+       "ponen",
+       "pondrán"
+      ],
+      "traiga": [
+       "trae",
+       "traerá"
+      ],
+      "traigas": [
+       "traes",
+       "traerás"
+      ],
+      "traigamos": [
+       "traemos",
+       "traeremos"
+      ],
+      "traigan": [
+       "traen",
+       "traerán"
+      ],
+      "conozca": [
+       "conoce",
+       "conocerá"
+      ],
+      "conozcas": [
+       "conoces",
+       "conocerás"
+      ],
+      "conozcamos": [
+       "conocemos",
+       "conoceremos"
+      ],
+      "conozcan": [
+       "conocen",
+       "conocerán"
+      ],
+      "quiera": [
+       "quiere",
+       "querrá"
+      ],
+      "quieras": [
+       "quieres",
+       "querrás"
+      ],
+      "queramos": [
+       "queremos",
+       "querremos"
+      ],
+      "quieran": [
+       "quieren",
+       "querrán"
+      ],
+      "vuelva": [
+       "vuelve",
+       "volverá"
+      ],
+      "vuelvas": [
+       "vuelves",
+       "volverás"
+      ],
+      "volvamos": [
+       "volvemos",
+       "volveremos"
+      ],
+      "vuelvan": [
+       "vuelven",
+       "volverán"
+      ],
+      "entienda": [
+       "entiende",
+       "entenderá"
+      ],
+      "entiendas": [
+       "entiendes",
+       "entenderás"
+      ],
+      "entendamos": [
+       "entendemos",
+       "entenderemos"
+      ],
+      "entiendan": [
+       "entienden",
+       "entenderán"
+      ],
+      "siga": [
+       "sigue",
+       "seguirá"
+      ],
+      "sigas": [
+       "sigues",
+       "seguirás"
+      ],
+      "sigamos": [
+       "seguimos",
+       "seguiremos"
+      ],
+      "sigan": [
+       "siguen",
+       "seguirán"
+      ],
+      "llueva": [
+       "llueve",
+       "lloverá"
+      ],
+      "nieve": [
+       "nieva",
+       "nevará"
+      ],
+      "duerma": [
+       "duerme",
+       "dormirá"
+      ],
+      "duermas": [
+       "duermes",
+       "dormirás"
+      ],
+      "durmamos": [
+       "dormimos",
+       "dormiremos"
+      ],
+      "duerman": [
+       "duermen",
+       "dormirán"
+      ],
+      "pague": [
+       "paga",
+       "pagará"
+      ],
+      "pagues": [
+       "pagas",
+       "pagarás"
+      ],
+      "paguemos": [
+       "pagamos",
+       "pagaremos"
+      ],
+      "paguen": [
+       "pagan",
+       "pagarán"
+      ],
+      "llegue": [
+       "llega",
+       "llegará"
+      ],
+      "llegues": [
+       "llegas",
+       "llegarás"
+      ],
+      "lleguemos": [
+       "llegamos",
+       "llegaremos"
+      ],
+      "lleguen": [
+       "llegan",
+       "llegarán"
+      ],
+      "busque": [
+       "busca",
+       "buscará"
+      ],
+      "busques": [
+       "buscas",
+       "buscarás"
+      ],
+      "busquemos": [
+       "buscamos",
+       "buscaremos"
+      ],
+      "busquen": [
+       "buscan",
+       "buscarán"
+      ],
+      "empiece": [
+       "empieza",
+       "empezará"
+      ],
+      "empieces": [
+       "empiezas",
+       "empezarás"
+      ],
+      "empecemos": [
+       "empezamos",
+       "empezaremos"
+      ],
+      "empiecen": [
+       "empiezan",
+       "empezarán"
+      ],
+      "pida": [
+       "pide",
+       "pedirá"
+      ],
+      "pidas": [
+       "pides",
+       "pedirás"
+      ],
+      "pidamos": [
+       "pedimos",
+       "pediremos"
+      ],
+      "pidan": [
+       "piden",
+       "pedirán"
+      ],
+      "oiga": [
+       "oye",
+       "oirá"
+      ],
+      "oigas": [
+       "oyes",
+       "oirás"
+      ],
+      "oigamos": [
+       "oímos",
+       "oiremos"
+      ],
+      "oigan": [
+       "oyen",
+       "oirán"
+      ],
+      "muera": [
+       "muere",
+       "morirá"
+      ],
+      "mueras": [
+       "mueres",
+       "morirás"
+      ],
+      "muramos": [
+       "morimos",
+       "moriremos"
+      ],
+      "mueran": [
+       "mueren",
+       "morirán"
+      ],
+      "piense": [
+       "piensa",
+       "pensará"
+      ],
+      "pienses": [
+       "piensas",
+       "pensarás"
+      ],
+      "pensemos": [
+       "pensamos",
+       "pensaremos"
+      ],
+      "piensen": [
+       "piensan",
+       "pensarán"
+      ],
+      "sienta": [
+       "siente",
+       "sentirá"
+      ],
+      "sientas": [
+       "sientes",
+       "sentirás"
+      ],
+      "sintamos": [
+       "sentimos",
+       "sentiremos"
+      ],
+      "sientan": [
+       "sienten",
+       "sentirán"
+      ],
+      "cuente": [
+       "cuenta",
+       "contará"
+      ],
+      "cuentes": [
+       "cuentas",
+       "contarás"
+      ],
+      "contemos": [
+       "contamos",
+       "contaremos"
+      ],
+      "cuenten": [
+       "cuentan",
+       "contarán"
+      ],
+      "encuentre": [
+       "encuentra",
+       "encontrará"
+      ],
+      "encuentres": [
+       "encuentras",
+       "encontrarás"
+      ],
+      "encontremos": [
+       "encontramos",
+       "encontraremos"
+      ],
+      "encuentren": [
+       "encuentran",
+       "encontrarán"
+      ],
+      "juegue": [
+       "juega",
+       "jugará"
+      ],
+      "juegues": [
+       "juegas",
+       "jugarás"
+      ],
+      "juguemos": [
+       "jugamos",
+       "jugaremos"
+      ],
+      "jueguen": [
+       "juegan",
+       "jugarán"
+      ],
+      "elija": [
+       "elige",
+       "elegirá"
+      ],
+      "elijas": [
+       "eliges",
+       "elegirás"
+      ],
+      "elijamos": [
+       "elegimos",
+       "elegiremos"
+      ],
+      "elijan": [
+       "eligen",
+       "elegirán"
+      ],
+      "hable": [
+       "habla",
+       "hablará"
+      ],
+      "hables": [
+       "hablas",
+       "hablarás"
+      ],
+      "hablemos": [
+       "hablamos",
+       "hablaremos"
+      ],
+      "hablen": [
+       "hablan",
+       "hablarán"
+      ],
+      "ayude": [
+       "ayuda",
+       "ayudará"
+      ],
+      "ayudes": [
+       "ayudas",
+       "ayudarás"
+      ],
+      "ayudemos": [
+       "ayudamos",
+       "ayudaremos"
+      ],
+      "ayuden": [
+       "ayudan",
+       "ayudarán"
+      ],
+      "llame": [
+       "llama",
+       "llamará"
+      ],
+      "llames": [
+       "llamas",
+       "llamarás"
+      ],
+      "llamemos": [
+       "llamamos",
+       "llamaremos"
+      ],
+      "llamen": [
+       "llaman",
+       "llamarán"
+      ],
+      "estudie": [
+       "estudia",
+       "estudiará"
+      ],
+      "estudies": [
+       "estudias",
+       "estudiarás"
+      ],
+      "estudiemos": [
+       "estudiamos",
+       "estudiaremos"
+      ],
+      "estudien": [
+       "estudian",
+       "estudiarán"
+      ],
+      "trabaje": [
+       "trabaja",
+       "trabajará"
+      ],
+      "trabajes": [
+       "trabajas",
+       "trabajarás"
+      ],
+      "trabajemos": [
+       "trabajamos",
+       "trabajaremos"
+      ],
+      "trabajen": [
+       "trabajan",
+       "trabajarán"
+      ],
+      "espere": [
+       "espera",
+       "esperará"
+      ],
+      "esperes": [
+       "esperas",
+       "esperarás"
+      ],
+      "esperemos": [
+       "esperamos",
+       "esperaremos"
+      ],
+      "esperen": [
+       "esperan",
+       "esperarán"
+      ],
+      "quede": [
+       "queda",
+       "quedará"
+      ],
+      "quedes": [
+       "quedas",
+       "quedarás"
+      ],
+      "quedemos": [
+       "quedamos",
+       "quedaremos"
+      ],
+      "queden": [
+       "quedan",
+       "quedarán"
+      ],
+      "deje": [
+       "deja",
+       "dejará"
+      ],
+      "dejes": [
+       "dejas",
+       "dejarás"
+      ],
+      "dejemos": [
+       "dejamos",
+       "dejaremos"
+      ],
+      "dejen": [
+       "dejan",
+       "dejarán"
+      ],
+      "gane": [
+       "gana",
+       "ganará"
+      ],
+      "ganes": [
+       "ganas",
+       "ganarás"
+      ],
+      "ganemos": [
+       "ganamos",
+       "ganaremos"
+      ],
+      "ganen": [
+       "ganan",
+       "ganarán"
+      ],
+      "cambie": [
+       "cambia",
+       "cambiará"
+      ],
+      "cambies": [
+       "cambias",
+       "cambiarás"
+      ],
+      "cambiemos": [
+       "cambiamos",
+       "cambiaremos"
+      ],
+      "cambien": [
+       "cambian",
+       "cambiarán"
+      ],
+      "escuche": [
+       "escucha",
+       "escuchará"
+      ],
+      "escuches": [
+       "escuchas",
+       "escucharás"
+      ],
+      "escuchemos": [
+       "escuchamos",
+       "escucharemos"
+      ],
+      "escuchen": [
+       "escuchan",
+       "escucharán"
+      ],
+      "mire": [
+       "mira",
+       "mirará"
+      ],
+      "mires": [
+       "miras",
+       "mirarás"
+      ],
+      "miremos": [
+       "miramos",
+       "miraremos"
+      ],
+      "miren": [
+       "miran",
+       "mirarán"
+      ],
+      "tome": [
+       "toma",
+       "tomará"
+      ],
+      "tomes": [
+       "tomas",
+       "tomarás"
+      ],
+      "tomemos": [
+       "tomamos",
+       "tomaremos"
+      ],
+      "tomen": [
+       "toman",
+       "tomarán"
+      ],
+      "compre": [
+       "compra",
+       "comprará"
+      ],
+      "compres": [
+       "compras",
+       "comprarás"
+      ],
+      "compremos": [
+       "compramos",
+       "compraremos"
+      ],
+      "compren": [
+       "compran",
+       "comprarán"
+      ],
+      "cocine": [
+       "cocina",
+       "cocinará"
+      ],
+      "cocines": [
+       "cocinas",
+       "cocinarás"
+      ],
+      "cocinemos": [
+       "cocinamos",
+       "cocinaremos"
+      ],
+      "cocinen": [
+       "cocinan",
+       "cocinarán"
+      ],
+      "cante": [
+       "canta",
+       "cantará"
+      ],
+      "cantes": [
+       "cantas",
+       "cantarás"
+      ],
+      "cantemos": [
+       "cantamos",
+       "cantaremos"
+      ],
+      "canten": [
+       "cantan",
+       "cantarán"
+      ],
+      "baile": [
+       "baila",
+       "bailará"
+      ],
+      "bailes": [
+       "bailas",
+       "bailarás"
+      ],
+      "bailemos": [
+       "bailamos",
+       "bailaremos"
+      ],
+      "bailen": [
+       "bailan",
+       "bailarán"
+      ],
+      "viaje": [
+       "viaja",
+       "viajará"
+      ],
+      "viajes": [
+       "viajas",
+       "viajarás"
+      ],
+      "viajemos": [
+       "viajamos",
+       "viajaremos"
+      ],
+      "viajen": [
+       "viajan",
+       "viajarán"
+      ],
+      "olvide": [
+       "olvida",
+       "olvidará"
+      ],
+      "olvides": [
+       "olvidas",
+       "olvidarás"
+      ],
+      "olvidemos": [
+       "olvidamos",
+       "olvidaremos"
+      ],
+      "olviden": [
+       "olvidan",
+       "olvidarán"
+      ],
+      "preocupe": [
+       "preocupa",
+       "preocupará"
+      ],
+      "preocupes": [
+       "preocupas",
+       "preocuparás"
+      ],
+      "preocupemos": [
+       "preocupamos",
+       "preocuparemos"
+      ],
+      "preocupen": [
+       "preocupan",
+       "preocuparán"
+      ],
+      "case": [
+       "casa",
+       "casará"
+      ],
+      "cases": [
+       "casas",
+       "casarás"
+      ],
+      "casemos": [
+       "casamos",
+       "casaremos"
+      ],
+      "casen": [
+       "casan",
+       "casarán"
+      ],
+      "enseñe": [
+       "enseña",
+       "enseñará"
+      ],
+      "enseñes": [
+       "enseñas",
+       "enseñarás"
+      ],
+      "enseñemos": [
+       "enseñamos",
+       "enseñaremos"
+      ],
+      "enseñen": [
+       "enseñan",
+       "enseñarán"
+      ],
+      "entre": [
+       "entra",
+       "entrará"
+      ],
+      "entres": [
+       "entras",
+       "entrarás"
+      ],
+      "entremos": [
+       "entramos",
+       "entraremos"
+      ],
+      "entren": [
+       "entran",
+       "entrarán"
+      ],
+      "descanse": [
+       "descansa",
+       "descansará"
+      ],
+      "descanses": [
+       "descansas",
+       "descansarás"
+      ],
+      "descansemos": [
+       "descansamos",
+       "descansaremos"
+      ],
+      "descansen": [
+       "descansan",
+       "descansarán"
+      ],
+      "termine": [
+       "termina",
+       "terminará"
+      ],
+      "termines": [
+       "terminas",
+       "terminarás"
+      ],
+      "terminemos": [
+       "terminamos",
+       "terminaremos"
+      ],
+      "terminen": [
+       "terminan",
+       "terminarán"
+      ],
+      "guste": [
+       "gusta",
+       "gustará"
+      ],
+      "gustes": [
+       "gustas",
+       "gustarás"
+      ],
+      "gustemos": [
+       "gustamos",
+       "gustaremos"
+      ],
+      "gusten": [
+       "gustan",
+       "gustarán"
+      ],
+      "pase": [
+       "pasa",
+       "pasará"
+      ],
+      "pases": [
+       "pasas",
+       "pasarás"
+      ],
+      "pasemos": [
+       "pasamos",
+       "pasaremos"
+      ],
+      "pasen": [
+       "pasan",
+       "pasarán"
+      ],
+      "use": [
+       "usa",
+       "usará"
+      ],
+      "uses": [
+       "usas",
+       "usarás"
+      ],
+      "usemos": [
+       "usamos",
+       "usaremos"
+      ],
+      "usen": [
+       "usan",
+       "usarán"
+      ],
+      "mande": [
+       "manda",
+       "mandará"
+      ],
+      "mandes": [
+       "mandas",
+       "mandarás"
+      ],
+      "mandemos": [
+       "mandamos",
+       "mandaremos"
+      ],
+      "manden": [
+       "mandan",
+       "mandarán"
+      ],
+      "lave": [
+       "lava",
+       "lavará"
+      ],
+      "laves": [
+       "lavas",
+       "lavarás"
+      ],
+      "lavemos": [
+       "lavamos",
+       "lavaremos"
+      ],
+      "laven": [
+       "lavan",
+       "lavarán"
+      ],
+      "cuide": [
+       "cuida",
+       "cuidará"
+      ],
+      "cuides": [
+       "cuidas",
+       "cuidarás"
+      ],
+      "cuidemos": [
+       "cuidamos",
+       "cuidaremos"
+      ],
+      "cuiden": [
+       "cuidan",
+       "cuidarán"
+      ],
+      "acompañe": [
+       "acompaña",
+       "acompañará"
+      ],
+      "acompañes": [
+       "acompañas",
+       "acompañarás"
+      ],
+      "acompañemos": [
+       "acompañamos",
+       "acompañaremos"
+      ],
+      "acompañen": [
+       "acompañan",
+       "acompañarán"
+      ],
+      "limpie": [
+       "limpia",
+       "limpiará"
+      ],
+      "limpies": [
+       "limpias",
+       "limpiarás"
+      ],
+      "limpiemos": [
+       "limpiamos",
+       "limpiaremos"
+      ],
+      "limpien": [
+       "limpian",
+       "limpiarán"
+      ],
+      "levante": [
+       "levanta",
+       "levantará"
+      ],
+      "levantes": [
+       "levantas",
+       "levantarás"
+      ],
+      "levantemos": [
+       "levantamos",
+       "levantaremos"
+      ],
+      "levanten": [
+       "levantan",
+       "levantarán"
+      ],
+      "conteste": [
+       "contesta",
+       "contestará"
+      ],
+      "contestes": [
+       "contestas",
+       "contestarás"
+      ],
+      "contestemos": [
+       "contestamos",
+       "contestaremos"
+      ],
+      "contesten": [
+       "contestan",
+       "contestarán"
+      ],
+      "firme": [
+       "firma",
+       "firmará"
+      ],
+      "firmes": [
+       "firmas",
+       "firmarás"
+      ],
+      "firmemos": [
+       "firmamos",
+       "firmaremos"
+      ],
+      "firmen": [
+       "firman",
+       "firmarán"
+      ],
+      "visite": [
+       "visita",
+       "visitará"
+      ],
+      "visites": [
+       "visitas",
+       "visitarás"
+      ],
+      "visitemos": [
+       "visitamos",
+       "visitaremos"
+      ],
+      "visiten": [
+       "visitan",
+       "visitarán"
+      ],
+      "regrese": [
+       "regresa",
+       "regresará"
+      ],
+      "regreses": [
+       "regresas",
+       "regresarás"
+      ],
+      "regresemos": [
+       "regresamos",
+       "regresaremos"
+      ],
+      "regresen": [
+       "regresan",
+       "regresarán"
+      ],
+      "moleste": [
+       "molesta",
+       "molestará"
+      ],
+      "molestes": [
+       "molestas",
+       "molestarás"
+      ],
+      "molestemos": [
+       "molestamos",
+       "molestaremos"
+      ],
+      "molesten": [
+       "molestan",
+       "molestarán"
+      ],
+      "mejore": [
+       "mejora",
+       "mejorará"
+      ],
+      "mejores": [
+       "mejoras",
+       "mejorarás"
+      ],
+      "mejoremos": [
+       "mejoramos",
+       "mejoraremos"
+      ],
+      "mejoren": [
+       "mejoran",
+       "mejorarán"
+      ],
+      "dure": [
+       "dura",
+       "durará"
+      ],
+      "dures": [
+       "duras",
+       "durarás"
+      ],
+      "duremos": [
+       "duramos",
+       "duraremos"
+      ],
+      "duren": [
+       "duran",
+       "durarán"
+      ],
+      "arregle": [
+       "arregla",
+       "arreglará"
+      ],
+      "arregles": [
+       "arreglas",
+       "arreglarás"
+      ],
+      "arreglemos": [
+       "arreglamos",
+       "arreglaremos"
+      ],
+      "arreglen": [
+       "arreglan",
+       "arreglarán"
+      ],
+      "calle": [
+       "calla",
+       "callará"
+      ],
+      "calles": [
+       "callas",
+       "callarás"
+      ],
+      "callemos": [
+       "callamos",
+       "callaremos"
+      ],
+      "callen": [
+       "callan",
+       "callarán"
+      ],
+      "intente": [
+       "intenta",
+       "intentará"
+      ],
+      "intentes": [
+       "intentas",
+       "intentarás"
+      ],
+      "intentemos": [
+       "intentamos",
+       "intentaremos"
+      ],
+      "intenten": [
+       "intentan",
+       "intentarán"
+      ],
+      "acepte": [
+       "acepta",
+       "aceptará"
+      ],
+      "aceptes": [
+       "aceptas",
+       "aceptarás"
+      ],
+      "aceptemos": [
+       "aceptamos",
+       "aceptaremos"
+      ],
+      "acepten": [
+       "aceptan",
+       "aceptarán"
+      ],
+      "perdone": [
+       "perdona",
+       "perdonará"
+      ],
+      "perdones": [
+       "perdonas",
+       "perdonarás"
+      ],
+      "perdonemos": [
+       "perdonamos",
+       "perdonaremos"
+      ],
+      "perdonen": [
+       "perdonan",
+       "perdonarán"
+      ],
+      "lleve": [
+       "lleva",
+       "llevará"
+      ],
+      "lleves": [
+       "llevas",
+       "llevarás"
+      ],
+      "llevemos": [
+       "llevamos",
+       "llevaremos"
+      ],
+      "lleven": [
+       "llevan",
+       "llevarán"
+      ],
+      "prepare": [
+       "prepara",
+       "preparará"
+      ],
+      "prepares": [
+       "preparas",
+       "prepararás"
+      ],
+      "preparemos": [
+       "preparamos",
+       "prepararemos"
+      ],
+      "preparen": [
+       "preparan",
+       "prepararán"
+      ],
+      "respete": [
+       "respeta",
+       "respetará"
+      ],
+      "respetes": [
+       "respetas",
+       "respetarás"
+      ],
+      "respetemos": [
+       "respetamos",
+       "respetaremos"
+      ],
+      "respeten": [
+       "respetan",
+       "respetarán"
+      ],
+      "avise": [
+       "avisa",
+       "avisará"
+      ],
+      "avises": [
+       "avisas",
+       "avisarás"
+      ],
+      "avisemos": [
+       "avisamos",
+       "avisaremos"
+      ],
+      "avisen": [
+       "avisan",
+       "avisarán"
+      ],
+      "salve": [
+       "salva",
+       "salvará"
+      ],
+      "salves": [
+       "salvas",
+       "salvarás"
+      ],
+      "salvemos": [
+       "salvamos",
+       "salvaremos"
+      ],
+      "salven": [
+       "salvan",
+       "salvarán"
+      ],
+      "escape": [
+       "escapa",
+       "escapará"
+      ],
+      "escapes": [
+       "escapas",
+       "escaparás"
+      ],
+      "escapemos": [
+       "escapamos",
+       "escaparemos"
+      ],
+      "escapen": [
+       "escapan",
+       "escaparán"
+      ],
+      "encante": [
+       "encanta",
+       "encantará"
+      ],
+      "encantes": [
+       "encantas",
+       "encantarás"
+      ],
+      "encantemos": [
+       "encantamos",
+       "encantaremos"
+      ],
+      "encanten": [
+       "encantan",
+       "encantarán"
+      ],
+      "importe": [
+       "importa",
+       "importará"
+      ],
+      "importes": [
+       "importas",
+       "importarás"
+      ],
+      "importemos": [
+       "importamos",
+       "importaremos"
+      ],
+      "importen": [
+       "importan",
+       "importarán"
+      ],
+      "funcione": [
+       "funciona",
+       "funcionará"
+      ],
+      "funciones": [
+       "funcionas",
+       "funcionarás"
+      ],
+      "funcionemos": [
+       "funcionamos",
+       "funcionaremos"
+      ],
+      "funcionen": [
+       "funcionan",
+       "funcionarán"
+      ],
+      "maneje": [
+       "maneja",
+       "manejará"
+      ],
+      "manejes": [
+       "manejas",
+       "manejarás"
+      ],
+      "manejemos": [
+       "manejamos",
+       "manejaremos"
+      ],
+      "manejen": [
+       "manejan",
+       "manejarán"
+      ],
+      "ande": [
+       "anda",
+       "andará"
+      ],
+      "andes": [
+       "andas",
+       "andarás"
+      ],
+      "andemos": [
+       "andamos",
+       "andaremos"
+      ],
+      "anden": [
+       "andan",
+       "andarán"
+      ],
+      "ame": [
+       "ama",
+       "amará"
+      ],
+      "ames": [
+       "amas",
+       "amarás"
+      ],
+      "amemos": [
+       "amamos",
+       "amaremos"
+      ],
+      "amen": [
+       "aman",
+       "amarán"
+      ],
+      "odie": [
+       "odia",
+       "odiará"
+      ],
+      "odies": [
+       "odias",
+       "odiarás"
+      ],
+      "odiemos": [
+       "odiamos",
+       "odiaremos"
+      ],
+      "odien": [
+       "odian",
+       "odiarán"
+      ],
+      "nade": [
+       "nada",
+       "nadará"
+      ],
+      "nades": [
+       "nadas",
+       "nadarás"
+      ],
+      "nademos": [
+       "nadamos",
+       "nadaremos"
+      ],
+      "naden": [
+       "nadan",
+       "nadarán"
+      ],
+      "coma": [
+       "come",
+       "comerá"
+      ],
+      "comas": [
+       "comes",
+       "comerás"
+      ],
+      "comamos": [
+       "comemos",
+       "comeremos"
+      ],
+      "coman": [
+       "comen",
+       "comerán"
+      ],
+      "beba": [
+       "bebe",
+       "beberá"
+      ],
+      "bebas": [
+       "bebes",
+       "beberás"
+      ],
+      "bebamos": [
+       "bebemos",
+       "beberemos"
+      ],
+      "beban": [
+       "beben",
+       "beberán"
+      ],
+      "aprenda": [
+       "aprende",
+       "aprenderá"
+      ],
+      "aprendas": [
+       "aprendes",
+       "aprenderás"
+      ],
+      "aprendamos": [
+       "aprendemos",
+       "aprenderemos"
+      ],
+      "aprendan": [
+       "aprenden",
+       "aprenderán"
+      ],
+      "lea": [
+       "lee",
+       "leerá"
+      ],
+      "leas": [
+       "lees",
+       "leerás"
+      ],
+      "leamos": [
+       "leemos",
+       "leeremos"
+      ],
+      "lean": [
+       "leen",
+       "leerán"
+      ],
+      "venda": [
+       "vende",
+       "venderá"
+      ],
+      "vendas": [
+       "vendes",
+       "venderás"
+      ],
+      "vendamos": [
+       "vendemos",
+       "venderemos"
+      ],
+      "vendan": [
+       "venden",
+       "venderán"
+      ],
+      "comprenda": [
+       "comprende",
+       "comprenderá"
+      ],
+      "comprendas": [
+       "comprendes",
+       "comprenderás"
+      ],
+      "comprendamos": [
+       "comprendemos",
+       "comprenderemos"
+      ],
+      "comprendan": [
+       "comprenden",
+       "comprenderán"
+      ],
+      "corra": [
+       "corre",
+       "correrá"
+      ],
+      "corras": [
+       "corres",
+       "correrás"
+      ],
+      "corramos": [
+       "corremos",
+       "correremos"
+      ],
+      "corran": [
+       "corren",
+       "correrán"
+      ],
+      "crea": [
+       "cree",
+       "creerá"
+      ],
+      "creas": [
+       "crees",
+       "creerás"
+      ],
+      "creamos": [
+       "creemos",
+       "creeremos"
+      ],
+      "crean": [
+       "creen",
+       "creerán"
+      ],
+      "responda": [
+       "responde",
+       "responderá"
+      ],
+      "respondas": [
+       "respondes",
+       "responderás"
+      ],
+      "respondamos": [
+       "respondemos",
+       "responderemos"
+      ],
+      "respondan": [
+       "responden",
+       "responderán"
+      ],
+      "rompa": [
+       "rompe",
+       "romperá"
+      ],
+      "rompas": [
+       "rompes",
+       "romperás"
+      ],
+      "rompamos": [
+       "rompemos",
+       "romperemos"
+      ],
+      "rompan": [
+       "rompen",
+       "romperán"
+      ],
+      "meta": [
+       "mete",
+       "meterá"
+      ],
+      "metas": [
+       "metes",
+       "meterás"
+      ],
+      "metamos": [
+       "metemos",
+       "meteremos"
+      ],
+      "metan": [
+       "meten",
+       "meterán"
+      ],
+      "deba": [
+       "debe",
+       "deberá"
+      ],
+      "debas": [
+       "debes",
+       "deberás"
+      ],
+      "debamos": [
+       "debemos",
+       "deberemos"
+      ],
+      "deban": [
+       "deben",
+       "deberán"
+      ],
+      "tema": [
+       "teme",
+       "temerá"
+      ],
+      "temas": [
+       "temes",
+       "temerás"
+      ],
+      "temamos": [
+       "tememos",
+       "temeremos"
+      ],
+      "teman": [
+       "temen",
+       "temerán"
+      ],
+      "ofenda": [
+       "ofende",
+       "ofenderá"
+      ],
+      "ofendas": [
+       "ofendes",
+       "ofenderás"
+      ],
+      "ofendamos": [
+       "ofendemos",
+       "ofenderemos"
+      ],
+      "ofendan": [
+       "ofenden",
+       "ofenderán"
+      ],
+      "sorprenda": [
+       "sorprende",
+       "sorprenderá"
+      ],
+      "sorprendas": [
+       "sorprendes",
+       "sorprenderás"
+      ],
+      "sorprendamos": [
+       "sorprendemos",
+       "sorprenderemos"
+      ],
+      "sorprendan": [
+       "sorprenden",
+       "sorprenderán"
+      ],
+      "viva": [
+       "vive",
+       "vivirá"
+      ],
+      "vivas": [
+       "vives",
+       "vivirás"
+      ],
+      "vivamos": [
+       "vivimos",
+       "viviremos"
+      ],
+      "vivan": [
+       "viven",
+       "vivirán"
+      ],
+      "escriba": [
+       "escribe",
+       "escribirá"
+      ],
+      "escribas": [
+       "escribes",
+       "escribirás"
+      ],
+      "escribamos": [
+       "escribimos",
+       "escribiremos"
+      ],
+      "escriban": [
+       "escriben",
+       "escribirán"
+      ],
+      "abra": [
+       "abre",
+       "abrirá"
+      ],
+      "abras": [
+       "abres",
+       "abrirás"
+      ],
+      "abramos": [
+       "abrimos",
+       "abriremos"
+      ],
+      "abran": [
+       "abren",
+       "abrirán"
+      ],
+      "decida": [
+       "decide",
+       "decidirá"
+      ],
+      "decidas": [
+       "decides",
+       "decidirás"
+      ],
+      "decidamos": [
+       "decidimos",
+       "decidiremos"
+      ],
+      "decidan": [
+       "deciden",
+       "decidirán"
+      ],
+      "reciba": [
+       "recibe",
+       "recibirá"
+      ],
+      "recibas": [
+       "recibes",
+       "recibirás"
+      ],
+      "recibamos": [
+       "recibimos",
+       "recibiremos"
+      ],
+      "reciban": [
+       "reciben",
+       "recibirán"
+      ],
+      "suba": [
+       "sube",
+       "subirá"
+      ],
+      "subas": [
+       "subes",
+       "subirás"
+      ],
+      "subamos": [
+       "subimos",
+       "subiremos"
+      ],
+      "suban": [
+       "suben",
+       "subirán"
+      ],
+      "permita": [
+       "permite",
+       "permitirá"
+      ],
+      "permitas": [
+       "permites",
+       "permitirás"
+      ],
+      "permitamos": [
+       "permitimos",
+       "permitiremos"
+      ],
+      "permitan": [
+       "permiten",
+       "permitirán"
+      ],
+      "asista": [
+       "asiste",
+       "asistirá"
+      ],
+      "asistas": [
+       "asistes",
+       "asistirás"
+      ],
+      "asistamos": [
+       "asistimos",
+       "asistiremos"
+      ],
+      "asistan": [
+       "asisten",
+       "asistirán"
+      ],
+      "sufra": [
+       "sufre",
+       "sufrirá"
+      ],
+      "sufras": [
+       "sufres",
+       "sufrirás"
+      ],
+      "suframos": [
+       "sufrimos",
+       "sufriremos"
+      ],
+      "sufran": [
+       "sufren",
+       "sufrirán"
+      ],
+      "exista": [
+       "existe",
+       "existirá"
+      ],
+      "existas": [
+       "existes",
+       "existirás"
+      ],
+      "existamos": [
+       "existimos",
+       "existiremos"
+      ],
+      "existan": [
+       "existen",
+       "existirán"
+      ],
+      "discuta": [
+       "discute",
+       "discutirá"
+      ],
+      "discutas": [
+       "discutes",
+       "discutirás"
+      ],
+      "discutamos": [
+       "discutimos",
+       "discutiremos"
+      ],
+      "discutan": [
+       "discuten",
+       "discutirán"
+      ],
+      "descubra": [
+       "descubre",
+       "descubrirá"
+      ],
+      "descubras": [
+       "descubres",
+       "descubrirás"
+      ],
+      "descubramos": [
+       "descubrimos",
+       "descubriremos"
+      ],
+      "descubran": [
+       "descubren",
+       "descubrirán"
+      ],
+      "comparta": [
+       "comparte",
+       "compartirá"
+      ],
+      "compartas": [
+       "compartes",
+       "compartirás"
+      ],
+      "compartamos": [
+       "compartimos",
+       "compartiremos"
+      ],
+      "compartan": [
+       "comparten",
+       "compartirán"
+      ],
+      "cumpla": [
+       "cumple",
+       "cumplirá"
+      ],
+      "cumplas": [
+       "cumples",
+       "cumplirás"
+      ],
+      "cumplamos": [
+       "cumplimos",
+       "cumpliremos"
+      ],
+      "cumplan": [
+       "cumplen",
+       "cumplirán"
+      ],
+      "ocurra": [
+       "ocurre",
+       "ocurrirá"
+      ],
+      "ocurras": [
+       "ocurres",
+       "ocurrirás"
+      ],
+      "ocurramos": [
+       "ocurrimos",
+       "ocurriremos"
+      ],
+      "ocurran": [
+       "ocurren",
+       "ocurrirán"
+      ],
+      "insista": [
+       "insiste",
+       "insistirá"
+      ],
+      "insistas": [
+       "insistes",
+       "insistirás"
+      ],
+      "insistamos": [
+       "insistimos",
+       "insistiremos"
+      ],
+      "insistan": [
+       "insisten",
+       "insistirán"
+      ],
+      "parta": [
+       "parte",
+       "partirá"
+      ],
+      "partas": [
+       "partes",
+       "partirás"
+      ],
+      "partamos": [
+       "partimos",
+       "partiremos"
+      ],
+      "partan": [
+       "parten",
+       "partirán"
+      ]
+     },
+     "exclude": "\\bpara\\s+que\\b(?=.*\\?)(?=.*¿\\s*para\\s+que)|\\bpara\\s+qué\\b"
+    }
+   ]
+  }
+ ]
+}

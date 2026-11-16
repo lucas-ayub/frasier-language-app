@@ -1,0 +1,7201 @@
+{
+ "lang": "de",
+ "tracks": [
+  {
+   "id": "basico",
+   "subs": [
+    {
+     "id": "saudacoes",
+     "name": "Cumprimentos e cortesia",
+     "desc": "Hallo (oi), Guten Morgen (bom dia), bitte (por favor), danke (obrigado), Entschuldigung (desculpe), Tschüss (tchau).",
+     "pattern": "\\b(?P<w>(?<=\\bGuten )(?:Morgen|Tag|Abend)|(?<=\\bGute )Nacht|(?<=\\bAuf )Wiedersehen|Hallo|Danke|Bitte|Entschuldigung|Entschuldigen(?= Sie\\b)|Verzeihung|Tschüss|Willkommen)\\b",
+     "options": {
+      "hallo": [
+       "Tschüss",
+       "Danke",
+       "Bitte"
+      ],
+      "danke": [
+       "bitte",
+       "hallo",
+       "tschüss"
+      ],
+      "bitte": [
+       "danke",
+       "hallo",
+       "tschüss"
+      ],
+      "entschuldigung": [
+       "Danke",
+       "Bitte",
+       "Verzeihung"
+      ],
+      "verzeihung": [
+       "Danke",
+       "Bitte",
+       "Hallo"
+      ],
+      "tschüss": [
+       "Hallo",
+       "Danke",
+       "Willkommen"
+      ],
+      "willkommen": [
+       "Tschüss",
+       "Danke",
+       "Hallo"
+      ],
+      "wiedersehen": [
+       "Willkommen",
+       "Morgen",
+       "Abend"
+      ],
+      "morgen": [
+       "Tag",
+       "Abend",
+       "Nacht"
+      ],
+      "tag": [
+       "Morgen",
+       "Abend",
+       "Nacht"
+      ],
+      "abend": [
+       "Morgen",
+       "Tag",
+       "Nacht"
+      ],
+      "nacht": [
+       "Morgen",
+       "Tag",
+       "Abend"
+      ],
+      "entschuldigen": [
+       "Danke",
+       "Bitte",
+       "Willkommen"
+      ]
+     }
+    },
+    {
+     "id": "numeros",
+     "name": "Números",
+     "desc": "De eins (1) a zwölf (12), dezenas com -zig (zwanzig = 20, dreißig = 30), hundert (100), tausend (1000).",
+     "pattern": "\\b(?P<w>fünfzehn|vierzehn|dreizehn|sechzehn|achtzehn|neunzehn|siebzehn|achtzig|sechzig|tausend|hundert|fünfzig|neunzig|vierzig|zwanzig|dreißig|siebzig|sieben|zwölf|sechs|drei|zwei|fünf|zehn|eins|acht|neun|vier|elf)\\b",
+     "exclude": "\\b(?:in )?Acht (?:geben|nehmen|gelassen|lassen)|\\bAcht geben|\\bElfen?\\b|\\bsieben (?:Sie|wir)\\b",
+     "options": {
+      "eins": [
+       "zwei",
+       "elf",
+       "drei"
+      ],
+      "zwei": [
+       "drei",
+       "zwölf",
+       "zwanzig"
+      ],
+      "drei": [
+       "zwei",
+       "dreizehn",
+       "dreißig"
+      ],
+      "vier": [
+       "fünf",
+       "vierzehn",
+       "vierzig"
+      ],
+      "fünf": [
+       "vier",
+       "fünfzehn",
+       "fünfzig"
+      ],
+      "sechs": [
+       "sieben",
+       "sechzehn",
+       "sechzig"
+      ],
+      "sieben": [
+       "sechs",
+       "siebzehn",
+       "siebzig"
+      ],
+      "acht": [
+       "neun",
+       "achtzehn",
+       "achtzig"
+      ],
+      "neun": [
+       "acht",
+       "neunzehn",
+       "neunzig"
+      ],
+      "zehn": [
+       "elf",
+       "zwölf",
+       "zwanzig"
+      ],
+      "elf": [
+       "zehn",
+       "zwölf",
+       "eins"
+      ],
+      "zwölf": [
+       "zwei",
+       "zwanzig",
+       "elf"
+      ],
+      "dreizehn": [
+       "dreißig",
+       "drei",
+       "vierzehn"
+      ],
+      "vierzehn": [
+       "vierzig",
+       "vier",
+       "fünfzehn"
+      ],
+      "fünfzehn": [
+       "fünfzig",
+       "fünf",
+       "sechzehn"
+      ],
+      "sechzehn": [
+       "sechzig",
+       "sechs",
+       "siebzehn"
+      ],
+      "siebzehn": [
+       "siebzig",
+       "sieben",
+       "achtzehn"
+      ],
+      "achtzehn": [
+       "achtzig",
+       "acht",
+       "neunzehn"
+      ],
+      "neunzehn": [
+       "neunzig",
+       "neun",
+       "dreizehn"
+      ],
+      "zwanzig": [
+       "zwölf",
+       "zwei",
+       "dreißig"
+      ],
+      "dreißig": [
+       "dreizehn",
+       "drei",
+       "vierzig"
+      ],
+      "vierzig": [
+       "vierzehn",
+       "vier",
+       "fünfzig"
+      ],
+      "fünfzig": [
+       "fünfzehn",
+       "fünf",
+       "sechzig"
+      ],
+      "sechzig": [
+       "sechzehn",
+       "sechs",
+       "siebzig"
+      ],
+      "siebzig": [
+       "siebzehn",
+       "sieben",
+       "achtzig"
+      ],
+      "achtzig": [
+       "achtzehn",
+       "acht",
+       "neunzig"
+      ],
+      "neunzig": [
+       "neunzehn",
+       "neun",
+       "zwanzig"
+      ],
+      "hundert": [
+       "tausend",
+       "zehn",
+       "zwanzig"
+      ],
+      "tausend": [
+       "hundert",
+       "zehn",
+       "dreißig"
+      ]
+     }
+    },
+    {
+     "id": "cores",
+     "name": "Cores",
+     "desc": "rot (vermelho), blau (azul), grün (verde), gelb (amarelo), schwarz (preto), weiß (branco). Antes do substantivo a cor ganha terminação: ein rotes Auto.",
+     "pattern": "\\b(?P<w>schwarzer|schwarzem|schwarzes|schwarzen|schwarze|braunen|braunes|schwarz|brauner|violett|braunem|graues|gelbem|gelber|braune|weißen|grünes|gelben|blauem|grauen|weißes|grünem|orange|grüner|blauer|grauem|blauen|grünen|grauer|gelbes|türkis|weißer|blaues|weißem|graue|gelbe|blaue|roter|rotes|grüne|braun|rotem|beige|roten|weiße|gelb|rosa|lila|rote|grau|grün|blau|rot|(?:(?<=\\bist )|(?<=\\bwar )|(?<=\\bund )|(?<=\\boder ))weiß|weiß(?= (?:und|oder) ))\\b",
+     "case": true,
+     "exclude": "\\b(?:Rote[ns]? Kreuz|Schwarze[ns]? Meer|Rote[ns]? Meer|blau machen|blaue[ns]? Auge|schwarz(?:fahren|arbeiten)|ich weiß und)\\b",
+     "options": {
+      "rot": [
+       "blau",
+       "gelb",
+       "weiß"
+      ],
+      "blau": [
+       "grün",
+       "schwarz",
+       "grau"
+      ],
+      "grün": [
+       "gelb",
+       "weiß",
+       "braun"
+      ],
+      "gelb": [
+       "schwarz",
+       "grau",
+       "rot"
+      ],
+      "schwarz": [
+       "weiß",
+       "braun",
+       "blau"
+      ],
+      "weiß": [
+       "grau",
+       "rot",
+       "grün"
+      ],
+      "grau": [
+       "braun",
+       "blau",
+       "gelb"
+      ],
+      "braun": [
+       "rot",
+       "grün",
+       "schwarz"
+      ],
+      "rote": [
+       "blaue",
+       "gelbe",
+       "weiße"
+      ],
+      "blaue": [
+       "grüne",
+       "schwarze",
+       "graue"
+      ],
+      "grüne": [
+       "gelbe",
+       "weiße",
+       "braune"
+      ],
+      "gelbe": [
+       "schwarze",
+       "graue",
+       "rote"
+      ],
+      "schwarze": [
+       "weiße",
+       "braune",
+       "blaue"
+      ],
+      "weiße": [
+       "graue",
+       "rote",
+       "grüne"
+      ],
+      "graue": [
+       "braune",
+       "blaue",
+       "gelbe"
+      ],
+      "braune": [
+       "rote",
+       "grüne",
+       "schwarze"
+      ],
+      "roten": [
+       "blauen",
+       "gelben",
+       "weißen"
+      ],
+      "blauen": [
+       "grünen",
+       "schwarzen",
+       "grauen"
+      ],
+      "grünen": [
+       "gelben",
+       "weißen",
+       "braunen"
+      ],
+      "gelben": [
+       "schwarzen",
+       "grauen",
+       "roten"
+      ],
+      "schwarzen": [
+       "weißen",
+       "braunen",
+       "blauen"
+      ],
+      "weißen": [
+       "grauen",
+       "roten",
+       "grünen"
+      ],
+      "grauen": [
+       "braunen",
+       "blauen",
+       "gelben"
+      ],
+      "braunen": [
+       "roten",
+       "grünen",
+       "schwarzen"
+      ],
+      "roter": [
+       "blauer",
+       "gelber",
+       "weißer"
+      ],
+      "blauer": [
+       "grüner",
+       "schwarzer",
+       "grauer"
+      ],
+      "grüner": [
+       "gelber",
+       "weißer",
+       "brauner"
+      ],
+      "gelber": [
+       "schwarzer",
+       "grauer",
+       "roter"
+      ],
+      "schwarzer": [
+       "weißer",
+       "brauner",
+       "blauer"
+      ],
+      "weißer": [
+       "grauer",
+       "roter",
+       "grüner"
+      ],
+      "grauer": [
+       "brauner",
+       "blauer",
+       "gelber"
+      ],
+      "brauner": [
+       "roter",
+       "grüner",
+       "schwarzer"
+      ],
+      "rotes": [
+       "blaues",
+       "gelbes",
+       "weißes"
+      ],
+      "blaues": [
+       "grünes",
+       "schwarzes",
+       "graues"
+      ],
+      "grünes": [
+       "gelbes",
+       "weißes",
+       "braunes"
+      ],
+      "gelbes": [
+       "schwarzes",
+       "graues",
+       "rotes"
+      ],
+      "schwarzes": [
+       "weißes",
+       "braunes",
+       "blaues"
+      ],
+      "weißes": [
+       "graues",
+       "rotes",
+       "grünes"
+      ],
+      "graues": [
+       "braunes",
+       "blaues",
+       "gelbes"
+      ],
+      "braunes": [
+       "rotes",
+       "grünes",
+       "schwarzes"
+      ],
+      "rotem": [
+       "blauem",
+       "gelbem",
+       "weißem"
+      ],
+      "blauem": [
+       "grünem",
+       "schwarzem",
+       "grauem"
+      ],
+      "grünem": [
+       "gelbem",
+       "weißem",
+       "braunem"
+      ],
+      "gelbem": [
+       "schwarzem",
+       "grauem",
+       "rotem"
+      ],
+      "schwarzem": [
+       "weißem",
+       "braunem",
+       "blauem"
+      ],
+      "weißem": [
+       "grauem",
+       "rotem",
+       "grünem"
+      ],
+      "grauem": [
+       "braunem",
+       "blauem",
+       "gelbem"
+      ],
+      "braunem": [
+       "rotem",
+       "grünem",
+       "schwarzem"
+      ],
+      "rosa": [
+       "lila",
+       "rot",
+       "schwarz"
+      ],
+      "lila": [
+       "orange",
+       "blau",
+       "weiß"
+      ],
+      "orange": [
+       "beige",
+       "grün",
+       "grau"
+      ],
+      "beige": [
+       "violett",
+       "gelb",
+       "braun"
+      ],
+      "violett": [
+       "türkis",
+       "schwarz",
+       "rot"
+      ],
+      "türkis": [
+       "rosa",
+       "weiß",
+       "blau"
+      ]
+     }
+    },
+    {
+     "id": "dias",
+     "name": "Dias, meses e estações",
+     "desc": "Montag (segunda), Freitag (sexta), Sonntag (domingo); Januar, Mai, Dezember; Frühling, Sommer, Herbst, Winter. Todos masculinos: am Montag, im Mai, im Winter.",
+     "pattern": "\\b(?P<w>Donnerstag|Frühlings|Sonnabend|September|Dienstag|Herbstes|Frühling|Mittwoch|November|Dezember|Freitag|Samstag|Februar|Sommers|Oktober|Sonntag|Winters|Sommer|Herbst|Winter|Montag|Januar|April|Juli|Juni|März|Mai|donnerstags|mittwochs|dienstags|freitags|sonntags|samstags|montags|(?:(?<=\\bim )|(?<=\\bIm )|(?<=\\bvom )|(?<=\\bzum )|(?<=\\bbis )|(?<=\\bAnfang )|(?<=\\bMitte )|(?<=\\bEnde )|(?<=\\bseit )|(?<=\\bSeit )|(?<=\\bnächsten )|(?<=\\bletzten )|(?<=\\bdiesen ))August|August(?= (?:ist|war|kommt|hat)\\b))\\b",
+     "case": true,
+     "exclude": "\\bSommer(?:zeit|ferien)\\b",
+     "options": {
+      "montag": [
+       "Dienstag",
+       "Mittwoch",
+       "Sonntag"
+      ],
+      "dienstag": [
+       "Mittwoch",
+       "Donnerstag",
+       "Montag"
+      ],
+      "mittwoch": [
+       "Donnerstag",
+       "Freitag",
+       "Dienstag"
+      ],
+      "donnerstag": [
+       "Freitag",
+       "Samstag",
+       "Mittwoch"
+      ],
+      "freitag": [
+       "Samstag",
+       "Sonntag",
+       "Donnerstag"
+      ],
+      "samstag": [
+       "Sonntag",
+       "Montag",
+       "Freitag"
+      ],
+      "sonntag": [
+       "Montag",
+       "Dienstag",
+       "Samstag"
+      ],
+      "januar": [
+       "Februar",
+       "März",
+       "Dezember"
+      ],
+      "februar": [
+       "März",
+       "April",
+       "Januar"
+      ],
+      "märz": [
+       "April",
+       "Mai",
+       "Februar"
+      ],
+      "april": [
+       "Mai",
+       "Juni",
+       "März"
+      ],
+      "mai": [
+       "Juni",
+       "Juli",
+       "April"
+      ],
+      "juni": [
+       "Juli",
+       "August",
+       "Mai"
+      ],
+      "juli": [
+       "August",
+       "September",
+       "Juni"
+      ],
+      "august": [
+       "September",
+       "Oktober",
+       "Juli"
+      ],
+      "september": [
+       "Oktober",
+       "November",
+       "August"
+      ],
+      "oktober": [
+       "November",
+       "Dezember",
+       "September"
+      ],
+      "november": [
+       "Dezember",
+       "Januar",
+       "Oktober"
+      ],
+      "dezember": [
+       "Januar",
+       "Februar",
+       "November"
+      ],
+      "frühling": [
+       "Sommer",
+       "Herbst",
+       "Winter"
+      ],
+      "sommer": [
+       "Herbst",
+       "Winter",
+       "Frühling"
+      ],
+      "herbst": [
+       "Winter",
+       "Frühling",
+       "Sommer"
+      ],
+      "winter": [
+       "Frühling",
+       "Sommer",
+       "Herbst"
+      ],
+      "montags": [
+       "dienstags",
+       "mittwochs",
+       "sonntags"
+      ],
+      "dienstags": [
+       "mittwochs",
+       "donnerstags",
+       "montags"
+      ],
+      "mittwochs": [
+       "donnerstags",
+       "freitags",
+       "dienstags"
+      ],
+      "donnerstags": [
+       "freitags",
+       "samstags",
+       "mittwochs"
+      ],
+      "freitags": [
+       "samstags",
+       "sonntags",
+       "donnerstags"
+      ],
+      "samstags": [
+       "sonntags",
+       "montags",
+       "freitags"
+      ],
+      "sonntags": [
+       "montags",
+       "dienstags",
+       "samstags"
+      ],
+      "sommers": [
+       "Winters",
+       "Herbstes",
+       "Frühlings"
+      ],
+      "winters": [
+       "Sommers",
+       "Herbstes",
+       "Frühlings"
+      ],
+      "herbstes": [
+       "Sommers",
+       "Winters",
+       "Frühlings"
+      ],
+      "frühlings": [
+       "Sommers",
+       "Winters",
+       "Herbstes"
+      ],
+      "sonnabend": [
+       "Freitag",
+       "Sonntag",
+       "Montag"
+      ]
+     }
+    },
+    {
+     "id": "familia",
+     "name": "Família",
+     "desc": "Vater/Mutter (pai/mãe), Eltern (pais), Bruder/Schwester (irmão/irmã), Sohn/Tochter (filho/filha), Großeltern (avós).",
+     "pattern": "\\b(?P<w>Geschwistern|Enkelkinder|Geschwister|Großeltern|Schwestern|Großmutter|Großvaters|Großvater|Ehemannes|Schwester|Ehemanns|Töchtern|Ehemann|Cousins|Ehefrau|Nichten|Töchter|Brüdern|Müttern|Cousine|Familie|Bruders|Enkelin|Tochter|Söhnen|Mütter|Brüder|Bruder|Vätern|Cousin|Onkels|Neffen|Enkeln|Mutter|Vaters|Nichte|Tanten|Eltern|Sohnes|Neffe|Onkel|Enkel|Papas|Väter|Tante|Söhne|Sohns|Vater|Opas|Papa|Mama|Sohn|Oma|Opa)\\b(?!-)",
+     "case": true,
+     "options": {
+      "vater": [
+       "Bruder",
+       "Sohn",
+       "Großvater"
+      ],
+      "bruder": [
+       "Sohn",
+       "Großvater",
+       "Onkel"
+      ],
+      "sohn": [
+       "Großvater",
+       "Onkel",
+       "Neffe"
+      ],
+      "großvater": [
+       "Onkel",
+       "Neffe",
+       "Enkel"
+      ],
+      "onkel": [
+       "Neffe",
+       "Enkel",
+       "Cousin"
+      ],
+      "neffe": [
+       "Enkel",
+       "Cousin",
+       "Ehemann"
+      ],
+      "enkel": [
+       "Cousin",
+       "Ehemann",
+       "Opa"
+      ],
+      "cousin": [
+       "Ehemann",
+       "Opa",
+       "Papa"
+      ],
+      "ehemann": [
+       "Opa",
+       "Papa",
+       "Vater"
+      ],
+      "opa": [
+       "Papa",
+       "Vater",
+       "Bruder"
+      ],
+      "papa": [
+       "Vater",
+       "Bruder",
+       "Sohn"
+      ],
+      "mutter": [
+       "Schwester",
+       "Tochter",
+       "Großmutter"
+      ],
+      "schwester": [
+       "Tochter",
+       "Großmutter",
+       "Tante"
+      ],
+      "tochter": [
+       "Großmutter",
+       "Tante",
+       "Nichte"
+      ],
+      "großmutter": [
+       "Tante",
+       "Nichte",
+       "Enkelin"
+      ],
+      "tante": [
+       "Nichte",
+       "Enkelin",
+       "Cousine"
+      ],
+      "nichte": [
+       "Enkelin",
+       "Cousine",
+       "Ehefrau"
+      ],
+      "enkelin": [
+       "Cousine",
+       "Ehefrau",
+       "Oma"
+      ],
+      "cousine": [
+       "Ehefrau",
+       "Oma",
+       "Mama"
+      ],
+      "ehefrau": [
+       "Oma",
+       "Mama",
+       "Familie"
+      ],
+      "oma": [
+       "Mama",
+       "Familie",
+       "Mutter"
+      ],
+      "mama": [
+       "Familie",
+       "Mutter",
+       "Schwester"
+      ],
+      "familie": [
+       "Mutter",
+       "Schwester",
+       "Tochter"
+      ],
+      "eltern": [
+       "Geschwister",
+       "Brüder",
+       "Schwestern"
+      ],
+      "geschwister": [
+       "Brüder",
+       "Schwestern",
+       "Söhne"
+      ],
+      "brüder": [
+       "Schwestern",
+       "Söhne",
+       "Töchter"
+      ],
+      "schwestern": [
+       "Söhne",
+       "Töchter",
+       "Großeltern"
+      ],
+      "söhne": [
+       "Töchter",
+       "Großeltern",
+       "Onkel"
+      ],
+      "töchter": [
+       "Großeltern",
+       "Onkel",
+       "Tanten"
+      ],
+      "großeltern": [
+       "Onkel",
+       "Tanten",
+       "Cousins"
+      ],
+      "tanten": [
+       "Cousins",
+       "Enkelkinder",
+       "Mütter"
+      ],
+      "cousins": [
+       "Enkelkinder",
+       "Mütter",
+       "Väter"
+      ],
+      "enkelkinder": [
+       "Mütter",
+       "Väter",
+       "Eltern"
+      ],
+      "mütter": [
+       "Väter",
+       "Eltern",
+       "Geschwister"
+      ],
+      "väter": [
+       "Eltern",
+       "Geschwister",
+       "Brüder"
+      ],
+      "vaters": [
+       "Bruders",
+       "Sohnes",
+       "Sohns"
+      ],
+      "bruders": [
+       "Sohnes",
+       "Sohns",
+       "Großvaters"
+      ],
+      "sohnes": [
+       "Sohns",
+       "Großvaters",
+       "Onkels"
+      ],
+      "sohns": [
+       "Großvaters",
+       "Onkels",
+       "Opas"
+      ],
+      "großvaters": [
+       "Onkels",
+       "Opas",
+       "Papas"
+      ],
+      "onkels": [
+       "Opas",
+       "Papas",
+       "Ehemannes"
+      ],
+      "opas": [
+       "Papas",
+       "Ehemannes",
+       "Ehemanns"
+      ],
+      "papas": [
+       "Ehemannes",
+       "Ehemanns",
+       "Vaters"
+      ],
+      "ehemannes": [
+       "Ehemanns",
+       "Vaters",
+       "Bruders"
+      ],
+      "ehemanns": [
+       "Vaters",
+       "Bruders",
+       "Sohnes"
+      ],
+      "brüdern": [
+       "Söhnen",
+       "Töchtern",
+       "Schwestern"
+      ],
+      "söhnen": [
+       "Töchtern",
+       "Schwestern",
+       "Tanten"
+      ],
+      "töchtern": [
+       "Schwestern",
+       "Tanten",
+       "Neffen"
+      ],
+      "neffen": [
+       "Nichten",
+       "Müttern",
+       "Vätern"
+      ],
+      "nichten": [
+       "Müttern",
+       "Vätern",
+       "Enkeln"
+      ],
+      "müttern": [
+       "Vätern",
+       "Enkeln",
+       "Geschwistern"
+      ],
+      "vätern": [
+       "Enkeln",
+       "Geschwistern",
+       "Großeltern"
+      ],
+      "enkeln": [
+       "Geschwistern",
+       "Großeltern",
+       "Eltern"
+      ],
+      "geschwistern": [
+       "Großeltern",
+       "Eltern",
+       "Brüdern"
+      ]
+     },
+     "exclude": "\\b(?:Heiliger Vater|Vater unser|Mutter Natur|Mutter Erde|Mutter Teresa|Mutter Gottes|Muttersprache)\\b"
+    },
+    {
+     "id": "corpo",
+     "name": "Corpo humano",
+     "desc": "Kopf (cabeça), Auge/Augen (olho/olhos), Hand/Hände (mão/mãos), Fuß/Füße (pé/pés), Herz (coração), Rücken (costas).",
+     "pattern": "\\b(?P<w>Schultern|Gesichts|Schulter|Knochen|Herzens|Fingern|Körpers|Gesicht|Daumen|Körper|Kopfes|Beinen|Haaren|Lippen|Rücken|Zähnen|Händen|Finger|Mundes|Herzen|Armen|Zunge|Hände|Haare|Zähne|Ohren|Magen|Stirn|Augen|Bauch|Füßen|Brust|Lippe|Beine|Hand|Mund|Füße|Herz|Kinn|Zahn|Haar|Knie|Nase|Bein|Haut|Kopf|Arme|Hals|Auge|Fuß|Arm|Ohr)\\b(?!-)",
+     "case": true,
+     "options": {
+      "kopf": [
+       "Mund",
+       "Zahn",
+       "Hals"
+      ],
+      "mund": [
+       "Zahn",
+       "Hals",
+       "Arm"
+      ],
+      "zahn": [
+       "Hals",
+       "Arm",
+       "Finger"
+      ],
+      "hals": [
+       "Arm",
+       "Finger",
+       "Fuß"
+      ],
+      "arm": [
+       "Finger",
+       "Fuß",
+       "Rücken"
+      ],
+      "finger": [
+       "Fuß",
+       "Rücken",
+       "Bauch"
+      ],
+      "fuß": [
+       "Rücken",
+       "Bauch",
+       "Magen"
+      ],
+      "rücken": [
+       "Bauch",
+       "Magen",
+       "Körper"
+      ],
+      "bauch": [
+       "Magen",
+       "Körper",
+       "Daumen"
+      ],
+      "magen": [
+       "Körper",
+       "Daumen",
+       "Kopf"
+      ],
+      "körper": [
+       "Daumen",
+       "Kopf",
+       "Mund"
+      ],
+      "daumen": [
+       "Kopf",
+       "Mund",
+       "Zahn"
+      ],
+      "hand": [
+       "Nase",
+       "Zunge",
+       "Schulter"
+      ],
+      "nase": [
+       "Zunge",
+       "Schulter",
+       "Brust"
+      ],
+      "zunge": [
+       "Schulter",
+       "Brust",
+       "Haut"
+      ],
+      "schulter": [
+       "Brust",
+       "Haut",
+       "Lippe"
+      ],
+      "brust": [
+       "Haut",
+       "Lippe",
+       "Stirn"
+      ],
+      "haut": [
+       "Lippe",
+       "Stirn",
+       "Hand"
+      ],
+      "lippe": [
+       "Stirn",
+       "Hand",
+       "Nase"
+      ],
+      "stirn": [
+       "Hand",
+       "Nase",
+       "Zunge"
+      ],
+      "auge": [
+       "Ohr",
+       "Gesicht",
+       "Bein"
+      ],
+      "ohr": [
+       "Gesicht",
+       "Bein",
+       "Knie"
+      ],
+      "gesicht": [
+       "Bein",
+       "Knie",
+       "Herz"
+      ],
+      "bein": [
+       "Knie",
+       "Herz",
+       "Haar"
+      ],
+      "knie": [
+       "Herz",
+       "Haar",
+       "Kinn"
+      ],
+      "herz": [
+       "Haar",
+       "Kinn",
+       "Auge"
+      ],
+      "haar": [
+       "Kinn",
+       "Auge",
+       "Ohr"
+      ],
+      "kinn": [
+       "Auge",
+       "Ohr",
+       "Gesicht"
+      ],
+      "augen": [
+       "Ohren",
+       "Zähne",
+       "Hände"
+      ],
+      "ohren": [
+       "Zähne",
+       "Hände",
+       "Füße"
+      ],
+      "zähne": [
+       "Hände",
+       "Füße",
+       "Beine"
+      ],
+      "hände": [
+       "Füße",
+       "Beine",
+       "Arme"
+      ],
+      "füße": [
+       "Beine",
+       "Arme",
+       "Haare"
+      ],
+      "beine": [
+       "Arme",
+       "Haare",
+       "Schultern"
+      ],
+      "arme": [
+       "Haare",
+       "Schultern",
+       "Lippen"
+      ],
+      "haare": [
+       "Schultern",
+       "Lippen",
+       "Finger"
+      ],
+      "schultern": [
+       "Lippen",
+       "Finger",
+       "Knie"
+      ],
+      "lippen": [
+       "Finger",
+       "Knie",
+       "Knochen"
+      ],
+      "knochen": [
+       "Augen",
+       "Ohren",
+       "Zähne"
+      ],
+      "händen": [
+       "Füßen",
+       "Zähnen",
+       "Beinen"
+      ],
+      "füßen": [
+       "Zähnen",
+       "Beinen",
+       "Armen"
+      ],
+      "zähnen": [
+       "Beinen",
+       "Armen",
+       "Fingern"
+      ],
+      "beinen": [
+       "Armen",
+       "Fingern",
+       "Haaren"
+      ],
+      "armen": [
+       "Fingern",
+       "Haaren",
+       "Augen"
+      ],
+      "fingern": [
+       "Haaren",
+       "Augen",
+       "Ohren"
+      ],
+      "haaren": [
+       "Augen",
+       "Ohren",
+       "Händen"
+      ],
+      "herzen": [
+       "Kopfes",
+       "Körpers",
+       "Herzens"
+      ],
+      "kopfes": [
+       "Körpers",
+       "Herzens",
+       "Gesichts"
+      ],
+      "körpers": [
+       "Herzens",
+       "Gesichts",
+       "Mundes"
+      ],
+      "herzens": [
+       "Gesichts",
+       "Mundes",
+       "Herzen"
+      ],
+      "gesichts": [
+       "Mundes",
+       "Herzen",
+       "Kopfes"
+      ],
+      "mundes": [
+       "Herzen",
+       "Kopfes",
+       "Körpers"
+      ]
+     },
+     "exclude": "\\b(?:[Dd]er|[Dd]en|[Dd]ie) Armen?\\b(?! (?:und|tun|sind|waren))|\\bunter vier Augen\\b|\\bArm in Arm\\b"
+    },
+    {
+     "id": "roupas",
+     "name": "Roupas",
+     "desc": "Hemd (camisa), Hose (calça), Kleid (vestido), Jacke (jaqueta), Schuhe (sapatos), Mantel (casaco), Kleidung (roupa).",
+     "pattern": "\\b(?P<w>Sonnenbrille|Unterwäsche|Handschuhen|Sweatshirt|Handschuhe|Nachthemd|Badeanzug|Krawatten|Klamotten|Handschuh|Stiefeln|Kleidern|Krawatte|Kleidung|Pullover|Uniform|Stiefel|T-Shirt|Kleider|Schuhen|Mantel|Socken|Brille|Hemden|Pyjama|Jacken|Gürtel|Mäntel|Schuhe|Hosen|Anzug|Mütze|Schuh|Socke|Schal|Bluse|Jeans|Kleid|Kappe|Jacke|Rock|Hüte|Hemd|Hose|Hut)\\b(?!-)",
+     "case": true,
+     "options": {
+      "rock": [
+       "Mantel",
+       "Hut",
+       "Pullover"
+      ],
+      "mantel": [
+       "Hut",
+       "Pullover",
+       "Anzug"
+      ],
+      "hut": [
+       "Pullover",
+       "Anzug",
+       "Schal"
+      ],
+      "pullover": [
+       "Anzug",
+       "Schal",
+       "Gürtel"
+      ],
+      "anzug": [
+       "Schal",
+       "Gürtel",
+       "Schuh"
+      ],
+      "schal": [
+       "Gürtel",
+       "Schuh",
+       "Stiefel"
+      ],
+      "gürtel": [
+       "Schuh",
+       "Stiefel",
+       "Handschuh"
+      ],
+      "schuh": [
+       "Stiefel",
+       "Handschuh",
+       "Badeanzug"
+      ],
+      "stiefel": [
+       "Handschuh",
+       "Badeanzug",
+       "Pyjama"
+      ],
+      "handschuh": [
+       "Badeanzug",
+       "Pyjama",
+       "Rock"
+      ],
+      "badeanzug": [
+       "Pyjama",
+       "Rock",
+       "Mantel"
+      ],
+      "pyjama": [
+       "Rock",
+       "Mantel",
+       "Hut"
+      ],
+      "hose": [
+       "Jacke",
+       "Mütze",
+       "Bluse"
+      ],
+      "jacke": [
+       "Mütze",
+       "Bluse",
+       "Krawatte"
+      ],
+      "mütze": [
+       "Bluse",
+       "Krawatte",
+       "Brille"
+      ],
+      "bluse": [
+       "Krawatte",
+       "Brille",
+       "Jeans"
+      ],
+      "krawatte": [
+       "Brille",
+       "Jeans",
+       "Kleidung"
+      ],
+      "brille": [
+       "Jeans",
+       "Kleidung",
+       "Uniform"
+      ],
+      "jeans": [
+       "Kleidung",
+       "Uniform",
+       "Socke"
+      ],
+      "kleidung": [
+       "Uniform",
+       "Socke",
+       "Unterwäsche"
+      ],
+      "uniform": [
+       "Socke",
+       "Unterwäsche",
+       "Sonnenbrille"
+      ],
+      "socke": [
+       "Unterwäsche",
+       "Sonnenbrille",
+       "Kappe"
+      ],
+      "unterwäsche": [
+       "Sonnenbrille",
+       "Kappe",
+       "Hose"
+      ],
+      "sonnenbrille": [
+       "Kappe",
+       "Hose",
+       "Jacke"
+      ],
+      "kappe": [
+       "Hose",
+       "Jacke",
+       "Mütze"
+      ],
+      "hemd": [
+       "Kleid",
+       "T-Shirt",
+       "Sweatshirt"
+      ],
+      "kleid": [
+       "T-Shirt",
+       "Sweatshirt",
+       "Nachthemd"
+      ],
+      "t-shirt": [
+       "Sweatshirt",
+       "Nachthemd",
+       "Hemd"
+      ],
+      "sweatshirt": [
+       "Nachthemd",
+       "Hemd",
+       "Kleid"
+      ],
+      "nachthemd": [
+       "Hemd",
+       "Kleid",
+       "T-Shirt"
+      ],
+      "schuhe": [
+       "Socken",
+       "Hosen",
+       "Kleider"
+      ],
+      "socken": [
+       "Hosen",
+       "Kleider",
+       "Stiefel"
+      ],
+      "hosen": [
+       "Kleider",
+       "Stiefel",
+       "Handschuhe"
+      ],
+      "kleider": [
+       "Stiefel",
+       "Handschuhe",
+       "Hemden"
+      ],
+      "handschuhe": [
+       "Hemden",
+       "Jacken",
+       "Klamotten"
+      ],
+      "hemden": [
+       "Jacken",
+       "Klamotten",
+       "Mäntel"
+      ],
+      "jacken": [
+       "Klamotten",
+       "Mäntel",
+       "Hüte"
+      ],
+      "klamotten": [
+       "Mäntel",
+       "Hüte",
+       "Krawatten"
+      ],
+      "mäntel": [
+       "Hüte",
+       "Krawatten",
+       "Schuhe"
+      ],
+      "hüte": [
+       "Krawatten",
+       "Schuhe",
+       "Socken"
+      ],
+      "krawatten": [
+       "Schuhe",
+       "Socken",
+       "Hosen"
+      ],
+      "schuhen": [
+       "Socken",
+       "Kleidern",
+       "Stiefeln"
+      ],
+      "kleidern": [
+       "Stiefeln",
+       "Handschuhen",
+       "Hemden"
+      ],
+      "stiefeln": [
+       "Handschuhen",
+       "Hemden",
+       "Hosen"
+      ],
+      "handschuhen": [
+       "Hemden",
+       "Hosen",
+       "Klamotten"
+      ]
+     },
+     "exclude": "\\bauf der Hut\\b|\\b(?:[Mm]ag|liebe|liebt|höre|hört|hören|spielen|spielt) (?:gerne? )?Rock\\b|\\bRock\\b ?(?:und|['’]?n['’]?) ?Roll|\\bRock (?:hören|spielen)"
+    },
+    {
+     "id": "animais",
+     "name": "Animais",
+     "desc": "Hund (cachorro), Katze (gato), Pferd (cavalo), Vogel (pássaro), Fisch (peixe), Kuh (vaca). Plural: Hunde, Katzen, Vögel.",
+     "pattern": "\\b(?P<w>Schmetterlinge|Schmetterling|Eichhörnchen|Schildkröte|Elefanten|Kaninchen|Schlangen|Krokodil|Schlange|Schweine|Kätzchen|Insekten|Ameisen|Hühnern|Pferdes|Elefant|Pferden|Papagei|Schafen|Delfine|Spinnen|Fischen|Hamster|Schwein|Giraffe|Fisches|Känguru|Hühner|Spinne|Frosch|Katzen|Tieres|Pferde|Fliege|Tauben|Bienen|Ameise|Fische|Insekt|Tieren|Vögeln|Hundes|Ziegen|Schafe|Vogels|Delfin|Mäusen|Hunden|Welpe|Kamel|Vogel|Löwen|Wölfe|Mäuse|Fisch|Tiger|Enten|Schaf|Mücke|Zebra|Tiere|Katze|Biene|Fuchs|Taube|Ziege|Bären|Kühen|Vögel|Affen|Pferd|Adler|Hunde|Hahn|Huhn|Esel|Wolf|Eule|Ente|Affe|Maus|Kühe|Löwe|Hase|Tier|Hund|Hai|Kuh|Bär|Wal)\\b(?!-)",
+     "case": true,
+     "options": {
+      "hund": [
+       "Vogel",
+       "Fisch",
+       "Bär"
+      ],
+      "vogel": [
+       "Fisch",
+       "Bär",
+       "Löwe"
+      ],
+      "fisch": [
+       "Bär",
+       "Löwe",
+       "Tiger"
+      ],
+      "bär": [
+       "Löwe",
+       "Tiger",
+       "Elefant"
+      ],
+      "löwe": [
+       "Tiger",
+       "Elefant",
+       "Affe"
+      ],
+      "tiger": [
+       "Elefant",
+       "Affe",
+       "Wolf"
+      ],
+      "elefant": [
+       "Affe",
+       "Wolf",
+       "Fuchs"
+      ],
+      "affe": [
+       "Wolf",
+       "Fuchs",
+       "Hase"
+      ],
+      "wolf": [
+       "Fuchs",
+       "Hase",
+       "Frosch"
+      ],
+      "fuchs": [
+       "Hase",
+       "Frosch",
+       "Esel"
+      ],
+      "hase": [
+       "Frosch",
+       "Esel",
+       "Hai"
+      ],
+      "frosch": [
+       "Esel",
+       "Hai",
+       "Wal"
+      ],
+      "esel": [
+       "Hai",
+       "Wal",
+       "Delfin"
+      ],
+      "hai": [
+       "Wal",
+       "Delfin",
+       "Papagei"
+      ],
+      "wal": [
+       "Delfin",
+       "Papagei",
+       "Schmetterling"
+      ],
+      "delfin": [
+       "Papagei",
+       "Schmetterling",
+       "Adler"
+      ],
+      "papagei": [
+       "Schmetterling",
+       "Adler",
+       "Hamster"
+      ],
+      "schmetterling": [
+       "Adler",
+       "Hamster",
+       "Hahn"
+      ],
+      "adler": [
+       "Hamster",
+       "Hahn",
+       "Welpe"
+      ],
+      "hamster": [
+       "Hahn",
+       "Welpe",
+       "Hund"
+      ],
+      "hahn": [
+       "Welpe",
+       "Hund",
+       "Vogel"
+      ],
+      "welpe": [
+       "Hund",
+       "Vogel",
+       "Fisch"
+      ],
+      "katze": [
+       "Kuh",
+       "Maus",
+       "Ziege"
+      ],
+      "kuh": [
+       "Maus",
+       "Ziege",
+       "Ente"
+      ],
+      "maus": [
+       "Ziege",
+       "Ente",
+       "Schlange"
+      ],
+      "ziege": [
+       "Ente",
+       "Schlange",
+       "Biene"
+      ],
+      "ente": [
+       "Schlange",
+       "Biene",
+       "Spinne"
+      ],
+      "schlange": [
+       "Biene",
+       "Spinne",
+       "Giraffe"
+      ],
+      "biene": [
+       "Spinne",
+       "Giraffe",
+       "Ameise"
+      ],
+      "spinne": [
+       "Giraffe",
+       "Ameise",
+       "Taube"
+      ],
+      "giraffe": [
+       "Ameise",
+       "Taube",
+       "Schildkröte"
+      ],
+      "ameise": [
+       "Taube",
+       "Schildkröte",
+       "Fliege"
+      ],
+      "taube": [
+       "Schildkröte",
+       "Fliege",
+       "Mücke"
+      ],
+      "schildkröte": [
+       "Fliege",
+       "Mücke",
+       "Eule"
+      ],
+      "fliege": [
+       "Mücke",
+       "Eule",
+       "Katze"
+      ],
+      "mücke": [
+       "Eule",
+       "Katze",
+       "Kuh"
+      ],
+      "eule": [
+       "Katze",
+       "Kuh",
+       "Maus"
+      ],
+      "pferd": [
+       "Schwein",
+       "Schaf",
+       "Huhn"
+      ],
+      "schwein": [
+       "Schaf",
+       "Huhn",
+       "Kaninchen"
+      ],
+      "schaf": [
+       "Huhn",
+       "Kaninchen",
+       "Tier"
+      ],
+      "huhn": [
+       "Kaninchen",
+       "Tier",
+       "Insekt"
+      ],
+      "kaninchen": [
+       "Tier",
+       "Insekt",
+       "Kamel"
+      ],
+      "tier": [
+       "Insekt",
+       "Kamel",
+       "Krokodil"
+      ],
+      "insekt": [
+       "Kamel",
+       "Krokodil",
+       "Eichhörnchen"
+      ],
+      "kamel": [
+       "Krokodil",
+       "Eichhörnchen",
+       "Zebra"
+      ],
+      "krokodil": [
+       "Eichhörnchen",
+       "Zebra",
+       "Kätzchen"
+      ],
+      "eichhörnchen": [
+       "Zebra",
+       "Kätzchen",
+       "Känguru"
+      ],
+      "zebra": [
+       "Kätzchen",
+       "Känguru",
+       "Pferd"
+      ],
+      "kätzchen": [
+       "Känguru",
+       "Pferd",
+       "Schwein"
+      ],
+      "känguru": [
+       "Pferd",
+       "Schwein",
+       "Schaf"
+      ],
+      "hunde": [
+       "Katzen",
+       "Pferde",
+       "Vögel"
+      ],
+      "katzen": [
+       "Pferde",
+       "Vögel",
+       "Fische"
+      ],
+      "pferde": [
+       "Vögel",
+       "Fische",
+       "Mäuse"
+      ],
+      "vögel": [
+       "Fische",
+       "Mäuse",
+       "Kühe"
+      ],
+      "fische": [
+       "Mäuse",
+       "Kühe",
+       "Schweine"
+      ],
+      "mäuse": [
+       "Kühe",
+       "Schweine",
+       "Schafe"
+      ],
+      "kühe": [
+       "Schweine",
+       "Schafe",
+       "Tiere"
+      ],
+      "schweine": [
+       "Schafe",
+       "Tiere",
+       "Hühner"
+      ],
+      "schafe": [
+       "Tiere",
+       "Hühner",
+       "Bienen"
+      ],
+      "tiere": [
+       "Hühner",
+       "Bienen",
+       "Insekten"
+      ],
+      "hühner": [
+       "Bienen",
+       "Insekten",
+       "Bären"
+      ],
+      "bienen": [
+       "Insekten",
+       "Bären",
+       "Löwen"
+      ],
+      "insekten": [
+       "Bären",
+       "Löwen",
+       "Elefanten"
+      ],
+      "bären": [
+       "Löwen",
+       "Elefanten",
+       "Affen"
+      ],
+      "löwen": [
+       "Elefanten",
+       "Affen",
+       "Wölfe"
+      ],
+      "elefanten": [
+       "Affen",
+       "Wölfe",
+       "Ameisen"
+      ],
+      "affen": [
+       "Wölfe",
+       "Ameisen",
+       "Schlangen"
+      ],
+      "wölfe": [
+       "Ameisen",
+       "Schlangen",
+       "Spinnen"
+      ],
+      "ameisen": [
+       "Schlangen",
+       "Spinnen",
+       "Enten"
+      ],
+      "schlangen": [
+       "Spinnen",
+       "Enten",
+       "Tauben"
+      ],
+      "spinnen": [
+       "Enten",
+       "Tauben",
+       "Ziegen"
+      ],
+      "enten": [
+       "Tauben",
+       "Ziegen",
+       "Kaninchen"
+      ],
+      "tauben": [
+       "Ziegen",
+       "Kaninchen",
+       "Delfine"
+      ],
+      "ziegen": [
+       "Kaninchen",
+       "Delfine",
+       "Schmetterlinge"
+      ],
+      "delfine": [
+       "Schmetterlinge",
+       "Hunde",
+       "Katzen"
+      ],
+      "schmetterlinge": [
+       "Hunde",
+       "Katzen",
+       "Pferde"
+      ],
+      "hunden": [
+       "Pferden",
+       "Vögeln",
+       "Fischen"
+      ],
+      "pferden": [
+       "Vögeln",
+       "Fischen",
+       "Tieren"
+      ],
+      "vögeln": [
+       "Fischen",
+       "Tieren",
+       "Kühen"
+      ],
+      "fischen": [
+       "Tieren",
+       "Kühen",
+       "Schafen"
+      ],
+      "tieren": [
+       "Kühen",
+       "Schafen",
+       "Hühnern"
+      ],
+      "kühen": [
+       "Schafen",
+       "Hühnern",
+       "Mäusen"
+      ],
+      "schafen": [
+       "Hühnern",
+       "Mäusen",
+       "Katzen"
+      ],
+      "hühnern": [
+       "Mäusen",
+       "Katzen",
+       "Hunden"
+      ],
+      "mäusen": [
+       "Katzen",
+       "Hunden",
+       "Pferden"
+      ],
+      "hundes": [
+       "Pferdes",
+       "Tieres",
+       "Vogels"
+      ],
+      "pferdes": [
+       "Tieres",
+       "Vogels",
+       "Fisches"
+      ],
+      "tieres": [
+       "Vogels",
+       "Fisches",
+       "Bären"
+      ],
+      "vogels": [
+       "Fisches",
+       "Bären",
+       "Löwen"
+      ],
+      "fisches": [
+       "Bären",
+       "Löwen",
+       "Elefanten"
+      ]
+     },
+     "exclude": "\\bSchwein gehabt\\b|\\bHahn (?:auf|zu|zudrehen|aufdrehen)\\b|\\b(?:Wasser|Gas)hahn\\b|\\bden Hahn\\b"
+    },
+    {
+     "id": "comida",
+     "name": "Comidas e bebidas",
+     "desc": "Brot (pão), Wasser (água), Milch (leite), Kaffee (café), Fleisch (carne), Apfel (maçã), Ei/Eier (ovo/ovos), Frühstück (café da manhã).",
+     "pattern": "\\b(?P<w>Mittagessen|Kartoffeln|Schokolade|Abendessen|Würstchen|Marmelade|Kartoffel|Frühstück|Spaghetti|Erdbeeren|Zwiebeln|Limonade|Brötchen|Hähnchen|Sandwich|Karotten|Erdbeere|Getränke|Schinken|Zwiebel|Fleisch|Tomaten|Orangen|Karotte|Bananen|Joghurt|Trauben|Pfeffer|Äpfeln|Keksen|Pommes|Kaffee|Banane|Nudeln|Zucker|Braten|Butter|Gemüse|Wasser|Tomate|Birnen|Orange|Kuchen|Apfel|Birne|Steak|Sahne|Wurst|Salat|Pizza|Kekse|Milch|Nudel|Eiern|Suppe|Fisch|Honig|Äpfel|Saft|Keks|Bier|Brot|Salz|Obst|Eier|Reis|Käse|Wein|Mehl|Tee|Ei)\\b(?!-)",
+     "case": true,
+     "options": {
+      "kaffee": [
+       "Tee",
+       "Saft",
+       "Wein"
+      ],
+      "tee": [
+       "Saft",
+       "Wein",
+       "Käse"
+      ],
+      "saft": [
+       "Wein",
+       "Käse",
+       "Reis"
+      ],
+      "wein": [
+       "Käse",
+       "Reis",
+       "Apfel"
+      ],
+      "käse": [
+       "Reis",
+       "Apfel",
+       "Kuchen"
+      ],
+      "reis": [
+       "Apfel",
+       "Kuchen",
+       "Zucker"
+      ],
+      "apfel": [
+       "Kuchen",
+       "Zucker",
+       "Pfeffer"
+      ],
+      "kuchen": [
+       "Zucker",
+       "Pfeffer",
+       "Salat"
+      ],
+      "zucker": [
+       "Pfeffer",
+       "Salat",
+       "Honig"
+      ],
+      "pfeffer": [
+       "Salat",
+       "Honig",
+       "Joghurt"
+      ],
+      "salat": [
+       "Honig",
+       "Joghurt",
+       "Keks"
+      ],
+      "honig": [
+       "Joghurt",
+       "Keks",
+       "Fisch"
+      ],
+      "joghurt": [
+       "Keks",
+       "Fisch",
+       "Braten"
+      ],
+      "keks": [
+       "Fisch",
+       "Braten",
+       "Schinken"
+      ],
+      "fisch": [
+       "Braten",
+       "Schinken",
+       "Kaffee"
+      ],
+      "braten": [
+       "Schinken",
+       "Kaffee",
+       "Tee"
+      ],
+      "schinken": [
+       "Kaffee",
+       "Tee",
+       "Saft"
+      ],
+      "milch": [
+       "Butter",
+       "Suppe",
+       "Banane"
+      ],
+      "butter": [
+       "Suppe",
+       "Banane",
+       "Orange"
+      ],
+      "suppe": [
+       "Banane",
+       "Orange",
+       "Wurst"
+      ],
+      "banane": [
+       "Orange",
+       "Wurst",
+       "Schokolade"
+      ],
+      "orange": [
+       "Wurst",
+       "Schokolade",
+       "Kartoffel"
+      ],
+      "wurst": [
+       "Schokolade",
+       "Kartoffel",
+       "Tomate"
+      ],
+      "schokolade": [
+       "Kartoffel",
+       "Tomate",
+       "Pizza"
+      ],
+      "kartoffel": [
+       "Tomate",
+       "Pizza",
+       "Marmelade"
+      ],
+      "tomate": [
+       "Pizza",
+       "Marmelade",
+       "Erdbeere"
+      ],
+      "pizza": [
+       "Marmelade",
+       "Erdbeere",
+       "Zwiebel"
+      ],
+      "marmelade": [
+       "Erdbeere",
+       "Zwiebel",
+       "Karotte"
+      ],
+      "erdbeere": [
+       "Zwiebel",
+       "Karotte",
+       "Birne"
+      ],
+      "zwiebel": [
+       "Karotte",
+       "Birne",
+       "Sahne"
+      ],
+      "karotte": [
+       "Birne",
+       "Sahne",
+       "Limonade"
+      ],
+      "birne": [
+       "Sahne",
+       "Limonade",
+       "Nudel"
+      ],
+      "sahne": [
+       "Limonade",
+       "Nudel",
+       "Milch"
+      ],
+      "limonade": [
+       "Nudel",
+       "Milch",
+       "Butter"
+      ],
+      "nudel": [
+       "Milch",
+       "Butter",
+       "Suppe"
+      ],
+      "brot": [
+       "Wasser",
+       "Bier",
+       "Fleisch"
+      ],
+      "wasser": [
+       "Bier",
+       "Fleisch",
+       "Obst"
+      ],
+      "bier": [
+       "Fleisch",
+       "Obst",
+       "Gemüse"
+      ],
+      "fleisch": [
+       "Obst",
+       "Gemüse",
+       "Ei"
+      ],
+      "obst": [
+       "Gemüse",
+       "Ei",
+       "Salz"
+      ],
+      "gemüse": [
+       "Ei",
+       "Salz",
+       "Mehl"
+      ],
+      "ei": [
+       "Salz",
+       "Mehl",
+       "Hähnchen"
+      ],
+      "salz": [
+       "Mehl",
+       "Hähnchen",
+       "Steak"
+      ],
+      "mehl": [
+       "Hähnchen",
+       "Steak",
+       "Frühstück"
+      ],
+      "hähnchen": [
+       "Steak",
+       "Frühstück",
+       "Mittagessen"
+      ],
+      "steak": [
+       "Frühstück",
+       "Mittagessen",
+       "Abendessen"
+      ],
+      "frühstück": [
+       "Mittagessen",
+       "Abendessen",
+       "Brötchen"
+      ],
+      "mittagessen": [
+       "Abendessen",
+       "Brötchen",
+       "Sandwich"
+      ],
+      "abendessen": [
+       "Brötchen",
+       "Sandwich",
+       "Brot"
+      ],
+      "brötchen": [
+       "Sandwich",
+       "Brot",
+       "Wasser"
+      ],
+      "sandwich": [
+       "Brot",
+       "Wasser",
+       "Bier"
+      ],
+      "äpfel": [
+       "Bananen",
+       "Orangen",
+       "Kartoffeln"
+      ],
+      "bananen": [
+       "Orangen",
+       "Kartoffeln",
+       "Tomaten"
+      ],
+      "orangen": [
+       "Kartoffeln",
+       "Tomaten",
+       "Eier"
+      ],
+      "kartoffeln": [
+       "Tomaten",
+       "Eier",
+       "Nudeln"
+      ],
+      "tomaten": [
+       "Eier",
+       "Nudeln",
+       "Erdbeeren"
+      ],
+      "eier": [
+       "Nudeln",
+       "Erdbeeren",
+       "Zwiebeln"
+      ],
+      "nudeln": [
+       "Erdbeeren",
+       "Zwiebeln",
+       "Karotten"
+      ],
+      "erdbeeren": [
+       "Zwiebeln",
+       "Karotten",
+       "Kekse"
+      ],
+      "zwiebeln": [
+       "Karotten",
+       "Kekse",
+       "Birnen"
+      ],
+      "karotten": [
+       "Kekse",
+       "Birnen",
+       "Trauben"
+      ],
+      "kekse": [
+       "Birnen",
+       "Trauben",
+       "Würstchen"
+      ],
+      "birnen": [
+       "Trauben",
+       "Würstchen",
+       "Pommes"
+      ],
+      "trauben": [
+       "Würstchen",
+       "Pommes",
+       "Brötchen"
+      ],
+      "würstchen": [
+       "Pommes",
+       "Brötchen",
+       "Getränke"
+      ],
+      "pommes": [
+       "Brötchen",
+       "Getränke",
+       "Spaghetti"
+      ],
+      "getränke": [
+       "Spaghetti",
+       "Äpfel",
+       "Bananen"
+      ],
+      "spaghetti": [
+       "Äpfel",
+       "Bananen",
+       "Orangen"
+      ],
+      "eiern": [
+       "Äpfeln",
+       "Kartoffeln",
+       "Tomaten"
+      ],
+      "äpfeln": [
+       "Kartoffeln",
+       "Tomaten",
+       "Nudeln"
+      ],
+      "keksen": [
+       "Trauben",
+       "Eiern",
+       "Äpfeln"
+      ]
+     },
+     "exclude": "\\bZucker(?:krank)\\b|\\bden Braten\\b"
+    },
+    {
+     "id": "perguntas",
+     "name": "Palavras interrogativas",
+     "desc": "wer (quem), was (o quê), wo (onde), wohin (para onde), woher (de onde), wann (quando), warum (por quê), wie (como), wie viel (quanto), welcher (qual).",
+     "pattern": "^(?:(?:Mit|Für|Von|Zu|Bei|An|Auf|Über|Um|Seit|Bis|Aus|In|Nach|Gegen|Ohne|Und|Aber)\\s+)?(?P<w>Wer|Wen|Wem|Wessen|Was|Wohin|Woher|Wo|Wann|Warum|Wieso|Weshalb|Wie|Welche[nmrs]?)\\b(?=[^.!]*\\?\\s*[\\\"“”»«]?\\s*$)",
+     "case": true,
+     "exclude": "^Was für\\b|^(?:Und )?Wo(?=[^?]*\\b(?:hin|her)\\s*\\?)",
+     "options": {
+      "wer": [
+       "wen",
+       "wem",
+       "was"
+      ],
+      "wen": [
+       "wer",
+       "wem",
+       "wessen"
+      ],
+      "wem": [
+       "wer",
+       "wen",
+       "wessen"
+      ],
+      "wessen": [
+       "wer",
+       "wem",
+       "wen"
+      ],
+      "was": [
+       "wer",
+       "wie",
+       "wo"
+      ],
+      "wo": [
+       "wohin",
+       "woher",
+       "wann"
+      ],
+      "wohin": [
+       "wo",
+       "woher",
+       "wann"
+      ],
+      "woher": [
+       "wo",
+       "wohin",
+       "wie"
+      ],
+      "wann": [
+       "wo",
+       "wie",
+       "was"
+      ],
+      "warum": [
+       "wann",
+       "wie",
+       "wo"
+      ],
+      "wieso": [
+       "wann",
+       "wo",
+       "wer"
+      ],
+      "weshalb": [
+       "wann",
+       "wo",
+       "wer"
+      ],
+      "wie": [
+       "wo",
+       "was",
+       "wann"
+      ],
+      "welche": [
+       "welcher",
+       "welches",
+       "was"
+      ],
+      "welcher": [
+       "welche",
+       "welches",
+       "wer"
+      ],
+      "welches": [
+       "welche",
+       "welcher",
+       "was"
+      ],
+      "welchen": [
+       "welche",
+       "welchem",
+       "wen"
+      ],
+      "welchem": [
+       "welchen",
+       "welcher",
+       "wem"
+      ]
+     }
+    },
+    {
+     "id": "lugares",
+     "name": "Lugares da cidade",
+     "desc": "Bahnhof (estação), Schule (escola), Krankenhaus (hospital), Supermarkt (supermercado), Kirche (igreja), Apotheke (farmácia), Kino (cinema).",
+     "pattern": "\\b(?P<w>Bushaltestelle|Krankenhauses|Krankenhäuser|Bibliotheken|Buchhandlung|Kindergarten|Universität|Haltestelle|Krankenhaus|Restaurants|Supermarkt|Flughafens|Restaurant|Spielplatz|Tankstelle|Bibliothek|Schwimmbad|Gefängnis|Flughafen|Metzgerei|Geschäfte|Geschäft|Bahnhofs|Friedhof|Bäckerei|Apotheke|Kaufhaus|Rathaus|Museums|Polizei|Kirchen|Schulen|Bahnhof|Brücken|Theater|Stadion|Kirche|Museum|Strand|Hotels|Dörfer|Brücke|Museen|Dorfes|Städte|Schule|Stadt|Parks|Läden|Hafen|Kinos|Hotel|Laden|Markt|Kino|Büro|Dorf|Post|Park|Café|Zoo)\\b(?!-)",
+     "case": true,
+     "options": {
+      "bahnhof": [
+       "Flughafen",
+       "Supermarkt",
+       "Park"
+      ],
+      "flughafen": [
+       "Supermarkt",
+       "Park",
+       "Markt"
+      ],
+      "supermarkt": [
+       "Park",
+       "Markt",
+       "Laden"
+      ],
+      "park": [
+       "Markt",
+       "Laden",
+       "Zoo"
+      ],
+      "markt": [
+       "Laden",
+       "Zoo",
+       "Strand"
+      ],
+      "laden": [
+       "Zoo",
+       "Strand",
+       "Friedhof"
+      ],
+      "zoo": [
+       "Strand",
+       "Friedhof",
+       "Hafen"
+      ],
+      "strand": [
+       "Friedhof",
+       "Hafen",
+       "Spielplatz"
+      ],
+      "friedhof": [
+       "Hafen",
+       "Spielplatz",
+       "Kindergarten"
+      ],
+      "hafen": [
+       "Spielplatz",
+       "Kindergarten",
+       "Bahnhof"
+      ],
+      "spielplatz": [
+       "Kindergarten",
+       "Bahnhof",
+       "Flughafen"
+      ],
+      "kindergarten": [
+       "Bahnhof",
+       "Flughafen",
+       "Supermarkt"
+      ],
+      "schule": [
+       "Kirche",
+       "Bibliothek",
+       "Post"
+      ],
+      "kirche": [
+       "Bibliothek",
+       "Post",
+       "Apotheke"
+      ],
+      "bibliothek": [
+       "Post",
+       "Apotheke",
+       "Universität"
+      ],
+      "post": [
+       "Apotheke",
+       "Universität",
+       "Bäckerei"
+      ],
+      "apotheke": [
+       "Universität",
+       "Bäckerei",
+       "Haltestelle"
+      ],
+      "universität": [
+       "Bäckerei",
+       "Haltestelle",
+       "Bushaltestelle"
+      ],
+      "bäckerei": [
+       "Haltestelle",
+       "Bushaltestelle",
+       "Polizei"
+      ],
+      "haltestelle": [
+       "Bushaltestelle",
+       "Polizei",
+       "Tankstelle"
+      ],
+      "bushaltestelle": [
+       "Polizei",
+       "Tankstelle",
+       "Metzgerei"
+      ],
+      "polizei": [
+       "Tankstelle",
+       "Metzgerei",
+       "Buchhandlung"
+      ],
+      "tankstelle": [
+       "Metzgerei",
+       "Buchhandlung",
+       "Brücke"
+      ],
+      "metzgerei": [
+       "Buchhandlung",
+       "Brücke",
+       "Stadt"
+      ],
+      "buchhandlung": [
+       "Brücke",
+       "Stadt",
+       "Schule"
+      ],
+      "brücke": [
+       "Stadt",
+       "Schule",
+       "Kirche"
+      ],
+      "stadt": [
+       "Schule",
+       "Kirche",
+       "Bibliothek"
+      ],
+      "krankenhaus": [
+       "Restaurant",
+       "Hotel",
+       "Museum"
+      ],
+      "restaurant": [
+       "Hotel",
+       "Museum",
+       "Kino"
+      ],
+      "hotel": [
+       "Museum",
+       "Kino",
+       "Theater"
+      ],
+      "museum": [
+       "Kino",
+       "Theater",
+       "Rathaus"
+      ],
+      "kino": [
+       "Theater",
+       "Rathaus",
+       "Geschäft"
+      ],
+      "theater": [
+       "Rathaus",
+       "Geschäft",
+       "Büro"
+      ],
+      "rathaus": [
+       "Geschäft",
+       "Büro",
+       "Café"
+      ],
+      "geschäft": [
+       "Büro",
+       "Café",
+       "Stadion"
+      ],
+      "büro": [
+       "Café",
+       "Stadion",
+       "Schwimmbad"
+      ],
+      "café": [
+       "Stadion",
+       "Schwimmbad",
+       "Kaufhaus"
+      ],
+      "stadion": [
+       "Schwimmbad",
+       "Kaufhaus",
+       "Gefängnis"
+      ],
+      "schwimmbad": [
+       "Kaufhaus",
+       "Gefängnis",
+       "Dorf"
+      ],
+      "kaufhaus": [
+       "Gefängnis",
+       "Dorf",
+       "Krankenhaus"
+      ],
+      "gefängnis": [
+       "Dorf",
+       "Krankenhaus",
+       "Restaurant"
+      ],
+      "dorf": [
+       "Krankenhaus",
+       "Restaurant",
+       "Hotel"
+      ],
+      "schulen": [
+       "Kirchen",
+       "Restaurants",
+       "Hotels"
+      ],
+      "kirchen": [
+       "Restaurants",
+       "Hotels",
+       "Museen"
+      ],
+      "restaurants": [
+       "Hotels",
+       "Museen",
+       "Parks"
+      ],
+      "hotels": [
+       "Museen",
+       "Parks",
+       "Geschäfte"
+      ],
+      "museen": [
+       "Parks",
+       "Geschäfte",
+       "Läden"
+      ],
+      "parks": [
+       "Geschäfte",
+       "Läden",
+       "Brücken"
+      ],
+      "geschäfte": [
+       "Läden",
+       "Brücken",
+       "Städte"
+      ],
+      "läden": [
+       "Brücken",
+       "Städte",
+       "Krankenhäuser"
+      ],
+      "brücken": [
+       "Städte",
+       "Krankenhäuser",
+       "Kinos"
+      ],
+      "städte": [
+       "Krankenhäuser",
+       "Kinos",
+       "Bibliotheken"
+      ],
+      "krankenhäuser": [
+       "Kinos",
+       "Bibliotheken",
+       "Dörfer"
+      ],
+      "kinos": [
+       "Bibliotheken",
+       "Dörfer",
+       "Schulen"
+      ],
+      "bibliotheken": [
+       "Dörfer",
+       "Schulen",
+       "Kirchen"
+      ],
+      "dörfer": [
+       "Schulen",
+       "Kirchen",
+       "Restaurants"
+      ],
+      "bahnhofs": [
+       "Flughafens",
+       "Krankenhauses",
+       "Hotels"
+      ],
+      "flughafens": [
+       "Krankenhauses",
+       "Hotels",
+       "Museums"
+      ],
+      "krankenhauses": [
+       "Hotels",
+       "Museums",
+       "Parks"
+      ],
+      "museums": [
+       "Parks",
+       "Dorfes",
+       "Restaurants"
+      ],
+      "dorfes": [
+       "Restaurants",
+       "Bahnhofs",
+       "Flughafens"
+      ]
+     },
+     "exclude": "^Laden Sie\\b"
+    },
+    {
+     "id": "profissoes",
+     "name": "Profissões",
+     "desc": "Lehrer/Lehrerin (professor/a), Arzt/Ärztin (médico/a), Koch (cozinheiro), Polizist (policial), Kellner (garçom). Feminino com -in: Studentin.",
+     "pattern": "\\b(?P<w>Krankenschwestern|Schriftstellerin|Krankenschwester|Programmiererin|Schriftsteller|Krankenpfleger|Schauspielerin|Schauspielern|Programmierer|Feuerwehrmann|Studentinnen|Übersetzerin|Schauspieler|Journalisten|Journalistin|Ingenieurin|Verkäuferin|Professorin|Dolmetscher|Bauarbeiter|Briefträger|Architekten|Lehrerinnen|Polizisten|Ingenieure|Taxifahrer|Mechaniker|Zahnärztin|Journalist|Polizistin|Künstlerin|Tierärztin|Übersetzer|Buchhalter|Sekretärin|Ärztinnen|Professor|Friseurin|Arbeitern|Kellnerin|Ingenieur|Architekt|Studentin|Richterin|Künstlern|Verkäufer|Studenten|Fotograf|Zahnarzt|Sängerin|Musikern|Tänzerin|Kellnern|Polizist|Soldaten|Tierarzt|Anwältin|Arbeiter|Künstler|Lehrerin|Malerin|Piloten|Kellner|Musiker|Friseur|Lehrern|Student|Anwälte|Pilotin|Richter|Tänzer|Ärzten|Sänger|Ärztin|Chefin|Lehrer|Bäcker|Köchin|Fahrer|Anwalt|Bauern|Soldat|Pilot|Ärzte|Maler|Bauer|Köche|Koch|Arzt|Chef)\\b(?!-)",
+     "case": true,
+     "options": {
+      "lehrer": [
+       "Arzt",
+       "Koch",
+       "Bäcker"
+      ],
+      "arzt": [
+       "Koch",
+       "Bäcker",
+       "Ingenieur"
+      ],
+      "koch": [
+       "Bäcker",
+       "Ingenieur",
+       "Anwalt"
+      ],
+      "bäcker": [
+       "Ingenieur",
+       "Anwalt",
+       "Verkäufer"
+      ],
+      "ingenieur": [
+       "Anwalt",
+       "Verkäufer",
+       "Kellner"
+      ],
+      "anwalt": [
+       "Verkäufer",
+       "Kellner",
+       "Fahrer"
+      ],
+      "verkäufer": [
+       "Kellner",
+       "Fahrer",
+       "Taxifahrer"
+      ],
+      "kellner": [
+       "Fahrer",
+       "Taxifahrer",
+       "Bauer"
+      ],
+      "fahrer": [
+       "Taxifahrer",
+       "Bauer",
+       "Sänger"
+      ],
+      "taxifahrer": [
+       "Bauer",
+       "Sänger",
+       "Schauspieler"
+      ],
+      "bauer": [
+       "Sänger",
+       "Schauspieler",
+       "Programmierer"
+      ],
+      "sänger": [
+       "Schauspieler",
+       "Programmierer",
+       "Friseur"
+      ],
+      "schauspieler": [
+       "Programmierer",
+       "Friseur",
+       "Zahnarzt"
+      ],
+      "programmierer": [
+       "Friseur",
+       "Zahnarzt",
+       "Pilot"
+      ],
+      "friseur": [
+       "Zahnarzt",
+       "Pilot",
+       "Feuerwehrmann"
+      ],
+      "zahnarzt": [
+       "Pilot",
+       "Feuerwehrmann",
+       "Mechaniker"
+      ],
+      "pilot": [
+       "Feuerwehrmann",
+       "Mechaniker",
+       "Architekt"
+      ],
+      "feuerwehrmann": [
+       "Mechaniker",
+       "Architekt",
+       "Künstler"
+      ],
+      "mechaniker": [
+       "Architekt",
+       "Künstler",
+       "Maler"
+      ],
+      "architekt": [
+       "Künstler",
+       "Maler",
+       "Schriftsteller"
+      ],
+      "künstler": [
+       "Maler",
+       "Schriftsteller",
+       "Musiker"
+      ],
+      "maler": [
+       "Schriftsteller",
+       "Musiker",
+       "Richter"
+      ],
+      "schriftsteller": [
+       "Musiker",
+       "Richter",
+       "Professor"
+      ],
+      "musiker": [
+       "Richter",
+       "Professor",
+       "Tierarzt"
+      ],
+      "richter": [
+       "Professor",
+       "Tierarzt",
+       "Polizist"
+      ],
+      "professor": [
+       "Tierarzt",
+       "Polizist",
+       "Student"
+      ],
+      "tierarzt": [
+       "Polizist",
+       "Student",
+       "Journalist"
+      ],
+      "polizist": [
+       "Student",
+       "Journalist",
+       "Soldat"
+      ],
+      "student": [
+       "Journalist",
+       "Soldat",
+       "Krankenpfleger"
+      ],
+      "journalist": [
+       "Soldat",
+       "Krankenpfleger",
+       "Arbeiter"
+      ],
+      "soldat": [
+       "Krankenpfleger",
+       "Arbeiter",
+       "Chef"
+      ],
+      "krankenpfleger": [
+       "Arbeiter",
+       "Chef",
+       "Dolmetscher"
+      ],
+      "arbeiter": [
+       "Chef",
+       "Dolmetscher",
+       "Übersetzer"
+      ],
+      "chef": [
+       "Dolmetscher",
+       "Übersetzer",
+       "Fotograf"
+      ],
+      "dolmetscher": [
+       "Übersetzer",
+       "Fotograf",
+       "Tänzer"
+      ],
+      "übersetzer": [
+       "Fotograf",
+       "Tänzer",
+       "Bauarbeiter"
+      ],
+      "fotograf": [
+       "Tänzer",
+       "Bauarbeiter",
+       "Buchhalter"
+      ],
+      "tänzer": [
+       "Bauarbeiter",
+       "Buchhalter",
+       "Briefträger"
+      ],
+      "bauarbeiter": [
+       "Buchhalter",
+       "Briefträger",
+       "Lehrer"
+      ],
+      "buchhalter": [
+       "Briefträger",
+       "Lehrer",
+       "Arzt"
+      ],
+      "briefträger": [
+       "Lehrer",
+       "Arzt",
+       "Koch"
+      ],
+      "lehrerin": [
+       "Ärztin",
+       "Köchin",
+       "Ingenieurin"
+      ],
+      "ärztin": [
+       "Köchin",
+       "Ingenieurin",
+       "Anwältin"
+      ],
+      "köchin": [
+       "Ingenieurin",
+       "Anwältin",
+       "Verkäuferin"
+      ],
+      "ingenieurin": [
+       "Anwältin",
+       "Verkäuferin",
+       "Kellnerin"
+      ],
+      "anwältin": [
+       "Verkäuferin",
+       "Kellnerin",
+       "Sängerin"
+      ],
+      "verkäuferin": [
+       "Kellnerin",
+       "Sängerin",
+       "Schauspielerin"
+      ],
+      "kellnerin": [
+       "Sängerin",
+       "Schauspielerin",
+       "Krankenschwester"
+      ],
+      "sängerin": [
+       "Schauspielerin",
+       "Krankenschwester",
+       "Polizistin"
+      ],
+      "schauspielerin": [
+       "Krankenschwester",
+       "Polizistin",
+       "Studentin"
+      ],
+      "krankenschwester": [
+       "Polizistin",
+       "Studentin",
+       "Journalistin"
+      ],
+      "polizistin": [
+       "Studentin",
+       "Journalistin",
+       "Sekretärin"
+      ],
+      "studentin": [
+       "Journalistin",
+       "Sekretärin",
+       "Friseurin"
+      ],
+      "journalistin": [
+       "Sekretärin",
+       "Friseurin",
+       "Zahnärztin"
+      ],
+      "sekretärin": [
+       "Friseurin",
+       "Zahnärztin",
+       "Professorin"
+      ],
+      "friseurin": [
+       "Zahnärztin",
+       "Professorin",
+       "Schriftstellerin"
+      ],
+      "zahnärztin": [
+       "Professorin",
+       "Schriftstellerin",
+       "Künstlerin"
+      ],
+      "professorin": [
+       "Schriftstellerin",
+       "Künstlerin",
+       "Tierärztin"
+      ],
+      "schriftstellerin": [
+       "Künstlerin",
+       "Tierärztin",
+       "Chefin"
+      ],
+      "künstlerin": [
+       "Tierärztin",
+       "Chefin",
+       "Übersetzerin"
+      ],
+      "tierärztin": [
+       "Chefin",
+       "Übersetzerin",
+       "Malerin"
+      ],
+      "chefin": [
+       "Übersetzerin",
+       "Malerin",
+       "Tänzerin"
+      ],
+      "übersetzerin": [
+       "Malerin",
+       "Tänzerin",
+       "Pilotin"
+      ],
+      "malerin": [
+       "Tänzerin",
+       "Pilotin",
+       "Richterin"
+      ],
+      "tänzerin": [
+       "Pilotin",
+       "Richterin",
+       "Programmiererin"
+      ],
+      "pilotin": [
+       "Richterin",
+       "Programmiererin",
+       "Lehrerin"
+      ],
+      "richterin": [
+       "Programmiererin",
+       "Lehrerin",
+       "Ärztin"
+      ],
+      "programmiererin": [
+       "Lehrerin",
+       "Ärztin",
+       "Köchin"
+      ],
+      "ärzte": [
+       "Polizisten",
+       "Studenten",
+       "Köche"
+      ],
+      "polizisten": [
+       "Studenten",
+       "Köche",
+       "Kellner"
+      ],
+      "studenten": [
+       "Köche",
+       "Kellner",
+       "Ingenieure"
+      ],
+      "köche": [
+       "Kellner",
+       "Ingenieure",
+       "Anwälte"
+      ],
+      "ingenieure": [
+       "Anwälte",
+       "Journalisten",
+       "Soldaten"
+      ],
+      "anwälte": [
+       "Journalisten",
+       "Soldaten",
+       "Arbeiter"
+      ],
+      "journalisten": [
+       "Soldaten",
+       "Arbeiter",
+       "Künstler"
+      ],
+      "soldaten": [
+       "Arbeiter",
+       "Künstler",
+       "Musiker"
+      ],
+      "krankenschwestern": [
+       "Lehrerinnen",
+       "Ärztinnen",
+       "Studentinnen"
+      ],
+      "lehrerinnen": [
+       "Ärztinnen",
+       "Studentinnen",
+       "Bauern"
+      ],
+      "ärztinnen": [
+       "Studentinnen",
+       "Bauern",
+       "Piloten"
+      ],
+      "studentinnen": [
+       "Bauern",
+       "Piloten",
+       "Architekten"
+      ],
+      "bauern": [
+       "Piloten",
+       "Architekten",
+       "Schriftsteller"
+      ],
+      "piloten": [
+       "Architekten",
+       "Schriftsteller",
+       "Übersetzer"
+      ],
+      "architekten": [
+       "Schriftsteller",
+       "Übersetzer",
+       "Sänger"
+      ],
+      "lehrern": [
+       "Ärzten",
+       "Arbeitern",
+       "Kellnern"
+      ],
+      "ärzten": [
+       "Arbeitern",
+       "Kellnern",
+       "Künstlern"
+      ],
+      "arbeitern": [
+       "Kellnern",
+       "Künstlern",
+       "Musikern"
+      ],
+      "kellnern": [
+       "Künstlern",
+       "Musikern",
+       "Schauspielern"
+      ],
+      "künstlern": [
+       "Musikern",
+       "Schauspielern",
+       "Polizisten"
+      ],
+      "musikern": [
+       "Schauspielern",
+       "Polizisten",
+       "Studenten"
+      ],
+      "schauspielern": [
+       "Polizisten",
+       "Studenten",
+       "Bauern"
+      ]
+     },
+     "exclude": "\\bChef(?!in)\\b(?! (?:ist|war))"
+    },
+    {
+     "id": "opostos",
+     "name": "Adjetivos opostos",
+     "desc": "groß ↔ klein (grande/pequeno), alt ↔ jung/neu, gut ↔ schlecht, teuer ↔ billig, heiß ↔ kalt. Antes do substantivo: ein großes Haus.",
+     "pattern": "\\b(?P<w>glücklichem|schmutzigem|schmutzigen|glücklichen|schmutziges|glückliches|schmutziger|glücklicher|hässliches|hässlichem|hässlichen|schlechten|schlechtes|schmutzige|glückliche|schlechter|hässlicher|schlechtem|langsamem|schwaches|schnellem|glücklich|hässliche|schmutzig|richtigem|richtiges|schlechte|richtiger|langsamen|langsamer|schwacher|trauriges|schwachen|schnelles|langsames|richtigen|schwachem|schneller|traurigen|trauriger|traurigem|schnellen|sauberer|schlecht|billigen|falsches|traurige|langsame|schweres|falscher|sauberem|falschem|leichter|sauberes|leichtem|richtige|leichten|schweren|hässlich|schwerem|leichtes|sauberen|schnelle|falschen|billiges|billiger|billigem|schwerer|schwache|traurig|dunklen|starken|schönem|kleines|kleinen|schwach|reiches|richtig|schönes|starkem|schnell|schwere|saubere|dunkler|starker|falsche|kleiner|dunkles|starkes|dunklem|reicher|leichte|reichem|reichen|kleinem|schöner|schönen|billige|langsam|großem|junger|spätes|langer|schwer|heißes|kleine|leerem|dickes|leeren|schöne|starke|leicht|kalter|dunkle|warmer|dünnen|heißer|warmen|dicken|warmes|großer|frühes|jungen|leerer|junges|dünnem|teures|dunkel|großes|warmem|billig|helles|teuren|kurzen|vollen|sauber|kurzer|falsch|teurer|kurzes|kalten|langes|heller|reiche|kurzem|leeres|spätem|volles|frühem|frühen|heißem|dickem|langen|großen|späten|kaltes|jungem|vollem|dicker|teurem|langem|hellem|dünnes|kaltem|hellen|dünner|dicke|altes|frühe|neuer|armer|altem|kalte|junge|neuem|armen|guten|guter|gutes|stark|alter|neuen|alten|teuer|klein|gutem|späte|teure|dünne|armes|helle|reich|armem|schön|warme|leere|neues|große|kurze|volle|kurz|leer|früh|jung|voll|spät|dick|kalt|lang|gute|warm|neue|dünn|hell|groß|heiß|gut|alt|neu)\\b(?!-)",
+     "case": true,
+     "exclude": "\\b(?:gut|schön) (?:aus)?(?:sehen|sieht|aussehen)\\b|\\bguten? (?:Morgen|Tag|Abend|Appetit|Nacht|Reise|Rutsch)\\b|\\bgute Nacht\\b|\\bschon lange\\b|\\bvor kurzem\\b|\\bbis spät\\b|\\balles Gute\\b|\\bimmer schön\\b|\\b(?:Jahre?|Tage?|Stunden?|Wochen?|Monate?|Minuten?|Zeit|Leben|Nacht|Sekunden?|Weile|Abend|Morgen) lang\\b|\\bfalsch(?:fahren)?\\b(?= verbunden)|\\bso gut wie\\b|\\b[Ww]ie spät\\b",
+     "options": {
+      "groß": [
+       "klein",
+       "heiß",
+       "lang"
+      ],
+      "klein": [
+       "groß",
+       "kalt",
+       "kurz"
+      ],
+      "alt": [
+       "jung",
+       "neu",
+       "warm"
+      ],
+      "jung": [
+       "alt",
+       "schnell",
+       "hässlich"
+      ],
+      "neu": [
+       "alt",
+       "langsam",
+       "leicht"
+      ],
+      "gut": [
+       "schlecht",
+       "teuer",
+       "schwer"
+      ],
+      "schlecht": [
+       "gut",
+       "billig",
+       "früh"
+      ],
+      "heiß": [
+       "kalt",
+       "lang",
+       "spät"
+      ],
+      "kalt": [
+       "heiß",
+       "warm",
+       "kurz"
+      ],
+      "warm": [
+       "kalt",
+       "schön",
+       "dunkel"
+      ],
+      "schnell": [
+       "langsam",
+       "hässlich",
+       "voll"
+      ],
+      "langsam": [
+       "schnell",
+       "leicht",
+       "leer"
+      ],
+      "teuer": [
+       "billig",
+       "schwer",
+       "reich"
+      ],
+      "billig": [
+       "teuer",
+       "früh",
+       "arm"
+      ],
+      "lang": [
+       "kurz",
+       "spät",
+       "dick"
+      ],
+      "kurz": [
+       "lang",
+       "hell",
+       "dünn"
+      ],
+      "schön": [
+       "hässlich",
+       "dunkel",
+       "glücklich"
+      ],
+      "hässlich": [
+       "schön",
+       "voll",
+       "traurig"
+      ],
+      "leicht": [
+       "schwer",
+       "leer",
+       "richtig"
+      ],
+      "schwer": [
+       "leicht",
+       "reich",
+       "falsch"
+      ],
+      "früh": [
+       "spät",
+       "arm",
+       "stark"
+      ],
+      "spät": [
+       "früh",
+       "dick",
+       "schwach"
+      ],
+      "hell": [
+       "dunkel",
+       "dünn",
+       "sauber"
+      ],
+      "dunkel": [
+       "hell",
+       "glücklich",
+       "schmutzig"
+      ],
+      "voll": [
+       "leer",
+       "traurig",
+       "groß"
+      ],
+      "leer": [
+       "voll",
+       "richtig",
+       "klein"
+      ],
+      "reich": [
+       "arm",
+       "falsch",
+       "alt"
+      ],
+      "dick": [
+       "dünn",
+       "schwach",
+       "neu"
+      ],
+      "dünn": [
+       "dick",
+       "sauber",
+       "gut"
+      ],
+      "glücklich": [
+       "traurig",
+       "schmutzig",
+       "schlecht"
+      ],
+      "traurig": [
+       "glücklich",
+       "groß",
+       "heiß"
+      ],
+      "richtig": [
+       "falsch",
+       "klein",
+       "kalt"
+      ],
+      "falsch": [
+       "richtig",
+       "alt",
+       "warm"
+      ],
+      "stark": [
+       "schwach",
+       "jung",
+       "schnell"
+      ],
+      "schwach": [
+       "stark",
+       "neu",
+       "langsam"
+      ],
+      "sauber": [
+       "schmutzig",
+       "gut",
+       "teuer"
+      ],
+      "schmutzig": [
+       "sauber",
+       "schlecht",
+       "billig"
+      ],
+      "große": [
+       "kleine",
+       "heiße",
+       "lange"
+      ],
+      "kleine": [
+       "große",
+       "kalte",
+       "kurze"
+      ],
+      "junge": [
+       "alte",
+       "schnelle",
+       "hässliche"
+      ],
+      "neue": [
+       "alte",
+       "langsame",
+       "leichte"
+      ],
+      "gute": [
+       "schlechte",
+       "teure",
+       "schwere"
+      ],
+      "schlechte": [
+       "gute",
+       "billige",
+       "frühe"
+      ],
+      "kalte": [
+       "heiße",
+       "warme",
+       "kurze"
+      ],
+      "warme": [
+       "kalte",
+       "schöne",
+       "dunkle"
+      ],
+      "schnelle": [
+       "langsame",
+       "hässliche",
+       "volle"
+      ],
+      "langsame": [
+       "schnelle",
+       "leichte",
+       "leere"
+      ],
+      "teure": [
+       "billige",
+       "schwere",
+       "reiche"
+      ],
+      "billige": [
+       "teure",
+       "frühe",
+       "arme"
+      ],
+      "kurze": [
+       "lange",
+       "helle",
+       "dünne"
+      ],
+      "schöne": [
+       "hässliche",
+       "dunkle",
+       "glückliche"
+      ],
+      "hässliche": [
+       "schöne",
+       "volle",
+       "traurige"
+      ],
+      "leichte": [
+       "schwere",
+       "leere",
+       "richtige"
+      ],
+      "schwere": [
+       "leichte",
+       "reiche",
+       "falsche"
+      ],
+      "frühe": [
+       "späte",
+       "arme",
+       "starke"
+      ],
+      "späte": [
+       "frühe",
+       "dicke",
+       "schwache"
+      ],
+      "helle": [
+       "dunkle",
+       "dünne",
+       "saubere"
+      ],
+      "dunkle": [
+       "helle",
+       "glückliche",
+       "schmutzige"
+      ],
+      "volle": [
+       "leere",
+       "traurige",
+       "große"
+      ],
+      "leere": [
+       "volle",
+       "richtige",
+       "kleine"
+      ],
+      "reiche": [
+       "arme",
+       "falsche",
+       "alte"
+      ],
+      "dicke": [
+       "dünne",
+       "schwache",
+       "neue"
+      ],
+      "dünne": [
+       "dicke",
+       "saubere",
+       "gute"
+      ],
+      "glückliche": [
+       "traurige",
+       "schmutzige",
+       "schlechte"
+      ],
+      "traurige": [
+       "glückliche",
+       "große",
+       "heiße"
+      ],
+      "richtige": [
+       "falsche",
+       "kleine",
+       "kalte"
+      ],
+      "falsche": [
+       "richtige",
+       "alte",
+       "warme"
+      ],
+      "starke": [
+       "schwache",
+       "junge",
+       "schnelle"
+      ],
+      "schwache": [
+       "starke",
+       "neue",
+       "langsame"
+      ],
+      "saubere": [
+       "schmutzige",
+       "gute",
+       "teure"
+      ],
+      "schmutzige": [
+       "saubere",
+       "schlechte",
+       "billige"
+      ],
+      "großen": [
+       "kleinen",
+       "heißen",
+       "langen"
+      ],
+      "kleinen": [
+       "großen",
+       "kalten",
+       "kurzen"
+      ],
+      "alten": [
+       "jungen",
+       "neuen",
+       "warmen"
+      ],
+      "jungen": [
+       "alten",
+       "schnellen",
+       "hässlichen"
+      ],
+      "neuen": [
+       "alten",
+       "langsamen",
+       "leichten"
+      ],
+      "guten": [
+       "schlechten",
+       "teuren",
+       "schweren"
+      ],
+      "schlechten": [
+       "guten",
+       "billigen",
+       "frühen"
+      ],
+      "kalten": [
+       "heißen",
+       "warmen",
+       "kurzen"
+      ],
+      "warmen": [
+       "kalten",
+       "schönen",
+       "dunklen"
+      ],
+      "schnellen": [
+       "langsamen",
+       "hässlichen",
+       "vollen"
+      ],
+      "langsamen": [
+       "schnellen",
+       "leichten",
+       "leeren"
+      ],
+      "teuren": [
+       "billigen",
+       "schweren",
+       "reichen"
+      ],
+      "billigen": [
+       "teuren",
+       "frühen",
+       "armen"
+      ],
+      "langen": [
+       "kurzen",
+       "späten",
+       "dicken"
+      ],
+      "kurzen": [
+       "langen",
+       "hellen",
+       "dünnen"
+      ],
+      "schönen": [
+       "hässlichen",
+       "dunklen",
+       "glücklichen"
+      ],
+      "hässlichen": [
+       "schönen",
+       "vollen",
+       "traurigen"
+      ],
+      "leichten": [
+       "schweren",
+       "leeren",
+       "richtigen"
+      ],
+      "schweren": [
+       "leichten",
+       "reichen",
+       "falschen"
+      ],
+      "frühen": [
+       "späten",
+       "armen",
+       "starken"
+      ],
+      "späten": [
+       "frühen",
+       "dicken",
+       "schwachen"
+      ],
+      "hellen": [
+       "dunklen",
+       "dünnen",
+       "sauberen"
+      ],
+      "dunklen": [
+       "hellen",
+       "glücklichen",
+       "schmutzigen"
+      ],
+      "vollen": [
+       "leeren",
+       "traurigen",
+       "großen"
+      ],
+      "leeren": [
+       "vollen",
+       "richtigen",
+       "kleinen"
+      ],
+      "reichen": [
+       "armen",
+       "falschen",
+       "alten"
+      ],
+      "armen": [
+       "reichen",
+       "starken",
+       "jungen"
+      ],
+      "dicken": [
+       "dünnen",
+       "schwachen",
+       "neuen"
+      ],
+      "dünnen": [
+       "dicken",
+       "sauberen",
+       "guten"
+      ],
+      "glücklichen": [
+       "traurigen",
+       "schmutzigen",
+       "schlechten"
+      ],
+      "traurigen": [
+       "glücklichen",
+       "großen",
+       "heißen"
+      ],
+      "richtigen": [
+       "falschen",
+       "kleinen",
+       "kalten"
+      ],
+      "falschen": [
+       "richtigen",
+       "alten",
+       "warmen"
+      ],
+      "starken": [
+       "schwachen",
+       "jungen",
+       "schnellen"
+      ],
+      "schwachen": [
+       "starken",
+       "neuen",
+       "langsamen"
+      ],
+      "sauberen": [
+       "schmutzigen",
+       "guten",
+       "teuren"
+      ],
+      "schmutzigen": [
+       "sauberen",
+       "schlechten",
+       "billigen"
+      ],
+      "großer": [
+       "kleiner",
+       "heißer",
+       "langer"
+      ],
+      "kleiner": [
+       "großer",
+       "kalter",
+       "kurzer"
+      ],
+      "alter": [
+       "junger",
+       "neuer",
+       "warmer"
+      ],
+      "junger": [
+       "alter",
+       "schneller",
+       "hässlicher"
+      ],
+      "neuer": [
+       "alter",
+       "langsamer",
+       "leichter"
+      ],
+      "guter": [
+       "schlechter",
+       "teurer",
+       "schwerer"
+      ],
+      "schlechter": [
+       "guter",
+       "billiger",
+       "früher"
+      ],
+      "heißer": [
+       "kalter",
+       "langer",
+       "später"
+      ],
+      "kalter": [
+       "heißer",
+       "warmer",
+       "kurzer"
+      ],
+      "warmer": [
+       "kalter",
+       "schöner",
+       "dunkler"
+      ],
+      "schneller": [
+       "langsamer",
+       "hässlicher",
+       "voller"
+      ],
+      "langsamer": [
+       "schneller",
+       "leichter",
+       "leerer"
+      ],
+      "teurer": [
+       "billiger",
+       "schwerer",
+       "reicher"
+      ],
+      "billiger": [
+       "teurer",
+       "früher",
+       "armer"
+      ],
+      "langer": [
+       "kurzer",
+       "später",
+       "dicker"
+      ],
+      "kurzer": [
+       "langer",
+       "heller",
+       "dünner"
+      ],
+      "schöner": [
+       "hässlicher",
+       "dunkler",
+       "glücklicher"
+      ],
+      "hässlicher": [
+       "schöner",
+       "voller",
+       "trauriger"
+      ],
+      "leichter": [
+       "schwerer",
+       "leerer",
+       "richtiger"
+      ],
+      "schwerer": [
+       "leichter",
+       "reicher",
+       "falscher"
+      ],
+      "heller": [
+       "dunkler",
+       "dünner",
+       "sauberer"
+      ],
+      "dunkler": [
+       "heller",
+       "glücklicher",
+       "schmutziger"
+      ],
+      "leerer": [
+       "voller",
+       "richtiger",
+       "kleiner"
+      ],
+      "reicher": [
+       "armer",
+       "falscher",
+       "alter"
+      ],
+      "armer": [
+       "reicher",
+       "starker",
+       "junger"
+      ],
+      "dicker": [
+       "dünner",
+       "schwacher",
+       "neuer"
+      ],
+      "dünner": [
+       "dicker",
+       "sauberer",
+       "guter"
+      ],
+      "glücklicher": [
+       "trauriger",
+       "schmutziger",
+       "schlechter"
+      ],
+      "trauriger": [
+       "glücklicher",
+       "großer",
+       "heißer"
+      ],
+      "richtiger": [
+       "falscher",
+       "kleiner",
+       "kalter"
+      ],
+      "falscher": [
+       "richtiger",
+       "alter",
+       "warmer"
+      ],
+      "starker": [
+       "schwacher",
+       "junger",
+       "schneller"
+      ],
+      "schwacher": [
+       "starker",
+       "neuer",
+       "langsamer"
+      ],
+      "sauberer": [
+       "schmutziger",
+       "guter",
+       "teurer"
+      ],
+      "schmutziger": [
+       "sauberer",
+       "schlechter",
+       "billiger"
+      ],
+      "großes": [
+       "kleines",
+       "heißes",
+       "langes"
+      ],
+      "kleines": [
+       "großes",
+       "kaltes",
+       "kurzes"
+      ],
+      "altes": [
+       "junges",
+       "neues",
+       "warmes"
+      ],
+      "junges": [
+       "altes",
+       "schnelles",
+       "hässliches"
+      ],
+      "neues": [
+       "altes",
+       "langsames",
+       "leichtes"
+      ],
+      "gutes": [
+       "schlechtes",
+       "teures",
+       "schweres"
+      ],
+      "schlechtes": [
+       "gutes",
+       "billiges",
+       "frühes"
+      ],
+      "heißes": [
+       "kaltes",
+       "langes",
+       "spätes"
+      ],
+      "kaltes": [
+       "heißes",
+       "warmes",
+       "kurzes"
+      ],
+      "warmes": [
+       "kaltes",
+       "schönes",
+       "dunkles"
+      ],
+      "schnelles": [
+       "langsames",
+       "hässliches",
+       "volles"
+      ],
+      "langsames": [
+       "schnelles",
+       "leichtes",
+       "leeres"
+      ],
+      "teures": [
+       "billiges",
+       "schweres",
+       "reiches"
+      ],
+      "billiges": [
+       "teures",
+       "frühes",
+       "armes"
+      ],
+      "langes": [
+       "kurzes",
+       "spätes",
+       "dickes"
+      ],
+      "kurzes": [
+       "langes",
+       "helles",
+       "dünnes"
+      ],
+      "schönes": [
+       "hässliches",
+       "dunkles",
+       "glückliches"
+      ],
+      "hässliches": [
+       "schönes",
+       "volles",
+       "trauriges"
+      ],
+      "leichtes": [
+       "schweres",
+       "leeres",
+       "richtiges"
+      ],
+      "schweres": [
+       "leichtes",
+       "reiches",
+       "falsches"
+      ],
+      "frühes": [
+       "spätes",
+       "armes",
+       "starkes"
+      ],
+      "spätes": [
+       "frühes",
+       "dickes",
+       "schwaches"
+      ],
+      "helles": [
+       "dunkles",
+       "dünnes",
+       "sauberes"
+      ],
+      "dunkles": [
+       "helles",
+       "glückliches",
+       "schmutziges"
+      ],
+      "volles": [
+       "leeres",
+       "trauriges",
+       "großes"
+      ],
+      "leeres": [
+       "volles",
+       "richtiges",
+       "kleines"
+      ],
+      "reiches": [
+       "armes",
+       "falsches",
+       "altes"
+      ],
+      "armes": [
+       "reiches",
+       "starkes",
+       "junges"
+      ],
+      "dickes": [
+       "dünnes",
+       "schwaches",
+       "neues"
+      ],
+      "dünnes": [
+       "dickes",
+       "sauberes",
+       "gutes"
+      ],
+      "glückliches": [
+       "trauriges",
+       "schmutziges",
+       "schlechtes"
+      ],
+      "trauriges": [
+       "glückliches",
+       "großes",
+       "heißes"
+      ],
+      "richtiges": [
+       "falsches",
+       "kleines",
+       "kaltes"
+      ],
+      "falsches": [
+       "richtiges",
+       "altes",
+       "warmes"
+      ],
+      "starkes": [
+       "schwaches",
+       "junges",
+       "schnelles"
+      ],
+      "schwaches": [
+       "starkes",
+       "neues",
+       "langsames"
+      ],
+      "sauberes": [
+       "schmutziges",
+       "gutes",
+       "teures"
+      ],
+      "schmutziges": [
+       "sauberes",
+       "schlechtes",
+       "billiges"
+      ],
+      "großem": [
+       "kleinem",
+       "heißem",
+       "langem"
+      ],
+      "kleinem": [
+       "großem",
+       "kaltem",
+       "kurzem"
+      ],
+      "altem": [
+       "jungem",
+       "neuem",
+       "warmem"
+      ],
+      "jungem": [
+       "altem",
+       "schnellem",
+       "hässlichem"
+      ],
+      "neuem": [
+       "altem",
+       "langsamem",
+       "leichtem"
+      ],
+      "gutem": [
+       "schlechtem",
+       "teurem",
+       "schwerem"
+      ],
+      "schlechtem": [
+       "gutem",
+       "billigem",
+       "frühem"
+      ],
+      "heißem": [
+       "kaltem",
+       "langem",
+       "spätem"
+      ],
+      "kaltem": [
+       "heißem",
+       "warmem",
+       "kurzem"
+      ],
+      "warmem": [
+       "kaltem",
+       "schönem",
+       "dunklem"
+      ],
+      "schnellem": [
+       "langsamem",
+       "hässlichem",
+       "vollem"
+      ],
+      "langsamem": [
+       "schnellem",
+       "leichtem",
+       "leerem"
+      ],
+      "teurem": [
+       "billigem",
+       "schwerem",
+       "reichem"
+      ],
+      "billigem": [
+       "teurem",
+       "frühem",
+       "armem"
+      ],
+      "langem": [
+       "kurzem",
+       "spätem",
+       "dickem"
+      ],
+      "kurzem": [
+       "langem",
+       "hellem",
+       "dünnem"
+      ],
+      "schönem": [
+       "hässlichem",
+       "dunklem",
+       "glücklichem"
+      ],
+      "hässlichem": [
+       "schönem",
+       "vollem",
+       "traurigem"
+      ],
+      "leichtem": [
+       "schwerem",
+       "leerem",
+       "richtigem"
+      ],
+      "schwerem": [
+       "leichtem",
+       "reichem",
+       "falschem"
+      ],
+      "frühem": [
+       "spätem",
+       "armem",
+       "starkem"
+      ],
+      "spätem": [
+       "frühem",
+       "dickem",
+       "schwachem"
+      ],
+      "hellem": [
+       "dunklem",
+       "dünnem",
+       "sauberem"
+      ],
+      "dunklem": [
+       "hellem",
+       "glücklichem",
+       "schmutzigem"
+      ],
+      "vollem": [
+       "leerem",
+       "traurigem",
+       "großem"
+      ],
+      "leerem": [
+       "vollem",
+       "richtigem",
+       "kleinem"
+      ],
+      "reichem": [
+       "armem",
+       "falschem",
+       "altem"
+      ],
+      "armem": [
+       "reichem",
+       "starkem",
+       "jungem"
+      ],
+      "dickem": [
+       "dünnem",
+       "schwachem",
+       "neuem"
+      ],
+      "dünnem": [
+       "dickem",
+       "sauberem",
+       "gutem"
+      ],
+      "glücklichem": [
+       "traurigem",
+       "schmutzigem",
+       "schlechtem"
+      ],
+      "traurigem": [
+       "glücklichem",
+       "großem",
+       "heißem"
+      ],
+      "richtigem": [
+       "falschem",
+       "kleinem",
+       "kaltem"
+      ],
+      "falschem": [
+       "richtigem",
+       "altem",
+       "warmem"
+      ],
+      "starkem": [
+       "schwachem",
+       "jungem",
+       "schnellem"
+      ],
+      "schwachem": [
+       "starkem",
+       "neuem",
+       "langsamem"
+      ],
+      "sauberem": [
+       "schmutzigem",
+       "gutem",
+       "teurem"
+      ],
+      "schmutzigem": [
+       "sauberem",
+       "schlechtem",
+       "billigem"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "gramatica",
+   "subs": [
+    {
+     "id": "sein_haben",
+     "name": "sein e haben (presente)",
+     "desc": "sein: ich bin, du bist, er ist, wir sind, ihr seid, sie sind. haben: ich habe, du hast, er hat, wir haben, ihr habt.",
+     "pattern": "\\b(?:(?:(?<=\\bich )|(?<=\\bdu )|(?<=\\ber )|(?<=\\bsie )|(?<=\\bes )|(?<=\\bwir )|(?<=\\bihr )|(?<=\\bIch )|(?<=\\bDu )|(?<=\\bEr )|(?<=\\bSie )|(?<=\\bEs )|(?<=\\bWir )|(?<=\\bIhr ))|(?=(?:bin|bist|ist|sind|seid|habe|hast|hat|haben|habt) (?:ich|du|er|sie|es|wir|ihr)\\b))(?P<w>bin|bist|ist|sind|seid|habe|hast|hat|haben|habt)\\b",
+     "exclude": "\\b(?:es sind|sind es|ihr ist|ist ihr|ihr hat|hat ihr|ihr sind|sind ihr|ihr haben|haben ihr|ihr bin|ihr bist|ihr hast|ihr habe|habe ihr|hast ihr)\\b",
+     "options": {
+      "bin": [
+       "bist",
+       "ist",
+       "sind"
+      ],
+      "bist": [
+       "bin",
+       "ist",
+       "seid"
+      ],
+      "ist": [
+       "bist",
+       "sind",
+       "bin"
+      ],
+      "sind": [
+       "seid",
+       "ist",
+       "bin"
+      ],
+      "seid": [
+       "sind",
+       "bist",
+       "ist"
+      ],
+      "habe": [
+       "hast",
+       "hat",
+       "haben"
+      ],
+      "hast": [
+       "habe",
+       "hat",
+       "habt"
+      ],
+      "hat": [
+       "hast",
+       "haben",
+       "habe"
+      ],
+      "haben": [
+       "habt",
+       "hat",
+       "habe"
+      ],
+      "habt": [
+       "haben",
+       "hast",
+       "hat"
+      ]
+     }
+    },
+    {
+     "id": "artigo_indef",
+     "name": "Artigo indefinido",
+     "desc": "ein (masc./neutro), eine (fem.); acusativo masc.: einen; dativo: einem/einer. Ex.: Ich habe einen Hund und eine Katze.",
+     "pattern": "\\b(?P<w>[Ee]in|[Ee]ine|[Ee]inen|[Ee]inem|[Ee]iner|[Ee]ines)\\b(?=\\s(?!(?:der|die|das|den|dem|des|von|oder|und|aber|mal|meiner|deiner|seiner|ihrer|unserer|eurer|dieser|jener|anderen?|paar|bisschen|wenig|weiter|mehr)\\b)(?:[a-zäöüß]+(?:e|en|er|es|em)\\s){0,2}[A-ZÄÖÜ][a-zäöüß])",
+     "case": true,
+     "exclude": "\\b(?:[Ee]in paar|[Ee]in bisschen|[Ee]in wenig|[Ee]inmal)\\b",
+     "options": {
+      "ein": [
+       "eine",
+       "einen",
+       "einem"
+      ],
+      "eine": [
+       "ein",
+       "einen",
+       "einer"
+      ],
+      "einen": [
+       "ein",
+       "eine",
+       "einem"
+      ],
+      "einem": [
+       "einen",
+       "einer",
+       "ein"
+      ],
+      "einer": [
+       "eine",
+       "einem",
+       "einen"
+      ],
+      "eines": [
+       "einem",
+       "einen",
+       "ein"
+      ]
+     }
+    },
+    {
+     "id": "negacao",
+     "name": "nicht ou kein",
+     "desc": "kein nega substantivos sem artigo (Ich habe keine Zeit); nicht nega verbos, adjetivos e o que tem der/mein: Das ist nicht mein Auto.",
+     "pattern": "\\b(?P<w>(?:[Kk]ein|[Kk]eine|[Kk]einen|[Kk]einem|[Kk]einer|[Kk]eines)(?=\\s(?!(?:der|die|das|den|dem|des|von|oder|und|aber|mal|meiner|deiner|seiner|ihrer|unserer|eurer|dieser|jener|anderen?|paar|bisschen|wenig|weiter|mehr)\\b)(?:[a-zäöüß]+(?:e|en|er|es|em)\\s){0,2}[A-ZÄÖÜ][a-zäöüß])|[Nn]icht(?=\\s(?:der|die|das|den|dem|des|mein\\w*|dein\\w*|sein\\w*|ihr\\w*|Ihr\\w*|unser\\w*|euer\\w*|eur\\w*|dies\\w*|jen\\w*|diese\\w*|so|zu|sehr|ganz)\\b))\\b",
+     "case": true,
+     "exclude": "\\b[Kk]ein\\w* (?:[a-zäöüß]+ )?(?:Deutsch|Englisch|Französisch|Spanisch|Italienisch|Portugiesisch|Japanisch|Chinesisch|Russisch|Esperanto|Latein|Arabisch|Polnisch|Türkisch|Niederländisch|Koreanisch|Griechisch)\\b|\\bnicht (?:so|zu|sehr|ganz) (?:gut|schlecht|viel|weit|lange?|oft|schnell|einfach|schwer|leicht|groß|klein|teuer|wichtig)\\b(?! [A-ZÄÖÜ])",
+     "options": {
+      "nicht": [
+       "kein",
+       "keine",
+       "keinen"
+      ],
+      "kein": [
+       "nicht",
+       "keine",
+       "keinen"
+      ],
+      "keine": [
+       "nicht",
+       "kein",
+       "keinen"
+      ],
+      "keinen": [
+       "nicht",
+       "kein",
+       "keinem"
+      ],
+      "keinem": [
+       "nicht",
+       "keinen",
+       "keiner"
+      ],
+      "keiner": [
+       "nicht",
+       "keine",
+       "keinem"
+      ],
+      "keines": [
+       "nicht",
+       "kein",
+       "keinem"
+      ]
+     }
+    },
+    {
+     "id": "possessivos",
+     "name": "Possessivos (mein, dein...)",
+     "desc": "O possessivo leva a terminação de ein: mein Vater, meine Mutter, meinen Bruder (acus.), meinem Freund (dat.). Igual para dein, sein, ihr, unser, euer.",
+     "pattern": "\\b(?P<w>[Mm]ein(?:e[nmrs]?)?|[Dd]ein(?:e[nmrs]?)?|[Ss]ein(?:e[nmrs]?)?|[Ii]hre[nmrs]?|[Ii]hre|[Uu]nser(?:e[nmrs]?)?|[Ee]uer|[Ee]ure[nmrs]?)\\b(?=\\s(?!(?:der|die|das|den|dem|des|von|oder|und|aber|mal|meiner|deiner|seiner|ihrer|unserer|eurer|dieser|jener|anderen?|paar|bisschen|wenig|weiter|mehr)\\b)(?:[a-zäöüß]+(?:e|en|er|es|em)\\s){0,2}[A-ZÄÖÜ][a-zäöüß])",
+     "case": true,
+     "exclude": "\\b[Mm]ein Gott\\b|\\b[Mm]eines Wissens\\b|\\bmeiner Meinung nach\\b",
+     "options": {
+      "mein": [
+       "meine",
+       "meinen",
+       "meinem"
+      ],
+      "meine": [
+       "mein",
+       "meinen",
+       "meiner"
+      ],
+      "meinen": [
+       "meine",
+       "meinem",
+       "mein"
+      ],
+      "meinem": [
+       "meinen",
+       "meiner",
+       "mein"
+      ],
+      "meiner": [
+       "meine",
+       "meinem",
+       "meinen"
+      ],
+      "meines": [
+       "meinem",
+       "meinen",
+       "mein"
+      ],
+      "dein": [
+       "deine",
+       "deinen",
+       "deinem"
+      ],
+      "deine": [
+       "dein",
+       "deinen",
+       "deiner"
+      ],
+      "deinen": [
+       "deine",
+       "deinem",
+       "dein"
+      ],
+      "deinem": [
+       "deinen",
+       "deiner",
+       "dein"
+      ],
+      "deiner": [
+       "deine",
+       "deinem",
+       "deinen"
+      ],
+      "deines": [
+       "deinem",
+       "deinen",
+       "dein"
+      ],
+      "sein": [
+       "seine",
+       "seinen",
+       "seinem"
+      ],
+      "seine": [
+       "sein",
+       "seinen",
+       "seiner"
+      ],
+      "seinen": [
+       "seine",
+       "seinem",
+       "sein"
+      ],
+      "seinem": [
+       "seinen",
+       "seiner",
+       "sein"
+      ],
+      "seiner": [
+       "seine",
+       "seinem",
+       "seinen"
+      ],
+      "seines": [
+       "seinem",
+       "seinen",
+       "sein"
+      ],
+      "ihre": [
+       "ihr",
+       "ihren",
+       "ihrer"
+      ],
+      "ihren": [
+       "ihre",
+       "ihrem",
+       "ihr"
+      ],
+      "ihrem": [
+       "ihren",
+       "ihrer",
+       "ihr"
+      ],
+      "ihrer": [
+       "ihre",
+       "ihrem",
+       "ihren"
+      ],
+      "ihres": [
+       "ihrem",
+       "ihren",
+       "ihr"
+      ],
+      "unser": [
+       "unsere",
+       "unseren",
+       "unserem"
+      ],
+      "unsere": [
+       "unser",
+       "unseren",
+       "unserer"
+      ],
+      "unseren": [
+       "unsere",
+       "unserem",
+       "unser"
+      ],
+      "unserem": [
+       "unseren",
+       "unserer",
+       "unser"
+      ],
+      "unserer": [
+       "unsere",
+       "unserem",
+       "unseren"
+      ],
+      "unseres": [
+       "unserem",
+       "unseren",
+       "unser"
+      ],
+      "euer": [
+       "eure",
+       "euren",
+       "eurem"
+      ],
+      "eure": [
+       "euer",
+       "euren",
+       "eurer"
+      ],
+      "euren": [
+       "eure",
+       "eurem",
+       "euer"
+      ],
+      "eurem": [
+       "euren",
+       "eurer",
+       "euer"
+      ],
+      "eurer": [
+       "eure",
+       "eurem",
+       "euren"
+      ],
+      "eures": [
+       "eurem",
+       "euren",
+       "euer"
+      ]
+     }
+    },
+    {
+     "id": "modais",
+     "name": "Verbos modais",
+     "desc": "können (poder/saber), müssen (ter que), wollen (querer), dürfen (ter permissão), sollen (dever), möchten (gostaria). Infinitivo vai para o fim: Ich kann heute nicht kommen.",
+     "pattern": "\\b(?P<w>möchtest|möchten|möchtet|kannst|sollst|darfst|wollen|willst|müssen|möchte|sollen|dürfen|können|dürft|wollt|könnt|musst|müsst|sollt|will|muss|soll|darf|kann)\\b",
+     "exclude": "\\b(?:hätte|hätten|hättest|habe|hat|haben|hast|hatte|hatten|werde|wird|werden|wirst|würde|würden)\\b[^,.;!?]*\\b(?:können|müssen|wollen|dürfen|sollen)\\s*[,.;!?]|\\bdas Wollen\\b|\\bdas Können\\b|\\bdas Müssen\\b",
+     "options": {
+      "kann": [
+       "kannst",
+       "könnt",
+       "muss"
+      ],
+      "kannst": [
+       "kann",
+       "könnt",
+       "musst"
+      ],
+      "können": [
+       "kann",
+       "könnt",
+       "müssen"
+      ],
+      "könnt": [
+       "kann",
+       "können",
+       "müsst"
+      ],
+      "muss": [
+       "musst",
+       "müsst",
+       "kann"
+      ],
+      "musst": [
+       "muss",
+       "müsst",
+       "kannst"
+      ],
+      "müssen": [
+       "muss",
+       "müsst",
+       "können"
+      ],
+      "müsst": [
+       "muss",
+       "müssen",
+       "könnt"
+      ],
+      "will": [
+       "willst",
+       "wollt",
+       "kann"
+      ],
+      "willst": [
+       "will",
+       "wollt",
+       "kannst"
+      ],
+      "wollen": [
+       "will",
+       "wollt",
+       "können"
+      ],
+      "wollt": [
+       "will",
+       "wollen",
+       "könnt"
+      ],
+      "darf": [
+       "darfst",
+       "dürft",
+       "muss"
+      ],
+      "darfst": [
+       "darf",
+       "dürft",
+       "musst"
+      ],
+      "dürfen": [
+       "darf",
+       "dürft",
+       "müssen"
+      ],
+      "dürft": [
+       "darf",
+       "dürfen",
+       "müsst"
+      ],
+      "soll": [
+       "sollst",
+       "sollt",
+       "will"
+      ],
+      "sollst": [
+       "soll",
+       "sollt",
+       "willst"
+      ],
+      "sollen": [
+       "soll",
+       "sollt",
+       "wollen"
+      ],
+      "sollt": [
+       "soll",
+       "sollen",
+       "wollt"
+      ],
+      "möchte": [
+       "möchtest",
+       "möchtet",
+       "muss"
+      ],
+      "möchtest": [
+       "möchte",
+       "möchtet",
+       "musst"
+      ],
+      "möchten": [
+       "möchte",
+       "möchtet",
+       "müssen"
+      ],
+      "möchtet": [
+       "möchte",
+       "möchten",
+       "müsst"
+      ]
+     }
+    },
+    {
+     "id": "prep_caso",
+     "name": "Preposição + artigo",
+     "desc": "mit, bei, nach, von, zu, aus, seit pedem dativo (mit dem Bus, mit der Bahn); für, durch, gegen, ohne, um pedem acusativo (für den Vater).",
+     "pattern": "(?:(?<=\\bmit )|(?<=\\bbei )|(?<=\\bnach )|(?<=\\bvon )|(?<=\\baus )|(?<=\\bseit )|(?<=\\bzu )|(?<=\\baußer )|(?<=\\bgegenüber )|(?<=\\bMit )|(?<=\\bBei )|(?<=\\bNach )|(?<=\\bVon )|(?<=\\bAus )|(?<=\\bSeit )|(?<=\\bZu )|(?<=\\bAußer )|(?<=\\bfür )|(?<=\\bdurch )|(?<=\\bgegen )|(?<=\\bohne )|(?<=\\bum )|(?<=\\bFür )|(?<=\\bDurch )|(?<=\\bGegen )|(?<=\\bOhne )|(?<=\\bUm ))(?P<w>der|die|das|den|dem)\\b(?=\\s(?:[a-zäöüß]+(?:e|en|er|es|em)\\s)?[A-ZÄÖÜ][a-zäöüß])",
+     "case": true,
+     "exclude": ",\\s*(?:mit|bei|nach|von|aus|seit|zu|außer|für|durch|gegen|ohne|um) (?:der|die|das|den|dem)\\b|\\b(?:[Uu]m|[Oo]hne|[Ss]tatt) (?:der|die|das|den|dem)\\b[^,.;!?]*\\bzu [a-zäöüß]+\\s*[,.;!?]|\\bzu den[a-zäöüß]",
+     "options": {
+      "den": [
+       "dem",
+       "der",
+       "das"
+      ],
+      "dem": [
+       "den",
+       "der",
+       "die"
+      ],
+      "der": [
+       "dem",
+       "den",
+       "die"
+      ],
+      "die": [
+       "der",
+       "den",
+       "dem"
+      ],
+      "das": [
+       "dem",
+       "den",
+       "der"
+      ]
+     }
+    },
+    {
+     "id": "wechsel",
+     "name": "in/an/auf: dativo ou acus.",
+     "desc": "Preposições de duas vias: onde? → dativo (Ich bin im Park / in der Schule); para onde? → acusativo (Ich gehe in den Park / ins Kino).",
+     "pattern": "\\b(?P<w>(?:(?<=\\bin )|(?<=\\ban )|(?<=\\bauf )|(?<=\\büber )|(?<=\\bunter )|(?<=\\bvor )|(?<=\\bhinter )|(?<=\\bneben )|(?<=\\bzwischen )|(?<=\\bIn )|(?<=\\bAn )|(?<=\\bAuf )|(?<=\\bÜber )|(?<=\\bUnter )|(?<=\\bVor )|(?<=\\bHinter )|(?<=\\bNeben )|(?<=\\bZwischen ))(?:der|die|das|den|dem)(?=\\s(?:[a-zäöüß]+(?:e|en|er|es|em)\\s)?[A-ZÄÖÜ][a-zäöüß])|[Ii]m|[Ii]ns|[Aa]m(?=\\s(?:[a-zäöüß]+(?:e|en|er|es|em)\\s)?[A-ZÄÖÜ])|[Aa]ns)\\b",
+     "case": true,
+     "exclude": ",\\s*(?:in|an|auf|über|unter|vor|hinter|neben|zwischen) (?:der|die|das|den|dem)\\b|\\b[Vv]or (?:der|die|das|den|dem) [A-ZÄÖÜ]\\w* (?:Jahren|Tagen|Wochen|Monaten|Stunden)",
+     "options": {
+      "den": [
+       "dem",
+       "der",
+       "das"
+      ],
+      "dem": [
+       "den",
+       "das",
+       "der"
+      ],
+      "der": [
+       "dem",
+       "den",
+       "die"
+      ],
+      "die": [
+       "der",
+       "den",
+       "dem"
+      ],
+      "das": [
+       "dem",
+       "den",
+       "der"
+      ],
+      "im": [
+       "ins",
+       "in",
+       "am"
+      ],
+      "ins": [
+       "im",
+       "in",
+       "ans"
+      ],
+      "am": [
+       "ans",
+       "an",
+       "im"
+      ],
+      "ans": [
+       "am",
+       "an",
+       "ins"
+      ]
+     }
+    },
+    {
+     "id": "pronomes",
+     "name": "mich ou mir? (pronomes)",
+     "desc": "Acusativo: mich, dich, ihn, sie (Ich sehe dich). Dativo: mir, dir, ihm, ihnen (Ich helfe dir). Depende do verbo ou da preposição.",
+     "pattern": "\\b(?P<w>mich|mir|dich|dir|ihn|ihm|ihnen)\\b",
+     "exclude": "(?-i:(?<!^)\\bIhnen\\b)",
+     "options": {
+      "mich": [
+       "mir",
+       "ich"
+      ],
+      "mir": [
+       "mich",
+       "ich"
+      ],
+      "dich": [
+       "dir",
+       "du"
+      ],
+      "dir": [
+       "dich",
+       "du"
+      ],
+      "ihn": [
+       "ihm",
+       "er"
+      ],
+      "ihm": [
+       "ihn",
+       "er"
+      ],
+      "ihnen": [
+       "sie",
+       "ihr"
+      ]
+     }
+    },
+    {
+     "id": "perfekt",
+     "name": "Perfekt: haben ou sein?",
+     "desc": "A maioria dos verbos usa haben (Ich habe gegessen). Verbos de movimento ou mudança de estado usam sein (Ich bin gefahren, er ist eingeschlafen), além de sein e bleiben.",
+     "pattern": "\\b(?P<w>[Hh]abe|[Hh]ast|[Hh]at|[Hh]aben|[Hh]abt|[Bb]in|[Bb]ist|[Ii]st|[Ss]ind|[Ss]eid)\\b(?=(?:\\s[^\\s,.;:!?„“\\\"»«–]+)*?\\s(?<!\\bzu\\s)(?!(?:bereit|berühmt|beliebt|bekannt|beschäftigt|besorgt|betrunken|verheiratet|verliebt|verlobt|verwandt|verrückt|verschieden|entfernt|erwachsen|ernst|gestresst|gespannt|gelangweilt|genervt|geschlossen|geöffnet|verboten|erlaubt|berechtigt|bewusst|gerecht|geeignet|gewohnt|überzeugt|überrascht|enttäuscht|begeistert|interessiert|erschöpft|verletzt|beleidigt|verwirrt|verloren|besetzt|bedeckt|gefallen|geraten|geschieden|gelegen|bestimmt|verantwortlich|verpflichtet|verärgert|beeindruckt|erkältet|verschlossen|abgeschlossen|ausgebucht|ausverkauft|aufgeregt|eingeladen|angestellt|angezogen|verabredet|vergeben|gesund|gemein|genau|gerade|getan|gestorben|dagegen|entgegen|beschlossen|vorbereitet|zufrieden|geeignet|gelungen|zerstreut|begabt|entspannt|erfreut|erstaunt|erregt|verzweifelt|verwöhnt|verschuldet|verspätet|überfüllt|übermüdet|unterbezahlt|versteckt|gelähmt|geschockt|geehrt|gerührt|beunruhigt|befreundet|bestürzt|empört|entschlossen|bekleidet|gekleidet|bedroht|beendet|erledigt|kompliziert|motiviert|frustriert|deprimiert|isoliert|organisiert|qualifiziert|reserviert|garantiert|fasziniert|irritiert|schockiert|ruiniert|informiert|kariert|talentiert|privilegiert|integriert|zivilisiert|konzentriert|engagiert|blamiert|frankiert|programmiert|gestreift|gemischt|gebildet|gebräunt|angesehen|angemessen|ausgezeichnet|ausgeschlossen|gefragt)\\b)(?![a-zäöüß]*(?<!ge)geben\\b)(?![a-zäöüß]*gehen\\b)(?!(?:gewinnen|genießen|gehören|gelingen|geschehen|gestehen|gewöhnen|gebrauchen|gedenken|genügen|gelten|gebären|beginnen|bekommen|vergessen|verlassen|erhalten|bestehen|verstehen|entstehen)\\b)(?![a-zäöüß]*(?:wert|haft|bar|sam|los|lich|ig|enden|igen|ischen|lichen|gent)\\b)(?!un)(?:[a-zäöüß]*ge[a-zäöüß]+(?:t|en)|(?:be|ver|er|ent|zer|emp|miss|über|unter|hinter|wider)[a-zäöüß]+t|[a-zäöüß]+iert)\\s*[,.;:!?“\\\"»–])",
+     "case": true,
+     "exclude": "\\bworden\\b|^(?!.*\\b[Ii]ch\\b).*\\bhabe\\b|\\b(?:sehr|so|zu|ziemlich|total|echt|etwas|irgendwie|nicht mehr) [a-zäöüß]+(?:t|en)\\s*[,.;:!?]",
+     "options": {
+      "hat": [
+       "ist",
+       "hast"
+      ],
+      "ist": [
+       "hat",
+       "bist"
+      ],
+      "habe": [
+       "bin",
+       "hat"
+      ],
+      "bin": [
+       "habe",
+       "ist"
+      ],
+      "hast": [
+       "bist",
+       "hat"
+      ],
+      "bist": [
+       "hast",
+       "ist"
+      ],
+      "haben": [
+       "sind",
+       "hat"
+      ],
+      "sind": [
+       "haben",
+       "ist"
+      ],
+      "habt": [
+       "seid",
+       "haben"
+      ],
+      "seid": [
+       "habt",
+       "sind"
+      ]
+     }
+    },
+    {
+     "id": "conjuncoes",
+     "name": "weil, dass, wenn, ob, als",
+     "desc": "weil (porque), dass (que), wenn (se/quando, presente ou repetido), als (quando, fato único no passado), ob (se, em perguntas indiretas), obwohl (embora). O verbo vai para o fim.",
+     "pattern": "(?:(?<=, )|(?<!.))(?P<w>weil|dass|wenn|ob|obwohl|(?<!.)als(?= (?:ich|du|er|sie|es|wir|ihr|man|Tom|Maria|Mary|John)\\b[^,]*,))\\b",
+     "exclude": "^(?:Als|Wenn) (?:ob|auch)\\b|\\b(?:glaube|glaubst|glaubt|glauben|denke|denkst|denkt|denken|hoffe|hoffst|hofft|hoffen|sagte|sagten|sagt|sagen|sag|sage|gesagt|weiß|weißt|wissen|wusste|wussten|gewusst|sicher|froh|schade|wahr|klar|will|willst|wollte|möchte|möchtest|meine|meinst|meint|scheint|finde|findest|findet|fürchte|Danke|danke|vergiss|vergessen|erzählt|erzählte|behauptet|gehört|hörte|zugeben|überzeugt|bewusst|möglich|wollen|wahrscheinlich|merkte|bemerkte|sieht|sehe|siehst|verstehe|verstehen|stimmt es|ist es|versprochen|versprich)(?: nicht| auch| ja| doch| mir| dir| ihm| ihr| uns| euch| Ihnen| Tom| Maria| ihnen| es| schon| nur| immer| einfach| sehr| ganz)*, dass\\b",
+     "options": {
+      "weil": [
+       "dass",
+       "wenn",
+       "obwohl"
+      ],
+      "dass": [
+       "ob",
+       "weil",
+       "wenn"
+      ],
+      "wenn": [
+       "als",
+       "ob",
+       "dass"
+      ],
+      "ob": [
+       "wenn",
+       "dass",
+       "weil"
+      ],
+      "obwohl": [
+       "weil",
+       "wenn",
+       "dass"
+      ],
+      "als": [
+       "wenn",
+       "ob",
+       "dass"
+      ]
+     }
+    },
+    {
+     "id": "relativos",
+     "name": "Pronomes relativos",
+     "desc": "O relativo concorda em gênero/número com o substantivo e o caso vem da oração: der Mann, der/den/dem...; die Frau, die/der...; das Kind, das... (não confunda com dass).",
+     "pattern": "(?<=, )(?P<w>der|die|das|den|dem|denen|deren|dessen)\\b(?=\\s(?!(?:ist|sind|war|waren|hat|haben|hatte|hatten|wird|werden|kann|können|muss|müssen|will|soll|darf|weiß|gibt|gab|geht|ging|macht|stimmt|heißt|bin|bist|habe|hast|wäre|hätte|würde|klingt|reicht|sieht|kommt|tut|meisten|beiden|anderen|ganze|ganzen|wenigsten|einen|anderen|übrigen|nicht)\\b)[a-zäöüß])(?!\\s[a-zäöüß]+(?:e|en|er|es|em)\\s[A-ZÄÖÜ])",
+     "case": true,
+     "exclude": "(?<![A-ZÄÖÜa-zäöüß])(?!(?:jemand|jemanden|niemand|niemanden|einer|eins|eines|einen|denen|alle|allen|etwas|nichts|vieles|dem|einem|einzige|einzigen|einige|viele|vielen|manche)\\b)[a-zäöüß]+, (?:der|die|das|den|dem|denen|deren|dessen)\\b|^(?:Hier|Ja|Nein|Gut|Also|Na|Okay|OK|Schau|Sieh|Komm|Tja|Nun|Oh|Ach|Danke|Bitte|Und), (?:der|die|das)\\b|, (?:der|die|das|den|dem) (?:zu|hier|da|dort|auch|alles|ja|doch|aber)\\b",
+     "options": {
+      "der": [
+       "die",
+       "das",
+       "den"
+      ],
+      "die": [
+       "der",
+       "das",
+       "den"
+      ],
+      "das": [
+       "dass",
+       "der",
+       "die"
+      ],
+      "den": [
+       "der",
+       "dem",
+       "die"
+      ],
+      "dem": [
+       "den",
+       "der",
+       "denen"
+      ],
+      "denen": [
+       "den",
+       "dem",
+       "die"
+      ],
+      "deren": [
+       "dessen",
+       "die",
+       "denen"
+      ],
+      "dessen": [
+       "deren",
+       "der",
+       "dem"
+      ]
+     }
+    },
+    {
+     "id": "adjetivos",
+     "name": "Terminação do adjetivo",
+     "desc": "Antes do substantivo o adjetivo muda: der gute Wein, ein guter Wein, mit dem guten Wein, mit gutem Wein. A terminação depende do artigo, gênero e caso.",
+     "pattern": "\\b(?P<w>(?:amerikanisch|interessant|französisch|italienisch|freundlich|gefährlich|chinesisch|japanisch|wunderbar|glücklich|schmutzig|schwierig|gemütlich|englisch|schlecht|spanisch|russisch|schnell|langsam|schwarz|wichtig|richtig|berühmt|deutsch|traurig|einfach|bekannt|beliebt|billig|falsch|schwer|leicht|nächst|lecker|gleich|einzig|gesund|frisch|sauber|modern|schön|klein|dunkl|braun|letzt|ander|eigen|ruhig|stark|reich|krank|fremd|zweit|dritt|groß|jung|lang|kurz|teur|warm|kalt|heiß|hell|weiß|blau|grün|gelb|grau|nett|erst|ganz|toll|best|voll|leer|klug|dumm|dick|dünn|echt|weit|gut|alt|neu|rot|hoh|arm|nah)(?:e|en|er|es|em))\\b(?=\\s[A-ZÄÖÜ][a-zäöüß])",
+     "case": true,
+     "exclude": "\\bnächsten? Mal\\b|\\b(?:[Ww]ie|so|zu|schon|noch|nicht) lange\\b",
+     "options": {
+      "gute": [
+       "guten",
+       "guter",
+       "gutes"
+      ],
+      "guten": [
+       "gute",
+       "guter",
+       "gutem"
+      ],
+      "guter": [
+       "gute",
+       "guten",
+       "gutes"
+      ],
+      "gutes": [
+       "gute",
+       "guten",
+       "guter"
+      ],
+      "gutem": [
+       "guten",
+       "guter",
+       "gute"
+      ],
+      "schöne": [
+       "schönen",
+       "schöner",
+       "schönes"
+      ],
+      "schönen": [
+       "schöne",
+       "schöner",
+       "schönem"
+      ],
+      "schöner": [
+       "schöne",
+       "schönen",
+       "schönes"
+      ],
+      "schönes": [
+       "schöne",
+       "schönen",
+       "schöner"
+      ],
+      "schönem": [
+       "schönen",
+       "schöner",
+       "schöne"
+      ],
+      "große": [
+       "großen",
+       "großer",
+       "großes"
+      ],
+      "großen": [
+       "große",
+       "großer",
+       "großem"
+      ],
+      "großer": [
+       "große",
+       "großen",
+       "großes"
+      ],
+      "großes": [
+       "große",
+       "großen",
+       "großer"
+      ],
+      "großem": [
+       "großen",
+       "großer",
+       "große"
+      ],
+      "kleine": [
+       "kleinen",
+       "kleiner",
+       "kleines"
+      ],
+      "kleinen": [
+       "kleine",
+       "kleiner",
+       "kleinem"
+      ],
+      "kleiner": [
+       "kleine",
+       "kleinen",
+       "kleines"
+      ],
+      "kleines": [
+       "kleine",
+       "kleinen",
+       "kleiner"
+      ],
+      "kleinem": [
+       "kleinen",
+       "kleiner",
+       "kleine"
+      ],
+      "alte": [
+       "alten",
+       "alter",
+       "altes"
+      ],
+      "alten": [
+       "alte",
+       "alter",
+       "altem"
+      ],
+      "alter": [
+       "alte",
+       "alten",
+       "altes"
+      ],
+      "altes": [
+       "alte",
+       "alten",
+       "alter"
+      ],
+      "altem": [
+       "alten",
+       "alter",
+       "alte"
+      ],
+      "neue": [
+       "neuen",
+       "neuer",
+       "neues"
+      ],
+      "neuen": [
+       "neue",
+       "neuer",
+       "neuem"
+      ],
+      "neuer": [
+       "neue",
+       "neuen",
+       "neues"
+      ],
+      "neues": [
+       "neue",
+       "neuen",
+       "neuer"
+      ],
+      "neuem": [
+       "neuen",
+       "neuer",
+       "neue"
+      ],
+      "junge": [
+       "jungen",
+       "junger",
+       "junges"
+      ],
+      "jungen": [
+       "junge",
+       "junger",
+       "jungem"
+      ],
+      "junger": [
+       "junge",
+       "jungen",
+       "junges"
+      ],
+      "junges": [
+       "junge",
+       "jungen",
+       "junger"
+      ],
+      "jungem": [
+       "jungen",
+       "junger",
+       "junge"
+      ],
+      "lange": [
+       "langen",
+       "langer",
+       "langes"
+      ],
+      "langen": [
+       "lange",
+       "langer",
+       "langem"
+      ],
+      "langer": [
+       "lange",
+       "langen",
+       "langes"
+      ],
+      "langes": [
+       "lange",
+       "langen",
+       "langer"
+      ],
+      "langem": [
+       "langen",
+       "langer",
+       "lange"
+      ],
+      "kurze": [
+       "kurzen",
+       "kurzer",
+       "kurzes"
+      ],
+      "kurzen": [
+       "kurze",
+       "kurzer",
+       "kurzem"
+      ],
+      "kurzer": [
+       "kurze",
+       "kurzen",
+       "kurzes"
+      ],
+      "kurzes": [
+       "kurze",
+       "kurzen",
+       "kurzer"
+      ],
+      "kurzem": [
+       "kurzen",
+       "kurzer",
+       "kurze"
+      ],
+      "schnelle": [
+       "schnellen",
+       "schneller",
+       "schnelles"
+      ],
+      "schnellen": [
+       "schnelle",
+       "schneller",
+       "schnellem"
+      ],
+      "schneller": [
+       "schnelle",
+       "schnellen",
+       "schnelles"
+      ],
+      "schnelles": [
+       "schnelle",
+       "schnellen",
+       "schneller"
+      ],
+      "schnellem": [
+       "schnellen",
+       "schneller",
+       "schnelle"
+      ],
+      "langsame": [
+       "langsamen",
+       "langsamer",
+       "langsames"
+      ],
+      "langsamen": [
+       "langsame",
+       "langsamer",
+       "langsamem"
+      ],
+      "langsamer": [
+       "langsame",
+       "langsamen",
+       "langsames"
+      ],
+      "langsames": [
+       "langsame",
+       "langsamen",
+       "langsamer"
+      ],
+      "langsamem": [
+       "langsamen",
+       "langsamer",
+       "langsame"
+      ],
+      "teure": [
+       "teuren",
+       "teurer",
+       "teures"
+      ],
+      "teuren": [
+       "teure",
+       "teurer",
+       "teurem"
+      ],
+      "teurer": [
+       "teure",
+       "teuren",
+       "teures"
+      ],
+      "teures": [
+       "teure",
+       "teuren",
+       "teurer"
+      ],
+      "teurem": [
+       "teuren",
+       "teurer",
+       "teure"
+      ],
+      "billige": [
+       "billigen",
+       "billiger",
+       "billiges"
+      ],
+      "billigen": [
+       "billige",
+       "billiger",
+       "billigem"
+      ],
+      "billiger": [
+       "billige",
+       "billigen",
+       "billiges"
+      ],
+      "billiges": [
+       "billige",
+       "billigen",
+       "billiger"
+      ],
+      "billigem": [
+       "billigen",
+       "billiger",
+       "billige"
+      ],
+      "warme": [
+       "warmen",
+       "warmer",
+       "warmes"
+      ],
+      "warmen": [
+       "warme",
+       "warmer",
+       "warmem"
+      ],
+      "warmer": [
+       "warme",
+       "warmen",
+       "warmes"
+      ],
+      "warmes": [
+       "warme",
+       "warmen",
+       "warmer"
+      ],
+      "warmem": [
+       "warmen",
+       "warmer",
+       "warme"
+      ],
+      "kalte": [
+       "kalten",
+       "kalter",
+       "kaltes"
+      ],
+      "kalten": [
+       "kalte",
+       "kalter",
+       "kaltem"
+      ],
+      "kalter": [
+       "kalte",
+       "kalten",
+       "kaltes"
+      ],
+      "kaltes": [
+       "kalte",
+       "kalten",
+       "kalter"
+      ],
+      "kaltem": [
+       "kalten",
+       "kalter",
+       "kalte"
+      ],
+      "heißer": [
+       "heiße",
+       "heißen",
+       "heißes"
+      ],
+      "heißes": [
+       "heiße",
+       "heißen",
+       "heißer"
+      ],
+      "heißem": [
+       "heißen",
+       "heißer",
+       "heiße"
+      ],
+      "helle": [
+       "hellen",
+       "heller",
+       "helles"
+      ],
+      "hellen": [
+       "helle",
+       "heller",
+       "hellem"
+      ],
+      "heller": [
+       "helle",
+       "hellen",
+       "helles"
+      ],
+      "helles": [
+       "helle",
+       "hellen",
+       "heller"
+      ],
+      "hellem": [
+       "hellen",
+       "heller",
+       "helle"
+      ],
+      "dunkle": [
+       "dunklen",
+       "dunkler",
+       "dunkles"
+      ],
+      "dunklen": [
+       "dunkle",
+       "dunkler",
+       "dunklem"
+      ],
+      "dunkler": [
+       "dunkle",
+       "dunklen",
+       "dunkles"
+      ],
+      "dunkles": [
+       "dunkle",
+       "dunklen",
+       "dunkler"
+      ],
+      "dunklem": [
+       "dunklen",
+       "dunkler",
+       "dunkle"
+      ],
+      "rote": [
+       "roten",
+       "roter",
+       "rotes"
+      ],
+      "roten": [
+       "rote",
+       "roter",
+       "rotem"
+      ],
+      "roter": [
+       "rote",
+       "roten",
+       "rotes"
+      ],
+      "rotes": [
+       "rote",
+       "roten",
+       "roter"
+      ],
+      "rotem": [
+       "roten",
+       "roter",
+       "rote"
+      ],
+      "schwarze": [
+       "schwarzen",
+       "schwarzer",
+       "schwarzes"
+      ],
+      "schwarzen": [
+       "schwarze",
+       "schwarzer",
+       "schwarzem"
+      ],
+      "schwarzer": [
+       "schwarze",
+       "schwarzen",
+       "schwarzes"
+      ],
+      "schwarzes": [
+       "schwarze",
+       "schwarzen",
+       "schwarzer"
+      ],
+      "schwarzem": [
+       "schwarzen",
+       "schwarzer",
+       "schwarze"
+      ],
+      "weiße": [
+       "weißen",
+       "weißer",
+       "weißes"
+      ],
+      "weißen": [
+       "weiße",
+       "weißer",
+       "weißem"
+      ],
+      "weißer": [
+       "weiße",
+       "weißen",
+       "weißes"
+      ],
+      "weißes": [
+       "weiße",
+       "weißen",
+       "weißer"
+      ],
+      "weißem": [
+       "weißen",
+       "weißer",
+       "weiße"
+      ],
+      "blaue": [
+       "blauen",
+       "blauer",
+       "blaues"
+      ],
+      "blauen": [
+       "blaue",
+       "blauer",
+       "blauem"
+      ],
+      "blauer": [
+       "blaue",
+       "blauen",
+       "blaues"
+      ],
+      "blaues": [
+       "blaue",
+       "blauen",
+       "blauer"
+      ],
+      "blauem": [
+       "blauen",
+       "blauer",
+       "blaue"
+      ],
+      "grüne": [
+       "grünen",
+       "grüner",
+       "grünes"
+      ],
+      "grünen": [
+       "grüne",
+       "grüner",
+       "grünem"
+      ],
+      "grüner": [
+       "grüne",
+       "grünen",
+       "grünes"
+      ],
+      "grünes": [
+       "grüne",
+       "grünen",
+       "grüner"
+      ],
+      "grünem": [
+       "grünen",
+       "grüner",
+       "grüne"
+      ],
+      "gelbe": [
+       "gelben",
+       "gelber",
+       "gelbes"
+      ],
+      "gelben": [
+       "gelbe",
+       "gelber",
+       "gelbem"
+      ],
+      "gelber": [
+       "gelbe",
+       "gelben",
+       "gelbes"
+      ],
+      "gelbes": [
+       "gelbe",
+       "gelben",
+       "gelber"
+      ],
+      "gelbem": [
+       "gelben",
+       "gelber",
+       "gelbe"
+      ],
+      "braune": [
+       "braunen",
+       "brauner",
+       "braunes"
+      ],
+      "braunen": [
+       "braune",
+       "brauner",
+       "braunem"
+      ],
+      "brauner": [
+       "braune",
+       "braunen",
+       "braunes"
+      ],
+      "braunes": [
+       "braune",
+       "braunen",
+       "brauner"
+      ],
+      "braunem": [
+       "braunen",
+       "brauner",
+       "braune"
+      ],
+      "graue": [
+       "grauen",
+       "grauer",
+       "graues"
+      ],
+      "grauen": [
+       "graue",
+       "grauer",
+       "grauem"
+      ],
+      "grauer": [
+       "graue",
+       "grauen",
+       "graues"
+      ],
+      "graues": [
+       "graue",
+       "grauen",
+       "grauer"
+      ],
+      "grauem": [
+       "grauen",
+       "grauer",
+       "graue"
+      ],
+      "interessante": [
+       "interessanten",
+       "interessanter",
+       "interessantes"
+      ],
+      "interessanten": [
+       "interessante",
+       "interessanter",
+       "interessantem"
+      ],
+      "interessanter": [
+       "interessante",
+       "interessanten",
+       "interessantes"
+      ],
+      "interessantes": [
+       "interessante",
+       "interessanten",
+       "interessanter"
+      ],
+      "interessantem": [
+       "interessanten",
+       "interessanter",
+       "interessante"
+      ],
+      "wichtige": [
+       "wichtigen",
+       "wichtiger",
+       "wichtiges"
+      ],
+      "wichtigen": [
+       "wichtige",
+       "wichtiger",
+       "wichtigem"
+      ],
+      "wichtiger": [
+       "wichtige",
+       "wichtigen",
+       "wichtiges"
+      ],
+      "wichtiges": [
+       "wichtige",
+       "wichtigen",
+       "wichtiger"
+      ],
+      "wichtigem": [
+       "wichtigen",
+       "wichtiger",
+       "wichtige"
+      ],
+      "richtige": [
+       "richtigen",
+       "richtiger",
+       "richtiges"
+      ],
+      "richtigen": [
+       "richtige",
+       "richtiger",
+       "richtigem"
+      ],
+      "richtiger": [
+       "richtige",
+       "richtigen",
+       "richtiges"
+      ],
+      "richtiges": [
+       "richtige",
+       "richtigen",
+       "richtiger"
+      ],
+      "richtigem": [
+       "richtigen",
+       "richtiger",
+       "richtige"
+      ],
+      "falsche": [
+       "falschen",
+       "falscher",
+       "falsches"
+      ],
+      "falschen": [
+       "falsche",
+       "falscher",
+       "falschem"
+      ],
+      "falscher": [
+       "falsche",
+       "falschen",
+       "falsches"
+      ],
+      "falsches": [
+       "falsche",
+       "falschen",
+       "falscher"
+      ],
+      "falschem": [
+       "falschen",
+       "falscher",
+       "falsche"
+      ],
+      "nette": [
+       "netten",
+       "netter",
+       "nettes"
+      ],
+      "netten": [
+       "nette",
+       "netter",
+       "nettem"
+      ],
+      "netter": [
+       "nette",
+       "netten",
+       "nettes"
+      ],
+      "nettes": [
+       "nette",
+       "netten",
+       "netter"
+      ],
+      "nettem": [
+       "netten",
+       "netter",
+       "nette"
+      ],
+      "freundliche": [
+       "freundlichen",
+       "freundlicher",
+       "freundliches"
+      ],
+      "freundlichen": [
+       "freundliche",
+       "freundlicher",
+       "freundlichem"
+      ],
+      "freundlicher": [
+       "freundliche",
+       "freundlichen",
+       "freundliches"
+      ],
+      "freundliches": [
+       "freundliche",
+       "freundlichen",
+       "freundlicher"
+      ],
+      "freundlichem": [
+       "freundlichen",
+       "freundlicher",
+       "freundliche"
+      ],
+      "schwere": [
+       "schweren",
+       "schwerer",
+       "schweres"
+      ],
+      "schweren": [
+       "schwere",
+       "schwerer",
+       "schwerem"
+      ],
+      "schwerer": [
+       "schwere",
+       "schweren",
+       "schweres"
+      ],
+      "schweres": [
+       "schwere",
+       "schweren",
+       "schwerer"
+      ],
+      "schwerem": [
+       "schweren",
+       "schwerer",
+       "schwere"
+      ],
+      "leichte": [
+       "leichten",
+       "leichter",
+       "leichtes"
+      ],
+      "leichten": [
+       "leichte",
+       "leichter",
+       "leichtem"
+      ],
+      "leichter": [
+       "leichte",
+       "leichten",
+       "leichtes"
+      ],
+      "leichtes": [
+       "leichte",
+       "leichten",
+       "leichter"
+      ],
+      "leichtem": [
+       "leichten",
+       "leichter",
+       "leichte"
+      ],
+      "letzte": [
+       "letzten",
+       "letzter",
+       "letztes"
+      ],
+      "letzten": [
+       "letzte",
+       "letzter",
+       "letztem"
+      ],
+      "letzter": [
+       "letzte",
+       "letzten",
+       "letztes"
+      ],
+      "letztes": [
+       "letzte",
+       "letzten",
+       "letzter"
+      ],
+      "letztem": [
+       "letzten",
+       "letzter",
+       "letzte"
+      ],
+      "nächste": [
+       "nächsten",
+       "nächster",
+       "nächstes"
+      ],
+      "nächsten": [
+       "nächste",
+       "nächster",
+       "nächstem"
+      ],
+      "nächster": [
+       "nächste",
+       "nächsten",
+       "nächstes"
+      ],
+      "nächstes": [
+       "nächste",
+       "nächsten",
+       "nächster"
+      ],
+      "nächstem": [
+       "nächsten",
+       "nächster",
+       "nächste"
+      ],
+      "erste": [
+       "ersten",
+       "erster",
+       "erstes"
+      ],
+      "ersten": [
+       "erste",
+       "erster",
+       "erstem"
+      ],
+      "erster": [
+       "erste",
+       "ersten",
+       "erstes"
+      ],
+      "erstes": [
+       "erste",
+       "ersten",
+       "erster"
+      ],
+      "erstem": [
+       "ersten",
+       "erster",
+       "erste"
+      ],
+      "ganze": [
+       "ganzen",
+       "ganzer",
+       "ganzes"
+      ],
+      "ganzen": [
+       "ganze",
+       "ganzer",
+       "ganzem"
+      ],
+      "ganzer": [
+       "ganze",
+       "ganzen",
+       "ganzes"
+      ],
+      "ganzes": [
+       "ganze",
+       "ganzen",
+       "ganzer"
+      ],
+      "ganzem": [
+       "ganzen",
+       "ganzer",
+       "ganze"
+      ],
+      "hohe": [
+       "hohen",
+       "hoher",
+       "hohes"
+      ],
+      "hohen": [
+       "hohe",
+       "hoher",
+       "hohem"
+      ],
+      "hoher": [
+       "hohe",
+       "hohen",
+       "hohes"
+      ],
+      "hohes": [
+       "hohe",
+       "hohen",
+       "hoher"
+      ],
+      "hohem": [
+       "hohen",
+       "hoher",
+       "hohe"
+      ],
+      "andere": [
+       "anderen",
+       "anderer",
+       "anderes"
+      ],
+      "anderen": [
+       "andere",
+       "anderer",
+       "anderem"
+      ],
+      "anderer": [
+       "andere",
+       "anderen",
+       "anderes"
+      ],
+      "anderes": [
+       "andere",
+       "anderen",
+       "anderer"
+      ],
+      "anderem": [
+       "anderen",
+       "anderer",
+       "andere"
+      ],
+      "tolle": [
+       "tollen",
+       "toller",
+       "tolles"
+      ],
+      "tollen": [
+       "tolle",
+       "toller",
+       "tollem"
+      ],
+      "toller": [
+       "tolle",
+       "tollen",
+       "tolles"
+      ],
+      "tolles": [
+       "tolle",
+       "tollen",
+       "toller"
+      ],
+      "tollem": [
+       "tollen",
+       "toller",
+       "tolle"
+      ],
+      "leckere": [
+       "leckeren",
+       "leckerer",
+       "leckeres"
+      ],
+      "leckeren": [
+       "leckere",
+       "leckerer",
+       "leckerem"
+      ],
+      "leckerer": [
+       "leckere",
+       "leckeren",
+       "leckeres"
+      ],
+      "leckeres": [
+       "leckere",
+       "leckeren",
+       "leckerer"
+      ],
+      "leckerem": [
+       "leckeren",
+       "leckerer",
+       "leckere"
+      ],
+      "berühmte": [
+       "berühmten",
+       "berühmter",
+       "berühmtes"
+      ],
+      "berühmten": [
+       "berühmte",
+       "berühmter",
+       "berühmtem"
+      ],
+      "berühmter": [
+       "berühmte",
+       "berühmten",
+       "berühmtes"
+      ],
+      "berühmtes": [
+       "berühmte",
+       "berühmten",
+       "berühmter"
+      ],
+      "berühmtem": [
+       "berühmten",
+       "berühmter",
+       "berühmte"
+      ],
+      "deutsche": [
+       "deutschen",
+       "deutscher",
+       "deutsches"
+      ],
+      "deutschen": [
+       "deutsche",
+       "deutscher",
+       "deutschem"
+      ],
+      "deutscher": [
+       "deutsche",
+       "deutschen",
+       "deutsches"
+      ],
+      "deutsches": [
+       "deutsche",
+       "deutschen",
+       "deutscher"
+      ],
+      "deutschem": [
+       "deutschen",
+       "deutscher",
+       "deutsche"
+      ],
+      "englische": [
+       "englischen",
+       "englischer",
+       "englisches"
+      ],
+      "englischen": [
+       "englische",
+       "englischer",
+       "englischem"
+      ],
+      "englischer": [
+       "englische",
+       "englischen",
+       "englisches"
+      ],
+      "englisches": [
+       "englische",
+       "englischen",
+       "englischer"
+      ],
+      "englischem": [
+       "englischen",
+       "englischer",
+       "englische"
+      ],
+      "französische": [
+       "französischen",
+       "französischer",
+       "französisches"
+      ],
+      "französischen": [
+       "französische",
+       "französischer",
+       "französischem"
+      ],
+      "französischer": [
+       "französische",
+       "französischen",
+       "französisches"
+      ],
+      "französisches": [
+       "französische",
+       "französischen",
+       "französischer"
+      ],
+      "französischem": [
+       "französischen",
+       "französischer",
+       "französische"
+      ],
+      "japanische": [
+       "japanischen",
+       "japanischer",
+       "japanisches"
+      ],
+      "japanischen": [
+       "japanische",
+       "japanischer",
+       "japanischem"
+      ],
+      "japanischer": [
+       "japanische",
+       "japanischen",
+       "japanisches"
+      ],
+      "japanisches": [
+       "japanische",
+       "japanischen",
+       "japanischer"
+      ],
+      "japanischem": [
+       "japanischen",
+       "japanischer",
+       "japanische"
+      ],
+      "amerikanische": [
+       "amerikanischen",
+       "amerikanischer",
+       "amerikanisches"
+      ],
+      "amerikanischen": [
+       "amerikanische",
+       "amerikanischer",
+       "amerikanischem"
+      ],
+      "amerikanischer": [
+       "amerikanische",
+       "amerikanischen",
+       "amerikanisches"
+      ],
+      "amerikanisches": [
+       "amerikanische",
+       "amerikanischen",
+       "amerikanischer"
+      ],
+      "amerikanischem": [
+       "amerikanischen",
+       "amerikanischer",
+       "amerikanische"
+      ],
+      "beste": [
+       "besten",
+       "bester",
+       "bestes"
+      ],
+      "besten": [
+       "beste",
+       "bester",
+       "bestem"
+      ],
+      "bester": [
+       "beste",
+       "besten",
+       "bestes"
+      ],
+      "bestes": [
+       "beste",
+       "besten",
+       "bester"
+      ],
+      "bestem": [
+       "besten",
+       "bester",
+       "beste"
+      ],
+      "eigene": [
+       "eigenen",
+       "eigener",
+       "eigenes"
+      ],
+      "eigenen": [
+       "eigene",
+       "eigener",
+       "eigenem"
+      ],
+      "eigener": [
+       "eigene",
+       "eigenen",
+       "eigenes"
+      ],
+      "eigenes": [
+       "eigene",
+       "eigenen",
+       "eigener"
+      ],
+      "eigenem": [
+       "eigenen",
+       "eigener",
+       "eigene"
+      ],
+      "gleiche": [
+       "gleichen",
+       "gleicher",
+       "gleiches"
+      ],
+      "gleichen": [
+       "gleiche",
+       "gleicher",
+       "gleichem"
+      ],
+      "gleicher": [
+       "gleiche",
+       "gleichen",
+       "gleiches"
+      ],
+      "gleiches": [
+       "gleiche",
+       "gleichen",
+       "gleicher"
+      ],
+      "gleichem": [
+       "gleichen",
+       "gleicher",
+       "gleiche"
+      ],
+      "einzige": [
+       "einzigen",
+       "einziger",
+       "einziges"
+      ],
+      "einzigen": [
+       "einzige",
+       "einziger",
+       "einzigem"
+      ],
+      "einziger": [
+       "einzige",
+       "einzigen",
+       "einziges"
+      ],
+      "einziges": [
+       "einzige",
+       "einzigen",
+       "einziger"
+      ],
+      "einzigem": [
+       "einzigen",
+       "einziger",
+       "einzige"
+      ],
+      "wunderbare": [
+       "wunderbaren",
+       "wunderbarer",
+       "wunderbares"
+      ],
+      "wunderbaren": [
+       "wunderbare",
+       "wunderbarer",
+       "wunderbarem"
+      ],
+      "wunderbarer": [
+       "wunderbare",
+       "wunderbaren",
+       "wunderbares"
+      ],
+      "wunderbares": [
+       "wunderbare",
+       "wunderbaren",
+       "wunderbarer"
+      ],
+      "wunderbarem": [
+       "wunderbaren",
+       "wunderbarer",
+       "wunderbare"
+      ],
+      "ruhige": [
+       "ruhigen",
+       "ruhiger",
+       "ruhiges"
+      ],
+      "ruhigen": [
+       "ruhige",
+       "ruhiger",
+       "ruhigem"
+      ],
+      "ruhiger": [
+       "ruhige",
+       "ruhigen",
+       "ruhiges"
+      ],
+      "ruhiges": [
+       "ruhige",
+       "ruhigen",
+       "ruhiger"
+      ],
+      "ruhigem": [
+       "ruhigen",
+       "ruhiger",
+       "ruhige"
+      ],
+      "starke": [
+       "starken",
+       "starker",
+       "starkes"
+      ],
+      "starken": [
+       "starke",
+       "starker",
+       "starkem"
+      ],
+      "starker": [
+       "starke",
+       "starken",
+       "starkes"
+      ],
+      "starkes": [
+       "starke",
+       "starken",
+       "starker"
+      ],
+      "starkem": [
+       "starken",
+       "starker",
+       "starke"
+      ],
+      "volle": [
+       "vollen",
+       "voller",
+       "volles"
+      ],
+      "vollen": [
+       "volle",
+       "voller",
+       "vollem"
+      ],
+      "volles": [
+       "volle",
+       "vollen",
+       "voller"
+      ],
+      "vollem": [
+       "vollen",
+       "voller",
+       "volle"
+      ],
+      "leere": [
+       "leeren",
+       "leerer",
+       "leeres"
+      ],
+      "leeren": [
+       "leere",
+       "leerer",
+       "leerem"
+      ],
+      "leerer": [
+       "leere",
+       "leeren",
+       "leeres"
+      ],
+      "leeres": [
+       "leere",
+       "leeren",
+       "leerer"
+      ],
+      "leerem": [
+       "leeren",
+       "leerer",
+       "leere"
+      ],
+      "reiche": [
+       "reichen",
+       "reicher",
+       "reiches"
+      ],
+      "reichen": [
+       "reiche",
+       "reicher",
+       "reichem"
+      ],
+      "reicher": [
+       "reiche",
+       "reichen",
+       "reiches"
+      ],
+      "reiches": [
+       "reiche",
+       "reichen",
+       "reicher"
+      ],
+      "reichem": [
+       "reichen",
+       "reicher",
+       "reiche"
+      ],
+      "arme": [
+       "armen",
+       "armer",
+       "armes"
+      ],
+      "armen": [
+       "arme",
+       "armer",
+       "armem"
+      ],
+      "armer": [
+       "arme",
+       "armen",
+       "armes"
+      ],
+      "armes": [
+       "arme",
+       "armen",
+       "armer"
+      ],
+      "armem": [
+       "armen",
+       "armer",
+       "arme"
+      ],
+      "kranke": [
+       "kranken",
+       "kranker",
+       "krankes"
+      ],
+      "kranken": [
+       "kranke",
+       "kranker",
+       "krankem"
+      ],
+      "kranker": [
+       "kranke",
+       "kranken",
+       "krankes"
+      ],
+      "krankes": [
+       "kranke",
+       "kranken",
+       "kranker"
+      ],
+      "krankem": [
+       "kranken",
+       "kranker",
+       "kranke"
+      ],
+      "gesunde": [
+       "gesunden",
+       "gesunder",
+       "gesundes"
+      ],
+      "gesunden": [
+       "gesunde",
+       "gesunder",
+       "gesundem"
+      ],
+      "gesunder": [
+       "gesunde",
+       "gesunden",
+       "gesundes"
+      ],
+      "gesundes": [
+       "gesunde",
+       "gesunden",
+       "gesunder"
+      ],
+      "gesundem": [
+       "gesunden",
+       "gesunder",
+       "gesunde"
+      ],
+      "glückliche": [
+       "glücklichen",
+       "glücklicher",
+       "glückliches"
+      ],
+      "glücklichen": [
+       "glückliche",
+       "glücklicher",
+       "glücklichem"
+      ],
+      "glücklicher": [
+       "glückliche",
+       "glücklichen",
+       "glückliches"
+      ],
+      "glückliches": [
+       "glückliche",
+       "glücklichen",
+       "glücklicher"
+      ],
+      "glücklichem": [
+       "glücklichen",
+       "glücklicher",
+       "glückliche"
+      ],
+      "traurige": [
+       "traurigen",
+       "trauriger",
+       "trauriges"
+      ],
+      "traurigen": [
+       "traurige",
+       "trauriger",
+       "traurigem"
+      ],
+      "trauriger": [
+       "traurige",
+       "traurigen",
+       "trauriges"
+      ],
+      "trauriges": [
+       "traurige",
+       "traurigen",
+       "trauriger"
+      ],
+      "traurigem": [
+       "traurigen",
+       "trauriger",
+       "traurige"
+      ],
+      "frische": [
+       "frischen",
+       "frischer",
+       "frisches"
+      ],
+      "frischen": [
+       "frische",
+       "frischer",
+       "frischem"
+      ],
+      "frischer": [
+       "frische",
+       "frischen",
+       "frisches"
+      ],
+      "frisches": [
+       "frische",
+       "frischen",
+       "frischer"
+      ],
+      "frischem": [
+       "frischen",
+       "frischer",
+       "frische"
+      ],
+      "saubere": [
+       "sauberen",
+       "sauberer",
+       "sauberes"
+      ],
+      "sauberen": [
+       "saubere",
+       "sauberer",
+       "sauberem"
+      ],
+      "sauberer": [
+       "saubere",
+       "sauberen",
+       "sauberes"
+      ],
+      "sauberes": [
+       "saubere",
+       "sauberen",
+       "sauberer"
+      ],
+      "sauberem": [
+       "sauberen",
+       "sauberer",
+       "saubere"
+      ],
+      "schmutzige": [
+       "schmutzigen",
+       "schmutziger",
+       "schmutziges"
+      ],
+      "schmutzigen": [
+       "schmutzige",
+       "schmutziger",
+       "schmutzigem"
+      ],
+      "schmutziger": [
+       "schmutzige",
+       "schmutzigen",
+       "schmutziges"
+      ],
+      "schmutziges": [
+       "schmutzige",
+       "schmutzigen",
+       "schmutziger"
+      ],
+      "schmutzigem": [
+       "schmutzigen",
+       "schmutziger",
+       "schmutzige"
+      ],
+      "einfache": [
+       "einfachen",
+       "einfacher",
+       "einfaches"
+      ],
+      "einfachen": [
+       "einfache",
+       "einfacher",
+       "einfachem"
+      ],
+      "einfacher": [
+       "einfache",
+       "einfachen",
+       "einfaches"
+      ],
+      "einfaches": [
+       "einfache",
+       "einfachen",
+       "einfacher"
+      ],
+      "einfachem": [
+       "einfachen",
+       "einfacher",
+       "einfache"
+      ],
+      "schwierige": [
+       "schwierigen",
+       "schwieriger",
+       "schwieriges"
+      ],
+      "schwierigen": [
+       "schwierige",
+       "schwieriger",
+       "schwierigem"
+      ],
+      "schwieriger": [
+       "schwierige",
+       "schwierigen",
+       "schwieriges"
+      ],
+      "schwieriges": [
+       "schwierige",
+       "schwierigen",
+       "schwieriger"
+      ],
+      "schwierigem": [
+       "schwierigen",
+       "schwieriger",
+       "schwierige"
+      ],
+      "gefährliche": [
+       "gefährlichen",
+       "gefährlicher",
+       "gefährliches"
+      ],
+      "gefährlichen": [
+       "gefährliche",
+       "gefährlicher",
+       "gefährlichem"
+      ],
+      "gefährlicher": [
+       "gefährliche",
+       "gefährlichen",
+       "gefährliches"
+      ],
+      "gefährliches": [
+       "gefährliche",
+       "gefährlichen",
+       "gefährlicher"
+      ],
+      "gefährlichem": [
+       "gefährlichen",
+       "gefährlicher",
+       "gefährliche"
+      ],
+      "kluge": [
+       "klugen",
+       "kluger",
+       "kluges"
+      ],
+      "klugen": [
+       "kluge",
+       "kluger",
+       "klugem"
+      ],
+      "kluger": [
+       "kluge",
+       "klugen",
+       "kluges"
+      ],
+      "kluges": [
+       "kluge",
+       "klugen",
+       "kluger"
+      ],
+      "klugem": [
+       "klugen",
+       "kluger",
+       "kluge"
+      ],
+      "dumme": [
+       "dummen",
+       "dummer",
+       "dummes"
+      ],
+      "dummen": [
+       "dumme",
+       "dummer",
+       "dummem"
+      ],
+      "dummer": [
+       "dumme",
+       "dummen",
+       "dummes"
+      ],
+      "dummes": [
+       "dumme",
+       "dummen",
+       "dummer"
+      ],
+      "dummem": [
+       "dummen",
+       "dummer",
+       "dumme"
+      ],
+      "moderne": [
+       "modernen",
+       "moderner",
+       "modernes"
+      ],
+      "modernen": [
+       "moderne",
+       "moderner",
+       "modernem"
+      ],
+      "moderner": [
+       "moderne",
+       "modernen",
+       "modernes"
+      ],
+      "modernes": [
+       "moderne",
+       "modernen",
+       "moderner"
+      ],
+      "modernem": [
+       "modernen",
+       "moderner",
+       "moderne"
+      ],
+      "fremde": [
+       "fremden",
+       "fremder",
+       "fremdes"
+      ],
+      "fremden": [
+       "fremde",
+       "fremder",
+       "fremdem"
+      ],
+      "fremder": [
+       "fremde",
+       "fremden",
+       "fremdes"
+      ],
+      "fremdes": [
+       "fremde",
+       "fremden",
+       "fremder"
+      ],
+      "fremdem": [
+       "fremden",
+       "fremder",
+       "fremde"
+      ],
+      "schlechte": [
+       "schlechten",
+       "schlechter",
+       "schlechtes"
+      ],
+      "schlechten": [
+       "schlechte",
+       "schlechter",
+       "schlechtem"
+      ],
+      "schlechter": [
+       "schlechte",
+       "schlechten",
+       "schlechtes"
+      ],
+      "schlechtes": [
+       "schlechte",
+       "schlechten",
+       "schlechter"
+      ],
+      "schlechtem": [
+       "schlechten",
+       "schlechter",
+       "schlechte"
+      ],
+      "zweite": [
+       "zweiten",
+       "zweiter",
+       "zweites"
+      ],
+      "zweiten": [
+       "zweite",
+       "zweiter",
+       "zweitem"
+      ],
+      "zweiter": [
+       "zweite",
+       "zweiten",
+       "zweites"
+      ],
+      "zweites": [
+       "zweite",
+       "zweiten",
+       "zweiter"
+      ],
+      "zweitem": [
+       "zweiten",
+       "zweiter",
+       "zweite"
+      ],
+      "dritte": [
+       "dritten",
+       "dritter",
+       "drittes"
+      ],
+      "dritten": [
+       "dritte",
+       "dritter",
+       "drittem"
+      ],
+      "dritter": [
+       "dritte",
+       "dritten",
+       "drittes"
+      ],
+      "drittes": [
+       "dritte",
+       "dritten",
+       "dritter"
+      ],
+      "drittem": [
+       "dritten",
+       "dritter",
+       "dritte"
+      ],
+      "gemütliche": [
+       "gemütlichen",
+       "gemütlicher",
+       "gemütliches"
+      ],
+      "gemütlichen": [
+       "gemütliche",
+       "gemütlicher",
+       "gemütlichem"
+      ],
+      "gemütlicher": [
+       "gemütliche",
+       "gemütlichen",
+       "gemütliches"
+      ],
+      "gemütliches": [
+       "gemütliche",
+       "gemütlichen",
+       "gemütlicher"
+      ],
+      "gemütlichem": [
+       "gemütlichen",
+       "gemütlicher",
+       "gemütliche"
+      ],
+      "dicke": [
+       "dicken",
+       "dicker",
+       "dickes"
+      ],
+      "dicken": [
+       "dicke",
+       "dicker",
+       "dickem"
+      ],
+      "dicker": [
+       "dicke",
+       "dicken",
+       "dickes"
+      ],
+      "dickes": [
+       "dicke",
+       "dicken",
+       "dicker"
+      ],
+      "dickem": [
+       "dicken",
+       "dicker",
+       "dicke"
+      ],
+      "dünne": [
+       "dünnen",
+       "dünner",
+       "dünnes"
+      ],
+      "dünnen": [
+       "dünne",
+       "dünner",
+       "dünnem"
+      ],
+      "dünner": [
+       "dünne",
+       "dünnen",
+       "dünnes"
+      ],
+      "dünnes": [
+       "dünne",
+       "dünnen",
+       "dünner"
+      ],
+      "dünnem": [
+       "dünnen",
+       "dünner",
+       "dünne"
+      ],
+      "echte": [
+       "echten",
+       "echter",
+       "echtes"
+      ],
+      "echten": [
+       "echte",
+       "echter",
+       "echtem"
+      ],
+      "echter": [
+       "echte",
+       "echten",
+       "echtes"
+      ],
+      "echtes": [
+       "echte",
+       "echten",
+       "echter"
+      ],
+      "echtem": [
+       "echten",
+       "echter",
+       "echte"
+      ],
+      "nahen": [
+       "nahe",
+       "naher",
+       "nahem"
+      ],
+      "nahes": [
+       "nahe",
+       "nahen",
+       "naher"
+      ],
+      "nahem": [
+       "nahen",
+       "naher",
+       "nahe"
+      ],
+      "weite": [
+       "weiten",
+       "weiter",
+       "weites"
+      ],
+      "weiten": [
+       "weite",
+       "weiter",
+       "weitem"
+      ],
+      "weites": [
+       "weite",
+       "weiten",
+       "weiter"
+      ],
+      "weitem": [
+       "weiten",
+       "weiter",
+       "weite"
+      ],
+      "bekannte": [
+       "bekannten",
+       "bekannter",
+       "bekanntes"
+      ],
+      "bekannten": [
+       "bekannte",
+       "bekannter",
+       "bekanntem"
+      ],
+      "bekannter": [
+       "bekannte",
+       "bekannten",
+       "bekanntes"
+      ],
+      "bekanntes": [
+       "bekannte",
+       "bekannten",
+       "bekannter"
+      ],
+      "bekanntem": [
+       "bekannten",
+       "bekannter",
+       "bekannte"
+      ],
+      "beliebte": [
+       "beliebten",
+       "beliebter",
+       "beliebtes"
+      ],
+      "beliebten": [
+       "beliebte",
+       "beliebter",
+       "beliebtem"
+      ],
+      "beliebter": [
+       "beliebte",
+       "beliebten",
+       "beliebtes"
+      ],
+      "beliebtes": [
+       "beliebte",
+       "beliebten",
+       "beliebter"
+      ],
+      "beliebtem": [
+       "beliebten",
+       "beliebter",
+       "beliebte"
+      ],
+      "italienische": [
+       "italienischen",
+       "italienischer",
+       "italienisches"
+      ],
+      "italienischen": [
+       "italienische",
+       "italienischer",
+       "italienischem"
+      ],
+      "italienischer": [
+       "italienische",
+       "italienischen",
+       "italienisches"
+      ],
+      "italienisches": [
+       "italienische",
+       "italienischen",
+       "italienischer"
+      ],
+      "italienischem": [
+       "italienischen",
+       "italienischer",
+       "italienische"
+      ],
+      "spanische": [
+       "spanischen",
+       "spanischer",
+       "spanisches"
+      ],
+      "spanischen": [
+       "spanische",
+       "spanischer",
+       "spanischem"
+      ],
+      "spanischer": [
+       "spanische",
+       "spanischen",
+       "spanisches"
+      ],
+      "spanisches": [
+       "spanische",
+       "spanischen",
+       "spanischer"
+      ],
+      "spanischem": [
+       "spanischen",
+       "spanischer",
+       "spanische"
+      ],
+      "chinesische": [
+       "chinesischen",
+       "chinesischer",
+       "chinesisches"
+      ],
+      "chinesischen": [
+       "chinesische",
+       "chinesischer",
+       "chinesischem"
+      ],
+      "chinesischer": [
+       "chinesische",
+       "chinesischen",
+       "chinesisches"
+      ],
+      "chinesisches": [
+       "chinesische",
+       "chinesischen",
+       "chinesischer"
+      ],
+      "chinesischem": [
+       "chinesischen",
+       "chinesischer",
+       "chinesische"
+      ],
+      "russische": [
+       "russischen",
+       "russischer",
+       "russisches"
+      ],
+      "russischen": [
+       "russische",
+       "russischer",
+       "russischem"
+      ],
+      "russischer": [
+       "russische",
+       "russischen",
+       "russisches"
+      ],
+      "russisches": [
+       "russische",
+       "russischen",
+       "russischer"
+      ],
+      "russischem": [
+       "russischen",
+       "russischer",
+       "russische"
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

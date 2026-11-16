@@ -1,0 +1,4550 @@
+{
+ "lang": "en",
+ "tracks": [
+  {
+   "id": "basico",
+   "subs": [
+    {
+     "id": "saudacoes",
+     "name": "Cumprimentos e cortesia",
+     "desc": "Palavras para cumprimentar e ser educado: hello, please, thank you, sorry, excuse me. Ex.: \"Thank you very much.\"",
+     "pattern": "\\b(?P<w>hello|hi|goodbye|bye|please|thanks|thank(?= you\\b)|sorry|excuse(?= me\\b)|welcome|pardon|(?:(?<=^good )|(?<=\\bsay good )|(?<=\\bsaid good )|(?<=\\bsays good )|(?<=\\bsaying good ))(?:morning|afternoon|evening|night))\\b",
+     "options": {
+      "hello": [
+       "goodbye",
+       "thanks",
+       "sorry"
+      ],
+      "hi": [
+       "bye",
+       "thanks",
+       "please"
+      ],
+      "goodbye": [
+       "hello",
+       "welcome",
+       "sorry"
+      ],
+      "bye": [
+       "hi",
+       "thanks",
+       "please"
+      ],
+      "please": [
+       "thanks",
+       "sorry",
+       "hello"
+      ],
+      "thanks": [
+       "please",
+       "sorry",
+       "welcome"
+      ],
+      "thank": [
+       "excuse",
+       "welcome",
+       "please"
+      ],
+      "sorry": [
+       "thanks",
+       "welcome",
+       "hello"
+      ],
+      "excuse": [
+       "thank",
+       "sorry",
+       "pardon"
+      ],
+      "welcome": [
+       "sorry",
+       "thanks",
+       "hello"
+      ],
+      "pardon": [
+       "excuse",
+       "sorry",
+       "thanks"
+      ],
+      "morning": [
+       "afternoon",
+       "evening",
+       "night"
+      ],
+      "afternoon": [
+       "morning",
+       "evening",
+       "night"
+      ],
+      "evening": [
+       "morning",
+       "afternoon",
+       "night"
+      ],
+      "night": [
+       "morning",
+       "afternoon",
+       "evening"
+      ]
+     },
+     "exclude": "\\bwelcomed?\\s+(?!to\\b|back\\b|home\\b)\\w+(?<!\\bwelcome)|\\bplease[ds]\\b|\\b(?:as|if|whatever|whoever|wherever|whenever) (?:you|they|he|she|we|I) please\\b|\\b(?:to|can't|cannot|could|hard to) please\\b"
+    },
+    {
+     "id": "numeros",
+     "name": "Números",
+     "desc": "Os números por extenso: two, three, ten, twenty, hundred, thousand. Ex.: \"I have three brothers.\"",
+     "pattern": "\\b(?P<w>seventeen|eighteen|fourteen|nineteen|thirteen|thousand|fifteen|hundred|million|seventy|sixteen|eighty|eleven|ninety|thirty|twelve|twenty|eight|fifty|forty|seven|sixty|three|five|four|nine|six|ten|two)\\b(?!-)",
+     "options": {
+      "two": [
+       "three",
+       "four",
+       "five"
+      ],
+      "three": [
+       "four",
+       "five",
+       "six"
+      ],
+      "four": [
+       "five",
+       "six",
+       "seven"
+      ],
+      "five": [
+       "six",
+       "seven",
+       "eight"
+      ],
+      "six": [
+       "seven",
+       "eight",
+       "nine"
+      ],
+      "seven": [
+       "eight",
+       "nine",
+       "ten"
+      ],
+      "eight": [
+       "nine",
+       "ten",
+       "eleven"
+      ],
+      "nine": [
+       "ten",
+       "eleven",
+       "twelve"
+      ],
+      "ten": [
+       "eleven",
+       "twelve",
+       "thirteen"
+      ],
+      "eleven": [
+       "twelve",
+       "thirteen",
+       "fourteen"
+      ],
+      "twelve": [
+       "thirteen",
+       "fourteen",
+       "fifteen"
+      ],
+      "thirteen": [
+       "fourteen",
+       "fifteen",
+       "sixteen"
+      ],
+      "fourteen": [
+       "fifteen",
+       "sixteen",
+       "seventeen"
+      ],
+      "fifteen": [
+       "sixteen",
+       "seventeen",
+       "eighteen"
+      ],
+      "sixteen": [
+       "seventeen",
+       "eighteen",
+       "nineteen"
+      ],
+      "seventeen": [
+       "eighteen",
+       "nineteen",
+       "twenty"
+      ],
+      "eighteen": [
+       "nineteen",
+       "twenty",
+       "thirty"
+      ],
+      "nineteen": [
+       "twenty",
+       "thirty",
+       "forty"
+      ],
+      "twenty": [
+       "thirty",
+       "forty",
+       "fifty"
+      ],
+      "thirty": [
+       "forty",
+       "fifty",
+       "sixty"
+      ],
+      "forty": [
+       "fifty",
+       "sixty",
+       "seventy"
+      ],
+      "fifty": [
+       "sixty",
+       "seventy",
+       "eighty"
+      ],
+      "sixty": [
+       "seventy",
+       "eighty",
+       "ninety"
+      ],
+      "seventy": [
+       "eighty",
+       "ninety",
+       "hundred"
+      ],
+      "eighty": [
+       "ninety",
+       "hundred",
+       "thousand"
+      ],
+      "ninety": [
+       "hundred",
+       "thousand",
+       "million"
+      ],
+      "hundred": [
+       "thousand",
+       "million",
+       "two"
+      ],
+      "thousand": [
+       "million",
+       "two",
+       "three"
+      ],
+      "million": [
+       "two",
+       "three",
+       "four"
+      ]
+     },
+     "exclude": "\\b(?:\\w+-(?:seventeen|eighteen|fourteen|nineteen|thirteen|thousand|fifteen|hundred|million|seventy|sixteen|eighty|eleven|ninety|thirty|twelve|twenty|eight|fifty|forty|seven|sixty|three|five|four|nine|six|ten|two)|(?:seventeen|eighteen|fourteen|nineteen|thirteen|thousand|fifteen|hundred|million|seventy|sixteen|eighty|eleven|ninety|thirty|twelve|twenty|eight|fifty|forty|seven|sixty|three|five|four|nine|six|ten|two)-\\w+)\\b"
+    },
+    {
+     "id": "cores",
+     "name": "Cores",
+     "desc": "As cores: red, blue, green, yellow, black, white... Em inglês o adjetivo vem antes do substantivo: \"a red car\".",
+     "pattern": "(?<!\\bMr\\. )(?<!\\bMrs\\. )(?<!\\bMs\\. )\\b(?P<w>orange|purple|yellow|black|brown|green|white|blue|gray|grey|pink|red)\\b(?!-)(?!\\s+(?:House|Sea|juice)\\b)",
+     "options": {
+      "red": [
+       "blue",
+       "green",
+       "black"
+      ],
+      "blue": [
+       "red",
+       "green",
+       "yellow"
+      ],
+      "green": [
+       "red",
+       "blue",
+       "brown"
+      ],
+      "yellow": [
+       "red",
+       "green",
+       "white"
+      ],
+      "black": [
+       "white",
+       "brown",
+       "red"
+      ],
+      "white": [
+       "black",
+       "yellow",
+       "blue"
+      ],
+      "brown": [
+       "black",
+       "green",
+       "gray"
+      ],
+      "orange": [
+       "pink",
+       "yellow",
+       "purple"
+      ],
+      "pink": [
+       "orange",
+       "purple",
+       "yellow"
+      ],
+      "purple": [
+       "pink",
+       "orange",
+       "green"
+      ],
+      "gray": [
+       "brown",
+       "white",
+       "black"
+      ],
+      "grey": [
+       "brown",
+       "white",
+       "black"
+      ]
+     },
+     "exclude": "(?-i:\\b(?:Black|White|Brown|Green|Grey|Gray)\\b(?<!^Black)(?<!^White)(?<!^Brown)(?<!^Green))|\\boranges\\b|\\b(?:an|this|that|the|one|my|your|his|her) orange\\b(?!\\s+(?:shirt|dress|car|hat|cat|light|color|colour|paint|wall|door|t-shirt|sweater|jacket|ball|hair|sky|flowers?))|\\bwhite lie|\\bblack market|\\bfeel(?:s|ing)? blue|\\bout of the blue|\\bblue moon"
+    },
+    {
+     "id": "dias",
+     "name": "Dias, meses e estações",
+     "desc": "Dias da semana, meses e estações. Em inglês dias e meses têm letra maiúscula: \"on Monday\", \"in October\", \"in summer\".",
+     "pattern": "(?-i:\\b(?P<w>(?:Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)days?|January|February|(?<!^)March|April|(?<=\\bin )May|(?<=\\bof )May|(?<=\\bnext )May|(?<=\\blast )May|(?<=\\bearly )May|(?<=\\blate )May|June|July|August|September|October|November|December|[Ss]pring(?! \\w+ing)|[Ss]ummer|[Aa]utumn|[Ww]inter)\\b)",
+     "options": {
+      "monday": [
+       "tuesday",
+       "wednesday",
+       "thursday"
+      ],
+      "tuesday": [
+       "wednesday",
+       "thursday",
+       "friday"
+      ],
+      "wednesday": [
+       "thursday",
+       "friday",
+       "saturday"
+      ],
+      "thursday": [
+       "friday",
+       "saturday",
+       "sunday"
+      ],
+      "friday": [
+       "saturday",
+       "sunday",
+       "monday"
+      ],
+      "saturday": [
+       "sunday",
+       "monday",
+       "tuesday"
+      ],
+      "sunday": [
+       "monday",
+       "tuesday",
+       "wednesday"
+      ],
+      "january": [
+       "february",
+       "march",
+       "april"
+      ],
+      "february": [
+       "march",
+       "april",
+       "may"
+      ],
+      "march": [
+       "april",
+       "may",
+       "june"
+      ],
+      "april": [
+       "may",
+       "june",
+       "july"
+      ],
+      "may": [
+       "june",
+       "july",
+       "august"
+      ],
+      "june": [
+       "july",
+       "august",
+       "september"
+      ],
+      "july": [
+       "august",
+       "september",
+       "october"
+      ],
+      "august": [
+       "september",
+       "october",
+       "november"
+      ],
+      "september": [
+       "october",
+       "november",
+       "december"
+      ],
+      "october": [
+       "november",
+       "december",
+       "january"
+      ],
+      "november": [
+       "december",
+       "january",
+       "february"
+      ],
+      "december": [
+       "january",
+       "february",
+       "march"
+      ],
+      "spring": [
+       "summer",
+       "autumn",
+       "winter"
+      ],
+      "summer": [
+       "autumn",
+       "winter",
+       "spring"
+      ],
+      "autumn": [
+       "winter",
+       "spring",
+       "summer"
+      ],
+      "winter": [
+       "spring",
+       "summer",
+       "autumn"
+      ],
+      "mondays": [
+       "tuesdays",
+       "wednesdays",
+       "thursdays"
+      ],
+      "tuesdays": [
+       "wednesdays",
+       "thursdays",
+       "fridays"
+      ],
+      "wednesdays": [
+       "thursdays",
+       "fridays",
+       "saturdays"
+      ],
+      "thursdays": [
+       "fridays",
+       "saturdays",
+       "sundays"
+      ],
+      "fridays": [
+       "saturdays",
+       "sundays",
+       "mondays"
+      ],
+      "saturdays": [
+       "sundays",
+       "mondays",
+       "tuesdays"
+      ],
+      "sundays": [
+       "mondays",
+       "tuesdays",
+       "wednesdays"
+      ]
+     },
+     "exclude": "\\bspring(?:s|ing)? (?:up|from|back)\\b|\\bhot spring|(?-i:\\bOctober (?:Fest|Revolution))"
+    },
+    {
+     "id": "familia",
+     "name": "Família",
+     "desc": "Membros da família: mother, father, brother, sister, son, daughter, wife, husband, uncle, aunt...",
+     "pattern": "\\b(?P<w>granddaughters|granddaughter|grandparents|grandfather|grandmother|daughters|grandsons|brothers|daughter|grandson|husbands|brother|cousins|fathers|grandma|grandpa|husband|mothers|nephews|parents|sisters|cousin|father|mother|nephew|nieces|parent|sister|uncles|aunts|niece|uncle|wives|aunt|sons|wife|dad|mom|son)\\b(?!-in-law|')",
+     "options": {
+      "mother": [
+       "father",
+       "sister",
+       "aunt"
+      ],
+      "father": [
+       "mother",
+       "brother",
+       "uncle"
+      ],
+      "mom": [
+       "dad",
+       "sister",
+       "aunt"
+      ],
+      "dad": [
+       "mom",
+       "brother",
+       "uncle"
+      ],
+      "brother": [
+       "sister",
+       "cousin",
+       "father"
+      ],
+      "sister": [
+       "brother",
+       "cousin",
+       "mother"
+      ],
+      "son": [
+       "daughter",
+       "nephew",
+       "brother"
+      ],
+      "daughter": [
+       "son",
+       "niece",
+       "sister"
+      ],
+      "husband": [
+       "wife",
+       "brother",
+       "father"
+      ],
+      "wife": [
+       "husband",
+       "sister",
+       "mother"
+      ],
+      "uncle": [
+       "aunt",
+       "cousin",
+       "father"
+      ],
+      "aunt": [
+       "uncle",
+       "cousin",
+       "mother"
+      ],
+      "cousin": [
+       "uncle",
+       "nephew",
+       "brother"
+      ],
+      "grandmother": [
+       "grandfather",
+       "mother",
+       "aunt"
+      ],
+      "grandfather": [
+       "grandmother",
+       "father",
+       "uncle"
+      ],
+      "grandma": [
+       "grandpa",
+       "mom",
+       "aunt"
+      ],
+      "grandpa": [
+       "grandma",
+       "dad",
+       "uncle"
+      ],
+      "nephew": [
+       "niece",
+       "cousin",
+       "son"
+      ],
+      "niece": [
+       "nephew",
+       "cousin",
+       "daughter"
+      ],
+      "grandson": [
+       "granddaughter",
+       "nephew",
+       "son"
+      ],
+      "granddaughter": [
+       "grandson",
+       "niece",
+       "daughter"
+      ],
+      "parent": [
+       "brother",
+       "cousin",
+       "uncle"
+      ],
+      "mothers": [
+       "fathers",
+       "sisters",
+       "aunts"
+      ],
+      "fathers": [
+       "mothers",
+       "brothers",
+       "uncles"
+      ],
+      "brothers": [
+       "sisters",
+       "cousins",
+       "parents"
+      ],
+      "sisters": [
+       "brothers",
+       "cousins",
+       "parents"
+      ],
+      "sons": [
+       "daughters",
+       "nephews",
+       "brothers"
+      ],
+      "daughters": [
+       "sons",
+       "nieces",
+       "sisters"
+      ],
+      "husbands": [
+       "wives",
+       "brothers",
+       "sons"
+      ],
+      "wives": [
+       "husbands",
+       "sisters",
+       "daughters"
+      ],
+      "uncles": [
+       "aunts",
+       "cousins",
+       "parents"
+      ],
+      "aunts": [
+       "uncles",
+       "cousins",
+       "sisters"
+      ],
+      "cousins": [
+       "brothers",
+       "uncles",
+       "parents"
+      ],
+      "parents": [
+       "grandparents",
+       "cousins",
+       "brothers"
+      ],
+      "grandparents": [
+       "parents",
+       "cousins",
+       "uncles"
+      ],
+      "nephews": [
+       "nieces",
+       "cousins",
+       "sons"
+      ],
+      "nieces": [
+       "nephews",
+       "cousins",
+       "daughters"
+      ],
+      "grandsons": [
+       "granddaughters",
+       "nephews",
+       "sons"
+      ],
+      "granddaughters": [
+       "grandsons",
+       "nieces",
+       "daughters"
+      ]
+     },
+     "exclude": "\\b(?:\\w+-in-law|God ?father|step\\w+|Mother (?:Nature|Teresa|Earth)|Father (?:Christmas|Time)|Holy Father|mother tongue|son of a)\\b|(?-i:\\bSon\\b)"
+    },
+    {
+     "id": "corpo",
+     "name": "Corpo humano",
+     "desc": "Partes do corpo: head, eyes, nose, mouth, hand, arm, leg, foot... Atenção: tooth → teeth, foot → feet.",
+     "pattern": "\\b(?:my|your|his|her|its|our|their|the|a|an|both|left|right|broken|Tom's|Mary's|long|short|blue|brown|black|big|small|bad|sore)\\s+(?:(?:left|right|long|short|blue|brown|black|big|small|own|bad|sore|front|upper|lower)\\s+)?(?P<w>shoulders|shoulder|fingers|stomach|finger|tongue|chest|hands|knees|mouth|teeth|tooth|arms|back|ears|eyes|face|feet|foot|hair|hand|head|knee|legs|lips|neck|nose|skin|toes|arm|ear|eye|leg|lip)\\b(?!-)",
+     "options": {
+      "head": [
+       "hand",
+       "face",
+       "neck"
+      ],
+      "eye": [
+       "ear",
+       "nose",
+       "mouth"
+      ],
+      "ear": [
+       "eye",
+       "nose",
+       "mouth"
+      ],
+      "nose": [
+       "mouth",
+       "ear",
+       "eye"
+      ],
+      "mouth": [
+       "nose",
+       "ear",
+       "face"
+      ],
+      "tooth": [
+       "tongue",
+       "lip",
+       "nose"
+      ],
+      "face": [
+       "head",
+       "hand",
+       "neck"
+      ],
+      "neck": [
+       "head",
+       "arm",
+       "back"
+      ],
+      "shoulder": [
+       "arm",
+       "neck",
+       "knee"
+      ],
+      "arm": [
+       "leg",
+       "hand",
+       "neck"
+      ],
+      "hand": [
+       "foot",
+       "arm",
+       "head"
+      ],
+      "finger": [
+       "toe",
+       "hand",
+       "arm"
+      ],
+      "leg": [
+       "arm",
+       "foot",
+       "neck"
+      ],
+      "knee": [
+       "leg",
+       "shoulder",
+       "foot"
+      ],
+      "foot": [
+       "hand",
+       "leg",
+       "knee"
+      ],
+      "stomach": [
+       "back",
+       "head",
+       "chest"
+      ],
+      "chest": [
+       "back",
+       "stomach",
+       "neck"
+      ],
+      "back": [
+       "stomach",
+       "chest",
+       "head"
+      ],
+      "hair": [
+       "face",
+       "head",
+       "skin"
+      ],
+      "skin": [
+       "hair",
+       "face",
+       "back"
+      ],
+      "tongue": [
+       "tooth",
+       "lip",
+       "nose"
+      ],
+      "lip": [
+       "tongue",
+       "nose",
+       "ear"
+      ],
+      "eyes": [
+       "ears",
+       "hands",
+       "lips"
+      ],
+      "ears": [
+       "eyes",
+       "hands",
+       "teeth"
+      ],
+      "teeth": [
+       "lips",
+       "eyes",
+       "ears"
+      ],
+      "arms": [
+       "legs",
+       "hands",
+       "feet"
+      ],
+      "hands": [
+       "feet",
+       "arms",
+       "eyes"
+      ],
+      "fingers": [
+       "toes",
+       "hands",
+       "arms"
+      ],
+      "legs": [
+       "arms",
+       "feet",
+       "hands"
+      ],
+      "knees": [
+       "legs",
+       "shoulders",
+       "feet"
+      ],
+      "feet": [
+       "hands",
+       "legs",
+       "knees"
+      ],
+      "lips": [
+       "teeth",
+       "eyes",
+       "ears"
+      ],
+      "shoulders": [
+       "arms",
+       "knees",
+       "legs"
+      ],
+      "toes": [
+       "fingers",
+       "feet",
+       "hands"
+      ]
+     },
+     "exclude": "\\b(?:the|a) (?:back (?:of|door|seat|yard|row|room)|head (?:of|office|teacher|start)|hand(?:s)? (?:of|over)|face of|foot of|arms (?:race|dealer))\\b|\\bon the other hand|\\bthe right hand man|\\bat the (?:back|head)\\b|\\bin the back\\b|\\b(?:a|the) (?:right|left) (?:hand|foot|arm|leg|eye|ear)? ?(?:turn|side)\\b|\\bback (?:to|home|up|down|in|out|on|then)\\b|\\bthe back\\b(?! (?:hurts|aches))|\\bfeet (?:tall|long|high|deep|away|wide)\\b|\\bkeep an eye\\b|\\bkeep (?:an|your|my) eyes\\b|\\bbig mouth\\b|\\b(?:give|lend|need|want|use) (?:me |him |her |us |you |them )?a hand\\b|\\bright back\\b|\\bbat an eye\\b|\\bfor her hand\\b|\\btip of (?:my|the|his|her|your) tongue\\b|\\bpain in the neck\\b|\\bin the (?:face|eye|eyes) of\\b|\\bface (?:the|it|up to|facts)\\b|\\b(?:a|the) (?:big|small) hand\\b|\\bclock'?s? hands\\b"
+    },
+    {
+     "id": "roupas",
+     "name": "Roupas",
+     "desc": "Peças de roupa: shirt, dress, pants, jacket, coat, shoes, hat... Note que pants, jeans e shorts são sempre plurais.",
+     "pattern": "\\b(?:my|your|his|her|its|our|their|the|a|an|this|that|these|those|new|old|Tom's|Mary's|red|blue|green|black|white|brown|yellow|pink|wedding|winter|warm|clean|dirty|heavy|wet|leather|wool|cotton|nice|pretty|school|running|tennis|evening|his own|her own)\\s+(?:(?:new|old|red|blue|green|black|white|brown|yellow|pink|leather|wool|woolen|cotton|warm|heavy|nice|pretty|wedding|winter|clean|dirty|wet|favorite|tennis|running|school)\\s+)?(?P<w>sneakers|sweaters|trousers|uniforms|clothes|dresses|jackets|pajamas|sandals|scarves|sweater|t-shirt|uniform|gloves|jacket|shirts|shorts|skirts|belts|boots|coats|dress|glove|jeans|pants|scarf|shirt|shoes|skirt|socks|suits|belt|boot|caps|coat|hats|shoe|sock|suit|ties|cap|hat|tie)\\b(?!-)",
+     "options": {
+      "shirt": [
+       "skirt",
+       "jacket",
+       "dress"
+      ],
+      "skirt": [
+       "shirt",
+       "dress",
+       "coat"
+      ],
+      "dress": [
+       "skirt",
+       "shirt",
+       "suit"
+      ],
+      "jacket": [
+       "coat",
+       "sweater",
+       "shirt"
+      ],
+      "coat": [
+       "jacket",
+       "sweater",
+       "dress"
+      ],
+      "sweater": [
+       "jacket",
+       "coat",
+       "shirt"
+      ],
+      "hat": [
+       "cap",
+       "scarf",
+       "tie"
+      ],
+      "cap": [
+       "hat",
+       "scarf",
+       "belt"
+      ],
+      "scarf": [
+       "hat",
+       "tie",
+       "belt"
+      ],
+      "tie": [
+       "belt",
+       "scarf",
+       "hat"
+      ],
+      "suit": [
+       "dress",
+       "coat",
+       "uniform"
+      ],
+      "uniform": [
+       "suit",
+       "dress",
+       "coat"
+      ],
+      "belt": [
+       "tie",
+       "scarf",
+       "hat"
+      ],
+      "shoe": [
+       "sock",
+       "boot",
+       "glove"
+      ],
+      "sock": [
+       "shoe",
+       "glove",
+       "boot"
+      ],
+      "boot": [
+       "shoe",
+       "sock",
+       "glove"
+      ],
+      "glove": [
+       "sock",
+       "shoe",
+       "boot"
+      ],
+      "t-shirt": [
+       "sweater",
+       "jacket",
+       "dress"
+      ],
+      "shirts": [
+       "skirts",
+       "jackets",
+       "dresses"
+      ],
+      "skirts": [
+       "shirts",
+       "dresses",
+       "coats"
+      ],
+      "dresses": [
+       "skirts",
+       "shirts",
+       "suits"
+      ],
+      "jackets": [
+       "coats",
+       "sweaters",
+       "shirts"
+      ],
+      "coats": [
+       "jackets",
+       "sweaters",
+       "dresses"
+      ],
+      "sweaters": [
+       "jackets",
+       "coats",
+       "shirts"
+      ],
+      "hats": [
+       "caps",
+       "scarves",
+       "ties"
+      ],
+      "ties": [
+       "belts",
+       "scarves",
+       "hats"
+      ],
+      "suits": [
+       "dresses",
+       "coats",
+       "uniforms"
+      ],
+      "shoes": [
+       "socks",
+       "boots",
+       "gloves"
+      ],
+      "socks": [
+       "shoes",
+       "gloves",
+       "boots"
+      ],
+      "boots": [
+       "shoes",
+       "socks",
+       "gloves"
+      ],
+      "gloves": [
+       "socks",
+       "shoes",
+       "boots"
+      ],
+      "pants": [
+       "jeans",
+       "shorts",
+       "pajamas"
+      ],
+      "jeans": [
+       "pants",
+       "shorts",
+       "socks"
+      ],
+      "shorts": [
+       "pants",
+       "jeans",
+       "socks"
+      ],
+      "trousers": [
+       "jeans",
+       "shorts",
+       "socks"
+      ],
+      "pajamas": [
+       "pants",
+       "shorts",
+       "jeans"
+      ],
+      "clothes": [
+       "shoes",
+       "socks",
+       "pants"
+      ],
+      "sneakers": [
+       "boots",
+       "socks",
+       "shoes"
+      ],
+      "sandals": [
+       "boots",
+       "socks",
+       "sneakers"
+      ],
+      "scarves": [
+       "hats",
+       "ties",
+       "gloves"
+      ],
+      "belts": [
+       "ties",
+       "scarves",
+       "hats"
+      ],
+      "caps": [
+       "hats",
+       "scarves",
+       "ties"
+      ],
+      "uniforms": [
+       "suits",
+       "dresses",
+       "coats"
+      ]
+     },
+     "exclude": "\\btie (?:the|it|him|her|them|up|your|my|his|a)\\b|\\bties? (?:with|between|to)\\b|\\bsuits? (?:you|him|her|me|them|us)\\b|\\bthe tie\\b|\\bsweater vest|\\bin (?:his|her|my|your) shoes\\b|\\bdress (?:up|code)\\b|\\bboots? (?:up|camp)\\b|\\bpolice|\\bhat trick\\b|\\bglove (?:compartment|box)\\b|\\bcap(?:s)? (?:on|at)\\b|\\b(?:tied|tie)\\b(?! (?:is|was|looks))"
+    },
+    {
+     "id": "animais",
+     "name": "Animais",
+     "desc": "Animais: dog, cat, horse, bird, fish, cow, mouse... Plurais irregulares: mouse → mice, wolf → wolves; sheep, fish e deer não mudam.",
+     "pattern": "\\b(?P<w>butterflies|butterfly|elephants|chickens|dolphins|elephant|giraffes|chicken|dolphin|giraffe|insects|kittens|monkeys|parrots|puppies|rabbits|spiders|turtles|camels|horses|insect|kitten|monkey|parrot|rabbit|sharks|snakes|spider|tigers|turtle|whales|wolves|bears|birds|camel|ducks|foxes|frogs|goats|horse|lions|mouse|puppy|shark|sheep|snake|tiger|whale|ants|bear|bees|bird|cats|cows|deer|dogs|duck|fish|frog|goat|lion|mice|owls|pigs|rats|wolf|ant|bee|cat|cow|dog|fox|owl|pig|rat)\\b(?!-)(?!')",
+     "options": {
+      "dog": [
+       "rabbit",
+       "fish",
+       "ant"
+      ],
+      "dogs": [
+       "rabbits",
+       "ants",
+       "elephants"
+      ],
+      "cat": [
+       "fish",
+       "dog",
+       "elephant"
+      ],
+      "cats": [
+       "dogs",
+       "elephants",
+       "owls"
+      ],
+      "horse": [
+       "elephant",
+       "wolf",
+       "sheep"
+      ],
+      "horses": [
+       "elephants",
+       "wolves",
+       "lions"
+      ],
+      "cow": [
+       "ant",
+       "duck",
+       "parrot"
+      ],
+      "cows": [
+       "ants",
+       "ducks",
+       "parrots"
+      ],
+      "pig": [
+       "kitten",
+       "butterfly",
+       "elephant"
+      ],
+      "pigs": [
+       "kittens",
+       "butterflies",
+       "elephants"
+      ],
+      "bird": [
+       "dolphin",
+       "goat",
+       "rat"
+      ],
+      "birds": [
+       "dolphins",
+       "goats",
+       "rats"
+      ],
+      "rabbit": [
+       "fish",
+       "bee",
+       "owl"
+      ],
+      "rabbits": [
+       "bees",
+       "owls",
+       "rats"
+      ],
+      "lion": [
+       "insect",
+       "dolphin",
+       "elephant"
+      ],
+      "lions": [
+       "insects",
+       "dolphins",
+       "elephants"
+      ],
+      "tiger": [
+       "duck",
+       "dolphin",
+       "snake"
+      ],
+      "tigers": [
+       "ducks",
+       "dolphins",
+       "snakes"
+      ],
+      "elephant": [
+       "dolphin",
+       "chicken",
+       "rat"
+      ],
+      "elephants": [
+       "dolphins",
+       "chickens",
+       "rats"
+      ],
+      "monkey": [
+       "dolphin",
+       "kitten",
+       "elephant"
+      ],
+      "monkeys": [
+       "dolphins",
+       "kittens",
+       "elephants"
+      ],
+      "snake": [
+       "mouse",
+       "kitten",
+       "pig"
+      ],
+      "snakes": [
+       "mice",
+       "kittens",
+       "pigs"
+      ],
+      "duck": [
+       "deer",
+       "cow",
+       "parrot"
+      ],
+      "ducks": [
+       "cows",
+       "parrots",
+       "whales"
+      ],
+      "wolf": [
+       "rat",
+       "snake",
+       "bee"
+      ],
+      "wolves": [
+       "rats",
+       "snakes",
+       "bees"
+      ],
+      "fox": [
+       "kitten",
+       "shark",
+       "rat"
+      ],
+      "foxes": [
+       "kittens",
+       "sharks",
+       "rats"
+      ],
+      "bee": [
+       "camel",
+       "wolf",
+       "spider"
+      ],
+      "bees": [
+       "camels",
+       "wolves",
+       "spiders"
+      ],
+      "spider": [
+       "cat",
+       "cow",
+       "insect"
+      ],
+      "spiders": [
+       "cats",
+       "cows",
+       "insects"
+      ],
+      "frog": [
+       "rat",
+       "cow",
+       "giraffe"
+      ],
+      "frogs": [
+       "rats",
+       "cows",
+       "giraffes"
+      ],
+      "mouse": [
+       "fish",
+       "sheep",
+       "parrot"
+      ],
+      "mice": [
+       "parrots",
+       "turtles",
+       "birds"
+      ],
+      "rat": [
+       "fish",
+       "deer",
+       "dolphin"
+      ],
+      "rats": [
+       "dolphins",
+       "monkeys",
+       "bees"
+      ],
+      "shark": [
+       "frog",
+       "mouse",
+       "kitten"
+      ],
+      "sharks": [
+       "frogs",
+       "mice",
+       "kittens"
+      ],
+      "whale": [
+       "spider",
+       "bird",
+       "mouse"
+      ],
+      "whales": [
+       "spiders",
+       "birds",
+       "mice"
+      ],
+      "dolphin": [
+       "snake",
+       "goat",
+       "puppy"
+      ],
+      "dolphins": [
+       "snakes",
+       "goats",
+       "puppies"
+      ],
+      "chicken": [
+       "butterfly",
+       "puppy",
+       "ant"
+      ],
+      "chickens": [
+       "butterflies",
+       "puppies",
+       "ants"
+      ],
+      "bear": [
+       "wolf",
+       "insect",
+       "sheep"
+      ],
+      "bears": [
+       "wolves",
+       "insects",
+       "elephants"
+      ],
+      "goat": [
+       "mouse",
+       "bird",
+       "deer"
+      ],
+      "goats": [
+       "mice",
+       "birds",
+       "camels"
+      ],
+      "turtle": [
+       "frog",
+       "wolf",
+       "snake"
+      ],
+      "turtles": [
+       "frogs",
+       "wolves",
+       "snakes"
+      ],
+      "insect": [
+       "tiger",
+       "owl",
+       "frog"
+      ],
+      "insects": [
+       "tigers",
+       "owls",
+       "frogs"
+      ],
+      "owl": [
+       "tiger",
+       "rat",
+       "bear"
+      ],
+      "owls": [
+       "tigers",
+       "rats",
+       "bears"
+      ],
+      "ant": [
+       "spider",
+       "horse",
+       "mouse"
+      ],
+      "ants": [
+       "spiders",
+       "horses",
+       "mice"
+      ],
+      "butterfly": [
+       "dog",
+       "spider",
+       "goat"
+      ],
+      "butterflies": [
+       "dogs",
+       "spiders",
+       "goats"
+      ],
+      "camel": [
+       "goat",
+       "parrot",
+       "turtle"
+      ],
+      "camels": [
+       "goats",
+       "parrots",
+       "turtles"
+      ],
+      "giraffe": [
+       "bee",
+       "duck",
+       "fox"
+      ],
+      "giraffes": [
+       "bees",
+       "ducks",
+       "foxes"
+      ],
+      "puppy": [
+       "pig",
+       "spider",
+       "tiger"
+      ],
+      "puppies": [
+       "pigs",
+       "spiders",
+       "tigers"
+      ],
+      "kitten": [
+       "frog",
+       "insect",
+       "dog"
+      ],
+      "kittens": [
+       "frogs",
+       "insects",
+       "dogs"
+      ],
+      "parrot": [
+       "horse",
+       "goat",
+       "shark"
+      ],
+      "parrots": [
+       "horses",
+       "goats",
+       "sharks"
+      ],
+      "deer": [
+       "elephant",
+       "cow",
+       "insect"
+      ],
+      "sheep": [
+       "frog",
+       "whale",
+       "ant"
+      ],
+      "fish": [
+       "kitten",
+       "shark",
+       "cow"
+      ]
+     },
+     "exclude": "\\b(?:bear(?:s)? (?:with|in mind|the|it|this|that|a|any|no|fruit|witness|responsibility)|can't bear|cannot bear|couldn't bear|to bear|duck(?:s|ed)? (?:down|out|under|behind)|to duck|chicken (?:out|soup|salad|sandwich|breast|wings?|curry|nuggets)|fish(?:es|ing)? (?:for|out)|to fish|go fish|rat on|hot dogs?|dog-eared|top dog|guinea pig|Fox News|cat's out|(?:fried|roast|grilled|eat|eats|ate|cook|cooked|some|the) chicken|(?:fried|grilled|raw|eat|eats|ate|cook|cooked|some) fish|fish (?:and chips|soup|market|sauce|tank)|mouse (?:pad|button|click)|computer mouse|teddy bear|birds of a feather|(?:you|I|we|they) fish|(?:she's|she is) a fox)\\b|(?-i:\\b(?:Fox|Bear|Wolf|Lion|Bird|Fish|Duck|Cat)\\b(?<!^Fox)(?<!^Bear)(?<!^Wolf)(?<!^Lion)(?<!^Bird)(?<!^Fish)(?<!^Duck)(?<!^Cat))"
+    },
+    {
+     "id": "comida",
+     "name": "Comidas e bebidas",
+     "desc": "Comidas, bebidas e refeições: bread, rice, meat, milk, coffee, water, breakfast, lunch, dinner...",
+     "pattern": "\\b(?P<w>strawberries|sandwiches|strawberry|vegetables|breakfast|chocolate|potatoes|sandwich|tomatoes|bananas|carrots|cookies|oranges|apples|banana|butter|carrot|cheese|coffee|cookie|dinner|grapes|lemons|onions|orange|pepper|potato|tomato|apple|beans|bread|fruit|grape|honey|juice|lemon|lunch|onion|pasta|pizza|salad|sugar|water|bean|beer|cake|eggs|meat|milk|rice|salt|soup|wine|egg|tea)\\b(?!-)(?!')",
+     "options": {
+      "bread": [
+       "rice",
+       "meat",
+       "cheese"
+      ],
+      "rice": [
+       "meat",
+       "cheese",
+       "pasta"
+      ],
+      "meat": [
+       "cheese",
+       "pasta",
+       "soup"
+      ],
+      "cheese": [
+       "pasta",
+       "soup",
+       "salad"
+      ],
+      "pasta": [
+       "soup",
+       "salad",
+       "pizza"
+      ],
+      "soup": [
+       "salad",
+       "pizza",
+       "cake"
+      ],
+      "salad": [
+       "pizza",
+       "cake",
+       "chocolate"
+      ],
+      "pizza": [
+       "cake",
+       "chocolate",
+       "honey"
+      ],
+      "cake": [
+       "chocolate",
+       "honey",
+       "butter"
+      ],
+      "chocolate": [
+       "honey",
+       "butter",
+       "sugar"
+      ],
+      "honey": [
+       "butter",
+       "sugar",
+       "salt"
+      ],
+      "butter": [
+       "sugar",
+       "salt",
+       "pepper"
+      ],
+      "sugar": [
+       "salt",
+       "pepper",
+       "fruit"
+      ],
+      "salt": [
+       "pepper",
+       "fruit",
+       "bread"
+      ],
+      "pepper": [
+       "fruit",
+       "bread",
+       "rice"
+      ],
+      "fruit": [
+       "bread",
+       "rice",
+       "meat"
+      ],
+      "milk": [
+       "coffee",
+       "tea",
+       "juice"
+      ],
+      "coffee": [
+       "tea",
+       "juice",
+       "beer"
+      ],
+      "tea": [
+       "juice",
+       "beer",
+       "wine"
+      ],
+      "juice": [
+       "beer",
+       "wine",
+       "water"
+      ],
+      "beer": [
+       "wine",
+       "water",
+       "milk"
+      ],
+      "wine": [
+       "water",
+       "milk",
+       "coffee"
+      ],
+      "water": [
+       "milk",
+       "coffee",
+       "tea"
+      ],
+      "breakfast": [
+       "lunch",
+       "dinner"
+      ],
+      "lunch": [
+       "dinner",
+       "breakfast"
+      ],
+      "dinner": [
+       "breakfast",
+       "lunch"
+      ],
+      "egg": [
+       "apple",
+       "banana",
+       "orange"
+      ],
+      "apple": [
+       "banana",
+       "orange",
+       "potato"
+      ],
+      "banana": [
+       "orange",
+       "potato",
+       "tomato"
+      ],
+      "orange": [
+       "potato",
+       "tomato",
+       "sandwich"
+      ],
+      "potato": [
+       "tomato",
+       "sandwich",
+       "cookie"
+      ],
+      "tomato": [
+       "sandwich",
+       "cookie",
+       "carrot"
+      ],
+      "sandwich": [
+       "cookie",
+       "carrot",
+       "onion"
+      ],
+      "cookie": [
+       "carrot",
+       "onion",
+       "strawberry"
+      ],
+      "carrot": [
+       "onion",
+       "strawberry",
+       "grape"
+      ],
+      "onion": [
+       "strawberry",
+       "grape",
+       "lemon"
+      ],
+      "strawberry": [
+       "grape",
+       "lemon",
+       "bean"
+      ],
+      "grape": [
+       "lemon",
+       "bean",
+       "egg"
+      ],
+      "lemon": [
+       "bean",
+       "egg",
+       "apple"
+      ],
+      "bean": [
+       "egg",
+       "apple",
+       "banana"
+      ],
+      "eggs": [
+       "apples",
+       "bananas",
+       "oranges"
+      ],
+      "apples": [
+       "bananas",
+       "oranges",
+       "potatoes"
+      ],
+      "bananas": [
+       "oranges",
+       "potatoes",
+       "tomatoes"
+      ],
+      "oranges": [
+       "potatoes",
+       "tomatoes",
+       "sandwiches"
+      ],
+      "potatoes": [
+       "tomatoes",
+       "sandwiches",
+       "cookies"
+      ],
+      "tomatoes": [
+       "sandwiches",
+       "cookies",
+       "carrots"
+      ],
+      "sandwiches": [
+       "cookies",
+       "carrots",
+       "onions"
+      ],
+      "cookies": [
+       "carrots",
+       "onions",
+       "strawberries"
+      ],
+      "carrots": [
+       "onions",
+       "strawberries",
+       "grapes"
+      ],
+      "onions": [
+       "strawberries",
+       "grapes",
+       "lemons"
+      ],
+      "strawberries": [
+       "grapes",
+       "lemons",
+       "beans"
+      ],
+      "grapes": [
+       "lemons",
+       "beans",
+       "vegetables"
+      ],
+      "lemons": [
+       "beans",
+       "vegetables",
+       "eggs"
+      ],
+      "beans": [
+       "vegetables",
+       "eggs",
+       "apples"
+      ],
+      "vegetables": [
+       "eggs",
+       "apples",
+       "bananas"
+      ]
+     },
+     "exclude": "\\bwater(?:s|ed|ing)? (?:the|my|your|his|her|our|their|these|those|it|them|plants?|flowers?)\\b|\\b(?:to|will|please|i'll|don't|forgot to) water\\b|\\bbread(?:ed)? crumbs?\\b|\\bpiece of cake\\b|\\bcake(?:d)? (?:with|in)\\b|\\bsalt (?:water|shaker)\\b|\\bthe apple of\\b|(?-i:\\bApple\\b)|\\bbeans? (?:about|out)\\b|\\bfull of beans\\b|\\bspill the beans\\b|\\bcoffee (?:shop|table|cup|maker|machine|break|pot|beans|house)\\b|\\btea(?:cup|pot| party| set| bag)\\b|\\b(?:lunch|dinner|breakfast) (?:break|time|table|party|hour|box|menu|plate|bill)\\b|\\bpepper spray\\b|\\bwater (?:polo|bottle|pipe|pressure|supply|level|heater|ski)\\b|\\bwine (?:glass|bottle|cellar|list)\\b|\\bbeer (?:can|bottle|glass|belly)\\b|\\bfruit(?:ful|less)\\b|\\bhoney(?:moon)?\\b(?=,|\\?|!)|\\bmy honey\\b|\\b(?:orange|lemon) (?:juice|tree|peel)\\b|\\bsugar(?:ed|-coat)"
+    },
+    {
+     "id": "perguntas",
+     "name": "Palavras interrogativas",
+     "desc": "Para fazer perguntas: who (quem), what (o que/qual), where (onde), when (quando), why (por que), how (como), which (qual), whose (de quem). Ex.: \"Where do you live?\"",
+     "pattern": "(?:^|(?<=[.!?\\\"] )|(?<=^\\\")|(?<=\\\" \\\"))(?P<w>who|what|where|when|why|how|which|whose)\\b(?=[^.!?]*\\?)",
+     "options": {
+      "who": [
+       "what",
+       "where",
+       "why"
+      ],
+      "what": [
+       "who",
+       "where",
+       "how"
+      ],
+      "where": [
+       "when",
+       "what",
+       "how"
+      ],
+      "when": [
+       "where",
+       "why",
+       "what"
+      ],
+      "why": [
+       "how",
+       "when",
+       "where"
+      ],
+      "how": [
+       "why",
+       "what",
+       "where"
+      ],
+      "which": [
+       "who",
+       "where",
+       "when"
+      ],
+      "whose": [
+       "who",
+       "where",
+       "how"
+      ]
+     },
+     "exclude": "^(?:what|how) (?:a|an)\\b|^why not\\b|^how (?:about|come)\\b|^what (?:if|about)\\b|^(?:what|how)'s up\\b|^so what\\b|^what the\\b"
+    },
+    {
+     "id": "lugares",
+     "name": "Lugares da cidade",
+     "desc": "Lugares da cidade: school, hospital, bank, station, airport, library, park, restaurant... Ex.: \"Where is the station?\"",
+     "pattern": "\\b(?:the|a|an|my|your|his|her|our|their|this|that|nearest|local|new|old|big|small|Tom's)\\s+(?:(?:new|old|big|small|nearest|local|public|city|train|bus|police|high|grocery|book|coffee|shoe|toy|candy|pet|movie)\\s+)?(?P<w>supermarket|restaurant|university|hospital|pharmacy|airport|library|station|theater|bakery|church|cinema|museum|office|school|beach|hotel|store|bank|park|shop|zoo)\\b(?!-)(?!\\s+(?:of|account|clerk|teller|robber|robbery|manager|owner|bus|trip|uniform|year|teacher|teachers|lunch|bag|staff|board|work|days|building|library|policy|nurse|bill|bills|ticket|room|lobby|keeper|assistant|stand|window|worker|workers|window|desk|chair|supplies|holiday|holidays|party|employee|employees|director|guide|grounds|bench|ranger|door|life|records?|parking|entrance|student|students))",
+     "options": {
+      "school": [
+       "hospital",
+       "church",
+       "bank"
+      ],
+      "hospital": [
+       "school",
+       "station",
+       "library"
+      ],
+      "church": [
+       "school",
+       "museum",
+       "bank"
+      ],
+      "bank": [
+       "library",
+       "church",
+       "station"
+      ],
+      "library": [
+       "museum",
+       "bank",
+       "hospital"
+      ],
+      "museum": [
+       "library",
+       "church",
+       "park"
+      ],
+      "park": [
+       "beach",
+       "museum",
+       "station"
+      ],
+      "station": [
+       "airport",
+       "hospital",
+       "park"
+      ],
+      "airport": [
+       "station",
+       "hotel",
+       "beach"
+      ],
+      "hotel": [
+       "restaurant",
+       "airport",
+       "hospital"
+      ],
+      "restaurant": [
+       "hotel",
+       "supermarket",
+       "bakery"
+      ],
+      "supermarket": [
+       "restaurant",
+       "bakery",
+       "pharmacy"
+      ],
+      "bakery": [
+       "supermarket",
+       "pharmacy",
+       "restaurant"
+      ],
+      "pharmacy": [
+       "bakery",
+       "supermarket",
+       "hospital"
+      ],
+      "beach": [
+       "park",
+       "museum",
+       "airport"
+      ],
+      "office": [
+       "school",
+       "bank",
+       "hotel"
+      ],
+      "store": [
+       "bank",
+       "hotel",
+       "office"
+      ],
+      "shop": [
+       "bank",
+       "hotel",
+       "office"
+      ],
+      "zoo": [
+       "park",
+       "museum",
+       "beach"
+      ],
+      "cinema": [
+       "theater",
+       "museum",
+       "library"
+      ],
+      "theater": [
+       "cinema",
+       "museum",
+       "church"
+      ],
+      "university": [
+       "school",
+       "library",
+       "hospital"
+      ]
+     },
+     "exclude": "\\bbank of (?:the|a) river\\b|\\briver ?bank\\b|\\b(?:bus|gas|radio|TV|television|space|police|train|fire) station\\b|\\bschool of (?:fish|thought)\\b|\\b(?:in|at) office\\b|\\bstore (?:it|them|the|this|that|food|data)\\b|\\bshop(?:s|ped|ping)? (?:for|at|around|online)\\b|\\bto (?:shop|store|park|bank)\\b|\\bpark(?:s|ed|ing)? (?:the|my|your|his|her|it|here|there|in|on|car)\\b"
+    },
+    {
+     "id": "profissoes",
+     "name": "Profissões",
+     "desc": "Profissões: doctor, teacher, nurse, lawyer, engineer, student... Em inglês usa-se \"a/an\" antes da profissão: \"She is a doctor.\"",
+     "pattern": "\\b(?:a|an|the|my|your|his|her|our|their|good|great|famous|young|new|best|Tom's|Mary's|French|English|school|music|math|science|history|taxi|bus|truck|race|professional|police|security|art)\\s+(?:(?:good|great|famous|young|new|best|French|English|school|music|math|science|history|taxi|bus|truck|professional|police|security|head|art|piano)\\s+)?(?P<w>photographers|veterinarians|electricians|firefighters|hairdressers|photographer|veterinarian|accountants|electrician|firefighter|hairdresser|journalists|programmers|secretaries|translators|accountant|architects|carpenters|detectives|journalist|programmer|scientists|translator|waitresses|actresses|architect|carpenter|detective|engineers|mechanics|musicians|policeman|policemen|reporters|scientist|secretary|cashiers|dentists|engineer|mechanic|musician|painters|plumbers|reporter|salesman|salesmen|soldiers|students|teachers|waitress|actress|artists|cashier|dentist|doctors|drivers|farmers|lawyers|mailman|mailmen|painter|plumber|singers|soldier|student|teacher|waiters|writers|actors|artist|bakers|doctor|driver|farmer|guards|lawyer|nurses|pilots|singer|waiter|writer|actor|baker|chefs|cooks|guard|nurse|pilot|chef|cook|vets|vet)\\b(?!-)(?!')(?!\\s+(?:license|seat|'s))",
+     "options": {
+      "doctor": [
+       "pilot",
+       "programmer",
+       "hairdresser"
+      ],
+      "doctors": [
+       "pilots",
+       "programmers",
+       "hairdressers"
+      ],
+      "teacher": [
+       "farmer",
+       "pilot",
+       "mailman"
+      ],
+      "teachers": [
+       "farmers",
+       "pilots",
+       "mailmen"
+      ],
+      "nurse": [
+       "teacher",
+       "soldier",
+       "carpenter"
+      ],
+      "nurses": [
+       "teachers",
+       "soldiers",
+       "carpenters"
+      ],
+      "lawyer": [
+       "dentist",
+       "painter",
+       "soldier"
+      ],
+      "lawyers": [
+       "dentists",
+       "painters",
+       "soldiers"
+      ],
+      "engineer": [
+       "secretary",
+       "painter",
+       "waiter"
+      ],
+      "engineers": [
+       "secretaries",
+       "painters",
+       "waiters"
+      ],
+      "student": [
+       "architect",
+       "driver",
+       "actress"
+      ],
+      "students": [
+       "architects",
+       "drivers",
+       "actresses"
+      ],
+      "cook": [
+       "engineer",
+       "cashier",
+       "scientist"
+      ],
+      "cooks": [
+       "engineers",
+       "cashiers",
+       "scientists"
+      ],
+      "waiter": [
+       "policeman",
+       "programmer",
+       "reporter"
+      ],
+      "waiters": [
+       "policemen",
+       "programmers",
+       "reporters"
+      ],
+      "waitress": [
+       "artist",
+       "mechanic",
+       "driver"
+      ],
+      "waitresses": [
+       "artists",
+       "mechanics",
+       "drivers"
+      ],
+      "farmer": [
+       "cook",
+       "doctor",
+       "salesman"
+      ],
+      "farmers": [
+       "cooks",
+       "doctors",
+       "salesmen"
+      ],
+      "driver": [
+       "journalist",
+       "farmer",
+       "singer"
+      ],
+      "drivers": [
+       "journalists",
+       "farmers",
+       "singers"
+      ],
+      "pilot": [
+       "translator",
+       "plumber",
+       "carpenter"
+      ],
+      "pilots": [
+       "translators",
+       "plumbers",
+       "carpenters"
+      ],
+      "singer": [
+       "engineer",
+       "electrician",
+       "photographer"
+      ],
+      "singers": [
+       "engineers",
+       "electricians",
+       "photographers"
+      ],
+      "actor": [
+       "teacher",
+       "vet",
+       "chef"
+      ],
+      "actors": [
+       "teachers",
+       "vets",
+       "chefs"
+      ],
+      "actress": [
+       "dentist",
+       "photographer",
+       "cashier"
+      ],
+      "actresses": [
+       "dentists",
+       "photographers",
+       "cashiers"
+      ],
+      "writer": [
+       "accountant",
+       "mailman",
+       "farmer"
+      ],
+      "writers": [
+       "accountants",
+       "mailmen",
+       "farmers"
+      ],
+      "policeman": [
+       "vet",
+       "singer",
+       "pilot"
+      ],
+      "policemen": [
+       "vets",
+       "singers",
+       "pilots"
+      ],
+      "dentist": [
+       "teacher",
+       "engineer",
+       "student"
+      ],
+      "dentists": [
+       "teachers",
+       "engineers",
+       "students"
+      ],
+      "scientist": [
+       "mechanic",
+       "waiter",
+       "teacher"
+      ],
+      "scientists": [
+       "mechanics",
+       "waiters",
+       "teachers"
+      ],
+      "artist": [
+       "detective",
+       "nurse",
+       "dentist"
+      ],
+      "artists": [
+       "detectives",
+       "nurses",
+       "dentists"
+      ],
+      "journalist": [
+       "veterinarian",
+       "lawyer",
+       "reporter"
+      ],
+      "journalists": [
+       "veterinarians",
+       "lawyers",
+       "reporters"
+      ],
+      "secretary": [
+       "journalist",
+       "photographer",
+       "hairdresser"
+      ],
+      "secretaries": [
+       "journalists",
+       "photographers",
+       "hairdressers"
+      ],
+      "carpenter": [
+       "chef",
+       "programmer",
+       "musician"
+      ],
+      "carpenters": [
+       "chefs",
+       "programmers",
+       "musicians"
+      ],
+      "musician": [
+       "programmer",
+       "artist",
+       "reporter"
+      ],
+      "musicians": [
+       "programmers",
+       "artists",
+       "reporters"
+      ],
+      "programmer": [
+       "accountant",
+       "soldier",
+       "waiter"
+      ],
+      "programmers": [
+       "accountants",
+       "soldiers",
+       "waiters"
+      ],
+      "mechanic": [
+       "baker",
+       "translator",
+       "detective"
+      ],
+      "mechanics": [
+       "bakers",
+       "translators",
+       "detectives"
+      ],
+      "soldier": [
+       "architect",
+       "artist",
+       "carpenter"
+      ],
+      "soldiers": [
+       "architects",
+       "artists",
+       "carpenters"
+      ],
+      "baker": [
+       "vet",
+       "mechanic",
+       "salesman"
+      ],
+      "bakers": [
+       "vets",
+       "mechanics",
+       "salesmen"
+      ],
+      "painter": [
+       "lawyer",
+       "dentist",
+       "teacher"
+      ],
+      "painters": [
+       "lawyers",
+       "dentists",
+       "teachers"
+      ],
+      "chef": [
+       "teacher",
+       "waiter",
+       "secretary"
+      ],
+      "chefs": [
+       "teachers",
+       "waiters",
+       "secretaries"
+      ],
+      "firefighter": [
+       "carpenter",
+       "soldier",
+       "pilot"
+      ],
+      "firefighters": [
+       "carpenters",
+       "soldiers",
+       "pilots"
+      ],
+      "photographer": [
+       "actor",
+       "vet",
+       "waiter"
+      ],
+      "photographers": [
+       "actors",
+       "vets",
+       "waiters"
+      ],
+      "architect": [
+       "mailman",
+       "teacher",
+       "cook"
+      ],
+      "architects": [
+       "mailmen",
+       "teachers",
+       "cooks"
+      ],
+      "reporter": [
+       "electrician",
+       "artist",
+       "actor"
+      ],
+      "reporters": [
+       "electricians",
+       "artists",
+       "actors"
+      ],
+      "detective": [
+       "actress",
+       "guard",
+       "programmer"
+      ],
+      "detectives": [
+       "actresses",
+       "guards",
+       "programmers"
+      ],
+      "guard": [
+       "student",
+       "pilot",
+       "mailman"
+      ],
+      "guards": [
+       "students",
+       "pilots",
+       "mailmen"
+      ],
+      "translator": [
+       "cashier",
+       "plumber",
+       "doctor"
+      ],
+      "translators": [
+       "cashiers",
+       "plumbers",
+       "doctors"
+      ],
+      "mailman": [
+       "photographer",
+       "guard",
+       "carpenter"
+      ],
+      "mailmen": [
+       "photographers",
+       "guards",
+       "carpenters"
+      ],
+      "plumber": [
+       "musician",
+       "teacher",
+       "programmer"
+      ],
+      "plumbers": [
+       "musicians",
+       "teachers",
+       "programmers"
+      ],
+      "cashier": [
+       "detective",
+       "lawyer",
+       "salesman"
+      ],
+      "cashiers": [
+       "detectives",
+       "lawyers",
+       "salesmen"
+      ],
+      "accountant": [
+       "reporter",
+       "carpenter",
+       "actor"
+      ],
+      "accountants": [
+       "reporters",
+       "carpenters",
+       "actors"
+      ],
+      "vet": [
+       "teacher",
+       "engineer",
+       "carpenter"
+      ],
+      "vets": [
+       "teachers",
+       "engineers",
+       "carpenters"
+      ],
+      "veterinarian": [
+       "reporter",
+       "doctor",
+       "guard"
+      ],
+      "veterinarians": [
+       "reporters",
+       "doctors",
+       "guards"
+      ],
+      "electrician": [
+       "farmer",
+       "waiter",
+       "mailman"
+      ],
+      "electricians": [
+       "farmers",
+       "waiters",
+       "mailmen"
+      ],
+      "hairdresser": [
+       "nurse",
+       "cook",
+       "architect"
+      ],
+      "hairdressers": [
+       "nurses",
+       "cooks",
+       "architects"
+      ],
+      "salesman": [
+       "photographer",
+       "teacher",
+       "actor"
+      ],
+      "salesmen": [
+       "photographers",
+       "teachers",
+       "actors"
+      ]
+     },
+     "exclude": "\\bscrew ?driver|\\bdriver's\\b|\\bguard (?:dog|rail)|\\b(?:on|off) guard\\b|\\bguard (?:the|it|him|her|them|your|my|against)\\b|\\bcook (?:the|it|them|for|dinner|lunch|breakfast|something|rice|meat|this|that|me|us|a)\\b|\\bcooks? (?:well|very|dinner|for)\\b|\\bnurse (?:him|her|them|a|the)\\b|\\bstudents? (?:loan|visa|council|discount|union|driver)s?\\b|\\bdoctor (?:the|it)\\b|\\bpilot (?:program|project|light)s?\\b"
+    },
+    {
+     "id": "adjetivos",
+     "name": "Adjetivos opostos",
+     "desc": "Adjetivos e seus opostos: big ↔ small, hot ↔ cold, old ↔ new/young, cheap ↔ expensive, easy ↔ difficult...",
+     "pattern": "\\b(?:is|are|was|were|be|been|am|'s|'re|'m|very|too|so|really|quite|pretty|looks?|looked|seems?|seemed|feels?|felt|got|gets|getting|become|became|a|an|the|this|that|these|those|my|your|his|her|our|their|isn't|aren't|wasn't|weren't|not|such a|such an)\\s+(?P<w>complicated|beautiful|dangerous|difficult|expensive|healthy|thirsty|hungry|little|pretty|simple|strong|cheap|clean|dirty|early|empty|false|happy|heavy|large|noisy|quick|quiet|right|short|small|thick|tired|wrong|young|busy|cold|easy|fast|full|good|late|long|poor|rich|safe|sick|slow|tall|thin|true|ugly|warm|weak|bad|big|dry|fat|hot|new|old|sad|wet)\\b(?!-)(?!\\s+(?:of|to|on|at|about|with|for|now|away|after|enough|than|as|here|there|ago|time|morning|afternoon|evening|night|luck|bye|deal|lot)\\b)",
+     "options": {
+      "big": [
+       "small",
+       "long",
+       "old"
+      ],
+      "small": [
+       "big",
+       "tall",
+       "new"
+      ],
+      "large": [
+       "small",
+       "short",
+       "cheap"
+      ],
+      "little": [
+       "big",
+       "long",
+       "old"
+      ],
+      "hot": [
+       "cold",
+       "wet",
+       "dry"
+      ],
+      "cold": [
+       "hot",
+       "warm",
+       "dry"
+      ],
+      "warm": [
+       "cold",
+       "cool",
+       "wet"
+      ],
+      "new": [
+       "old",
+       "young",
+       "cheap"
+      ],
+      "old": [
+       "new",
+       "young",
+       "rich"
+      ],
+      "young": [
+       "old",
+       "new",
+       "tall"
+      ],
+      "good": [
+       "bad",
+       "sad",
+       "poor"
+      ],
+      "bad": [
+       "good",
+       "happy",
+       "rich"
+      ],
+      "tall": [
+       "short",
+       "small",
+       "young"
+      ],
+      "short": [
+       "tall",
+       "long",
+       "big"
+      ],
+      "long": [
+       "short",
+       "small",
+       "new"
+      ],
+      "fast": [
+       "slow",
+       "late",
+       "early"
+      ],
+      "slow": [
+       "fast",
+       "quick",
+       "early"
+      ],
+      "quick": [
+       "slow",
+       "late",
+       "long"
+      ],
+      "happy": [
+       "sad",
+       "angry",
+       "tired"
+      ],
+      "sad": [
+       "happy",
+       "glad",
+       "angry"
+      ],
+      "easy": [
+       "difficult",
+       "hard",
+       "expensive"
+      ],
+      "difficult": [
+       "easy",
+       "cheap",
+       "simple"
+      ],
+      "simple": [
+       "difficult",
+       "complicated",
+       "expensive"
+      ],
+      "complicated": [
+       "simple",
+       "easy",
+       "cheap"
+      ],
+      "cheap": [
+       "expensive",
+       "rich",
+       "difficult"
+      ],
+      "expensive": [
+       "cheap",
+       "easy",
+       "poor"
+      ],
+      "rich": [
+       "poor",
+       "cheap",
+       "sad"
+      ],
+      "poor": [
+       "rich",
+       "expensive",
+       "happy"
+      ],
+      "full": [
+       "empty",
+       "open",
+       "closed"
+      ],
+      "empty": [
+       "full",
+       "closed",
+       "open"
+      ],
+      "clean": [
+       "dirty",
+       "wet",
+       "empty"
+      ],
+      "dirty": [
+       "clean",
+       "dry",
+       "full"
+      ],
+      "heavy": [
+       "light",
+       "small",
+       "empty"
+      ],
+      "strong": [
+       "weak",
+       "light",
+       "slow"
+      ],
+      "weak": [
+       "strong",
+       "heavy",
+       "fast"
+      ],
+      "beautiful": [
+       "ugly",
+       "strong",
+       "heavy"
+      ],
+      "ugly": [
+       "beautiful",
+       "pretty",
+       "clean"
+      ],
+      "pretty": [
+       "ugly",
+       "dirty",
+       "old"
+      ],
+      "safe": [
+       "dangerous",
+       "empty",
+       "weak"
+      ],
+      "dangerous": [
+       "safe",
+       "easy",
+       "clean"
+      ],
+      "quiet": [
+       "noisy",
+       "loud",
+       "busy"
+      ],
+      "noisy": [
+       "quiet",
+       "empty",
+       "calm"
+      ],
+      "wet": [
+       "dry",
+       "hot",
+       "clean"
+      ],
+      "dry": [
+       "wet",
+       "cold",
+       "dirty"
+      ],
+      "thick": [
+       "thin",
+       "light",
+       "short"
+      ],
+      "thin": [
+       "thick",
+       "fat",
+       "tall"
+      ],
+      "fat": [
+       "thin",
+       "tall",
+       "short"
+      ],
+      "early": [
+       "late",
+       "slow",
+       "long"
+      ],
+      "late": [
+       "early",
+       "fast",
+       "short"
+      ],
+      "busy": [
+       "free",
+       "quiet",
+       "empty"
+      ],
+      "tired": [
+       "rested",
+       "happy",
+       "sad"
+      ],
+      "right": [
+       "wrong",
+       "easy",
+       "late"
+      ],
+      "wrong": [
+       "right",
+       "easy",
+       "early"
+      ],
+      "true": [
+       "false",
+       "wrong",
+       "easy"
+      ],
+      "false": [
+       "true",
+       "right",
+       "easy"
+      ],
+      "hungry": [
+       "full",
+       "thirsty",
+       "tired"
+      ],
+      "thirsty": [
+       "hungry",
+       "tired",
+       "sick"
+      ],
+      "sick": [
+       "healthy",
+       "hungry",
+       "happy"
+      ],
+      "healthy": [
+       "sick",
+       "weak",
+       "tired"
+      ]
+     },
+     "exclude": "\\b(?:my|your|his|her|our|their|its) right\\b|\\bbe long\\s*[.!?]|\\bnew (?:York|Year|Zealand|Jersey|Orleans|Mexico|Delhi|Hampshire|England)\\b|\\b(?:all right|right now|right here|right there|right away|that's right|is that right|the right (?:to|thing|side|hand|way|answer|person|direction|moment)|on the right|to the right|turn right|pretty (?:much|well|soon|good|bad|big|old|cold|hot|sure|hard|easy|expensive|cheap|busy|quiet|tired|sick|happy|sad|close)|a little|the little|little by little|as (?:good|soon|long|well|fast|quick|early|late) as|for good|in short|short for|the old days|the poor|the rich|the young|the old\\b(?! \\w)|the late \\w+|a long (?:time|way)|too bad|so long|the long run|too late|it's late|true (?:story|love)|come true|light (?:up|on|off|the))\\b|\\bpretty\\s+(?!girl|woman|dress|face|flowers?|house|picture|garden|name|eyes|hat|smile)\\w+"
+    }
+   ]
+  },
+  {
+   "id": "gramatica",
+   "subs": [
+    {
+     "id": "artigos",
+     "name": "Artigos: a, an, the",
+     "desc": "\"a\" antes de som de consoante, \"an\" antes de som de vogal (an apple, an hour); \"the\" quando a coisa é específica. Profissões levam artigo: \"She is a nurse.\"",
+     "pattern": "\\b(?P<w>a|an|the)\\b(?!-)(?=\\s+[a-z])",
+     "options": [
+      "a",
+      "an",
+      "the"
+     ],
+     "exclude": "\\bthe New York\\b|\\b(?:a|an|the) (?:same|most|best|worst|first|last|only|next|other|rest|end|whole|truth|way|world|sun|moon|police|internet|news|weather|piano|guitar|violin)\\b|\\bthe \\w+est\\b|\\b(?:a|an) (?:lot|few|little|bit|couple|while|half|hundred|thousand|million|dozen|kind|sort|number)\\b|\\bonce a\\b|\\b(?:what|such|quite|half) an?\\b"
+    },
+    {
+     "id": "verbo_be",
+     "name": "Verbo to be",
+     "desc": "Presente: I am, he/she/it is, you/we/they are. Passado: I/he/she/it was, you/we/they were. Ex.: \"They are here.\" / \"She was tired.\"",
+     "pattern": "(?<!\\bthere )(?<!\\bThere )\\b(?P<w>am|is|are|was|were)\\b(?!\\s+there\\b)",
+     "options": {
+      "am": [
+       "is",
+       "are",
+       "was"
+      ],
+      "is": [
+       "are",
+       "am",
+       "was"
+      ],
+      "are": [
+       "is",
+       "am",
+       "were"
+      ],
+      "was": [
+       "were",
+       "is",
+       "am"
+      ],
+      "were": [
+       "was",
+       "are",
+       "is"
+      ]
+     },
+     "exclude": "\\b(?:if|wish|as if|as though|even if)\\s+(?:I|he|she|it|Tom|Mary)\\s+(?:\\w+\\s+)?were\\b|\\bwere (?:I|he|she|it|Tom) to\\b|\\b(?:a|the|any|no|some)\\s+\\w+\\s+(?:of|from)\\s+\\w+\\s+(?:is|are|was|were)\\b|\\b(?:neither|either|none|one) of\\b|\\b(?:what|who|where|which|how many|how much)\\s+(?:is|are|was|were)\\b|\\b(?:and|or|nor)\\s+\\w+\\s+(?:is|are|was|were)\\b|\\b(?:number|majority|lot|bunch|group|couple|pair|family|team|police|staff|class|people|news|data|series|crowd)\\s+(?:\\w+\\s+)?(?:is|are|was|were)\\b|\\bthere(?:'s| is| are| was| were)\\b"
+    },
+    {
+     "id": "there_is",
+     "name": "There is / there are",
+     "desc": "\"Há/tem\": there is + singular, there are + plural; no passado, there was / there were. Ex.: \"There are two cats.\" / \"There was a problem.\"",
+     "pattern": "(?:(?<=\\bthere )|(?<=^)(?=\\w+ there\\b)|(?<=[,;] )(?=\\w+ there\\b)|(?<=\\bwhy )(?=\\w+ there\\b)|(?<=\\bhow )(?=\\w+ there\\b)|(?<=\\bwhat )(?=\\w+ there\\b)|(?<=\\bwhere )(?=\\w+ there\\b)|(?<=\\bwhen )(?=\\w+ there\\b))(?P<w>is|are|was|were)\\b",
+     "options": {
+      "is": [
+       "are",
+       "was"
+      ],
+      "are": [
+       "is",
+       "were"
+      ],
+      "was": [
+       "were",
+       "is"
+      ],
+      "were": [
+       "was",
+       "are"
+      ]
+     },
+     "exclude": "\\b(?:is|are|was|were) there (?:yet|now|already|too|alone|before|again|anymore|for|with|at|in|on|when|because|tonight|today|yesterday|tomorrow|last|early|late)\\b|\\b(?:is|are|was|were) there[.!,]|\\b(?:is|are|was|were) there\\?$|\\b(?:who|that|which) (?:was|were|is|are) there\\b|\\bthere (?:is|are|was|were) none\\b"
+    },
+    {
+     "id": "presente_s",
+     "name": "Presente simples: -s",
+     "desc": "No presente simples, he/she/it leva -s no verbo: \"She works\", \"He goes\", \"Tom has\". Com I/you/we/they, sem -s: \"They work\". Na negativa e na pergunta o -s vai para o auxiliar: \"She doesn't work\".",
+     "pattern": "(?-i:^(?:(?:He|She|It|Tom|Mary|John|Everybody|Everyone|Nobody|Somebody|Someone|This|That|My (?:father|mother|brother|sister|wife|husband|son|daughter|friend|dog|cat|boss|uncle|aunt|teacher)|His (?:father|mother|brother|sister|wife|son|daughter|friend|dog)|Her (?:father|mother|brother|sister|husband|son|daughter|friend|dog)|Your (?:father|mother|brother|sister|wife|husband|son|daughter|friend|dog)|The (?:baby|boy|girl|man|woman|dog|cat|teacher|doctor|store|shop|train|bus|movie|class|meeting|party|museum|bank))|(?:You|We|They|Tom and Mary|My parents|Your parents|People|Most people|Many people|Some people|Children|Kids|Dogs|Cats|Birds)))\\s+(?:(?:really|always|never|often|usually|sometimes|also|still|just|only|rarely|seldom|hardly|almost|even|probably|certainly|actually|generally|normally|frequently|occasionally|definitely|already|totally|completely|absolutely|simply)\\s+)?(?P<w>understands|understand|remembers|believes|finishes|remember|arrives|believe|belongs|carries|catches|depends|happens|listens|matters|prefers|studies|teaches|travels|watches|worries|agrees|arrive|begins|belong|dances|depend|drinks|drives|enjoys|finish|happen|kisses|leaves|listen|matter|prefer|sleeps|smells|smokes|sounds|speaks|spends|starts|tastes|thinks|travel|visits|washes|writes|agree|begin|calls|carry|catch|comes|cooks|cries|dance|drink|drive|enjoy|feels|fixes|flies|gives|grows|hates|hears|helps|hopes|keeps|knows|leave|likes|lives|looks|loves|makes|means|needs|plans|plays|rains|reads|seems|sells|sings|sleep|smell|smoke|snows|sound|speak|spend|start|stays|study|swims|takes|talks|taste|teach|tells|think|tries|visit|waits|wakes|walks|wants|watch|wears|works|worry|write|buys|call|come|cook|does|eats|feel|gets|give|goes|grow|hate|have|hear|help|hope|keep|kiss|know|like|live|look|love|make|mean|need|owns|pays|plan|play|rain|read|runs|says|seem|sees|sell|sing|snow|stay|swim|take|talk|tell|uses|wait|wake|walk|want|wash|wear|work|buy|cry|eat|fix|fly|get|has|own|pay|run|say|see|try|use|do|go)\\b(?![-'])",
+     "options": {
+      "likes": [
+       "like",
+       "liked"
+      ],
+      "loves": [
+       "love",
+       "loved"
+      ],
+      "hates": [
+       "hate",
+       "hated"
+      ],
+      "wants": [
+       "want",
+       "wanted"
+      ],
+      "needs": [
+       "need",
+       "needed"
+      ],
+      "knows": [
+       "know",
+       "knew"
+      ],
+      "thinks": [
+       "think",
+       "thought"
+      ],
+      "lives": [
+       "live",
+       "lived"
+      ],
+      "works": [
+       "work",
+       "worked"
+      ],
+      "plays": [
+       "play",
+       "played"
+      ],
+      "speaks": [
+       "speak",
+       "spoke"
+      ],
+      "eats": [
+       "eat",
+       "ate"
+      ],
+      "drinks": [
+       "drink",
+       "drank"
+      ],
+      "reads": [
+       "read",
+       "reading"
+      ],
+      "writes": [
+       "write",
+       "wrote"
+      ],
+      "goes": [
+       "go",
+       "went"
+      ],
+      "does": [
+       "do",
+       "did"
+      ],
+      "has": [
+       "have",
+       "had"
+      ],
+      "watches": [
+       "watch",
+       "watched"
+      ],
+      "studies": [
+       "study",
+       "studied"
+      ],
+      "teaches": [
+       "teach",
+       "taught"
+      ],
+      "sleeps": [
+       "sleep",
+       "slept"
+      ],
+      "cooks": [
+       "cook",
+       "cooked"
+      ],
+      "drives": [
+       "drive",
+       "drove"
+      ],
+      "walks": [
+       "walk",
+       "walked"
+      ],
+      "runs": [
+       "run",
+       "ran"
+      ],
+      "swims": [
+       "swim",
+       "swam"
+      ],
+      "sings": [
+       "sing",
+       "sang"
+      ],
+      "dances": [
+       "dance",
+       "danced"
+      ],
+      "understands": [
+       "understand",
+       "understood"
+      ],
+      "remembers": [
+       "remember",
+       "remembered"
+      ],
+      "believes": [
+       "believe",
+       "believed"
+      ],
+      "feels": [
+       "feel",
+       "felt"
+      ],
+      "looks": [
+       "look",
+       "looked"
+      ],
+      "seems": [
+       "seem",
+       "seemed"
+      ],
+      "gets": [
+       "get",
+       "got"
+      ],
+      "makes": [
+       "make",
+       "made"
+      ],
+      "takes": [
+       "take",
+       "took"
+      ],
+      "comes": [
+       "come",
+       "came"
+      ],
+      "says": [
+       "say",
+       "said"
+      ],
+      "sees": [
+       "see",
+       "saw"
+      ],
+      "hears": [
+       "hear",
+       "heard"
+      ],
+      "tells": [
+       "tell",
+       "told"
+      ],
+      "gives": [
+       "give",
+       "gave"
+      ],
+      "buys": [
+       "buy",
+       "bought"
+      ],
+      "sells": [
+       "sell",
+       "sold"
+      ],
+      "pays": [
+       "pay",
+       "paid"
+      ],
+      "wears": [
+       "wear",
+       "wore"
+      ],
+      "smokes": [
+       "smoke",
+       "smoked"
+      ],
+      "agrees": [
+       "agree",
+       "agreed"
+      ],
+      "hopes": [
+       "hope",
+       "hoped"
+      ],
+      "means": [
+       "mean",
+       "meant"
+      ],
+      "owns": [
+       "own",
+       "owned"
+      ],
+      "prefers": [
+       "prefer",
+       "preferred"
+      ],
+      "enjoys": [
+       "enjoy",
+       "enjoyed"
+      ],
+      "tries": [
+       "try",
+       "tried"
+      ],
+      "cries": [
+       "cry",
+       "cried"
+      ],
+      "washes": [
+       "wash",
+       "washed"
+      ],
+      "finishes": [
+       "finish",
+       "finished"
+      ],
+      "wakes": [
+       "wake",
+       "woke"
+      ],
+      "starts": [
+       "start",
+       "started"
+      ],
+      "begins": [
+       "begin",
+       "began"
+      ],
+      "leaves": [
+       "leave",
+       "left"
+      ],
+      "arrives": [
+       "arrive",
+       "arrived"
+      ],
+      "stays": [
+       "stay",
+       "stayed"
+      ],
+      "waits": [
+       "wait",
+       "waited"
+      ],
+      "calls": [
+       "call",
+       "called"
+      ],
+      "helps": [
+       "help",
+       "helped"
+      ],
+      "keeps": [
+       "keep",
+       "kept"
+      ],
+      "spends": [
+       "spend",
+       "spent"
+      ],
+      "uses": [
+       "use",
+       "used"
+      ],
+      "visits": [
+       "visit",
+       "visited"
+      ],
+      "listens": [
+       "listen",
+       "listened"
+      ],
+      "talks": [
+       "talk",
+       "talked"
+      ],
+      "travels": [
+       "travel",
+       "traveled"
+      ],
+      "plans": [
+       "plan",
+       "planned"
+      ],
+      "sounds": [
+       "sound",
+       "sounded"
+      ],
+      "smells": [
+       "smell",
+       "smelled"
+      ],
+      "tastes": [
+       "taste",
+       "tasted"
+      ],
+      "belongs": [
+       "belong",
+       "belonged"
+      ],
+      "depends": [
+       "depend",
+       "depended"
+      ],
+      "happens": [
+       "happen",
+       "happened"
+      ],
+      "matters": [
+       "matter",
+       "mattered"
+      ],
+      "rains": [
+       "rain",
+       "rained"
+      ],
+      "snows": [
+       "snow",
+       "snowed"
+      ],
+      "grows": [
+       "grow",
+       "grew"
+      ],
+      "flies": [
+       "fly",
+       "flew"
+      ],
+      "carries": [
+       "carry",
+       "carried"
+      ],
+      "worries": [
+       "worry",
+       "worried"
+      ],
+      "fixes": [
+       "fix",
+       "fixed"
+      ],
+      "kisses": [
+       "kiss",
+       "kissed"
+      ],
+      "catches": [
+       "catch",
+       "caught"
+      ],
+      "like": [
+       "likes",
+       "liked"
+      ],
+      "love": [
+       "loves",
+       "loved"
+      ],
+      "hate": [
+       "hates",
+       "hated"
+      ],
+      "want": [
+       "wants",
+       "wanted"
+      ],
+      "need": [
+       "needs",
+       "needed"
+      ],
+      "know": [
+       "knows",
+       "knew"
+      ],
+      "think": [
+       "thinks",
+       "thought"
+      ],
+      "live": [
+       "lives",
+       "lived"
+      ],
+      "work": [
+       "works",
+       "worked"
+      ],
+      "play": [
+       "plays",
+       "played"
+      ],
+      "speak": [
+       "speaks",
+       "spoke"
+      ],
+      "eat": [
+       "eats",
+       "ate"
+      ],
+      "drink": [
+       "drinks",
+       "drank"
+      ],
+      "read": [
+       "reads",
+       "reading"
+      ],
+      "write": [
+       "writes",
+       "wrote"
+      ],
+      "go": [
+       "goes",
+       "went"
+      ],
+      "do": [
+       "does",
+       "did"
+      ],
+      "have": [
+       "has",
+       "had"
+      ],
+      "watch": [
+       "watches",
+       "watched"
+      ],
+      "study": [
+       "studies",
+       "studied"
+      ],
+      "teach": [
+       "teaches",
+       "taught"
+      ],
+      "sleep": [
+       "sleeps",
+       "slept"
+      ],
+      "cook": [
+       "cooks",
+       "cooked"
+      ],
+      "drive": [
+       "drives",
+       "drove"
+      ],
+      "walk": [
+       "walks",
+       "walked"
+      ],
+      "run": [
+       "runs",
+       "ran"
+      ],
+      "swim": [
+       "swims",
+       "swam"
+      ],
+      "sing": [
+       "sings",
+       "sang"
+      ],
+      "dance": [
+       "dances",
+       "danced"
+      ],
+      "understand": [
+       "understands",
+       "understood"
+      ],
+      "remember": [
+       "remembers",
+       "remembered"
+      ],
+      "believe": [
+       "believes",
+       "believed"
+      ],
+      "feel": [
+       "feels",
+       "felt"
+      ],
+      "look": [
+       "looks",
+       "looked"
+      ],
+      "seem": [
+       "seems",
+       "seemed"
+      ],
+      "get": [
+       "gets",
+       "got"
+      ],
+      "make": [
+       "makes",
+       "made"
+      ],
+      "take": [
+       "takes",
+       "took"
+      ],
+      "come": [
+       "comes",
+       "came"
+      ],
+      "say": [
+       "says",
+       "said"
+      ],
+      "see": [
+       "sees",
+       "saw"
+      ],
+      "hear": [
+       "hears",
+       "heard"
+      ],
+      "tell": [
+       "tells",
+       "told"
+      ],
+      "give": [
+       "gives",
+       "gave"
+      ],
+      "buy": [
+       "buys",
+       "bought"
+      ],
+      "sell": [
+       "sells",
+       "sold"
+      ],
+      "pay": [
+       "pays",
+       "paid"
+      ],
+      "wear": [
+       "wears",
+       "wore"
+      ],
+      "smoke": [
+       "smokes",
+       "smoked"
+      ],
+      "agree": [
+       "agrees",
+       "agreed"
+      ],
+      "hope": [
+       "hopes",
+       "hoped"
+      ],
+      "mean": [
+       "means",
+       "meant"
+      ],
+      "own": [
+       "owns",
+       "owned"
+      ],
+      "prefer": [
+       "prefers",
+       "preferred"
+      ],
+      "enjoy": [
+       "enjoys",
+       "enjoyed"
+      ],
+      "try": [
+       "tries",
+       "tried"
+      ],
+      "cry": [
+       "cries",
+       "cried"
+      ],
+      "wash": [
+       "washes",
+       "washed"
+      ],
+      "finish": [
+       "finishes",
+       "finished"
+      ],
+      "wake": [
+       "wakes",
+       "woke"
+      ],
+      "start": [
+       "starts",
+       "started"
+      ],
+      "begin": [
+       "begins",
+       "began"
+      ],
+      "leave": [
+       "leaves",
+       "left"
+      ],
+      "arrive": [
+       "arrives",
+       "arrived"
+      ],
+      "stay": [
+       "stays",
+       "stayed"
+      ],
+      "wait": [
+       "waits",
+       "waited"
+      ],
+      "call": [
+       "calls",
+       "called"
+      ],
+      "help": [
+       "helps",
+       "helped"
+      ],
+      "keep": [
+       "keeps",
+       "kept"
+      ],
+      "spend": [
+       "spends",
+       "spent"
+      ],
+      "use": [
+       "uses",
+       "used"
+      ],
+      "visit": [
+       "visits",
+       "visited"
+      ],
+      "listen": [
+       "listens",
+       "listened"
+      ],
+      "talk": [
+       "talks",
+       "talked"
+      ],
+      "travel": [
+       "travels",
+       "traveled"
+      ],
+      "plan": [
+       "plans",
+       "planned"
+      ],
+      "sound": [
+       "sounds",
+       "sounded"
+      ],
+      "smell": [
+       "smells",
+       "smelled"
+      ],
+      "taste": [
+       "tastes",
+       "tasted"
+      ],
+      "belong": [
+       "belongs",
+       "belonged"
+      ],
+      "depend": [
+       "depends",
+       "depended"
+      ],
+      "happen": [
+       "happens",
+       "happened"
+      ],
+      "matter": [
+       "matters",
+       "mattered"
+      ],
+      "rain": [
+       "rains",
+       "rained"
+      ],
+      "snow": [
+       "snows",
+       "snowed"
+      ],
+      "grow": [
+       "grows",
+       "grew"
+      ],
+      "fly": [
+       "flies",
+       "flew"
+      ],
+      "carry": [
+       "carries",
+       "carried"
+      ],
+      "worry": [
+       "worries",
+       "worried"
+      ],
+      "fix": [
+       "fixes",
+       "fixed"
+      ],
+      "kiss": [
+       "kisses",
+       "kissed"
+      ],
+      "catch": [
+       "catches",
+       "caught"
+      ]
+     },
+     "exclude": "\\b(?:do|does)\\s+(?:look|seem|know|like|love|want|need|have|think|hope|feel|believe|understand|remember|care|mind|exist|matter|appreciate|apologize|agree|hate|enjoy|miss|wonder)\\b|\\bneed not\\b|\\b(?:has|have)\\s+(?:(?:already|just|never|ever|not|always|also|still|finally|recently|only|really)\\s+)?(?:been|done|gone|seen|got|gotten|had|made|left|told|said|lost|found|eaten|taken|given|come|become|known|heard|bought|thought|felt|kept|met|sent|spent|won|written|broken|forgotten|\\w+ed)\\b|^(?:I|You|We|They)\\s+(?:\\w+\\s+)?(?:do|have)\\s+(?:to|not|been|got|never|you|we)\\b|^(?:(?:He|She|It|Tom|Mary|John|Everybody|Everyone|Nobody|Somebody|Someone|This|That|My (?:father|mother|brother|sister|wife|husband|son|daughter|friend|dog|cat|boss|uncle|aunt|teacher)|His (?:father|mother|brother|sister|wife|son|daughter|friend|dog)|Her (?:father|mother|brother|sister|husband|son|daughter|friend|dog)|Your (?:father|mother|brother|sister|wife|husband|son|daughter|friend|dog)|The (?:baby|boy|girl|man|woman|dog|cat|teacher|doctor|store|shop|train|bus|movie|class|meeting|party|museum|bank)))\\s+(?:\\w+\\s+)?(?:does|has)\\s+(?:to|not|been|got|never)\\b|\\?$|^(?:I|You|We|They|(?:He|She|It|Tom|Mary|John|Everybody|Everyone|Nobody|Somebody|Someone|This|That|My (?:father|mother|brother|sister|wife|husband|son|daughter|friend|dog|cat|boss|uncle|aunt|teacher)|His (?:father|mother|brother|sister|wife|son|daughter|friend|dog)|Her (?:father|mother|brother|sister|husband|son|daughter|friend|dog)|Your (?:father|mother|brother|sister|wife|husband|son|daughter|friend|dog)|The (?:baby|boy|girl|man|woman|dog|cat|teacher|doctor|store|shop|train|bus|movie|class|meeting|party|museum|bank)))\\s+(?:\\w+\\s+)?\\w+\\s*[,.!]?$|^That (?:\\w+s|\\w+)\\s+(?:is|was)\\b|^(?:This|That)\\b"
+    },
+    {
+     "id": "do_does_did",
+     "name": "Do, does, did",
+     "desc": "Auxiliares de perguntas e negativas: do (I/you/we/they), does (he/she/it), did (passado, todas as pessoas). Ex.: \"Does she work?\" / \"I didn't see it.\"",
+     "pattern": "(?P<w>(?:^|(?<=\\bwhat )|(?<=\\bwhere )|(?<=\\bwhen )|(?<=\\bwhy )|(?<=\\bhow )|(?<=\\bwhich )|(?<=\\bmuch )|(?<=\\bmany )|(?<=\\blong )|(?<=\\boften )|(?<=\\bfar )|(?<=\\belse )|(?<=\\bwho )(?=\\w+ (?:you|he|she|they|we|I|Tom|Mary)\\b))(?:do|does|did|don't|doesn't|didn't)(?=\\s+(?:I|you|he|she|it|we|they|Tom|Mary|John|this|that|these|those|your|my|his|her|our|their|the|anyone|anybody|everyone|everybody|someone|somebody|people|Tom's|Mary's)\\b)|(?<=\\s)(?:don't|doesn't|didn't)(?=\\s+\\w)|(?<=\\s)(?:do|does|did)(?=\\s+not\\b))",
+     "options": {
+      "do": [
+       "does",
+       "did"
+      ],
+      "does": [
+       "do",
+       "did"
+      ],
+      "did": [
+       "do",
+       "does"
+      ],
+      "don't": [
+       "doesn't",
+       "didn't"
+      ],
+      "doesn't": [
+       "don't",
+       "didn't"
+      ],
+      "didn't": [
+       "don't",
+       "doesn't"
+      ]
+     },
+     "exclude": "\\bdo(?:es)? not (?:\\w+ )?(?:to|-)\\b"
+    },
+    {
+     "id": "possessivos",
+     "name": "Possessivos: his, her...",
+     "desc": "O possessivo concorda com o DONO, não com a coisa: his (dele), her (dela), their (deles/delas), its (de coisa/animal). Ex.: \"Tom loves his mother.\" / \"Mary loves her father.\"",
+     "pattern": "^(?:(?P<he>He|My (?:father|brother|son|husband|uncle|grandfather|dad|boyfriend)|The (?:boy|man|old man|king))|(?P<she>She|Mary|My (?:mother|sister|daughter|wife|aunt|grandmother|mom|girlfriend)|The (?:girl|woman|old woman|queen))|(?P<they>They|Tom and Mary|My parents|The (?:children|kids|students|boys|girls|soldiers|workers|players))|(?P<it>It|The (?:dog|cat|bird|horse|company|tree|city|country|car|river|building|town|machine|plant)))\\b[^.?!;\\\"]*?\\b(?P<w>(?(he)his|(?(she)her|(?(they)their|its))))\\b(?=\\s+(?:own\\s+)?[a-z]+)(?!\\s+(?:to|a|an|the|that|this|some|any|and|or|if|in|on|at|for|with|from|about|up|down|out|off|back|again|alone|now|yet|so|too|very|go|be|do|feel|know|anything|something|nothing|everything|how|what|why|where|when|who|money|more|first|last|best|ever)\\b)",
+     "options": {
+      "his": [
+       "her",
+       "their",
+       "its"
+      ],
+      "her": [
+       "his",
+       "their",
+       "its"
+      ],
+      "their": [
+       "his",
+       "her",
+       "its"
+      ],
+      "its": [
+       "his",
+       "her",
+       "their"
+      ]
+     },
+     "exclude": "(?i:(?=.*\\b(?:Tom|John|he|him|his|himself|man|boy|father|brother|son|husband)\\b)(?=.*\\b(?:Mary|she|her|hers|herself|woman|girl|mother|sister|daughter|wife)\\b)|(?=.*\\b(?:Tom|John|Mary|he|she|him|her)\\b)(?=.*\\b(?:they|them|their|Tom and Mary)\\b)(?!^(?:Tom and Mary|They)\\b)|\\b(?:his|her|their|its) (?:own|way)\\b)",
+     "case": true
+    },
+    {
+     "id": "in_on_at",
+     "name": "In, on, at",
+     "desc": "Tempo: at + horas (at six), on + dias e datas (on Monday), in + meses, anos, estações e partes do dia (in May, in the morning). Lugar: at home/work, on the table/floor/bus, in + cidade/país (in Boston).",
+     "pattern": "(?-i:\\b(?P<w>[Ii]n|[Oo]n|[Aa]t)\\b)(?=\\s+(?:(?:about\\s+)?(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve)(?:\\s+o'clock|\\s+thirty|\\s+fifteen|\\s+forty-five)?(?!\\s+(?:years?|months?|weeks?|days?|hours?|minutes?|seconds?|times?|of|people|men|dollars|percent))\\b|noon\\b|midnight\\b|night\\b|dawn\\b|home\\b|work\\b|least\\b|first\\b(?!\\s+(?:sight|glance))|once\\b|the end of\\b|the age of\\b|the moment\\b|the same time\\b|(?-i:(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)s?)\\b|(?:my|his|her|your|our|their|Tom's|Mary's) birthday\\b|(?:the )?weekends?\\b|Christmas (?:Day|Eve)\\b|New Year's (?:Day|Eve)\\b|the (?:floor|table|wall|roof|ceiling|sofa|couch|bus|train|plane|ship|radio|phone|internet|left|right|menu|first floor|second floor|third floor|other side)\\b|(?:the |my |your |his |her )?(?:way|vacation|holiday|foot|purpose|TV|television|fire|strike|sale|board)\\b|(?:my|your|his|her|our|their) (?:way|own|desk|bed|knees|phone|side)\\b|(?-i:(?:January|February|March|April|May|June|July|August|September|October|November|December))\\b|(?:the )?(?:spring|summer|autumn|winter)\\b(?!\\s+(?:vacation|holidays?|break|of\\b))|the (?:morning|afternoon|evening|past|future|meantime|world|country|city|kitchen|garden|car|taxi|water|sky|sea|river|lake|mountains|woods|forest|dark|rain|snow|sun|shade|hospital|bathroom|bedroom|living room|office|classroom|box|bag|drawer|refrigerator|fridge|closet|newspaper|paper|picture|photo|mirror|book|middle of|corner of the room)\\b(?!\\s+of\\b)|bed\\b|time for\\b|(?:French|English|Spanish|German|Japanese|Chinese|Italian|Portuguese|Russian|Arabic)\\b|(?-i:(?:Chicago|Japan|France|Paris|London|Tokyo|America|Germany|Canada|China|England|Europe|Italy|Spain|Brazil|Kyoto|Osaka|Rome|India|Mexico|Russia|Hawaii|California|Africa|Asia|Berlin|Korea|Egypt|Moscow|Ireland|Scotland|Sydney|Texas|Hollywood|Portugal|Greece|Iraq|Turkey|Algeria|Sweden|Norway|Finland|Poland|Holland|Switzerland|Austria|Brazil|Argentina|Peru|Chile|Lisbon|Madrid|Vienna|Toronto|Montreal|Washington|Florida|Alaska|New York|New Zealand))\\b(?!')|(?:a|one) (?:few|couple of) (?:minutes|hours|days|weeks|months|years)\\b|(?:the )?(?:nineteen|twenty)\\b|love\\b|trouble\\b|danger\\b|fact\\b|general\\b|public\\b|private\\b|person\\b|advance\\b|cash\\b|ink\\b|pencil\\b|a hurry\\b|a row\\b|time\\b(?=\\s+for\\b)))",
+     "options": [
+      "in",
+      "on",
+      "at"
+     ],
+     "exclude": "\\b(?:on|in|at) the (?:morning|afternoon|evening|night|day) of\\b|\\b(?:come|get|go|went|came|gone|log|logged|look|looked|looking|lock|locked|turn|turned|put|try|tried|take|took|keep|kept|hand|handed|give|gave|fill|filled|check|checked|stay|stayed|move|moved|break|broke|let|sit|sat|believe|believed|interested|stand|stood|hold|held|aim|laugh|laughed|stare|stared|smile|smiled|good|bad|arrive|arrived|arrives|arriving|depend|depends|depended|rely|count|insist|insisted|insists|agree|agreed|work|worked|working|works)\\s+(?:in|on|at)\\b|\\b(?:on|in|at) (?:time|the way)\\b|\\bat (?:the (?:table|wall|door|window|corner|beach|bus|station|office|hospital))\\b|\\bin (?:the )?(?:table|wall|floor|bus|train|plane)\\b|\\b(?:early|late|later|all|last|tomorrow|yesterday|this|that|every|next) (?:in|on|at)\\b|\\bon (?:the )?(?:ship|board)\\b|\\bon the (?:left|right) (?:side )?of\\b|\\bat first glance\\b|\\bon foot\\b(?<=\\bgo on foot)"
+    },
+    {
+     "id": "some_any",
+     "name": "Some ou any",
+     "desc": "\"some\" (e something, someone, somewhere) em frases afirmativas; \"any\" (anything, anyone, anywhere) em frases negativas. Ex.: \"I have some money.\" / \"I don't have any money.\"",
+     "pattern": "^(?:(?![^.!]*(?:\\bnot\\b|n't\\b|\\bnever\\b|\\bno\\b|\\bnobody\\b|\\bnothing\\b|\\bwithout\\b|\\bhardly\\b))[^.!]*?\\b(?=some(?:thing|one|body|where)?\\b)|[^.!]*?(?:\\bnot\\b|n't\\b|\\bnever\\b)[^.!]*?\\b(?=any(?:thing|one|body|where)?\\b))(?P<w>some|any|something|anything|someone|anyone|somebody|anybody|somewhere|anywhere)\\b",
+     "options": {
+      "some": [
+       "any",
+       "no"
+      ],
+      "any": [
+       "some",
+       "no"
+      ],
+      "something": [
+       "anything",
+       "nothing"
+      ],
+      "anything": [
+       "something",
+       "nothing"
+      ],
+      "someone": [
+       "anyone",
+       "nobody"
+      ],
+      "anyone": [
+       "someone",
+       "nobody"
+      ],
+      "somebody": [
+       "anybody",
+       "nobody"
+      ],
+      "anybody": [
+       "somebody",
+       "nobody"
+      ],
+      "somewhere": [
+       "anywhere",
+       "nowhere"
+      ],
+      "anywhere": [
+       "somewhere",
+       "nowhere"
+      ]
+     },
+     "exclude": "\\?|\\b(?:if|whether|unless|any(?:way|more|how|time)|some(?:what|day|how|times)|just any|not just|not only|or (?:something|someone|somewhere|somebody)|something (?:like|else|of)|any (?:longer|more)|some (?:more|other|of)|any (?:of|other))\\b|\\b(?:some|any)(?:thing|one|body)? (?:can|could|will|would|might|may|must)\\b|\\b(?:not|n't|never) (?:\\w+ )?(?:\\w+ )?(?:some|something|someone|somebody|somewhere)\\b"
+    },
+    {
+     "id": "passado_irregular",
+     "name": "Passado irregular",
+     "desc": "Muitos verbos comuns têm passado irregular: go → went, see → saw, eat → ate, buy → bought, think → thought. Ex.: \"I went to Boston yesterday.\"",
+     "pattern": "(?<!\\bto )(?<!\\bwas )(?<!\\bwere )(?<!\\bis )(?<!\\bare )(?<!\\bam )(?<!\\bbe )(?<!\\bbeen )(?<!\\bbeing )(?<!\\bget )(?<!\\bgot )(?<!\\bhave )(?<!\\bhas )(?<!\\bhad )(?<!'ve )(?<!'d )(?<!'s )(?<!'re )(?<!'m )(?<!\\ba )(?<!\\bthe )(?<!\\bmy )(?<!\\bhis )(?<!\\bher )(?<!\\byour )(?<!\\bjust )(?<!\\bnever )(?<!\\balready )(?<!\\bso )(?<!\\bvery )(?<!\\btoo )(?<!\\bfeel )(?<!\\bfeels )(?<!\\blook )(?<!\\blooks )(?<!\\bseem )(?<!\\bseems )(?<!\\btotally )(?<!\\bcompletely )(?<!\\bquite )(?<!\\bget )(?<!\\bgets )(?<!\\bgetting )(?<!\\bbecome )(?<!\\bbecame )\\b(?P<w>understood|brought|thought|became|bought|caught|forgot|fought|taught|began|broke|built|chose|drank|drove|found|heard|meant|shook|slept|spent|spoke|stole|stood|threw|wrote|came|drew|fell|felt|flew|gave|grew|held|kept|knew|left|lent|lost|made|paid|rode|said|sang|sent|sold|swam|told|took|went|woke|wore|ate|bit|got|hid|led|met|ran|sat|saw|won)\\b(?![-'])",
+     "options": {
+      "went": [
+       "go",
+       "goes",
+       "gone"
+      ],
+      "saw": [
+       "see",
+       "sees",
+       "seen"
+      ],
+      "ate": [
+       "eat",
+       "eats",
+       "eaten"
+      ],
+      "wrote": [
+       "write",
+       "writes",
+       "written"
+      ],
+      "took": [
+       "take",
+       "takes",
+       "taken"
+      ],
+      "gave": [
+       "give",
+       "gives",
+       "given"
+      ],
+      "knew": [
+       "know",
+       "knows",
+       "known"
+      ],
+      "spoke": [
+       "speak",
+       "speaks",
+       "spoken"
+      ],
+      "broke": [
+       "break",
+       "breaks",
+       "broken"
+      ],
+      "chose": [
+       "choose",
+       "chooses",
+       "chosen"
+      ],
+      "drove": [
+       "drive",
+       "drives",
+       "driven"
+      ],
+      "fell": [
+       "fall",
+       "falls",
+       "fallen"
+      ],
+      "forgot": [
+       "forget",
+       "forgets",
+       "forgotten"
+      ],
+      "came": [
+       "come",
+       "comes"
+      ],
+      "became": [
+       "become",
+       "becomes"
+      ],
+      "ran": [
+       "run",
+       "runs"
+      ],
+      "began": [
+       "begin",
+       "begins",
+       "begun"
+      ],
+      "drank": [
+       "drink",
+       "drinks",
+       "drunk"
+      ],
+      "sang": [
+       "sing",
+       "sings",
+       "sung"
+      ],
+      "swam": [
+       "swim",
+       "swims",
+       "swum"
+      ],
+      "flew": [
+       "fly",
+       "flies",
+       "flown"
+      ],
+      "grew": [
+       "grow",
+       "grows",
+       "grown"
+      ],
+      "threw": [
+       "throw",
+       "throws",
+       "thrown"
+      ],
+      "drew": [
+       "draw",
+       "draws",
+       "drawn"
+      ],
+      "wore": [
+       "wear",
+       "wears",
+       "worn"
+      ],
+      "stole": [
+       "steal",
+       "steals",
+       "stolen"
+      ],
+      "woke": [
+       "wake",
+       "wakes",
+       "woken"
+      ],
+      "rode": [
+       "ride",
+       "rides",
+       "ridden"
+      ],
+      "hid": [
+       "hide",
+       "hides",
+       "hidden"
+      ],
+      "bit": [
+       "bite",
+       "bites",
+       "bitten"
+      ],
+      "shook": [
+       "shake",
+       "shakes",
+       "shaken"
+      ],
+      "got": [
+       "get",
+       "gets"
+      ],
+      "said": [
+       "say",
+       "says"
+      ],
+      "told": [
+       "tell",
+       "tells"
+      ],
+      "made": [
+       "make",
+       "makes"
+      ],
+      "bought": [
+       "buy",
+       "buys"
+      ],
+      "thought": [
+       "think",
+       "thinks"
+      ],
+      "found": [
+       "find",
+       "finds"
+      ],
+      "felt": [
+       "feel",
+       "feels"
+      ],
+      "heard": [
+       "hear",
+       "hears"
+      ],
+      "met": [
+       "meet",
+       "meets"
+      ],
+      "paid": [
+       "pay",
+       "pays"
+      ],
+      "sent": [
+       "send",
+       "sends"
+      ],
+      "sold": [
+       "sell",
+       "sells"
+      ],
+      "taught": [
+       "teach",
+       "teaches"
+      ],
+      "caught": [
+       "catch",
+       "catches"
+      ],
+      "brought": [
+       "bring",
+       "brings"
+      ],
+      "kept": [
+       "keep",
+       "keeps"
+      ],
+      "lost": [
+       "lose",
+       "loses"
+      ],
+      "slept": [
+       "sleep",
+       "sleeps"
+      ],
+      "spent": [
+       "spend",
+       "spends"
+      ],
+      "stood": [
+       "stand",
+       "stands"
+      ],
+      "understood": [
+       "understand",
+       "understands"
+      ],
+      "built": [
+       "build",
+       "builds"
+      ],
+      "sat": [
+       "sit",
+       "sits"
+      ],
+      "won": [
+       "win",
+       "wins"
+      ],
+      "fought": [
+       "fight",
+       "fights"
+      ],
+      "left": [
+       "leave",
+       "leaves"
+      ],
+      "meant": [
+       "mean",
+       "means"
+      ],
+      "lent": [
+       "lend",
+       "lends"
+      ],
+      "led": [
+       "lead",
+       "leads"
+      ],
+      "held": [
+       "hold",
+       "holds"
+      ]
+     },
+     "exclude": "\\b(?:have|has|had|haven't|hasn't|hadn't|'ve|'d|having)\\b|\\bleft (?:hand|side|arm|leg|foot|eye|ear|turn|wing|lane)\\b|\\b(?:on|to|the|my|your|his|her) left\\b|\\bleft over\\b|\\bturn(?:ed)? left\\b|\\bthere's \\w+ left\\b|\\b(?:anything|nothing|something|much|none|any|some|everything|all|one|two|three|few|little|those) left\\b|\\b(?:\\w+) left\\?|\\bmade (?:of|in|from|by|for)\\b|\\bfelt (?:pen|tip|hat)\\b|\\bbit (?:of|more|less|too|late|early|tired|better|worse|different|nervous)\\b|\\b(?:a|the|little) bit\\b|\\bwon't\\b(?=.*\\bwon\\b)|\\bbuilt-in\\b|\\blost (?:and found|cause)\\b|\\bfound(?:ed|ation)\\b|\\bsaid (?:that )?(?:he|she|they|I|you|we|Tom|Mary) (?:was|were|is|are|would|will|had|has)\\b|\\b(?:if|wish|as if|as though|suppose|supposing)\\b|\\bkept (?:\\w+ )?(?:-ing)\\b"
+    },
+    {
+     "id": "participio",
+     "name": "Particípio: have seen",
+     "desc": "Depois de have/has/had vem o particípio, não o passado: \"I have seen\" (não \"have saw\"), \"She has gone\", \"We had eaten\". Muitos são irregulares: saw → seen, went → gone, did → done.",
+     "pattern": "\\b(?:have|has|had|haven't|hasn't|hadn't|'ve)\\s+(?:(?:I|you|he|she|it|we|they|Tom|Mary|anyone|anybody|someone|everyone)\\s+)?(?:(?:never|ever|already|just|not|always|recently|finally|also|still|really|only|probably|almost|nearly|certainly|actually|both|all|clearly|obviously|definitely)\\s+){0,2}(?P<w>forgotten|written|become|bitten|broken|chosen|driven|fallen|hidden|ridden|shaken|spoken|stolen|thrown|begun|drawn|drunk|eaten|flown|given|grown|known|taken|woken|come|done|gone|seen|sung|swum|worn|run)\\b(?![-'])",
+     "options": {
+      "seen": [
+       "saw",
+       "see"
+      ],
+      "gone": [
+       "went",
+       "go"
+      ],
+      "done": [
+       "did",
+       "do"
+      ],
+      "eaten": [
+       "ate",
+       "eat"
+      ],
+      "written": [
+       "wrote",
+       "write"
+      ],
+      "taken": [
+       "took",
+       "take"
+      ],
+      "given": [
+       "gave",
+       "give"
+      ],
+      "known": [
+       "knew",
+       "know"
+      ],
+      "spoken": [
+       "spoke",
+       "speak"
+      ],
+      "broken": [
+       "broke",
+       "break"
+      ],
+      "chosen": [
+       "chose",
+       "choose"
+      ],
+      "driven": [
+       "drove",
+       "drive"
+      ],
+      "fallen": [
+       "fell",
+       "fall"
+      ],
+      "forgotten": [
+       "forgot",
+       "forget"
+      ],
+      "begun": [
+       "began",
+       "begin"
+      ],
+      "drunk": [
+       "drank",
+       "drink"
+      ],
+      "sung": [
+       "sang",
+       "sing"
+      ],
+      "swum": [
+       "swam",
+       "swim"
+      ],
+      "flown": [
+       "flew",
+       "fly"
+      ],
+      "grown": [
+       "grew",
+       "grow"
+      ],
+      "thrown": [
+       "threw",
+       "throw"
+      ],
+      "drawn": [
+       "drew",
+       "draw"
+      ],
+      "worn": [
+       "wore",
+       "wear"
+      ],
+      "stolen": [
+       "stole",
+       "steal"
+      ],
+      "woken": [
+       "woke",
+       "wake"
+      ],
+      "ridden": [
+       "rode",
+       "ride"
+      ],
+      "hidden": [
+       "hid",
+       "hide"
+      ],
+      "bitten": [
+       "bit",
+       "bite"
+      ],
+      "shaken": [
+       "shook",
+       "shake"
+      ],
+      "come": [
+       "came",
+       "comes"
+      ],
+      "become": [
+       "became",
+       "becomes"
+      ],
+      "run": [
+       "ran",
+       "runs"
+      ]
+     },
+     "exclude": "\\bhad (?:\\w+ )?(?:better|rather)\\b"
+    },
+    {
+     "id": "comparativos",
+     "name": "Comparativos e superlativos",
+     "desc": "Comparativo + than: \"bigger than\", \"more expensive than\". Superlativo com the: \"the biggest\", \"the most expensive\". Irregulares: good → better → best, bad → worse → worst.",
+     "pattern": "\\b(?P<w>(?:healthier|brighter|prettier|stronger|cheaper|cleaner|dirtier|earlier|farther|funnier|greater|happier|heavier|luckier|quicker|quieter|shorter|smaller|smarter|thinner|younger|better|bigger|busier|closer|colder|cooler|darker|deeper|easier|faster|fatter|harder|higher|hotter|kinder|larger|lazier|longer|nearer|poorer|richer|slower|taller|uglier|warmer|weaker|lower|newer|nicer|older|safer|wiser|worse|more(?=\\s+\\w+\\s+than\\b))(?=\\s+(?:\\w+\\s+)?than\\b)|(?<=\\bthe )(?:healthiest|brightest|prettiest|strongest|cheapest|cleanest|dirtiest|earliest|farthest|funniest|greatest|happiest|heaviest|luckiest|quickest|quietest|shortest|smallest|smartest|thinnest|youngest|biggest|busiest|closest|coldest|coolest|darkest|deepest|easiest|fastest|fattest|hardest|highest|hottest|kindest|largest|laziest|longest|nearest|poorest|richest|slowest|tallest|ugliest|warmest|weakest|lowest|newest|nicest|oldest|safest|wisest|worst|best|most(?=\\s+(?!of\\b)\\w+))|(?<=\\bthe very )(?:healthiest|brightest|prettiest|strongest|cheapest|cleanest|dirtiest|earliest|farthest|funniest|greatest|happiest|heaviest|luckiest|quickest|quietest|shortest|smallest|smartest|thinnest|youngest|biggest|busiest|closest|coldest|coolest|darkest|deepest|easiest|fastest|fattest|hardest|highest|hottest|kindest|largest|laziest|longest|nearest|poorest|richest|slowest|tallest|ugliest|warmest|weakest|lowest|newest|nicest|oldest|safest|wisest|worst|best)|(?:(?<=\\bmy )|(?<=\\bhis )|(?<=\\bher )|(?<=\\bour )|(?<=\\byour ))(?:healthiest|brightest|prettiest|strongest|cheapest|cleanest|dirtiest|earliest|farthest|funniest|greatest|happiest|heaviest|luckiest|quickest|quietest|shortest|smallest|smartest|thinnest|youngest|biggest|busiest|closest|coldest|coolest|darkest|deepest|easiest|fastest|fattest|hardest|highest|hottest|kindest|largest|laziest|longest|nearest|poorest|richest|slowest|tallest|ugliest|warmest|weakest|lowest|newest|nicest|oldest|safest|wisest|worst|best))\\b(?![-'])",
+     "options": {
+      "bigger": [
+       "biggest",
+       "big"
+      ],
+      "biggest": [
+       "bigger",
+       "big"
+      ],
+      "smaller": [
+       "smallest",
+       "small"
+      ],
+      "smallest": [
+       "smaller",
+       "small"
+      ],
+      "taller": [
+       "tallest",
+       "tall"
+      ],
+      "tallest": [
+       "taller",
+       "tall"
+      ],
+      "shorter": [
+       "shortest",
+       "short"
+      ],
+      "shortest": [
+       "shorter",
+       "short"
+      ],
+      "older": [
+       "oldest",
+       "old"
+      ],
+      "oldest": [
+       "older",
+       "old"
+      ],
+      "younger": [
+       "youngest",
+       "young"
+      ],
+      "youngest": [
+       "younger",
+       "young"
+      ],
+      "longer": [
+       "longest",
+       "long"
+      ],
+      "longest": [
+       "longer",
+       "long"
+      ],
+      "faster": [
+       "fastest",
+       "fast"
+      ],
+      "fastest": [
+       "faster",
+       "fast"
+      ],
+      "slower": [
+       "slowest",
+       "slow"
+      ],
+      "slowest": [
+       "slower",
+       "slow"
+      ],
+      "cheaper": [
+       "cheapest",
+       "cheap"
+      ],
+      "cheapest": [
+       "cheaper",
+       "cheap"
+      ],
+      "higher": [
+       "highest",
+       "high"
+      ],
+      "highest": [
+       "higher",
+       "high"
+      ],
+      "larger": [
+       "largest",
+       "large"
+      ],
+      "largest": [
+       "larger",
+       "large"
+      ],
+      "hotter": [
+       "hottest",
+       "hot"
+      ],
+      "hottest": [
+       "hotter",
+       "hot"
+      ],
+      "colder": [
+       "coldest",
+       "cold"
+      ],
+      "coldest": [
+       "colder",
+       "cold"
+      ],
+      "warmer": [
+       "warmest",
+       "warm"
+      ],
+      "warmest": [
+       "warmer",
+       "warm"
+      ],
+      "easier": [
+       "easiest",
+       "easy"
+      ],
+      "easiest": [
+       "easier",
+       "easy"
+      ],
+      "happier": [
+       "happiest",
+       "happy"
+      ],
+      "happiest": [
+       "happier",
+       "happy"
+      ],
+      "heavier": [
+       "heaviest",
+       "heavy"
+      ],
+      "heaviest": [
+       "heavier",
+       "heavy"
+      ],
+      "earlier": [
+       "earliest",
+       "early"
+      ],
+      "earliest": [
+       "earlier",
+       "early"
+      ],
+      "stronger": [
+       "strongest",
+       "strong"
+      ],
+      "strongest": [
+       "stronger",
+       "strong"
+      ],
+      "richer": [
+       "richest",
+       "rich"
+      ],
+      "richest": [
+       "richer",
+       "rich"
+      ],
+      "smarter": [
+       "smartest",
+       "smart"
+      ],
+      "smartest": [
+       "smarter",
+       "smart"
+      ],
+      "nicer": [
+       "nicest",
+       "nice"
+      ],
+      "nicest": [
+       "nicer",
+       "nice"
+      ],
+      "busier": [
+       "busiest",
+       "busy"
+      ],
+      "busiest": [
+       "busier",
+       "busy"
+      ],
+      "prettier": [
+       "prettiest",
+       "pretty"
+      ],
+      "prettiest": [
+       "prettier",
+       "pretty"
+      ],
+      "funnier": [
+       "funniest",
+       "funny"
+      ],
+      "funniest": [
+       "funnier",
+       "funny"
+      ],
+      "safer": [
+       "safest",
+       "safe"
+      ],
+      "safest": [
+       "safer",
+       "safe"
+      ],
+      "quicker": [
+       "quickest",
+       "quick"
+      ],
+      "quickest": [
+       "quicker",
+       "quick"
+      ],
+      "quieter": [
+       "quietest",
+       "quiet"
+      ],
+      "quietest": [
+       "quieter",
+       "quiet"
+      ],
+      "deeper": [
+       "deepest",
+       "deep"
+      ],
+      "deepest": [
+       "deeper",
+       "deep"
+      ],
+      "closer": [
+       "closest",
+       "close"
+      ],
+      "closest": [
+       "closer",
+       "close"
+      ],
+      "cleaner": [
+       "cleanest",
+       "clean"
+      ],
+      "cleanest": [
+       "cleaner",
+       "clean"
+      ],
+      "darker": [
+       "darkest",
+       "dark"
+      ],
+      "darkest": [
+       "darker",
+       "dark"
+      ],
+      "brighter": [
+       "brightest",
+       "bright"
+      ],
+      "brightest": [
+       "brighter",
+       "bright"
+      ],
+      "fatter": [
+       "fattest",
+       "fat"
+      ],
+      "fattest": [
+       "fatter",
+       "fat"
+      ],
+      "thinner": [
+       "thinnest",
+       "thin"
+      ],
+      "thinnest": [
+       "thinner",
+       "thin"
+      ],
+      "better": [
+       "best",
+       "good"
+      ],
+      "best": [
+       "better",
+       "good"
+      ],
+      "worse": [
+       "worst",
+       "bad"
+      ],
+      "worst": [
+       "worse",
+       "bad"
+      ],
+      "farther": [
+       "farthest",
+       "far"
+      ],
+      "farthest": [
+       "farther",
+       "far"
+      ],
+      "harder": [
+       "hardest",
+       "hard"
+      ],
+      "hardest": [
+       "harder",
+       "hard"
+      ],
+      "weaker": [
+       "weakest",
+       "weak"
+      ],
+      "weakest": [
+       "weaker",
+       "weak"
+      ],
+      "cooler": [
+       "coolest",
+       "cool"
+      ],
+      "coolest": [
+       "cooler",
+       "cool"
+      ],
+      "wiser": [
+       "wisest",
+       "wise"
+      ],
+      "wisest": [
+       "wiser",
+       "wise"
+      ],
+      "luckier": [
+       "luckiest",
+       "lucky"
+      ],
+      "luckiest": [
+       "luckier",
+       "lucky"
+      ],
+      "uglier": [
+       "ugliest",
+       "ugly"
+      ],
+      "ugliest": [
+       "uglier",
+       "ugly"
+      ],
+      "dirtier": [
+       "dirtiest",
+       "dirty"
+      ],
+      "dirtiest": [
+       "dirtier",
+       "dirty"
+      ],
+      "lazier": [
+       "laziest",
+       "lazy"
+      ],
+      "laziest": [
+       "lazier",
+       "lazy"
+      ],
+      "healthier": [
+       "healthiest",
+       "healthy"
+      ],
+      "healthiest": [
+       "healthier",
+       "healthy"
+      ],
+      "kinder": [
+       "kindest",
+       "kind"
+      ],
+      "kindest": [
+       "kinder",
+       "kind"
+      ],
+      "poorer": [
+       "poorest",
+       "poor"
+      ],
+      "poorest": [
+       "poorer",
+       "poor"
+      ],
+      "lower": [
+       "lowest",
+       "low"
+      ],
+      "lowest": [
+       "lower",
+       "low"
+      ],
+      "greater": [
+       "greatest",
+       "great"
+      ],
+      "greatest": [
+       "greater",
+       "great"
+      ],
+      "newer": [
+       "newest",
+       "new"
+      ],
+      "newest": [
+       "newer",
+       "new"
+      ],
+      "nearer": [
+       "nearest",
+       "near"
+      ],
+      "nearest": [
+       "nearer",
+       "near"
+      ],
+      "more": [
+       "most",
+       "much"
+      ],
+      "most": [
+       "more",
+       "much"
+      ]
+     },
+     "exclude": "\\bmore and more\\b|\\bmore than (?:a|one|two|three|\\w+ (?:years|days|hours|times|people|dollars))\\b|\\bthe most\\b(?=\\s+(?:people|of|important to))|\\b(?:had|'d) better\\b|\\bat (?:the )?(?:best|worst|most|latest|least)\\b|\\bthe best (?:of|part)\\b|\\b(?:all|for) the best\\b|\\b(?:do|did|does|doing) (?:my|his|her|your|our|their) best\\b|\\bthe (?:latest|greatest)\\b(?=\\s+(?:news|thing))|\\bno (?:better|longer|more) than\\b|\\brather than\\b|\\b(?:know|knew|knows|known) better\\b|\\bother than\\b|\\bthan (?:ever|usual|expected|I thought)\\b(?=.*\\b(?:better|worse)\\b)"
+    },
+    {
+     "id": "make_do",
+     "name": "Make ou do",
+     "desc": "\"make\" = criar/produzir algo (make a cake, make a mistake, make money, make a decision, make noise); \"do\" = realizar tarefas e atividades (do homework, do the dishes, do your best, do a favor).",
+     "pattern": "\\b(?P<w>(?:make|makes|made|making)(?=\\s+(?:mistakes?|money|(?:a |the |that |this |your |my |his |her |our |their )?(?:decision|mistake|promise|choice|plan|plans|list|joke|wish|speech|phone call|call|reservation|appointment|deal|difference|offer|suggestion|fortune|living|cake|copy|mess|noise|fire|sandwich|salad|movie|film|bed|request|comment|discovery|effort|excuse|profit|complaint|reservation)\\b|noise|friends|sense|progress|fun of|room for|sure|coffee|tea|dinner|lunch|breakfast|plans|an? (?:effort|appointment|exception|offer|impression|announcement|attempt|example)|peace|changes|a change|a difference|a (?:living|fortune|profit|wish|decision|mistake)))|(?:do|does|did|doing|done)(?=\\s+(?:homework|(?:my|your|his|her|our|their|the) (?:homework|best|job|work|dishes|laundry|shopping|housework|cleaning|ironing|math|exercises|research)|the (?:dishes|laundry|shopping|cleaning|ironing|housework|right thing|same|rest)|(?:a|the) (?:good|great|better|terrible|bad) job|business|research|exercise|exercises|harm|damage|a favor|me a favor|(?:him|her|us|them|you|Tom|Mary) a favor|(?:my|your|his|her|our|their) best|yoga|sports?|karate|judo|well|badly|nothing wrong|something wrong|anything wrong|the right thing|the wrong thing|a lot of (?:work|things)|good work|some work|the work|a good deed|my duty|your duty|his duty|her duty)))\\b",
+     "options": {
+      "make": [
+       "do",
+       "does"
+      ],
+      "makes": [
+       "does",
+       "do"
+      ],
+      "made": [
+       "did",
+       "done"
+      ],
+      "making": [
+       "doing",
+       "done"
+      ],
+      "do": [
+       "make",
+       "makes"
+      ],
+      "does": [
+       "makes",
+       "make"
+      ],
+      "did": [
+       "made",
+       "make"
+      ],
+      "doing": [
+       "making",
+       "made"
+      ],
+      "done": [
+       "made",
+       "make"
+      ]
+     },
+     "exclude": "\\b(?:what|where|when|why|how|which|who) (?:do|does|did)\\b|^(?:Do|Does|Did) (?:my|your|his|her|our|their|the) \\w+ (?!for\\b|now\\b|right\\b|today\\b|tonight\\b|first\\b|again\\b|later\\b|yet\\b|before\\b|every\\b|at\\b|by\\b|with\\b|on\\b|in\\b)\\w+|\\bmade (?:sure|it)\\b(?=.*\\?)|\\bmake (?:sure|it)\\b(?=.*\\?)"
+    }
+   ]
+  }
+ ]
+}

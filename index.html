@@ -542,7 +542,7 @@ const KEY = 'frasier-' + PAIR + '-v1';
 COURSE.path = 'data/' + PAIR + '/';
 try { if (LEGACY && !localStorage.getItem(KEY) && localStorage.getItem('frasier-' + LEGACY + '-v1')) localStorage.setItem(KEY, localStorage.getItem('frasier-' + LEGACY + '-v1')); } catch(e){}
 
-const APP_VERSION = '2.7 · 16 nov 2026';
+const APP_VERSION = '2.8 · 16 nov 2026';
 const IN_ARTIFACT = !!(window.claude && window.claude.use) || window.self !== window.top;
 const STANDALONE = (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
 
@@ -918,7 +918,7 @@ function renderTracks(){
   const t = curTrack();
   if (t) {
     const sub = curSub();
-    $('trackHelp').textContent = `Frases da trilha ${t.name}, das mais fáceis às mais difíceis.${dtxt} O que você aprende aqui também conta na trilha Geral.`;
+    $('trackHelp').textContent = sub && sub.desc ? `💡 ${sub.name}: ${sub.desc}${dtxt}` : `Frases da trilha ${t.name}, das mais fáceis às mais difíceis.${dtxt} O que você aprende aqui também conta na trilha Geral.`;
     $('levels').innerHTML = t.subs.map((x, i) => {
       let p = 0, m = 0, tot = 0; for (const id of x.ids) { if (!inDiff(id)) continue; tot++; const v = S.prog[id]; if (v) { p++; if (v[0] >= 4) m++; } }
       const mm = tot ? m / tot * 100 : 0, pp = tot ? (p - m) / tot * 100 : 0, on = sub && sub.id === x.id;
@@ -959,19 +959,20 @@ function speak(text){
 
 /* ---------- rodada ---------- */
 let R = null; // { queue, i, pts, results, kind }
-let R_KEY = null, R_POS = null;
+let R_KEY = null, R_POS = null, R_CZ = new Map(), R_SUB = null;
 async function startRound(kind){
   let ids, revs = [];
-  if (kind === 'review') { ids = []; revs = dueList().slice(0, ROUND); }
+  if (kind === 'review') { ids = []; revs = dueList().slice(0, ROUND); R_CZ = new Map(); R_SUB = null; }
   else {
     const nRev = mixCount(), WANT = ROUND - nRev;
     const t = curTrack();
     if (t) {
       const sub = curSub(), key = subKey(t, sub), all = curDiff().id === 'all'; let p = all ? (S.ptr[key] || 0) : 0; ids = []; R_POS = {}; R_KEY = all ? key : 'filtrado';
-      while (ids.length < WANT && p < sub.ids.length) { const id = sub.ids[p]; if (!(id in S.prog) && !HIDDEN.has(id) && inDiff(id)) { ids.push(id); if (all) R_POS[id] = p; } p++; }
+      R_CZ = new Map(); R_SUB = sub.cz ? sub : null;
+      while (ids.length < WANT && p < sub.ids.length) { const id = sub.ids[p]; if (!(id in S.prog) && !HIDDEN.has(id) && inDiff(id)) { ids.push(id); if (all) R_POS[id] = p; if (sub.cz) R_CZ.set(id, sub.cz[p]); } p++; }
       if (!ids.length) { toast(all ? 'Você já viu todas as frases deste tema. Escolha outro!' : 'Não há frases novas deste tema nesta dificuldade. Escolha outro tema ou outra dificuldade.'); return; }
     } else {
-      R_KEY = null; R_POS = null;
+      R_KEY = null; R_POS = null; R_CZ = new Map(); R_SUB = null;
       const L = IDX.levels[S.settings.level];
       let p = Math.max(S.ptr[S.settings.level] || L.start, L.start); ids = [];
       while (ids.length < WANT && p < L.end) { if (!(p in S.prog) && !HIDDEN.has(p)) ids.push(p); p++; }
@@ -990,7 +991,7 @@ function show(id){ ['loading','home','play','summary'].forEach(s => $(s).classLi
 
 function renderQ(){
   const q = R.queue[R.i], s = sent(q.idx);
-  const [es, en, st, ln] = s;
+  const es = s[0], en = s[1], [st, ln] = R_CZ.get(q.idx) || [s[2], s[3]];
   q.answer = es.substr(st, ln); q.before = es.slice(0, st); q.after = es.slice(st + ln); q.es = es; q.en = en; q.esid = s[4];
   q.mode = S.settings.mode; q.done = false;
   const prev = S.prog[q.idx];
@@ -998,7 +999,7 @@ function renderQ(){
   $('roundPts').textContent = R.pts;
   const tag = $('qtag');
   if (q.retry) { tag.textContent = 'Tente de novo'; tag.className = 'tag retry'; }
-  else if (!prev) { tag.textContent = 'Nova'; tag.className = 'tag new'; }
+  else if (!prev) { tag.textContent = R_SUB && R_CZ.has(q.idx) ? 'Nova · ' + R_SUB.name : 'Nova'; tag.className = 'tag new'; }
   else { tag.textContent = 'Revisão · ' + (Math.max(0, prev[0]) * 25) + '%'; tag.className = 'tag'; }
   tag.title = '';
   if (IDX.reviewed && q.idx < IDX.reviewed) { tag.textContent += ' · revisada ✓'; tag.title = 'Frase e tradução conferidas por revisão'; }
@@ -1026,8 +1027,18 @@ $('playMode').onclick = e => {
 };
 function sentenceHTML(q, blankHTML){ return esc(q.before) + blankHTML + esc(q.after); }
 
+function topicOpts(q){
+  if (!R_SUB || !R_CZ.has(q.idx)) return null;
+  const a = q.answer, al = a.toLowerCase();
+  let pool = R_SUB.omap ? (R_SUB.omap[al] || []) : R_SUB.opts ? R_SUB.opts : null;
+  if (!pool) return null;
+  pool = [...new Set(pool.filter(o => o.toLowerCase() !== al))];
+  pool = shuffle(pool).slice(0, 3);
+  if (a[0] !== a[0].toLowerCase()) pool = pool.map(o => o[0].toUpperCase() + o.slice(1));
+  return pool.length ? pool : null;
+}
 function renderMC(q){
-  q.opts = q.opts || shuffle([q.answer, ...distractors(q.answer)]);
+  q.opts = q.opts || shuffle([q.answer, ...(topicOpts(q) || distractors(q.answer))]);
   $('sentence').innerHTML = sentenceHTML(q, `<span class="blank">${esc(q.answer)}</span>`);
   $('answerArea').innerHTML = `<div class="options">${q.opts.map((o, i) => `<button class="opt" data-v="${esc(o)}"><span class="k" aria-hidden="true">${i + 1}</span>${esc(o)}</button>`).join('')}</div>`;
   $('answerArea').querySelectorAll('.opt').forEach(b => b.onclick = () => answer(q, b.dataset.v, q.mode === 'mc' && !q.hints ? 'mc' : 'hint'));
@@ -1218,6 +1229,7 @@ function answer(q, val, how){
   $('afterArea').innerHTML = `
     ${verdict}
     ${ok && !exact ? `<div class="note">Quase perfeito. Repare no acento: <b>${esc(q.answer)}</b></div>` : ''}
+    ${!ok && R_SUB && R_SUB.desc && R_CZ.has(q.idx) ? `<div class="note">💡 ${esc(R_SUB.desc)}</div>` : ''}
     <div class="mhead"><span>Domínio desta frase</span></div>
     <div class="mastery"><span>${after * 25}%</span><span class="segs">${segs}</span></div><div id="whenTxt">${when}</div>
     <p class="say">${ICON.say}Repita a frase em voz alta antes de seguir.</p>
@@ -1425,7 +1437,11 @@ $('trackTabs').onclick = e => { const b = e.target.closest('button'); if (!b) re
     $('loading').innerHTML = '<div>Não consegui carregar as frases. Recarregue a página.</div>'; return; }
   WORDS.forEach((w, i) => RANK.set(w, i));
   HIDDEN = new Set(IDX.hidden || []);
-  try { TRACKS = (await getJSON(COURSE.path + 'tracks.json')).tracks || []; } catch(e) { TRACKS = []; }
+  { // trilhas temáticas + Primeiros passos / Gramática (tracks2.json)
+    const [t1, t2] = await Promise.all([getJSON(COURSE.path + 'tracks.json').catch(() => null), getJSON(COURSE.path + 'tracks2.json').catch(() => null)]);
+    const a = (t2 && t2.tracks) || [], b = ((t1 && t1.tracks) || []).filter(t => !a.some(x => x.id === t.id));
+    TRACKS = [...a.filter(t => t.id === 'basico'), ...b.filter(t => t.id === 'diadia'), ...a.filter(t => t.id !== 'basico'), ...b.filter(t => t.id !== 'diadia')];
+  }
   if (IDX.dv === 2 && S.dv !== 2) {
     const has = Object.keys(S.prog).length > 0;
     const map = has ? await migMap() : null;

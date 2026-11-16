@@ -34,11 +34,14 @@ def apply(out='data', reviews='tools/reviews'):
         idx['hidden'] = hidden
         idx['reviewed'] = rv.get('reviewed_upto', 0)
         json.dump(idx, open(os.path.join(d, 'index.json'), 'w'))
-        tp = os.path.join(d, 'tracks.json')
-        if os.path.exists(tp) and hidden:
+        for tp in (os.path.join(d, 'tracks.json'), os.path.join(d, 'tracks2.json')):
+          if os.path.exists(tp) and hidden:
             hs = set(hidden); tr = json.load(open(tp, encoding='utf-8'))
             for t in tr['tracks']:
-                for s in t['subs']: s['ids'] = [i for i in s['ids'] if i not in hs]
+                for s in t['subs']:
+                    keep = [k for k, i in enumerate(s['ids']) if i not in hs]
+                    if 'cz' in s: s['cz'] = [s['cz'][k] for k in keep]
+                    s['ids'] = [s['ids'][k] for k in keep]
             json.dump(tr, open(tp, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
         print(pair, 'revisadas até', idx['reviewed'], '| corrigidas', fixed, '| escondidas', len(hidden))
 

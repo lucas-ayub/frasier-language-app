@@ -1,0 +1,5939 @@
+{
+ "lang": "it",
+ "tracks": [
+  {
+   "id": "basico",
+   "subs": [
+    {
+     "id": "saudacoes",
+     "name": "Cumprimentos e cortesia",
+     "desc": "Ciao, buongiorno, grazie, prego, scusa, arrivederci... Ex.: «Grazie mille!» = Muito obrigado!",
+     "pattern": "\\b(?P<w>arrivederci|buonanotte|buongiorno|benvenuta|benvenuti|benvenuto|buonasera|scusami|scusate|grazie|addio|prego|salve|scusa|scusi|ciao|(?<=\\bper )favore)\\b",
+     "options": {
+      "ciao": [
+       "grazie",
+       "buonanotte",
+       "prego"
+      ],
+      "salve": [
+       "grazie",
+       "buonanotte",
+       "scusi"
+      ],
+      "buongiorno": [
+       "buonanotte",
+       "grazie",
+       "prego"
+      ],
+      "buonasera": [
+       "buongiorno",
+       "grazie",
+       "prego"
+      ],
+      "buonanotte": [
+       "buongiorno",
+       "grazie",
+       "prego"
+      ],
+      "arrivederci": [
+       "grazie",
+       "buongiorno",
+       "prego"
+      ],
+      "addio": [
+       "grazie",
+       "buongiorno",
+       "scusa"
+      ],
+      "grazie": [
+       "prego",
+       "scusa",
+       "ciao"
+      ],
+      "prego": [
+       "grazie",
+       "scusa",
+       "ciao"
+      ],
+      "scusa": [
+       "grazie",
+       "prego",
+       "ciao"
+      ],
+      "scusi": [
+       "grazie",
+       "prego",
+       "salve"
+      ],
+      "scusate": [
+       "grazie",
+       "prego",
+       "ciao"
+      ],
+      "scusami": [
+       "grazie",
+       "prego",
+       "ciao"
+      ],
+      "benvenuto": [
+       "grazie",
+       "buongiorno",
+       "arrivederci"
+      ],
+      "benvenuta": [
+       "grazie",
+       "buongiorno",
+       "arrivederci"
+      ],
+      "benvenuti": [
+       "grazie",
+       "buongiorno",
+       "arrivederci"
+      ],
+      "favore": [
+       "grazie",
+       "scusa",
+       "prego"
+      ]
+     },
+     "exclude": "\\bd'addio\\b|\\b(?:una|la|le|delle|buona|nessuna|qualche|questa|quella|sua|mia|tua)\\s+scus[ae]\\b|\\bprego\\s+(?:per|che|di|dio|il|la|sempre|ogni)\\b|\\bbenvenut[oaie]\\s+(?:a|in|nel|nella|al|alla)\\b(?=.*\\b(?:è|sono|era)\\b)"
+    },
+    {
+     "id": "numeros",
+     "name": "Números",
+     "desc": "Due, tre, dieci, venti, cento, mille... Ex.: «Ho tre fratelli» = Tenho três irmãos.",
+     "pattern": "\\b(?P<w>cinquantaquattro|cinquantacinque|quarantaquattro|sessantaquattro|settantaquattro|cinquantasette|novantaquattro|ottantaquattro|quarantacinque|sessantacinque|settantacinque|cinquantanove|novantacinque|ottantacinque|quarantasette|sessantasette|settantasette|trentaquattro|cinquantadue|cinquantasei|cinquantatré|cinquantotto|novantasette|ottantasette|quarantanove|quattrocento|sessantanove|settantanove|trentacinque|ventiquattro|cinquantuno|cinquecento|diciassette|novantanove|ottantanove|quarantadue|quarantasei|quarantatré|quarantotto|quattordici|quattromila|sessantadue|sessantasei|sessantatré|sessantotto|settantadue|settantasei|settantatré|settantotto|trentasette|venticinque|cinquemila|diciannove|novantadue|novantasei|novantatré|novantotto|ottantadue|ottantasei|ottantatré|ottantotto|quarantuno|sessantuno|settantuno|settecento|trentanove|ventisette|centomila|cinquanta|diecimila|novantuno|novecento|ottantuno|ottocento|settemila|trentadue|trentasei|trentatré|trentotto|ventinove|diciotto|duecento|miliardi|miliardo|novemila|ottomila|quaranta|quindici|seicento|sessanta|settanta|trecento|trentuno|ventidue|ventisei|ventitré|ventotto|duemila|milione|milioni|novanta|ottanta|quattro|seimila|tredici|tremila|ventuno|cinque|dodici|sedici|trenta|undici|cento|dieci|mille|sette|venti|nove|otto|due|tre)\\b",
+     "options": {
+      "due": [
+       "tre",
+       "quattro",
+       "cinque"
+      ],
+      "tre": [
+       "due",
+       "quattro",
+       "cinque"
+      ],
+      "quattro": [
+       "tre",
+       "cinque",
+       "due"
+      ],
+      "cinque": [
+       "quattro",
+       "sei",
+       "tre"
+      ],
+      "sette": [
+       "sei",
+       "otto",
+       "cinque"
+      ],
+      "otto": [
+       "sette",
+       "nove",
+       "sei"
+      ],
+      "nove": [
+       "otto",
+       "dieci",
+       "sette"
+      ],
+      "dieci": [
+       "nove",
+       "undici",
+       "otto"
+      ],
+      "undici": [
+       "dieci",
+       "dodici",
+       "nove"
+      ],
+      "dodici": [
+       "undici",
+       "tredici",
+       "dieci"
+      ],
+      "tredici": [
+       "dodici",
+       "quattordici",
+       "undici"
+      ],
+      "quattordici": [
+       "tredici",
+       "quindici",
+       "dodici"
+      ],
+      "quindici": [
+       "quattordici",
+       "sedici",
+       "tredici"
+      ],
+      "sedici": [
+       "quindici",
+       "diciassette",
+       "quattordici"
+      ],
+      "diciassette": [
+       "sedici",
+       "diciotto",
+       "quindici"
+      ],
+      "diciotto": [
+       "diciassette",
+       "diciannove",
+       "sedici"
+      ],
+      "diciannove": [
+       "diciotto",
+       "venti",
+       "diciassette"
+      ],
+      "venti": [
+       "diciannove",
+       "ventuno",
+       "diciotto"
+      ],
+      "ventuno": [
+       "venti",
+       "ventidue",
+       "diciannove"
+      ],
+      "ventidue": [
+       "ventuno",
+       "ventitré",
+       "venti"
+      ],
+      "ventitré": [
+       "ventidue",
+       "ventiquattro",
+       "ventuno"
+      ],
+      "ventiquattro": [
+       "ventitré",
+       "venticinque",
+       "ventidue"
+      ],
+      "venticinque": [
+       "ventiquattro",
+       "ventisei",
+       "ventitré"
+      ],
+      "ventisei": [
+       "venticinque",
+       "ventisette",
+       "ventiquattro"
+      ],
+      "ventisette": [
+       "ventisei",
+       "ventotto",
+       "venticinque"
+      ],
+      "ventotto": [
+       "ventisette",
+       "ventinove",
+       "ventisei"
+      ],
+      "ventinove": [
+       "ventotto",
+       "trenta",
+       "ventisette"
+      ],
+      "trenta": [
+       "ventinove",
+       "trentuno",
+       "ventotto"
+      ],
+      "trentuno": [
+       "trenta",
+       "trentadue",
+       "ventinove"
+      ],
+      "trentadue": [
+       "trentuno",
+       "trentatré",
+       "trenta"
+      ],
+      "trentatré": [
+       "trentadue",
+       "trentaquattro",
+       "trentuno"
+      ],
+      "trentaquattro": [
+       "trentatré",
+       "trentacinque",
+       "trentadue"
+      ],
+      "trentacinque": [
+       "trentaquattro",
+       "trentasei",
+       "trentatré"
+      ],
+      "trentasei": [
+       "trentacinque",
+       "trentasette",
+       "trentaquattro"
+      ],
+      "trentasette": [
+       "trentasei",
+       "trentotto",
+       "trentacinque"
+      ],
+      "trentotto": [
+       "trentasette",
+       "trentanove",
+       "trentasei"
+      ],
+      "trentanove": [
+       "trentotto",
+       "quaranta",
+       "trentasette"
+      ],
+      "quaranta": [
+       "trentanove",
+       "quarantuno",
+       "trentotto"
+      ],
+      "quarantuno": [
+       "quaranta",
+       "quarantadue",
+       "trentanove"
+      ],
+      "quarantadue": [
+       "quarantuno",
+       "quarantatré",
+       "quaranta"
+      ],
+      "quarantatré": [
+       "quarantadue",
+       "quarantaquattro",
+       "quarantuno"
+      ],
+      "quarantaquattro": [
+       "quarantatré",
+       "quarantacinque",
+       "quarantadue"
+      ],
+      "quarantacinque": [
+       "quarantaquattro",
+       "quarantasei",
+       "quarantatré"
+      ],
+      "quarantasei": [
+       "quarantacinque",
+       "quarantasette",
+       "quarantaquattro"
+      ],
+      "quarantasette": [
+       "quarantasei",
+       "quarantotto",
+       "quarantacinque"
+      ],
+      "quarantotto": [
+       "quarantasette",
+       "quarantanove",
+       "quarantasei"
+      ],
+      "quarantanove": [
+       "quarantotto",
+       "cinquanta",
+       "quarantasette"
+      ],
+      "cinquanta": [
+       "quarantanove",
+       "cinquantuno",
+       "quarantotto"
+      ],
+      "cinquantuno": [
+       "cinquanta",
+       "cinquantadue",
+       "quarantanove"
+      ],
+      "cinquantadue": [
+       "cinquantuno",
+       "cinquantatré",
+       "cinquanta"
+      ],
+      "cinquantatré": [
+       "cinquantadue",
+       "cinquantaquattro",
+       "cinquantuno"
+      ],
+      "cinquantaquattro": [
+       "cinquantatré",
+       "cinquantacinque",
+       "cinquantadue"
+      ],
+      "cinquantacinque": [
+       "cinquantaquattro",
+       "cinquantasei",
+       "cinquantatré"
+      ],
+      "cinquantasei": [
+       "cinquantacinque",
+       "cinquantasette",
+       "cinquantaquattro"
+      ],
+      "cinquantasette": [
+       "cinquantasei",
+       "cinquantotto",
+       "cinquantacinque"
+      ],
+      "cinquantotto": [
+       "cinquantasette",
+       "cinquantanove",
+       "cinquantasei"
+      ],
+      "cinquantanove": [
+       "cinquantotto",
+       "sessanta",
+       "cinquantasette"
+      ],
+      "sessanta": [
+       "cinquantanove",
+       "sessantuno",
+       "cinquantotto"
+      ],
+      "sessantuno": [
+       "sessanta",
+       "sessantadue",
+       "cinquantanove"
+      ],
+      "sessantadue": [
+       "sessantuno",
+       "sessantatré",
+       "sessanta"
+      ],
+      "sessantatré": [
+       "sessantadue",
+       "sessantaquattro",
+       "sessantuno"
+      ],
+      "sessantaquattro": [
+       "sessantatré",
+       "sessantacinque",
+       "sessantadue"
+      ],
+      "sessantacinque": [
+       "sessantaquattro",
+       "sessantasei",
+       "sessantatré"
+      ],
+      "sessantasei": [
+       "sessantacinque",
+       "sessantasette",
+       "sessantaquattro"
+      ],
+      "sessantasette": [
+       "sessantasei",
+       "sessantotto",
+       "sessantacinque"
+      ],
+      "sessantotto": [
+       "sessantasette",
+       "sessantanove",
+       "sessantasei"
+      ],
+      "sessantanove": [
+       "sessantotto",
+       "settanta",
+       "sessantasette"
+      ],
+      "settanta": [
+       "sessantanove",
+       "settantuno",
+       "sessantotto"
+      ],
+      "settantuno": [
+       "settanta",
+       "settantadue",
+       "sessantanove"
+      ],
+      "settantadue": [
+       "settantuno",
+       "settantatré",
+       "settanta"
+      ],
+      "settantatré": [
+       "settantadue",
+       "settantaquattro",
+       "settantuno"
+      ],
+      "settantaquattro": [
+       "settantatré",
+       "settantacinque",
+       "settantadue"
+      ],
+      "settantacinque": [
+       "settantaquattro",
+       "settantasei",
+       "settantatré"
+      ],
+      "settantasei": [
+       "settantacinque",
+       "settantasette",
+       "settantaquattro"
+      ],
+      "settantasette": [
+       "settantasei",
+       "settantotto",
+       "settantacinque"
+      ],
+      "settantotto": [
+       "settantasette",
+       "settantanove",
+       "settantasei"
+      ],
+      "settantanove": [
+       "settantotto",
+       "ottanta",
+       "settantasette"
+      ],
+      "ottanta": [
+       "settantanove",
+       "ottantuno",
+       "settantotto"
+      ],
+      "ottantuno": [
+       "ottanta",
+       "ottantadue",
+       "settantanove"
+      ],
+      "ottantadue": [
+       "ottantuno",
+       "ottantatré",
+       "ottanta"
+      ],
+      "ottantatré": [
+       "ottantadue",
+       "ottantaquattro",
+       "ottantuno"
+      ],
+      "ottantaquattro": [
+       "ottantatré",
+       "ottantacinque",
+       "ottantadue"
+      ],
+      "ottantacinque": [
+       "ottantaquattro",
+       "ottantasei",
+       "ottantatré"
+      ],
+      "ottantasei": [
+       "ottantacinque",
+       "ottantasette",
+       "ottantaquattro"
+      ],
+      "ottantasette": [
+       "ottantasei",
+       "ottantotto",
+       "ottantacinque"
+      ],
+      "ottantotto": [
+       "ottantasette",
+       "ottantanove",
+       "ottantasei"
+      ],
+      "ottantanove": [
+       "ottantotto",
+       "novanta",
+       "ottantasette"
+      ],
+      "novanta": [
+       "ottantanove",
+       "novantuno",
+       "ottantotto"
+      ],
+      "novantuno": [
+       "novanta",
+       "novantadue",
+       "ottantanove"
+      ],
+      "novantadue": [
+       "novantuno",
+       "novantatré",
+       "novanta"
+      ],
+      "novantatré": [
+       "novantadue",
+       "novantaquattro",
+       "novantuno"
+      ],
+      "novantaquattro": [
+       "novantatré",
+       "novantacinque",
+       "novantadue"
+      ],
+      "novantacinque": [
+       "novantaquattro",
+       "novantasei",
+       "novantatré"
+      ],
+      "novantasei": [
+       "novantacinque",
+       "novantasette",
+       "novantaquattro"
+      ],
+      "novantasette": [
+       "novantasei",
+       "novantotto",
+       "novantacinque"
+      ],
+      "novantotto": [
+       "novantasette",
+       "novantanove",
+       "novantasei"
+      ],
+      "novantanove": [
+       "novantotto",
+       "cento",
+       "novantasette"
+      ],
+      "cento": [
+       "novantanove",
+       "novantotto",
+       "novantasette"
+      ],
+      "duecento": [
+       "cento",
+       "trecento",
+       "novantanove"
+      ],
+      "trecento": [
+       "duecento",
+       "quattrocento",
+       "cento"
+      ],
+      "quattrocento": [
+       "trecento",
+       "cinquecento",
+       "duecento"
+      ],
+      "cinquecento": [
+       "quattrocento",
+       "seicento",
+       "trecento"
+      ],
+      "seicento": [
+       "cinquecento",
+       "settecento",
+       "quattrocento"
+      ],
+      "settecento": [
+       "seicento",
+       "ottocento",
+       "cinquecento"
+      ],
+      "ottocento": [
+       "settecento",
+       "novecento",
+       "seicento"
+      ],
+      "novecento": [
+       "ottocento",
+       "mille",
+       "settecento"
+      ],
+      "mille": [
+       "novecento",
+       "ottocento",
+       "settecento"
+      ],
+      "duemila": [
+       "mille",
+       "tremila",
+       "novecento"
+      ],
+      "tremila": [
+       "duemila",
+       "quattromila",
+       "mille"
+      ],
+      "quattromila": [
+       "tremila",
+       "cinquemila",
+       "duemila"
+      ],
+      "cinquemila": [
+       "quattromila",
+       "seimila",
+       "tremila"
+      ],
+      "seimila": [
+       "cinquemila",
+       "settemila",
+       "quattromila"
+      ],
+      "settemila": [
+       "seimila",
+       "ottomila",
+       "cinquemila"
+      ],
+      "ottomila": [
+       "settemila",
+       "novemila",
+       "seimila"
+      ],
+      "novemila": [
+       "ottomila",
+       "diecimila",
+       "settemila"
+      ],
+      "diecimila": [
+       "novemila",
+       "ottomila",
+       "settemila"
+      ],
+      "centomila": [
+       "diecimila",
+       "novemila",
+       "ottomila"
+      ],
+      "milione": [
+       "miliardo",
+       "mille",
+       "cento"
+      ],
+      "milioni": [
+       "miliardi",
+       "mille",
+       "cento"
+      ],
+      "miliardo": [
+       "milione",
+       "mille",
+       "cento"
+      ],
+      "miliardi": [
+       "milioni",
+       "mille",
+       "cento"
+      ]
+     },
+     "exclude": "(?-i:\\bOtto\\b)|\\bper\\s+cento\\b(?=.*\\b(?:sono|è)\\s+d'accordo)"
+    },
+    {
+     "id": "cores",
+     "name": "Cores",
+     "desc": "Rosso, nero, bianco, giallo, verde, blu... Os terminados em -o variam (rosso/rossa/rossi/rosse); verde e blu, não. Ex.: «una macchina rossa».",
+     "pattern": "\\b(?P<w>arancione|arancioni|azzurra|azzurre|azzurri|azzurro|bianche|bianchi|marrone|marroni|bianca|bianco|gialla|gialle|gialli|giallo|grigia|grigie|grigio|grigi|rossa|rosse|rossi|rosso|verde|verdi|nera|nere|neri|nero|blu)\\b",
+     "options": {
+      "rosso": [
+       "nero",
+       "giallo",
+       "azzurro"
+      ],
+      "nero": [
+       "bianco",
+       "grigio",
+       "rosso"
+      ],
+      "bianco": [
+       "giallo",
+       "azzurro",
+       "nero"
+      ],
+      "giallo": [
+       "grigio",
+       "rosso",
+       "bianco"
+      ],
+      "grigio": [
+       "azzurro",
+       "nero",
+       "giallo"
+      ],
+      "azzurro": [
+       "rosso",
+       "bianco",
+       "grigio"
+      ],
+      "rossa": [
+       "nera",
+       "gialla",
+       "azzurra"
+      ],
+      "nera": [
+       "bianca",
+       "grigia",
+       "rossa"
+      ],
+      "bianca": [
+       "gialla",
+       "azzurra",
+       "nera"
+      ],
+      "gialla": [
+       "grigia",
+       "rossa",
+       "bianca"
+      ],
+      "grigia": [
+       "azzurra",
+       "nera",
+       "gialla"
+      ],
+      "azzurra": [
+       "rossa",
+       "bianca",
+       "grigia"
+      ],
+      "rossi": [
+       "neri",
+       "gialli",
+       "azzurri"
+      ],
+      "neri": [
+       "bianchi",
+       "grigi",
+       "rossi"
+      ],
+      "bianchi": [
+       "gialli",
+       "azzurri",
+       "neri"
+      ],
+      "gialli": [
+       "grigi",
+       "rossi",
+       "bianchi"
+      ],
+      "grigi": [
+       "azzurri",
+       "neri",
+       "gialli"
+      ],
+      "azzurri": [
+       "rossi",
+       "bianchi",
+       "grigi"
+      ],
+      "rosse": [
+       "nere",
+       "gialle",
+       "azzurre"
+      ],
+      "nere": [
+       "bianche",
+       "grigie",
+       "rosse"
+      ],
+      "bianche": [
+       "gialle",
+       "azzurre",
+       "nere"
+      ],
+      "gialle": [
+       "grigie",
+       "rosse",
+       "bianche"
+      ],
+      "grigie": [
+       "azzurre",
+       "nere",
+       "gialle"
+      ],
+      "azzurre": [
+       "rosse",
+       "bianche",
+       "grigie"
+      ],
+      "verde": [
+       "blu",
+       "marrone",
+       "arancione"
+      ],
+      "blu": [
+       "verde",
+       "marrone",
+       "arancione"
+      ],
+      "marrone": [
+       "verde",
+       "blu",
+       "arancione"
+      ],
+      "arancione": [
+       "verde",
+       "blu",
+       "marrone"
+      ],
+      "verdi": [
+       "marroni",
+       "arancioni",
+       "blu"
+      ],
+      "marroni": [
+       "verdi",
+       "arancioni",
+       "blu"
+      ],
+      "arancioni": [
+       "verdi",
+       "marroni",
+       "blu"
+      ]
+     },
+     "exclude": "(?-i:\\b(?:Rossi|Bianchi|Neri|Bianca|Bianco|Verdi|Rosso|Grigio)\\b(?<!^Rosso)(?<!^Bianco))|\\bnero\\s+su\\s+bianco\\b|\\bvino\\s+(?:rosso|bianco)\\b(?=.*\\bvino\\s+(?:rosso|bianco))|\\b(?:carta|libro|casa)\\s+bianca\\b(?=.*Casa Bianca)"
+    },
+    {
+     "id": "dias",
+     "name": "Dias, meses e estações",
+     "desc": "Lunedì, martedì... gennaio, febbraio... primavera, estate, autunno, inverno. Em italiano são escritos com minúscula. Ex.: «Ci vediamo sabato».",
+     "pattern": "\\b(?P<w>mercoledì|primavera|settembre|dicembre|domenica|febbraio|novembre|autunno|gennaio|giovedì|inverno|martedì|ottobre|venerdì|agosto|aprile|estate|giugno|luglio|lunedì|maggio|sabato|marzo)\\b",
+     "options": {
+      "lunedì": [
+       "martedì",
+       "giovedì",
+       "sabato"
+      ],
+      "martedì": [
+       "mercoledì",
+       "venerdì",
+       "domenica"
+      ],
+      "mercoledì": [
+       "giovedì",
+       "sabato",
+       "lunedì"
+      ],
+      "giovedì": [
+       "venerdì",
+       "domenica",
+       "martedì"
+      ],
+      "venerdì": [
+       "sabato",
+       "lunedì",
+       "mercoledì"
+      ],
+      "sabato": [
+       "domenica",
+       "martedì",
+       "giovedì"
+      ],
+      "domenica": [
+       "lunedì",
+       "mercoledì",
+       "venerdì"
+      ],
+      "gennaio": [
+       "febbraio",
+       "aprile",
+       "giugno"
+      ],
+      "febbraio": [
+       "marzo",
+       "maggio",
+       "luglio"
+      ],
+      "marzo": [
+       "aprile",
+       "giugno",
+       "agosto"
+      ],
+      "aprile": [
+       "maggio",
+       "luglio",
+       "settembre"
+      ],
+      "maggio": [
+       "giugno",
+       "agosto",
+       "ottobre"
+      ],
+      "giugno": [
+       "luglio",
+       "settembre",
+       "novembre"
+      ],
+      "luglio": [
+       "agosto",
+       "ottobre",
+       "dicembre"
+      ],
+      "agosto": [
+       "settembre",
+       "novembre",
+       "gennaio"
+      ],
+      "settembre": [
+       "ottobre",
+       "dicembre",
+       "febbraio"
+      ],
+      "ottobre": [
+       "novembre",
+       "gennaio",
+       "marzo"
+      ],
+      "novembre": [
+       "dicembre",
+       "febbraio",
+       "aprile"
+      ],
+      "dicembre": [
+       "gennaio",
+       "marzo",
+       "maggio"
+      ],
+      "primavera": [
+       "estate",
+       "inverno",
+       "autunno"
+      ],
+      "estate": [
+       "autunno",
+       "primavera",
+       "inverno"
+      ],
+      "autunno": [
+       "inverno",
+       "estate",
+       "primavera"
+      ],
+      "inverno": [
+       "primavera",
+       "autunno",
+       "estate"
+      ]
+     }
+    },
+    {
+     "id": "familia",
+     "name": "Família",
+     "desc": "Padre, madre, fratello, sorella, figlio, nonno, zio, marito, moglie... Ex.: «Mia sorella ha due figli».",
+     "pattern": "\\b(?P<w>fratelli|fratello|genitori|cognata|cognato|sorella|sorelle|suocera|suocero|cugina|cugine|cugini|cugino|figlia|figlie|figlio|mariti|marito|moglie|figli|madre|mamma|mogli|nonna|nonne|nonni|nonno|padre|papà|zia|zie|zii|zio)\\b",
+     "options": {
+      "padre": [
+       "figlio",
+       "nonno",
+       "cugino"
+      ],
+      "figlio": [
+       "fratello",
+       "zio",
+       "marito"
+      ],
+      "fratello": [
+       "nonno",
+       "cugino",
+       "suocero"
+      ],
+      "nonno": [
+       "zio",
+       "marito",
+       "cognato"
+      ],
+      "zio": [
+       "cugino",
+       "suocero",
+       "padre"
+      ],
+      "cugino": [
+       "marito",
+       "cognato",
+       "figlio"
+      ],
+      "marito": [
+       "suocero",
+       "padre",
+       "fratello"
+      ],
+      "suocero": [
+       "cognato",
+       "figlio",
+       "nonno"
+      ],
+      "cognato": [
+       "padre",
+       "fratello",
+       "zio"
+      ],
+      "madre": [
+       "figlia",
+       "nonna",
+       "cugina"
+      ],
+      "figlia": [
+       "sorella",
+       "zia",
+       "moglie"
+      ],
+      "sorella": [
+       "nonna",
+       "cugina",
+       "suocera"
+      ],
+      "nonna": [
+       "zia",
+       "moglie",
+       "cognata"
+      ],
+      "zia": [
+       "cugina",
+       "suocera",
+       "madre"
+      ],
+      "cugina": [
+       "moglie",
+       "cognata",
+       "figlia"
+      ],
+      "moglie": [
+       "suocera",
+       "madre",
+       "sorella"
+      ],
+      "suocera": [
+       "cognata",
+       "figlia",
+       "nonna"
+      ],
+      "cognata": [
+       "madre",
+       "sorella",
+       "zia"
+      ],
+      "genitori": [
+       "figli",
+       "nonni",
+       "cugini"
+      ],
+      "figli": [
+       "fratelli",
+       "zii",
+       "mariti"
+      ],
+      "fratelli": [
+       "nonni",
+       "cugini",
+       "genitori"
+      ],
+      "nonni": [
+       "zii",
+       "mariti",
+       "figli"
+      ],
+      "zii": [
+       "cugini",
+       "genitori",
+       "fratelli"
+      ],
+      "cugini": [
+       "mariti",
+       "figli",
+       "nonni"
+      ],
+      "mariti": [
+       "genitori",
+       "fratelli",
+       "zii"
+      ],
+      "figlie": [
+       "sorelle",
+       "zie",
+       "mogli"
+      ],
+      "sorelle": [
+       "nonne",
+       "cugine",
+       "figlie"
+      ],
+      "nonne": [
+       "zie",
+       "mogli",
+       "sorelle"
+      ],
+      "zie": [
+       "cugine",
+       "figlie",
+       "nonne"
+      ],
+      "cugine": [
+       "mogli",
+       "sorelle",
+       "zie"
+      ],
+      "mogli": [
+       "figlie",
+       "nonne",
+       "cugine"
+      ],
+      "papà": [
+       "mamma",
+       "nonno",
+       "zio"
+      ],
+      "mamma": [
+       "papà",
+       "nonna",
+       "zia"
+      ]
+     },
+     "exclude": "(?-i:\\bPadre\\s+[A-Z])|\\bpadre\\s+nostro\\b"
+    },
+    {
+     "id": "corpo",
+     "name": "Corpo humano",
+     "desc": "Testa, occhi, naso, bocca, mano, braccio, gamba, piede... Atenção aos plurais irregulares: la mano → le mani, il braccio → le braccia.",
+     "pattern": "\\b(?P<w>ginocchia|ginocchio|caviglia|cervello|orecchie|orecchio|braccia|braccio|capelli|muscoli|polmoni|schiena|stomaco|gomiti|labbra|labbro|occhio|pancia|spalla|spalle|unghia|unghie|bocca|collo|cuore|dente|denti|gamba|gambe|occhi|pelle|petto|piede|piedi|testa|dita|dito|gola|mani|mano|naso|ossa|viso)\\b",
+     "options": {
+      "naso": [
+       "collo",
+       "dito",
+       "ginocchio"
+      ],
+      "collo": [
+       "braccio",
+       "piede",
+       "cuore"
+      ],
+      "braccio": [
+       "dito",
+       "ginocchio",
+       "stomaco"
+      ],
+      "dito": [
+       "piede",
+       "cuore",
+       "viso"
+      ],
+      "piede": [
+       "ginocchio",
+       "stomaco",
+       "dente"
+      ],
+      "ginocchio": [
+       "cuore",
+       "viso",
+       "occhio"
+      ],
+      "cuore": [
+       "stomaco",
+       "dente",
+       "orecchio"
+      ],
+      "stomaco": [
+       "viso",
+       "occhio",
+       "petto"
+      ],
+      "viso": [
+       "dente",
+       "orecchio",
+       "cervello"
+      ],
+      "dente": [
+       "occhio",
+       "petto",
+       "labbro"
+      ],
+      "occhio": [
+       "orecchio",
+       "cervello",
+       "naso"
+      ],
+      "orecchio": [
+       "petto",
+       "labbro",
+       "collo"
+      ],
+      "petto": [
+       "cervello",
+       "naso",
+       "braccio"
+      ],
+      "cervello": [
+       "labbro",
+       "collo",
+       "dito"
+      ],
+      "labbro": [
+       "naso",
+       "braccio",
+       "piede"
+      ],
+      "testa": [
+       "bocca",
+       "gamba",
+       "schiena"
+      ],
+      "bocca": [
+       "mano",
+       "spalla",
+       "pancia"
+      ],
+      "mano": [
+       "gamba",
+       "schiena",
+       "pelle"
+      ],
+      "gamba": [
+       "spalla",
+       "pancia",
+       "gola"
+      ],
+      "spalla": [
+       "schiena",
+       "pelle",
+       "caviglia"
+      ],
+      "schiena": [
+       "pancia",
+       "gola",
+       "unghia"
+      ],
+      "pancia": [
+       "pelle",
+       "caviglia",
+       "testa"
+      ],
+      "pelle": [
+       "gola",
+       "unghia",
+       "bocca"
+      ],
+      "gola": [
+       "caviglia",
+       "testa",
+       "mano"
+      ],
+      "caviglia": [
+       "unghia",
+       "bocca",
+       "gamba"
+      ],
+      "unghia": [
+       "testa",
+       "mano",
+       "spalla"
+      ],
+      "occhi": [
+       "denti",
+       "capelli",
+       "gomiti"
+      ],
+      "denti": [
+       "piedi",
+       "polmoni",
+       "muscoli"
+      ],
+      "piedi": [
+       "capelli",
+       "gomiti",
+       "occhi"
+      ],
+      "capelli": [
+       "polmoni",
+       "muscoli",
+       "denti"
+      ],
+      "polmoni": [
+       "gomiti",
+       "occhi",
+       "piedi"
+      ],
+      "gomiti": [
+       "muscoli",
+       "denti",
+       "capelli"
+      ],
+      "muscoli": [
+       "occhi",
+       "piedi",
+       "polmoni"
+      ],
+      "mani": [
+       "gambe",
+       "dita",
+       "spalle"
+      ],
+      "gambe": [
+       "braccia",
+       "orecchie",
+       "labbra"
+      ],
+      "braccia": [
+       "dita",
+       "spalle",
+       "ginocchia"
+      ],
+      "dita": [
+       "orecchie",
+       "labbra",
+       "unghie"
+      ],
+      "orecchie": [
+       "spalle",
+       "ginocchia",
+       "ossa"
+      ],
+      "spalle": [
+       "labbra",
+       "unghie",
+       "mani"
+      ],
+      "labbra": [
+       "ginocchia",
+       "ossa",
+       "gambe"
+      ],
+      "ginocchia": [
+       "unghie",
+       "mani",
+       "braccia"
+      ],
+      "unghie": [
+       "ossa",
+       "gambe",
+       "dita"
+      ],
+      "ossa": [
+       "mani",
+       "braccia",
+       "orecchie"
+      ]
+     },
+     "exclude": "\\bdi\\s+seconda\\s+mano\\b|\\bchiuso\\s+occhio\\b|^occhio\\b|\\ba\\s+occhio\\s+nudo\\b|\\bin\\s+piedi\\b|\\bdi\\s+cuore\\b|\\bin\\s+bocca\\s+al\\s+lupo\\b|\\bmettere\\s+mano\\b|\\bdare\\s+una\\s+mano\\b|\\buna\\s+mano\\b(?=\\s+a\\b)|\\bdi\\s+testa\\s+sua\\b|\\bfare\\s+a\\s+meno\\b"
+    },
+    {
+     "id": "roupas",
+     "name": "Roupas",
+     "desc": "Camicia, pantaloni, gonna, scarpe, cappello, giacca, vestito... Ex.: «Mi piacciono le tue scarpe».",
+     "pattern": "\\b(?P<w>pantaloncini|giubbotto|maglietta|magliette|pantaloni|cappelli|cappello|cappotti|cappotto|cravatta|cravatte|maglione|maglioni|occhiali|calzini|calzino|camicia|camicie|cintura|giacche|pigiama|sandali|sciarpa|sciarpe|stivale|stivali|vestiti|vestito|giacca|guanti|guanto|maglia|scarpa|scarpe|borsa|borse|calza|calze|felpa|gonna|gonne|jeans)\\b",
+     "options": {
+      "cappello": [
+       "cappotto",
+       "vestito",
+       "pigiama"
+      ],
+      "cappotto": [
+       "maglione",
+       "giubbotto",
+       "guanto"
+      ],
+      "maglione": [
+       "vestito",
+       "pigiama",
+       "calzino"
+      ],
+      "vestito": [
+       "giubbotto",
+       "guanto",
+       "stivale"
+      ],
+      "giubbotto": [
+       "pigiama",
+       "calzino",
+       "cappello"
+      ],
+      "pigiama": [
+       "guanto",
+       "stivale",
+       "cappotto"
+      ],
+      "guanto": [
+       "calzino",
+       "cappello",
+       "maglione"
+      ],
+      "calzino": [
+       "stivale",
+       "cappotto",
+       "vestito"
+      ],
+      "stivale": [
+       "cappello",
+       "maglione",
+       "giubbotto"
+      ],
+      "camicia": [
+       "maglietta",
+       "giacca",
+       "sciarpa"
+      ],
+      "maglietta": [
+       "gonna",
+       "cravatta",
+       "cintura"
+      ],
+      "gonna": [
+       "giacca",
+       "sciarpa",
+       "borsa"
+      ],
+      "giacca": [
+       "cravatta",
+       "cintura",
+       "felpa"
+      ],
+      "cravatta": [
+       "sciarpa",
+       "borsa",
+       "scarpa"
+      ],
+      "sciarpa": [
+       "cintura",
+       "felpa",
+       "maglia"
+      ],
+      "cintura": [
+       "borsa",
+       "scarpa",
+       "calza"
+      ],
+      "borsa": [
+       "felpa",
+       "maglia",
+       "camicia"
+      ],
+      "felpa": [
+       "scarpa",
+       "calza",
+       "maglietta"
+      ],
+      "scarpa": [
+       "maglia",
+       "camicia",
+       "gonna"
+      ],
+      "maglia": [
+       "calza",
+       "maglietta",
+       "giacca"
+      ],
+      "calza": [
+       "camicia",
+       "gonna",
+       "cravatta"
+      ],
+      "pantaloni": [
+       "cappelli",
+       "calzini",
+       "vestiti"
+      ],
+      "cappelli": [
+       "guanti",
+       "stivali",
+       "occhiali"
+      ],
+      "guanti": [
+       "calzini",
+       "vestiti",
+       "sandali"
+      ],
+      "calzini": [
+       "stivali",
+       "occhiali",
+       "pantaloncini"
+      ],
+      "stivali": [
+       "vestiti",
+       "sandali",
+       "maglioni"
+      ],
+      "vestiti": [
+       "occhiali",
+       "pantaloncini",
+       "cappotti"
+      ],
+      "occhiali": [
+       "sandali",
+       "maglioni",
+       "jeans"
+      ],
+      "sandali": [
+       "pantaloncini",
+       "cappotti",
+       "pantaloni"
+      ],
+      "pantaloncini": [
+       "maglioni",
+       "jeans",
+       "cappelli"
+      ],
+      "maglioni": [
+       "cappotti",
+       "pantaloni",
+       "guanti"
+      ],
+      "cappotti": [
+       "jeans",
+       "cappelli",
+       "calzini"
+      ],
+      "jeans": [
+       "pantaloni",
+       "guanti",
+       "stivali"
+      ],
+      "scarpe": [
+       "camicie",
+       "giacche",
+       "calze"
+      ],
+      "camicie": [
+       "gonne",
+       "cravatte",
+       "magliette"
+      ],
+      "gonne": [
+       "giacche",
+       "calze",
+       "borse"
+      ],
+      "giacche": [
+       "cravatte",
+       "magliette",
+       "sciarpe"
+      ],
+      "cravatte": [
+       "calze",
+       "borse",
+       "scarpe"
+      ],
+      "calze": [
+       "magliette",
+       "sciarpe",
+       "camicie"
+      ],
+      "magliette": [
+       "borse",
+       "scarpe",
+       "gonne"
+      ],
+      "borse": [
+       "sciarpe",
+       "camicie",
+       "giacche"
+      ],
+      "sciarpe": [
+       "scarpe",
+       "gonne",
+       "cravatte"
+      ]
+     },
+     "exclude": "\\b(?:è|sono|era|erano|ero|eri|siamo|siete|sei|essere|stato|stata|stati|state|ben|mal|vi|ti|mi|si|ci|sarà|sarò)\\s+(?:\\w+\\s+)?vestit[oaie]\\b|\\bvestit[oaie]\\s+(?:di|da|come|bene|male|così|elegante|in)\\b|^Vestiti\\b|\\bborsa\\s+(?:di\\s+studio|valori)\\b|(?-i:\\bBorsa\\b)"
+    },
+    {
+     "id": "animais",
+     "name": "Animais",
+     "desc": "Cane, gatto, cavallo, uccello, pesce, mucca, topo... Ex.: «Ho un cane e due gatti».",
+     "pattern": "\\b(?P<w>coccodrillo|pappagallo|tartarughe|lucertola|tartaruga|cammello|coniglio|elefante|elefanti|farfalla|farfalle|formiche|serpente|serpenti|cavalli|cavallo|conigli|criceto|delfini|delfino|formica|gallina|galline|giraffa|giraffe|insetti|insetto|scimmia|scimmie|uccelli|uccello|zanzara|zanzare|anatra|anatre|balena|balene|maiale|maiali|mosche|mucche|pecora|pecore|squali|squalo|asini|asino|capra|capre|gallo|gatta|gatti|gatto|leone|leoni|mosca|mucca|pesce|pesci|ragni|ragno|tigre|tigri|volpe|volpi|zebra|cane|cani|lupi|lupo|orsi|orso|rana|rane|topi|topo|tori|toro|ape|api)\\b",
+     "options": {
+      "cane": [
+       "gatto",
+       "uccello",
+       "topo"
+      ],
+      "gatto": [
+       "cavallo",
+       "pesce",
+       "maiale"
+      ],
+      "cavallo": [
+       "uccello",
+       "topo",
+       "leone"
+      ],
+      "uccello": [
+       "pesce",
+       "maiale",
+       "elefante"
+      ],
+      "pesce": [
+       "topo",
+       "leone",
+       "orso"
+      ],
+      "topo": [
+       "maiale",
+       "elefante",
+       "lupo"
+      ],
+      "maiale": [
+       "leone",
+       "orso",
+       "coniglio"
+      ],
+      "leone": [
+       "elefante",
+       "lupo",
+       "serpente"
+      ],
+      "elefante": [
+       "orso",
+       "coniglio",
+       "delfino"
+      ],
+      "orso": [
+       "lupo",
+       "serpente",
+       "squalo"
+      ],
+      "lupo": [
+       "coniglio",
+       "delfino",
+       "insetto"
+      ],
+      "coniglio": [
+       "serpente",
+       "squalo",
+       "ragno"
+      ],
+      "serpente": [
+       "delfino",
+       "insetto",
+       "toro"
+      ],
+      "delfino": [
+       "squalo",
+       "ragno",
+       "asino"
+      ],
+      "squalo": [
+       "insetto",
+       "toro",
+       "gallo"
+      ],
+      "insetto": [
+       "ragno",
+       "asino",
+       "pappagallo"
+      ],
+      "ragno": [
+       "toro",
+       "gallo",
+       "criceto"
+      ],
+      "toro": [
+       "asino",
+       "pappagallo",
+       "coccodrillo"
+      ],
+      "asino": [
+       "gallo",
+       "criceto",
+       "cammello"
+      ],
+      "gallo": [
+       "pappagallo",
+       "coccodrillo",
+       "cane"
+      ],
+      "pappagallo": [
+       "criceto",
+       "cammello",
+       "gatto"
+      ],
+      "criceto": [
+       "coccodrillo",
+       "cane",
+       "cavallo"
+      ],
+      "coccodrillo": [
+       "cammello",
+       "gatto",
+       "uccello"
+      ],
+      "cammello": [
+       "cane",
+       "cavallo",
+       "pesce"
+      ],
+      "gatta": [
+       "mucca",
+       "tigre",
+       "volpe"
+      ],
+      "mucca": [
+       "pecora",
+       "scimmia",
+       "ape"
+      ],
+      "pecora": [
+       "tigre",
+       "volpe",
+       "mosca"
+      ],
+      "tigre": [
+       "scimmia",
+       "ape",
+       "farfalla"
+      ],
+      "scimmia": [
+       "volpe",
+       "mosca",
+       "gallina"
+      ],
+      "volpe": [
+       "ape",
+       "farfalla",
+       "anatra"
+      ],
+      "ape": [
+       "mosca",
+       "gallina",
+       "rana"
+      ],
+      "mosca": [
+       "farfalla",
+       "anatra",
+       "tartaruga"
+      ],
+      "farfalla": [
+       "gallina",
+       "rana",
+       "balena"
+      ],
+      "gallina": [
+       "anatra",
+       "tartaruga",
+       "zanzara"
+      ],
+      "anatra": [
+       "rana",
+       "balena",
+       "formica"
+      ],
+      "rana": [
+       "tartaruga",
+       "zanzara",
+       "capra"
+      ],
+      "tartaruga": [
+       "balena",
+       "formica",
+       "giraffa"
+      ],
+      "balena": [
+       "zanzara",
+       "capra",
+       "zebra"
+      ],
+      "zanzara": [
+       "formica",
+       "giraffa",
+       "lucertola"
+      ],
+      "formica": [
+       "capra",
+       "zebra",
+       "gatta"
+      ],
+      "capra": [
+       "giraffa",
+       "lucertola",
+       "mucca"
+      ],
+      "giraffa": [
+       "zebra",
+       "gatta",
+       "pecora"
+      ],
+      "zebra": [
+       "lucertola",
+       "mucca",
+       "tigre"
+      ],
+      "lucertola": [
+       "gatta",
+       "pecora",
+       "scimmia"
+      ],
+      "cani": [
+       "gatti",
+       "uccelli",
+       "topi"
+      ],
+      "gatti": [
+       "cavalli",
+       "pesci",
+       "maiali"
+      ],
+      "cavalli": [
+       "uccelli",
+       "topi",
+       "leoni"
+      ],
+      "uccelli": [
+       "pesci",
+       "maiali",
+       "elefanti"
+      ],
+      "pesci": [
+       "topi",
+       "leoni",
+       "orsi"
+      ],
+      "topi": [
+       "maiali",
+       "elefanti",
+       "lupi"
+      ],
+      "maiali": [
+       "leoni",
+       "orsi",
+       "conigli"
+      ],
+      "leoni": [
+       "elefanti",
+       "lupi",
+       "serpenti"
+      ],
+      "elefanti": [
+       "orsi",
+       "conigli",
+       "delfini"
+      ],
+      "orsi": [
+       "lupi",
+       "serpenti",
+       "squali"
+      ],
+      "lupi": [
+       "conigli",
+       "delfini",
+       "insetti"
+      ],
+      "conigli": [
+       "serpenti",
+       "squali",
+       "ragni"
+      ],
+      "serpenti": [
+       "delfini",
+       "insetti",
+       "tori"
+      ],
+      "delfini": [
+       "squali",
+       "ragni",
+       "asini"
+      ],
+      "squali": [
+       "insetti",
+       "tori",
+       "cani"
+      ],
+      "insetti": [
+       "ragni",
+       "asini",
+       "gatti"
+      ],
+      "ragni": [
+       "tori",
+       "cani",
+       "cavalli"
+      ],
+      "tori": [
+       "asini",
+       "gatti",
+       "uccelli"
+      ],
+      "asini": [
+       "cani",
+       "cavalli",
+       "pesci"
+      ],
+      "mucche": [
+       "pecore",
+       "scimmie",
+       "api"
+      ],
+      "pecore": [
+       "tigri",
+       "volpi",
+       "mosche"
+      ],
+      "tigri": [
+       "scimmie",
+       "api",
+       "farfalle"
+      ],
+      "scimmie": [
+       "volpi",
+       "mosche",
+       "galline"
+      ],
+      "volpi": [
+       "api",
+       "farfalle",
+       "anatre"
+      ],
+      "api": [
+       "mosche",
+       "galline",
+       "rane"
+      ],
+      "mosche": [
+       "farfalle",
+       "anatre",
+       "tartarughe"
+      ],
+      "farfalle": [
+       "galline",
+       "rane",
+       "balene"
+      ],
+      "galline": [
+       "anatre",
+       "tartarughe",
+       "zanzare"
+      ],
+      "anatre": [
+       "rane",
+       "balene",
+       "formiche"
+      ],
+      "rane": [
+       "tartarughe",
+       "zanzare",
+       "capre"
+      ],
+      "tartarughe": [
+       "balene",
+       "formiche",
+       "giraffe"
+      ],
+      "balene": [
+       "zanzare",
+       "capre",
+       "mucche"
+      ],
+      "zanzare": [
+       "formiche",
+       "giraffe",
+       "pecore"
+      ],
+      "formiche": [
+       "capre",
+       "mucche",
+       "tigri"
+      ],
+      "capre": [
+       "giraffe",
+       "pecore",
+       "scimmie"
+      ],
+      "giraffe": [
+       "mucche",
+       "tigri",
+       "volpi"
+      ]
+     },
+     "exclude": "(?-i:\\b(?:Mosca|Leone|Lupo|Volpe|Gallo|Orso|Toro)\\b)|\\bin\\s+bocca\\s+al\\s+lupo\\b|\\bfreddo\\s+cane\\b|\\bcome\\s+(?:cane\\s+e\\s+gatto)\\b"
+    },
+    {
+     "id": "comida",
+     "name": "Comidas e bebidas",
+     "desc": "Pane, acqua, latte, caffè, vino, carne, pasta, formaggio, mela... Ex.: «Vorrei un bicchiere d'acqua».",
+     "pattern": "\\b(?P<w>cioccolata|cioccolato|marmellata|prosciutto|formaggio|spaghetti|biscotti|biscotto|bistecca|ciliegie|insalata|limonata|minestra|pomodori|pomodoro|zucchero|arancia|cipolla|cipolle|fagioli|fragola|fragole|verdura|verdure|arance|banana|banane|carota|carote|frutta|funghi|gelati|gelato|limone|limoni|panini|panino|patata|patate|yogurt|aceto|acqua|birra|burro|caffè|carne|latte|miele|pasta|pesce|pizza|pollo|succo|tonno|torta|torte|zuppa|mela|mele|olio|pane|pepe|pera|pere|riso|uova|uovo|vino|uva|tè)\\b",
+     "options": {
+      "pane": [
+       "latte",
+       "tè",
+       "succo"
+      ],
+      "latte": [
+       "caffè",
+       "vino",
+       "formaggio"
+      ],
+      "caffè": [
+       "tè",
+       "succo",
+       "riso"
+      ],
+      "tè": [
+       "vino",
+       "formaggio",
+       "burro"
+      ],
+      "vino": [
+       "succo",
+       "riso",
+       "zucchero"
+      ],
+      "succo": [
+       "formaggio",
+       "burro",
+       "pollo"
+      ],
+      "formaggio": [
+       "riso",
+       "zucchero",
+       "gelato"
+      ],
+      "riso": [
+       "burro",
+       "pollo",
+       "cioccolato"
+      ],
+      "burro": [
+       "zucchero",
+       "gelato",
+       "pomodoro"
+      ],
+      "zucchero": [
+       "pollo",
+       "cioccolato",
+       "uovo"
+      ],
+      "pollo": [
+       "gelato",
+       "pomodoro",
+       "miele"
+      ],
+      "gelato": [
+       "cioccolato",
+       "uovo",
+       "olio"
+      ],
+      "cioccolato": [
+       "pomodoro",
+       "miele",
+       "prosciutto"
+      ],
+      "pomodoro": [
+       "uovo",
+       "olio",
+       "panino"
+      ],
+      "uovo": [
+       "miele",
+       "prosciutto",
+       "biscotto"
+      ],
+      "miele": [
+       "olio",
+       "panino",
+       "pepe"
+      ],
+      "olio": [
+       "prosciutto",
+       "biscotto",
+       "aceto"
+      ],
+      "prosciutto": [
+       "panino",
+       "pepe",
+       "yogurt"
+      ],
+      "panino": [
+       "biscotto",
+       "aceto",
+       "tonno"
+      ],
+      "biscotto": [
+       "pepe",
+       "yogurt",
+       "limone"
+      ],
+      "pepe": [
+       "aceto",
+       "tonno",
+       "pesce"
+      ],
+      "aceto": [
+       "yogurt",
+       "limone",
+       "pane"
+      ],
+      "yogurt": [
+       "tonno",
+       "pesce",
+       "latte"
+      ],
+      "tonno": [
+       "limone",
+       "pane",
+       "caffè"
+      ],
+      "limone": [
+       "pesce",
+       "latte",
+       "tè"
+      ],
+      "pesce": [
+       "pane",
+       "caffè",
+       "vino"
+      ],
+      "acqua": [
+       "birra",
+       "pasta",
+       "frutta"
+      ],
+      "birra": [
+       "carne",
+       "pizza",
+       "mela"
+      ],
+      "carne": [
+       "pasta",
+       "frutta",
+       "arancia"
+      ],
+      "pasta": [
+       "pizza",
+       "mela",
+       "banana"
+      ],
+      "pizza": [
+       "frutta",
+       "arancia",
+       "verdura"
+      ],
+      "frutta": [
+       "mela",
+       "banana",
+       "insalata"
+      ],
+      "mela": [
+       "arancia",
+       "verdura",
+       "zuppa"
+      ],
+      "arancia": [
+       "banana",
+       "insalata",
+       "minestra"
+      ],
+      "banana": [
+       "verdura",
+       "zuppa",
+       "torta"
+      ],
+      "verdura": [
+       "insalata",
+       "minestra",
+       "cioccolata"
+      ],
+      "insalata": [
+       "zuppa",
+       "torta",
+       "patata"
+      ],
+      "zuppa": [
+       "cioccolata",
+       "carota",
+       "torta"
+      ],
+      "minestra": [
+       "torta",
+       "patata",
+       "cipolla"
+      ],
+      "torta": [
+       "cioccolata",
+       "carota",
+       "pera"
+      ],
+      "cioccolata": [
+       "patata",
+       "cipolla",
+       "fragola"
+      ],
+      "patata": [
+       "carota",
+       "pera",
+       "uva"
+      ],
+      "carota": [
+       "cipolla",
+       "fragola",
+       "bistecca"
+      ],
+      "cipolla": [
+       "pera",
+       "uva",
+       "marmellata"
+      ],
+      "pera": [
+       "fragola",
+       "bistecca",
+       "limonata"
+      ],
+      "fragola": [
+       "uva",
+       "marmellata",
+       "acqua"
+      ],
+      "uva": [
+       "bistecca",
+       "limonata",
+       "birra"
+      ],
+      "bistecca": [
+       "marmellata",
+       "acqua",
+       "carne"
+      ],
+      "marmellata": [
+       "limonata",
+       "birra",
+       "pasta"
+      ],
+      "limonata": [
+       "acqua",
+       "carne",
+       "pizza"
+      ],
+      "biscotti": [
+       "pomodori",
+       "panini",
+       "fagioli"
+      ],
+      "pomodori": [
+       "spaghetti",
+       "funghi",
+       "limoni"
+      ],
+      "spaghetti": [
+       "panini",
+       "fagioli",
+       "gelati"
+      ],
+      "panini": [
+       "funghi",
+       "limoni",
+       "biscotti"
+      ],
+      "funghi": [
+       "fagioli",
+       "gelati",
+       "pomodori"
+      ],
+      "fagioli": [
+       "limoni",
+       "biscotti",
+       "spaghetti"
+      ],
+      "limoni": [
+       "gelati",
+       "pomodori",
+       "panini"
+      ],
+      "gelati": [
+       "biscotti",
+       "spaghetti",
+       "funghi"
+      ],
+      "uova": [
+       "mele",
+       "banane",
+       "patate"
+      ],
+      "mele": [
+       "arance",
+       "verdure",
+       "carote"
+      ],
+      "arance": [
+       "banane",
+       "patate",
+       "cipolle"
+      ],
+      "banane": [
+       "verdure",
+       "carote",
+       "pere"
+      ],
+      "verdure": [
+       "patate",
+       "cipolle",
+       "fragole"
+      ],
+      "patate": [
+       "carote",
+       "pere",
+       "torte"
+      ],
+      "carote": [
+       "cipolle",
+       "fragole",
+       "ciliegie"
+      ],
+      "cipolle": [
+       "pere",
+       "torte",
+       "uova"
+      ],
+      "pere": [
+       "fragole",
+       "ciliegie",
+       "mele"
+      ],
+      "fragole": [
+       "torte",
+       "uova",
+       "arance"
+      ],
+      "torte": [
+       "ciliegie",
+       "mele",
+       "banane"
+      ],
+      "ciliegie": [
+       "uova",
+       "arance",
+       "verdure"
+      ]
+     },
+     "exclude": "\\b(?:ho|hai|ha|abbiamo|avete|hanno|aveva|avevo|avevano|avere|aver|abbia|avesse|avrebbe)\\s+(?:\\w+\\s+)?riso\\b|\\briso\\s+(?:di|a|in)\\s+(?:me|te|lui|lei|noi|voi|loro|tutti|questo)\\b|\\bpera\\b(?=.*\\bpere\\b)|(?-i:\\bPasta\\s+[A-Z])|\\bpasta\\s+(?:dentifricia|di\\s+denti)\\b"
+    },
+    {
+     "id": "perguntas",
+     "name": "Palavras interrogativas",
+     "desc": "Chi (quem), cosa/che cosa (o quê), dove (onde), quando, perché (por quê), come (como), quanto/quanti, quale... Ex.: «Dove abiti?»",
+     "pattern": "^(?:(?:di|a|da|con|per|in|su|fino\\s+a|tra|fra|e|ma)\\s+)?(?P<w>chi|cosa|che|dove|quando|perché|come|quanto|quanta|quanti|quante|quale|quali|qual)\\b(?=[^.!]*\\?\\s*$)",
+     "options": {
+      "chi": [
+       "cosa",
+       "dove",
+       "come"
+      ],
+      "cosa": [
+       "chi",
+       "dove",
+       "quando"
+      ],
+      "che": [
+       "chi",
+       "dove",
+       "come"
+      ],
+      "dove": [
+       "quando",
+       "chi",
+       "come"
+      ],
+      "quando": [
+       "dove",
+       "come",
+       "chi"
+      ],
+      "perché": [
+       "quando",
+       "dove",
+       "come"
+      ],
+      "come": [
+       "dove",
+       "quando",
+       "perché"
+      ],
+      "quanto": [
+       "quanti",
+       "quale",
+       "come"
+      ],
+      "quanta": [
+       "quante",
+       "quale",
+       "come"
+      ],
+      "quanti": [
+       "quanto",
+       "quali",
+       "come"
+      ],
+      "quante": [
+       "quanta",
+       "quali",
+       "come"
+      ],
+      "quale": [
+       "quali",
+       "quanto",
+       "chi"
+      ],
+      "quali": [
+       "quale",
+       "quanti",
+       "chi"
+      ],
+      "qual": [
+       "quanto",
+       "chi",
+       "dove"
+      ]
+     },
+     "exclude": "^(?:che|come)\\s+(?:bello|bella|belli|belle|peccato|strano|carino|carina|gentile|fortuna)\\b|^che\\s+(?:tu|lui|lei|io)\\b"
+    },
+    {
+     "id": "lugares",
+     "name": "Lugares da cidade",
+     "desc": "Scuola, stazione, ospedale, banca, chiesa, negozio, ristorante, biblioteca, piazza... Ex.: «La stazione è vicina».",
+     "pattern": "\\b(?P<w>supermercato|biblioteche|biblioteca|panetteria|ristorante|ristoranti|università|aeroporto|fabbriche|municipio|alberghi|castelli|castello|fabbrica|farmacia|farmacie|libreria|ospedale|ospedali|palestra|pizzeria|prigione|spiaggia|stazione|stazioni|albergo|fermata|mercati|mercato|negozio|palazzi|palazzo|piscina|piscine|spiagge|ufficio|banche|chiesa|cinema|negozi|parchi|piazza|piazze|scuola|scuole|stadio|strada|strade|teatri|teatro|uffici|banca|musei|museo|parco|ponte|ponti|stadi)\\b",
+     "options": {
+      "ospedale": [
+       "negozio",
+       "albergo",
+       "museo"
+      ],
+      "negozio": [
+       "ristorante",
+       "ufficio",
+       "parco"
+      ],
+      "ristorante": [
+       "albergo",
+       "museo",
+       "mercato"
+      ],
+      "albergo": [
+       "ufficio",
+       "parco",
+       "aeroporto"
+      ],
+      "ufficio": [
+       "museo",
+       "mercato",
+       "supermercato"
+      ],
+      "museo": [
+       "parco",
+       "aeroporto",
+       "cinema"
+      ],
+      "parco": [
+       "mercato",
+       "supermercato",
+       "teatro"
+      ],
+      "mercato": [
+       "aeroporto",
+       "cinema",
+       "ponte"
+      ],
+      "aeroporto": [
+       "supermercato",
+       "teatro",
+       "stadio"
+      ],
+      "supermercato": [
+       "cinema",
+       "ponte",
+       "castello"
+      ],
+      "cinema": [
+       "teatro",
+       "stadio",
+       "palazzo"
+      ],
+      "teatro": [
+       "ponte",
+       "castello",
+       "municipio"
+      ],
+      "ponte": [
+       "stadio",
+       "palazzo",
+       "ospedale"
+      ],
+      "stadio": [
+       "castello",
+       "municipio",
+       "negozio"
+      ],
+      "castello": [
+       "palazzo",
+       "ospedale",
+       "ristorante"
+      ],
+      "palazzo": [
+       "municipio",
+       "negozio",
+       "albergo"
+      ],
+      "municipio": [
+       "ospedale",
+       "ristorante",
+       "ufficio"
+      ],
+      "scuola": [
+       "stazione",
+       "chiesa",
+       "piazza"
+      ],
+      "stazione": [
+       "banca",
+       "biblioteca",
+       "strada"
+      ],
+      "banca": [
+       "chiesa",
+       "piazza",
+       "farmacia"
+      ],
+      "chiesa": [
+       "biblioteca",
+       "strada",
+       "università"
+      ],
+      "biblioteca": [
+       "piazza",
+       "farmacia",
+       "spiaggia"
+      ],
+      "piazza": [
+       "strada",
+       "università",
+       "piscina"
+      ],
+      "strada": [
+       "farmacia",
+       "spiaggia",
+       "palestra"
+      ],
+      "farmacia": [
+       "università",
+       "piscina",
+       "fermata"
+      ],
+      "università": [
+       "spiaggia",
+       "palestra",
+       "panetteria"
+      ],
+      "spiaggia": [
+       "piscina",
+       "fermata",
+       "pizzeria"
+      ],
+      "piscina": [
+       "palestra",
+       "panetteria",
+       "libreria"
+      ],
+      "palestra": [
+       "fermata",
+       "pizzeria",
+       "fabbrica"
+      ],
+      "fermata": [
+       "panetteria",
+       "libreria",
+       "prigione"
+      ],
+      "panetteria": [
+       "pizzeria",
+       "fabbrica",
+       "scuola"
+      ],
+      "pizzeria": [
+       "libreria",
+       "prigione",
+       "stazione"
+      ],
+      "libreria": [
+       "fabbrica",
+       "scuola",
+       "banca"
+      ],
+      "fabbrica": [
+       "prigione",
+       "stazione",
+       "chiesa"
+      ],
+      "prigione": [
+       "scuola",
+       "banca",
+       "biblioteca"
+      ],
+      "negozi": [
+       "ristoranti",
+       "parchi",
+       "ospedali"
+      ],
+      "ristoranti": [
+       "musei",
+       "alberghi",
+       "uffici"
+      ],
+      "musei": [
+       "parchi",
+       "ospedali",
+       "mercati"
+      ],
+      "parchi": [
+       "alberghi",
+       "uffici",
+       "ponti"
+      ],
+      "alberghi": [
+       "ospedali",
+       "mercati",
+       "stadi"
+      ],
+      "ospedali": [
+       "uffici",
+       "ponti",
+       "castelli"
+      ],
+      "uffici": [
+       "mercati",
+       "stadi",
+       "palazzi"
+      ],
+      "mercati": [
+       "ponti",
+       "castelli",
+       "teatri"
+      ],
+      "ponti": [
+       "stadi",
+       "palazzi",
+       "negozi"
+      ],
+      "stadi": [
+       "castelli",
+       "teatri",
+       "ristoranti"
+      ],
+      "castelli": [
+       "palazzi",
+       "negozi",
+       "musei"
+      ],
+      "palazzi": [
+       "teatri",
+       "ristoranti",
+       "parchi"
+      ],
+      "teatri": [
+       "negozi",
+       "musei",
+       "alberghi"
+      ],
+      "biblioteche": [
+       "piazze",
+       "farmacie",
+       "piscine"
+      ],
+      "piazze": [
+       "strade",
+       "spiagge",
+       "fabbriche"
+      ],
+      "strade": [
+       "farmacie",
+       "piscine",
+       "banche"
+      ],
+      "farmacie": [
+       "spiagge",
+       "fabbriche",
+       "scuole"
+      ],
+      "spiagge": [
+       "piscine",
+       "banche",
+       "stazioni"
+      ],
+      "piscine": [
+       "fabbriche",
+       "scuole",
+       "biblioteche"
+      ],
+      "fabbriche": [
+       "banche",
+       "stazioni",
+       "piazze"
+      ],
+      "banche": [
+       "scuole",
+       "biblioteche",
+       "strade"
+      ],
+      "scuole": [
+       "stazioni",
+       "piazze",
+       "farmacie"
+      ],
+      "stazioni": [
+       "biblioteche",
+       "strade",
+       "spiagge"
+      ]
+     },
+     "exclude": "\\b(?:fare|fatto|faccio|fa)\\s+strada\\b|\\bper\\s+strada\\b(?=\\s+facendo)|\\b(?:sulla|nella)\\s+buona\\s+strada\\b"
+    },
+    {
+     "id": "profissoes",
+     "name": "Profissões",
+     "desc": "Medico, insegnante, avvocato, cuoco, cameriere, ingegnere, studente... Muitas mudam no feminino: attore → attrice, dottore → dottoressa.",
+     "pattern": "\\b(?P<w>professoressa|programmatore|giornalista|giornalisti|studentessa|architetto|direttrice|dottoressa|farmacista|infermiera|infermiere|infermieri|insegnante|insegnanti|poliziotta|poliziotti|poliziotto|professore|professori|scienziati|scienziato|scrittrice|segretaria|segretario|cameriera|cameriere|camerieri|contadina|contadino|direttore|fotografo|ingegnere|ingegneri|meccanico|musicista|musicisti|scrittore|scrittori|avvocati|avvocato|cantante|cantanti|dentista|pompiere|studente|studenti|artista|artisti|attrice|autista|dottore|dottori|giudice|maestra|maestri|maestro|pittore|postino|soldati|soldato|attore|attori|cuochi|medici|medico|cuoca|cuoco)\\b",
+     "options": {
+      "medico": [
+       "cuoco",
+       "infermiere",
+       "avvocato"
+      ],
+      "dottore": [
+       "avvocato",
+       "poliziotto",
+       "studente"
+      ],
+      "avvocato": [
+       "cuoco",
+       "infermiere",
+       "ingegnere"
+      ],
+      "cuoco": [
+       "poliziotto",
+       "studente",
+       "cameriere"
+      ],
+      "poliziotto": [
+       "infermiere",
+       "ingegnere",
+       "attore"
+      ],
+      "infermiere": [
+       "studente",
+       "cameriere",
+       "scrittore"
+      ],
+      "studente": [
+       "ingegnere",
+       "attore",
+       "pittore"
+      ],
+      "ingegnere": [
+       "cameriere",
+       "scrittore",
+       "architetto"
+      ],
+      "cameriere": [
+       "attore",
+       "pittore",
+       "contadino"
+      ],
+      "attore": [
+       "scrittore",
+       "architetto",
+       "postino"
+      ],
+      "scrittore": [
+       "pittore",
+       "contadino",
+       "segretario"
+      ],
+      "pittore": [
+       "architetto",
+       "postino",
+       "professore"
+      ],
+      "architetto": [
+       "contadino",
+       "segretario",
+       "direttore"
+      ],
+      "contadino": [
+       "postino",
+       "professore",
+       "pompiere"
+      ],
+      "postino": [
+       "segretario",
+       "direttore",
+       "soldato"
+      ],
+      "segretario": [
+       "professore",
+       "pompiere",
+       "fotografo"
+      ],
+      "professore": [
+       "direttore",
+       "soldato",
+       "programmatore"
+      ],
+      "direttore": [
+       "pompiere",
+       "fotografo",
+       "scienziato"
+      ],
+      "pompiere": [
+       "soldato",
+       "programmatore",
+       "maestro"
+      ],
+      "soldato": [
+       "fotografo",
+       "scienziato",
+       "meccanico"
+      ],
+      "fotografo": [
+       "programmatore",
+       "maestro",
+       "medico"
+      ],
+      "programmatore": [
+       "scienziato",
+       "meccanico",
+       "dottore"
+      ],
+      "scienziato": [
+       "maestro",
+       "medico",
+       "avvocato"
+      ],
+      "maestro": [
+       "meccanico",
+       "dottore",
+       "cuoco"
+      ],
+      "meccanico": [
+       "medico",
+       "avvocato",
+       "poliziotto"
+      ],
+      "dottoressa": [
+       "cuoca",
+       "infermiera",
+       "cameriera"
+      ],
+      "cuoca": [
+       "poliziotta",
+       "studentessa",
+       "attrice"
+      ],
+      "poliziotta": [
+       "infermiera",
+       "cameriera",
+       "scrittrice"
+      ],
+      "infermiera": [
+       "studentessa",
+       "attrice",
+       "segretaria"
+      ],
+      "studentessa": [
+       "cameriera",
+       "scrittrice",
+       "professoressa"
+      ],
+      "cameriera": [
+       "attrice",
+       "segretaria",
+       "direttrice"
+      ],
+      "attrice": [
+       "scrittrice",
+       "professoressa",
+       "maestra"
+      ],
+      "scrittrice": [
+       "segretaria",
+       "direttrice",
+       "contadina"
+      ],
+      "segretaria": [
+       "professoressa",
+       "maestra",
+       "dottoressa"
+      ],
+      "professoressa": [
+       "direttrice",
+       "contadina",
+       "cuoca"
+      ],
+      "direttrice": [
+       "maestra",
+       "dottoressa",
+       "poliziotta"
+      ],
+      "maestra": [
+       "contadina",
+       "cuoca",
+       "infermiera"
+      ],
+      "contadina": [
+       "dottoressa",
+       "poliziotta",
+       "studentessa"
+      ],
+      "insegnante": [
+       "cantante",
+       "dentista",
+       "musicista"
+      ],
+      "cantante": [
+       "giornalista",
+       "farmacista",
+       "artista"
+      ],
+      "giornalista": [
+       "dentista",
+       "musicista",
+       "autista"
+      ],
+      "dentista": [
+       "farmacista",
+       "artista",
+       "giudice"
+      ],
+      "farmacista": [
+       "musicista",
+       "autista",
+       "insegnante"
+      ],
+      "musicista": [
+       "artista",
+       "giudice",
+       "cantante"
+      ],
+      "artista": [
+       "autista",
+       "insegnante",
+       "giornalista"
+      ],
+      "autista": [
+       "giudice",
+       "cantante",
+       "dentista"
+      ],
+      "giudice": [
+       "insegnante",
+       "giornalista",
+       "farmacista"
+      ],
+      "medici": [
+       "cuochi",
+       "infermieri",
+       "avvocati"
+      ],
+      "dottori": [
+       "avvocati",
+       "poliziotti",
+       "studenti"
+      ],
+      "avvocati": [
+       "cuochi",
+       "infermieri",
+       "ingegneri"
+      ],
+      "cuochi": [
+       "poliziotti",
+       "studenti",
+       "camerieri"
+      ],
+      "poliziotti": [
+       "infermieri",
+       "ingegneri",
+       "attori"
+      ],
+      "infermieri": [
+       "studenti",
+       "camerieri",
+       "scrittori"
+      ],
+      "studenti": [
+       "ingegneri",
+       "attori",
+       "professori"
+      ],
+      "ingegneri": [
+       "camerieri",
+       "scrittori",
+       "soldati"
+      ],
+      "camerieri": [
+       "attori",
+       "professori",
+       "giornalisti"
+      ],
+      "attori": [
+       "scrittori",
+       "soldati",
+       "maestri"
+      ],
+      "scrittori": [
+       "professori",
+       "giornalisti",
+       "musicisti"
+      ],
+      "professori": [
+       "soldati",
+       "scienziati",
+       "giornalisti"
+      ],
+      "soldati": [
+       "giornalisti",
+       "musicisti",
+       "insegnanti"
+      ],
+      "giornalisti": [
+       "maestri",
+       "scienziati",
+       "cantanti"
+      ],
+      "maestri": [
+       "musicisti",
+       "artisti",
+       "scienziati"
+      ],
+      "musicisti": [
+       "scienziati",
+       "cantanti",
+       "medici"
+      ],
+      "scienziati": [
+       "insegnanti",
+       "artisti",
+       "dottori"
+      ],
+      "insegnanti": [
+       "cantanti",
+       "medici",
+       "avvocati"
+      ],
+      "cantanti": [
+       "artisti",
+       "dottori",
+       "cuochi"
+      ],
+      "artisti": [
+       "medici",
+       "avvocati",
+       "poliziotti"
+      ]
+     },
+     "exclude": "\\b(?:esame|esami|controllo|certificato|parere|studio|consulto|centro|personale|segreto)\\s+medic[oi]\\b|\\bmedico\\s+(?:legale)\\b|\\bdirettore\\s+d'orchestra\\b(?=x)|(?-i:\\b(?:Maestro|Giudice)\\b)"
+    },
+    {
+     "id": "opostos",
+     "name": "Adjetivos opostos",
+     "desc": "Grande/piccolo, alto/basso, nuovo/vecchio, caldo/freddo, facile/difficile... Os em -o concordam: una casa piccola, dei libri nuovi.",
+     "pattern": "\\b(?P<w>difficile|difficili|cattiva|cattive|cattivi|cattivo|giovane|giovani|leggera|leggeri|leggero|pesante|pesanti|piccola|piccole|piccoli|piccolo|sporche|sporchi|vecchia|vecchie|vecchio|brutta|brutte|brutti|brutto|debole|deboli|facile|facili|felice|felici|fredda|fredde|freddi|freddo|grande|grandi|lunghe|lunghi|povera|povere|poveri|povero|pulita|pulite|puliti|pulito|ricche|ricchi|sporca|sporco|triste|tristi|vecchi|veloce|veloci|bassa|basse|bassi|basso|begli|bella|belle|belli|bello|buona|buone|buoni|buono|calda|calde|caldi|caldo|corta|corti|corto|forte|forti|lenta|lenti|lento|lunga|lungo|nuova|nuove|nuovi|nuovo|piena|piene|pieni|pieno|ricca|ricco|vuota|vuote|vuoto|alta|alti|alto|buon|bei|bel)\\b",
+     "options": {
+      "alto": [
+       "basso",
+       "caldo",
+       "pulito"
+      ],
+      "alta": [
+       "bassa",
+       "calda",
+       "pulita"
+      ],
+      "alti": [
+       "bassi",
+       "caldi",
+       "puliti"
+      ],
+      "nuovo": [
+       "vecchio",
+       "lungo",
+       "buono"
+      ],
+      "nuova": [
+       "vecchia",
+       "lunga",
+       "buona"
+      ],
+      "nuovi": [
+       "vecchi",
+       "lunghi",
+       "buoni"
+      ],
+      "nuove": [
+       "vecchie",
+       "lunghe",
+       "buone"
+      ],
+      "bello": [
+       "brutto",
+       "ricco",
+       "piccolo"
+      ],
+      "bella": [
+       "brutta",
+       "ricca",
+       "piccola"
+      ],
+      "belli": [
+       "brutti",
+       "ricchi",
+       "piccoli"
+      ],
+      "belle": [
+       "brutte",
+       "ricche",
+       "piccole"
+      ],
+      "caldo": [
+       "freddo",
+       "pieno",
+       "leggero"
+      ],
+      "calda": [
+       "fredda",
+       "piena",
+       "leggera"
+      ],
+      "caldi": [
+       "freddi",
+       "pieni",
+       "leggeri"
+      ],
+      "calde": [
+       "fredde",
+       "piene",
+       "leggere"
+      ],
+      "lungo": [
+       "corto",
+       "pulito",
+       "lento"
+      ],
+      "lunga": [
+       "corta",
+       "pulita",
+       "lenta"
+      ],
+      "lunghi": [
+       "corti",
+       "puliti",
+       "lenti"
+      ],
+      "lunghe": [
+       "corte",
+       "pulite",
+       "lente"
+      ],
+      "ricco": [
+       "povero",
+       "buono",
+       "basso"
+      ],
+      "ricca": [
+       "povera",
+       "buona",
+       "bassa"
+      ],
+      "ricchi": [
+       "poveri",
+       "buoni",
+       "bassi"
+      ],
+      "ricche": [
+       "povere",
+       "buone",
+       "basse"
+      ],
+      "pieno": [
+       "vuoto",
+       "piccolo",
+       "vecchio"
+      ],
+      "piena": [
+       "vuota",
+       "piccola",
+       "vecchia"
+      ],
+      "pieni": [
+       "vuoti",
+       "piccoli",
+       "vecchi"
+      ],
+      "piene": [
+       "vuote",
+       "piccole",
+       "vecchie"
+      ],
+      "pulito": [
+       "sporco",
+       "leggero",
+       "brutto"
+      ],
+      "pulita": [
+       "sporca",
+       "leggera",
+       "brutta"
+      ],
+      "puliti": [
+       "sporchi",
+       "leggeri",
+       "brutti"
+      ],
+      "pulite": [
+       "sporche",
+       "leggere",
+       "brutte"
+      ],
+      "buono": [
+       "cattivo",
+       "lento",
+       "freddo"
+      ],
+      "buona": [
+       "cattiva",
+       "lenta",
+       "fredda"
+      ],
+      "buoni": [
+       "cattivi",
+       "lenti",
+       "freddi"
+      ],
+      "buone": [
+       "cattive",
+       "lente",
+       "fredde"
+      ],
+      "piccolo": [
+       "grande",
+       "alto",
+       "vecchio"
+      ],
+      "piccola": [
+       "grande",
+       "alta",
+       "vecchia"
+      ],
+      "piccoli": [
+       "grandi",
+       "alti",
+       "vecchi"
+      ],
+      "piccole": [
+       "grandi",
+       "alte",
+       "vecchie"
+      ],
+      "leggero": [
+       "pesante",
+       "alto",
+       "nuovo"
+      ],
+      "leggera": [
+       "pesante",
+       "alta",
+       "nuova"
+      ],
+      "leggeri": [
+       "pesanti",
+       "alti",
+       "nuovi"
+      ],
+      "lento": [
+       "veloce",
+       "alto",
+       "nuovo"
+      ],
+      "lenta": [
+       "veloce",
+       "alta",
+       "nuova"
+      ],
+      "lenti": [
+       "veloci",
+       "alti",
+       "nuovi"
+      ],
+      "basso": [
+       "alto",
+       "freddo",
+       "sporco"
+      ],
+      "bassa": [
+       "alta",
+       "fredda",
+       "sporca"
+      ],
+      "bassi": [
+       "alti",
+       "freddi",
+       "sporchi"
+      ],
+      "basse": [
+       "alte",
+       "fredde",
+       "sporche"
+      ],
+      "vecchio": [
+       "nuovo",
+       "corto",
+       "cattivo"
+      ],
+      "vecchia": [
+       "nuova",
+       "corta",
+       "cattiva"
+      ],
+      "vecchi": [
+       "nuovi",
+       "corti",
+       "cattivi"
+      ],
+      "vecchie": [
+       "nuove",
+       "corte",
+       "cattive"
+      ],
+      "brutto": [
+       "bello",
+       "povero",
+       "alto"
+      ],
+      "brutta": [
+       "bella",
+       "povera",
+       "alta"
+      ],
+      "brutti": [
+       "belli",
+       "poveri",
+       "alti"
+      ],
+      "brutte": [
+       "belle",
+       "povere",
+       "alte"
+      ],
+      "freddo": [
+       "caldo",
+       "vuoto",
+       "nuovo"
+      ],
+      "fredda": [
+       "calda",
+       "vuota",
+       "nuova"
+      ],
+      "freddi": [
+       "caldi",
+       "vuoti",
+       "nuovi"
+      ],
+      "fredde": [
+       "calde",
+       "vuote",
+       "nuove"
+      ],
+      "corto": [
+       "lungo",
+       "sporco",
+       "bello"
+      ],
+      "corta": [
+       "lunga",
+       "sporca",
+       "bella"
+      ],
+      "corti": [
+       "lunghi",
+       "sporchi",
+       "belli"
+      ],
+      "povero": [
+       "ricco",
+       "cattivo",
+       "caldo"
+      ],
+      "povera": [
+       "ricca",
+       "cattiva",
+       "calda"
+      ],
+      "poveri": [
+       "ricchi",
+       "cattivi",
+       "caldi"
+      ],
+      "povere": [
+       "ricche",
+       "cattive",
+       "calde"
+      ],
+      "vuoto": [
+       "pieno",
+       "alto",
+       "lungo"
+      ],
+      "vuota": [
+       "piena",
+       "alta",
+       "lunga"
+      ],
+      "vuote": [
+       "piene",
+       "alte",
+       "lunghe"
+      ],
+      "sporco": [
+       "pulito",
+       "nuovo",
+       "ricco"
+      ],
+      "sporca": [
+       "pulita",
+       "nuova",
+       "ricca"
+      ],
+      "sporchi": [
+       "puliti",
+       "nuovi",
+       "ricchi"
+      ],
+      "sporche": [
+       "pulite",
+       "nuove",
+       "ricche"
+      ],
+      "cattivo": [
+       "buono",
+       "bello",
+       "pieno"
+      ],
+      "cattiva": [
+       "buona",
+       "bella",
+       "piena"
+      ],
+      "cattivi": [
+       "buoni",
+       "belli",
+       "pieni"
+      ],
+      "cattive": [
+       "buone",
+       "belle",
+       "piene"
+      ],
+      "grande": [
+       "piccolo",
+       "piccola",
+       "giovane"
+      ],
+      "grandi": [
+       "piccoli",
+       "piccole",
+       "giovani"
+      ],
+      "giovane": [
+       "vecchio",
+       "vecchia",
+       "grande"
+      ],
+      "giovani": [
+       "vecchi",
+       "vecchie",
+       "grandi"
+      ],
+      "facile": [
+       "difficile",
+       "veloce",
+       "forte"
+      ],
+      "difficile": [
+       "facile",
+       "veloce",
+       "triste"
+      ],
+      "facili": [
+       "difficili",
+       "veloci",
+       "forti"
+      ],
+      "difficili": [
+       "facili",
+       "veloci",
+       "tristi"
+      ],
+      "felice": [
+       "triste",
+       "debole",
+       "facile"
+      ],
+      "triste": [
+       "felice",
+       "forte",
+       "facile"
+      ],
+      "felici": [
+       "tristi",
+       "deboli",
+       "facili"
+      ],
+      "tristi": [
+       "felici",
+       "forti",
+       "facili"
+      ],
+      "forte": [
+       "debole",
+       "triste",
+       "facile"
+      ],
+      "debole": [
+       "forte",
+       "felice",
+       "facile"
+      ],
+      "forti": [
+       "deboli",
+       "tristi",
+       "facili"
+      ],
+      "deboli": [
+       "forti",
+       "felici",
+       "facili"
+      ],
+      "veloce": [
+       "lento",
+       "lenta",
+       "facile"
+      ],
+      "veloci": [
+       "lenti",
+       "lente",
+       "facili"
+      ],
+      "pesante": [
+       "leggero",
+       "leggera",
+       "facile"
+      ],
+      "pesanti": [
+       "leggeri",
+       "leggere",
+       "facili"
+      ],
+      "bel": [
+       "brutto",
+       "vecchio",
+       "nuovo"
+      ],
+      "bei": [
+       "brutti",
+       "vecchi",
+       "nuovi"
+      ],
+      "begli": [
+       "brutti",
+       "vecchi",
+       "nuovi"
+      ],
+      "buon": [
+       "cattivo",
+       "brutto",
+       "vecchio"
+      ]
+     },
+     "exclude": "(?-i:Nuova\\s+Zelanda|Nuova\\s+York|Nuovo\\s+Messico|Paesi\\s+Bassi|Nuovo\\s+Testamento|Vecchio\\s+Testamento)|\\bbel\\s+po'|\\bad\\s+alta\\s+voce\\b|\\ba\\s+bassa\\s+voce\\b|\\bin\\s+alto\\b|\\bin\\s+basso\\b|\\bal\\s+(?:caldo|freddo)\\b(?=x)|\\b(?:il|lo)\\s+(?:bello|brutto)\\s+è\\b|\\bdi\\s+nuovo\\b|\\ba\\s+lungo\\b|\\bpiano\\s+piano\\b|\\bpoveretto\\b|\\bnon\\s+vedo\\s+l'ora\\b(?=x)"
+    }
+   ]
+  },
+  {
+   "id": "gramatica",
+   "subs": [
+    {
+     "id": "art_det",
+     "name": "Artigo definido",
+     "desc": "Masculino: il (il libro), lo antes de s+consoante, z, gn, ps (lo studente, lo zio); plural i / gli (i libri, gli studenti, gli amici). Feminino: la / le (la casa, le case).",
+     "pattern": "(?:(?<![\\w'’])(?:tutt[oaie]|(?!(?:non|che|chi|se|e|ed|ma|o|od|perché|quando|come|dove|cosa|anche|già|mai|io|tu|lui|lei|egli|ella|noi|voi|loro|esso|essa|essi|esse|mi|ti|ci|vi|si|me|te|ce|ve|ne|glielo|gliela|glieli|gliele|gliene|poi|ora|adesso|spesso|solo|soltanto|proprio|davvero|forse|allora|così|ancora|sempre|nessuno|qualcuno|ognuno|ecco|neanche|nemmeno|neppure|pure|mica|lo|la|le|gli|li|il|i|appena|subito|presto|qui|qua|lì|là|oggi|domani|ieri|stasera|stamattina|bene|male|molto|tanto|più|meno|infatti|quindi|dunque|però|eppure|chiunque|niente|nulla|cui|quale|quali|sì|no|almeno|finalmente|probabilmente|sicuramente|certamente|veramente|tuttavia|inoltre|insomma|perciò|questo|quello|questa|quella|tutti|tutte|tutto|tutta|uno|una|altri|altre|entrambi|entrambe|tom|mary)\\b)[a-zà-öø-ÿ]+)\\s+)(?P<w>il|i|lo(?=\\s+(?:s[bcdfghlmnpqrstvz]|z|gn|ps|pn|x|y)[A-Za-zÀ-ÖØ-öø-ÿ]*\\b(?<!sto)(?<!stai)(?<!sta)(?<!stava)(?<!stavo)(?<!stanno)(?<!stiamo)(?<!state)(?<!stavano))|gli(?=\\s+(?!(?:avevi|hai|dai|dici|parli|scrivi|piaci|devi|puoi|vuoi|chiedi|offri|insegni|spieghi|presti|regali|porti|mostri|stai|fai|credi|rispondi|telefoni|abbiamo|avevamo|avremo|avevi|eri|interessi)\\b)(?:[aeiouàèéìòù]|s[bcdfghlmnpqrstvz]|z|gn|ps|pn|x|y)[A-Za-zÀ-ÖØ-öø-ÿ]*i\\b)|la(?=\\s+(?:(?:mano|radio|foto|moto|auto|metro|dinamo)\\b|(?![A-Za-zÀ-ÖØ-öø-ÿ]*(?:o|ò|iamo|ano|ono|ate|ete|rà|rei|rebbe|rebbero|isce|iscono|ava|eva|iva|avano|evano)\\b)(?!(?:ama|chiama|guarda|aspetta|cerca|trova|aiuta|porta|bacia|odia|lascia|sposa|accompagna|abbraccia|ascolta|segue|vede|conosce|prende|mette|legge|scrive|sente|vuole|deve|può|sa|fa|ha|è|dà|dice|disse|chiese|chiede|diede|vide|piace|piacciono|piaceva|invita|ringrazia|uccide|uccise|tiene|ama|ami|vedi|conosci|segui|lasci|tieni|prendi|guardi|chiami|aspetti|aiuti|porti|trovi|cerchi|metti|senti|fai|hai|dici|vuoi|devi|puoi|sai|dai|stai)\\b)[A-Za-zÀ-ÖØ-öø-ÿ]))|le(?=\\s+(?!(?:ho|hai|ha|abbiamo|avete|hanno|aveva|avevo|avevano|avrò|avrei|è|era|piace|piacciono|piaceva|piacevano|piacerà|piacerebbe|dà|dai|do|diede|diedi|dice|dico|disse|dissi|chiese|chiede|chiedo|scrive|scrisse|scrivo|parla|parlo|parlò|telefona|telefonò|serve|sembra|sembrava|sta|stanno|dispiace|manca|mancano|interessa|importa|regala|regalò|offre|offrì|presta|prestò|mostra|mostrò|porta|portò|insegna|spiega|spiegò|risponde|rispose|credo|crede|chiedi|dici|piaci|devo|deve|vuole|voglio|posso|può|fa|fanno|faccio|fece|feci|dirò|dirà|darò|darà|racconta|raccontò|augura|auguro|sorrise|sorride|successo|successe|succede|ricorda)\\b)(?=[A-Za-zÀ-ÖØ-öø-ÿ]*(?:e|i|à|ù|é|foto|radio|moto|auto)\\b)[A-Za-zÀ-ÖØ-öø-ÿ]))(?=\\s)",
+     "options": [
+      "il",
+      "lo",
+      "la",
+      "i",
+      "gli",
+      "le"
+     ],
+     "exclude": "\\bper\\s+lo\\s+più\\b|\\bgli\\s+uni\\b|\\ble\\s+une\\b|\\bdi\\s+tutto\\s+il\\b(?=x)",
+     "case": true
+    },
+    {
+     "id": "il_lo",
+     "name": "Il ou lo? I ou gli?",
+     "desc": "Use lo/gli antes de s+consoante, z, gn, ps e y (lo studente, gli zaini); gli também antes de vogal no plural (gli amici). Nos outros casos: il/i (il sole, i soldi).",
+     "pattern": "(?:(?<![\\w'’])(?:tutt[oaie]|(?!(?:non|che|chi|se|e|ed|ma|o|od|perché|quando|come|dove|cosa|anche|già|mai|io|tu|lui|lei|egli|ella|noi|voi|loro|esso|essa|essi|esse|mi|ti|ci|vi|si|me|te|ce|ve|ne|glielo|gliela|glieli|gliele|gliene|poi|ora|adesso|spesso|solo|soltanto|proprio|davvero|forse|allora|così|ancora|sempre|nessuno|qualcuno|ognuno|ecco|neanche|nemmeno|neppure|pure|mica|lo|la|le|gli|li|il|i|appena|subito|presto|qui|qua|lì|là|oggi|domani|ieri|stasera|stamattina|bene|male|molto|tanto|più|meno|infatti|quindi|dunque|però|eppure|chiunque|niente|nulla|cui|quale|quali|sì|no|almeno|finalmente|probabilmente|sicuramente|certamente|veramente|tuttavia|inoltre|insomma|perciò|questo|quello|questa|quella|tutti|tutte|tutto|tutta|uno|una|altri|altre|entrambi|entrambe|tom|mary)\\b)[a-zà-öø-ÿ]+)\\s+)(?P<w>il(?=\\s+(?!su[oaie]\\b|suoi\\b|signor\\b)s[aeiouàèéìòù])|i(?=\\s+(?!suoi\\b)s[aeiouàèéìòù])|lo(?=\\s+(?:s[bcdfghlmnpqrstvz]|z|gn|ps|pn|x|y)[A-Za-zÀ-ÖØ-öø-ÿ]*\\b(?<!sto)(?<!stai)(?<!sta)(?<!stava)(?<!stavo)(?<!stanno)(?<!stiamo)(?<!state)(?<!stavano))|gli(?=\\s+(?!(?:avevi|hai|dai|dici|parli|scrivi|piaci|devi|puoi|vuoi|chiedi|offri|insegni|spieghi|presti|regali|porti|mostri|stai|fai|credi|rispondi|telefoni|abbiamo|avevamo|avremo|avevi|eri|interessi)\\b)(?:[aeiouàèéìòù]|s[bcdfghlmnpqrstvz]|z|gn|ps|pn|x|y)[A-Za-zÀ-ÖØ-öø-ÿ]*i\\b))(?=\\s)",
+     "options": [
+      "il",
+      "lo",
+      "i",
+      "gli"
+     ],
+     "exclude": "\\bper\\s+lo\\s+più\\b|\\bgli\\s+uni\\b",
+     "case": true
+    },
+    {
+     "id": "art_indet",
+     "name": "Artigo indefinido",
+     "desc": "Un antes da maioria dos masculinos (un libro, un amico); uno antes de s+consoante, z, gn, ps (uno studente, uno zaino); una no feminino (una casa) — un' antes de vogal.",
+     "pattern": "(?<![\\w'’])(?P<w>un(?!\\s+po['’])|uno(?=\\s+(?:s[bcdfghlmnpqrstvz]|z|gn|ps|pn|x|y)\\w)|una(?=\\s+(?!(?:di|dei|degli|delle|del|della|dello|che|e|o|alla|alle|per|a|in)\\b)\\w))(?=\\s+\\w)(?!\\s+(?:insegnante|cantante|giornalista|dentista|artista|turista|collega|pianista|nipote|paziente|giudice|ospite|interprete|cliente|parente|abitante|presidente|atleta|psichiatra|pediatra|musicista|farmacista|tassista|autista|regista|chitarrista|batterista|attivista|terrorista|stilista|specialista|barista|fisioterapista|assistente|rappresentante|agente|cantante|amante|adolescente|dirigente|docente|utente|concorrente|residente|testimone|guida|spia|vittima)\\b)",
+     "options": [
+      "un",
+      "uno",
+      "una"
+     ],
+     "exclude": "\\b(?:l'|l’)una\\b|\\bdi\\s+una\\s+delle\\b(?=x)"
+    },
+    {
+     "id": "essere_avere",
+     "name": "Essere ou avere",
+     "desc": "Essere = ser/estar (sono stanco); avere = ter (ho una macchina). Atenção: idade, fome, sede, frio, calor e medo usam avere: ho vent'anni, ho fame, ho freddo, ho paura.",
+     "pattern": "(?<!['’])\\b(?P<w>sono|sei|è|siamo|siete|ho|hai|ha|abbiamo|avete|hanno)\\b(?!\\s+(?:(?:già|mai|ancora|appena|sempre|più|anche|davvero|proprio|subito|bene|male|molto|tanto|spesso|finalmente|veramente|forse|solo|soltanto|tutto|tutti|quasi|poi|ormai|appunto|certamente|sicuramente|probabilmente|recentemente|veramente|lì|qui)\\s+)?(?:\\w+(?:at|ut|it)[oaie]|\\w*(?:fatt|dett|stat|vist|pres|mess|scritt|lett|mort|nat|rimast|chiest|rispost|apert|chius|pers|vint|spes|decis|success|scelt|tolt|offert|rott|moss|dott|giunt|piant|spent|sort|uccis|ris|divis|discuss|ammess|permess|promess|compres|sces|appres|sorpres|spint|nascost|dipint|vissut|tenut|venut|svolt|rivolt|coinvolt|risolt|assunt|post|cott|cors|offes|difes|sospes|stes|attes|intes|acces|espress|impress|mors|appars|scompars|ridott|distrutt|costrett|lett|elett|corrett|protett|accort|accolt|raccolt|sciolt|colt|accesa|sepolt|dipes|vals|pars|nacqu)[oaie])\\b)",
+     "options": {
+      "sono": [
+       "ho",
+       "hanno",
+       "siamo"
+      ],
+      "sei": [
+       "hai",
+       "ha",
+       "è"
+      ],
+      "è": [
+       "ha",
+       "hai",
+       "sei"
+      ],
+      "siamo": [
+       "abbiamo",
+       "avete",
+       "siete"
+      ],
+      "siete": [
+       "avete",
+       "abbiamo",
+       "siamo"
+      ],
+      "ho": [
+       "sono",
+       "hai",
+       "ha"
+      ],
+      "hai": [
+       "sei",
+       "ha",
+       "ho"
+      ],
+      "ha": [
+       "è",
+       "hai",
+       "ho"
+      ],
+      "abbiamo": [
+       "siamo",
+       "avete",
+       "hanno"
+      ],
+      "avete": [
+       "siete",
+       "abbiamo",
+       "hanno"
+      ],
+      "hanno": [
+       "sono",
+       "ha",
+       "avete"
+      ]
+     },
+     "exclude": "\\b(?:alle|le|dalle|delle|sulle|tra|fra|circa|i|dei|ai|primi|ultimi|per|e|o|di|da|verso|quasi)\\s+sei\\b|\\bsei\\s+(?:anni|mesi|giorni|ore|minuti|secondi|settimane|persone|volte|figli|libri|uova|euro|dollari|metri|chilometri|miglia|bambini|bottiglie|mele|gatti|cani|case|stanze|lingue|piani|e\\s+mezz[ao]|e\\s+un\\s+quarto|in\\s+punto|del\\s+mattino|di\\s+sera|di\\s+mattina|meno)\\b|^sei\\s+\\w+i\\b(?=.*[.!]$)(?=x)"
+    },
+    {
+     "id": "possessivos",
+     "name": "Possessivos",
+     "desc": "O possessivo concorda com a coisa possuída, não com o dono: il suo libro, la sua casa, i suoi amici, le sue amiche. Com parentes no singular, sem artigo: mia madre, tuo fratello.",
+     "pattern": "(?:(?<![\\w'’])(?:il|lo|la|i|gli|le|un|uno|una|del|dello|della|dei|degli|delle|nel|nello|nella|nei|negli|nelle|al|allo|alla|ai|agli|alle|dal|dallo|dalla|dai|dagli|dalle|sul|sullo|sulla|sui|sugli|sulle|col|coi|questo|questa|questi|queste|quel|quella|quei|quelle|quegli|quello)\\s+|(?<![\\w'’])(?=(?:nostro|nostra|nostri|nostre|vostro|vostra|vostri|vostre|miei|tuoi|suoi|mio|mia|mie|tuo|tua|tue|suo|sua|sue)\\s+(?:padre|madre|fratello|sorella|figlio|figlia|nonno|nonna|zio|zia|cugino|cugina|marito|moglie|suocero|suocera|cognato|cognata|nipote|fratelli|sorelle|figli|figlie|nonni|nonne|zii|zie|cugini|cugine|genitori)\\b))(?P<w>nostro|nostra|nostri|nostre|vostro|vostra|vostri|vostre|miei|tuoi|suoi|mio|mia|mie|tuo|tua|tue|suo|sua|sue)\\b",
+     "options": {
+      "mio": [
+       "mia",
+       "miei",
+       "mie"
+      ],
+      "mia": [
+       "mio",
+       "mie",
+       "miei"
+      ],
+      "miei": [
+       "mie",
+       "mio",
+       "mia"
+      ],
+      "mie": [
+       "miei",
+       "mia",
+       "mio"
+      ],
+      "tuo": [
+       "tua",
+       "tuoi",
+       "tue"
+      ],
+      "tua": [
+       "tuo",
+       "tue",
+       "tuoi"
+      ],
+      "tuoi": [
+       "tue",
+       "tuo",
+       "tua"
+      ],
+      "tue": [
+       "tuoi",
+       "tua",
+       "tuo"
+      ],
+      "suo": [
+       "sua",
+       "suoi",
+       "sue"
+      ],
+      "sua": [
+       "suo",
+       "sue",
+       "suoi"
+      ],
+      "suoi": [
+       "sue",
+       "suo",
+       "sua"
+      ],
+      "sue": [
+       "suoi",
+       "sua",
+       "suo"
+      ],
+      "nostro": [
+       "nostra",
+       "nostri",
+       "nostre"
+      ],
+      "nostra": [
+       "nostro",
+       "nostre",
+       "nostri"
+      ],
+      "nostri": [
+       "nostre",
+       "nostro",
+       "nostra"
+      ],
+      "nostre": [
+       "nostri",
+       "nostra",
+       "nostro"
+      ],
+      "vostro": [
+       "vostra",
+       "vostri",
+       "vostre"
+      ],
+      "vostra": [
+       "vostro",
+       "vostre",
+       "vostri"
+      ],
+      "vostri": [
+       "vostre",
+       "vostro",
+       "vostra"
+      ],
+      "vostre": [
+       "vostri",
+       "vostra",
+       "vostro"
+      ]
+     }
+    },
+    {
+     "id": "prep_art",
+     "name": "Preposição + artigo",
+     "desc": "Di, a, da, in, su se juntam ao artigo: di+il = del, a+la = alla, in+i = nei, su+lo = sullo, da+gli = dagli. A forma segue o artigo: del libro, dello zio, della casa, degli amici.",
+     "pattern": "(?<![\\w'’])(?P<w>dello|della|degli|delle|nello|nella|negli|nelle|dallo|dalla|dagli|dalle|sullo|sulla|sugli|sulle|allo|alla|agli|alle|del|dei|nel|nei|dal|dai|sul|sui|al|ai)(?=\\s+\\w)",
+     "options": {
+      "del": [
+       "dello",
+       "della",
+       "dei"
+      ],
+      "dello": [
+       "del",
+       "della",
+       "degli"
+      ],
+      "della": [
+       "del",
+       "delle",
+       "dello"
+      ],
+      "dei": [
+       "degli",
+       "delle",
+       "del"
+      ],
+      "degli": [
+       "dei",
+       "delle",
+       "dello"
+      ],
+      "delle": [
+       "della",
+       "dei",
+       "degli"
+      ],
+      "nel": [
+       "nello",
+       "nella",
+       "nei"
+      ],
+      "nello": [
+       "nel",
+       "nella",
+       "negli"
+      ],
+      "nella": [
+       "nel",
+       "nelle",
+       "nello"
+      ],
+      "nei": [
+       "negli",
+       "nelle",
+       "nel"
+      ],
+      "negli": [
+       "nei",
+       "nelle",
+       "nello"
+      ],
+      "nelle": [
+       "nella",
+       "nei",
+       "negli"
+      ],
+      "al": [
+       "allo",
+       "alla",
+       "ai"
+      ],
+      "allo": [
+       "al",
+       "alla",
+       "agli"
+      ],
+      "alla": [
+       "al",
+       "alle",
+       "allo"
+      ],
+      "ai": [
+       "agli",
+       "alle",
+       "al"
+      ],
+      "agli": [
+       "ai",
+       "alle",
+       "allo"
+      ],
+      "alle": [
+       "alla",
+       "ai",
+       "agli"
+      ],
+      "dal": [
+       "dallo",
+       "dalla",
+       "dai"
+      ],
+      "dallo": [
+       "dal",
+       "dalla",
+       "dagli"
+      ],
+      "dalla": [
+       "dal",
+       "dalle",
+       "dallo"
+      ],
+      "dai": [
+       "dagli",
+       "dalle",
+       "dal"
+      ],
+      "dagli": [
+       "dai",
+       "dalle",
+       "dallo"
+      ],
+      "dalle": [
+       "dalla",
+       "dai",
+       "dagli"
+      ],
+      "sul": [
+       "sullo",
+       "sulla",
+       "sui"
+      ],
+      "sullo": [
+       "sul",
+       "sulla",
+       "sugli"
+      ],
+      "sulla": [
+       "sul",
+       "sulle",
+       "sullo"
+      ],
+      "sui": [
+       "sugli",
+       "sulle",
+       "sul"
+      ],
+      "sugli": [
+       "sui",
+       "sulle",
+       "sullo"
+      ],
+      "sulle": [
+       "sulla",
+       "sui",
+       "sugli"
+      ]
+     },
+     "exclude": "\\b(?:tu|mi|ti|gli|le|ci|vi|non|lo|la|li|ce|me|te|glielo|gliela|ne|se)\\s+dai\\b|^dai\\b(?=\\s*,|\\s+(?:andiamo|su|vieni|forza|che|non|smettila|basta)\\b)|\\bgli\\s+dei\\b|\\bdegli\\s+dei\\b|\\bdei\\s+dei\\b|\\bdai\\s+(?:retta|una|un|un'|il|la|le|lo|i|gli|questo|quello|a|da|di)\\b|^(?:tu\\s+)?dai\\b"
+    },
+    {
+     "id": "a_in",
+     "name": "A ou in (lugares)",
+     "desc": "A com cidades (a Roma, a Parigi) e em expressões fixas (a scuola, a letto, a teatro, a piedi); in com países e regiões (in Italia, in Toscana), meios de transporte e muitos lugares (in banca, in ufficio, in macchina).",
+     "pattern": "(?<![\\w'’])(?P<w>a|in)\\s+(?:(?-i:(?:Roma|Milano|Napoli|Firenze|Venezia|Torino|Bologna|Genova|Palermo|Pisa|Siena|Verona|Bari|Trieste|Parigi|Londra|Tokyo|Kyoto|Osaka|Boston|Chicago|Berlino|Madrid|Barcellona|Lisbona|Mosca|Pechino|Vienna|Praga|Sydney|Toronto|Montreal|Bruxelles|Ginevra|Zurigo|Monaco|Gerusalemme|Rio|San\\s+Francisco|New\\s+York|Los\\s+Angeles|Washington|Seattle|Hollywood|Dublino|Varsavia|Budapest|Stoccolma|Copenaghen|Helsinki|Seul|Shanghai|Hong\\s+Kong|Nara|Kobe|Nagoya|Sapporo|Yokohama|Hiroshima|Detroit|Houston|Dallas|Miami|Denver|Filadelfia|Las\\s+Vegas|Melbourne|Bangkok|Singapore|Marsiglia|Lione|Nizza|Francoforte|Amburgo|Colonia|Salisburgo|Cracovia|Belgrado|Sofia|Bucarest|Kiev|San\\s+Pietroburgo|Città\\s+del\\s+Messico|Buenos\\s+Aires|San\\s+Paolo|Brasilia|Lima|Santiago|Montevideo|Bogotà|Caracas|Avana|Pompei|Assisi|Ravenna|Padova|Parma|Modena|Perugia|Cagliari|Catania|Brindisi|Lecce|Salerno|Capri|Rimini|Como|Bergamo|Brescia|Trento|Bolzano|Udine|Ancona|Pescara|Taranto|Messina|Italia|Francia|Germania|Spagna|Inghilterra|Gran\\s+Bretagna|America|Giappone|Cina|Brasile|Australia|Canada|Russia|Svizzera|Austria|Grecia|Portogallo|Egitto|India|Messico|Argentina|Europa|Africa|Asia|Sicilia|Sardegna|Toscana|Irlanda|Scozia|Olanda|Belgio|Polonia|Svezia|Norvegia|Finlandia|Danimarca|Turchia|Corea|Vietnam|Thailandia|Tailandia|Indonesia|Cile|Perù|Colombia|Venezuela|Algeria|Marocco|Tunisia|Libia|Israele|Iran|Iraq|Afghanistan|Ucraina|Ungheria|Romania|Bulgaria|Croazia|Serbia|Albania|Lombardia|Piemonte|Veneto|Liguria|Puglia|Calabria|Campania|Umbria|Lazio|Abruzzo|Emilia|Basilicata|Molise|Friuli|California|Texas|Florida|Alaska|Australia|Nuova\\s+Zelanda|Sudafrica|Kenya|Nigeria|Siria|Libano|Arabia\\s+Saudita|Galles|Islanda|Mongolia|Nepal|Tibet|Pakistan|Cambogia|Malesia|Ecuador|Bolivia|Paraguay|Uruguay|Bosnia|Slovenia|Slovacchia|Lituania|Lettonia|Estonia|Bielorussia|Georgia|Armenia|Etiopia|Somalia|Sudan|Ghana|Senegal|Kabylia|Cabilia|Normandia|Provenza|Baviera|Andalusia|Catalogna|Siberia|Antartide|Scandinavia|Oceania|Polinesia))|(?:scuola|letto|teatro|tavola|pranzo|cena|piedi|lezione|messa|colazione|ufficio|banca|biblioteca|cucina|giardino|montagna|campagna|città|centro|chiesa|piscina|palestra|farmacia|macchina|auto|treno|aereo|autobus|bicicletta|bici|taxi|metro|metropolitana|vacanza|classe|camera|bagno|salotto|ospedale|prigione|carcere|piazza|discoteca|pizzeria|libreria|panetteria|spiaggia|aula|cantina|soffitta|barca|nave|moto|motocicletta|tram|giro|fila|piedi|biblioteca|pensione|ascensore|corridoio|cortile|giardino|mezzo|periferia|paese|crociera|ferie|viaggio|anticipo|ritardo))\\b(?!['’])",
+     "options": [
+      "a",
+      "in"
+     ],
+     "exclude": "\\b(?:da|di)\\s+(?:scuola|letto|teatro|tavola|pranzo|cena|piedi|lezione|messa|colazione)\\b(?=x)|\\bin\\s+(?:mezzo|giro|fila|anticipo|ritardo)\\s+(?:a|al|alla|ai|alle|agli|allo|all')\\b(?=x)|\\bin\\s+mezzo\\s+(?:a|al|alla|ai|agli|alle)\\b"
+    },
+    {
+     "id": "quantidade",
+     "name": "Molto, troppo, poco, tanto",
+     "desc": "Antes de substantivo, concordam: molta gente, molti libri, troppe persone, pochi soldi. Como advérbio (antes de adjetivo ou depois do verbo) ficam em -o: molto bella, lavora troppo.",
+     "pattern": "(?<![\\w'’])(?P<w>(?:molto|troppo|tanto|poco)(?=\\s+(?!(?:bene|più|meno|male|presto|tardi|tempo|lontano|vicino|spesso|prima|dopo|fa|di|da|a|e|che|in|per|con)\\b)[a-zàèéìòù]+[aei]\\b)|(?:troppa|troppi|troppe|molta|molti|molte|tanta|tanti|tante|pochi|poche|poca)(?=\\s+(?!(?:\\w*(?:ano|ono|iamo|ate|ete|ite|avano|evano|ivano|arono|erono|irono|ebbero|eranno|iranno|aranno)\\b|sono|è|era|hanno|ha|sa|può|pensano|credono|dicono|vanno|fanno|stanno|vengono|vogliono|possono|devono|dei|degli|delle|di|del|della|tra|fra|altri|altre|altro|altra|più|meno|che|e|o|a|da|per|in|con|su|ne)\\b)[a-zàèéìòù]))\\b(?!['’])",
+     "options": {
+      "molto": [
+       "molta",
+       "molti",
+       "molte"
+      ],
+      "molta": [
+       "molto",
+       "molti",
+       "molte"
+      ],
+      "molti": [
+       "molto",
+       "molta",
+       "molte"
+      ],
+      "molte": [
+       "molto",
+       "molta",
+       "molti"
+      ],
+      "troppo": [
+       "troppa",
+       "troppi",
+       "troppe"
+      ],
+      "troppa": [
+       "troppo",
+       "troppi",
+       "troppe"
+      ],
+      "troppi": [
+       "troppo",
+       "troppa",
+       "troppe"
+      ],
+      "troppe": [
+       "troppo",
+       "troppa",
+       "troppi"
+      ],
+      "tanto": [
+       "tanta",
+       "tanti",
+       "tante"
+      ],
+      "tanta": [
+       "tanto",
+       "tanti",
+       "tante"
+      ],
+      "tanti": [
+       "tanto",
+       "tanta",
+       "tante"
+      ],
+      "tante": [
+       "tanto",
+       "tanta",
+       "tanti"
+      ],
+      "poco": [
+       "poca",
+       "pochi",
+       "poche"
+      ],
+      "poca": [
+       "poco",
+       "pochi",
+       "poche"
+      ],
+      "pochi": [
+       "poco",
+       "poca",
+       "poche"
+      ],
+      "poche": [
+       "poco",
+       "poca",
+       "pochi"
+      ]
+     },
+     "exclude": "\\b(?:ne|ce\\s+ne|me\\s+ne|te\\s+ne)\\s+(?:\\w+\\s+){0,2}(?:molt|tropp|tant|poc|poch)[oaie]\\b|\\bdi\\s+tanto\\s+in\\s+tanto\\b|\\bogni\\s+tanto\\b(?=x)|\\b(?:molti|molte|tanti|tante|pochi|poche|troppi|troppe)\\s+(?:di\\s+noi|di\\s+voi|di\\s+loro)\\b"
+    },
+    {
+     "id": "reflexivos",
+     "name": "Verbos reflexivos",
+     "desc": "O pronome acompanha a pessoa do verbo: io mi chiamo, tu ti alzi, lui si sveglia, noi ci vediamo, voi vi divertite, loro si sposano. No passado usam essere: mi sono alzato.",
+     "pattern": "(?<![\\w'’])(?P<w>mi(?=\\s+(?:(?:dimenticherò|addormentavo|addormenterò|sorprendevo|allontanerò|allontanavo|sorprenderò|preoccuperò|preoccupavo|interessavo|dimenticavo|interesserò|avvicinerò|innamoravo|vergognavo|ubriacherò|arrabbierò|comportavo|arrabbiavo|riprenderò|comporterò|addormento|riprendevo|innamorerò|accomoderò|vergognerò|avvicinavo|accomodavo|arrenderò|divertivo|pettinavo|sistemavo|pettinerò|ricorderò|truccherò|lamenterò|preoccupo|sistemerò|interesso|svegliavo|sbagliavo|divertirò|rilasserò|preparavo|stancherò|iscrivevo|dimentico|preparerò|sorprendo|sbaglierò|arrendevo|rilassavo|spogliavo|sveglierò|iscriverò|lamentavo|ricordavo|ubriacavo|spoglierò|allontano|ammalavo|riposerò|innamoro|stancavo|vergogno|riprendo|truccavo|scoprirò|riposavo|arrabbio|avvicino|chiederò|annoiavo|sdraiavo|abituerò|annoierò|comporto|chiamavo|chiedevo|scoprivo|ammalerò|abituavo|chiamerò|sdraierò|accomodo|fermerò|coprivo|vestivo|pettino|spoglio|sposavo|metterò|muovevo|scusavo|sbaglio|sposerò|trovavo|sistemo|bagnerò|iscrivo|pentirò|calmavo|sentirò|scuserò|muoverò|lamento|troverò|fermavo|mettevo|perdevo|rendevo|vestirò|offrivo|bagnavo|calmerò|sveglio|rilasso|perderò|coprirò|renderò|sentivo|preparo|pentivo|ricordo|ubriaco|arrendo|diverto|offrirò|riposo|aprirò|chiamo|stanco|annoio|chiedo|sdraio|scopro|alzavo|lavavo|vederò|vedevo|laverò|trucco|fidavo|fiderò|alzerò|abituo|aprivo|ammalo|offro|muovo|sento|copro|vesto|trovo|pento|sposo|rendo|fermo|bagno|siedo|metto|scuso|perdo|calmo|alzo|vedo|lavo|apro|fido)\\b|(?:sono|ero|sarò|sarei|fossi)\\s+(?:(?:già|mai|appena|ancora|sempre|davvero|proprio|subito|bene|molto|più)\\s+)?(?:addormentat|preoccupat|allontanat|interessat|dimenticat|avvicinat|innamorat|arrabbiat|accomodat|vergognat|comportat|preparat|sbagliat|ubriacat|spogliat|svegliat|rilassat|sistemat|ricordat|pettinat|divertit|lamentat|scopert|ammalat|annoiat|riposat|truccat|scoprit|abituat|iscritt|sorpres|chiamat|stancat|sdraiat|chiest|sposat|sentit|coprit|scusat|offert|offrit|pentit|copert|vendut|trovat|perdut|bagnat|ripres|calmat|fermat|vestit|sedut|aprit|lavat|fidat|vedut|alzat|apert|mess|vist|ares|tolt|moss|rott|fatt|pers|pres|res)[oaie]\\b))|ti(?=\\s+(?:(?:dimenticherai|addormenterai|sorprenderai|allontanerai|addormentavi|interesserai|preoccuperai|ubriacherai|vergognerai|allontanavi|sorprendevi|avvicinerai|arrabbierai|comporterai|accomoderai|preoccupavi|innamorerai|dimenticavi|riprenderai|interessavi|lamenterai|pettinerai|rilasserai|arrabbiavi|accomodavi|comportavi|stancherai|preparerai|sistemerai|vergognavi|arrenderai|divertirai|ricorderai|truccherai|innamoravi|avvicinavi|sbaglierai|addormenti|sveglierai|iscriverai|riprendevi|spoglierai|dimentichi|riposerai|preoccupi|ubriacavi|interessi|ammalerai|preparavi|arrendevi|pettinavi|iscrivevi|sistemavi|svegliavi|sorprendi|rilassavi|spogliavi|sdraierai|chiederai|scoprirai|lamentavi|chiamerai|abituerai|divertivi|sbagliavi|allontani|annoierai|ricordavi|fermerai|troverai|sdraiavi|scuserai|renderai|perderai|coprirai|ammalavi|accomodi|chiamavi|innamori|stancavi|calmerai|riposavi|ubriachi|muoverai|comporti|chiedevi|riprendi|metterai|avvicini|abituavi|truccavi|vergogni|sposerai|bagnerai|vestirai|pentirai|annoiavi|scoprivi|offrirai|sentirai|stanchi|bagnavi|coprivi|aprirai|sentivi|scusavi|lamenti|muovevi|rendevi|iscrivi|diverti|alzerai|ricordi|arrabbi|sistemi|pettini|vederai|fiderai|trovavi|arrendi|mettevi|laverai|prepari|vestivi|pentivi|perdevi|fermavi|calmavi|offrivi|sposavi|trucchi|rilassi|sbagli|ammali|fidavi|aprivi|spogli|svegli|abitui|scopri|lavavi|riposi|alzavi|vedevi|chiami|chiedi|offri|scusi|metti|sdrai|bagni|sposi|siedi|calmi|rendi|senti|trovi|copri|perdi|fermi|muovi|annoi|penti|vesti|apri|alzi|fidi|vedi|lavi)\\b|(?:sei|eri|sarai|saresti|fossi)\\s+(?:(?:già|mai|appena|ancora|sempre|davvero|proprio|subito|bene|molto|più)\\s+)?(?:addormentat|preoccupat|allontanat|interessat|dimenticat|avvicinat|innamorat|arrabbiat|accomodat|vergognat|comportat|preparat|sbagliat|ubriacat|spogliat|svegliat|rilassat|sistemat|ricordat|pettinat|divertit|lamentat|scopert|ammalat|annoiat|riposat|truccat|scoprit|abituat|iscritt|sorpres|chiamat|stancat|sdraiat|chiest|sposat|sentit|coprit|scusat|offert|offrit|pentit|copert|vendut|trovat|perdut|bagnat|ripres|calmat|fermat|vestit|sedut|aprit|lavat|fidat|vedut|alzat|apert|mess|vist|ares|tolt|moss|rott|fatt|pers|pres|res)[oaie]\\b))|si(?=\\s+(?:(?:addormenteranno|dimenticheranno|allontaneranno|addormentavano|preoccuperanno|sorprenderanno|interesseranno|avvicineranno|innamoreranno|interessavano|allontanavano|riprenderanno|sorprendevano|ubriacheranno|accomoderanno|vergogneranno|comporteranno|preoccupavano|arrabbieranno|dimenticavano|lamenteranno|spoglieranno|comportavano|sistemeranno|addormentava|accomodavano|stancheranno|sbaglieranno|vergognavano|arrenderanno|addormentano|avvicinavano|sveglieranno|pettineranno|ricorderanno|innamoravano|arrabbiavano|iscriveranno|rilasseranno|riprendevano|truccheranno|dimenticherà|prepareranno|divertiranno|addormenterà|dimenticava|allontanava|interessava|lamentavano|spogliavano|iscrivevano|sorprenderà|interessano|preparavano|svegliavano|abitueranno|pettinavano|allontanano|ammaleranno|sorprendono|ubriacavano|chiameranno|preoccupano|riposeranno|divertivano|rilassavano|sistemavano|dimenticano|sdraieranno|sorprendeva|allontanerà|preoccuperà|ricordavano|chiederanno|arrendevano|annoieranno|preoccupava|interesserà|scopriranno|sbagliavano|avvicinava|riprenderà|innamorerà|avvicinano|riprendono|vergognerà|calmeranno|ubriacherà|renderanno|perderanno|vestiranno|offriranno|riposavano|arrabbiava|abituavano|comporterà|scoprivano|ammalavano|sentiranno|vergognava|vergognano|chiedevano|truccavano|pentiranno|troveranno|annoiavano|accomodano|comportano|metteranno|copriranno|accomoderà|scuseranno|fermeranno|arrabbiano|avvicinerà|innamorava|arrabbierà|accomodava|sdraiavano|addormenta|stancavano|bagneranno|muoveranno|riprendeva|innamorano|sposeranno|comportava|chiamavano|vederanno|sistemava|sposavano|mettevano|preparerà|svegliano|sistemerà|sbagliano|pentivano|arrenderà|preoccupa|svegliava|sbaglierà|pettinerà|muovevano|stancherà|truccherà|divertiva|sbagliava|offrivano|sistemano|sveglierà|laveranno|pettinava|pettinano|allontana|preparava|ricordava|ricordano|calmavano|arrendeva|lamentava|perdevano|alzeranno|bagnavano|iscriveva|fideranno|ubriacava|ubriacano|preparano|spoglierà|vestivano|rilassava|lamentano|fermavano|dimentica|lamenterà|rendevano|spogliano|sorprende|scusavano|trovavano|apriranno|arrendono|rilassano|ricorderà|divertono|interessa|iscriverà|iscrivono|divertirà|coprivano|sentivano|rilasserà|spogliava|chiamerà|scoprirà|abituano|arrabbia|ammalerà|annoiava|stancava|ammalano|sdraiano|accomoda|avvicina|chiedono|ammalava|fidavano|truccano|riposava|truccava|comporta|chiederà|scoprono|scopriva|lavavano|riposano|abituava|vergogna|vedevano|chiedeva|innamora|riprende|riposerà|chiamano|chiamava|stancano|annoierà|abituerà|sdraiava|sdraierà|alzavano|aprivano|annoiano|muovono|sentirà|renderà|pentono|perdeva|siedono|rilassa|iscrive|sposerà|fermerà|rendeva|fermava|ubriaca|metteva|pentirà|bagnerà|scusava|muoveva|scuserà|mettono|coprono|diverte|pentiva|calmano|metterà|troverà|lamenta|ricorda|perderà|offriva|offrirà|sbaglia|bagnano|sposava|arrende|sentono|trovano|offrono|scusano|sentiva|sistema|sveglia|vestono|calmerà|coprirà|spoglia|rendono|copriva|fermano|sposano|trovava|prepara|calmava|bagnava|perdono|pettina|vestiva|vestirà|muoverà|annoia|stanca|vederà|trucca|aprirà|apriva|aprono|fiderà|ammala|vedono|alzano|fidano|laverà|lavava|lavano|riposa|abitua|chiede|scopre|alzerà|alzava|fidava|sdraia|chiama|vedeva|siede|offre|muove|sente|ferma|bagna|trova|veste|perde|scusa|pente|sposa|calma|rende|mette|copre|alza|apre|vede|fida|lava)\\b|(?:è|era|sarà|sarebbe|fosse|sono|erano|saranno|sarebbero|fossero)\\s+(?:(?:già|mai|appena|ancora|sempre|davvero|proprio|subito|bene|molto|più)\\s+)?(?:addormentat|preoccupat|allontanat|interessat|dimenticat|avvicinat|innamorat|arrabbiat|accomodat|vergognat|comportat|preparat|sbagliat|ubriacat|spogliat|svegliat|rilassat|sistemat|ricordat|pettinat|divertit|lamentat|scopert|ammalat|annoiat|riposat|truccat|scoprit|abituat|iscritt|sorpres|chiamat|stancat|sdraiat|chiest|sposat|sentit|coprit|scusat|offert|offrit|pentit|copert|vendut|trovat|perdut|bagnat|ripres|calmat|fermat|vestit|sedut|aprit|lavat|fidat|vedut|alzat|apert|mess|vist|ares|tolt|moss|rott|fatt|pers|pres|res)[oaie]\\b))|ci(?=\\s+(?:(?:addormenteremo|dimenticheremo|addormentavamo|sorprendevamo|preoccupavamo|interesseremo|preoccuperemo|dimenticavamo|sorprenderemo|dimentichiamo|addormentiamo|allontaneremo|interessavamo|allontanavamo|riprenderemo|innamoreremo|preoccupiamo|sorprendiamo|avvicineremo|allontaniamo|comporteremo|ubriacheremo|vergogneremo|vergognavamo|comportavamo|innamoravamo|riprendevamo|interessiamo|arrabbiavamo|arrabbieremo|accomoderemo|avvicinavamo|accomodavamo|lamenteremo|prepareremo|arrendevamo|divertiremo|rilassavamo|sistemavamo|lamentavamo|rilasseremo|iscriveremo|arrenderemo|sbaglieremo|pettinavamo|vergogniamo|sistemeremo|riprendiamo|ricordavamo|preparavamo|stancheremo|comportiamo|pettineremo|sveglieremo|sbagliavamo|innamoriamo|ubriacavamo|svegliavamo|iscrivevamo|spoglieremo|truccheremo|ricorderemo|avviciniamo|accomodiamo|spogliavamo|divertivamo|ubriachiamo|prepariamo|chiameremo|sistemiamo|lamentiamo|annoieremo|arrabbiamo|iscriviamo|pettiniamo|ricordiamo|ammaleremo|stanchiamo|scoprivamo|annoiavamo|sdraiavamo|chiedevamo|arrendiamo|ammalavamo|chiederemo|rilassiamo|sdraieremo|truccavamo|abituavamo|riposavamo|trucchiamo|divertiamo|stancavamo|scopriremo|chiamavamo|riposeremo|abitueremo|rendevamo|sposeremo|perdevamo|scusavamo|scopriamo|scuseremo|fermavamo|perderemo|sposavamo|renderemo|abituiamo|coprivamo|vestiremo|vestivamo|sentiremo|copriremo|chiamiamo|sentivamo|mettevamo|metteremo|offriremo|pentiremo|fermeremo|muovevamo|calmeremo|riposiamo|bagnavamo|spogliamo|svegliamo|pentivamo|trovavamo|bagneremo|sbagliamo|chiediamo|muoveremo|offrivamo|ammaliamo|calmavamo|troveremo|muoviamo|perdiamo|fermiamo|vederemo|bagniamo|offriamo|fideremo|rendiamo|calmiamo|laveremo|fidavamo|pentiamo|sdraiamo|alzeremo|aprivamo|copriamo|apriremo|lavavamo|sentiamo|vestiamo|annoiamo|alzavamo|vedevamo|sposiamo|mettiamo|troviamo|scusiamo|apriamo|fidiamo|sediamo|vediamo|laviamo|alziamo)\\b|(?:siamo|eravamo|saremo|saremmo|fossimo)\\s+(?:(?:già|mai|appena|ancora|sempre|davvero|proprio|subito|bene|molto|più)\\s+)?(?:addormentat|preoccupat|allontanat|interessat|dimenticat|avvicinat|innamorat|arrabbiat|accomodat|vergognat|comportat|preparat|sbagliat|ubriacat|spogliat|svegliat|rilassat|sistemat|ricordat|pettinat|divertit|lamentat|scopert|ammalat|annoiat|riposat|truccat|scoprit|abituat|iscritt|sorpres|chiamat|stancat|sdraiat|chiest|sposat|sentit|coprit|scusat|offert|offrit|pentit|copert|vendut|trovat|perdut|bagnat|ripres|calmat|fermat|vestit|sedut|aprit|lavat|fidat|vedut|alzat|apert|mess|vist|ares|tolt|moss|rott|fatt|pers|pres|res)[oaie]\\b))|vi(?=\\s+(?:(?:dimenticherete|addormenterete|addormentavate|preoccupavate|interesserete|allontanavate|allontanerete|dimenticavate|sorprendevate|interessavate|sorprenderete|preoccuperete|avvicinerete|avvicinavate|innamoravate|accomodavate|comporterete|accomoderete|comportavate|vergognerete|arrabbierete|riprenderete|addormentate|ubriacherete|innamorerete|riprendevate|vergognavate|arrabbiavate|preparavate|svegliavate|pettinavate|rilasserete|iscriverete|sbagliavate|divertivate|interessate|allontanate|dimenticate|ubriacavate|sistemavate|preoccupate|sorprendete|arrendevate|pettinerete|truccherete|lamenterete|arrenderete|sbaglierete|ricorderete|rilassavate|preparerete|lamentavate|ricordavate|divertirete|spogliavate|spoglierete|iscrivevate|sistemerete|stancherete|sveglierete|chiedevate|riposerete|scoprirete|ammalerete|chiamerete|scoprivate|sdraiavate|accomodate|riposavate|arrabbiate|stancavate|annoierete|avvicinate|chiederete|innamorate|abituavate|sdraierete|chiamavate|riprendete|truccavate|comportate|annoiavate|vergognate|abituerete|ammalavate|ubriacate|rendevate|bagnavate|pettinate|svegliate|fermerete|offrirete|sentirete|arrendete|scuserete|coprivate|sistemate|pentivate|trovavate|lamentate|renderete|sentivate|iscrivete|coprirete|pentirete|scusavate|sposerete|mettevate|vestivate|perderete|vestirete|perdevate|muovevate|calmerete|rilassate|calmavate|bagnerete|offrivate|muoverete|fermavate|sposavate|sbagliate|spogliate|preparate|divertite|metterete|troverete|ricordate|chiedete|fidavate|vederete|aprivate|lavavate|stancate|fiderete|chiamate|ammalate|truccate|scoprite|aprirete|sdraiate|alzerete|riposate|abituate|laverete|alzavate|vedevate|annoiate|sposate|perdete|rendete|mettete|pentite|fermate|muovete|sentite|trovate|offrite|vestite|bagnate|scusate|calmate|coprite|lavate|vedete|aprite|alzate|sedete|fidate)\\b|(?:siete|eravate|sarete|sareste|foste)\\s+(?:(?:già|mai|appena|ancora|sempre|davvero|proprio|subito|bene|molto|più)\\s+)?(?:addormentat|preoccupat|allontanat|interessat|dimenticat|avvicinat|innamorat|arrabbiat|accomodat|vergognat|comportat|preparat|sbagliat|ubriacat|spogliat|svegliat|rilassat|sistemat|ricordat|pettinat|divertit|lamentat|scopert|ammalat|annoiat|riposat|truccat|scoprit|abituat|iscritt|sorpres|chiamat|stancat|sdraiat|chiest|sposat|sentit|coprit|scusat|offert|offrit|pentit|copert|vendut|trovat|perdut|bagnat|ripres|calmat|fermat|vestit|sedut|aprit|lavat|fidat|vedut|alzat|apert|mess|vist|ares|tolt|moss|rott|fatt|pers|pres|res)[oaie]\\b)))",
+     "options": [
+      "mi",
+      "ti",
+      "si",
+      "ci",
+      "vi"
+     ],
+     "exclude": "\\b(?:ti|mi|vi|ci)\\s+(?:chiamo|chiami|chiama|chiamiamo|chiamate|chiamano)\\b(?=.*\\b(?:domani|stasera|dopo|più\\s+tardi|appena)\\b)"
+    },
+    {
+     "id": "pp_ausiliar",
+     "name": "Auxiliar no passato prossimo",
+     "desc": "A maioria dos verbos usa avere (ho mangiato, hai visto). Usam essere os verbos de movimento/mudança de estado e os reflexivos — e aí o particípio concorda: sono andata, è nato, ci siamo alzati.",
+     "pattern": "(?:(?<=\\b[mtscv]i\\s)|(?<=\\bsi\\s)|(?!(?:sono|sei|è|siamo|siete|ho|hai|ha|abbiamo|avete|hanno)\\s+(?:(?:già|mai|ancora|appena|sempre|più|anche|davvero|proprio|subito|bene|male|molto|tanto|spesso|finalmente|veramente|forse|solo|soltanto|tutto|tutti|quasi|poi|ormai|appunto|certamente|sicuramente|probabilmente|recentemente|veramente|lì|qui)\\s+)?(?:occupat|sfortunat|fortunat|riservat|rovinat|sposat|preoccupat|innamorat|ubriac|abituat|interessat|annoiat|delus|educat|maleducat|complicat|delicat|privat|ammalat|grat|moderat|stufat|incasinat|disperat|ritardat|spaventat|arrabbiat|stressat|esaurit|imbarazzat|affezionat|appassionat|obbligat|costrett|autorizzat|vietat|proibit|permess|nat|mort|chius|apert|rott|finit|pront|seccat|deprimet|depress|sorpres|eccitat|emozionat|agitat|ferit|stancat|ottimizzat|vestit|sedut|sdraiat|addormentat|svegli|bagnat|sporc|pulit|ordinat|organizzat|attrezzat|preparat|qualificat|dotat|situat|collocat|ubicat|innamorat|fidanzat|divorziat|separat|impegnat|occupat|limitat|illimitat|esagerat|motivat|convint|soddisfatt|dispiaciut|conosciut|sconosciut|benvenut|riuscit)[oaie]\\b))(?<!['’])\\b(?P<w>sono|sei|è|siamo|siete|ho|hai|ha|abbiamo|avete|hanno)\\s+(?:(?:già|mai|ancora|appena|sempre|più|anche|davvero|proprio|subito|bene|male|molto|tanto|spesso|finalmente|veramente|forse|solo|soltanto|tutto|tutti|quasi|poi|ormai|appunto|certamente|sicuramente|probabilmente|recentemente|veramente|lì|qui)\\s+)?(?!(?:(?:cominci|inizi|cambi|aumentat|diminuit|migliorat|peggiorat|bruciat|guarit|suonat|piovut|nevicat|durat|mancat|servit|ingrassat|dimagrit|invecchiat|affondat|continuat|terminat|cresciut|volat|atterrat|saltat|girat|ricominciat|seguit|convenut|scoppiat|fallit|evaporat|sbarcat|decollat|annegat|avanzat|calat|sals|ripartit|vissut|cors|trascors|pass|fin|sces|salit|riuscit\\w*(?=x))(?:at|it|ut)?[oaie])\\b)(?:\\w+(?:at|ut|it)[oaie]|\\w*(?:fatt|dett|stat|vist|pres|mess|scritt|lett|mort|nat|rimast|chiest|rispost|apert|chius|pers|vint|spes|decis|success|scelt|tolt|offert|rott|moss|dott|giunt|piant|spent|sort|uccis|ris|divis|discuss|ammess|permess|promess|compres|sces|appres|sorpres|spint|nascost|dipint|vissut|tenut|venut|svolt|rivolt|coinvolt|risolt|assunt|post|cott|cors|offes|difes|sospes|stes|attes|intes|acces|espress|impress|mors|appars|scompars|ridott|distrutt|costrett|lett|elett|corrett|protett|accort|accolt|raccolt|sciolt|colt|accesa|sepolt|dipes|vals|pars|nacqu)[oaie])\\b",
+     "options": {
+      "sono": [
+       "ho",
+       "hanno",
+       "siamo"
+      ],
+      "sei": [
+       "hai",
+       "ha",
+       "è"
+      ],
+      "è": [
+       "ha",
+       "hai",
+       "sei"
+      ],
+      "siamo": [
+       "abbiamo",
+       "avete",
+       "siete"
+      ],
+      "siete": [
+       "avete",
+       "abbiamo",
+       "siamo"
+      ],
+      "ho": [
+       "sono",
+       "hai",
+       "ha"
+      ],
+      "hai": [
+       "sei",
+       "ha",
+       "ho"
+      ],
+      "ha": [
+       "è",
+       "hai",
+       "ho"
+      ],
+      "abbiamo": [
+       "siamo",
+       "avete",
+       "hanno"
+      ],
+      "avete": [
+       "siete",
+       "abbiamo",
+       "hanno"
+      ],
+      "hanno": [
+       "sono",
+       "ha",
+       "avete"
+      ]
+     },
+     "exclude": "\\b(?:alle|le|dalle|delle|sulle|tra|fra|circa|i|dei|ai|primi|ultimi|per|e|o|di|da|verso|quasi)\\s+sei\\b|\\bsei\\s+(?:anni|mesi|giorni|ore|minuti|secondi|settimane|persone|volte|figli|libri|uova|euro|dollari|metri|chilometri|miglia|bambini|bottiglie|mele|gatti|cani|case|stanze|lingue|piani|e\\s+mezz[ao]|e\\s+un\\s+quarto|in\\s+punto|del\\s+mattino|di\\s+sera|di\\s+mattina|meno)\\b|^sei\\s+\\w+i\\b(?=.*[.!]$)(?=x)|\\b(?:è|sono|era|erano)\\s+(?:\\w+\\s+)?(?:stat[oaie]\\s+)?(?:\\w+at[oaie])\\s+(?:da|dal|dalla|dai|dagli|dalle|dallo)\\b"
+    },
+    {
+     "id": "futuro",
+     "name": "Futuro simples",
+     "desc": "Terminações: -rò, -rai, -rà, -remo, -rete, -ranno (parlerò, farai, sarà). Vários verbos encurtam o radical: andrò, potrò, vedrò, verrò, vorrò. Não confunda com o condicional (sarei, farei).",
+     "pattern": "\\b(?P<w>incontreranno|aspetteranno|cominceranno|nevicheranno|succederanno|incontreremo|incontrerete|ricorderanno|arriveranno|chiameranno|compreranno|lavoreranno|aspetteremo|aspetterete|cominceremo|comincerete|cercheranno|prenderanno|scriveranno|chiederanno|decideranno|nevicheremo|nevicherete|succederemo|succederete|incontrerai|studieranno|giocheranno|ricorderemo|ricorderete|rimarranno|torneranno|arriveremo|arriverete|chiameremo|chiamerete|compreremo|comprerete|parleranno|lavoreremo|lavorerete|aiuteranno|aspetterai|porteranno|troveranno|resteranno|mangeranno|comincerai|pagheranno|cercheremo|cercherete|partiranno|dormiranno|sentiranno|prenderemo|prenderete|scriveremo|scriverete|leggeranno|perderanno|vinceranno|metteranno|chiederemo|chiederete|crederanno|decideremo|deciderete|pioveranno|nevicherai|succederai|incontrerò|incontrerà|studieremo|studierete|penseranno|proveranno|giocheremo|giocherete|ricorderai|piaceranno|rimarremo|rimarrete|torneremo|tornerete|arriverai|chiamerai|comprerai|parleremo|parlerete|lavorerai|aiuteremo|aiuterete|aspetterò|aspetterà|porteremo|porterete|troveremo|troverete|resteremo|resterete|mangeremo|mangerete|comincerò|comincerà|pagheremo|pagherete|cercherai|partiremo|partirete|finiranno|dormiremo|dormirete|sentiremo|sentirete|prenderai|scriverai|leggeremo|leggerete|perderemo|perderete|vinceremo|vincerete|metteremo|metterete|chiederai|crederemo|crederete|deciderai|capiranno|pioveremo|pioverete|nevicherò|nevicherà|succederò|succederà|studierai|penseremo|penserete|proveremo|proverete|giocherai|ricorderò|ricorderà|piaceremo|piacerete|andranno|verranno|potranno|dovranno|vorranno|vedranno|sapranno|staranno|rimarrai|berranno|terranno|vivranno|tornerai|arriverò|arriverà|chiamerò|chiamerà|comprerò|comprerà|parlerai|lavorerò|lavorerà|aiuterai|porterai|troverai|resterai|mangerai|pagherai|cercherò|cercherà|partirai|finiremo|finirete|dormirai|sentirai|prenderò|prenderà|scriverò|scriverà|leggerai|perderai|vincerai|metterai|chiederò|chiederà|crederai|deciderò|deciderà|capiremo|capirete|pioverai|studierò|studierà|penserai|useranno|proverai|giocherò|giocherà|piacerai|saranno|avranno|faranno|andremo|andrete|verremo|verrete|potremo|potrete|dovremo|dovrete|vorremo|vorrete|vedremo|vedrete|sapremo|saprete|staremo|starete|diranno|daranno|rimarrò|rimarrà|berremo|berrete|terremo|terrete|vivremo|vivrete|tornerò|tornerà|parlerò|parlerà|aiuterò|aiuterà|porterò|porterà|troverò|troverà|resterò|resterà|mangerò|mangerà|pagherò|pagherà|partirò|partirà|finirai|dormirò|dormirà|sentirò|sentirà|leggerò|leggerà|perderò|perderà|vincerò|vincerà|metterò|metterà|crederò|crederà|capirai|pioverò|pioverà|penserò|penserà|useremo|userete|proverò|proverà|piacerò|piacerà|saremo|sarete|avremo|avrete|faremo|farete|andrai|verrai|potrai|dovrai|vorrai|vedrai|saprai|starai|diremo|direte|daremo|darete|berrai|terrai|vivrai|finirò|finirà|capirò|capirà|userai|sarai|avrai|farai|andrò|andrà|verrò|verrà|potrò|potrà|dovrò|dovrà|vorrò|vorrà|vedrò|vedrà|saprò|saprà|starò|starà|dirai|darai|berrò|berrà|terrò|terrà|vivrò|vivrà|userò|userà|sarò|sarà|avrò|avrà|farò|farà|dirò|dirà|darò|darà)\\b",
+     "options": {
+      "sarò": [
+       "sarei",
+       "ero",
+       "sarà"
+      ],
+      "sarai": [
+       "saresti",
+       "eri",
+       "sarà"
+      ],
+      "sarà": [
+       "sarebbe",
+       "era",
+       "sarò"
+      ],
+      "saremo": [
+       "saremmo",
+       "eravamo",
+       "saranno"
+      ],
+      "sarete": [
+       "sareste",
+       "eravate",
+       "saremo"
+      ],
+      "saranno": [
+       "sarebbero",
+       "erano",
+       "sarà"
+      ],
+      "avrò": [
+       "avrei",
+       "avevo",
+       "avrà"
+      ],
+      "avrai": [
+       "avresti",
+       "avevi",
+       "avrà"
+      ],
+      "avrà": [
+       "avrebbe",
+       "aveva",
+       "avrò"
+      ],
+      "avremo": [
+       "avremmo",
+       "avevamo",
+       "avranno"
+      ],
+      "avrete": [
+       "avreste",
+       "avevate",
+       "avremo"
+      ],
+      "avranno": [
+       "avrebbero",
+       "avevano",
+       "avrà"
+      ],
+      "farò": [
+       "farei",
+       "facevo",
+       "farà"
+      ],
+      "farai": [
+       "faresti",
+       "facevi",
+       "farà"
+      ],
+      "farà": [
+       "farebbe",
+       "faceva",
+       "farò"
+      ],
+      "faremo": [
+       "faremmo",
+       "facevamo",
+       "faranno"
+      ],
+      "farete": [
+       "fareste",
+       "facevate",
+       "faremo"
+      ],
+      "faranno": [
+       "farebbero",
+       "facevano",
+       "farà"
+      ],
+      "andrò": [
+       "andrei",
+       "andavo",
+       "andrà"
+      ],
+      "andrai": [
+       "andresti",
+       "andavi",
+       "andrà"
+      ],
+      "andrà": [
+       "andrebbe",
+       "andava",
+       "andrò"
+      ],
+      "andremo": [
+       "andremmo",
+       "andavamo",
+       "andranno"
+      ],
+      "andrete": [
+       "andreste",
+       "andavate",
+       "andremo"
+      ],
+      "andranno": [
+       "andrebbero",
+       "andavano",
+       "andrà"
+      ],
+      "verrò": [
+       "verrei",
+       "venivo",
+       "verrà"
+      ],
+      "verrai": [
+       "verresti",
+       "venivi",
+       "verrà"
+      ],
+      "verrà": [
+       "verrebbe",
+       "veniva",
+       "verrò"
+      ],
+      "verremo": [
+       "verremmo",
+       "venivamo",
+       "verranno"
+      ],
+      "verrete": [
+       "verreste",
+       "venivate",
+       "verremo"
+      ],
+      "verranno": [
+       "verrebbero",
+       "venivano",
+       "verrà"
+      ],
+      "potrò": [
+       "potrei",
+       "potevo",
+       "potrà"
+      ],
+      "potrai": [
+       "potresti",
+       "potevi",
+       "potrà"
+      ],
+      "potrà": [
+       "potrebbe",
+       "poteva",
+       "potrò"
+      ],
+      "potremo": [
+       "potremmo",
+       "potevamo",
+       "potranno"
+      ],
+      "potrete": [
+       "potreste",
+       "potevate",
+       "potremo"
+      ],
+      "potranno": [
+       "potrebbero",
+       "potevano",
+       "potrà"
+      ],
+      "dovrò": [
+       "dovrei",
+       "dovevo",
+       "dovrà"
+      ],
+      "dovrai": [
+       "dovresti",
+       "dovevi",
+       "dovrà"
+      ],
+      "dovrà": [
+       "dovrebbe",
+       "doveva",
+       "dovrò"
+      ],
+      "dovremo": [
+       "dovremmo",
+       "dovevamo",
+       "dovranno"
+      ],
+      "dovrete": [
+       "dovreste",
+       "dovevate",
+       "dovremo"
+      ],
+      "dovranno": [
+       "dovrebbero",
+       "dovevano",
+       "dovrà"
+      ],
+      "vorrò": [
+       "vorrei",
+       "volevo",
+       "vorrà"
+      ],
+      "vorrai": [
+       "vorresti",
+       "volevi",
+       "vorrà"
+      ],
+      "vorrà": [
+       "vorrebbe",
+       "voleva",
+       "vorrò"
+      ],
+      "vorremo": [
+       "vorremmo",
+       "volevamo",
+       "vorranno"
+      ],
+      "vorrete": [
+       "vorreste",
+       "volevate",
+       "vorremo"
+      ],
+      "vorranno": [
+       "vorrebbero",
+       "volevano",
+       "vorrà"
+      ],
+      "vedrò": [
+       "vedrei",
+       "vedevo",
+       "vedrà"
+      ],
+      "vedrai": [
+       "vedresti",
+       "vedevi",
+       "vedrà"
+      ],
+      "vedrà": [
+       "vedrebbe",
+       "vedeva",
+       "vedrò"
+      ],
+      "vedremo": [
+       "vedremmo",
+       "vedevamo",
+       "vedranno"
+      ],
+      "vedrete": [
+       "vedreste",
+       "vedevate",
+       "vedremo"
+      ],
+      "vedranno": [
+       "vedrebbero",
+       "vedevano",
+       "vedrà"
+      ],
+      "saprò": [
+       "saprei",
+       "sapevo",
+       "saprà"
+      ],
+      "saprai": [
+       "sapresti",
+       "sapevi",
+       "saprà"
+      ],
+      "saprà": [
+       "saprebbe",
+       "sapeva",
+       "saprò"
+      ],
+      "sapremo": [
+       "sapremmo",
+       "sapevamo",
+       "sapranno"
+      ],
+      "saprete": [
+       "sapreste",
+       "sapevate",
+       "sapremo"
+      ],
+      "sapranno": [
+       "saprebbero",
+       "sapevano",
+       "saprà"
+      ],
+      "starò": [
+       "starei",
+       "stavo",
+       "starà"
+      ],
+      "starai": [
+       "staresti",
+       "stavi",
+       "starà"
+      ],
+      "starà": [
+       "starebbe",
+       "stava",
+       "starò"
+      ],
+      "staremo": [
+       "staremmo",
+       "stavamo",
+       "staranno"
+      ],
+      "starete": [
+       "stareste",
+       "stavate",
+       "staremo"
+      ],
+      "staranno": [
+       "starebbero",
+       "stavano",
+       "starà"
+      ],
+      "dirò": [
+       "direi",
+       "dicevo",
+       "dirà"
+      ],
+      "dirai": [
+       "diresti",
+       "dicevi",
+       "dirà"
+      ],
+      "dirà": [
+       "direbbe",
+       "diceva",
+       "dirò"
+      ],
+      "diremo": [
+       "diremmo",
+       "dicevamo",
+       "diranno"
+      ],
+      "direte": [
+       "direste",
+       "dicevate",
+       "diremo"
+      ],
+      "diranno": [
+       "direbbero",
+       "dicevano",
+       "dirà"
+      ],
+      "darò": [
+       "darei",
+       "davo",
+       "darà"
+      ],
+      "darai": [
+       "daresti",
+       "davi",
+       "darà"
+      ],
+      "darà": [
+       "darebbe",
+       "dava",
+       "darò"
+      ],
+      "daremo": [
+       "daremmo",
+       "davamo",
+       "daranno"
+      ],
+      "darete": [
+       "dareste",
+       "davate",
+       "daremo"
+      ],
+      "daranno": [
+       "darebbero",
+       "davano",
+       "darà"
+      ],
+      "rimarrò": [
+       "rimarrei",
+       "rimanevo",
+       "rimarrà"
+      ],
+      "rimarrai": [
+       "rimarresti",
+       "rimanevi",
+       "rimarrà"
+      ],
+      "rimarrà": [
+       "rimarrebbe",
+       "rimaneva",
+       "rimarrò"
+      ],
+      "rimarremo": [
+       "rimarremmo",
+       "rimanevamo",
+       "rimarranno"
+      ],
+      "rimarrete": [
+       "rimarreste",
+       "rimanevate",
+       "rimarremo"
+      ],
+      "rimarranno": [
+       "rimarrebbero",
+       "rimanevano",
+       "rimarrà"
+      ],
+      "berrò": [
+       "berrei",
+       "bevevo",
+       "berrà"
+      ],
+      "berrai": [
+       "berresti",
+       "bevevi",
+       "berrà"
+      ],
+      "berrà": [
+       "berrebbe",
+       "beveva",
+       "berrò"
+      ],
+      "berremo": [
+       "berremmo",
+       "bevevamo",
+       "berranno"
+      ],
+      "berrete": [
+       "berreste",
+       "bevevate",
+       "berremo"
+      ],
+      "berranno": [
+       "berrebbero",
+       "bevevano",
+       "berrà"
+      ],
+      "terrò": [
+       "terrei",
+       "tenevo",
+       "terrà"
+      ],
+      "terrai": [
+       "terresti",
+       "tenevi",
+       "terrà"
+      ],
+      "terrà": [
+       "terrebbe",
+       "teneva",
+       "terrò"
+      ],
+      "terremo": [
+       "terremmo",
+       "tenevamo",
+       "terranno"
+      ],
+      "terrete": [
+       "terreste",
+       "tenevate",
+       "terremo"
+      ],
+      "terranno": [
+       "terrebbero",
+       "tenevano",
+       "terrà"
+      ],
+      "vivrò": [
+       "vivrei",
+       "vivevo",
+       "vivrà"
+      ],
+      "vivrai": [
+       "vivresti",
+       "vivevi",
+       "vivrà"
+      ],
+      "vivrà": [
+       "vivrebbe",
+       "viveva",
+       "vivrò"
+      ],
+      "vivremo": [
+       "vivremmo",
+       "vivevamo",
+       "vivranno"
+      ],
+      "vivrete": [
+       "vivreste",
+       "vivevate",
+       "vivremo"
+      ],
+      "vivranno": [
+       "vivrebbero",
+       "vivevano",
+       "vivrà"
+      ],
+      "tornerò": [
+       "tornerei",
+       "tornavo",
+       "tornerà"
+      ],
+      "tornerai": [
+       "torneresti",
+       "tornavi",
+       "tornerà"
+      ],
+      "tornerà": [
+       "tornerebbe",
+       "tornava",
+       "tornerò"
+      ],
+      "torneremo": [
+       "torneremmo",
+       "tornavamo",
+       "torneranno"
+      ],
+      "tornerete": [
+       "tornereste",
+       "tornavate",
+       "torneremo"
+      ],
+      "torneranno": [
+       "tornerebbero",
+       "tornavano",
+       "tornerà"
+      ],
+      "arriverò": [
+       "arriverei",
+       "arrivavo",
+       "arriverà"
+      ],
+      "arriverai": [
+       "arriveresti",
+       "arrivavi",
+       "arriverà"
+      ],
+      "arriverà": [
+       "arriverebbe",
+       "arrivava",
+       "arriverò"
+      ],
+      "arriveremo": [
+       "arriveremmo",
+       "arrivavamo",
+       "arriveranno"
+      ],
+      "arriverete": [
+       "arrivereste",
+       "arrivavate",
+       "arriveremo"
+      ],
+      "arriveranno": [
+       "arriverebbero",
+       "arrivavano",
+       "arriverà"
+      ],
+      "chiamerò": [
+       "chiamerei",
+       "chiamavo",
+       "chiamerà"
+      ],
+      "chiamerai": [
+       "chiameresti",
+       "chiamavi",
+       "chiamerà"
+      ],
+      "chiamerà": [
+       "chiamerebbe",
+       "chiamava",
+       "chiamerò"
+      ],
+      "chiameremo": [
+       "chiameremmo",
+       "chiamavamo",
+       "chiameranno"
+      ],
+      "chiamerete": [
+       "chiamereste",
+       "chiamavate",
+       "chiameremo"
+      ],
+      "chiameranno": [
+       "chiamerebbero",
+       "chiamavano",
+       "chiamerà"
+      ],
+      "comprerò": [
+       "comprerei",
+       "compravo",
+       "comprerà"
+      ],
+      "comprerai": [
+       "compreresti",
+       "compravi",
+       "comprerà"
+      ],
+      "comprerà": [
+       "comprerebbe",
+       "comprava",
+       "comprerò"
+      ],
+      "compreremo": [
+       "compreremmo",
+       "compravamo",
+       "compreranno"
+      ],
+      "comprerete": [
+       "comprereste",
+       "compravate",
+       "compreremo"
+      ],
+      "compreranno": [
+       "comprerebbero",
+       "compravano",
+       "comprerà"
+      ],
+      "parlerò": [
+       "parlerei",
+       "parlavo",
+       "parlerà"
+      ],
+      "parlerai": [
+       "parleresti",
+       "parlavi",
+       "parlerà"
+      ],
+      "parlerà": [
+       "parlerebbe",
+       "parlava",
+       "parlerò"
+      ],
+      "parleremo": [
+       "parleremmo",
+       "parlavamo",
+       "parleranno"
+      ],
+      "parlerete": [
+       "parlereste",
+       "parlavate",
+       "parleremo"
+      ],
+      "parleranno": [
+       "parlerebbero",
+       "parlavano",
+       "parlerà"
+      ],
+      "lavorerò": [
+       "lavorerei",
+       "lavoravo",
+       "lavorerà"
+      ],
+      "lavorerai": [
+       "lavoreresti",
+       "lavoravi",
+       "lavorerà"
+      ],
+      "lavorerà": [
+       "lavorerebbe",
+       "lavorava",
+       "lavorerò"
+      ],
+      "lavoreremo": [
+       "lavoreremmo",
+       "lavoravamo",
+       "lavoreranno"
+      ],
+      "lavorerete": [
+       "lavorereste",
+       "lavoravate",
+       "lavoreremo"
+      ],
+      "lavoreranno": [
+       "lavorerebbero",
+       "lavoravano",
+       "lavorerà"
+      ],
+      "aiuterò": [
+       "aiuterei",
+       "aiutavo",
+       "aiuterà"
+      ],
+      "aiuterai": [
+       "aiuteresti",
+       "aiutavi",
+       "aiuterà"
+      ],
+      "aiuterà": [
+       "aiuterebbe",
+       "aiutava",
+       "aiuterò"
+      ],
+      "aiuteremo": [
+       "aiuteremmo",
+       "aiutavamo",
+       "aiuteranno"
+      ],
+      "aiuterete": [
+       "aiutereste",
+       "aiutavate",
+       "aiuteremo"
+      ],
+      "aiuteranno": [
+       "aiuterebbero",
+       "aiutavano",
+       "aiuterà"
+      ],
+      "aspetterò": [
+       "aspetterei",
+       "aspettavo",
+       "aspetterà"
+      ],
+      "aspetterai": [
+       "aspetteresti",
+       "aspettavi",
+       "aspetterà"
+      ],
+      "aspetterà": [
+       "aspetterebbe",
+       "aspettava",
+       "aspetterò"
+      ],
+      "aspetteremo": [
+       "aspetteremmo",
+       "aspettavamo",
+       "aspetteranno"
+      ],
+      "aspetterete": [
+       "aspettereste",
+       "aspettavate",
+       "aspetteremo"
+      ],
+      "aspetteranno": [
+       "aspetterebbero",
+       "aspettavano",
+       "aspetterà"
+      ],
+      "porterò": [
+       "porterei",
+       "portavo",
+       "porterà"
+      ],
+      "porterai": [
+       "porteresti",
+       "portavi",
+       "porterà"
+      ],
+      "porterà": [
+       "porterebbe",
+       "portava",
+       "porterò"
+      ],
+      "porteremo": [
+       "porteremmo",
+       "portavamo",
+       "porteranno"
+      ],
+      "porterete": [
+       "portereste",
+       "portavate",
+       "porteremo"
+      ],
+      "porteranno": [
+       "porterebbero",
+       "portavano",
+       "porterà"
+      ],
+      "troverò": [
+       "troverei",
+       "trovavo",
+       "troverà"
+      ],
+      "troverai": [
+       "troveresti",
+       "trovavi",
+       "troverà"
+      ],
+      "troverà": [
+       "troverebbe",
+       "trovava",
+       "troverò"
+      ],
+      "troveremo": [
+       "troveremmo",
+       "trovavamo",
+       "troveranno"
+      ],
+      "troverete": [
+       "trovereste",
+       "trovavate",
+       "troveremo"
+      ],
+      "troveranno": [
+       "troverebbero",
+       "trovavano",
+       "troverà"
+      ],
+      "resterò": [
+       "resterei",
+       "restavo",
+       "resterà"
+      ],
+      "resterai": [
+       "resteresti",
+       "restavi",
+       "resterà"
+      ],
+      "resterà": [
+       "resterebbe",
+       "restava",
+       "resterò"
+      ],
+      "resteremo": [
+       "resteremmo",
+       "restavamo",
+       "resteranno"
+      ],
+      "resterete": [
+       "restereste",
+       "restavate",
+       "resteremo"
+      ],
+      "resteranno": [
+       "resterebbero",
+       "restavano",
+       "resterà"
+      ],
+      "mangerò": [
+       "mangerei",
+       "mangiavo",
+       "mangerà"
+      ],
+      "mangerai": [
+       "mangeresti",
+       "mangiavi",
+       "mangerà"
+      ],
+      "mangerà": [
+       "mangerebbe",
+       "mangiava",
+       "mangerò"
+      ],
+      "mangeremo": [
+       "mangeremmo",
+       "mangiavamo",
+       "mangeranno"
+      ],
+      "mangerete": [
+       "mangereste",
+       "mangiavate",
+       "mangeremo"
+      ],
+      "mangeranno": [
+       "mangerebbero",
+       "mangiavano",
+       "mangerà"
+      ],
+      "comincerò": [
+       "comincerei",
+       "cominciavo",
+       "comincerà"
+      ],
+      "comincerai": [
+       "cominceresti",
+       "cominciavi",
+       "comincerà"
+      ],
+      "comincerà": [
+       "comincerebbe",
+       "cominciava",
+       "comincerò"
+      ],
+      "cominceremo": [
+       "cominceremmo",
+       "cominciavamo",
+       "cominceranno"
+      ],
+      "comincerete": [
+       "comincereste",
+       "cominciavate",
+       "cominceremo"
+      ],
+      "cominceranno": [
+       "comincerebbero",
+       "cominciavano",
+       "comincerà"
+      ],
+      "pagherò": [
+       "pagherei",
+       "pagavo",
+       "pagherà"
+      ],
+      "pagherai": [
+       "pagheresti",
+       "pagavi",
+       "pagherà"
+      ],
+      "pagherà": [
+       "pagherebbe",
+       "pagava",
+       "pagherò"
+      ],
+      "pagheremo": [
+       "pagheremmo",
+       "pagavamo",
+       "pagheranno"
+      ],
+      "pagherete": [
+       "paghereste",
+       "pagavate",
+       "pagheremo"
+      ],
+      "pagheranno": [
+       "pagherebbero",
+       "pagavano",
+       "pagherà"
+      ],
+      "cercherò": [
+       "cercherei",
+       "cercavo",
+       "cercherà"
+      ],
+      "cercherai": [
+       "cercheresti",
+       "cercavi",
+       "cercherà"
+      ],
+      "cercherà": [
+       "cercherebbe",
+       "cercava",
+       "cercherò"
+      ],
+      "cercheremo": [
+       "cercheremmo",
+       "cercavamo",
+       "cercheranno"
+      ],
+      "cercherete": [
+       "cerchereste",
+       "cercavate",
+       "cercheremo"
+      ],
+      "cercheranno": [
+       "cercherebbero",
+       "cercavano",
+       "cercherà"
+      ],
+      "partirò": [
+       "partirei",
+       "partivo",
+       "partirà"
+      ],
+      "partirai": [
+       "partiresti",
+       "partivi",
+       "partirà"
+      ],
+      "partirà": [
+       "partirebbe",
+       "partiva",
+       "partirò"
+      ],
+      "partiremo": [
+       "partiremmo",
+       "partivamo",
+       "partiranno"
+      ],
+      "partirete": [
+       "partireste",
+       "partivate",
+       "partiremo"
+      ],
+      "partiranno": [
+       "partirebbero",
+       "partivano",
+       "partirà"
+      ],
+      "finirò": [
+       "finirei",
+       "finivo",
+       "finirà"
+      ],
+      "finirai": [
+       "finiresti",
+       "finivi",
+       "finirà"
+      ],
+      "finirà": [
+       "finirebbe",
+       "finiva",
+       "finirò"
+      ],
+      "finiremo": [
+       "finiremmo",
+       "finivamo",
+       "finiranno"
+      ],
+      "finirete": [
+       "finireste",
+       "finivate",
+       "finiremo"
+      ],
+      "finiranno": [
+       "finirebbero",
+       "finivano",
+       "finirà"
+      ],
+      "dormirò": [
+       "dormirei",
+       "dormivo",
+       "dormirà"
+      ],
+      "dormirai": [
+       "dormiresti",
+       "dormivi",
+       "dormirà"
+      ],
+      "dormirà": [
+       "dormirebbe",
+       "dormiva",
+       "dormirò"
+      ],
+      "dormiremo": [
+       "dormiremmo",
+       "dormivamo",
+       "dormiranno"
+      ],
+      "dormirete": [
+       "dormireste",
+       "dormivate",
+       "dormiremo"
+      ],
+      "dormiranno": [
+       "dormirebbero",
+       "dormivano",
+       "dormirà"
+      ],
+      "sentirò": [
+       "sentirei",
+       "sentivo",
+       "sentirà"
+      ],
+      "sentirai": [
+       "sentiresti",
+       "sentivi",
+       "sentirà"
+      ],
+      "sentirà": [
+       "sentirebbe",
+       "sentiva",
+       "sentirò"
+      ],
+      "sentiremo": [
+       "sentiremmo",
+       "sentivamo",
+       "sentiranno"
+      ],
+      "sentirete": [
+       "sentireste",
+       "sentivate",
+       "sentiremo"
+      ],
+      "sentiranno": [
+       "sentirebbero",
+       "sentivano",
+       "sentirà"
+      ],
+      "prenderò": [
+       "prenderei",
+       "prendevo",
+       "prenderà"
+      ],
+      "prenderai": [
+       "prenderesti",
+       "prendevi",
+       "prenderà"
+      ],
+      "prenderà": [
+       "prenderebbe",
+       "prendeva",
+       "prenderò"
+      ],
+      "prenderemo": [
+       "prenderemmo",
+       "prendevamo",
+       "prenderanno"
+      ],
+      "prenderete": [
+       "prendereste",
+       "prendevate",
+       "prenderemo"
+      ],
+      "prenderanno": [
+       "prenderebbero",
+       "prendevano",
+       "prenderà"
+      ],
+      "scriverò": [
+       "scriverei",
+       "scrivevo",
+       "scriverà"
+      ],
+      "scriverai": [
+       "scriveresti",
+       "scrivevi",
+       "scriverà"
+      ],
+      "scriverà": [
+       "scriverebbe",
+       "scriveva",
+       "scriverò"
+      ],
+      "scriveremo": [
+       "scriveremmo",
+       "scrivevamo",
+       "scriveranno"
+      ],
+      "scriverete": [
+       "scrivereste",
+       "scrivevate",
+       "scriveremo"
+      ],
+      "scriveranno": [
+       "scriverebbero",
+       "scrivevano",
+       "scriverà"
+      ],
+      "leggerò": [
+       "leggerei",
+       "leggevo",
+       "leggerà"
+      ],
+      "leggerai": [
+       "leggeresti",
+       "leggevi",
+       "leggerà"
+      ],
+      "leggerà": [
+       "leggerebbe",
+       "leggeva",
+       "leggerò"
+      ],
+      "leggeremo": [
+       "leggeremmo",
+       "leggevamo",
+       "leggeranno"
+      ],
+      "leggerete": [
+       "leggereste",
+       "leggevate",
+       "leggeremo"
+      ],
+      "leggeranno": [
+       "leggerebbero",
+       "leggevano",
+       "leggerà"
+      ],
+      "perderò": [
+       "perderei",
+       "perdevo",
+       "perderà"
+      ],
+      "perderai": [
+       "perderesti",
+       "perdevi",
+       "perderà"
+      ],
+      "perderà": [
+       "perderebbe",
+       "perdeva",
+       "perderò"
+      ],
+      "perderemo": [
+       "perderemmo",
+       "perdevamo",
+       "perderanno"
+      ],
+      "perderete": [
+       "perdereste",
+       "perdevate",
+       "perderemo"
+      ],
+      "perderanno": [
+       "perderebbero",
+       "perdevano",
+       "perderà"
+      ],
+      "vincerò": [
+       "vincerei",
+       "vincevo",
+       "vincerà"
+      ],
+      "vincerai": [
+       "vinceresti",
+       "vincevi",
+       "vincerà"
+      ],
+      "vincerà": [
+       "vincerebbe",
+       "vinceva",
+       "vincerò"
+      ],
+      "vinceremo": [
+       "vinceremmo",
+       "vincevamo",
+       "vinceranno"
+      ],
+      "vincerete": [
+       "vincereste",
+       "vincevate",
+       "vinceremo"
+      ],
+      "vinceranno": [
+       "vincerebbero",
+       "vincevano",
+       "vincerà"
+      ],
+      "metterò": [
+       "metterei",
+       "mettevo",
+       "metterà"
+      ],
+      "metterai": [
+       "metteresti",
+       "mettevi",
+       "metterà"
+      ],
+      "metterà": [
+       "metterebbe",
+       "metteva",
+       "metterò"
+      ],
+      "metteremo": [
+       "metteremmo",
+       "mettevamo",
+       "metteranno"
+      ],
+      "metterete": [
+       "mettereste",
+       "mettevate",
+       "metteremo"
+      ],
+      "metteranno": [
+       "metterebbero",
+       "mettevano",
+       "metterà"
+      ],
+      "chiederò": [
+       "chiederei",
+       "chiedevo",
+       "chiederà"
+      ],
+      "chiederai": [
+       "chiederesti",
+       "chiedevi",
+       "chiederà"
+      ],
+      "chiederà": [
+       "chiederebbe",
+       "chiedeva",
+       "chiederò"
+      ],
+      "chiederemo": [
+       "chiederemmo",
+       "chiedevamo",
+       "chiederanno"
+      ],
+      "chiederete": [
+       "chiedereste",
+       "chiedevate",
+       "chiederemo"
+      ],
+      "chiederanno": [
+       "chiederebbero",
+       "chiedevano",
+       "chiederà"
+      ],
+      "crederò": [
+       "crederei",
+       "credevo",
+       "crederà"
+      ],
+      "crederai": [
+       "crederesti",
+       "credevi",
+       "crederà"
+      ],
+      "crederà": [
+       "crederebbe",
+       "credeva",
+       "crederò"
+      ],
+      "crederemo": [
+       "crederemmo",
+       "credevamo",
+       "crederanno"
+      ],
+      "crederete": [
+       "credereste",
+       "credevate",
+       "crederemo"
+      ],
+      "crederanno": [
+       "crederebbero",
+       "credevano",
+       "crederà"
+      ],
+      "deciderò": [
+       "deciderei",
+       "decidevo",
+       "deciderà"
+      ],
+      "deciderai": [
+       "decideresti",
+       "decidevi",
+       "deciderà"
+      ],
+      "deciderà": [
+       "deciderebbe",
+       "decideva",
+       "deciderò"
+      ],
+      "decideremo": [
+       "decideremmo",
+       "decidevamo",
+       "decideranno"
+      ],
+      "deciderete": [
+       "decidereste",
+       "decidevate",
+       "decideremo"
+      ],
+      "decideranno": [
+       "deciderebbero",
+       "decidevano",
+       "deciderà"
+      ],
+      "capirò": [
+       "capirei",
+       "capivo",
+       "capirà"
+      ],
+      "capirai": [
+       "capiresti",
+       "capivi",
+       "capirà"
+      ],
+      "capirà": [
+       "capirebbe",
+       "capiva",
+       "capirò"
+      ],
+      "capiremo": [
+       "capiremmo",
+       "capivamo",
+       "capiranno"
+      ],
+      "capirete": [
+       "capireste",
+       "capivate",
+       "capiremo"
+      ],
+      "capiranno": [
+       "capirebbero",
+       "capivano",
+       "capirà"
+      ],
+      "pioverò": [
+       "pioverei",
+       "piovevo",
+       "pioverà"
+      ],
+      "pioverai": [
+       "pioveresti",
+       "piovevi",
+       "pioverà"
+      ],
+      "pioverà": [
+       "pioverebbe",
+       "pioveva",
+       "pioverò"
+      ],
+      "pioveremo": [
+       "pioveremmo",
+       "piovevamo",
+       "pioveranno"
+      ],
+      "pioverete": [
+       "piovereste",
+       "piovevate",
+       "pioveremo"
+      ],
+      "pioveranno": [
+       "pioverebbero",
+       "piovevano",
+       "pioverà"
+      ],
+      "nevicherò": [
+       "nevicherei",
+       "nevicavo",
+       "nevicherà"
+      ],
+      "nevicherai": [
+       "nevicheresti",
+       "nevicavi",
+       "nevicherà"
+      ],
+      "nevicherà": [
+       "nevicherebbe",
+       "nevicava",
+       "nevicherò"
+      ],
+      "nevicheremo": [
+       "nevicheremmo",
+       "nevicavamo",
+       "nevicheranno"
+      ],
+      "nevicherete": [
+       "nevichereste",
+       "nevicavate",
+       "nevicheremo"
+      ],
+      "nevicheranno": [
+       "nevicherebbero",
+       "nevicavano",
+       "nevicherà"
+      ],
+      "succederò": [
+       "succederei",
+       "succedevo",
+       "succederà"
+      ],
+      "succederai": [
+       "succederesti",
+       "succedevi",
+       "succederà"
+      ],
+      "succederà": [
+       "succederebbe",
+       "succedeva",
+       "succederò"
+      ],
+      "succederemo": [
+       "succederemmo",
+       "succedevamo",
+       "succederanno"
+      ],
+      "succederete": [
+       "succedereste",
+       "succedevate",
+       "succederemo"
+      ],
+      "succederanno": [
+       "succederebbero",
+       "succedevano",
+       "succederà"
+      ],
+      "incontrerò": [
+       "incontrerei",
+       "incontravo",
+       "incontrerà"
+      ],
+      "incontrerai": [
+       "incontreresti",
+       "incontravi",
+       "incontrerà"
+      ],
+      "incontrerà": [
+       "incontrerebbe",
+       "incontrava",
+       "incontrerò"
+      ],
+      "incontreremo": [
+       "incontreremmo",
+       "incontravamo",
+       "incontreranno"
+      ],
+      "incontrerete": [
+       "incontrereste",
+       "incontravate",
+       "incontreremo"
+      ],
+      "incontreranno": [
+       "incontrerebbero",
+       "incontravano",
+       "incontrerà"
+      ],
+      "studierò": [
+       "studierei",
+       "studiavo",
+       "studierà"
+      ],
+      "studierai": [
+       "studieresti",
+       "studiavi",
+       "studierà"
+      ],
+      "studierà": [
+       "studierebbe",
+       "studiava",
+       "studierò"
+      ],
+      "studieremo": [
+       "studieremmo",
+       "studiavamo",
+       "studieranno"
+      ],
+      "studierete": [
+       "studiereste",
+       "studiavate",
+       "studieremo"
+      ],
+      "studieranno": [
+       "studierebbero",
+       "studiavano",
+       "studierà"
+      ],
+      "penserò": [
+       "penserei",
+       "pensavo",
+       "penserà"
+      ],
+      "penserai": [
+       "penseresti",
+       "pensavi",
+       "penserà"
+      ],
+      "penserà": [
+       "penserebbe",
+       "pensava",
+       "penserò"
+      ],
+      "penseremo": [
+       "penseremmo",
+       "pensavamo",
+       "penseranno"
+      ],
+      "penserete": [
+       "pensereste",
+       "pensavate",
+       "penseremo"
+      ],
+      "penseranno": [
+       "penserebbero",
+       "pensavano",
+       "penserà"
+      ],
+      "userò": [
+       "userei",
+       "usavo",
+       "userà"
+      ],
+      "userai": [
+       "useresti",
+       "usavi",
+       "userà"
+      ],
+      "userà": [
+       "userebbe",
+       "usava",
+       "userò"
+      ],
+      "useremo": [
+       "useremmo",
+       "usavamo",
+       "useranno"
+      ],
+      "userete": [
+       "usereste",
+       "usavate",
+       "useremo"
+      ],
+      "useranno": [
+       "userebbero",
+       "usavano",
+       "userà"
+      ],
+      "proverò": [
+       "proverei",
+       "provavo",
+       "proverà"
+      ],
+      "proverai": [
+       "proveresti",
+       "provavi",
+       "proverà"
+      ],
+      "proverà": [
+       "proverebbe",
+       "provava",
+       "proverò"
+      ],
+      "proveremo": [
+       "proveremmo",
+       "provavamo",
+       "proveranno"
+      ],
+      "proverete": [
+       "provereste",
+       "provavate",
+       "proveremo"
+      ],
+      "proveranno": [
+       "proverebbero",
+       "provavano",
+       "proverà"
+      ],
+      "giocherò": [
+       "giocherei",
+       "giocavo",
+       "giocherà"
+      ],
+      "giocherai": [
+       "giocheresti",
+       "giocavi",
+       "giocherà"
+      ],
+      "giocherà": [
+       "giocherebbe",
+       "giocava",
+       "giocherò"
+      ],
+      "giocheremo": [
+       "giocheremmo",
+       "giocavamo",
+       "giocheranno"
+      ],
+      "giocherete": [
+       "giochereste",
+       "giocavate",
+       "giocheremo"
+      ],
+      "giocheranno": [
+       "giocherebbero",
+       "giocavano",
+       "giocherà"
+      ],
+      "ricorderò": [
+       "ricorderei",
+       "ricordavo",
+       "ricorderà"
+      ],
+      "ricorderai": [
+       "ricorderesti",
+       "ricordavi",
+       "ricorderà"
+      ],
+      "ricorderà": [
+       "ricorderebbe",
+       "ricordava",
+       "ricorderò"
+      ],
+      "ricorderemo": [
+       "ricorderemmo",
+       "ricordavamo",
+       "ricorderanno"
+      ],
+      "ricorderete": [
+       "ricordereste",
+       "ricordavate",
+       "ricorderemo"
+      ],
+      "ricorderanno": [
+       "ricorderebbero",
+       "ricordavano",
+       "ricorderà"
+      ],
+      "piacerò": [
+       "piacerei",
+       "piacevo",
+       "piacerà"
+      ],
+      "piacerai": [
+       "piaceresti",
+       "piacevi",
+       "piacerà"
+      ],
+      "piacerà": [
+       "piacerebbe",
+       "piaceva",
+       "piacerò"
+      ],
+      "piaceremo": [
+       "piaceremmo",
+       "piacevamo",
+       "piaceranno"
+      ],
+      "piacerete": [
+       "piacereste",
+       "piacevate",
+       "piaceremo"
+      ],
+      "piaceranno": [
+       "piacerebbero",
+       "piacevano",
+       "piacerà"
+      ]
+     }
+    },
+    {
+     "id": "pronomes",
+     "name": "Pronomes: lo, la, gli, le",
+     "desc": "Objeto direto: lo (o), la (a), li (os), le (as) — lo vedo, la conosco. Objeto indireto (a alguém): gli (a ele), le (a ela) — gli telefono, le scrivo. Ex.: «Non gli piace» = Ele não gosta.",
+     "pattern": "(?:^|(?<![\\w'’])(?:non|io|tu|lui|lei|egli|noi|voi|loro|(?-i:Tom|Mary|John|Maria|Marie|Ken|Jim|Jack|Mario|Luca|Bill|Bob|Alice|Paolo|Mike|Taro|Jane|Tony|Marco|Anna|Giovanni|Ziri|Sami|Layla|Fadil|Dan|Linda|Yanni|Skura|Rima|Mennad|Baya))\\s+)(?P<w>lo|la|li|le|gli)\\s+(?!(?:mattina|sera|notte|settimana|domenica|sabato|lunedì|martedì|mercoledì|giovedì|venerdì|prima|seconda|stessa|stesso|maggior|maggioranza|metà|stessi|stesse)\\b)(?=[a-zàèéìòù])",
+     "options": {
+      "lo": [
+       "gli",
+       "li"
+      ],
+      "la": [
+       "le",
+       "gli"
+      ],
+      "li": [
+       "gli",
+       "lo"
+      ],
+      "le": [
+       "la",
+       "gli"
+      ],
+      "gli": [
+       "lo",
+       "le"
+      ]
+     },
+     "exclude": "(?:\\b(?:a|di|da|con|per|su|tra|fra|e|che)\\s+(?-i:Tom|Mary|John|Maria|Marie|Ken|Jim|Jack|Mario|Luca|Bill|Bob|Alice|Paolo|Mike|Taro|Jane|Tony|Marco|Anna|Giovanni|Ziri|Sami|Layla|Fadil|Dan|Linda|Yanni|Skura|Rima|Mennad|Baya)\\s+(?:la|le|lo|gli|li)\\b)|^(?:la|le|lo|gli|li)\\s+(?!(?:ho|hai|ha|abbiamo|avete|hanno|avevo|aveva|avevano|sono|è|era|piace|piacciono|piaceva|piacerebbe|so|sai|sa|conosco|conosci|conosce|vedo|vedi|vede|amo|ami|ama|voglio|vuoi|vuole|devo|deve|posso|puoi|può|darò|dirò|dico|dice|disse|diede|faccio|fa|chiamo|chiama|aspetto|aspetta|trovo|trova|prendo|prende|metto|mette|lascio|lascia|compro|compra|mangio|mangia|leggo|scrivo|scrive|regala|mostro|spiego|spiega|telefona|sembra|sembrava|manca|mancano|interessa|importa|dispiace|auguro|chiedo|chiede|aiuta|ringrazio|ringrazia|conosceva|vide|vidi|ama|odia|odiava|amava|incontrai|incontro|sentii|sento|sente|bacia|baciò|abbraccia|abbracciò|chiamò|chiamerò|vedrò|aspetterò|porterò|darai|dirai|dica|dia|preferisco|preferisce|usa|tengo|tiene|tenga|ascolto|ascolta|seguo|segue|capisco|capisce|crede|sposò|uccise|uccide|portò|mise|lasciò|comprò|lesse|scrisse|trovò|perse|ruppe|vendette|vendo|vende|ripeto|ripete|insegno|racconta|offro|offre|risposi|rispose|rispondo|risponde|scrissi|dissi|diedi|parlo|parla|parlò|telefonò|chiesi|chiese|mandai|mandò|mando|manda|feci|fece|vorrei|vorrebbe|potrei|dovrei)\\b)|\\b(?:loro|lei|lui|io|tu|voi|noi)\\s+(?:la|le|lo|gli)\\s+(?:quale|cui|più|meno|prima)\\b|\\b(?:di|a|da|con|per|tra|fra|su|che|per)\\s+(?:lui|lei|loro|noi|voi)\\s+(?:la|le|lo|gli|li)\\b"
+    }
+   ]
+  }
+ ]
+}
