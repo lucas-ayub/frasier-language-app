@@ -158,6 +158,9 @@ a{color:inherit}
 .tracktabs{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin:0 -16px 12px;padding:2px 16px 8px}
 .tracktabs::-webkit-scrollbar{display:none}
 .tracktabs button{flex:none;white-space:nowrap}
+.difflbl{font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:2px 0 6px}
+#diffTabs{margin-bottom:6px}
+.level.empty{opacity:.45}
 .level{display:grid;grid-template-columns:38px 1fr auto;grid-template-rows:auto auto;column-gap:12px;row-gap:7px;align-items:center;padding:10px;border:2px solid transparent;background:none;width:100%;text-align:left;border-radius:16px;min-height:60px}
 .level+.level{margin-top:2px}
 .level .badge{grid-row:1 / 3;width:38px;height:38px;border-radius:11px;flex:none;display:grid;place-items:center;background:var(--surface-2);font-family:var(--fd);font-weight:800;font-size:15px;color:var(--muted);box-shadow:0 3px 0 var(--edge)}
@@ -428,6 +431,9 @@ textarea{width:100%;min-height:90px;border-radius:12px;border:2px solid var(--li
 
     <div class="section">
       <h3>Trilhas</h3>
+      <div class="difflbl">Dificuldade</div>
+      <div class="chips tracktabs" id="diffTabs" role="radiogroup" aria-label="Dificuldade"></div>
+      <div class="difflbl">Tema</div>
       <div class="chips tracktabs" id="trackTabs" role="tablist" aria-label="Trilhas"></div>
       <div class="card levels" id="levels"></div>
       <div class="legend"><span id="trackHelp">Cada frase esconde a palavra mais rara dela; as coleções vão das palavras mais comuns às mais raras.</span><br><span class="sw" style="background:var(--ok);margin-left:0"></span>dominadas <span class="sw" style="background:var(--sky)"></span>em andamento</div>
@@ -536,7 +542,7 @@ const KEY = 'frasier-' + PAIR + '-v1';
 COURSE.path = 'data/' + PAIR + '/';
 try { if (LEGACY && !localStorage.getItem(KEY) && localStorage.getItem('frasier-' + LEGACY + '-v1')) localStorage.setItem(KEY, localStorage.getItem('frasier-' + LEGACY + '-v1')); } catch(e){}
 
-const APP_VERSION = '2.5 · 14 nov 2026';
+const APP_VERSION = '2.6 · 16 nov 2026';
 const IN_ARTIFACT = !!(window.claude && window.claude.use) || window.self !== window.top;
 const STANDALONE = (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
 
@@ -871,25 +877,43 @@ function renderHome(){
 const curTrack = () => TRACKS.find(t => t.id === S.settings.track) || null;
 const curSub = () => { const t = curTrack(); if (!t) return null; const sid = (S.settings.subs || {})[t.id]; return t.subs.find(x => x.id === sid) || t.subs[0]; };
 const subKey = (t, sub) => 't.' + t.id + '.' + sub.id;
+/* dificuldade: faixas de coleções (pela frequência da palavra mais rara da frase) */
+const DIFFS = [
+  { id:'all', name:'Todas', lv:null, help:'todas as frases' },
+  { id:'ini', name:'🌱 Iniciante', lv:[0,1], help:'só palavras entre as 500 mais comuns' },
+  { id:'bas', name:'🌿 Básico', lv:[2,3], help:'palavras entre as 500 e as 2.000 mais comuns' },
+  { id:'int', name:'🌳 Intermediário', lv:[4], help:'palavras entre as 2.000 e as 5.000 mais comuns' },
+  { id:'ava', name:'🏔️ Avançado', lv:[5,6], help:'palavras além das 5.000 mais comuns' },
+];
+const curDiff = () => DIFFS.find(d => d.id === S.settings.diff) || DIFFS[0];
+function diffRange(){ const d = curDiff(); if (!d.lv) return [0, IDX.total]; const ls = d.lv.map(i => IDX.levels[i]).filter(Boolean); return ls.length ? [ls[0].start, ls[ls.length - 1].end] : [0, 0]; }
+const diffLevels = () => { const d = curDiff(); return (d.lv || IDX.levels.map((_, i) => i)).filter(i => IDX.levels[i] && IDX.levels[i].end > IDX.levels[i].start); };
+const inDiff = idx => { const [a, b] = diffRange(); return idx >= a && idx < b; };
 function renderTracks(){
   const tabs = [{ id:'geral', name:'Geral', icon:'📊' }, ...TRACKS];
   if (!curTrack()) S.settings.track = 'geral';
+  const D = curDiff();
+  $('diffTabs').innerHTML = DIFFS.map(d => `<button data-d="${d.id}" class="${D.id === d.id ? 'on' : ''}" role="radio" aria-checked="${D.id === d.id}">${d.name}</button>`).join('');
+  const dtxt = D.lv ? ` Dificuldade ${D.name.replace(/^\S+\s/, '').toLowerCase()}: ${D.help}.` : '';
   $('trackTabs').innerHTML = tabs.map(t => `<button data-t="${t.id}" class="${S.settings.track === t.id ? 'on' : ''}" role="tab" aria-selected="${S.settings.track === t.id}">${t.icon} ${esc(t.name)}</button>`).join('');
   const t = curTrack();
   if (t) {
     const sub = curSub();
-    $('trackHelp').textContent = `Frases da trilha ${t.name}, das mais fáceis às mais difíceis. O que você aprende aqui também conta na trilha Geral.`;
+    $('trackHelp').textContent = `Frases da trilha ${t.name}, das mais fáceis às mais difíceis.${dtxt} O que você aprende aqui também conta na trilha Geral.`;
     $('levels').innerHTML = t.subs.map((x, i) => {
-      let p = 0, m = 0; for (const id of x.ids) { const v = S.prog[id]; if (v) { p++; if (v[0] >= 4) m++; } }
-      const tot = x.ids.length, mm = m / tot * 100, pp = (p - m) / tot * 100, on = sub && sub.id === x.id;
-      return `<button class="level ${on ? 'on' : ''}" data-sub="${x.id}" aria-pressed="${on}"><span class="badge">${i + 1}</span><span class="meta"><span class="name">${esc(x.name)}</span><span class="mini"><i class="m" style="width:${mm}%"></i><i class="p" style="width:${pp}%"></i></span></span><span class="count">${p.toLocaleString('pt-BR')} / ${tot.toLocaleString('pt-BR')}</span></button>`;
+      let p = 0, m = 0, tot = 0; for (const id of x.ids) { if (!inDiff(id)) continue; tot++; const v = S.prog[id]; if (v) { p++; if (v[0] >= 4) m++; } }
+      const mm = tot ? m / tot * 100 : 0, pp = tot ? (p - m) / tot * 100 : 0, on = sub && sub.id === x.id;
+      return `<button class="level ${on ? 'on' : ''} ${tot ? '' : 'empty'}" data-sub="${x.id}" aria-pressed="${on}"><span class="badge">${i + 1}</span><span class="meta"><span class="name">${esc(x.name)}</span><span class="mini"><i class="m" style="width:${mm}%"></i><i class="p" style="width:${pp}%"></i></span></span><span class="count">${p.toLocaleString('pt-BR')} / ${tot.toLocaleString('pt-BR')}</span></button>`;
     }).join('');
     return;
   }
-  $('trackHelp').textContent = 'Cada frase esconde a palavra mais rara dela; as coleções vão das palavras mais comuns às mais raras.';
+  $('trackHelp').textContent = 'Cada frase esconde a palavra mais rara dela; as coleções vão das palavras mais comuns às mais raras.' + dtxt;
+  const band = diffLevels();
+  if (band.length && !band.includes(S.settings.level)) S.settings.level = band[0];
   const per = IDX.levels.map(() => ({ p:0, m:0 }));
   for (const [k, v] of Object.entries(S.prog)) { const i = +k; const li = IDX.levels.findIndex(l => i >= l.start && i < l.end); if (li >= 0) { per[li].p++; if (v[0] >= 4) per[li].m++; } }
   $('levels').innerHTML = IDX.levels.map((l, i) => {
+    if (!band.includes(i)) return '';
     const tot = l.end - l.start, m = per[i].m / tot * 100, p = (per[i].p - per[i].m) / tot * 100;
     return `<button class="level ${S.settings.level === i ? 'on' : ''}" data-level="${i}" aria-pressed="${S.settings.level === i}"><span class="badge">${i + 1}</span><span class="meta"><span class="name">${esc(l.name)}</span><span class="mini"><i class="m" style="width:${m}%"></i><i class="p" style="width:${p}%"></i></span></span><span class="count">${per[i].p.toLocaleString('pt-BR')} / ${tot.toLocaleString('pt-BR')}</span></button>`;
   }).join('');
@@ -923,9 +947,9 @@ async function startRound(kind){
   else {
     const t = curTrack();
     if (t) {
-      const sub = curSub(), key = subKey(t, sub); let p = S.ptr[key] || 0; ids = []; R_POS = {}; R_KEY = key;
-      while (ids.length < ROUND && p < sub.ids.length) { const id = sub.ids[p]; if (!(id in S.prog) && !HIDDEN.has(id)) { ids.push(id); R_POS[id] = p; } p++; }
-      if (!ids.length) { toast('Você já viu todas as frases deste tema. Escolha outro!'); return; }
+      const sub = curSub(), key = subKey(t, sub), all = curDiff().id === 'all'; let p = all ? (S.ptr[key] || 0) : 0; ids = []; R_POS = {}; R_KEY = all ? key : 'filtrado';
+      while (ids.length < ROUND && p < sub.ids.length) { const id = sub.ids[p]; if (!(id in S.prog) && !HIDDEN.has(id) && inDiff(id)) { ids.push(id); if (all) R_POS[id] = p; } p++; }
+      if (!ids.length) { toast(all ? 'Você já viu todas as frases deste tema. Escolha outro!' : 'Não há frases novas deste tema nesta dificuldade. Escolha outro tema ou outra dificuldade.'); return; }
     } else {
       R_KEY = null; R_POS = null;
       const L = IDX.levels[S.settings.level];
@@ -1354,6 +1378,11 @@ $('levels').onclick = e => {
   const b = e.target.closest('.level'); if (!b) return;
   if (b.dataset.sub) { S.settings.subs = { ...(S.settings.subs || {}), [S.settings.track]: b.dataset.sub }; }
   else S.settings.level = +b.dataset.level;
+  S.su = nowS(); metaDirty = true; saveLocal(); renderHome();
+};
+$('diffTabs').onclick = e => {
+  const b = e.target.closest('button'); if (!b) return; S.settings.diff = b.dataset.d;
+  if (!curTrack()) { const band = diffLevels(); const lv = band.find(i => { const L = IDX.levels[i]; for (let k = Math.max(S.ptr[i] || L.start, L.start); k < L.end; k++) if (!(k in S.prog) && !HIDDEN.has(k)) return true; return false; }); if (lv !== undefined) S.settings.level = lv; }
   S.su = nowS(); metaDirty = true; saveLocal(); renderHome();
 };
 $('trackTabs').onclick = e => { const b = e.target.closest('button'); if (!b) return; S.settings.track = b.dataset.t; S.su = nowS(); metaDirty = true; saveLocal(); renderHome(); };
