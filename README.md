@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://lucas-ayub.github.io/frasier-language-app/"><b>▶ Abrir o app</b></a>
-  &nbsp;·&nbsp; <a href="#-instalar-no-celular">Instalar no celular</a>
+  &nbsp;·&nbsp; <a href="#-onde-funciona-e-como-instalar">Onde funciona</a>
   &nbsp;·&nbsp; <a href="#-cursos">Cursos</a>
   &nbsp;·&nbsp; <a href="#-trilhas">Trilhas</a>
   &nbsp;·&nbsp; <a href="#-identidade-visual">Identidade visual</a>
@@ -21,7 +21,15 @@
   <img alt="Sem framework" src="https://img.shields.io/badge/JS-sem%20framework%2C%20sem%20build-0EA5E9?style=flat-square">
 </p>
 
+<p align="center">
+  <img alt="iPhone e iPad" src="https://img.shields.io/badge/iPhone%20%26%20iPad-Safari-17123A?style=for-the-badge&logo=apple&logoColor=white">
+  <img alt="Android" src="https://img.shields.io/badge/Android-Chrome-16A34A?style=for-the-badge&logo=android&logoColor=white">
+  <img alt="Computador" src="https://img.shields.io/badge/Computador-Windows%20%C2%B7%20Mac%20%C2%B7%20Linux-5B2EFF?style=for-the-badge&logo=googlechrome&logoColor=white">
+</p>
+
 O **Frasier** é um app gratuito no estilo do Clozemaster. Você aprende um idioma **completando frases reais**: uma palavra some, você vê a tradução no seu idioma e escolhe, digita ou fala a palavra que falta. A revisão espaçada traz cada frase de volta na hora certa até ela ficar gravada.
+
+> **Funciona em qualquer aparelho, direto no navegador — sem baixar nada da loja.** iPhone e iPad, celulares e tablets Android, e computador (Windows, Mac, Linux, Chromebook). É só abrir **[lucas-ayub.github.io/frasier-language-app](https://lucas-ayub.github.io/frasier-language-app/)**. Se quiser, dá para instalar como app na tela de início ou na área de trabalho ([veja como](#-onde-funciona-e-como-instalar)). Com uma conta, o progresso é o mesmo no celular e no computador.
 
 <p align="center">
   <img src="docs/readme/hero.png" alt="Três telas do Frasier: início com a meta do dia, uma pergunta de múltipla escolha acertada e uma dica de gramática sobre por e para" width="100%">
@@ -56,12 +64,21 @@ O **Frasier** é um app gratuito no estilo do Clozemaster. Você aprende um idio
 - **Conta opcional** (e-mail e senha) que sincroniza o progresso entre aparelhos; sem conta, tudo fica salvo no próprio aparelho. Backup por copiar e colar.
 - **Tema claro e escuro**, seguindo o sistema.
 
-## 📱 Instalar no celular
+## 📱 Onde funciona e como instalar
 
-**iPhone (Safari):** abra o [app](https://lucas-ayub.github.io/frasier-language-app/) › toque em **⋯** ou no botão de compartilhar › **Compartilhar** › **Adicionar à Tela de Início**.
-**Android (Chrome):** abra o app › **⋮** › **Instalar app**.
+O Frasier é um **app web (PWA)**: roda em qualquer navegador moderno. Usar direto no navegador já funciona; instalar é opcional e só deixa o app com ícone próprio, em tela cheia.
 
-Depois de instalado ele abre em tela cheia e **funciona offline**: as frases que você joga ficam salvas, e em **Ajustes › Baixar todas as frases** dá para levar o curso inteiro. Para atualizar, use **Ajustes › Procurar atualização**.
+| Aparelho | Navegador | Usar | Instalar como app (opcional) |
+|---|---|---|---|
+| 📱 **iPhone / iPad** | Safari (ou Chrome, Edge…) | ✅ | Safari › botão **Compartilhar** (ou **⋯ › Compartilhar**) › **Adicionar à Tela de Início** |
+| 🤖 **Android** (celular e tablet) | Chrome, Edge, Samsung Internet, Firefox… | ✅ | Chrome › **⋮** › **Instalar app** (ou **Adicionar à tela inicial**) |
+| 💻 **Computador** (Windows, Mac, Linux, Chromebook) | Chrome, Edge, Safari, Firefox… | ✅ | Chrome/Edge › ícone **Instalar** na barra de endereço (ou **⋮ › Transmitir, salvar e compartilhar › Instalar página como app**). No Mac com Safari: **Arquivo › Adicionar ao Dock** |
+
+- **No computador** dá para responder só pelo teclado: **1–4** escolhem a alternativa, você digita a resposta e confirma com **Enter**.
+- **Funciona offline** depois da primeira visita: as frases que você joga ficam salvas, e em **Ajustes › Baixar todas as frases** dá para levar o curso inteiro.
+- **Mesmo progresso em todos os aparelhos:** crie uma conta (e-mail e senha) e entre com ela no celular e no computador. Sem conta, o progresso fica só no aparelho em que você estudou.
+- **Modo Falar** usa o reconhecimento de voz do navegador: funciona no Chrome, Edge e Safari. No Firefox, use os modos Escolher e Digitar.
+- **Atualizar:** recarregue a página ou use **Ajustes › Procurar atualização**.
 
 ## 🌍 Cursos
 
