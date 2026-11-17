@@ -69,7 +69,6 @@ F.vocab = {
 const AI_URL = m => `https://firebasevertexai.googleapis.com/v1beta/projects/frasier-language-app/models/${m}:generateContent`;
 const AI_KEY = 'AIzaSyCVNu0TiymMNR1dgtnyxZxJGAa76Y5OCSY'; // chave web pública do Firebase (não é segredo)
 const AI_MODELS = ['gemini-flash-lite-latest', 'gemini-flash-latest']; // a cota grátis do projeto cobre o flash-lite (rápido: < 1 s)
-let aiModelIdx = 0;
 F.aiAvailable = () => navigator.onLine !== false;
 /* F.ai(input, opts)
    input: string (pergunta) OU array de mensagens [{role:'user'|'model', text}]
@@ -85,7 +84,7 @@ F.ai = async function(input, opts = {}){
   const headers = { 'Content-Type':'application/json', 'x-goog-api-key':AI_KEY };
   try { const u = window.firebase && firebase.auth && firebase.auth().currentUser; if (u) headers['X-Firebase-Auth'] = await u.getIdToken(); } catch(e){}
   try { if (window.firebase && firebase.appCheck) { const t = await Promise.race([firebase.appCheck().getToken(), new Promise((_, rej) => setTimeout(() => rej(new Error('appcheck timeout')), 8000))]); if (t && t.token) headers['X-Firebase-AppCheck'] = t.token; } } catch(e){ console.warn('appcheck token', e); }
-  let lastErr;
+  let lastErr, aiModelIdx = 0;
   for (let attempt = 0; attempt < AI_MODELS.length + 1; attempt++) {
     const model = AI_MODELS[Math.min(aiModelIdx, AI_MODELS.length - 1)];
     const b = body;
