@@ -1,197 +1,201 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/readme/banner-dark.png">
-    <img src="docs/readme/banner.png" alt="Frasier — aprenda idiomas completando frases reais. Grátis, sem anúncios, funciona offline." width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="docs/readme/banner-en-dark.png">
+    <img src="docs/readme/banner-en.png" alt="Frasier — learn languages by completing real sentences. Free, no ads, works offline." width="100%">
   </picture>
 </p>
 
+<p align="center"><b>🇬🇧 English</b> · <a href="README.pt-BR.md">🇧🇷 Português</a></p>
+
 <p align="center">
-  <a href="https://lucas-ayub.github.io/frasier-language-app/"><b>▶ Abrir o app</b></a>
-  &nbsp;·&nbsp; <a href="#-onde-funciona-e-como-instalar">Onde funciona</a>
-  &nbsp;·&nbsp; <a href="#-cursos">Cursos</a>
-  &nbsp;·&nbsp; <a href="#-trilhas">Trilhas</a>
-  &nbsp;·&nbsp; <a href="#-identidade-visual">Identidade visual</a>
-  &nbsp;·&nbsp; <a href="#-como-funciona-por-dentro">Por dentro</a>
+  <a href="https://lucas-ayub.github.io/frasier-language-app/"><b>▶ Open the app</b></a>
+  &nbsp;·&nbsp; <a href="#-where-it-runs-and-how-to-install">Where it runs</a>
+  &nbsp;·&nbsp; <a href="#-courses">Courses</a>
+  &nbsp;·&nbsp; <a href="#-tracks">Tracks</a>
+  &nbsp;·&nbsp; <a href="#-visual-identity">Visual identity</a>
+  &nbsp;·&nbsp; <a href="#-under-the-hood">Under the hood</a>
 </p>
 
 <p align="center">
-  <img alt="PWA" src="https://img.shields.io/badge/PWA-instal%C3%A1vel%20%2B%20offline-5B2EFF?style=flat-square">
-  <img alt="Grátis" src="https://img.shields.io/badge/pre%C3%A7o-gr%C3%A1tis-16A34A?style=flat-square">
-  <img alt="Frases" src="https://img.shields.io/badge/frases-~700%20mil-FFC928?style=flat-square&labelColor=17123A">
-  <img alt="Sem framework" src="https://img.shields.io/badge/JS-sem%20framework%2C%20sem%20build-0EA5E9?style=flat-square">
+  <img alt="PWA" src="https://img.shields.io/badge/PWA-installable%20%2B%20offline-5B2EFF?style=flat-square">
+  <img alt="Free" src="https://img.shields.io/badge/price-free-16A34A?style=flat-square">
+  <img alt="Sentences" src="https://img.shields.io/badge/sentences-~700k-FFC928?style=flat-square&labelColor=17123A">
+  <img alt="No framework" src="https://img.shields.io/badge/JS-no%20framework%2C%20no%20build-0EA5E9?style=flat-square">
 </p>
 
 <p align="center">
-  <img alt="iPhone e iPad" src="https://img.shields.io/badge/iPhone%20%26%20iPad-Safari-17123A?style=for-the-badge&logo=apple&logoColor=white">
+  <img alt="iPhone and iPad" src="https://img.shields.io/badge/iPhone%20%26%20iPad-Safari-17123A?style=for-the-badge&logo=apple&logoColor=white">
   <img alt="Android" src="https://img.shields.io/badge/Android-Chrome-16A34A?style=for-the-badge&logo=android&logoColor=white">
-  <img alt="Computador" src="https://img.shields.io/badge/Computador-Windows%20%C2%B7%20Mac%20%C2%B7%20Linux-5B2EFF?style=for-the-badge&logo=googlechrome&logoColor=white">
+  <img alt="Desktop" src="https://img.shields.io/badge/Desktop-Windows%20%C2%B7%20Mac%20%C2%B7%20Linux-5B2EFF?style=for-the-badge&logo=googlechrome&logoColor=white">
 </p>
 
-O **Frasier** é um app gratuito no estilo do Clozemaster. Você aprende um idioma **completando frases reais**: uma palavra some, você vê a tradução no seu idioma e escolhe, digita ou fala a palavra que falta. A revisão espaçada traz cada frase de volta na hora certa até ela ficar gravada.
+**Frasier** is a free, Clozemaster-style language app. You learn a language by **completing real sentences**: one word is hidden, you see the translation in your own language, and you choose, type or say the missing word. Spaced repetition brings each sentence back at the right time until it sticks.
 
-> **Funciona em qualquer aparelho, direto no navegador — sem baixar nada da loja.** iPhone e iPad, celulares e tablets Android, e computador (Windows, Mac, Linux, Chromebook). É só abrir **[lucas-ayub.github.io/frasier-language-app](https://lucas-ayub.github.io/frasier-language-app/)**. Se quiser, dá para instalar como app na tela de início ou na área de trabalho ([veja como](#-onde-funciona-e-como-instalar)). Com uma conta, o progresso é o mesmo no celular e no computador.
+> **Runs on any device, right in the browser — nothing to download from an app store.** iPhone and iPad, Android phones and tablets, and desktop (Windows, Mac, Linux, Chromebook). Just open **[lucas-ayub.github.io/frasier-language-app](https://lucas-ayub.github.io/frasier-language-app/)**. You can also install it as an app on your home screen or desktop ([see how](#-where-it-runs-and-how-to-install)). With an account, your progress is the same on your phone and your computer.
+
+> **About the language of the app:** the interface is in **Brazilian Portuguese**. Courses exist for Portuguese speakers (→ Spanish, French, German, Italian, English) and for English speakers (→ German, Spanish, French, Italian), so the sentence translations are in English when you learn from English.
 
 <p align="center">
-  <img src="docs/readme/hero.png" alt="Três telas do Frasier: início com a meta do dia, uma pergunta de múltipla escolha acertada e uma dica de gramática sobre por e para" width="100%">
+  <img src="docs/readme/hero.png" alt="Three Frasier screens: home with today's goal, a correctly answered multiple-choice question and a grammar tip about por vs para" width="100%">
 </p>
 
-## 🎬 O app em ação
+## 🎬 See it in action
 
 <table>
   <tr>
-    <td align="center" width="33%"><img src="docs/readme/demo-round.gif" alt="Uma rodada de múltipla escolha: acerto, erro com a resposta certa e acerto" width="250"><br><sub><b>Uma rodada</b> — escolher, errar, aprender</sub></td>
-    <td align="center" width="33%"><img src="docs/readme/demo-typing.gif" alt="Modo digitar: cada letra fica verde ou vermelha enquanto você digita; dica revela letras" width="250"><br><sub><b>Digitar</b> — letra verde ou vermelha na hora</sub></td>
-    <td align="center" width="33%"><img src="docs/readme/demo-tracks.gif" alt="Escolhendo dificuldade e trilhas na tela inicial" width="250"><br><sub><b>Trilhas</b> — dificuldade e tema</sub></td>
+    <td align="center" width="33%"><img src="docs/readme/demo-round.gif" alt="A multiple-choice round: right answer, wrong answer with feedback, right answer" width="250"><br><sub><b>A round</b> — choose, miss, learn</sub></td>
+    <td align="center" width="33%"><img src="docs/readme/demo-typing.gif" alt="Typing mode: each letter turns green or red as you type; hints reveal letters" width="250"><br><sub><b>Typing</b> — green or red, letter by letter</sub></td>
+    <td align="center" width="33%"><img src="docs/readme/demo-tracks.gif" alt="Choosing difficulty and tracks on the home screen" width="250"><br><sub><b>Tracks</b> — difficulty and topic</sub></td>
   </tr>
 </table>
 
-<sub>Versões em vídeo (MP4): <a href="docs/readme/demo-round.mp4">rodada</a> · <a href="docs/readme/demo-typing.mp4">digitação</a> · <a href="docs/readme/demo-tracks.mp4">trilhas</a></sub>
+<sub>Video versions (MP4): <a href="docs/readme/demo-round.mp4">round</a> · <a href="docs/readme/demo-typing.mp4">typing</a> · <a href="docs/readme/demo-tracks.mp4">tracks</a></sub>
 
-## ✨ Recursos
+## ✨ Features
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/readme/features-dark.png">
-  <img src="docs/readme/features.png" alt="Recursos: frases reais revisadas, repetição espaçada, escolher/digitar/falar, trilhas de gramática e temas, vários cursos, offline e instalável" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/readme/features-en-dark.png">
+  <img src="docs/readme/features-en.png" alt="Features: real reviewed sentences, smart spaced repetition, choose/type/speak, grammar and topic tracks, several courses at once, offline and installable" width="100%">
 </picture>
 
-- **Três jeitos de responder, trocando quando quiser** (até no meio da rodada):
-  - **Escolher** — 4 alternativas;
-  - **Digitar** — cada letra fica **verde ou vermelha enquanto você digita** (acento conta), **Dica** revela letra por letra e as teclas de acento do idioma (ñ, ç, ß, ü…) ficam à mão; confirme com Enter;
-  - **Falar** — diga a frase e o app reconhece a palavra.
-- **Áudio** de todas as frases, com sotaque e velocidade ajustáveis.
-- **Meta diária**, 🔥 **sequência de dias**, pontos e resumo no fim de cada rodada.
-- **Vários cursos ao mesmo tempo**, como no Duolingo (por exemplo, português → espanhol e inglês → alemão), cada um com progresso, meta e sequência próprios.
-- **Conta opcional** (e-mail e senha) que sincroniza o progresso entre aparelhos; sem conta, tudo fica salvo no próprio aparelho. Backup por copiar e colar.
-- **Tema claro e escuro**, seguindo o sistema.
+- **Three ways to answer, switch any time** (even mid-round):
+  - **Choose** — 4 options;
+  - **Type** — every letter turns **green or red as you type** (accents count), **Hint** reveals one letter at a time, and the language's accent keys (ñ, ç, ß, ü…) are right there; press Enter to check;
+  - **Speak** — say the sentence and the app recognizes the word.
+- **Audio** for every sentence, with adjustable accent and speed.
+- **Daily goal**, 🔥 **streak**, points and a summary at the end of each round.
+- **Several courses at once**, Duolingo-style (e.g. Portuguese → Spanish and English → German), each with its own progress, goal and streak.
+- **Optional account** (email and password) to sync progress across devices; without an account everything is saved on the device. Copy-paste backup.
+- **Light and dark theme**, following your system.
 
-## 📱 Onde funciona e como instalar
+## 📱 Where it runs and how to install
 
-O Frasier é um **app web (PWA)**: roda em qualquer navegador moderno. Usar direto no navegador já funciona; instalar é opcional e só deixa o app com ícone próprio, em tela cheia.
+Frasier is a **web app (PWA)**: it runs in any modern browser. Using it in the browser already works; installing is optional and just gives it its own icon and full screen.
 
-| Aparelho | Navegador | Usar | Instalar como app (opcional) |
+| Device | Browser | Use | Install as an app (optional) |
 |---|---|---|---|
-| 📱 **iPhone / iPad** | Safari (ou Chrome, Edge…) | ✅ | Safari › botão **Compartilhar** (ou **⋯ › Compartilhar**) › **Adicionar à Tela de Início** |
-| 🤖 **Android** (celular e tablet) | Chrome, Edge, Samsung Internet, Firefox… | ✅ | Chrome › **⋮** › **Instalar app** (ou **Adicionar à tela inicial**) |
-| 💻 **Computador** (Windows, Mac, Linux, Chromebook) | Chrome, Edge, Safari, Firefox… | ✅ | Chrome/Edge › ícone **Instalar** na barra de endereço (ou **⋮ › Transmitir, salvar e compartilhar › Instalar página como app**). No Mac com Safari: **Arquivo › Adicionar ao Dock** |
+| 📱 **iPhone / iPad** | Safari (or Chrome, Edge…) | ✅ | Safari › **Share** button (or **⋯ › Share**) › **Add to Home Screen** |
+| 🤖 **Android** (phone and tablet) | Chrome, Edge, Samsung Internet, Firefox… | ✅ | Chrome › **⋮** › **Install app** (or **Add to Home screen**) |
+| 💻 **Desktop** (Windows, Mac, Linux, Chromebook) | Chrome, Edge, Safari, Firefox… | ✅ | Chrome/Edge › **Install** icon in the address bar (or **⋮ › Cast, save and share › Install page as app**). Safari on Mac: **File › Add to Dock** |
 
-- **No computador** dá para responder só pelo teclado: **1–4** escolhem a alternativa, você digita a resposta e confirma com **Enter**.
-- **Funciona offline** depois da primeira visita: as frases que você joga ficam salvas, e em **Ajustes › Baixar todas as frases** dá para levar o curso inteiro.
-- **Mesmo progresso em todos os aparelhos:** crie uma conta (e-mail e senha) e entre com ela no celular e no computador. Sem conta, o progresso fica só no aparelho em que você estudou.
-- **Modo Falar** usa o reconhecimento de voz do navegador: funciona no Chrome, Edge e Safari. No Firefox, use os modos Escolher e Digitar.
-- **Atualizar:** recarregue a página ou use **Ajustes › Procurar atualização**.
+- **On a computer** you can play with the keyboard only: **1–4** pick an option, type your answer and press **Enter**.
+- **Works offline** after the first visit: the sentences you play are cached, and **Ajustes › Baixar todas as frases** (Settings › Download all sentences) saves the whole course.
+- **Same progress everywhere:** create an account (email and password) and sign in on your phone and computer. Without an account, progress stays on the device you used.
+- **Speak mode** uses the browser's speech recognition: it works in Chrome, Edge and Safari. In Firefox, use Choose and Type.
+- **Updating:** reload the page or use **Ajustes › Procurar atualização** (Settings › Check for update).
 
-## 🌍 Cursos
+## 🌍 Courses
 
-Todas as frases vêm do [Tatoeba](https://tatoeba.org) e só entram **traduções diretas, feitas por pessoas**, priorizando falantes nativos e frases com áudio. Depois disso, cada frase passou (ou está passando) por uma **revisão completa da tradução**: a tradução é corrigida ou a frase sai do app.
+All sentences come from [Tatoeba](https://tatoeba.org), and only **direct, human-made translations** are used, prioritizing native speakers and sentences with audio. On top of that, every sentence went (or is going) through a **full translation review**: the translation is fixed or the sentence is removed from the app.
 
-| Curso | Frases | Revisão das traduções |
+| Course | Sentences | Translation review |
 |---|---:|---|
-| 🇧🇷 → 🇪🇸 Português → Espanhol | 62.973 | ✅ 100% — 6.580 corrigidas, 2.234 removidas |
-| 🇧🇷 → 🇫🇷 Português → Francês | 24.858 | ✅ 100% — 3.372 corrigidas, 853 removidas |
-| 🇧🇷 → 🇩🇪 Português → Alemão | 17.047 | ✅ 100% — 2.249 corrigidas, 730 removidas |
-| 🇧🇷 → 🇮🇹 Português → Italiano | 9.176 | ✅ 100% — 1.125 corrigidas, 321 removidas |
-| 🇬🇧 → 🇩🇪 Inglês → Alemão | 120.000 | ✅ 100% — 5.900 corrigidas, 3.429 removidas |
-| 🇧🇷 → 🇬🇧 Português → Inglês | 120.000 | ⏳ 45.000 revisadas até agora (3.983 corrigidas) |
-| 🇬🇧 → 🇪🇸 🇫🇷 🇮🇹 Inglês → Espanhol, Francês, Italiano | 120.000 cada | em breve |
+| 🇧🇷 → 🇪🇸 Portuguese → Spanish | 62,973 | ✅ 100% — 6,580 fixed, 2,234 removed |
+| 🇧🇷 → 🇫🇷 Portuguese → French | 24,858 | ✅ 100% — 3,372 fixed, 853 removed |
+| 🇧🇷 → 🇩🇪 Portuguese → German | 17,047 | ✅ 100% — 2,249 fixed, 730 removed |
+| 🇧🇷 → 🇮🇹 Portuguese → Italian | 9,176 | ✅ 100% — 1,125 fixed, 321 removed |
+| 🇬🇧 → 🇩🇪 English → German | 120,000 | ✅ 100% — 5,900 fixed, 3,429 removed |
+| 🇧🇷 → 🇬🇧 Portuguese → English | 120,000 | ⏳ 45,000 reviewed so far (3,983 fixed) |
+| 🇬🇧 → 🇪🇸 🇫🇷 🇮🇹 English → Spanish, French, Italian | 120,000 each | coming soon |
 
-Frases revisadas aparecem com o selo **“revisada ✓”**. Achou uma tradução estranha? O botão **⚑ Tradução ruim** tira a frase dos seus estudos.
+Reviewed sentences carry a **“revisada ✓”** (reviewed) badge. Found an odd translation? The **⚑ Tradução ruim** (bad translation) button removes the sentence from your studies.
 
-## 🧠 Como o app ensina
+## 🧠 How it teaches
 
-- **Domínio de 0 a 100%** por frase. Cada acerto sobe um nível e a frase volta em **1, 10, 30 e 180 dias**; um erro zera o domínio.
-- **Rodadas equilibradas:** o **Jogar** mistura de 3 a 5 revisões vencidas no meio das frases novas (mais quando a fila cresce), e pelo menos metade da rodada é sempre de frases novas. Assim você aprende coisa nova sem a fila de revisão sair do controle.
-- **Errou? Ela volta no fim da rodada** (até duas vezes). Se você acertar na repetição, ela volta **amanhã** para confirmar que fixou.
-- **Nada de repetição imediata:** uma frase vista nos últimos 10 minutos não entra como revisão.
-- **“Já sei”** marca uma frase fácil como dominada; o **Revisar** traz só a fila de revisão.
+- **Mastery from 0 to 100%** per sentence. Each correct answer moves it up a level and the sentence comes back after **1, 10, 30 and 180 days**; a mistake resets it to 0%.
+- **Balanced rounds:** **Jogar** (Play) mixes 3–5 due reviews among new sentences (more when the backlog grows), and at least half of every round is new. You keep learning new things without the review queue getting out of hand.
+- **Missed it? It comes back at the end of the round** (up to twice). Get it right on the retry and it comes back **tomorrow** to make sure it stuck.
+- **No instant repeats:** a sentence seen in the last 10 minutes won't show up as a review.
+- **“Já sei”** (I know this) marks an easy sentence as mastered; **Revisar** (Review) plays only your review queue.
 
-## 🧭 Trilhas
+## 🧭 Tracks
 
 <table>
   <tr>
-    <td width="33%"><img src="docs/readme/shot-tracks-light.png" alt="Tela de trilhas com filtro de dificuldade e os temas de Primeiros passos" width="100%"></td>
-    <td width="33%"><img src="docs/readme/shot-wrong-tip-light.png" alt="Gramática: por ou para, resposta errada com a dica da regra" width="100%"></td>
-    <td width="33%"><img src="docs/readme/shot-type-light.png" alt="Modo digitar com letras verdes e uma vermelha" width="100%"></td>
+    <td width="33%"><img src="docs/readme/shot-tracks-light.png" alt="Tracks screen with the difficulty filter and First steps topics" width="100%"></td>
+    <td width="33%"><img src="docs/readme/shot-wrong-tip-light.png" alt="Grammar: por or para, wrong answer showing the rule tip" width="100%"></td>
+    <td width="33%"><img src="docs/readme/shot-type-light.png" alt="Typing mode with green letters and one red letter" width="100%"></td>
   </tr>
 </table>
 
-- **🎚️ Dificuldade** para qualquer trilha: Todas · 🌱 Iniciante · 🌿 Básico · 🌳 Intermediário · 🏔️ Avançado (pela frequência da palavra mais rara da frase).
-- **📊 Geral:** coleções Top 100, 500, 1.000, 2.000, 5.000, 10.000 e Avançado; a palavra escondida é a mais rara da frase.
-- **🧱 Primeiros passos** (13 temas): cumprimentos, números, cores, dias e meses, família, corpo, roupas, animais, comida, palavras interrogativas, lugares, profissões e adjetivos opostos. A palavra escondida **é** a do tema, e as alternativas vêm do mesmo grupo (outras cores, outros números…).
-- **📐 Gramática** (12 temas por idioma, montados por agentes especialistas em ensino de cada língua). A palavra escondida é o próprio ponto gramatical, e cada tema tem uma **dica** que aparece quando você erra:
+- **🎚️ Difficulty** for any track: All · 🌱 Beginner · 🌿 Basic · 🌳 Intermediate · 🏔️ Advanced (based on how frequent the rarest word in the sentence is).
+- **📊 General:** collections Top 100, 500, 1,000, 2,000, 5,000, 10,000 and Advanced; the hidden word is the rarest word of the sentence.
+- **🧱 First steps** (13 topics): greetings, numbers, colors, days and months, family, body, clothes, animals, food, question words, places, jobs and opposite adjectives. The hidden word **is** the topic word, and the options come from the same set (other colors, other numbers…).
+- **📐 Grammar** (12 topics per language, designed by specialist agents for teaching each language). The hidden word is the grammar point itself, and each topic has a **tip** that shows up when you get it wrong:
 
-  | Idioma | Temas |
+  | Language | Topics |
   |---|---|
-  | 🇪🇸 Espanhol | artigos, al/del, **ser ou estar**, hay ou está, muy ou mucho, possessivos, demonstrativos, gusta/gustan, **por ou para**, reflexivos, pretérito (fue/era), subjuntivo |
-  | 🇫🇷 Francês | artigos, être/avoir, negação, possessivos, demonstrativos, à/en/au + lugares, partitivo, auxiliar do passé composé, imparfait, le/lui/leur, y/en, qui/que |
-  | 🇩🇪 Alemão | sein/haben, ein/eine, nicht/kein, possessivos, modais, preposição + caso, in/an/auf (dativo/acusativo), mich/mir, Perfekt com haben ou sein, weil/dass/wenn/ob, relativos, terminação do adjetivo |
-  | 🇮🇹 Italiano | artigos (il/lo…), artigo indefinido, essere/avere, possessivos, preposição + artigo, a/in, molto/troppo, reflexivos, auxiliar do passato prossimo, futuro, pronomes |
-  | 🇬🇧 Inglês | a/an/the, verbo to be, there is/are, -s do presente, do/does/did, his/her, in/on/at, some/any, passado irregular, particípio, comparativos, make/do |
+  | 🇪🇸 Spanish | articles, al/del, **ser vs estar**, hay vs está, muy vs mucho, possessives, demonstratives, gusta/gustan, **por vs para**, reflexives, preterite (fue/era), subjunctive |
+  | 🇫🇷 French | articles, être/avoir, negation, possessives, demonstratives, à/en/au + places, partitive, passé composé auxiliary, imparfait, le/lui/leur, y/en, qui/que |
+  | 🇩🇪 German | sein/haben, ein/eine, nicht/kein, possessives, modal verbs, preposition + case, in/an/auf (dative/accusative), mich/mir, Perfekt with haben or sein, weil/dass/wenn/ob, relative pronouns, adjective endings |
+  | 🇮🇹 Italian | articles (il/lo…), indefinite article, essere/avere, possessives, preposition + article, a/in, molto/troppo, reflexives, passato prossimo auxiliary, future, pronouns |
+  | 🇬🇧 English | a/an/the, to be, there is/are, present -s, do/does/did, his/her, in/on/at, some/any, irregular past, past participle, comparatives, make/do |
 
-- **☀️ Dia a dia** (mercado, restaurante, transporte, casa, saúde, clima, rotina, lazer, sentimentos), **✈️ Viagem** (aeroporto, hotel, direções, turismo), **💼 Profissional** (escritório, e-mail e telefone, carreira, negócios, tecnologia) e **🎓 Acadêmico** (escola, ciência, história, natureza, arte).
+- **☀️ Daily life** (grocery, restaurant, transport, home, health, weather, routine, leisure, feelings), **✈️ Travel** (airport, hotel, directions, sightseeing), **💼 Work** (office, email and phone, career, business, tech) and **🎓 Academic** (school, science, history, nature, art).
 
-## 🖼️ Telas
+## 🖼️ Screens
 
 <table>
   <tr>
-    <td width="25%"><img src="docs/readme/shot-home-light.png" alt="Início no tema claro" width="100%"></td>
-    <td width="25%"><img src="docs/readme/shot-home-dark.png" alt="Início no tema escuro" width="100%"></td>
-    <td width="25%"><img src="docs/readme/shot-mc-dark.png" alt="Pergunta de múltipla escolha" width="100%"></td>
-    <td width="25%"><img src="docs/readme/shot-mc-correct-dark.png" alt="Resposta certa com o domínio da frase" width="100%"></td>
+    <td width="25%"><img src="docs/readme/shot-home-light.png" alt="Home, light theme" width="100%"></td>
+    <td width="25%"><img src="docs/readme/shot-home-dark.png" alt="Home, dark theme" width="100%"></td>
+    <td width="25%"><img src="docs/readme/shot-mc-dark.png" alt="Multiple-choice question" width="100%"></td>
+    <td width="25%"><img src="docs/readme/shot-mc-correct-dark.png" alt="Correct answer with sentence mastery" width="100%"></td>
   </tr>
   <tr>
-    <td align="center"><sub>Início (claro)</sub></td>
-    <td align="center"><sub>Início (escuro)</sub></td>
-    <td align="center"><sub>Múltipla escolha</sub></td>
-    <td align="center"><sub>Acerto e domínio</sub></td>
+    <td align="center"><sub>Home (light)</sub></td>
+    <td align="center"><sub>Home (dark)</sub></td>
+    <td align="center"><sub>Multiple choice</sub></td>
+    <td align="center"><sub>Correct answer and mastery</sub></td>
   </tr>
   <tr>
-    <td width="25%"><img src="docs/readme/shot-courses-light.png" alt="Meus cursos" width="100%"></td>
-    <td width="25%"><img src="docs/readme/shot-summary-dark.png" alt="Resumo da rodada" width="100%"></td>
-    <td width="25%"><img src="docs/readme/shot-tracks-light.png" alt="Trilhas" width="100%"></td>
-    <td width="25%"><img src="docs/readme/shot-type-light.png" alt="Digitar" width="100%"></td>
+    <td width="25%"><img src="docs/readme/shot-courses-light.png" alt="My courses" width="100%"></td>
+    <td width="25%"><img src="docs/readme/shot-summary-dark.png" alt="Round summary" width="100%"></td>
+    <td width="25%"><img src="docs/readme/shot-tracks-light.png" alt="Tracks" width="100%"></td>
+    <td width="25%"><img src="docs/readme/shot-type-light.png" alt="Typing" width="100%"></td>
   </tr>
   <tr>
-    <td align="center"><sub>Meus cursos</sub></td>
-    <td align="center"><sub>Resumo da rodada</sub></td>
-    <td align="center"><sub>Trilhas</sub></td>
-    <td align="center"><sub>Digitar</sub></td>
+    <td align="center"><sub>My courses</sub></td>
+    <td align="center"><sub>Round summary</sub></td>
+    <td align="center"><sub>Tracks</sub></td>
+    <td align="center"><sub>Typing</sub></td>
   </tr>
 </table>
 
-## 🎨 Identidade visual
+## 🎨 Visual identity
 
-O visual se chama **“Fliperama de frases”**: botões grossos com sombra sólida, como teclas de fliperama, peças de letras (¿ ñ ß ü) como decoração, cantos arredondados e uma pequena animação de “pulo” a cada resposta. O violeta dá personalidade, o amarelo chama para a ação, e verde e vermelho só aparecem para acerto e erro.
+The look is called **“Arcade of sentences”** (*Fliperama de frases*): chunky buttons with a solid shadow like arcade keys, letter tiles (¿ ñ ß ü) as decoration, rounded corners and a small “pop” animation on every answer. Violet gives it personality, yellow calls to action, and green and red only ever mean right and wrong.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/readme/palette-dark.png">
-  <img src="docs/readme/palette.png" alt="Paleta: Violeta #5B2EFF, Violeta profundo #3A17C4, Sol #FFC928, Céu #0EA5E9, Acerto #16A34A, Erro #E11D2E, Tinta #17123A, Fundo #F2F0FA" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/readme/palette-en-dark.png">
+  <img src="docs/readme/palette-en.png" alt="Palette: Violet #5B2EFF, Deep violet #3A17C4, Sun #FFC928, Sky #0EA5E9, Correct #16A34A, Wrong #E11D2E, Ink #17123A, Background #F2F0FA" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/readme/type-dark.png">
-  <img src="docs/readme/type.png" alt="Tipografia: Unbounded para títulos e números, Atkinson Hyperlegible Next para texto" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/readme/type-en-dark.png">
+  <img src="docs/readme/type-en.png" alt="Typography: Unbounded for headings and numbers, Atkinson Hyperlegible Next for body text" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/readme/components-dark.png">
-  <img src="docs/readme/components.png" alt="Componentes: botões Jogar e Revisar, modos de resposta, chips de dificuldade, etiquetas, alternativas certa e errada, campo de digitação e barra de domínio" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/readme/components-en-dark.png">
+  <img src="docs/readme/components-en.png" alt="UI kit: Play and Review buttons, answer modes, difficulty chips, tags, right and wrong options, typing field and mastery bar" width="100%">
 </picture>
 
-## 🛠️ Como funciona por dentro
+## 🛠️ Under the hood
 
-- **Um arquivo só:** `index.html` com HTML, CSS e JavaScript puro — sem framework e sem etapa de build. `sw.js` é o service worker (offline e atualização) e `manifest.webmanifest` torna o app instalável.
-- **Dados** em `data/<origem>-<alvo>/`: blocos `c0.json`, `c1.json`… com 2.000 frases cada (`[frase, tradução, início da lacuna, tamanho, id Tatoeba, id Tatoeba]`), `index.json` (níveis, frases escondidas, até onde foi revisado), `words.json`, `tracks.json` (trilhas temáticas) e `tracks2.json` (Primeiros passos e Gramática, com a posição da lacuna e as alternativas de cada frase).
-- **Pipeline das frases** em `tools/`:
-  - `build_courses.py` — baixa os exports do Tatoeba, pontua a qualidade (falante nativo, áudio, tags e avaliações negativas da comunidade, proporção de tamanho), ordena pela frequência da palavra e gera os cursos. Roda num workflow do GitHub Actions disparado por `tools/rebuild.txt`.
-  - `apply_reviews.py` — aplica as revisões de `tools/reviews/<par>.json` (traduções corrigidas e frases removidas, guardadas pelo id do Tatoeba).
-  - `build_tracks.py` — gera as trilhas a partir das regras de `tools/tracks/<idioma>.json` (um regex por tema com a palavra a esconder e as alternativas).
-- **Contas e sincronização:** Firebase Authentication (e-mail e senha) e Firestore, com regras que só deixam cada usuário ler e escrever os próprios dados.
+- **A single file:** `index.html` with HTML, CSS and plain JavaScript — no framework and no build step. `sw.js` is the service worker (offline and updates) and `manifest.webmanifest` makes the app installable.
+- **Data** in `data/<source>-<target>/`: chunks `c0.json`, `c1.json`… with 2,000 sentences each (`[sentence, translation, cloze start, cloze length, Tatoeba id, Tatoeba id]`), `index.json` (levels, hidden sentences, how far the review got), `words.json`, `tracks.json` (topic tracks) and `tracks2.json` (First steps and Grammar, with the cloze position and the options for each sentence).
+- **Sentence pipeline** in `tools/`:
+  - `build_courses.py` — downloads the Tatoeba exports, scores quality (native speaker, audio, community tags and negative reviews, length ratio), orders by word frequency and builds the courses. Runs in a GitHub Actions workflow triggered by `tools/rebuild.txt`.
+  - `apply_reviews.py` — applies the reviews in `tools/reviews/<pair>.json` (fixed translations and removed sentences, keyed by Tatoeba id).
+  - `build_tracks.py` — builds the tracks from the rules in `tools/tracks/<language>.json` (one regex per topic with the word to hide and the options).
+- **Accounts and sync:** Firebase Authentication (email and password) and Firestore, with rules that only let each user read and write their own data.
 
-**Rodar localmente:** sirva a pasta com qualquer servidor estático, por exemplo `python3 -m http.server`, e abra `http://localhost:8000`.
+**Run locally:** serve the folder with any static server, e.g. `python3 -m http.server`, and open `http://localhost:8000`.
 
-## 🙏 Créditos
+## 🙏 Credits
 
-- Frases e traduções: [Tatoeba.org](https://tatoeba.org), licença [CC BY 2.0 FR](https://creativecommons.org/licenses/by/2.0/fr/). Cada frase tem um link para a original.
-- Fontes: [Unbounded](https://fonts.google.com/specimen/Unbounded) e [Atkinson Hyperlegible Next](https://fonts.google.com/specimen/Atkinson+Hyperlegible+Next) (SIL Open Font License).
-- Inspirado no [Clozemaster](https://www.clozemaster.com).
-- Feito por **Lucas Ayub**, com a ajuda do Claude (Anthropic).
+- Sentences and translations: [Tatoeba.org](https://tatoeba.org), licensed [CC BY 2.0 FR](https://creativecommons.org/licenses/by/2.0/fr/). Every sentence links back to the original.
+- Fonts: [Unbounded](https://fonts.google.com/specimen/Unbounded) and [Atkinson Hyperlegible Next](https://fonts.google.com/specimen/Atkinson+Hyperlegible+Next) (SIL Open Font License).
+- Inspired by [Clozemaster](https://www.clozemaster.com).
+- Made by **Lucas Ayub**, with help from Claude (Anthropic).
