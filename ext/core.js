@@ -84,7 +84,7 @@ F.ai = async function(input, opts = {}){
   if (opts.system) body.systemInstruction = { parts:[{ text:opts.system }] };
   if (opts.json) { body.generationConfig.responseMimeType = 'application/json'; if (opts.schema) body.generationConfig.responseSchema = opts.schema; }
   const headers = { 'Content-Type':'application/json', 'x-goog-api-key':AI_KEY };
-  try { const u = window.firebase && firebase.auth && firebase.auth().currentUser; if (u) headers['X-Firebase-Auth'] = await u.getIdToken(); } catch(e){}
+  // (não enviar X-Firebase-Auth: o endpoint não aceita esse cabeçalho no CORS e a chamada falha com 'Failed to fetch' para quem está logado)
   const appCheck = async (force) => { try { if (window.firebase && firebase.appCheck) { const t = await Promise.race([firebase.appCheck().getToken(!!force), new Promise((_, rej) => setTimeout(() => rej(new Error('appcheck timeout')), 10000))]); if (t && t.token) headers['X-Firebase-AppCheck'] = t.token; } } catch(e){ console.warn('appcheck token', e); } };
   await appCheck(false);
   // até 6 tentativas alternando modelos, com espera crescente (erros 503/429/timeout costumam passar em segundos)
