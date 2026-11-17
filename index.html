@@ -368,6 +368,27 @@ textarea{width:100%;min-height:90px;border-radius:12px;border:2px solid var(--li
 @keyframes hop{0%,60%,100%{transform:none}30%{transform:translateY(-12px)}}
 .toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:12px 16px;border-radius:14px;font-size:15px;font-weight:700;z-index:20;
   box-shadow:0 4px 0 color-mix(in srgb,var(--ink) 60%,#000);width:max-content;max-width:calc(100% - 32px);animation:rise .3s var(--ease-pop)}
+.extbody > .card,.extbody .card.pad{padding:14px 16px}
+.hubgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.hubcard{display:flex;align-items:center;gap:10px;text-align:left;padding:12px;border-radius:var(--r-m);background:var(--surface);border:2px solid var(--line);box-shadow:0 3px 0 var(--edge);color:var(--ink);font:inherit;cursor:pointer;position:relative;min-height:64px}
+.hubcard:active{transform:translateY(2px);box-shadow:0 1px 0 var(--edge)}
+.hubcard.big{grid-column:1/-1;background:var(--brand-soft);border-color:var(--slot-line)}
+.hubcard .hi{font-size:26px;line-height:1;flex:none}
+.hubcard .ht{display:flex;flex-direction:column;gap:2px;min-width:0}
+.hubcard .ht b{font-family:var(--fd);font-size:14px;font-weight:700}
+.hubcard .ht small{color:var(--muted);font-size:12.5px;line-height:1.25}
+.hubcard .hm{position:absolute;top:6px;right:8px;font-size:11px;font-weight:700;color:var(--ok-ink);background:var(--ok-bg);padding:1px 7px;border-radius:99px}
+.exttop{align-items:center}
+.exttitle{display:flex;align-items:center;gap:8px;font-family:var(--fd);font-size:17px;min-width:0}
+.exttitle b{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.extbody{display:flex;flex-direction:column;gap:12px;padding-bottom:40px}
+.xload{display:flex;align-items:center;gap:10px;color:var(--muted);padding:18px 4px}
+.xload .tiles{display:inline-flex;gap:4px}.xload .tiles i{width:10px;height:10px;border-radius:3px;background:var(--brand);animation:pop .9s infinite}
+.xload .tiles i:nth-child(2){animation-delay:.15s;background:var(--sun)}.xload .tiles i:nth-child(3){animation-delay:.3s;background:var(--sky)}
+.xerr{border-color:var(--bad);color:var(--bad-ink)}
+.w{cursor:pointer;border-radius:4px}.w:hover,.w.sel{background:var(--slot);box-shadow:0 0 0 2px var(--slot)}
+.xpop{position:absolute;z-index:60;background:var(--surface);border:2px solid var(--line);border-radius:var(--r-m);box-shadow:0 10px 30px rgba(0,0,0,.25);padding:12px}
+.xpop .lktr{font-size:17px;font-weight:700;margin:4px 0}
 @keyframes pop{0%{transform:none}35%{transform:translateY(-3px) scale(1.012)}100%{transform:none}}
 .pop{animation:pop .3s var(--ease-pop)}
 @media (prefers-reduced-motion: reduce){
@@ -410,6 +431,11 @@ textarea{width:100%;min-height:90px;border-radius:12px;border:2px solid var(--li
     <div class="card tip hidden" id="accountTip">
       <b>Crie uma conta</b> para salvar seu progresso na nuvem e não perder nada se trocar de aparelho. O app continua funcionando offline.
       <div class="row" style="margin-top:12px;flex-wrap:wrap"><button class="tool primary" id="tipSignup">Criar conta</button><button class="tool" id="tipLogin">Já tenho conta</button><div class="spacer"></div><button class="linkbtn" id="tipHide">Agora não</button></div>
+    </div>
+
+    <div class="section" id="hubSec">
+      <h3>Treino completo</h3>
+      <div class="hubgrid" id="hubGrid"></div>
     </div>
 
     <div class="section">
@@ -465,6 +491,15 @@ textarea{width:100%;min-height:90px;border-radius:12px;border:2px solid var(--li
     <div id="afterArea" class="after hidden"></div>
   </section>
 
+  <!-- ATIVIDADES (ext/*.js) -->
+  <section id="ext" class="hidden">
+    <div class="playtop exttop">
+      <button class="iconbtn" id="extBack" aria-label="Voltar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+      <div class="exttitle"><span id="extIcon" aria-hidden="true"></span><b id="extTitle"></b></div>
+    </div>
+    <div id="extBody" class="extbody"></div>
+  </section>
+
   <!-- SUMMARY -->
   <section id="summary" class="hidden">
     <div class="sumcard">
@@ -485,6 +520,7 @@ textarea{width:100%;min-height:90px;border-radius:12px;border:2px solid var(--li
   <div class="sheet" id="sheetInner" role="dialog" aria-modal="true"></div>
 </div>
 <div id="toast" class="toast hidden" role="status"></div>
+<!-- carregados depois do script principal (ver ext/CONTRACT.md) -->
 
 <script>
 "use strict";
@@ -543,7 +579,7 @@ const KEY = 'frasier-' + PAIR + '-v1';
 COURSE.path = 'data/' + PAIR + '/';
 try { if (LEGACY && !localStorage.getItem(KEY) && localStorage.getItem('frasier-' + LEGACY + '-v1')) localStorage.setItem(KEY, localStorage.getItem('frasier-' + LEGACY + '-v1')); } catch(e){}
 
-const APP_VERSION = '2.10 · 16 nov 2026';
+const APP_VERSION = '3.0 · 17 nov 2026';
 const IN_ARTIFACT = !!(window.claude && window.claude.use) || window.self !== window.top;
 const STANDALONE = (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
 
@@ -580,7 +616,21 @@ function markDirty(idx){ dirty.add(blockOf(idx)); dirtyIdx.add(idx); metaDirty =
 function markAllDirty(){ Object.keys(S.prog).forEach(k => markDirty(+k)); metaDirty = true; }
 
 // junta o progresso remoto com o local (vence a resposta mais recente de cada frase)
+/* atividades completas (ext/): vocabulário, minutos por dia, diário, nível e dados livres dos módulos */
+function extForCloud(){
+  const e = S.ext || {}; const j = (e.journal || []).slice(-40);
+  return JSON.parse(JSON.stringify({ ...e, journal:j }));
+}
+function mergeExt(m){
+  if (!m) return; const e = S.ext = S.ext || {};
+  e.vocab = e.vocab || {}; for (const [k, v] of Object.entries(m.vocab || {})) if (!e.vocab[k] || (v.ts || 0) > (e.vocab[k].ts || 0)) e.vocab[k] = v;
+  e.days = e.days || {}; for (const [d, o] of Object.entries(m.days || {})) { e.days[d] = e.days[d] || {}; for (const [a, mn] of Object.entries(o)) e.days[d][a] = Math.max(e.days[d][a] || 0, mn); }
+  const ids = new Set((e.journal || []).map(x => x.id)); e.journal = [...(e.journal || []), ...(m.journal || []).filter(x => !ids.has(x.id))].sort((a, b) => a.ts - b.ts);
+  if (m.cefr && !e.cefr) e.cefr = m.cefr;
+  e.store = e.store || {}; for (const [k, v] of Object.entries(m.store || {})) if (!e.store[k] || (v._ts || 0) > (e.store[k]._ts || 0)) e.store[k] = v;
+}
 function mergeMeta(m){
+  try { mergeExt(m.ext); } catch(e){}
   if (m.flags) S.flags = { ...(m.flags || {}), ...(S.flags || {}) };
   S.stats.points = Math.max(S.stats.points||0, m.stats?.points||0);
   for (const [d, c] of Object.entries(m.stats?.days||{})) S.stats.days[d] = Math.max(S.stats.days[d]||0, c);
@@ -594,7 +644,7 @@ function mergeBlock(entries){
     else if ((mine[2]||0) > (v[2]||0)) markDirty(+k);
   }
 }
-const metaBody = () => ({ ptr:S.ptr, stats:S.stats, settings:S.settings, su:S.su, flags:S.flags || {}, blocks:[...new Set(Object.keys(S.prog).map(k => blockOf(+k)))].sort((a,b)=>a-b) });
+const metaBody = () => ({ ptr:S.ptr, stats:S.stats, settings:S.settings, su:S.su, flags:S.flags || {}, ext:extForCloud(), blocks:[...new Set(Object.keys(S.prog).map(k => blockOf(+k)))].sort((a,b)=>a-b) });
 
 async function initCloud(){
   if (!IN_ARTIFACT) { initFirebase(); return; }
@@ -653,8 +703,10 @@ function loadScript(src){ return new Promise((res, rej) => { const s = document.
 async function initFirebase(){
   try {
     await loadScript('vendor/firebase-app-compat.js');
-    await Promise.all([loadScript('vendor/firebase-auth-compat.js'), loadScript('vendor/firebase-firestore-compat.js')]);
+    await Promise.all([loadScript('vendor/firebase-auth-compat.js'), loadScript('vendor/firebase-firestore-compat.js'), loadScript('vendor/firebase-app-check-compat.js').catch(() => {})]);
     FB = firebase.initializeApp(FIREBASE_CONFIG);
+    // App Check (reCAPTCHA Enterprise): só o próprio Frasier consegue usar a IA do projeto
+    try { if (firebase.appCheck && /github\.io$/.test(location.hostname)) firebase.appCheck().activate(new firebase.appCheck.ReCaptchaEnterpriseProvider('6LcuNCUuAAAAAO3g8N2HQf0v0s5lsPh4GvP3T1OD'), true); } catch(e){ console.warn('appcheck', e); }
     FS = firebase.firestore();
     try { await FS.enablePersistence({ synchronizeTabs:true }); } catch(e){}
     firebase.auth().languageCode = 'pt';
@@ -988,7 +1040,7 @@ async function startRound(kind){
   show('play'); renderQ();
 }
 
-function show(id){ ['loading','home','play','summary'].forEach(s => $(s).classList.toggle('hidden', s !== id)); window.scrollTo(0,0); }
+function show(id){ ['loading','home','play','summary','ext'].forEach(s => $(s).classList.toggle('hidden', s !== id)); window.scrollTo(0,0); }
 
 function renderQ(){
   const q = R.queue[R.i], s = sent(q.idx);
@@ -1488,5 +1540,11 @@ $('trackTabs').onclick = e => { const b = e.target.closest('button'); if (!b) re
   initCloud();
 })();
 </script>
+<script src="ext/core.js"></script>
+<script src="ext/m-plan.js"></script>
+<script src="ext/m-sentence.js"></script>
+<script src="ext/m-talk.js"></script>
+<script src="ext/m-journal.js"></script>
+<script src="ext/m-read.js"></script>
 </body>
 </html>

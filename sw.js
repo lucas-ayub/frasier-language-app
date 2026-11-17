@@ -1,5 +1,5 @@
-const VERSION = 'frasier-v16';
-const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icons/apple-touch-icon.png', 'icons/icon-192.png', 'icons/icon-512.png', 'vendor/firebase-app-compat.js', 'vendor/firebase-auth-compat.js', 'vendor/firebase-firestore-compat.js'];
+const VERSION = 'frasier-v17';
+const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icons/apple-touch-icon.png', 'icons/icon-192.png', 'icons/icon-512.png', 'vendor/firebase-app-compat.js', 'vendor/firebase-auth-compat.js', 'vendor/firebase-firestore-compat.js', 'vendor/firebase-app-check-compat.js', 'ext/core.js', 'ext/m-plan.js', 'ext/m-sentence.js', 'ext/m-talk.js', 'ext/m-journal.js', 'ext/m-read.js'];
 const DATA = 'frasier-data-v2';
 
 self.addEventListener('install', e => {
@@ -21,6 +21,11 @@ self.addEventListener('fetch', e => {
       if (res.ok) c.put(req, res.clone());
       return res;
     }));
+    return;
+  }
+  // atividades (ext/*.js): rede primeiro, cache se offline (para atualizar junto com a página)
+  if (url.origin === location.origin && /\/ext\/[\w-]+\.js$/.test(url.pathname)) {
+    e.respondWith(fetch(req, { cache:'no-cache' }).then(res => { const copy = res.clone(); caches.open(VERSION).then(c => c.put(req, copy)); return res; }).catch(() => caches.match(req)));
     return;
   }
   // página: rede primeiro, cache se offline
