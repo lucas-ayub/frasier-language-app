@@ -68,7 +68,7 @@ F.vocab = {
 /* ---------- IA (Gemini via Firebase AI Logic, plano gratuito) ---------- */
 const AI_URL = m => `https://firebasevertexai.googleapis.com/v1beta/projects/frasier-language-app/models/${m}:generateContent`;
 const AI_KEY = 'AIzaSyCVNu0TiymMNR1dgtnyxZxJGAa76Y5OCSY'; // chave web pública do Firebase (não é segredo)
-const AI_MODELS = ['gemini-flash-lite-latest', 'gemini-flash-latest']; // a cota grátis do projeto cobre o flash-lite (rápido: < 1 s)
+const AI_MODELS = ['gemini-flash-lite-latest', 'gemini-3-flash-preview']; // ambos com cota grátis no projeto; o flash-latest dá 429 (sem cota)
 F.aiAvailable = () => navigator.onLine !== false;
 /* F.ai(input, opts)
    input: string (pergunta) OU array de mensagens [{role:'user'|'model', text}]
@@ -85,35 +85,43 @@ F.ai = async function(input, opts = {}){
   if (opts.json) { body.generationConfig.responseMimeType = 'application/json'; if (opts.schema) body.generationConfig.responseSchema = opts.schema; }
   const headers = { 'Content-Type':'application/json', 'x-goog-api-key':AI_KEY };
   try { const u = window.firebase && firebase.auth && firebase.auth().currentUser; if (u) headers['X-Firebase-Auth'] = await u.getIdToken(); } catch(e){}
-  try { if (window.firebase && firebase.appCheck) { const t = await Promise.race([firebase.appCheck().getToken(), new Promise((_, rej) => setTimeout(() => rej(new Error('appcheck timeout')), 8000))]); if (t && t.token) headers['X-Firebase-AppCheck'] = t.token; } } catch(e){ console.warn('appcheck token', e); }
-  let lastErr, aiModelIdx = 0;
-  for (let attempt = 0; attempt < AI_MODELS.length + 1; attempt++) {
-    const model = AI_MODELS[Math.min(aiModelIdx, AI_MODELS.length - 1)];
-    const b = body;
-    const ctl = new AbortController(); const to = setTimeout(() => ctl.abort(), opts.timeout || 30000);
+  const appCheck = async (force) => { try { if (window.firebase && firebase.appCheck) { const t = await Promise.race([firebase.appCheck().getToken(!!force), new Promise((_, rej) => setTimeout(() => rej(new Error('appcheck timeout')), 10000))]); if (t && t.token) headers['X-Firebase-AppCheck'] = t.token; } } catch(e){ console.warn('appcheck token', e); } };
+  await appCheck(false);
+  // até 6 tentativas alternando modelos, com espera crescente (erros 503/429/timeout costumam passar em segundos)
+  const plan = [0, 1, 0, 1, 0, 1], waits = [0, 300, 1200, 2500, 4000, 6000];
+  let lastErr, refreshed = false, noThink = false;
+  for (let attempt = 0; attempt < plan.length; attempt++) {
+    if (waits[attempt]) await new Promise(res => setTimeout(res, waits[attempt]));
+    if (!navigator.onLine) break;
+    const model = AI_MODELS[plan[attempt]];
+    const b = JSON.parse(JSON.stringify(body)); if (noThink) delete b.generationConfig.thinkingConfig;
+    const ctl = new AbortController(); const to = setTimeout(() => ctl.abort(), opts.timeout || 25000);
     try {
       const r = await fetch(AI_URL(model), { method:'POST', headers, body:JSON.stringify(b), signal:ctl.signal });
       clearTimeout(to);
       const j = await r.json().catch(() => ({}));
       if (!r.ok) {
         lastErr = new Error((j.error && j.error.message) || ('HTTP ' + r.status)); lastErr.status = r.status;
-        if (r.status === 400 && body.generationConfig.thinkingConfig) { delete body.generationConfig.thinkingConfig; continue; }
-        if (r.status === 429 || r.status === 404 || r.status >= 500) { if (aiModelIdx < AI_MODELS.length - 1) { aiModelIdx++; continue; } if (r.status === 429) { await new Promise(res => setTimeout(res, 2500)); continue; } }
-        break;
+        if (r.status === 400 && !noThink) { noThink = true; attempt--; continue; }
+        if ((r.status === 401 || r.status === 403) && !refreshed) { refreshed = true; await appCheck(true); continue; }
+        if (r.status === 400 || r.status === 401 || r.status === 403) break;
+        continue; // 429, 404, 5xx: tenta outro modelo / de novo
       }
       const text = (j.candidates?.[0]?.content?.parts || []).map(p => p.text || '').join('');
       if (!text) { lastErr = new Error('resposta vazia'); continue; }
       if (!opts.json) return text.trim();
       try { return JSON.parse(text); } catch(e) {
-        const m = text.match(/\{[\s\S]*\}|\[[\s\S]*\]/); if (m) return JSON.parse(m[0]);
+        const m = text.match(/\{[\s\S]*\}|\[[\s\S]*\]/); if (m) { try { return JSON.parse(m[0]); } catch(e2){} }
         lastErr = new Error('JSON inválido'); continue;
       }
-    } catch(e) { clearTimeout(to); lastErr = e; if (e.name === 'AbortError') lastErr = new Error('tempo esgotado'); if (!navigator.onLine) break; }
+    } catch(e) { clearTimeout(to); lastErr = e; if (e.name === 'AbortError') lastErr = new Error('tempo esgotado'); }
   }
   const err = lastErr || new Error('falha');
+  const code = err.status ? 'HTTP ' + err.status : String(err.message || '').slice(0, 40);
   err.friendly = !navigator.onLine ? 'Sem internet: esta parte usa IA e precisa de conexão.'
-    : err.status === 429 ? 'A IA está muito requisitada agora. Tente de novo em um minuto.'
-    : 'Não consegui falar com a IA agora. Tente de novo em instantes.';
+    : err.status === 429 ? 'A IA está muito requisitada agora. Tente de novo em um minuto. (' + code + ')'
+    : 'Não consegui falar com a IA agora. Tente de novo em instantes. (' + code + ')';
+  console.warn('F.ai falhou', err);
   throw err;
 };
 
