@@ -497,7 +497,7 @@ function open(body, ctx){
     if (box) { box.querySelectorAll('button').forEach(b => b.disabled = true); box.classList.add('hidden'); }
     const g = val == null ? { verdict:'skip', score:0, ops: G.tokenize(q.tgt, lang).map((t, ti) => ({ k:'miss', tg:t, ti })), notes:[], errors:1 }
       : G.grade(val, q.tgt, { lang, speech: !!spoken, known });
-    q.g = g; q.verdict = g.verdict; q.ai = null;
+    q.g = g; q.verdict = g.verdict; q.ai = null; q.aiFail = null;
     const wantAI = val != null && (q.mode === 'tr' || q.mode === 'speak') && (g.verdict === 'almost' || g.verdict === 'wrong') && F.aiAvailable();
     if (wantAI) {
       phase = 'answered';
@@ -509,7 +509,7 @@ function open(body, ctx){
           q.ai = r;
           if (r.aceitavel === true) q.verdict = 'alt';
         }
-      } catch(e) { if (my !== token) return; /* sem IA: fica o veredito local */ }
+      } catch(e) { if (my !== token) return; q.aiFail = e.friendly || 'A IA não respondeu agora.'; /* fica o veredito local, com aviso e opção de perguntar de novo */ }
     }
     if (my !== token) return;
     record(q);
@@ -526,7 +526,7 @@ Resposta do aluno: "${q.attempt}"
 A resposta do aluno é uma tradução aceitável da frase original em ${F.tgtName} correto?
 JSON exatamente assim: {"aceitavel": true/false, "nota": 0-100, "erros": [{"trecho": "parte da resposta do aluno", "correcao": "como deveria ser", "explicacao": "curta em ${F.explainLang}"}], "versao_corrigida": "a resposta do aluno corrigida com o mínimo de mudanças"}
 Se for aceitável, "erros" traz só detalhes menores (ou []).`;
-    const r = await F.ai(prompt, { system: sys, json:true, temperature:0.2, maxTokens:700, timeout:20000 });
+    const r = await F.ai(prompt, { system: sys, json:true, temperature:0.2, maxTokens:700, timeout:20000, thinking:'low' });
     if (!r || typeof r.aceitavel !== 'boolean') throw new Error('resposta inesperada');
     r.erros = Array.isArray(r.erros) ? r.erros.filter(e => e && (e.trecho || e.correcao || e.explicacao)).slice(0, 5) : [];
     return r;
@@ -613,6 +613,9 @@ Se for aceitável, "erros" traz só detalhes menores (ou []).`;
         // nada
       }
       blocks.push(`<div class="blk"><h4>${v === 'alt' ? 'Outra forma' : 'Frase certa'}</h4><div class="sentence-right"><button class="tool" id="sentence-say" aria-label="Ouvir">${ISPK}</button><div class="txt2 ${v === 'alt' ? 'alt' : ''}" lang="${F.esc(lang)}">${F.clickable(q.tgt)}</div></div><div class="sentence-tr">${F.esc(q.src)}</div></div>`);
+      if (!q.ai && (v === 'almost' || v === 'wrong') && (q.mode === 'tr' || q.mode === 'speak') && q.attempt) {
+        blocks.push(`<div class="blk"><div class="sentence-ai"><div class="ttl">🤔 Sua frase pode estar certa também</div><div class="small">${q.aiFail ? F.esc(q.aiFail) + ' ' : ''}A correção automática compara com uma frase de referência; sinônimos (como <i>coche</i>/<i>auto</i>) e outras formas de dizer podem estar corretos.</div><button class="tool primary" id="sentence-recheck" style="margin-top:8px">Perguntar à IA se vale</button></div></div>`);
+      }
       if (q.ai) {
         const a = q.ai; const errs = a.erros || [];
         const corr = a.versao_corrigida && G.fold(String(a.versao_corrigida).toLowerCase()).replace(/[^\p{L}\p{N}]/gu, '') !== G.fold(q.attempt.toLowerCase()).replace(/[^\p{L}\p{N}]/gu, '') ? a.versao_corrigida : '';
@@ -625,6 +628,21 @@ Se for aceitável, "erros" traz só detalhes menores (ou []).`;
       <button class="btn btn-primary wide sentence-next" id="sentence-next" style="margin-top:14px">${waiting ? 'Pular verificação' : R.i + 1 >= R.queue.length ? 'Ver resultado' : 'Continuar'}</button>`;
     const card = body.querySelector('#sentence-card'); if (card && !waiting) { card.classList.remove('v-ok', 'v-bad'); if (V.cls === 'ok' || V.cls === 'bad') card.classList.add(V.cls === 'ok' ? 'v-ok' : 'v-bad'); }
     const sayB = after.querySelector('#sentence-say'); if (sayB) sayB.onclick = () => F.say(q.tgt);
+    const rc = after.querySelector('#sentence-recheck');
+    if (rc) rc.onclick = async () => {
+      rc.disabled = true; rc.textContent = 'Conferindo…';
+      try {
+        const r = await askAI(q); q.ai = r; q.aiFail = null;
+        if (r.aceitavel === true && q.verdict !== 'alt') {
+          const before = q.pts || 0; q.verdict = 'alt'; const pts = PTS.alt || 0;
+          if (pts > before) { F.addPoints(pts - before); R.pts += pts - before; q.pts = pts; }
+          // tira a repetição agendada no fim da rodada
+          for (let k = R.queue.length - 1; k > R.i; k--) if (R.queue[k].retry && R.queue[k].idx === q.idx) R.queue.splice(k, 1);
+          if (q.it.retry) { const first = R.results.find(x => x.idx === q.idx); if (first) first.retryVerdict = 'alt'; }
+        }
+        showAfter(q, false);
+      } catch(e) { q.aiFail = e.friendly || 'A IA não respondeu agora.'; rc.disabled = false; rc.textContent = 'Tentar de novo'; F.toast(q.aiFail); }
+    };
     const res = after.querySelector('.txt2'); if (res) F.bindLookup(res, () => q.tgt);
     after.querySelector('#sentence-next').onclick = () => {
       if (waiting) { token++; record(q); phase = 'answered'; showAfter(q, false); return; }

@@ -79,6 +79,8 @@ F.ai = async function(input, opts = {}){
   const contents = typeof input === 'string' ? [{ role:'user', parts:[{ text:input }] }]
     : input.map(m => ({ role: m.role === 'model' || m.role === 'assistant' || m.role === 'bot' ? 'model' : 'user', parts:[{ text:String(m.text ?? m.content ?? '') }] }));
   const body = { contents, generationConfig:{ temperature: opts.temperature ?? 0.7, maxOutputTokens: opts.maxTokens ?? 2048 } };
+  // raciocínio curto: 'minimal' responde em < 1 s; use opts.thinking:'low' para correções mais cuidadosas
+  body.generationConfig.thinkingConfig = { thinkingLevel: opts.thinking || 'minimal' };
   if (opts.system) body.systemInstruction = { parts:[{ text:opts.system }] };
   if (opts.json) { body.generationConfig.responseMimeType = 'application/json'; if (opts.schema) body.generationConfig.responseSchema = opts.schema; }
   const headers = { 'Content-Type':'application/json', 'x-goog-api-key':AI_KEY };
@@ -95,6 +97,7 @@ F.ai = async function(input, opts = {}){
       const j = await r.json().catch(() => ({}));
       if (!r.ok) {
         lastErr = new Error((j.error && j.error.message) || ('HTTP ' + r.status)); lastErr.status = r.status;
+        if (r.status === 400 && body.generationConfig.thinkingConfig) { delete body.generationConfig.thinkingConfig; continue; }
         if (r.status === 429 || r.status === 404 || r.status >= 500) { if (aiModelIdx < AI_MODELS.length - 1) { aiModelIdx++; continue; } if (r.status === 429) { await new Promise(res => setTimeout(res, 2500)); continue; } }
         break;
       }
