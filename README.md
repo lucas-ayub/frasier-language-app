@@ -10,6 +10,7 @@
 <p align="center">
   <a href="https://lucas-ayub.github.io/frasier-language-app/"><b>▶ Open the app</b></a>
   &nbsp;·&nbsp; <a href="#-where-it-runs-and-how-to-install">Where it runs</a>
+  &nbsp;·&nbsp; <a href="#-full-daily-study-new-in-30">Daily study</a>
   &nbsp;·&nbsp; <a href="#-courses">Courses</a>
   &nbsp;·&nbsp; <a href="#-tracks">Tracks</a>
   &nbsp;·&nbsp; <a href="#-visual-identity">Visual identity</a>
@@ -50,6 +51,46 @@
 </table>
 
 <sub>Video versions (MP4): <a href="docs/readme/demo-round.mp4">round</a> · <a href="docs/readme/demo-typing.mp4">typing</a> · <a href="docs/readme/demo-tracks.mp4">tracks</a></sub>
+
+## 🎓 Full daily study (new in 3.0)
+
+Beyond the cloze game, Frasier now has a complete **30–40 min/day routine** — like having a tutor:
+
+<table>
+  <tr>
+    <td width="25%"><img src="docs/readme/shot-x-plan.png" alt="Daily plan" width="100%"></td>
+    <td width="25%"><img src="docs/readme/shot-x-talk.png" alt="Voice conversation with corrections" width="100%"></td>
+    <td width="25%"><img src="docs/readme/shot-x-journal.png" alt="Journal entry evaluated by AI" width="100%"></td>
+    <td width="25%"><img src="docs/readme/shot-x-read.png" alt="Graded reading with tap-to-translate" width="100%"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>🗓️ Daily plan</sub></td>
+    <td align="center"><sub>💬 Conversation</sub></td>
+    <td align="center"><sub>📓 Journal</sub></td>
+    <td align="center"><sub>📖 Reading</sub></td>
+  </tr>
+  <tr>
+    <td width="25%"><img src="docs/readme/shot-x-sentence.png" alt="Whole-sentence exercise with tolerant checking" width="100%"></td>
+    <td width="25%"><img src="docs/readme/shot-x-talkfb.png" alt="Conversation feedback" width="100%"></td>
+    <td width="25%"><img src="docs/readme/shot-x-words.png" alt="Saved words flashcards" width="100%"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>✍️ Whole sentence</sub></td>
+    <td align="center"><sub>Conversation feedback</sub></td>
+    <td align="center"><sub>🗂️ My words</sub></td>
+    <td></td>
+  </tr>
+</table>
+
+- **🗓️ Daily plan** — a guided session: warm-up sentences → whole sentence → reading → conversation → journal (plus saved words when due). Choose your **CEFR level (A1–C1)** and the size (**Light ~20 min · Full ~35 · Intense ~50**); a weekly chart shows your minutes.
+- **✍️ Whole sentence** — write the **entire** sentence: *Translate*, *Dictation* (listen and write) or *Speak*. Checking is **tolerant, Duolingo-style**: typos, accents, punctuation and capitalization are pointed out but don't fail you, and the AI accepts **other correct translations**. Word-by-word diff; missed sentences come back at the end of the round.
+- **💬 Conversation** — 17 role-play scenarios (café, doctor, hotel, job interview, free chat, “the tutor asks about you”…), each with a mission. **Hands-free voice mode**: the bot speaks, the mic opens, you answer. Gentle corrections under each message, 💡 hints, “I didn't understand”, hide the bot's text to train listening, and a final report (score, strengths, mistakes, vocabulary).
+- **📓 Journal** — a daily question at your level (“how was your day?”, plans, opinions…). Write or dictate; get a score, every mistake highlighted and explained, the corrected text, **how a native would say it**, vocabulary and a follow-up question. History with a progress chart.
+- **📖 Reading** — **stories written at your level** with comprehension quizzes, **today's real headlines** and **Wikipedia articles** in the target language (with “adapt to my level”). Tap any word for its translation in context, listen paragraph by paragraph, translate a paragraph.
+- **🗂️ My words** — every word you save (tap a word anywhere) goes into a spaced-repetition deck with flashcards and a writing mode.
+
+**AI:** Google **Gemini** through Firebase AI Logic (free tier), protected by **App Check + reCAPTCHA** so only Frasier can use the project's quota. AI activities need internet; the sentence game keeps working offline. Speech uses the browser's own recognition and voices (works on iPhone Safari, Chrome and Edge; not Firefox).
 
 ## ✨ Features
 
@@ -189,6 +230,7 @@ The look is called **“Arcade of sentences”** (*Fliperama de frases*): chunky
   - `build_courses.py` — downloads the Tatoeba exports, scores quality (native speaker, audio, community tags and negative reviews, length ratio), orders by word frequency and builds the courses. Runs in a GitHub Actions workflow triggered by `tools/rebuild.txt`.
   - `apply_reviews.py` — applies the reviews in `tools/reviews/<pair>.json` (fixed translations and removed sentences, keyed by Tatoeba id).
   - `build_tracks.py` — builds the tracks from the rules in `tools/tracks/<language>.json` (one regex per topic with the word to hide and the options).
+- **Study activities** in `ext/` (`core.js` shared API + one file per activity: `m-plan.js`, `m-sentence.js`, `m-talk.js`, `m-journal.js`, `m-read.js`; contract in `ext/CONTRACT.md`).
 - **Accounts and sync:** Firebase Authentication (email and password) and Firestore, with rules that only let each user read and write their own data.
 
 **Run locally:** serve the folder with any static server, e.g. `python3 -m http.server`, and open `http://localhost:8000`.

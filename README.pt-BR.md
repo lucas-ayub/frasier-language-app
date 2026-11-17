@@ -10,6 +10,7 @@
 <p align="center">
   <a href="https://lucas-ayub.github.io/frasier-language-app/"><b>▶ Abrir o app</b></a>
   &nbsp;·&nbsp; <a href="#-onde-funciona-e-como-instalar">Onde funciona</a>
+  &nbsp;·&nbsp; <a href="#-estudo-completo-do-dia-novo-na-30">Estudo do dia</a>
   &nbsp;·&nbsp; <a href="#-cursos">Cursos</a>
   &nbsp;·&nbsp; <a href="#-trilhas">Trilhas</a>
   &nbsp;·&nbsp; <a href="#-identidade-visual">Identidade visual</a>
@@ -48,6 +49,46 @@ O **Frasier** é um app gratuito no estilo do Clozemaster. Você aprende um idio
 </table>
 
 <sub>Versões em vídeo (MP4): <a href="docs/readme/demo-round.mp4">rodada</a> · <a href="docs/readme/demo-typing.mp4">digitação</a> · <a href="docs/readme/demo-tracks.mp4">trilhas</a></sub>
+
+## 🎓 Estudo completo do dia (novo na 3.0)
+
+Além do jogo de lacunas, o Frasier agora tem uma **rotina completa de 30–40 min por dia** — como ter um tutor:
+
+<table>
+  <tr>
+    <td width="25%"><img src="docs/readme/shot-x-plan.png" alt="Plano do dia" width="100%"></td>
+    <td width="25%"><img src="docs/readme/shot-x-talk.png" alt="Conversa por voz com correções" width="100%"></td>
+    <td width="25%"><img src="docs/readme/shot-x-journal.png" alt="Diário avaliado pela IA" width="100%"></td>
+    <td width="25%"><img src="docs/readme/shot-x-read.png" alt="Leitura no seu nível com tradução ao tocar" width="100%"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>🗓️ Plano do dia</sub></td>
+    <td align="center"><sub>💬 Conversa</sub></td>
+    <td align="center"><sub>📓 Diário</sub></td>
+    <td align="center"><sub>📖 Leitura</sub></td>
+  </tr>
+  <tr>
+    <td width="25%"><img src="docs/readme/shot-x-sentence.png" alt="Frase inteira com correção tolerante" width="100%"></td>
+    <td width="25%"><img src="docs/readme/shot-x-talkfb.png" alt="Avaliação da conversa" width="100%"></td>
+    <td width="25%"><img src="docs/readme/shot-x-words.png" alt="Cartões de Minhas palavras" width="100%"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>✍️ Frase inteira</sub></td>
+    <td align="center"><sub>Avaliação da conversa</sub></td>
+    <td align="center"><sub>🗂️ Minhas palavras</sub></td>
+    <td></td>
+  </tr>
+</table>
+
+- **🗓️ Plano do dia** — sessão guiada: aquecimento de frases → frase inteira → leitura → conversa → diário (e as palavras salvas, quando houver revisão). Escolha seu **nível (A1–C1)** e o tamanho (**Leve ~20 min · Completo ~35 · Intenso ~50**); um gráfico mostra seus minutos na semana.
+- **✍️ Frase inteira** — escreva a frase **toda**: *Traduzir*, *Ditado* (ouvir e escrever) ou *Falar*. A correção é **tolerante, como no Duolingo**: digitação, acento, pontuação e maiúscula são apontados mas não reprovam, e a IA aceita **outras traduções corretas**. Erros palavra por palavra; as erradas voltam no fim da rodada.
+- **💬 Conversa** — 17 situações (café, médico, hotel, entrevista de emprego, papo livre, “o tutor pergunta sobre você”…), cada uma com uma missão. **Modo voz mãos-livres**: o bot fala, o microfone abre e você responde. Correções gentis em cada mensagem, 💡 sugestões, “Não entendi”, esconder o texto do bot para treinar o ouvido e uma avaliação final (nota, pontos fortes, erros, vocabulário).
+- **📓 Diário** — uma pergunta por dia no seu nível (“como foi seu dia?”, planos, opiniões…). Escreva ou dite e receba nota, cada erro marcado e explicado, o texto corrigido, **como um nativo diria**, vocabulário e uma pergunta para continuar. Histórico com gráfico da evolução.
+- **📖 Leitura** — **histórias escritas no seu nível** com perguntas de compreensão, **manchetes reais de hoje** e **artigos da Wikipédia** no idioma (com “adaptar ao meu nível”). Toque em qualquer palavra para ver a tradução no contexto, ouça parágrafo por parágrafo, traduza um parágrafo.
+- **🗂️ Minhas palavras** — toda palavra que você salva (tocando nela em qualquer lugar) vai para um baralho com revisão espaçada, cartões e modo de escrever.
+
+**IA:** **Gemini** do Google pelo Firebase AI Logic (plano gratuito), protegido por **App Check + reCAPTCHA** para que só o Frasier use a cota do projeto. As atividades com IA precisam de internet; o jogo de frases continua funcionando offline. A voz usa o reconhecimento e as vozes do próprio navegador (funciona no Safari do iPhone, Chrome e Edge; não no Firefox).
 
 ## ✨ Recursos
 
@@ -187,6 +228,7 @@ O visual se chama **“Fliperama de frases”**: botões grossos com sombra sól
   - `build_courses.py` — baixa os exports do Tatoeba, pontua a qualidade (falante nativo, áudio, tags e avaliações negativas da comunidade, proporção de tamanho), ordena pela frequência da palavra e gera os cursos. Roda num workflow do GitHub Actions disparado por `tools/rebuild.txt`.
   - `apply_reviews.py` — aplica as revisões de `tools/reviews/<par>.json` (traduções corrigidas e frases removidas, guardadas pelo id do Tatoeba).
   - `build_tracks.py` — gera as trilhas a partir das regras de `tools/tracks/<idioma>.json` (um regex por tema com a palavra a esconder e as alternativas).
+- **Atividades de estudo** em `ext/` (`core.js` com a API comum + um arquivo por atividade: `m-plan.js`, `m-sentence.js`, `m-talk.js`, `m-journal.js`, `m-read.js`; contrato em `ext/CONTRACT.md`).
 - **Contas e sincronização:** Firebase Authentication (e-mail e senha) e Firestore, com regras que só deixam cada usuário ler e escrever os próprios dados.
 
 **Rodar localmente:** sirva a pasta com qualquer servidor estático, por exemplo `python3 -m http.server`, e abra `http://localhost:8000`.
