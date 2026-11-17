@@ -68,7 +68,7 @@ F.vocab = {
 /* ---------- IA (Gemini via Firebase AI Logic, plano gratuito) ---------- */
 const AI_URL = m => `https://firebasevertexai.googleapis.com/v1beta/projects/frasier-language-app/models/${m}:generateContent`;
 const AI_KEY = 'AIzaSyCVNu0TiymMNR1dgtnyxZxJGAa76Y5OCSY'; // chave web pública do Firebase (não é segredo)
-const AI_MODELS = ['gemini-flash-latest', 'gemini-flash-lite-latest', 'gemini-3.8-flash'];
+const AI_MODELS = ['gemini-flash-lite-latest', 'gemini-flash-latest']; // a cota grátis do projeto cobre o flash-lite (rápido: < 1 s)
 let aiModelIdx = 0;
 F.aiAvailable = () => navigator.onLine !== false;
 /* F.ai(input, opts)
@@ -82,16 +82,14 @@ F.ai = async function(input, opts = {}){
   const body = { contents, generationConfig:{ temperature: opts.temperature ?? 0.7, maxOutputTokens: opts.maxTokens ?? 2048 } };
   if (opts.system) body.systemInstruction = { parts:[{ text:opts.system }] };
   if (opts.json) { body.generationConfig.responseMimeType = 'application/json'; if (opts.schema) body.generationConfig.responseSchema = opts.schema; }
-  // modelos "pensantes": raciocínio baixo para responder rápido
-  body.generationConfig.thinkingConfig = { thinkingLevel: 'low' };
   const headers = { 'Content-Type':'application/json', 'x-goog-api-key':AI_KEY };
   try { const u = window.firebase && firebase.auth && firebase.auth().currentUser; if (u) headers['X-Firebase-Auth'] = await u.getIdToken(); } catch(e){}
   try { if (window.firebase && firebase.appCheck) { const t = await Promise.race([firebase.appCheck().getToken(), new Promise((_, rej) => setTimeout(() => rej(new Error('appcheck timeout')), 8000))]); if (t && t.token) headers['X-Firebase-AppCheck'] = t.token; } } catch(e){ console.warn('appcheck token', e); }
   let lastErr;
   for (let attempt = 0; attempt < AI_MODELS.length + 1; attempt++) {
     const model = AI_MODELS[Math.min(aiModelIdx, AI_MODELS.length - 1)];
-    const b = JSON.parse(JSON.stringify(body)); if (/lite/.test(model)) delete b.generationConfig.thinkingConfig;
-    const ctl = new AbortController(); const to = setTimeout(() => ctl.abort(), opts.timeout || 45000);
+    const b = body;
+    const ctl = new AbortController(); const to = setTimeout(() => ctl.abort(), opts.timeout || 30000);
     try {
       const r = await fetch(AI_URL(model), { method:'POST', headers, body:JSON.stringify(b), signal:ctl.signal });
       clearTimeout(to);
