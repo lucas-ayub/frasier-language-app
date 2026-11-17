@@ -89,7 +89,7 @@ F.ai = async function(input, opts = {}){
   await appCheck(false);
   // até 6 tentativas alternando modelos, com espera crescente (erros 503/429/timeout costumam passar em segundos)
   const plan = [0, 1, 0, 1, 0, 1], waits = [0, 300, 1200, 2500, 4000, 6000];
-  let lastErr, refreshed = false, noThink = false;
+  let lastErr, refreshed = false, noThink = false, netFail = false;
   for (let attempt = 0; attempt < plan.length; attempt++) {
     if (waits[attempt]) await new Promise(res => setTimeout(res, waits[attempt]));
     if (!navigator.onLine) break;
@@ -97,7 +97,9 @@ F.ai = async function(input, opts = {}){
     const b = JSON.parse(JSON.stringify(body)); if (noThink) delete b.generationConfig.thinkingConfig;
     const ctl = new AbortController(); const to = setTimeout(() => ctl.abort(), opts.timeout || 25000);
     try {
-      const r = await fetch(AI_URL(model), { method:'POST', headers, body:JSON.stringify(b), signal:ctl.signal });
+      // se a rede/CORS falhou antes (TypeError), tenta com a chave na URL e menos cabeçalhos
+      const h2 = netFail ? Object.fromEntries(Object.entries(headers).filter(([k]) => k !== 'x-goog-api-key')) : headers;
+      const r = await fetch(AI_URL(model) + (netFail ? '?key=' + AI_KEY : ''), { method:'POST', headers:h2, body:JSON.stringify(b), signal:ctl.signal, credentials:'omit', mode:'cors' });
       clearTimeout(to);
       const j = await r.json().catch(() => ({}));
       if (!r.ok) {
@@ -114,13 +116,13 @@ F.ai = async function(input, opts = {}){
         const m = text.match(/\{[\s\S]*\}|\[[\s\S]*\]/); if (m) { try { return JSON.parse(m[0]); } catch(e2){} }
         lastErr = new Error('JSON inválido'); continue;
       }
-    } catch(e) { clearTimeout(to); lastErr = e; if (e.name === 'AbortError') lastErr = new Error('tempo esgotado'); }
+    } catch(e) { clearTimeout(to); lastErr = e; if (e.name === 'AbortError') lastErr = new Error('tempo esgotado'); else netFail = !netFail; }
   }
   const err = lastErr || new Error('falha');
-  const code = err.status ? 'HTTP ' + err.status : String(err.message || '').slice(0, 40);
+  const code = err.status ? 'HTTP ' + err.status : String(err.message || '').slice(0, 40); const ver = 'v' + String(typeof APP_VERSION !== 'undefined' ? APP_VERSION : '').split(' ')[0];
   err.friendly = !navigator.onLine ? 'Sem internet: esta parte usa IA e precisa de conexão.'
     : err.status === 429 ? 'A IA está muito requisitada agora. Tente de novo em um minuto. (' + code + ')'
-    : 'Não consegui falar com a IA agora. Tente de novo em instantes. (' + code + ')';
+    : 'Não consegui falar com a IA agora. Tente de novo em instantes. (' + code + ' · ' + ver + ')';
   console.warn('F.ai falhou', err);
   throw err;
 };

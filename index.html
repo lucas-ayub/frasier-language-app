@@ -579,7 +579,7 @@ const KEY = 'frasier-' + PAIR + '-v1';
 COURSE.path = 'data/' + PAIR + '/';
 try { if (LEGACY && !localStorage.getItem(KEY) && localStorage.getItem('frasier-' + LEGACY + '-v1')) localStorage.setItem(KEY, localStorage.getItem('frasier-' + LEGACY + '-v1')); } catch(e){}
 
-const APP_VERSION = '3.3 · 17 nov 2026';
+const APP_VERSION = '3.4 · 17 nov 2026';
 const IN_ARTIFACT = !!(window.claude && window.claude.use) || window.self !== window.top;
 const STANDALONE = (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
 

@@ -1,4 +1,4 @@
-const VERSION = 'frasier-v20';
+const VERSION = 'frasier-v21';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icons/apple-touch-icon.png', 'icons/icon-192.png', 'icons/icon-512.png', 'vendor/firebase-app-compat.js', 'vendor/firebase-auth-compat.js', 'vendor/firebase-firestore-compat.js', 'vendor/firebase-app-check-compat.js', 'ext/core.js', 'ext/m-plan.js', 'ext/m-sentence.js', 'ext/m-talk.js', 'ext/m-journal.js', 'ext/m-read.js'];
 const DATA = 'frasier-data-v2';
 
